@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>动态的d3</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    var _w = 600;
+    var _h = 600;
+
+
+    var _lists = [];
+    var _num = 15;
+
+    for (var i = 0; i < _num; i++) {
+        var _t = Math.floor(Math.random() * 50);
+        _lists.push(_t);
+    }
+
+    var svg = d3.select('body').append('svg').attr("width", _w).attr("height", _h);
+
+    var xAxisScale = d3.scale.ordinal().domain(d3.range(_lists.length)).rangeRoundBands([0, 500]);
+    var yAxisScale = d3.scale.linear().domain([0, d3.max(_lists)]).range([500, 0]);
+    var xAxis = d3.svg.axis().scale(xAxisScale).orient('bottom');
+    var yAxis = d3.svg.axis().scale(yAxisScale).orient('left');
+    var xScale = d3.scale.ordinal().domain(d3.range(_lists.length)).rangeRoundBands([0, 500], 0.05);
+    var yScale = d3.scale.linear().domain([0, d3.max(_lists)]).range([0, 500]);
+
+    svg.selectAll('rect').data(_lists).enter()
+            .append('rect')
+            .attr('y', function (d, i) {
+                return 50 + 500;
+            })
+            .attr('height', 0)
+            .attr('fill', 'red')
+            .transition()/*启动转变效果*/
+            .duration(2000)/*持续2000毫秒*/
+            .ease('elastic')/*转变的方式(elastic  bounce  circle  linear  )*/
+            .delay(function (d, i) { /*延迟的时间，表示一定时间后才开始转变*/
+                return 200 * i;
+            })
+            .attr('x', function (d, i) {
+                return 30 + xScale(i);
+            })
+            .attr('y', function (d, i) {
+                return 50 + 500 - yScale(d);
+            })
+            .attr('width', function (d, i) {
+                return xScale.rangeBand();
+            })
+            .attr('height', yScale)
+            .attr('fill', 'steelblue');
+
+    svg.selectAll('text')
+            .data(_lists)
+            .enter()
+            .append('text')
+            .attr('x', function (d, i) {
+                return 30 + xScale(i)
+            })
+            .attr('y', function (d, i) {
+                return 60 + 500 - yScale(d)
+            })
+            .attr('dx', function (d, i) {
+                return xScale.rangeBand() / 3.4
+            })
+            .attr('dy', 15)
+            .attr('text-anchor', 'begin')
+            .attr('font-size', 12)
+            .attr('fill', "white")
+            .text(function (d, i) {
+                return d
+            })
+
+    svg.append('g')
+            .attr('class', 'axis')
+            .attr('transform', 'translate(30,550)')
+            .call(xAxis);
+
+    svg.append('g')
+            .attr('class', 'axis')
+            .attr('transform', 'translate(30,50)')
+            .call(yAxis);
+
+</script>
+</html>

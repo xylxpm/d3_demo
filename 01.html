@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>d3</title>
+    <title>基本的d3</title>
     <script src="./js/d3.v3.min.js" charset="utf-8"></script>
     <style>
         .axis path,
@@ -73,11 +73,11 @@
             return 50 + 500 - yScale(d)
         })
         .attr('dx',function (d,i) {
-            return xScale.rangeBand()/3.5
+            return xScale.rangeBand()/3.4
         })
         .attr('dy',15)
         .attr('text-anchor','begin')
-        .attr('font-size',14)
+        .attr('font-size',12)
         .attr('fill',"white")
         .text(function (d,i) {
             return d
