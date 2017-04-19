@@ -24,7 +24,33 @@
 </div>
 </body>
 <script>
+    var _w = 600, _h=600;
+    var dataset = [ 30 , 10 , 43 , 55 , 13,30 , 10 , 43 , 55 , 13 ];
 
+    var svg = d3.select('body').append('svg').attr('width',_w).attr('height',_h);
 
+    var pie = d3.layout.pie();
+    var outerRadius = _w/2;
+    var innerRadius = _w/4;
+    var arc = d3.svg.arc()
+            .innerRadius(innerRadius)
+            .outerRadius(outerRadius);
+
+    var _color = d3.scale.category20();
+
+    var arcs = svg.selectAll('g').data(pie(dataset)).enter().append('g')
+            .attr('transform','translate('+outerRadius+','+outerRadius+')');
+
+    arcs.append('path').attr('fill',function(d,i){
+        return _color(i)
+    }).attr('d',function(d){
+        return arc(d)
+    })
+
+    arcs.append('text').attr('transform',function(d){
+        return 'translate('+arc.centroid(d)+')'
+    }).attr('text-anchor','middle').text(function(d){
+        return d.value
+    })
 </script>
 </html>
