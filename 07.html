@@ -5,6 +5,14 @@
     <title>d3-常见布局-弦图</title>
     <script src="./js/d3.v3.min.js" charset="utf-8"></script>
 </head>
+<style>
+    .chord path {
+        fill-opacity: 0.67;
+        stroke: #000;
+        stroke-width: 0.5px;
+    }
+
+</style>
 <body>
 <div>
     api：https://github.com/d3/d3-3.x-api-reference/blob/master/Layouts.md
@@ -26,31 +34,72 @@
             .sortSubgroups(d3.descending)
             .matrix(population);
 
+
     var _w = 600, _h = 600;
-    var innerRadius = _w / 2 * 0.7, outerRadius = innerRadius * 1.1;
+    var innerRadius = _w/2 * 0.7;
+    var outerRadius = innerRadius * 1.1;
     var color20 = d3.scale.category20();
 
-    var svg = d3.select('body').append('svg').attr('width', _w).attr('height', _h).append('g')
-            .attr('transform', 'translate(' + _w / 2 + ',' + _h / 2 + ')');
+    var svg = d3.select("body").append("svg")
+            .attr("width", _w)
+            .attr("height", _h)
+            .append("g")
+            .attr("transform", "translate(" + _w/2 + "," + _h/2 + ")");
 
-    var outer_arc = d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+    var outer_arc =  d3.svg.arc()
+            .innerRadius(innerRadius)
+            .outerRadius(outerRadius);
 
-    var g_outer = svg.append('g');
+    var g_outer = svg.append("g");
 
-    g_outer.selectAll('path').data(chord_layout.groups)
+    g_outer.selectAll("path")
+            .data(chord_layout.groups)
             .enter()
-            .append('path')
-            .style('fill',function(d){return color20(d.index)})
-            .style('stroke',function(d){return color20(d.index)})
-            .attr('d',outer_arc);
+            .append("path")
+            .style("fill", function(d) { return color20(d.index); })
+            .style("stroke", function(d) { return color20(d.index); })
+            .attr("d", outer_arc );
 
-    g_outer.selectAll('text').data(chord_layout.groups)
+    g_outer.selectAll("text")
+            .data(chord_layout.groups)
             .enter()
-            .append('text')
-            .each(function(d,i){
-                d.angle = (d.startAngle + d.endAngle)/2;
-                d.name = city_name[i]
+            .append("text")
+            .each( function(d,i) {
+                d.angle = (d.startAngle + d.endAngle) / 2;
+                d.name = city_name[i];
             })
+            .attr("dy",".35em")
+            .attr("transform", function(d){
+                return "rotate(" + ( d.angle * 180 / Math.PI ) + ")" +
+                        "translate(0,"+ -1.0*(outerRadius+10) +")" +
+                        ( ( d.angle > Math.PI*3/4 && d.angle < Math.PI*5/4 ) ? "rotate(180)" : "");
+            })
+            .text(function(d){
+                return d.name;
+            });
+
+    var inner_chord =  d3.svg.chord()
+            .radius(innerRadius);
+
+    svg.append("g")
+            .attr("class", "chord")
+            .selectAll("path")
+            .data(chord_layout.chords)
+            .enter()
+            .append("path")
+            .attr("d", inner_chord )
+            .style("fill", function(d) { return color20(d.source.index); })
+            .style("opacity", 1)
+            .on("mouseover",function(d,i){
+                d3.select(this)
+                        .style("fill","yellow");
+            })
+            .on("mouseout",function(d,i) {
+                d3.select(this)
+                        .transition()
+                        .duration(1000)
+                        .style("fill",color20(d.source.index));
+            });
 
 
 </script>
