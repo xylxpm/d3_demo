@@ -2,55 +2,55 @@
   "nodes": [
     {
       "name": "云天河",
-      "image": "../images/tianhe.png"
+      "image": "./images/tianhe.png"
     },
     {
       "name": "韩菱纱",
-      "image": "../images/lingsha.png"
+      "image": "./images/lingsha.png"
     },
     {
       "name": "柳梦璃",
-      "image": "../images/mengli.png"
+      "image": "./images/mengli.png"
     },
     {
       "name": "慕容紫英",
-      "image": "../images/ziying.png"
+      "image": "./images/ziying.png"
     },
     {
       "name": "云天青",
-      "image": "../images/tianqing.png"
+      "image": "./images/tianqing.png"
     },
     {
       "name": "夙玉",
-      "image": "../images/suyu.png"
+      "image": "./images/suyu.png"
     },
     {
       "name": "玄霄",
-      "image": "../images/xuanxiao.png"
+      "image": "./images/xuanxiao.png"
     },
     {
       "name": "夙瑶",
-      "image": "../images/suyao.png"
+      "image": "./images/suyao.png"
     },
     {
       "name": "太清",
-      "image": "../images/taiqing.png"
+      "image": "./images/taiqing.png"
     },
     {
       "name": "宗炼",
-      "image": "../images/zonglian.png"
+      "image": "./images/zonglian.png"
     },
     {
       "name": "婵幽",
-      "image": "../images/chanyou.png"
+      "image": "./images/chanyou.png"
     },
     {
       "name": "奚仲",
-      "image": "../images/xizhong.png"
+      "image": "./images/xizhong.png"
     },
     {
       "name": "归邪",
-      "image": "../images/guixie.png"
+      "image": "./images/guixie.png"
     }
   ],
   "edges": [
