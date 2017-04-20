@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>d3-集群图</title>
+    <title>d3-打包图</title>
     <script src="./js/d3.v3.min.js" charset="utf-8"></script>
     <style>
 
@@ -23,23 +23,24 @@
 </body>
 <script>
 
-    var width = 500, height = 500;
+    var width = 600, height = 600;
 
-    var cluster = d3.layout.cluster()
-            .size([width, height - 200]);
+    var tree = d3.layout.tree()
+            .size([width - 100, height - 100])
+
     var diagonal = d3.svg.diagonal().projection(function (d) {
-        return [d.y, d.x]
+        return [d.x, d.y]
     });
 
     var svg = d3.select("body").append("svg")
             .attr("width", width)
             .attr("height", height)
             .append("g")
-            .attr("transform", "translate(40,0)");
+            .attr("transform", "translate(40,20)");
 
     d3.json('./res/city2.json', function (error, root) {
-        var nodes = cluster.nodes(root);
-        var links = cluster.links(nodes);
+        var nodes = tree.nodes(root);
+        var links = tree.links(nodes);
 
         var link = svg.selectAll('.link')
                 .data(links)
@@ -54,32 +55,39 @@
                 .append("g")
                 .attr("class", "node")
                 .attr("transform", function (d) {
-                    return "translate(" + d.y + "," + d.x + ")";
+                    return "translate(" + d.x + "," + d.y + ")";
                 });
 
         node.append('circle')
                 .attr('r', 5)
-                .attr('fill','#b3e5fc')
-                .attr('stroke','steelblue')
-                .attr('stroke-width','1.5')
-                .on("mouseover",function(d,i){
-                    d3.select(this).attr('fill','#9ccc65');
+                .attr('fill', '#b3e5fc')
+                .attr('stroke', 'steelblue')
+                .attr('stroke-width', '1.5')
+                .on("mouseover", function (d, i) {
+                    d3.select(this).attr('fill', '#9ccc65');
                 })
-                .on("mouseout",function(d,i){
+                .on("mouseout", function (d, i) {
                     d3.select(this)
                             .transition()
                             .duration(500)
-                            .attr('fill','#b3e5fc');
+                            .attr('fill', '#b3e5fc');
                 });
 
 
-        node.append('text').attr('dx', function (d) {
-            return d.children ? -8 : 8;
-        }).attr('dy', 3).style('text-anchor', function (d) {
-            return d.children ? 'end' : 'start';
-        }).text(function (d) {
-            return d.name;
-        });
+        node.append('text')
+                .attr('dx', 0)
+                .attr('dy', 8)
+//                .attr('dx', function (d) {
+//                    return d.children ? -8 : 8;
+//                })
+//                .attr('dy', 3)
+                .style('writing-mode', 'tb')
+//                .style('writing-mode', function (d) {
+//                    return d.children ? 'lr ' : 'tb';
+//                })
+                .text(function (d) {
+                    return d.name;
+                });
 
 
     })
