@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-可以拖动的地图</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+</body>
+<script>
+
+    var width = 1000;
+    var height = 1000;
+
+    var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append('g')
+            .attr('transform', 'translate(0,0)');
+
+
+
+    d3.json('./res/china.min.json', function (error, root) {
+
+
+    })
+
+</script>
+</html>
