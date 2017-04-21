@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-人物关系图（可以固定定点）</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        .labeltext {
+            font-size: 16px;
+            font-family: SimSun;
+            fill: #000000;
+        }
+
+        .nodetext {
+            font-size: 12px;
+            font-family: SimSun;
+            fill: #000000;
+        }
+
+        .linetext {
+            font-size: 12px;
+            font-family: SimSun;
+            fill: #0000FF;
+            fill-opacity: 0.0;
+        }
+    </style>
+</head>
+<body>
+<div  class="article_content">
+    <p>力学图的布局中有很多参数，本文将逐个说明。</p>
+
+    <p>D3 中的力学图布局是使用<a target="_blank"
+                       href="http://zh.wikipedia.org/wiki/%E9%9F%A6%E5%B0%94%E8%8E%B1%E7%A7%AF%E5%88%86%E6%B3%95">韦尔莱积分法</a>计算的，这是一种用于求解牛顿运动方程的数值方法，被广泛应用于分子动力学模拟以及视频游戏中。定义布局的代码如下：
+    </p>
+
+
+    <pre code_snippet_id="527616" snippet_file_name="blog_20141121_1_28340" name="code" class="javascript"
+         style="display: none;">var force = d3.layout.force()</pre>
+    <p>即可，D3 中提供了 17 个函数用于设定其参数和事件，在所有布局中是最多的，下面将对其进行说明。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t0"></a>size()</h1>
+
+    <p>用于设定力学图的作用范围，使用方法为 force.size( [ x , y ] )，这个函数用于指定两件事：</p>
+    <ul>
+        <li>重力的重心位置为 ( x/2 , y/2 )</li>
+        <li>所有节点的<span style="color: #ff0000;">初始位置</span>限定为 [ 0 , x ] 和 [ 0 , y ] 之间（但并非之后也是如此）</li>
+    </ul>
+    <p>如果不指定，默认为 [ 1 , 1 ] 。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t1"></a>linkDistance()</h1>
+
+    <p>指定结点连接线的距离，默认为20。如果距离是一个常数，那么各连接线的长度总是固定的；如果是一个函数，那么这个函数是作用于各连接线（ source , target ）的。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t2"></a>linkStrength()</h1>
+
+    <p>指定连接线的坚硬度，值的范围为[ 0 , 1 ]，值越大越坚硬。其直观感受是：</p>
+    <ul>
+        <li>值为1，则拖动一个顶点A，与之相连的顶点会与A保持linkDistance设定的距离运动</li>
+        <li>值为0，则拖动一个顶点A，与之相连的顶点不会运动，连接线会被拉长</li>
+    </ul>
+    <div><br></div>
+    <h1 style="font-size: 30px;"><a name="t3"></a>friction()</h1>
+
+    <p>定义摩擦系数的函数，值的范围为[ 0 , 1 ]，默认为0.9。但是这个值其实并非物理意义上的摩擦，其实其意义更接近速度随时间产生的损耗，这个损耗是针对每一个顶点的。</p>
+    <ul>
+        <li>值为1，则没有速度的损耗。</li>
+        <li>值为0，则速度的损耗最大。</li>
+    </ul>
+    <div><br></div>
+    <h1 style="font-size: 30px;"><a name="t4"></a>charge()</h1>
+
+    <p>设定引力，是排斥还是吸引，默认值为-30。</p>
+    <ul>
+        <li>值为+，则相互吸引，绝对值越大吸引力越大。</li>
+        <li>值为-，则相互排斥，绝对值越大排斥力越大。</li>
+    </ul>
+    <div><br></div>
+    <h1 style="font-size: 30px;"><a name="t5"></a>chargeDistance()</h1>
+
+    <p></p>
+
+    <p>设定引力的作用距离，超过这个距离，则没有引力的作用。默认值为无穷大。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t6"></a>gravity()</h1>
+
+    <p>以 size 函数设定的中心产生重力，各顶点都会向中心运动，默认值为0.1。也可以设定为0，则没有重力的作用。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t7"></a>theta()</h1>
+
+    <p>顶点数如果过多，计算的时间就会加大（O(n log n)）。theta 就是为了限制这个计算而存在的，默认值为0.8。这个值越小，就能把计算限制得越紧。</p>
+
+    <p><br></p>
+
+    <h1 style="font-size: 30px;"><a name="t8"></a>alpha()</h1>
+
+    <p>设定动画运动的时间，超过时间后运动就会停止。其实</p>
+    <ul>
+        <li>force.start() 即 alpha(0.1)</li>
+        <li>force.stop() 即 alpha(0)</li>
+    </ul>
+    <div><br></div>
+
+
+
+</div>
+</body>
+<script>
+
+    var width = 600;
+    var height = 600;
+    var img_w = 77;
+    var img_h = 90;
+    var text_dx = -20;
+    var text_dy = 20;
+
+    var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+    d3.json('./res/relation.json', function (error, root) {
+        if (error) {
+            return console.log(error);
+        }
+
+
+        var force = d3.layout.force()
+                .nodes(root.nodes)
+                .links(root.edges)
+                .size([width, height])
+                .linkDistance(200)
+                .linkStrength(1)
+                .charge(-1500)
+                .start();
+
+        var label_text_1 = svg.append('text')
+                .attr('class', 'labeltext')
+                .attr('x', 10)
+                .attr('y', 20)
+                .text('运动状态：开始');
+
+        var label_text_2 = svg.append('text')
+                .attr('class', 'labeltext')
+                .attr('x', 10)
+                .attr('y', 60)
+                .text('拖拽状态：结束');
+
+        var edges_line = svg.selectAll('line')
+                .data(root.edges)
+                .enter()
+                .append('line')
+                .style('stroke', '#ccc')
+                .style('stroke-width', 1);
+
+        var edges_text = svg.selectAll('.linetext')
+                .data(root.edges)
+                .enter()
+                .append('text')
+                .attr('class', 'linetext')
+                .text(function (d) {
+                    return d.relation;
+                })
+
+        var drag = force.drag()
+                .on('dragstart', function (d, i) {
+                    d.fixed = true;
+                    label_text_2.text('拖拽状态：开始');
+                })
+                .on('dragend', function (d, i) {
+                    label_text_2.text('拖拽状态：结束');
+                })
+                .on('drag', function (d, i) {
+                    label_text_2.text('拖拽状态：进行中');
+                })
+
+        var nodes_img = svg.selectAll('image')
+                .data(root.nodes)
+                .enter()
+                .append('image')
+                .attr('width', img_w)
+                .attr('height', img_h)
+                .attr('xlink:href', function (d) {
+                    return d.image;
+                })
+                .on('mouseover', function (d, i) {
+                    edges_text.style('fill-opacity', function (edge) {
+                        if (edge.source === d || edge.target === d) {
+                            return 1.0
+                        }
+                    })
+                })
+                .on('mouseout', function (d, i) {
+                    edges_text.style('fill-opacity', function (edge) {
+                        if (edge.source === d || edge.target === d) {
+                            return 0.0
+                        }
+                    })
+                })
+                .on('dblclick', function (d) {
+                    d.fixed = false;
+                })
+                .call(force.drag);
+
+        var nodes_text = svg.selectAll('.nodetext')
+                .data(root.nodes)
+                .enter()
+                .append('text')
+                .attr('class', 'nodetext')
+                .attr('dx', text_dx)
+                .attr('dy', text_dy)
+                .text(function (d) {
+                    return d.name;
+                })
+
+        force.on('start', function () {
+            label_text_1.text('运动状态：开始');
+        });
+
+        force.on('end', function () {
+            label_text_1.text('运动状态：结束');
+        });
+
+        force.on('tick', function () {
+            label_text_1.text('运动状态：进行中');
+            //限制结点的边界
+            root.nodes.forEach(function (d, i) {
+                d.x = d.x - img_w / 2 < 0 ? img_w / 2 : d.x;
+                d.x = d.x + img_w / 2 > width ? width - img_w / 2 : d.x;
+                d.y = d.y - img_h / 2 < 0 ? img_h / 2 : d.y;
+                d.y = d.y + img_h / 2 + text_dy > height ? height - img_h / 2 - text_dy : d.y;
+            });
+
+            //更新连接线的位置
+            edges_line.attr('x1', function (d) {
+                return d.source.x;
+            })
+            edges_line.attr('y1', function (d) {
+                return d.source.y;
+            })
+            edges_line.attr('x2', function (d) {
+                return d.target.x;
+            })
+            edges_line.attr('y2', function (d) {
+                return d.target.y;
+            })
+
+            //更新连接线上文字的位置
+            edges_text.attr('x', function (d) {
+                return (d.source.x + d.target.x) / 2;
+            })
+            edges_text.attr('y', function (d) {
+                return (d.source.y + d.target.y) / 2;
+            })
+
+            //更新结点图片和文字
+            nodes_img.attr('x', function (d) {
+                return d.x - img_w / 2;
+            })
+            nodes_img.attr('y', function (d) {
+                return d.y - img_h / 2;
+            })
+
+            nodes_text.attr('x', function (d) {
+                return d.x
+            })
+            nodes_text.attr('y', function (d) {
+                return d.y + img_w / 2
+            })
+        });
+
+    })
+
+
+</script>
+</html>
