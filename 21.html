@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-数据绑定</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+<p>Fire</p>
+<p>Water</p>
+<p>Wind</p>
+
+<script>
+    //选择body中所有的p元素，选择集结果赋值给变量p
+    var p = d3.select("body").selectAll("p");
+
+    //绑定数值7到选择集上
+    p.datum(7);
+
+    //在控制台输出选择集
+    console.log(p);
+</script>
+</body>
+</html>

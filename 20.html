@@ -13,11 +13,67 @@
 
 </body>
 <script>
-    var width = 500, height = 500,dataset = [30 , 10 , 43 , 55 , 13];
+    var width = 500, height = 500, dataset = [30, 10, 43, 55, 13];
     var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
 
+    var pie = d3.layout.pie();
+
+    var outerRadius = width / 4;
+    var innerRadius = width / 8;
+
+    var arc = d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+
+    var color = d3.scale.category20b();
+
+    var drag = d3.behavior.drag().origin(function (d) {
+        return d;
+    }).on('drag', dragmove);
+
+    var gAll = svg.append('g').attr('transform', 'translate(' + outerRadius + ',' + outerRadius + ')');
+
+    var arcs = gAll.selectAll('g')
+            .data(pie(dataset))
+            .enter()
+            .append('g')
+            .each(function (d) {
+                d.dx = 0;
+                d.dy = 0;
+            })
+            .call(drag)
+//            .on('mouseover',function(d,i){
+//                d.dx += 30;
+//                d.dy += -30;
+//                d3.select(this).attr('transform', 'translate(' + d.dx + ',' + d.dy + ')')
+//            })
+//            .on('mouseout',function(d,i){
+//                d.dx += -30;
+//                d.dy += 30;
+//                d3.select(this).attr('transform', 'translate(' + d.dx + ',' + d.dy + ')')
+//            })
+
+    arcs.append('path')
+            .attr('fill', function (d, i) {
+                return color(i);
+            })
+            .attr('d', function (d) {
+                return arc(d);
+            });
+
+    arcs.append('text')
+            .attr('transform', function (d) {
+                return 'translate(' + arc.centroid(d) + ')';
+            })
+            .attr('text-anchor', 'middle')
+            .text(function (d) {
+                return d.value;
+            })
 
 
+    function dragmove(d) {
+        d.dx += d3.event.dx;
+        d.dy += d3.event.dy;
+        d3.select(this).attr('transform', 'translate(' + d.dx + ',' + d.dy + ')')
+    }
 
 </script>
 </html>
