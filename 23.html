@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-文字换行</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="./js/multext.js" charset="utf-8"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+</body>
+<script>
+    var width = 1200, height = 400;
+    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+    var str = "云中谁寄锦书来，雁字回时，月满西楼";
+
+    GetMulText(svg,str,30,100,100);
+
+//    var text = svg.append('text').attr('x',30).attr('y',100).attr('font-size',18);
+//
+//    var strs = str.split('，');
+//
+//    text.selectAll('tspan')
+//            .data(strs)
+//            .enter()
+//            .append('tspan')
+//            .attr('x',text.attr('x'))
+//            .attr('dy','1em')
+//            .text(function(d){
+//                return d
+//            });
+
+
+</script>
+</html>

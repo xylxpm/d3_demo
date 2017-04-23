@@ -10,8 +10,107 @@
 </head>
 
 <body>
+
+<button type="button" onclick="mysort()"> 排序</button>
+<button type="button" onclick="myadd()"> 增加数据</button>
+<button type="button" onclick="myremove()"> 减少数据</button>
+<br/>
 </body>
 <script>
+    var dataset = [50, 43, 120, 87, 99, 167, 142];
+    var width = 1200, height = 400;
+    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+    var padding = {top: 20, right: 20, bottom: 20, left: 20};
+    var rectStep = 35;
+    var rectWidth = 30;
+
+    function draw() {
+        //获取和处理矩形updata，enter，exit的部分
+        var updataRect = svg.selectAll('rect').data(dataset);
+        var enterRect = updataRect.enter();
+        var exitRect = updataRect.exit();
+        updataRect.attr('fill', '#ccc')
+                .attr('x', function (d, i) {
+                    return padding.left + i * rectStep;
+                })
+                .attr('y', function (d, i) {
+                    return height - padding.bottom - d;
+                })
+                .attr('width', rectWidth)
+                .attr('height', function (d, i) {
+                    return d;
+                });
+
+        enterRect.append('rect')
+                .attr('fill', '#ccc')
+                .attr('x', function (d, i) {
+                    return padding.left + i * rectStep;
+                })
+                .attr('y', function (d, i) {
+                    return height - padding.bottom - d;
+                })
+                .attr('width', rectWidth)
+                .attr('height', function (d, i) {
+                    return d;
+                });
+
+        exitRect.remove();
+
+        //获取和处理文字updata，enter，exit的部分
+        var updataText = svg.selectAll('text').data(dataset);
+        var enterText = updataText.enter();
+        var exitText = updataText.exit();
+
+        updataText.attr('fill', 'white')
+                .attr('font-size', 14)
+                .attr('text-anchor', 'middle')
+                .attr('x', function (d, i) {
+                    return padding.left + i * rectStep;
+                })
+                .attr('y', function (d, i) {
+                    return height - padding.bottom - d;
+                })
+                .attr('dx', rectWidth / 2)
+                .attr('dy', '1em')
+                .text(function (d) {
+                    return d;
+                })
+
+        enterText.append('text').attr('fill', 'white')
+                .attr('font-size', 14)
+                .attr('text-anchor', 'middle')
+                .attr('x', function (d, i) {
+                    return padding.left + i * rectStep;
+                })
+                .attr('y', function (d, i) {
+                    return height - padding.bottom - d;
+                })
+                .attr('dx', rectWidth / 2)
+                .attr('dy', '1em')
+                .text(function (d) {
+                    return d;
+                })
+
+        exitText.remove();
+    }
+    draw()
+
+    function mysort() {
+        dataset.sort(d3.ascending);
+        draw();
+    }
+
+    function myadd() {
+        dataset.push(Math.floor(Math.random() * 100))
+        draw();
+    }
+
+    function myremove(){
+        dataset.splice(1,1);
+        draw();
+    }
+
+
 
 </script>
 </html>
