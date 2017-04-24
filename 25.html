@@ -89,7 +89,7 @@
     var yScale = d3.scale.linear().domain([0, maxProfit]).range([0, yRangeWidth]);
 
     //颜色比例尺
-    var color = d3.scale.category20();
+    var color = d3.scale.category20c();
     var thiscolor;
 
     //添加分组元素
@@ -97,24 +97,21 @@
             .data(data)
             .enter()
             .append("g")
-            .attr('id',function(d){
+            .attr('id', function (d) {
                 return d.name
             })
             .style("fill", function (d, i) {
                 return color(i);
             })
             .on('mouseover', function (d) {
-                thiscolor =d3.select(this).style("fill");
-                d3.select(this).style("fill",'yellow');
-               // var cirid = d3.select(this).attr('id').split('_');
-                //d3.select('#'+cirid[1]).style("fill",'yellow');
+                thiscolor = d3.select(this).style("fill");
+                var rgb = d3.rgb(thiscolor).brighter(0.5)
+
+
+                d3.select(this).style("fill", rgb);
             })
             .on('mouseout', function (d) {
                 d3.select(this).style("fill", thiscolor)
-               // var cirid = d3.select(this).attr('id').split('_');
-//                d3.select('#'+cirid[1]).style("fill", function (d, i) {
-//                    return color(i);
-//                });
             })
 
     //添加矩形
@@ -164,8 +161,8 @@
                 return padding.top * 2 + labHeight * i;
             })
             .attr('r', labRadius)
-            .attr('id',function(d){
-                return 'cir_'+d.name
+            .attr('id', function (d) {
+                return 'cir_' + d.name
             })
 
 

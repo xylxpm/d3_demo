@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-颜色</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div>
+    RGB颜色说明<br/>
+    d3.rgb(r, g, b)：分别输出r、g、b值来创建颜色，范围都为[0, 255]。<br/>
+    d3.rgb(color)<br/>
+    输入相应的字符串来创建颜色，例如：<br/>
+    （1）RGB的十进制值：“rgb(255, 255, 255)”<br/>
+    （2）HSL的十进制值：“hsl(120, 0.5, 0.5)”<br/>
+    （3）RGB的十六进制值：“#ffeeaa”<br/>
+    （4）RGB的十六进制值的缩写形式：“#fea”<br/>
+    （5）颜色名称：“red”、“white”<br/>
+    rgb.brighter([k])：颜色变得更明亮。RGB各通道的值乘以0.7 ^ -k。如果k省略，k的值为1。只有当某通道的值的范围在30-255之间时，才会进行相应的计算。<br/>
+    rgb.darker([k])：颜色变得更暗。RGB各通道的值乘以0.7 ^ k。<br/>
+    rgb.hsl()：返回该颜色对应的HSL值。<br/>
+    rgb.toString()：以字符串形式返回该颜色值，如“#ffeeaa”。<br/><br/>
+    HSL颜色说明<br/>
+    d3.hsl(h, s, l)：根据h、s、l的值来创建HSL颜色<br/>
+    d3.hsl(color)：根据字符串来创建HSL颜色<br/>
+    hsl.brighter([k])：变得更亮<br/>
+    hsl.darker([k])：变得更暗<br/>
+    hsl.rgb()：返回对应的RGB颜色<br/>
+    hsl.toString()：以RGB字符串形式输出该颜色<br/><br/>
+    插值（要得到两个颜色值之间的值，这种时候就要用到插值（Interpolation））<br/>
+    var a = d3.rgb(255,0,0);    //红色<br/>
+    var b = d3.rgb(0,255,0);    //绿色<br/>
+    var compute = d3.interpolate(a,b);<br/>
+    这段代码里，先定义了两个颜色：红和绿。然后调用d3.interpolate(a, b)，会返回一个函数，函数保存在compute里。这时候，compute就是一个函数，它接收一个数值，数值为0时，返回红色，数值为1时，返回绿色。数值为0到1之间的值时，返回位于红色和绿色之间的颜色。如果输入值超出1，则返回的是绿色，数值小于0，则返回红色，这是根据调用d3.interpolate(a, b)的时候，传入参数的顺序决定的。
+</div>
+
+</body>
+<script>
+    var width = 700, height = 500;
+    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+
+</script>
+</html>
