@@ -4,19 +4,6 @@
     <meta charset="utf-8">
     <title>d3-颜色</title>
     <script src="./js/d3.v3.min.js" charset="utf-8"></script>
-    <style>
-        .axis path,
-        .axis line {
-            fill: none;
-            stroke: black;
-            shape-rendering: crispEdges;
-        }
-
-        .axis text {
-            font-family: sans-serif;
-            font-size: 11px;
-        }
-    </style>
 </head>
 
 <body>
@@ -43,16 +30,69 @@
     hsl.rgb()：返回对应的RGB颜色<br/>
     hsl.toString()：以RGB字符串形式输出该颜色<br/><br/>
     插值（要得到两个颜色值之间的值，这种时候就要用到插值（Interpolation））<br/>
-    var a = d3.rgb(255,0,0);    //红色<br/>
-    var b = d3.rgb(0,255,0);    //绿色<br/>
+    var a = d3.rgb(255,0,0); //红色<br/>
+    var b = d3.rgb(0,255,0); //绿色<br/>
     var compute = d3.interpolate(a,b);<br/>
-    这段代码里，先定义了两个颜色：红和绿。然后调用d3.interpolate(a, b)，会返回一个函数，函数保存在compute里。这时候，compute就是一个函数，它接收一个数值，数值为0时，返回红色，数值为1时，返回绿色。数值为0到1之间的值时，返回位于红色和绿色之间的颜色。如果输入值超出1，则返回的是绿色，数值小于0，则返回红色，这是根据调用d3.interpolate(a, b)的时候，传入参数的顺序决定的。
+    这段代码里，先定义了两个颜色：红和绿。然后调用d3.interpolate(a,
+    b)，会返回一个函数，函数保存在compute里。这时候，compute就是一个函数，它接收一个数值，数值为0时，返回红色，数值为1时，返回绿色。数值为0到1之间的值时，返回位于红色和绿色之间的颜色。如果输入值超出1，则返回的是绿色，数值小于0，则返回红色，这是根据调用d3.interpolate(a,
+    b)的时候，传入参数的顺序决定的。
 </div>
 
 </body>
 <script>
-    var width = 700, height = 500;
+    var width = 400, height = 400, a = d3.rgb(255, 0, 0), b = d3.rgb(0, 255, 0);
     var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+    var compute = d3.interpolate(a,b);
+    var linear = d3.scale.linear().domain([0, 150]).range([0, 1]);
+
+    var rects = svg.selectAll('rect').data(d3.range(150)).enter().append('rect')
+            .attr('x', function (d, i) {
+                return i % 15 * 15;
+            })
+            .attr('y', function (d, i) {
+                return Math.floor(i / 15) * 15;
+            })
+            .attr('width', 15)
+            .attr('height', 15)
+            .style('fill', function (d) {
+                return compute(linear(d));
+            })
+            .on('mouseover',function(d){
+                d3.select(this).style('fill','yellow');
+            })
+            .on('mouseout',function(d){
+                d3.select(this).style('fill',compute(linear(d)).toString());
+            })
+
+    var defs = svg.append('defs');
+
+    var linearGradient = defs.append('linearGradient')
+            .attr('id','linearColor')
+            .attr('x1','0%')
+            .attr('y1','0%')
+            .attr('x2','100%')
+            .attr('y2','0%');
+
+    var stop1 = linearGradient.append('stop')
+            .attr('offset','0%')
+            .style('stop-color', a.toString());
+
+    var stop2 = linearGradient.append('stop')
+            .attr('offset','100%')
+            .style('stop-color', b.toString());
+
+    var colorRect = svg.append('rect')
+            .attr('x',15)
+            .attr('y',200)
+            .attr('width',200)
+            .attr('height',30)
+            .style('fill','url(#'+linearGradient.attr("id")+')')
+            .on('mouseover',function(d){
+                d3.select(this).style('fill','yellow');
+            })
+            .on('mouseout',function(d){
+                d3.select(this).style('fill','url(#'+linearGradient.attr("id")+')');
+            })
 
 </script>
 </html>
