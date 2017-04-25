@@ -53,7 +53,7 @@
         return [d.x, d.y];
     })
 
-    d3.json('./res/learn.json', function (error, root) {
+    d3.json('./res/learn2.json', function (error, root) {
         if (error) {
             return console.log(error);
         }
@@ -112,12 +112,11 @@
                                 .style('top', (d3.event.pageY) + 'px')
                                 .style('opacity', 1.0)
                     }).on('mousemove', function (d) {
-                        tooltip.style('left', (d3.event.pageX) + 'px')
-                                .style('top', (d3.event.pageY + 20) + 'px')
+                        tooltip.style('left', (d3.event.pageX) + 'px').style('top', (d3.event.pageY + 20) + 'px')
                     }).on('mouseout', function (d) {
                         d3.select(this)
                                 .transition()
-                                .duration(1000)
+                                .duration(500)
                                 .style('fill', function (d) {
                                     return d._children ? 'lightsteelblue' : '#fff';
                                 })
