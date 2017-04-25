@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-饼图的提示文字</title>
+    <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        .tooltip {
+            font-family: simsun;
+            font-size: 14px;
+            width: 120px;
+            height: auto;
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            padding: 5px 3px;
+            background-color: #000;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+</body>
+<script>
+    var width = 600;
+    var height = 600;
+
+    var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append('g')
+            .attr('transform', 'translate(0,0)');
+    var dataset = [["小米", 60.8], ["三星", 58.4], ["联想", 47.3], ["苹果", 46.6],
+        ["华为", 41.3], ["酷派", 40.1], ["其他", 111.5]];
+
+    var pie = d3.layout.pie().value(function (d) {
+        return d[1];
+    })
+
+    var piedata = pie(dataset);
+
+    var fontsize = 14;
+
+    var outerRadius = 400 / 3
+    var innerRadius = 0
+    var arc = d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+
+    var color = d3.scale.category10();
+
+    var arcs = svg.selectAll('g')
+            .data(piedata)
+            .enter()
+            .append('g')
+            .attr('transform', 'translate(' + outerRadius + ',' + outerRadius + ')');
+
+    arcs.append('path')
+            .attr('fill', function (d, i) {
+                return color(i);
+            })
+            .attr('d', function (d) {
+                return arc(d);
+            })
+
+    arcs.append('text')
+            .attr('transform', function (d) {
+                var x = arc.centroid(d)[0] * 1.4;
+                var y = arc.centroid(d)[1] * 1.4;
+                return 'translate(' + x + ',' + y + ')';
+            })
+            .attr('text-anchor', 'middle')
+            .style('font-size', fontsize)
+            .text(function (d) {
+                var percent = Number(d.value) / d3.sum(dataset, function (d) {
+                            return d[1]
+                        }) * 100;
+                return percent.toFixed(1) + '%';
+            })
+
+    var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
+
+    arcs.on('mouseover', function (d) {
+        tooltip.html(d.data[0] + '的出货量为' + '<br/>' + d.data[1] + '百万台')
+                .style('left', (d3.event.pageX) + 'px')
+                .style('top', (d3.event.pageY) + 'px')
+                .style('opacity', 1.0)
+    }).on('mousemove', function (d) {
+        tooltip.style('left', (d3.event.pageX) + 'px')
+                .style('top', (d3.event.pageY + 20) + 'px')
+    }).on('mouseout', function (d) {
+        tooltip.style('opacity', 0.0);
+    })
+
+
+</script>
+</html>
