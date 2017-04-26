@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-练习练习</title>
+    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+</body>
+<script>
+    var width = 600, height = 600, lists = [], num = 15;
+    for (var i = 0; i < num; i++) {
+        lists.push(Math.floor(Math.random() * 50));
+    }
+    var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
+
+    //获取x方向的比例尺，d3.scale.ordinal - 构造一个序数比例尺   ordinal.domain - 获取或指定比例尺的输入域。  ordinal.rangeBands - 指定输出范围为连续区间。
+    var xAxisScale = d3.scale.ordinal().domain(d3.range(lists.length)).rangeRoundBands([0,500]);
+    //获取y方向的比例尺，d3.scale.linear - 构建一个线性比例尺。
+    var yAxisScale = d3.scale.linear().domain([0,d3.max(lists)]).range([500,0]);
+    //d3.svg.axis() 创建一个默认的轴，scale 设置刻度尺，orient设置方向
+    var xAxis = d3.svg.axis().scale(xAxisScale).orient('bottom');
+    var yAxis = d3.svg.axis().scale(yAxisScale).orient('left');
+    var xScale = d3.scale.ordinal().domain(d3.range(lists.length)).rangeRoundBands([0,500],0.05);
+    var yScale = d3.scale.linear().domain([0,d3.max(lists)]).range([0,500]);
+
+
+    svg.selectAll('rect').data(lists).enter().append('rect')
+            .attr('height',0)
+            .attr('fill','red')
+            .attr('y',function(d,i){
+                return 550;
+            })
+            .transition()
+            .duration(2000)
+            .ease('bounce')
+            .delay(function(d,i){
+                return 200*i;
+            })
+            .attr('x',function(d,i){
+                return 30+xScale(i)
+            })
+            .attr('y',function(d,i){
+                return 550-yScale(d)
+            })
+            .attr('width',function(d,i){
+                return xScale.rangeBand();
+            })
+            .attr('height',yScale)
+            .attr('fill','steelblue');
+
+    svg.selectAll('text')
+
+    svg.append('g').attr('class','axis').attr('transform','translate(30,550)').call(xAxis)
+
+    svg.append('g').attr('class','axis').attr('transform','translate(30,50)').call(yAxis)
+
+</script>
+</html>
