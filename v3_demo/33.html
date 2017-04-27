@@ -2,71 +2,102 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>d3-练习练习</title>
+    <title>d3-总结</title>
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
     <style>
-        .axis path,
-        .axis line {
-            fill: none;
-            stroke: black;
-            shape-rendering: crispEdges;
-        }
 
-        .axis text {
-            font-family: sans-serif;
-            font-size: 11px;
-        }
     </style>
 </head>
 <body>
+<img src="./images/20160522221307682.png"/><br/>
+形状：
+rect 矩形 x和y的指定左上角的坐标，width和height指定矩形的尺寸<br/>
+circle 原型 cx和cy指定圆心的坐标，ŗ表示半径大小<br/>
+ellipse 椭圆 cx和cy指定圆心坐标，rx和ry分别指定横半轴纵半轴长度<br/>
+line 线 用x1和Y1到指定线的一端的坐标，x2和y2指定的另一端的坐标。stroke指定描边让线是可见的。<br/>
+text 文本 x和y指定文本的位置 可以设置文本样式<br/>
+svg的样式 fill填充的颜色 stroke描边的颜色 stroke-width描边的宽度 opacity透明度 font-family字体 font-size字号 text-anchor对齐方式<br/>
+
 </body>
+
+
 <script>
-    var width = 600, height = 600, lists = [], num = 15;
-    for (var i = 0; i < num; i++) {
-        lists.push(Math.floor(Math.random() * 50));
+    var width = 600, height = 200;
+    var barPadding = 1;
+    var dataset1 = [];
+    for (var i = 0; i < 30; i++) {
+        var _t = Math.floor(Math.random() * 20);
+        dataset1.push(_t);
     }
-    var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
-
-    //获取x方向的比例尺，d3.scale.ordinal - 构造一个序数比例尺   ordinal.domain - 获取或指定比例尺的输入域。  ordinal.rangeBands - 指定输出范围为连续区间。
-    var xAxisScale = d3.scale.ordinal().domain(d3.range(lists.length)).rangeRoundBands([0,500]);
-    //获取y方向的比例尺，d3.scale.linear - 构建一个线性比例尺。
-    var yAxisScale = d3.scale.linear().domain([0,d3.max(lists)]).range([500,0]);
-    //d3.svg.axis() 创建一个默认的轴，scale 设置刻度尺，orient设置方向
-    var xAxis = d3.svg.axis().scale(xAxisScale).orient('bottom');
-    var yAxis = d3.svg.axis().scale(yAxisScale).orient('left');
-    var xScale = d3.scale.ordinal().domain(d3.range(lists.length)).rangeRoundBands([0,500],0.05);
-    var yScale = d3.scale.linear().domain([0,d3.max(lists)]).range([0,500]);
-
-
-    svg.selectAll('rect').data(lists).enter().append('rect')
-            .attr('height',0)
-            .attr('fill','red')
-            .attr('y',function(d,i){
-                return 550;
+    //这里绘制一堆矩形
+    var svg1 = d3.select('body').append('svg').attr("width", width).attr("height", height);
+    svg1.selectAll('rect').data(dataset1).enter().append('rect')
+            .attr('x', function (d, i) {
+                return i * (width / dataset1.length);
             })
-            .transition()
-            .duration(2000)
-            .ease('bounce')
-            .delay(function(d,i){
-                return 200*i;
+            .attr('y', function (d, i) {
+                return height - (d * 5);
             })
-            .attr('x',function(d,i){
-                return 30+xScale(i)
+            .attr('width', width / dataset1.length - barPadding)
+            .attr('height', function (d) {
+                return d * 5;
             })
-            .attr('y',function(d,i){
-                return 550-yScale(d)
-            })
-            .attr('width',function(d,i){
-                return xScale.rangeBand();
-            })
-            .attr('height',yScale)
-            .attr('fill','steelblue');
+            .attr('fill', function (d) {
+                return 'rgb(255,0,' + d * 10 + ')'
+            });
 
-    svg.selectAll('text')
+    svg1.selectAll('text').data(dataset1).enter().append('text')
+            .text(function (d) {
+                return d;
+            })
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '10')
+            .attr('fill', '#000')
+            .attr('x', function (d, i) {
+                return i * (width / dataset1.length) + (width / dataset1.length - barPadding) / 2;
+            })
+            .attr('y', function (d, i) {
+                return height - (d * 5) - 2;
+            })
 
-    svg.append('g').attr('class','axis').attr('transform','translate(30,550)').call(xAxis)
+    var dataset2 = [
+        [15, 20], [480, 90], [250, 50], [100, 33], [330, 95],
+        [410, 27], [475, 44], [25, 67], [85, 21], [220, 88]
+    ];
 
-    svg.append('g').attr('class','axis').attr('transform','translate(30,50)').call(yAxis)
+    //这里绘制一堆散点
+    var svg2 = d3.select('body').append('svg').attr("width", width).attr("height", height);
+
+    svg2.selectAll('circle').data(dataset2).enter().append('circle')
+            .attr('r', function (d, i) {
+                return Math.sqrt(height - d[1]);
+            })
+            .attr('cx', function (d, i) {
+                return d[0];
+            })
+            .attr('cy', function (d, i) {
+                return d[1];
+            })
+            .attr('stroke', '#000')
+            .attr('stroke-width', 2)
+            .attr('fill', function (d) {
+                return 'rgb(255,0,' + d[1] * 10 + ')'
+            });
+
+    svg2.selectAll('text').data(dataset2).enter().append('text')
+            .text(function (d) {
+                return d[0] + "-" + d[1];
+            })
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '10')
+            .attr('fill', '#000')
+            .attr('x', function (d, i) {
+                return d[0]+30
+            })
+            .attr('y', function (d, i) {
+                return d[1]+10;
+            })
+
 
 </script>
 </html>
