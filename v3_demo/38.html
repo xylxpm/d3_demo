@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-再一个实例</title>
+    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+    <style>
+        /* 鼠标悬停时变色*/
+        rect:hover {
+            fill: orange;
+        }
+
+        /* 过渡效果*/
+        rect {
+            -moz-transiton: all 0.3s;
+            -o-transiton: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s
+        }
+
+        /*(2)给提示条加上样式*/
+        #tooltip {
+            position: absolute;
+            width: 200px;
+            height: auto;
+            padding: 10px;
+            background-color: white;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            pointer-events: none;
+        }
+
+        #tooltip.hidden {
+            display: none;
+        }
+
+        #tooltip p {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+<button id="update">更新</button>
+<button id="remove" class="clickbtn">删除</button>
+<button id="add" class="clickbtn">添加</button>
+<br><br>
+
+<div id="tooltip" class="hildden">
+    <p><strong>提示：</strong></p>
+
+    <p><span id="value">100</span>%</p>
+</div>
+</body>
+
+<script>
+    var width = 700, height = 300, barPadding = 5;
+    var dataset = [
+        {key: 0, value: 5},
+        {key: 1, value: 10},
+        {key: 2, value: 13},
+        {key: 3, value: 19},
+        {key: 4, value: 21},
+        {key: 5, value: 25},
+        {key: 6, value: 22},
+        {key: 7, value: 18},
+        {key: 8, value: 15},
+        {key: 9, value: 13},
+        {key: 10, value: 11},
+        {key: 11, value: 12},
+        {key: 12, value: 15},
+        {key: 13, value: 20},
+        {key: 14, value: 18},
+        {key: 15, value: 17},
+        {key: 16, value: 16},
+        {key: 17, value: 18},
+        {key: 18, value: 23},
+        {key: 19, value: 25}
+    ];
+
+    var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
+
+    var xScale = d3.scale.ordinal().domain(d3.range(dataset.length)).rangeRoundBands([0, width], 0.1);
+
+    var yScale = d3.scale.linear().domain([0, d3.max(dataset, function (d) {
+        return d.value;
+    })]).range([0, height]);
+
+    var key = function (d) {
+        return d.key;
+    };
+
+    var value = function (d) {
+        return d.value;
+    };
+
+    var sortOrders = false;
+
+    var sortBars = function () {
+        sortOrders = !sortOrders;
+        svg.selectAll('rect')
+                .sort(function (a, b) {
+                    if (sortOrders) {
+                        return d3.ascending(a.value, b.value);
+                    } else {
+                        return d3.descending(a.value, b.value);
+                    }
+                })
+                .transition()
+                .duration(1000)
+                .attr('x', function (d, i) {
+                    return xScale(i);
+                });
+
+        svg.selectAll('text')
+                .sort(function (a, b) {
+                    if (sortOrders) {
+                        return d3.ascending(a.value, b.value);
+                    } else {
+                        return d3.descending(a.value, b.value);
+                    }
+                })
+                .transition()
+                .duration(1000)
+                .attr('x', function (d, i) {
+                    return xScale(i) + xScale.rangeBand() / 2;
+                });
+    };
+
+    d3.select('#tooltip').classed('hidden', true);
+
+    svg.selectAll('rect')
+            .data(dataset, key)
+            .enter()
+            .append('rect')
+            .attr('x', function (d, i) {
+                return xScale(i);
+            })
+            .attr('y', function (d, i) {
+                return height - yScale(d.value);
+            })
+            .attr('width', xScale.rangeBand())
+            .attr('height', function (d, i) {
+                return yScale(d.value);
+            })
+            .attr('fill', function (d, i) {
+                return 'rgb(0,0,' + (d.value * 10) + ')';
+            })
+            .on('click', function () {
+                sortBars()
+            })
+            .on('mouseover', function (d, i) {
+                var xp = parseFloat(d3.select(this).attr('x')) + xScale.rangeBand() / 2;
+                var yp = parseFloat(d3.select(this).attr('y')) / 2 + height / 2;
+                d3.select('#tooltip').style({
+                    left: xp + 'px',
+                    top: yp + 'px'
+                }).select('#value').text(d.value);
+                d3.select('#tooltip').classed('hidden', false);
+            })
+            .on('mouseout', function (d, i) {
+                d3.select('#tooltip').classed('hidden', true);
+            })
+
+    svg.selectAll('text')
+            .data(dataset, key)
+            .enter()
+            .append('text')
+            .attr('text-anchor', 'middle')
+            .attr('x', function (d, i) {
+                return xScale(i) + xScale.rangeBand() / 2
+            })
+            .attr('y', function (d, i) {
+                return height - yScale(d.value) + 20;
+            })
+            .text(function (d) {
+                return d.value;
+            })
+            .attr('fill', "#fff")
+
+
+    d3.selectAll('.clickbtn').on('click', function () {
+        var _id = d3.select(this).attr('id');
+        if (_id == 'add') {
+            var maxValue = 25;
+            var newNumber = Math.floor(Math.random() * maxValue);//0-24的整数
+
+            console.log(newNumber);
+
+            //根据最后一个key添加一个值
+            var lastKeyValue = dataset[dataset.length - 1].key;
+            dataset.push({
+                key: lastKeyValue + 1,
+                value: newNumber
+            });
+
+            xScale.domain(d3.range(dataset.length));
+
+            var bars = svg.selectAll("rect").data(dataset, key);
+            var texts = svg.selectAll("text").data(dataset, key);
+
+            bars.enter().append('rect').attr('x', width);
+            bars.transition()
+                    .duration(500)
+                    .attr('x', function (d, i) {
+                        return xScale(i);
+                    })
+                    .attr('y', function (d, i) {
+                        return height - yScale(d.value);
+                    })
+                    .attr('width', xScale.rangeBand())
+                    .attr('height', function (d, i) {
+                        return yScale(d.value);
+                    })
+                    .attr('fill', function (d, i) {
+                        return 'rgb(0,0,' + (d.value * 20) + ')'
+                    })
+
+            texts.enter().append('text');
+            texts.transition()
+                    .text(function (d) {
+                        return d.value;
+                    })
+                    .attr("text-anchor", "middle")
+                    .attr("x", function (d, i) {
+                        return xScale(i) + xScale.rangeBand() / 2;
+                    })
+                    .attr("y", function (d) {
+                        return height - yScale(d.value) + 14;
+                    })
+                    .attr("fill", "red");
+
+        } else {
+            dataset.shift();
+
+            xScale.domain(d3.range(dataset.length));
+
+            var bars = svg.selectAll('rect').data(dataset, key);
+            var texts = svg.selectAll('text').data(dataset, key);
+
+            bars.exit().transition()
+                    .duration(500)
+                    .attr('x', -xScale.rangeBand())
+                    .remove();
+            texts.exit().transition()
+                    .duration(500)
+                    .attr('x', -xScale.rangeBand())
+                    .remove();
+        }
+    })
+
+
+    d3.select('#update').on('click', function () {
+        var numValues = dataset.length;
+        dataset = [];
+        var maxValue = 75;
+        var newNuber;
+        for (var i = 0; i < numValues; i++) {
+            newNuber = Math.floor(Math.random() * maxValue);
+            dataset.push({
+                key: i,
+                value: newNuber
+            })
+        }
+        yScale.domain([0, d3.max(dataset, value)]);
+
+        svg.selectAll('rect')
+                .data(dataset, key)
+                .transition()
+                .delay(function (d, i) {
+                    return i / dataset.length;
+                })
+                .duration(200)
+                .ease('linear')
+                .attr('y', function (d) {
+                    return height - yScale(d.value);
+                })
+                .attr('height', function (d, i) {
+                    return yScale(d.value)
+                });
+
+        svg.selectAll("text")
+                .data(dataset, key)
+                .text(function(d) {
+                    return d.value;
+                })
+                .attr("text-anchor", "middle")
+                .attr("x",function(d, i) {
+                    return xScale(i) + xScale.rangeBand() / 2;
+                })
+                .attr("y", function(d) {
+                    return height - yScale(d.value) + 14;
+                })
+                .attr("fill", "red");
+    })
+
+</script>
+</html>
