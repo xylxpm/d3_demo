@@ -4,19 +4,105 @@
     <meta charset="utf-8">
     <title>d3-再一个实例 力导向图</title>
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
-    <style>
 
-    </style>
 </head>
 <body>
 
 </body>
 
 <script>
-    var width = 300, height = 300;
+    var width = 600, height = 600;
 
     var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
 
+    var color = d3.scale.category10();
+
+    var dataset = {
+        nodes: [//节点
+            {name: "Adam"},
+            {name: "Bob"},
+            {name: "Carride"},
+            {name: "Donovan"},
+            {name: "Edward"},
+            {name: "Felicity"},
+            {name: "George"},
+            {name: "Hannah"},
+            {name: "Iris"},
+            {name: "Jerry"}
+        ],
+        edges: [//边
+            { source:0,target:1,weight:1,color:1},
+            { source:0,target:2,weight:3,color:4},
+            { source:0,target:3,weight:4,color:6},
+            { source:0,target:4,weight:6,color:65},
+            { source:1,target:5,weight:3,color:76},
+            { source:2,target:5,weight:8,color:879},
+            { source:2,target:5,weight:7,color:989},
+            { source:3,target:4,weight:9,color:643},
+            { source:5,target:8,weight:1,color:54},
+            { source:5,target:9,weight:3,color:54},
+            { source:6,target:7,weight:4,color:45},
+            { source:7,target:8,weight:0,color:43},
+            { source:2,target:8,weight:8,color:243},
+            { source:3,target:8,weight:1,color:43},
+            { source:5,target:8,weight:5,color:13},
+            { source:6,target:8,weight:3,color:351},
+            { source:8,target:9,weight:4,color:1}
+        ]
+    };
+
+    var force = d3.layout.force()
+        .nodes(dataset.nodes)
+        .links(dataset.edges)
+        .size([width, height])
+        .linkDistance(200)
+        .charge(-200)
+        .start();
+
+    var edges = svg.selectAll('line')
+        .data(dataset.edges)
+        .enter()
+        .append('line')
+        .style('stroke', function (d, i) {
+            return color(d.color)
+        })
+        .style('stroke-width', function (d, i) {
+            return d.weight
+        });
+
+    var nodes = svg.selectAll('circle')
+        .data(dataset.nodes)
+        .enter()
+        .append('circle')
+        .attr('r', function (d, i) {
+            return Math.log(d.weight) * 10;
+        })
+        .attr('fill', function (d, i) {
+            return color(d.weight * d.weight * d.weight);
+        })
+
+        .call(force.drag);
+
+    force.on('tick', function () {
+        edges.attr('x1', function (d) {
+            return d.source.x
+        })
+            .attr('y1', function (d, i) {
+                return d.source.y
+            })
+            .attr('x2', function (d, i) {
+                return d.target.x
+            })
+            .attr('y2', function (d, i) {
+                return d.target.y
+            });
+
+        nodes.attr('cx',function (d,i) {
+            return d.x;
+        }).attr('cy',function (d,i) {
+            return d.y;
+        })
+    })
 
 
 </script>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-再一个实例 带文字和箭头的力导向图</title>
+    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+    <style>
+        path.link {
+            fill: none;
+            stroke: #666;
+            stroke-width: 1.5px;
+        }
+
+        marker#licensing {
+            fill: green;
+        }
+
+        path.link.licensing {
+            stroke: green;
+        }
+
+        path.link.resolved {
+            stroke-dasharray: 0,2 1;
+        }
+
+        path.link.yes {
+            stroke: red;
+        }
+
+        path.link.no {
+            stroke: black;
+        }
+
+        text {
+            font: 10px sans-serif;
+            pointer-events: none;
+        }
+
+        text.shadow {
+            stroke: #fff;
+            stroke-width: 3px;
+            stroke-opacity: .8;
+        }
+        #div{
+            height: 24px;border: 1px solid red;width: 600px;text-align: center;
+        }
+        svg{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+<div id="div"></div>
+</body>
+
+<script>
+    var width = 600, height = 600;
+
+    var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
+
+    var links = [
+        {source: "Microsoft", target: "Amazon", type: "licensing"    ,color:1},
+        {source: "Microsoft", target: "HTC", type: "licensing"       ,color:4},
+        {source: "Microsoft", target: "Barnes & Noble", type: "suit" ,color:643},
+        {source: "Microsoft", target: "Foxconn", type: "suit"        ,color:54},
+        {source: "Microsoft", target: "Inventec", type: "suit"       ,color:43},
+        {source: "Microsoft", target: "Motorola", type: "suit"       ,color:65},
+        {source: "Apple", target: "Nokia", type: "resolved"          ,color:1},
+        {source: "Apple", target: "HTC", type: "suit"                ,color:45},
+        {source: "Apple", target: "Motorola", type: "suit"           ,color:6},
+        {source: "Apple", target: "Samsung", type: "suit"            ,color:54},
+        {source: "Samsung", target: "Apple", type: "suit"            ,color:6},
+        {source: "Samsung", target: "Kodak", type: "resolved"        ,color:243},
+        {source: "Motorola", target: "Apple", type: "suit"           ,color:65},
+        {source: "Motorola", target: "Microsoft", type: "suit"       ,color:76},
+        {source: "Nokia", target: "Apple", type: "resolved"          ,color:76},
+        {source: "Nokia", target: "Qualcomm", type: "suit"           ,color:45},
+        {source: "Kodak", target: "LG", type: "resolved"             ,color:1},
+        {source: "Kodak", target: "Apple", type: "suit"              ,color:989},
+        {source: "Kodak", target: "Samsung", type: "resolved"        ,color:643},
+        {source: "Kodak", target: "RIM", type: "suit"                ,color:54},
+        {source: "LG", target: "Kodak", type: "resolved"             ,color:43},
+        {source: "RIM", target: "Kodak", type: "suit"                ,color:13},
+        {source: "Sony", target: "LG", type: "suit"                  ,color:351},
+        {source: "Qualcomm", target: "Nokia", type: "resolved"       ,color:4},
+        {source: "HTC", target: "Apple", type: "suit"                ,color:879}
+    ];
+
+
+    var links2 = [
+        {source: "Microsoft", target: "Amazon",         type: "yes"    ,  color:1},
+        {source: "Microsoft", target: "HTC",            type: "yes",      color:4},
+        {source: "Microsoft", target: "Barnes & Noble", type: "no" ,          color:643},
+        {source: "Microsoft", target: "Foxconn",        type: "no"        ,   color:54},
+        {source: "Microsoft", target: "Inventec",       type: "no"       ,    color:43},
+        {source: "Microsoft", target: "Motorola",       type: "no"       ,    color:65},
+        {source: "Amazon", target: "HTC",               type: "no"       ,color:1},
+        {source: "Amazon", target: "HTC",               type: "no"   ,        color:45},
+        {source: "Amazon", target: "Motorola",          type: "no"           ,color:6},
+        {source: "Amazon", target: "Samsung",           type: "no"           ,color:54},
+    ];
+
+    var nodes = [];
+
+    var color = d3.scale.category10();
+
+    links.forEach(function (link) {
+        link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+        link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+    })
+
+
+    console.log(links);
+    console.log(nodes);
+
+    var force = d3.layout.force()
+        .nodes(d3.values(nodes))
+        .links(links)
+        .size([width,height])
+        .linkDistance(80)
+        .charge(-300)
+        .on('tick',tick)
+        .start();
+
+    svg.append("svg:defs").selectAll("marker")
+        .data(["suit", "licensing", "resolved"])
+        .enter().append("svg:marker")
+        .attr("id", String)
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", -1.5)
+        .attr("markerWidth", 6)
+        .attr("markerHeight", 6)
+        .attr("orient", "auto")
+        .append("svg:path")
+        .attr("d", "M0,-5L10,0L0,5");
+
+    var path = svg.append('g').selectAll('path')
+        .data(force.links())
+        .enter()
+        .append('path')
+        .attr('class',function (d,i) {
+            return 'link '+d.type;
+
+        })
+        .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+
+
+    var circle = svg.append('g').selectAll('circle')
+        .data(force.nodes())
+        .enter()
+        .append('circle')
+        .attr('r', 8)
+        .attr('fill', function (d, i) {
+            return color(d.weight * d.weight * d.weight);
+        })
+//        .call(force.drag)  //这个是圆点的拖拽
+        .on("mouseover",function(d,i){
+            d3.select(this).style("fill","yellow");
+            d3.select('#div').text(d.name)
+        })
+        .on("mouseout",function(d,i) {
+            d3.select(this)
+                .transition()
+                .duration(1000)
+                .style("fill",color(d.weight * d.weight * d.weight));
+            d3.select('#div').text("")
+        });
+
+    var text = svg.append('g').selectAll('g').data(force.nodes()).enter().append('g');
+
+    text.append('text').attr('x',8).attr('y','0.3em').attr('class','shadow').text(function (d) {
+        return d.name;
+    });
+
+    text.append('text').attr('x',8).attr('y','0.3em').text(function (d) {
+        return d.name;
+    });
+
+
+    function tick() {
+//(3)打点path格式是：Msource.x,source.yArr00,1target.x,target.y
+        path.attr("d", function(d) {
+            var dx = d.target.x - d.source.x,//增量
+                dy = d.target.y - d.source.y,
+                dr = Math.sqrt(dx * dx + dy * dy);
+            return "M" + d.source.x + ","
+                + d.source.y + "A" + dr + ","
+                + dr + " 0 0,1 " + d.target.x + ","
+                + d.target.y;
+        });
+
+        circle.attr("transform", function(d) {
+            return "translate(" + d.x + "," + d.y + ")";
+        });
+
+        text.attr("transform", function(d) {
+            return "translate(" + d.x + "," + d.y + ")";
+        });
+    }
+
+</script>
+</html>
