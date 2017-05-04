@@ -105,84 +105,84 @@
     var sortBars = function () {
         sortOrders = !sortOrders;
         svg.selectAll('rect')
-                .sort(function (a, b) {
-                    if (sortOrders) {
-                        return d3.ascending(a.value, b.value);
-                    } else {
-                        return d3.descending(a.value, b.value);
-                    }
-                })
-                .transition()
-                .duration(1000)
-                .attr('x', function (d, i) {
-                    return xScale(i);
-                });
+            .sort(function (a, b) {
+                if (sortOrders) {
+                    return d3.ascending(a.value, b.value);
+                } else {
+                    return d3.descending(a.value, b.value);
+                }
+            })
+            .transition()
+            .duration(1000)
+            .attr('x', function (d, i) {
+                return xScale(i);
+            });
 
         svg.selectAll('text')
-                .sort(function (a, b) {
-                    if (sortOrders) {
-                        return d3.ascending(a.value, b.value);
-                    } else {
-                        return d3.descending(a.value, b.value);
-                    }
-                })
-                .transition()
-                .duration(1000)
-                .attr('x', function (d, i) {
-                    return xScale(i) + xScale.rangeBand() / 2;
-                });
+            .sort(function (a, b) {
+                if (sortOrders) {
+                    return d3.ascending(a.value, b.value);
+                } else {
+                    return d3.descending(a.value, b.value);
+                }
+            })
+            .transition()
+            .duration(1000)
+            .attr('x', function (d, i) {
+                return xScale(i) + xScale.rangeBand() / 2;
+            });
     };
 
     d3.select('#tooltip').classed('hidden', true);
 
     svg.selectAll('rect')
-            .data(dataset, key)
-            .enter()
-            .append('rect')
-            .attr('x', function (d, i) {
-                return xScale(i);
-            })
-            .attr('y', function (d, i) {
-                return height - yScale(d.value);
-            })
-            .attr('width', xScale.rangeBand())
-            .attr('height', function (d, i) {
-                return yScale(d.value);
-            })
-            .attr('fill', function (d, i) {
-                return 'rgb(0,0,' + (d.value * 10) + ')';
-            })
-            .on('click', function () {
-                sortBars()
-            })
-            .on('mouseover', function (d, i) {
-                var xp = parseFloat(d3.select(this).attr('x')) + xScale.rangeBand() / 2;
-                var yp = parseFloat(d3.select(this).attr('y')) / 2 + height / 2;
-                d3.select('#tooltip').style({
-                    left: xp + 'px',
-                    top: yp + 'px'
-                }).select('#value').text(d.value);
-                d3.select('#tooltip').classed('hidden', false);
-            })
-            .on('mouseout', function (d, i) {
-                d3.select('#tooltip').classed('hidden', true);
-            })
+        .data(dataset, key)
+        .enter()
+        .append('rect')
+        .attr('x', function (d, i) {
+            return xScale(i);
+        })
+        .attr('y', function (d, i) {
+            return height - yScale(d.value);
+        })
+        .attr('width', xScale.rangeBand())
+        .attr('height', function (d, i) {
+            return yScale(d.value);
+        })
+        .attr('fill', function (d, i) {
+            return 'rgb(0,0,' + (d.value * 10) + ')';
+        })
+        .on('click', function () {
+            sortBars()
+        })
+        .on('mouseover', function (d, i) {
+            var xp = parseFloat(d3.select(this).attr('x')) + xScale.rangeBand() / 2;
+            var yp = parseFloat(d3.select(this).attr('y')) / 2 + height / 2;
+            d3.select('#tooltip').style({
+                left: xp + 'px',
+                top: yp + 'px'
+            }).select('#value').text(d.value);
+            d3.select('#tooltip').classed('hidden', false);
+        })
+        .on('mouseout', function (d, i) {
+            d3.select('#tooltip').classed('hidden', true);
+        })
 
     svg.selectAll('text')
-            .data(dataset, key)
-            .enter()
-            .append('text')
-            .attr('text-anchor', 'middle')
-            .attr('x', function (d, i) {
-                return xScale(i) + xScale.rangeBand() / 2
-            })
-            .attr('y', function (d, i) {
-                return height - yScale(d.value) + 20;
-            })
-            .text(function (d) {
-                return d.value;
-            })
-            .attr('fill', "#fff")
+        .data(dataset, key)
+        .enter()
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .attr('x', function (d, i) {
+            return xScale(i) + xScale.rangeBand() / 2
+        })
+        .attr('y', function (d, i) {
+            return height - yScale(d.value) + 20;
+        })
+        .text(function (d) {
+            return d.value;
+        })
+        .attr('fill', "#fff")
 
 
     d3.selectAll('.clickbtn').on('click', function () {
@@ -207,34 +207,34 @@
 
             bars.enter().append('rect').attr('x', width);
             bars.transition()
-                    .duration(500)
-                    .attr('x', function (d, i) {
-                        return xScale(i);
-                    })
-                    .attr('y', function (d, i) {
-                        return height - yScale(d.value);
-                    })
-                    .attr('width', xScale.rangeBand())
-                    .attr('height', function (d, i) {
-                        return yScale(d.value);
-                    })
-                    .attr('fill', function (d, i) {
-                        return 'rgb(0,0,' + (d.value * 20) + ')'
-                    })
+                .duration(500)
+                .attr('x', function (d, i) {
+                    return xScale(i);
+                })
+                .attr('y', function (d, i) {
+                    return height - yScale(d.value);
+                })
+                .attr('width', xScale.rangeBand())
+                .attr('height', function (d, i) {
+                    return yScale(d.value);
+                })
+                .attr('fill', function (d, i) {
+                    return 'rgb(0,0,' + (d.value * 20) + ')'
+                })
 
             texts.enter().append('text');
             texts.transition()
-                    .text(function (d) {
-                        return d.value;
-                    })
-                    .attr("text-anchor", "middle")
-                    .attr("x", function (d, i) {
-                        return xScale(i) + xScale.rangeBand() / 2;
-                    })
-                    .attr("y", function (d) {
-                        return height - yScale(d.value) + 14;
-                    })
-                    .attr("fill", "red");
+                .text(function (d) {
+                    return d.value;
+                })
+                .attr("text-anchor", "middle")
+                .attr("x", function (d, i) {
+                    return xScale(i) + xScale.rangeBand() / 2;
+                })
+                .attr("y", function (d) {
+                    return height - yScale(d.value) + 14;
+                })
+                .attr("fill", "red");
 
         } else {
             dataset.shift();
@@ -245,13 +245,13 @@
             var texts = svg.selectAll('text').data(dataset, key);
 
             bars.exit().transition()
-                    .duration(500)
-                    .attr('x', -xScale.rangeBand())
-                    .remove();
+                .duration(500)
+                .attr('x', -xScale.rangeBand())
+                .remove();
             texts.exit().transition()
-                    .duration(500)
-                    .attr('x', -xScale.rangeBand())
-                    .remove();
+                .duration(500)
+                .attr('x', -xScale.rangeBand())
+                .remove();
         }
     })
 
@@ -271,33 +271,33 @@
         yScale.domain([0, d3.max(dataset, value)]);
 
         svg.selectAll('rect')
-                .data(dataset, key)
-                .transition()
-                .delay(function (d, i) {
-                    return i / dataset.length;
-                })
-                .duration(200)
-                .ease('linear')
-                .attr('y', function (d) {
-                    return height - yScale(d.value);
-                })
-                .attr('height', function (d, i) {
-                    return yScale(d.value)
-                });
+            .data(dataset, key)
+            .transition()
+            .delay(function (d, i) {
+                return i / dataset.length;
+            })
+            .duration(200)
+            .ease('linear')
+            .attr('y', function (d) {
+                return height - yScale(d.value);
+            })
+            .attr('height', function (d, i) {
+                return yScale(d.value)
+            });
 
         svg.selectAll("text")
-                .data(dataset, key)
-                .text(function(d) {
-                    return d.value;
-                })
-                .attr("text-anchor", "middle")
-                .attr("x",function(d, i) {
-                    return xScale(i) + xScale.rangeBand() / 2;
-                })
-                .attr("y", function(d) {
-                    return height - yScale(d.value) + 14;
-                })
-                .attr("fill", "red");
+            .data(dataset, key)
+            .text(function (d) {
+                return d.value;
+            })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) {
+                return xScale(i) + xScale.rangeBand() / 2;
+            })
+            .attr("y", function (d) {
+                return height - yScale(d.value) + 14;
+            })
+            .attr("fill", "red");
     })
 
 </script>
