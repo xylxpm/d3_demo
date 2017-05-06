@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>d3-再一个实例 带文字和箭头的力导向图</title>
-    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js" charset="utf-8"></script>
+
     <style>
         path.link {
             fill: none;
@@ -78,195 +79,131 @@
 <body>
 <div id="div"></div>
 <div id="div2"></div>
+<svg width="1000" height="1000"></svg>
 </body>
 
 <script>
-    var width = 600, height = 600;
+    var nodes = [{
+        "id": 1,
+        "ip": "1.1.1.1",
+        "r": 20,
+        "x": 200,
+        "y": 300
+    }, {
+        "id": 2,
+        "ip": "1.1.1.2",
+        "r": 30,
+        "x": 300,
+        "y": 300
+    }, {
+        "id": 3,
+        "ip": "1.1.1.3",
+        "r": 15,
+        "x": 450,
+        "y": 200
+    }, {
+        "id": 4,
+        "ip": "1.1.1.4",
+        "r": 20,
+        "x": 450,
+        "y": 400
+    }];
+    var links = [{
+        "source": 1,
+        "target": 2
+    }, {
+        "source": 2,
+        "target": 3
+    }, {
+        "source": 2,
+        "target": 4
+    }];
 
-    var svg = d3.select('div2').append('svg').attr("width", width).attr("height", height);
+    // 数据转换
+    links.some(function (v, i) {
+        nodes.some(function (w, j) {
+            if (v.source == w.id) {
+                v.source = w;
+            }
+            if (v.target == w.id) {
+                v.target = w;
+            }
+        });
+        v.index = ++i;
+    });
+    console.log(nodes);
+    console.log(links);
 
 
-    d3.json('./res/learn3.json', function (error, root) {
-        if (error) {
-            return console.log(error);
-        }
+    var svg = d3.select("body").select("svg");
+
+    var links = svg.selectAll("path")
+            .data(links)
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", function (d) {
+                var x1 = d.source.x;
+                var y1 = d.source.y;
+                var x2 = d.target.x;
+                var y2 = d.target.y;
+
+                return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+            })
+            .style("stroke", "blue")
+            .style("storke-width", "1px");
+
+    var nodes = svg.selectAll("circle")
+            .data(nodes)
+            .enter().append("circle")
+            .attr("class", "node")
+            .attr("r", function (d) {
+                return d.r
+            })
+            .attr("cx", function (d) {
+                return d.x;
+            })
+            .attr("cy", function (d) {
+                return d.y;
+            })
+            .style("fill", "red");
+
+    nodes.call(d3.drag()
+            .on("start", dragstart)
+            .on("drag", dragged)
+            .on("end", dragend));
+
+    function dragstart() {
+
+    }
+
+    function dragged(d) {
+        d.x = d3.event.x;
+        d.y = d3.event.y;
+
+        // 重新绘制当前节点以及相关的链路位置即可
+        var node = d3.select(this);
+        node.attr("cx", d.x)
+                .attr("cy", d.y);
+        var link = links.filter(function (v, i) {
+            if (v.source.id == d.id || v.target.id == d.id) {
+                return true;
+            }
+        });
+        link.attr("d", function (d) {
+            var x1 = d.source.x;
+            var y1 = d.source.y;
+            var x2 = d.target.x;
+            var y2 = d.target.y;
+
+            return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+        });
+    };
+
+    function dragend() {
+
+    }
 
 
-
-    })
-
-
-//    var dataset = {
-//        nodes: [
-//            {name: "知识1", type: "1", statue: true},
-//            {name: "知识2", type: "1", statue: false},
-//            {name: "知识3", type: "2", statue: false},
-//            {name: "知识4", type: "2", statue: false},
-//            {name: "知识5", type: "2", statue: false},
-//            {name: "知识6", type: "3", statue: false},
-//            {name: "知识7", type: "3", statue: false},
-//            {name: "知识8", type: "3", statue: false},
-//            {name: "知识9", type: "3", statue: false}
-//        ],
-//        edges: [
-//            {source: 0, target: 1, type: "now"},
-//            {source: 0, target: 3, type: "no"},
-//            {source: 1, target: 2, type: "tj"},
-//            {source: 1, target: 5, type: "now"},
-//            {source: 1, target: 3, type: "tj"},
-//            {source: 1, target: 6, type: "no"},
-//            {source: 2, target: 3, type: "no"},
-//            {source: 2, target: 7, type: "no"},
-//            {source: 2, target: 8, type: "no"},
-//            {source: 3, target: 4, type: "no"}
-//        ]
-//    };
-//
-//
-//
-//    var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
-//
-//    var force = d3.layout.force()
-//            .nodes(dataset.nodes)
-//            .links(dataset.edges)
-//            .size([width, height])
-//            .linkDistance(60)
-//            .charge(-300)
-//            .on('tick', tick)
-//            .start();
-//
-//    svg.append("svg:defs").selectAll("marker")
-//            .data(['no', 'now', 'tj'])
-//            .enter().append("svg:marker")
-//            .attr("id", String)
-//            .attr("viewBox", "0 -5 10 10")
-//            .attr("refX", 15)
-//            .attr("refY", -1.5)
-//            .attr("markerWidth", 8)
-//            .attr("markerHeight", 8)
-//            .attr("orient", "auto")
-//            .append("svg:path")
-//            .attr("d", "M0,-5L10,0L0,5");
-//
-//
-//    var path = svg.append('g').selectAll('path')
-//            .data(force.links())
-//            .enter()
-//            .append('path')
-//            .attr('class', function (d, i) {
-//                return 'link ' + d.type;
-//            })
-//            .attr("marker-end", function (d) {
-//                return "url(#" + d.type + ")";
-//            });
-//
-//
-//    var circle = svg.append('g').selectAll('circle')
-//            .data(force.nodes())
-//            .enter()
-//            .append('circle')
-//            .attr('r', function (d) {
-//                var num;
-//                if (d.statue == true) {
-//                    num = 10;
-//                } else {
-//                    num = 8
-//                }
-//                return num
-//            })
-//            .attr('stroke-width', 4)
-//            .attr('fill', function (d) {
-//                var color;
-//                if (d.statue == true) {
-//                    color = '#FFA400'
-//                } else {
-//                    color = '#fff'
-//                }
-//                return color
-//            })
-//            .attr('stroke', function (d) {
-//                var color;
-//                if (d.statue == true) {
-//                    color = '#FFA400'
-//                } else {
-//                    if (d.type == "1") {
-//                        color = '#ff7f0e'
-//                    } else if (d.type == "2") {
-//                        color = '#b3e5fc'
-//                    } else if (d.type == "3") {
-//                        color = '#9ccc65'
-//                    }
-//                }
-//                return color
-//            })
-//            .call(force.drag)
-//            .on("mouseover", function (d, i) {
-//                if (d.statue == false) {
-//                    d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
-//                    d3.select('#div').text(d.name);
-//                }
-//                tooltip.html(d.name)
-//                        .style('left', (d3.event.pageX) + 'px')
-//                        .style('top', (d3.event.pageY) + 'px')
-//                        .style('opacity', 1.0)
-//            })
-//            .on("mouseout", function (d, i) {
-//                if (d.statue == false) {
-//                    d3.select(this)
-//                            .transition()
-//                            .duration(500)
-//                            .style("fill", "#fff")
-//                            .attr('r', 8)
-//                            .style("stroke", function (d) {
-//                                var color;
-//                                if (d.type == "1") {
-//                                    color = '#ff7f0e'
-//                                } else if (d.type == "2") {
-//                                    color = '#b3e5fc'
-//                                } else if (d.type == "3") {
-//                                    color = '#9ccc65'
-//                                }
-//                                return color
-//                            });
-//                    d3.select('#div').text("");
-//                }
-//                tooltip.style('opacity', 0.0);
-//            })
-//            .on('mousemove', function (d) {
-//                tooltip.style('left', (d3.event.pageX) + 'px')
-//                        .style('top', (d3.event.pageY + 20) + 'px')
-//            });
-//
-//
-//
-//
-//    function tick() {
-//        path.attr("d", function (d) {
-//            var dx = d.target.x - d.source.x,//增量
-//                    dy = d.target.y - d.source.y,
-//                    dr = Math.sqrt(dx * dx + dy * dy);
-//            return "M" + d.source.x + ","
-//                    + d.source.y + "A" + dr + ","
-//                    + dr + " 0 0,1 " + d.target.x + ","
-//                    + d.target.y;
-//        });
-//
-//        circle.attr("transform", function (d) {
-//            return "translate(" + d.x + "," + d.y + ")";
-//        });
-//
-//        text.attr("transform", function (d) {
-//            return "translate(" + d.x + "," + d.y + ")";
-//        });
-//    }
-//
-//    function dragmove(d) {
-//        d3.select(this).attr('cx', d.cx = d3.event.x).attr('cy', d.cy = d3.event.y);
-//    }
-//
-//    function zoomed() {
-//        d3.select(this).attr('transform', 'translate(' + d3.event.translate + ') scale(' + d3.event.scale + ')');
-//    }
 
 </script>
 </html>
