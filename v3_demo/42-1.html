@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>d3-再一个实例 带文字和箭头的力导向图</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js" charset="utf-8"></script>
-
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js" charset="utf-8"></script>-->
+    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
     <style>
         path.link {
             fill: none;
@@ -167,10 +167,10 @@
             })
             .style("fill", "red");
 
-    nodes.call(d3.drag()
+    //nodes.call(d3.drag()
             //.on("start", dragstart)
-        //.on("drag", dragged)
-            .on("end", dragend));
+            //.on("drag", dragged)
+           // .on("end", dragend));
 
     function dragstart() {
 

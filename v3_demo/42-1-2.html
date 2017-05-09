@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>d3-再一个实例 带文字和箭头的力导向图</title>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js" charset="utf-8"></script>-->
+    <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+    <style>
+        path.link {
+            fill: none;
+            stroke: #666;
+            stroke-width: 1.5px;
+        }
+
+        path.link.now {
+            stroke: red;
+        }
+
+        path.link.tj {
+            stroke: blue;
+        }
+
+        path.link.no {
+            stroke: #000;
+            /*stroke-dasharray: 0,2 1;*/
+        }
+
+        marker#now {
+            fill: red
+        }
+
+        marker#tj {
+            fill: blue
+        }
+
+        text {
+            font: 10px sans-serif;
+            pointer-events: none;
+        }
+
+        text.shadow {
+            stroke: #fff;
+            stroke-width: 3px;
+            stroke-opacity: .8;
+        }
+
+        .tooltip {
+            font-family: simsun;
+            font-size: 14px;
+            width: 120px;
+            height: auto;
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            padding: 5px 3px;
+            background-color: #000;
+            border-radius: 3px;
+        }
+
+        #div {
+            height: 24px;
+            border: 1px solid red;
+            width: 300px;
+            text-align: center;
+        }
+
+        #div2 {
+            height: 24px;
+            border: 1px solid red;
+            width: 300px;
+            text-align: center;
+        }
+
+        svg {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+<div id="div"></div>
+<svg width="1000" height="1000"></svg>
+</body>
+
+<script>
+    //    var nodes = [{
+    //        "id": 1,
+    //        "ip": "1.1.1.1",
+    //        "r": 20,
+    //        "x": 200,
+    //        "y": 300
+    //    }, {
+    //        "id": 2,
+    //        "ip": "1.1.1.2",
+    //        "r": 30,
+    //        "x": 300,
+    //        "y": 300
+    //    }, {
+    //        "id": 3,
+    //        "ip": "1.1.1.3",
+    //        "r": 15,
+    //        "x": 450,
+    //        "y": 200
+    //    }, {
+    //        "id": 4,
+    //        "ip": "1.1.1.4",
+    //        "r": 20,
+    //        "x": 450,
+    //        "y": 400
+    //    }];
+    //    var links = [{
+    //        "source": 1,
+    //        "target": 2
+    //    }, {
+    //        "source": 2,
+    //        "target": 3
+    //    }, {
+    //        "source": 2,
+    //        "target": 4
+    //    }];
+
+    //statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）
+    var dataset = {
+        nodes: [
+            {id: 0, name: "知识1", type: "1", statue: true, step: 1},
+            {id: 1, name: "知识2", type: "1", statue: false, step: 1},
+            {id: 2, name: "知识3", type: "1", statue: false, step: 1},
+            {id: 3, name: "知识4", type: "1", statue: false, step: 1},
+            {id: 4, name: "知识5", type: "2", statue: false, step: 2},
+            {id: 5, name: "知识6", type: "2", statue: false, step: 2},
+            {id: 6, name: "知识7", type: "2", statue: false, step: 2},
+            {id: 7, name: "知识8", type: "2", statue: false, step: 2},
+            {id: 8, name: "知识9", type: "2", statue: false, step: 2}
+        ],
+        edges: [
+            {source: 0, target: 1, type: "now"},//type  路径信息，now学过的，ti推荐的，no没学过的
+            {source: 0, target: 3, type: "no"},
+            {source: 1, target: 2, type: "tj"},
+            {source: 1, target: 5, type: "no"},
+            {source: 1, target: 3, type: "tj"},
+            {source: 1, target: 6, type: "no"},
+            {source: 2, target: 3, type: "no"},
+            {source: 2, target: 7, type: "no"},
+            {source: 2, target: 8, type: "no"},
+            {source: 3, target: 4, type: "no"}
+        ]
+    };
+
+    var links = dataset.edges;
+    var nodes = dataset.nodes;
+
+    nodes.some(function (d,i) {
+        if(d.step==1){
+            d.y=100;
+
+        }else{
+
+            d.y=200;
+        }
+    })
+
+
+    // 数据转换
+    links.some(function (v, i) {
+        nodes.some(function (w, j) {
+            if (v.source == w.id) {
+                v.source = w;
+            }
+            if (v.target == w.id) {
+                v.target = w;
+            }
+        });
+        //v.index = ++i;
+    });
+
+
+
+
+
+
+    console.log(nodes);
+    console.log(links);
+
+
+    var svg = d3.select("body").select("svg");
+
+
+
+    var nodes = svg.selectAll("circle")
+        .data(nodes)
+        .enter().append("circle")
+        .attr("class", "node")
+        .attr('title',function (d) {
+            return d.name;
+        })
+        .attr("r", 8)
+        .attr("cx", function (d) {
+            return d.x;
+        })
+        .attr("cy", function (d) {
+            return d.y;
+        })
+        .style("fill", "red");
+
+
+    //    var links = svg.selectAll("path")
+    //        .data(links)
+    //        .enter().append("path")
+    //        .attr("class", "link")
+    //        .attr("d", function (d) {
+    //            var x1 = d.source.x;
+    //            var y1 = d.source.y;
+    //            var x2 = d.target.x;
+    //            var y2 = d.target.y;
+    //
+    //            return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+    //        })
+    //        .style("stroke", "blue")
+    //        .style("storke-width", "1px");
+
+    //nodes.call(d3.drag()
+    //.on("start", dragstart)
+    //.on("drag", dragged)
+    // .on("end", dragend));
+
+    function dragstart() {
+
+    }
+
+    function dragged(d) {
+        d.x = d3.event.x;
+        d.y = d3.event.y;
+
+        // 重新绘制当前节点以及相关的链路位置即可
+        var node = d3.select(this);
+        node.attr("cx", d.x)
+            .attr("cy", d.y);
+        var link = links.filter(function (v, i) {
+            if (v.source.id == d.id || v.target.id == d.id) {
+                return true;
+            }
+        });
+        link.attr("d", function (d) {
+            var x1 = d.source.x;
+            var y1 = d.source.y;
+            var x2 = d.target.x;
+            var y2 = d.target.y;
+
+            return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+        });
+    }
+
+
+    function dragend() {
+
+    }
+
+
+</script>
+</html>

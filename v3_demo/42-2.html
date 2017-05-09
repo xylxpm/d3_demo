@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>d3-再一个实例 带文字和箭头的力导向图</title>
+    <title>d3-试试自己计算圆圈的位置</title>
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
     <style>
         path.link {
@@ -64,38 +64,45 @@
         }
 
         svg {
+
+        }
+
+        .divsvg {
+            width: 600px;
+            height: 600px;
             border: 1px solid blue;
+            overflow: hidden
         }
     </style>
 </head>
 <body>
 <div id="div"></div>
+<div class="divsvg"></div>
 </body>
 
 <script>
-    var width = 300, height = 300;
+    var width = 600, height = 600;
 
-    var svg = d3.select('body').append('svg').attr("width", width).attr("height", height);
-
+    var svg = d3.select('.divsvg').append('svg').attr("width", width).attr("height", height);
 
 
     var dataset = {
         nodes: [
-            {name: "知识1", type: "1", statue: true},
-            {name: "知识2", type: "1", statue: false},
-            {name: "知识3", type: "2", statue: false},
-            {name: "知识4", type: "2", statue: false},
-            {name: "知识5", type: "2", statue: false},
-            {name: "知识6", type: "3", statue: false},
-            {name: "知识7", type: "3", statue: false},
-            {name: "知识8", type: "3", statue: false},
-            {name: "知识9", type: "3", statue: false}
+            {name: "知识1", type: "1", statue: true, step: 1},//statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）
+            {name: "知识2", type: "1", statue: false, step: 1},
+            {name: "知识3", type: "1", statue: false, step: 1},
+            {name: "知识4", type: "1", statue: false, step: 1},
+            {name: "知识5", type: "2", statue: false, step: 2},
+            {name: "知识6", type: "2", statue: false, step: 2},
+            {name: "知识7", type: "2", statue: false, step: 2},
+            {name: "知识8", type: "2", statue: false, step: 2},
+            {name: "知识9", type: "2", statue: false, step: 2}
         ],
         edges: [
-            {source: 0, target: 1, type: "now"},
+            {source: 0, target: 1, type: "now"},//type  路径信息，now学过的，ti推荐的，no没学过的
             {source: 0, target: 3, type: "no"},
             {source: 1, target: 2, type: "tj"},
-            {source: 1, target: 5, type: "now"},
+            {source: 1, target: 5, type: "no"},
             {source: 1, target: 3, type: "tj"},
             {source: 1, target: 6, type: "no"},
             {source: 2, target: 3, type: "no"},
@@ -111,115 +118,115 @@
     var zoom = d3.behavior.zoom().scaleExtent([1, 10]).on('zoom', zoomed);
 
     var force = d3.layout.force()
-            .nodes(dataset.nodes)
-            .links(dataset.edges)
-            .size([width, height])
-            .linkDistance(60)
-            .charge(-300)
-            .on('tick', tick)
-            .start();
+        .nodes(dataset.nodes)
+        .links(dataset.edges)
+        .size([width, height])
+        .linkDistance(60)
+        .charge(-300)
+        .on('tick', tick)
+        .start();
 
     svg.append("svg:defs").selectAll("marker")
-            .data(['no', 'now', 'tj'])
-            .enter().append("svg:marker")
-            .attr("id", String)
-            .attr("viewBox", "0 -5 10 10")
-            .attr("refX", 15)
-            .attr("refY", -1.5)
-            .attr("markerWidth", 8)
-            .attr("markerHeight", 8)
-            .attr("orient", "auto")
-            .append("svg:path")
-            .attr("d", "M0,-5L10,0L0,5");
+        .data(['no', 'now', 'tj'])
+        .enter().append("svg:marker")
+        .attr("id", String)
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", -1.5)
+        .attr("markerWidth", 8)
+        .attr("markerHeight", 8)
+        .attr("orient", "auto")
+        .append("svg:path")
+        .attr("d", "M0,-5L10,0L0,5");
 
 
     var path = svg.append('g').selectAll('path')
-            .data(force.links())
-            .enter()
-            .append('path')
-            .attr('class', function (d, i) {
-                return 'link ' + d.type;
-            })
-            .attr("marker-end", function (d) {
-                return "url(#" + d.type + ")";
-            });
+        .data(force.links())
+        .enter()
+        .append('path')
+        .attr('class', function (d, i) {
+            return 'link ' + d.type;
+        })
+        .attr("marker-end", function (d) {
+            return "url(#" + d.type + ")";
+        });
 
 
     var circle = svg.append('g').selectAll('circle')
-            .data(force.nodes())
-            .enter()
-            .append('circle')
-            .attr('r', function (d) {
-                var num;
-                if (d.statue == true) {
-                    num = 10;
-                } else {
-                    num = 8
+        .data(force.nodes())
+        .enter()
+        .append('circle')
+        .attr('r', function (d) {
+            var num;
+            if (d.statue == true) {
+                num = 10;
+            } else {
+                num = 8
+            }
+            return num
+        })
+        .attr('stroke-width', 4)
+        .attr('fill', function (d) {
+            var color;
+            if (d.statue == true) {
+                color = '#FFA400'
+            } else {
+                color = '#fff'
+            }
+            return color
+        })
+        .attr('stroke', function (d) {
+            var color;
+            if (d.statue == true) {
+                color = '#FFA400'
+            } else {
+                if (d.type == "1") {
+                    color = '#ff7f0e'
+                } else if (d.type == "2") {
+                    color = '#b3e5fc'
+                } else if (d.type == "3") {
+                    color = '#9ccc65'
                 }
-                return num
-            })
-            .attr('stroke-width', 4)
-            .attr('fill', function (d) {
-                var color;
-                if (d.statue == true) {
-                    color = '#FFA400'
-                } else {
-                    color = '#fff'
-                }
-                return color
-            })
-            .attr('stroke', function (d) {
-                var color;
-                if (d.statue == true) {
-                    color = '#FFA400'
-                } else {
-                    if (d.type == "1") {
-                        color = '#ff7f0e'
-                    } else if (d.type == "2") {
-                        color = '#b3e5fc'
-                    } else if (d.type == "3") {
-                        color = '#9ccc65'
-                    }
-                }
-                return color
-            })
-            .call(force.drag)
-            .on("mouseover", function (d, i) {
-                if (d.statue == false) {
-                    d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
-                    d3.select('#div').text(d.name);
-                }
-                tooltip.html(d.name)
-                        .style('left', (d3.event.pageX) + 'px')
-                        .style('top', (d3.event.pageY) + 'px')
-                        .style('opacity', 1.0)
-            })
-            .on("mouseout", function (d, i) {
-                if (d.statue == false) {
-                    d3.select(this)
-                            .transition()
-                            .duration(500)
-                            .style("fill", "#fff")
-                            .attr('r', 8)
-                            .style("stroke", function (d) {
-                                var color;
-                                if (d.type == "1") {
-                                    color = '#ff7f0e'
-                                } else if (d.type == "2") {
-                                    color = '#b3e5fc'
-                                } else if (d.type == "3") {
-                                    color = '#9ccc65'
-                                }
-                                return color
-                            });
-                    d3.select('#div').text("");
-                }
-                tooltip.style('opacity', 0.0);
-            })
-            .on('mousemove', function (d) {
-                tooltip.style('left', (d3.event.pageX) + 'px')
-                        .style('top', (d3.event.pageY + 20) + 'px')
-            });
+            }
+            return color
+        })
+        .call(force.drag)
+        .on("mouseover", function (d, i) {
+            if (d.statue == false) {
+                d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
+                d3.select('#div').text(d.name);
+            }
+            tooltip.html(d.name)
+                .style('left', (d3.event.pageX) + 'px')
+                .style('top', (d3.event.pageY) + 'px')
+                .style('opacity', 1.0)
+        })
+        .on("mouseout", function (d, i) {
+            if (d.statue == false) {
+                d3.select(this)
+                    .transition()
+                    .duration(500)
+                    .style("fill", "#fff")
+                    .attr('r', 8)
+                    .style("stroke", function (d) {
+                        var color;
+                        if (d.type == "1") {
+                            color = '#ff7f0e'
+                        } else if (d.type == "2") {
+                            color = '#b3e5fc'
+                        } else if (d.type == "3") {
+                            color = '#9ccc65'
+                        }
+                        return color
+                    });
+                d3.select('#div').text("");
+            }
+            tooltip.style('opacity', 0.0);
+        })
+        .on('mousemove', function (d) {
+            tooltip.style('left', (d3.event.pageX) + 'px')
+                .style('top', (d3.event.pageY + 20) + 'px')
+        });
 
     var text = svg.append('g').selectAll('g').data(force.nodes()).enter().append('g');
 
@@ -231,18 +238,18 @@
         return d.name;
     });
 
-  //  svg.call(zoom)
+    //svg.call(drag)
 
 
     function tick() {//打点path格式是：Msource.x,source.yArr00,1target.x,target.y
         path.attr("d", function (d) {
             var dx = d.target.x - d.source.x,//增量
-                    dy = d.target.y - d.source.y,
-                    dr = Math.sqrt(dx * dx + dy * dy);
+                dy = d.target.y - d.source.y,
+                dr = Math.sqrt(dx * dx + dy * dy);
             return "M" + d.source.x + ","
-                    + d.source.y + "A" + dr + ","
-                    + dr + " 0 0,1 " + d.target.x + ","
-                    + d.target.y;
+                + d.source.y + "A" + dr + ","
+                + dr + " 0 0,1 " + d.target.x + ","
+                + d.target.y;
         });
 
         circle.attr("transform", function (d) {
