@@ -42,6 +42,9 @@
         var nodes = tree.nodes(root);
         var links = tree.links(nodes);
 
+        console.log(nodes);
+        console.log(links);
+
         var link = svg.selectAll('.link')
                 .data(links)
                 .enter()

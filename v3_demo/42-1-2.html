@@ -148,6 +148,8 @@
     var links = dataset.edges;
     var nodes = dataset.nodes;
 
+
+
     nodes.some(function (d,i) {
         if(d.step==1){
             d.y=100;
@@ -169,13 +171,8 @@
                 v.target = w;
             }
         });
-        //v.index = ++i;
+        v.index = ++i;
     });
-
-
-
-
-
 
     console.log(nodes);
     console.log(links);
