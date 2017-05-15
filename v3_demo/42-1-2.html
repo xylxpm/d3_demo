@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>d3-再一个实例 带文字和箭头的力导向图</title>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js" charset="utf-8"></script>-->
+
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
     <style>
         path.link {
@@ -78,61 +78,26 @@
 </head>
 <body>
 <div id="div"></div>
-<svg width="1000" height="1000"></svg>
+
 </body>
 
 <script>
-    //    var nodes = [{
-    //        "id": 1,
-    //        "ip": "1.1.1.1",
-    //        "r": 20,
-    //        "x": 200,
-    //        "y": 300
-    //    }, {
-    //        "id": 2,
-    //        "ip": "1.1.1.2",
-    //        "r": 30,
-    //        "x": 300,
-    //        "y": 300
-    //    }, {
-    //        "id": 3,
-    //        "ip": "1.1.1.3",
-    //        "r": 15,
-    //        "x": 450,
-    //        "y": 200
-    //    }, {
-    //        "id": 4,
-    //        "ip": "1.1.1.4",
-    //        "r": 20,
-    //        "x": 450,
-    //        "y": 400
-    //    }];
-    //    var links = [{
-    //        "source": 1,
-    //        "target": 2
-    //    }, {
-    //        "source": 2,
-    //        "target": 3
-    //    }, {
-    //        "source": 2,
-    //        "target": 4
-    //    }];
-
+    var width = 600, height = 600;
     //statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）
     var dataset = {
         nodes: [
-            {id: 0, name: "知识1", type: "1", statue: true, step: 1},
-            {id: 1, name: "知识2", type: "1", statue: false, step: 1},
-            {id: 2, name: "知识3", type: "1", statue: false, step: 1},
-            {id: 3, name: "知识4", type: "1", statue: false, step: 1},
-            {id: 4, name: "知识5", type: "2", statue: false, step: 2},
-            {id: 5, name: "知识6", type: "2", statue: false, step: 2},
-            {id: 6, name: "知识7", type: "2", statue: false, step: 2},
-            {id: 7, name: "知识8", type: "2", statue: false, step: 2},
-            {id: 8, name: "知识9", type: "2", statue: false, step: 2}
+            {id: 0, name: "aaa", type: "1", statue: true, step: 0},
+            {id: 1, name: "bbb", type: "1", statue: false, step: 1},
+            {id: 2, name: "ccc", type: "1", statue: false, step: 1},
+            {id: 3, name: "ddd", type: "1", statue: false, step: 1},
+            {id: 4, name: "eee", type: "2", statue: false, step: 2},
+            {id: 5, name: "fff", type: "2", statue: false, step: 2},
+            {id: 6, name: "ggg", type: "2", statue: false, step: 2},
+            {id: 7, name: "hhh", type: "2", statue: false, step: 3},
+            {id: 8, name: "iii", type: "2", statue: false, step: 3}
         ],
         edges: [
-            {source: 0, target: 1, type: "now"},//type  路径信息，now学过的，ti推荐的，no没学过的
+            {source: 0, target: 1, type: "now"},
             {source: 0, target: 3, type: "no"},
             {source: 1, target: 2, type: "tj"},
             {source: 1, target: 5, type: "no"},
@@ -145,25 +110,49 @@
         ]
     };
 
+
     var links = dataset.edges;
-    var nodes = dataset.nodes;
+    var old_nodes = dataset.nodes;
 
+    var nodes = [], lastNodes = [];
 
-
-    nodes.some(function (d,i) {
-        if(d.step==1){
-            d.y=100;
-
-        }else{
-
-            d.y=200;
+    //原始数据分组
+    for (var i = 0; i < old_nodes.length; i++) {
+        if (nodes[old_nodes[i].step] == undefined) {
+            var list = [];
+            list.push(old_nodes[i]);
+            nodes[old_nodes[i].step] = list;
+        } else {
+            nodes[old_nodes[i].step].push(old_nodes[i]);
         }
-    })
+    }
 
+    //行数
+    var rowCount = nodes.length;
+    //    console.log('行数' + rowCount);
+    //每一行的高度
+    var rowHeight = height / rowCount;
+    //    console.log('每一行的高度' + rowHeight);
+    //每一行的中心
+    var rowCenter = rowHeight / 2;
+    //    console.log('每一行的中心' + rowCenter);
+
+    for (var i = 0; i < nodes.length; i++) {
+        for (var j = 0; j < nodes[i].length; j++) {
+            nodes[i][j].y = ((i + 1) * rowHeight) - rowCenter+Math.floor(Math.random()*52 + 1);
+            nodes[i][j].py = ((i + 1) * rowHeight) - rowCenter+Math.floor(Math.random()*52 + 1);
+            var colCount = nodes[i].length;
+            var colWidth = width / colCount;
+            var colCenter = colWidth / 2;
+            nodes[i][j].x = ((j + 1) * colWidth) - colCenter+Math.floor(Math.random()*52 + 1);
+            nodes[i][j].px = ((j + 1) * colWidth) - colCenter+Math.floor(Math.random()*52 + 1);
+            lastNodes.push(nodes[i][j]);
+        }
+    }
 
     // 数据转换
     links.some(function (v, i) {
-        nodes.some(function (w, j) {
+        lastNodes.some(function (w, j) {
             if (v.source == w.id) {
                 v.source = w;
             }
@@ -173,46 +162,119 @@
         });
         v.index = ++i;
     });
-
-    console.log(nodes);
+    console.log(lastNodes);
     console.log(links);
+    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+    var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
 
 
-    var svg = d3.select("body").select("svg");
+    var links = svg.append('g').selectAll("path")
+            .data(links)
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", function (d) {
+                var x1 = d.source.x;
+                var y1 = d.source.y;
+                var x2 = d.target.x;
+                var y2 = d.target.y;
+                return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+            })
+            .style("stroke", function (d, i) {
+                var color;
+                if (d.type == 'now') {
+                    color = 'red'
+                } else if (d.type == 'tj') {
+                    color = 'blue'
+                } else if (d.type == 'no') {
+                    color = '#ccc'
+                }
+                return color
+            })
+            .style("storke-width", "1px");
 
 
+    var circle = svg.append('g').selectAll('circle')
+            .data(lastNodes)
+            .enter()
+            .append('circle')
+            .attr("cx", function (d) {
+                return d.x;
+            })
+            .attr("cy", function (d) {
+                return d.y;
+            })
+            .attr('r', function (d) {
+                var num;
+                if (d.statue == true) {
+                    num = 10;
+                } else {
+                    num = 8
+                }
+                return num
+            })
+            .attr('stroke-width', 4)
+            .attr('fill', function (d) {
+                var color;
+                if (d.statue == true) {
+                    color = '#FFA400'
+                } else {
+                    color = '#fff'
+                }
+                return color
+            })
+            .attr('stroke', function (d) {
+                var color;
+                if (d.statue == true) {
+                    color = '#FFA400'
+                } else {
+                    if (d.type == "1") {
+                        color = '#ff7f0e'
+                    } else if (d.type == "2") {
+                        color = '#b3e5fc'
+                    } else if (d.type == "3") {
+                        color = '#9ccc65'
+                    }
+                }
+                return color
+            })
+            .on("mouseover", function (d, i) {
+                if (d.statue == false) {
+                    d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
+                    d3.select('#div').text(d.name);
+                }
+                tooltip.html(d.name)
+                        .style('left', (d3.event.pageX) + 'px')
+                        .style('top', (d3.event.pageY) + 'px')
+                        .style('opacity', 1.0)
+            })
+            .on("mouseout", function (d, i) {
+                if (d.statue == false) {
+                    d3.select(this)
+                            .transition()
+                            .duration(500)
+                            .style("fill", "#fff")
+                            .attr('r', 8)
+                            .style("stroke", function (d) {
+                                var color;
+                                if (d.type == "1") {
+                                    color = '#ff7f0e'
+                                } else if (d.type == "2") {
+                                    color = '#b3e5fc'
+                                } else if (d.type == "3") {
+                                    color = '#9ccc65'
+                                }
+                                return color
+                            });
+                    d3.select('#div').text("");
+                }
+                tooltip.style('opacity', 0.0);
+            })
+            .on('mousemove', function (d) {
+                tooltip.style('left', (d3.event.pageX) + 'px')
+                        .style('top', (d3.event.pageY + 20) + 'px')
+            });
 
-    var nodes = svg.selectAll("circle")
-        .data(nodes)
-        .enter().append("circle")
-        .attr("class", "node")
-        .attr('title',function (d) {
-            return d.name;
-        })
-        .attr("r", 8)
-        .attr("cx", function (d) {
-            return d.x;
-        })
-        .attr("cy", function (d) {
-            return d.y;
-        })
-        .style("fill", "red");
 
-
-    //    var links = svg.selectAll("path")
-    //        .data(links)
-    //        .enter().append("path")
-    //        .attr("class", "link")
-    //        .attr("d", function (d) {
-    //            var x1 = d.source.x;
-    //            var y1 = d.source.y;
-    //            var x2 = d.target.x;
-    //            var y2 = d.target.y;
-    //
-    //            return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
-    //        })
-    //        .style("stroke", "blue")
-    //        .style("storke-width", "1px");
 
     //nodes.call(d3.drag()
     //.on("start", dragstart)
@@ -230,7 +292,7 @@
         // 重新绘制当前节点以及相关的链路位置即可
         var node = d3.select(this);
         node.attr("cx", d.x)
-            .attr("cy", d.y);
+                .attr("cy", d.y);
         var link = links.filter(function (v, i) {
             if (v.source.id == d.id || v.target.id == d.id) {
                 return true;

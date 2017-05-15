@@ -137,7 +137,8 @@
             .charge(-300)
             .on('tick', tick)
             .start();
-
+    console.log(dataset.nodes);
+    console.log(dataset.edges);
     svg.append("svg:defs").selectAll("marker")
             .data(['no', 'now', 'tj'])
             .enter().append("svg:marker")
