@@ -139,16 +139,48 @@
 
     for (var i = 0; i < nodes.length; i++) {
         for (var j = 0; j < nodes[i].length; j++) {
-            nodes[i][j].y = ((i + 1) * rowHeight) - rowCenter+Math.floor(Math.random()*52 + 1);
-            nodes[i][j].py = ((i + 1) * rowHeight) - rowCenter+Math.floor(Math.random()*52 + 1);
+
+            nodes[i][j].y = ((i + 1) * rowHeight) - rowCenter + Math.floor(Math.random() * 50 + 1);
+            nodes[i][j].py = ((i + 1) * rowHeight) - rowCenter + Math.floor(Math.random() * 50 + 2);
             var colCount = nodes[i].length;
             var colWidth = width / colCount;
             var colCenter = colWidth / 2;
-            nodes[i][j].x = ((j + 1) * colWidth) - colCenter+Math.floor(Math.random()*52 + 1);
-            nodes[i][j].px = ((j + 1) * colWidth) - colCenter+Math.floor(Math.random()*52 + 1);
+            var num_x = GetX(nodes[i].length,colWidth,i,j);
+            nodes[i][j].x = num_x
+//            nodes[i][j].x = ((j + 1) * colWidth) - colCenter + Math.floor(Math.random() * 50 + 3);
+//            nodes[i][j].px = ((j + 1) * colWidth) - colCenter + Math.floor(Math.random() * 50 + 4);
+
             lastNodes.push(nodes[i][j]);
         }
     }
+    function GetX(itemLength, colWidth, c, cnt) {
+        var rowC = 0;
+        if (itemLength == 1) {
+            rowC = colWidth / 2;
+        }
+        else {
+            if (cnt == 0) {
+                rowC = 5;
+            }
+            else if (cnt == itemLength - 1) {
+                rowC = colWidth - 5;
+            }
+            else {
+                var temp = itemLength - 2;
+                var tempHeight = colWidth / temp;
+                for (var i = 1; i <= temp; i++) {
+                    if (cnt == i) {
+                        rowC = tempHeight * i;
+                    }
+                }
+            }
+        }
+
+        return rowC + colWidth * c;
+    }
+
+
+
 
     // 数据转换
     links.some(function (v, i) {
@@ -178,6 +210,7 @@
                 var x2 = d.target.x;
                 var y2 = d.target.y;
                 return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+                //M10 10 C 20 20, 40 20, 50 10
             })
             .style("stroke", function (d, i) {
                 var color;
@@ -273,7 +306,6 @@
                 tooltip.style('left', (d3.event.pageX) + 'px')
                         .style('top', (d3.event.pageY + 20) + 'px')
             });
-
 
 
     //nodes.call(d3.drag()
