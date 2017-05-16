@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>d3-按照需求的实例</title>
-    <script src="./js/jquery-2.1.4.min.js" charset="utf-8"></script>
-    <script src="./js/jquery.svg.pan.zoom.js" charset="utf-8"></script>
+    <!--<script src="./js/jquery-2.1.4.min.js" charset="utf-8"></script>-->
+    <!--<script src="./js/jquery.svg.pan.zoom.js" charset="utf-8"></script>-->
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
 
     <style>
@@ -84,12 +84,6 @@
 <script>
     var width = 300, height = 300;
 
-    var leftArrow = 37;	// The numeric code for the left arrow key.
-    var upArrow = 38;
-    var rightArrow = 39;
-    var downArrow = 40;
-    var panRate = 10;	// Number of pixels to pan per key press.
-    var zoomRate = 1.1;
 
     var dataset = {
         nodes: [/*statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）*/
@@ -185,11 +179,18 @@
         v.index = ++i;
     });
 
-    var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height).attr('viewBox', '0 0 ' + width + ' ' + height + '');
+    /* 这一行配合最下面使用viewBox 缩放 */
+    //var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height).attr('viewBox', '0 0 ' + width + ' ' + height + '');
+
+    var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height);
     var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
 
+    var zoom = d3.behavior.zoom().scaleExtent([1, 10]).on('zoom', zoomed);
 
-    var links = svg.append('g').selectAll("path")
+    /* 这个要配合transform 缩放 */
+    var svg_g = svg.append('g').attr('id', 'svg_g');
+
+    var links = svg_g.append('g').selectAll("path")
             .data(links)
             .enter().append("path")
             .attr("class", "link")
@@ -215,7 +216,7 @@
             .style("storke-width", "1px");
 
 
-    var circle = svg.append('g').selectAll('circle')
+    var circle = svg_g.append('g').selectAll('circle')
             .data(lastNodes)
             .enter()
             .append('circle')
@@ -298,34 +299,44 @@
             });
 
 
-   $("svg").svgPanZoom();
+    /* 使用 transform 做缩放和平移 */
+    svg.call(zoom);
+    function zoomed() {
+        svg.style('cursor',"move")
+        d3.select(this).attr('transform', 'translate(' + d3.event.translate + ') scale(' + d3.event.scale + ')');
+    }
 
+    /*使用svgPanZoom插件缩放，之前要加载jq和插件*/
+    //$("svg").svgPanZoom();
+
+    /* 以下是手动缩放 */
     // document.getElementById('div2').addEventListener('mousewheel', zoomViaMouseWheel);
-    function zoomViaMouseWheel(mouseWheelEvent) {
-        if (mouseWheelEvent.wheelDelta > 0)
-            zoom('zoomIn');
-        else
-            zoom('zoomOut');
-    }
-    function zoom(zoomType) {
-        var viewBox = svg.attr('viewBox');
-        var viewBoxValues = viewBox.split(' ');
-        viewBoxValues[2] = parseFloat(viewBoxValues[2]);
-        viewBoxValues[3] = parseFloat(viewBoxValues[3]);
-        if (zoomType == 'zoomIn') {
-            viewBoxValues[2] /= zoomRate;
-            viewBoxValues[3] /= zoomRate;
-        }
-        else if (zoomType == 'zoomOut') {
-            viewBoxValues[2] *= zoomRate;
-            viewBoxValues[3] *= zoomRate;
-        }
-        else
-            console.log("function zoom(zoomType) given invalid zoomType parameter.");
-
-        svg.attr('viewBox', viewBoxValues.join(' '));
-
-    }
+    //    var zoomRate = 1.1;
+    //    function zoomViaMouseWheel(mouseWheelEvent) {
+    //        if (mouseWheelEvent.wheelDelta > 0)
+    //            zoom('zoomIn');
+    //        else
+    //            zoom('zoomOut');
+    //    }
+    //    function zoom(zoomType) {
+    //        var viewBox = svg.attr('viewBox');
+    //        var viewBoxValues = viewBox.split(' ');
+    //        viewBoxValues[2] = parseFloat(viewBoxValues[2]);
+    //        viewBoxValues[3] = parseFloat(viewBoxValues[3]);
+    //        if (zoomType == 'zoomIn') {
+    //            viewBoxValues[2] /= zoomRate;
+    //            viewBoxValues[3] /= zoomRate;
+    //        }
+    //        else if (zoomType == 'zoomOut') {
+    //            viewBoxValues[2] *= zoomRate;
+    //            viewBoxValues[3] *= zoomRate;
+    //        }
+    //        else
+    //            console.log("function zoom(zoomType) given invalid zoomType parameter.");
+    //
+    //        svg.attr('viewBox', viewBoxValues.join(' '));
+    //
+    //    }
 
 
 </script>
