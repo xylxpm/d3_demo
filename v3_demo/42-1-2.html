@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>d3-再一个实例 带文字和箭头的力导向图</title>
-
+    <title>d3-按照需求的实例</title>
+    <script src="./js/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script src="./js/jquery.svg.pan.zoom.js" charset="utf-8"></script>
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
+
     <style>
         path.link {
             fill: none;
@@ -57,7 +59,7 @@
             border-radius: 3px;
         }
 
-        #div {
+        #div1 {
             height: 24px;
             border: 1px solid red;
             width: 300px;
@@ -66,41 +68,46 @@
 
         #div2 {
             height: 24px;
-            border: 1px solid red;
-            width: 300px;
-            text-align: center;
-        }
-
-        svg {
             border: 1px solid blue;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
-<div id="div"></div>
-
+<div id="div1"></div>
+<div id="div2"></div>
 </body>
 
 <script>
-    var width = 600, height = 600;
-    //statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）
+    var width = 300, height = 300;
+
+    var leftArrow = 37;	// The numeric code for the left arrow key.
+    var upArrow = 38;
+    var rightArrow = 39;
+    var downArrow = 40;
+    var panRate = 10;	// Number of pixels to pan per key press.
+    var zoomRate = 1.1;
+
     var dataset = {
-        nodes: [
-            {id: 0, name: "aaa", type: "1", statue: true, step: 0},
+        nodes: [/*statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）*/
+            {id: 0, name: "aaa", type: "1", statue: false, step: 0},
             {id: 1, name: "bbb", type: "1", statue: false, step: 1},
             {id: 2, name: "ccc", type: "1", statue: false, step: 1},
-            {id: 3, name: "ddd", type: "1", statue: false, step: 1},
+            {id: 3, name: "ddd", type: "1", statue: true, step: 1},
             {id: 4, name: "eee", type: "2", statue: false, step: 2},
             {id: 5, name: "fff", type: "2", statue: false, step: 2},
             {id: 6, name: "ggg", type: "2", statue: false, step: 2},
             {id: 7, name: "hhh", type: "2", statue: false, step: 3},
             {id: 8, name: "iii", type: "2", statue: false, step: 3}
         ],
-        edges: [
-            {source: 0, target: 1, type: "now"},
+        edges: [/*type:no不推荐，tj推荐，now当前*/
+            {source: 0, target: 1, type: "no"},
             {source: 0, target: 3, type: "no"},
             {source: 1, target: 2, type: "tj"},
-            {source: 1, target: 5, type: "no"},
+            {source: 1, target: 5, type: "now"},
             {source: 1, target: 3, type: "tj"},
             {source: 1, target: 6, type: "no"},
             {source: 2, target: 3, type: "no"},
@@ -111,10 +118,7 @@
     };
 
 
-    var links = dataset.edges;
-    var old_nodes = dataset.nodes;
-
-    var nodes = [], lastNodes = [];
+    var links = dataset.edges, old_nodes = dataset.nodes, nodes = [], lastNodes = [];
 
     //原始数据分组
     for (var i = 0; i < old_nodes.length; i++) {
@@ -126,6 +130,7 @@
             nodes[old_nodes[i].step].push(old_nodes[i]);
         }
     }
+    console.log(nodes);
 
     //行数
     var rowCount = nodes.length;
@@ -137,50 +142,35 @@
     var rowCenter = rowHeight / 2;
     //    console.log('每一行的中心' + rowCenter);
 
-    for (var i = 0; i < nodes.length; i++) {
-        for (var j = 0; j < nodes[i].length; j++) {
 
-            nodes[i][j].y = ((i + 1) * rowHeight) - rowCenter + Math.floor(Math.random() * 50 + 1);
-            nodes[i][j].py = ((i + 1) * rowHeight) - rowCenter + Math.floor(Math.random() * 50 + 2);
-            var colCount = nodes[i].length;
-            var colWidth = width / colCount;
-            var colCenter = colWidth / 2;
-            var num_x = GetX(nodes[i].length,colWidth,i,j);
-            nodes[i][j].x = num_x
-//            nodes[i][j].x = ((j + 1) * colWidth) - colCenter + Math.floor(Math.random() * 50 + 3);
-//            nodes[i][j].px = ((j + 1) * colWidth) - colCenter + Math.floor(Math.random() * 50 + 4);
-
-            lastNodes.push(nodes[i][j]);
-        }
-    }
-    function GetX(itemLength, colWidth, c, cnt) {
+    var GetY = function (itemLength, colWidth, c, cnt) {
         var rowC = 0;
+        var sc = rowHeight / 2 - rowHeight * 0.05;
         if (itemLength == 1) {
             rowC = colWidth / 2;
         }
         else {
-            if (cnt == 0) {
-                rowC = 5;
-            }
-            else if (cnt == itemLength - 1) {
-                rowC = colWidth - 5;
+            if (cnt == 0 || cnt % 2 == 0) {
+                rowC = sc;
             }
             else {
-                var temp = itemLength - 2;
-                var tempHeight = colWidth / temp;
-                for (var i = 1; i <= temp; i++) {
-                    if (cnt == i) {
-                        rowC = tempHeight * i;
-                    }
-                }
+                rowC = colWidth - sc;
             }
         }
-
         return rowC + colWidth * c;
     }
 
-
-
+    for (var i = 0; i < nodes.length; i++) {
+        for (var j = 0; j < nodes[i].length; j++) {
+            var colCount = nodes[i].length;
+            var colWidth = width / colCount;
+            var colCenter = colWidth / 2;
+            var num_x = GetY(nodes[i].length, colWidth, i, j);
+            nodes[i][j].x = colCenter + colWidth * j;
+            nodes[i][j].y = GetY(nodes[i].length, rowHeight, i, j);
+            lastNodes.push(nodes[i][j]);
+        }
+    }
 
     // 数据转换
     links.some(function (v, i) {
@@ -194,9 +184,8 @@
         });
         v.index = ++i;
     });
-    console.log(lastNodes);
-    console.log(links);
-    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+
+    var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height).attr('viewBox', '0 0 ' + width + ' ' + height + '');
     var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
 
 
@@ -273,12 +262,13 @@
             .on("mouseover", function (d, i) {
                 if (d.statue == false) {
                     d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
-                    d3.select('#div').text(d.name);
+                    d3.select('#div1').text(d.name);
                 }
+                ;
                 tooltip.html(d.name)
-                        .style('left', (d3.event.pageX) + 'px')
-                        .style('top', (d3.event.pageY) + 'px')
-                        .style('opacity', 1.0)
+                        .style('left', (d3.event.pageX - 50) + 'px')
+                        .style('top', (d3.event.pageY + 20) + 'px')
+                        .style('opacity', 1.0);
             })
             .on("mouseout", function (d, i) {
                 if (d.statue == false) {
@@ -298,50 +288,49 @@
                                 }
                                 return color
                             });
-                    d3.select('#div').text("");
+                    d3.select('#div1').text("");
                 }
                 tooltip.style('opacity', 0.0);
             })
             .on('mousemove', function (d) {
-                tooltip.style('left', (d3.event.pageX) + 'px')
+                tooltip.style('left', (d3.event.pageX - 50) + 'px')
                         .style('top', (d3.event.pageY + 20) + 'px')
             });
 
 
-    //nodes.call(d3.drag()
-    //.on("start", dragstart)
-    //.on("drag", dragged)
-    // .on("end", dragend));
+   $("svg").svgPanZoom();
 
-    function dragstart() {
+    // document.getElementById('div2').addEventListener('mousewheel', zoomViaMouseWheel);
 
+
+    function zoomViaMouseWheel(mouseWheelEvent) {
+        if (mouseWheelEvent.wheelDelta > 0)
+            zoom('zoomIn');
+        else
+            zoom('zoomOut');
     }
 
-    function dragged(d) {
-        d.x = d3.event.x;
-        d.y = d3.event.y;
+    function zoom(zoomType) {
+        var viewBox = svg.attr('viewBox');
+        var viewBoxValues = viewBox.split(' ');
 
-        // 重新绘制当前节点以及相关的链路位置即可
-        var node = d3.select(this);
-        node.attr("cx", d.x)
-                .attr("cy", d.y);
-        var link = links.filter(function (v, i) {
-            if (v.source.id == d.id || v.target.id == d.id) {
-                return true;
-            }
-        });
-        link.attr("d", function (d) {
-            var x1 = d.source.x;
-            var y1 = d.source.y;
-            var x2 = d.target.x;
-            var y2 = d.target.y;
+//        viewBoxValues[0] = 0;
+//        viewBoxValues[1] = 0;
+        viewBoxValues[2] = parseFloat(viewBoxValues[2]);
+        viewBoxValues[3] = parseFloat(viewBoxValues[3]);
 
-            return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
-        });
-    }
+        if (zoomType == 'zoomIn') {
+            viewBoxValues[2] /= zoomRate;
+            viewBoxValues[3] /= zoomRate;
+        }
+        else if (zoomType == 'zoomOut') {
+            viewBoxValues[2] *= zoomRate;
+            viewBoxValues[3] *= zoomRate;
+        }
+        else
+            console.log("function zoom(zoomType) given invalid zoomType parameter.");
 
-
-    function dragend() {
+        svg.attr('viewBox', viewBoxValues.join(' '));
 
     }
 
