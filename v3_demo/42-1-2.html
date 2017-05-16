@@ -301,24 +301,17 @@
    $("svg").svgPanZoom();
 
     // document.getElementById('div2').addEventListener('mousewheel', zoomViaMouseWheel);
-
-
     function zoomViaMouseWheel(mouseWheelEvent) {
         if (mouseWheelEvent.wheelDelta > 0)
             zoom('zoomIn');
         else
             zoom('zoomOut');
     }
-
     function zoom(zoomType) {
         var viewBox = svg.attr('viewBox');
         var viewBoxValues = viewBox.split(' ');
-
-//        viewBoxValues[0] = 0;
-//        viewBoxValues[1] = 0;
         viewBoxValues[2] = parseFloat(viewBoxValues[2]);
         viewBoxValues[3] = parseFloat(viewBoxValues[3]);
-
         if (zoomType == 'zoomIn') {
             viewBoxValues[2] /= zoomRate;
             viewBoxValues[3] /= zoomRate;
