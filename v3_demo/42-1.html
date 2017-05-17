@@ -167,14 +167,15 @@
             })
             .style("fill", "red");
 
-//    nodes.call(d3.drag()
-//    .on("start", dragstart)
-//    .on("drag", dragged)
-//     .on("end", dragend));
+    //    nodes.call(d3.drag()
+    //    .on("start", dragstart)
+    //    .on("drag", dragged)
+    //     .on("end", dragend));
 
-    function dragstart() {
+    var drag = d3.behavior.drag().on('drag', dragmove);
+    var zoom = d3.behavior.zoom().scaleExtent([-10, 10]).on('zoom', zoomed);
 
-    }
+    svg.call(zoom).call(drag)
 
     function dragged(d) {
         d.x = d3.event.x;
@@ -198,10 +199,16 @@
             return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
         });
     }
-    ;
 
-    function dragend() {
 
+    function dragmove(d) {
+//        d3.select(this).attr('cx', d.cx = d3.event.x).attr('cy', d.cy = d3.event.y);
+        d3.select(this).attr('transform-origin', d3.event.sourceEvent.layerX + ' ' + d3.event.sourceEvent.layerY).attr('transform', 'translate(' + (d3.event.sourceEvent.layerX + d3.event.x) + ' ' + (d3.event.sourceEvent.layerY + d3.event.y) + ')');
+    }
+
+    function zoomed() {
+        console.log(d3.event.scale);
+        d3.select(this).attr('transform-origin', d3.event.sourceEvent.layerX + ' ' + d3.event.sourceEvent.layerY).attr('transform', 'scale(' + d3.event.scale + ')');
     }
 
 

@@ -76,6 +76,8 @@
             overflow: hidden;
             margin-left: 200px;
         }
+        svg{
+            border: 1px solid yellowgreen;}
     </style>
 </head>
 <body>
@@ -130,14 +132,10 @@
 
     //行数
     var rowCount = nodes.length;
-    //    console.log('行数' + rowCount);
     //每一行的高度
     var rowHeight = height / rowCount;
-    //    console.log('每一行的高度' + rowHeight);
     //每一行的中心
     var rowCenter = rowHeight / 2;
-    //    console.log('每一行的中心' + rowCenter);
-
 
     var GetY = function (itemLength, colWidth, c, cnt) {
         var rowC = 0;
@@ -182,16 +180,10 @@
     });
 
     /* 这一行配合最下面使用viewBox 缩放 */
-    var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height).attr("transform", "scale(1,1)")//.attr('viewBox', '0 0 ' + width + ' ' + height + '');
-
-    //var svg = d3.select('#div2').append('svg').attr('width', width).attr('height', height);
+    var svg = d3.select('#div2').append('svg').attr('id','mysvg').attr('width', width).attr('height', height).attr("transform", "scale(1,1) translate(0,0)")
     var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
 
-
-    /* 这个要配合transform 缩放 */
-    var svg_g = svg.append('g').attr('id', 'svg_g');
-
-    var links = svg_g.append('g').selectAll("path")
+    var links = svg.append('g').selectAll("path")
             .data(links)
             .enter().append("path")
             .attr("class", "link")
@@ -217,7 +209,7 @@
             .style("storke-width", "1px");
 
 
-    var circle = svg_g.append('g').selectAll('circle')
+    var circle = svg.append('g').selectAll('circle')
             .data(lastNodes)
             .enter()
             .append('circle')
@@ -300,11 +292,12 @@
             });
 
 
+
     /*使用svgPanZoom插件缩放，之前要加载jq和插件*/
     //       $("svg").svgPanZoom();
 
     /* 以下是手动缩放 */
-    document.getElementById('div2').addEventListener('mousewheel', zoomViaMouseWheel);
+   document.getElementById('div2').addEventListener('mousewheel', zoomViaMouseWheel);
     var zoomRate = 1.1;
     function zoomViaMouseWheel(mouseWheelEvent) {
         if (mouseWheelEvent.wheelDelta > 0)
@@ -312,11 +305,11 @@
         else
             zoom('zoomOut', mouseWheelEvent);
     }
-
     function zoom(zoomType, mouseWheelEvent) {
         var x = mouseWheelEvent.layerX;
         var y = mouseWheelEvent.layerY;
-        var scale = svg.attr('transform').substring(6).split(')')[0].split(',');
+        var transform = svg.attr('transform').split(' ');
+        var scale =transform[0].substring(6).split(')')[0].split(',');
         svg.attr('transform-origin', x+' '+y);
 
         if (zoomType == 'zoomIn') {
@@ -326,8 +319,82 @@
             scale[0] *= zoomRate;
             scale[1] *= zoomRate;
         }
-        svg.attr('transform',"scale("+scale.join(',')+")");
+        svg.attr('transform',"scale("+scale.join(',')+") "+transform[1]);
     }
+
+
+    /* 以下是手动拖拽 */
+   // document.getElementById('mysvg').addEventListener('mousedown', dragStart);
+   // document.getElementById('mysvg').addEventListener('mousemove', dragMove);
+   // document.getElementById('mysvg').addEventListener('mouseup', dragEnd);
+
+    function dragMove(evt){
+        var x = evt.layerX;
+        var y = evt.layerY;
+        var transform = svg.attr('transform').split(' ');
+        var translate =transform[1].substring(10).split(')')[0].split(',');
+        console.log(translate);
+    }
+    function dragStart(evt){
+
+    }
+    function dragEnd(evt){
+
+    }
+
+    var SVGDocument = null;
+    var SVGRoot = null;
+    var TrueCoords = null;
+    var GrabPoint = null;
+    var BackDrop = null;
+    var DragTarget = null;
+    function Init(evt){
+        SVGDocument = evt.target.ownerDocument;
+        SVGRoot = SVGDocument.documentElement;
+        TrueCoords = SVGRoot.createSVGPoint();
+        GrabPoint = SVGRoot.createSVGPoint();
+        BackDrop = SVGDocument.getElementById("BackDrop");
+    }
+
+    function Grab(evt){
+        var targetElement = SVGDocument.getElementById("layer1");
+        if (BackDrop != targetElement){
+            DragTarget = targetElement;
+            DragTarget.parentNode.appendChild(DragTarget);
+            DragTarget.setAttributeNS(null, "pointer-events", "none");
+            var transMatrix = DragTarget.getCTM();
+            GrabPoint.x = TrueCoords.x - Number(transMatrix.e);
+            GrabPoint.y = TrueCoords.y - Number(transMatrix.f);
+        }
+    };
+
+    function Drag(evt){
+        GetTrueCoords(evt);
+        if (DragTarget){
+            var newX = TrueCoords.x - GrabPoint.x;
+            var newY = TrueCoords.y - GrabPoint.y;
+            DragTarget.setAttributeNS(null, "transform", "translate(" + newX + "," + newY + ")");
+        }
+    };
+
+    function Drop(evt){
+        if (DragTarget){
+            var targetElement = evt.target;
+            DragTarget.setAttributeNS(null, "pointer-events", "all");
+            if ("Folder" == targetElement.parentNode.id){
+                targetElement.parentNode.appendChild( DragTarget );
+            }
+            else{}
+            DragTarget = null;
+        }
+    };
+
+    function GetTrueCoords(evt){
+        var newScale = SVGRoot.currentScale;
+        var translation = SVGRoot.currentTranslate;
+        TrueCoords.x = (evt.clientX - translation.x)/newScale;
+        TrueCoords.y = (evt.clientY - translation.y)/newScale;
+    };
 
 
 </script>
