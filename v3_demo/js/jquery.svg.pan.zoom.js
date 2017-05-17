@@ -201,8 +201,8 @@ Copyright (C) 2014 Daniel Hoffmann Bernardes, Ícaro Technologies
     defaultViewBox = {
       x: 0,
       y: 0,
-      width: 1000,
-      height: 1000
+      width: 300,
+      height: 300
     };
 
     /**
