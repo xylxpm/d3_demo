@@ -54,36 +54,65 @@
             text-align: center;
             color: #fff;
             padding: 5px 3px;
-            background-color: #000;
-            border-radius: 3px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 3px;z-index: 110;
+        }
+
+        .svgcontent {
+            border: 1px solid blue;
+            width: 300px;
+            height: 300px;
+            margin-left: 200px;
         }
 
         #div1 {
-            height: 24px;
-            border: 1px solid red;
+            height: 30px;
+            line-height: 30px;
             width: 300px;
-            text-align: center;
-            margin-left: 200px;
+            text-align: left;
+            text-indent: 1em;
+            background-color: rgba(255, 255, 255, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            color: #009bbb;
+            font-size: 16px;
         }
 
         #div2 {
             height: 24px;
-            border: 1px solid blue;
             width: 300px;
             height: 300px;
             text-align: center;
-            overflow: hidden;
-            margin-left: 200px;
+            position: absolute;
+            top: 0;
+        }
+
+        #div3 {
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+            height: 100px;
+            width: 100px;
+            border-radius: 3px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
         }
 
         svg {
-            border: 1px solid yellowgreen;
+            z-index: 10
         }
+
     </style>
 </head>
 <body>
-<div id="div1"></div>
-<div id="div2"></div>
+<div class="svgcontent" style="position: relative">
+    <div id="div1"></div>
+
+    <div id="div2"></div>
+    <div id="div3"></div>
+</div>
 </body>
 
 <script>
@@ -117,7 +146,8 @@
     };
 
 
-    var links = dataset.edges, old_nodes = dataset.nodes, nodes = [], lastNodes = [];
+    var links = dataset.edges, old_nodes = dataset.nodes, nodes = [], lastNodes = [], rowCount, rowHeight, rowCenter;
+
 
     //原始数据分组
     for (var i = 0; i < old_nodes.length; i++) {
@@ -129,13 +159,6 @@
             nodes[old_nodes[i].step].push(old_nodes[i]);
         }
     }
-
-    //行数
-    var rowCount = nodes.length;
-    //每一行的高度
-    var rowHeight = height / rowCount;
-    //每一行的中心
-    var rowCenter = rowHeight / 2;
 
     var GetY = function (itemLength, colWidth, c, cnt) {
         var rowC = 0;
@@ -154,17 +177,29 @@
         return rowC + colWidth * c;
     }
 
-    for (var i = 0; i < nodes.length; i++) {
-        for (var j = 0; j < nodes[i].length; j++) {
-            var colCount = nodes[i].length;
-            var colWidth = width / colCount;
-            var colCenter = colWidth / 2;
-            var num_x = GetY(nodes[i].length, colWidth, i, j);
-            nodes[i][j].x = colCenter + colWidth * j;
-            nodes[i][j].y = GetY(nodes[i].length, rowHeight, i, j);
-            lastNodes.push(nodes[i][j]);
+    //初始化数据，坐标
+    var initData = function (width, height) {
+        //行数
+        rowCount = nodes.length;
+        //每一行的高度
+        rowHeight = height / rowCount;
+        //每一行的中心
+        rowCenter = rowHeight / 2;
+        for (var i = 0; i < nodes.length; i++) {
+            for (var j = 0; j < nodes[i].length; j++) {
+                var colCount = nodes[i].length;
+                var colWidth = width / colCount;
+                var colCenter = colWidth / 2;
+                var num_x = GetY(nodes[i].length, colWidth, i, j);
+                nodes[i][j].x = colCenter + colWidth * j;
+                nodes[i][j].y = GetY(nodes[i].length, rowHeight, i, j);
+                lastNodes.push(nodes[i][j]);
+            }
         }
     }
+
+    initData(width, height)
+
 
     // 数据转换
     links.some(function (v, i) {
@@ -193,11 +228,13 @@
 
 
     var svg = d3.select('#div2').append('svg').attr('id', 'mysvg').attr('width', width).attr('height', height).call(zoom);
-    var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
     var container = svg.append("g");
 
+    var svg_small = d3.select('#div3').append('svg').attr('width', 100).attr('height', 100)
 
-    var links = container.append('g').selectAll("path")
+    var tooltip = d3.select('body').append('div').attr('class', 'tooltip').style('opacity', 0.0);
+
+    container.append('g').selectAll("path")
             .data(links)
             .enter().append("path")
             .attr("class", "link")
@@ -207,7 +244,6 @@
                 var x2 = d.target.x;
                 var y2 = d.target.y;
                 return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
-                //M10 10 C 20 20, 40 20, 50 10
             })
             .style("stroke", function (d, i) {
                 var color;
@@ -222,8 +258,7 @@
             })
             .style("storke-width", "1px");
 
-
-    var circle = container.append('g').selectAll('circle')
+    container.append('g').selectAll('circle')
             .data(lastNodes)
             .enter()
             .append('circle')
@@ -270,9 +305,9 @@
             .on("mouseover", function (d, i) {
                 if (d.statue == false) {
                     d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
-                    d3.select('#div1').text(d.name);
+
                 }
-                ;
+                d3.select('#div1').text(d.name);
                 tooltip.html(d.name)
                         .style('left', (d3.event.pageX - 50) + 'px')
                         .style('top', (d3.event.pageY + 20) + 'px')
@@ -321,8 +356,53 @@
 
     function dragended(d) {
         d3.select(this).classed("dragging", false);
-
     }
+
+    initData(100, 100);
+
+    svg_small.append('g').selectAll("path")
+            .data(links)
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", function (d) {
+                var x1 = d.source.x;
+                var y1 = d.source.y;
+                var x2 = d.target.x;
+                var y2 = d.target.y;
+                return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
+            })
+            .style("stroke", '#ccc')
+            .style("storke-width", "1px");
+
+    svg_small.append('g').selectAll('circle')
+            .data(lastNodes)
+            .enter()
+            .append('circle')
+            .attr("cx", function (d) {
+                return d.x;
+            })
+            .attr("cy", function (d) {
+                return d.y;
+            })
+            .attr('r', function (d) {
+                var num;
+                if (d.statue == true) {
+                    num = 5;
+                } else {
+                    num = 3
+                }
+                return num
+            })
+            .attr('stroke-width', 3)
+            .attr('fill', function (d) {
+                var color;
+                if (d.statue == true) {
+                    color = '#FFA400'
+                } else {
+                    color = '#fff'
+                }
+                return color
+            })
 
 
 </script>
