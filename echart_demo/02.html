@@ -13,7 +13,7 @@
     option = null;
     option = {
         title: {
-            text: '分数，做题时间分布'
+            text: '分数，用时分布'
         },
         grid: {
             left: '3%',
@@ -52,7 +52,7 @@
             }
         },
         legend: {
-            data: ['分数','做题时间'],
+            data: ['分数','用时'],
             left: 'center',
             selectedMode:'single'
         },
@@ -98,7 +98,12 @@
                         yAxis: 'max'
                     }]]
                 },
-
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'}
+                    ]
+                },
                 markLine: {
                     lineStyle: {
                         normal: {
@@ -115,7 +120,7 @@
                 }
             },
             {
-                name: '做题时间',
+                name: '用时',
                 type: 'scatter',
                 data: [ 65.6, 71.8, 80.7, 72.6, 78.8, 74.8, 86.4, 78.4, 62.0, 81.6],
                 markArea: {
@@ -128,13 +133,19 @@
                         }
                     },
                     data: [[{
-                        name: '做题时间区间',
+                        name: '用时区间',
                         xAxis: 'min',
                         yAxis: 'min'
                     }, {
                         xAxis: 'max',
                         yAxis: 'max'
                     }]]
+                },
+                markPoint : {
+                    data : [
+                        {type : 'max', name: '最大值'},
+                        {type : 'min', name: '最小值'}
+                    ]
                 },
                 markLine: {
                     lineStyle: {
@@ -143,7 +154,7 @@
                         }
                     },
                     data: [
-                        {type: 'average', name: '时间平均值'}
+                        {type: 'average', name: '用时平均值'}
                     ]
                 }
             }
