@@ -6,16 +6,13 @@
     <script type="text/javascript" src="./js/echarts.js"></script>
 </head>
 <body>
-<div id="container" style="height: 500px;width: 100%;"></div>
+<div id="container" style="height: 230px;width: 850px; "></div>
 <script type="text/javascript">
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
     var app = {};
     option = null;
     option = {
-        title: {
-            text: '分数，做题时间分布'
-        },
         grid: {
             left: '3%',
             right: '7%',
@@ -46,18 +43,31 @@
         },
         toolbox: {
             feature: {
-                dataZoom: {}
+                dataZoom: {
+                    title:{
+                        zoom:'放大',
+                        back:'还原'
+                    }
+                }
             }
         },
         xAxis: [
             {
                 type: 'value',
                 scale: true,
+                axisLine: {
+                    lineStyle: {
+                        color: "#888888"
+                    }
+                },
                 axisLabel: {
                     formatter: '{value} 分钟'
                 },
                 splitLine: {
-                    show: false
+                    lineStyle: {
+                        type: 'dashed',
+                        color: '#eeeeee'
+                    }
                 }
             }
         ],
@@ -65,11 +75,19 @@
             {
                 type: 'value',
                 scale: true,
+                axisLine: {
+                    lineStyle: {
+                        color: "#888888"
+                    }
+                },
                 axisLabel: {
                     formatter: '{value} 分'
                 },
                 splitLine: {
-                    show: false
+                    lineStyle: {
+                        type: 'dashed',
+                        color: '#eeeeee'
+                    }
                 }
             }
         ],
@@ -84,6 +102,21 @@
                     [147.2, 49.8, '学生16'], [168.2, 49.2, '学生17'], [175.0, 73.2, '学生18'], [157.0, 47.8, '学生19'], [167.6, 68.8, '学生20'],
                     [159.5, 50.6, '学生21'], [175.0, 82.5, '学生22'], [166.8, 57.2, '学生23'], [176.5, 87.8, '学生24'], [170.2, 72.8, '学生25']
                 ],
+                itemStyle: {
+                    normal: {
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(175, 233, 75, 0.5)',
+                        shadowOffsetY: 5,
+                        color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{
+                            offset: 0,
+                            color: 'rgb(172, 230, 87)'
+                        }, {
+                            offset: 1,
+                            color: 'rgb(141, 208, 42)'
+                        }])
+                    }
+                },
+                symbolSize: 15,
                 markArea: {
                     silent: true,
                     itemStyle: {
@@ -105,7 +138,8 @@
                 markLine: {
                     lineStyle: {
                         normal: {
-                            type: 'solid'
+                            type: 'solid',
+                            color: "#fdc93c"
                         }
                     },
                     data: [
