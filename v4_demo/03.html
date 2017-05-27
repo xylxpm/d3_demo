@@ -47,7 +47,7 @@
 
     var circle = svg.selectAll('g')
         .data(circles).enter().append('g')
-        .call(d3.drag().on('start', dragStart).on('drag', dragDrag).on('end', dragEnd));
+        .call(d3.drag().on('start', dragStartNew).on('drag', dragDragNew).on('end', dragEndNew));
 
 
     var cell = circle
@@ -81,21 +81,58 @@
         })
 
 
-        function dragStart(d) {
-            d3.select(this).raise().classed('active', true);
-        }
+    //    function dragStart(d) {
+    //        d3.select(this).raise().classed('active', true);
+    //    }
+    //
+    //    function dragDrag(d) {
+    //        d3.select(this).select('circle').attr('cx', d.x = d3.event.x).attr('cy', d.y = d3.event.y);
+    //        cell = cell.data(voronoi.polygons(circles)).attr('d', renderCell);
+    //    }
+    //
+    //    function dragEnd(d) {
+    //        d3.select(this).raise().classed('active', false);
+    //    }
 
-        function dragDrag(d) {
-            d3.select(this).select('circle').attr('cx', d.x = d3.event.x).attr('cy', d.y = d3.event.y);
-            cell = cell.data(voronoi.polygons(circles)).attr('d', renderCell);
-        }
 
-        function dragEnd(d) {
-            d3.select(this).raise().classed('active', false);
-        }
+    function dragStartNew(d) {
+        //d3.select(this).raise().classed('active', true);
+        d3.select(this)
+            .transition()
+          //  .ease('elastic')
+            .duration(500)
+            .style('margin-top', -radius2)
+            .style('margin-left', -radius2 )
+            .style('width', radius2 * 2)
+            .style('height', radius2 * 2)
+            .style('border-radius', radius2)
+            .styleTween('box-shadow', function (d) {
+                return d3.interpolate('0 0px 0px rgba(0,0,0,0)', '0 4px 8px rgba(0,0,0,0.3)');
+            })
+    }
 
+    function dragDragNew(d) {
+        d3.select(this).select('circle').attr('cx', d.x = d3.event.x).attr('cy', d.y = d3.event.y)
 
+        cell = cell.data(voronoi.polygons(circles)).attr('d', renderCell);
+    }
 
+    function dragEndNew(d) {
+        //d3.select(this).raise().classed('active', false);
+
+        d3.select(this)
+            .transition()
+            // .ease('elastic')
+            .duration(500)
+            .style('margin-top', -radius)
+            .style('margin-left', -radius)
+            .style('width', radius * 2)
+            .style('height', radius * 2)
+            .style('border-radius', radius)
+            .styleTween('box-shadow', function (d) {
+                return d3.interpolate('0 4px 8px rgba(0,0,0,0.3)');
+            })
+    }
 
     function renderCell(d) {
         return d == null ? null : 'M' + d.join("L") + 'Z';
