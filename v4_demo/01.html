@@ -4,79 +4,19 @@
     <meta charset="UTF-8">
     <title>基本的d3(v4)</title>
     <script src="./js/d3.v4.8.js" charset="utf-8"></script>
-    <style></style>
+    <style>
+        .active {
+            stroke: #000;
+            stroke-width: 2px;
+        }
+    </style>
 </head>
 <body>
-
 </body>
 <script>
-    var _w = 600;
-    var _h = 600;
+    var width = 900, height = 500, radius = 30;
+    var svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
 
-
-    var _lists = [];
-    var _num = 15;
-
-    for (var i = 0; i < _num; i++) {
-        var _t = Math.floor(Math.random() * 50);
-        _lists.push(_t);
-    }
-
-    var svg = d3.select('body').append('svg').attr("width", _w).attr("height", _h);
-    var xAxisScale = d3.scaleOrdinal().domain(d3.range(_lists.length)).range([0, 500]);
-    var yAxisScale = d3.scaleLinear().domain([0, d3.max(_lists)]).range([500, 0]);
-    var xAxis = d3.axisBottom(xAxisScale);
-    var yAxis = d3.axisLeft(yAxisScale);
-    var xScale = d3.scaleOrdinal().domain(d3.range(_lists.length)).range([0, 500], 0.05);
-    var yScale = d3.scaleLinear().domain([0, d3.max(_lists)]).range([0, 500]);
-
-    svg.selectAll('rect')
-            .data(_lists)
-            .enter()
-            .append('rect')
-            .attr('x', function (d, i) {
-                return 30 + xScale(i);
-            })
-            .attr('y', function (d, i) {
-                return 50 + 500 - yScale(d);
-            })
-            .attr('width', function (d, i) {
-                return xScale.rangeBand();
-            })
-            .attr('height', yScale)
-            .attr('fill', '#ddd');
-
-//
-//    svg.selectAll('text')
-//            .data(_lists)
-//            .enter()
-//            .append('text')
-//            .attr('x', function (d, i) {
-//                return 30 + xScale(i)
-//            })
-//            .attr('y', function (d, i) {
-//                return 50 + 500 - yScale(d)
-//            })
-//            .attr('dx',function (d,i) {
-//                return xScale.range()/3.4
-//            })
-//            .attr('dy',15)
-//            .attr('text-anchor','begin')
-//            .attr('font-size',12)
-//            .attr('fill',"white")
-//            .text(function (d,i) {
-//                return d
-//            })
-//
-//    svg.append('g')
-//            .attr('class','axis')
-//            .attr('transform','translate(30,550)')
-//            .call(xAxis);
-//
-//    svg.append('g')
-//            .attr('class','axis')
-//            .attr('transform','translate(30,50)')
-//            .call(yAxis);
 
 
 </script>

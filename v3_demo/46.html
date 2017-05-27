@@ -2,37 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+
+    <title>一个练习</title>
     <script src="./js/d3.v3.5.js" charset="utf-8"></script>
-    <style>
-        .axis path,
-        .axis line {
-            fill: none;
-            stroke: black;
-            shape-rendering: crispEdges;
-        }
-
-        .axis text {
-            font-family: sans-serif;
-            font-size: 11px;
-        }
-    </style>
-
 </head>
 <body>
 
 </body>
 <script>
-    var width = 500, height = 500, padding = 20;
-    var datalist = [
-        [161.2, 51.6, '学生1'], [167.5, 59.0, '学生2'], [159.5, 49.2, '学生3'], [157.0, 63.0, '学生4'], [155.8, 53.6, '学生5'],
-        [170.0, 59.0, '学生6'], [159.1, 47.6, '学生7'], [166.0, 69.8, '学生8'], [176.2, 66.8, '学生9'], [160.2, 75.2, '学生10'],
-        [172.5, 55.2, '学生11'], [170.9, 54.2, '学生12'], [172.9, 62.5, '学生13'], [153.4, 42.0, '学生14'], [160.0, 50.0, '学生15'],
-        [147.2, 49.8, '学生16'], [168.2, 49.2, '学生17'], [175.0, 73.2, '学生18'], [157.0, 47.8, '学生19'], [167.6, 68.8, '学生20'],
-        [159.5, 50.6, '学生21'], [175.0, 82.5, '学生22'], [166.8, 57.2, '学生23'], [176.5, 87.8, '学生24'], [170.2, 72.8, '学生25']
-    ];
+    var margin = {top: 20, right: 30, bottom: 20, left: 30};
+    var width = 960;
+    var height = 500;
+    var svg = d3.select("body")
+            .append("svg")
+            .attr("width",width+margin.left+margin.right)
+            .attr("height",height+margin.top+margin.bottom)
+            .append("g")
+            .attr("transform","translate("+margin.left+","+margin.top+")");
+
+    var x = d3.time.scale().range([0, width]);
+
+    var y = d3.scale.linear().range([height, 0]);
+
+    var xAxis = d3.svg.axis().scale(x).orient('bottom');
+
+    var yAxis = d3.svg.axis().scale(y).orient('left');
+
+    var line = d3.svg.line().x(function (d, i) {
+        return x(d.date);
+    }).y(function (d, i) {
+        return y(d.temperature)
+    })
+    var color = d3.scale.category10();
+
+    var parseDate = d3.time.format("%Y%m%d").parse;
+
+    d3.tsv('./res/country.tsv', function (error, data) {
+        if (error) {
+            throw error;
+        }
+        for(var i=0;i<data.length;i++){
+            data[i].date = parseDate(data[i].date);
+        }
 
 
+        color.domain(d3.keys(data[0]).filter(function(d){return d!=="date"}));
+
+        var cities = color.domain().map(function(name){/*map会针对每个值生成一个数组*/
+            return {
+                name:name,
+                values:data.map(function(d){
+                    return {
+                        date:d.date,temperature:+d[name]
+                    }
+                })
+            }
+        });
+        x.domain(d3.extent(data, function (d) {
+            return d.date;
+        }));
+        y.domain([
+            d3.min(cities, function (a) {
+                return d3.min(a.values, function (b) {
+                    return b.temperature;
+                })
+            }),
+            d3.max(cities, function (a) {
+                return d3.max(a.values, function (b) {
+                    return b.temperature;
+                })
+            })
+        ]);
+
+        var city = svg.selectAll('.city')
+                .data(cities)
+                .enter()
+                .append('g')
+                .attr('class', 'city');
+
+        city.append('path')
+                .attr('d', function (d, i) {
+                    return line(d.values)
+                })
+                .style('stroke', function (d) {
+                    return color(d.name)
+                })
+                .style('fill', 'none');
+
+        svg.append('g').call(xAxis).attr('transform', 'translate(0,' + height + ')');
+        svg.append('g').call(yAxis);
+
+        city.append('text')
+                .datum(function (d) {
+                    return {
+                        name: d.name,
+                        value: d.values[d.values.length - 1]
+                    }
+                })
+                .attr('transform',function(d){
+                    return 'translate('+x(d.value.date)+','+y(d.value.temperature)+')'
+                })
+                .text(function(d){
+                    return d.name;
+                })
+
+    })
 
 
 </script>
