@@ -55,7 +55,8 @@
             color: #fff;
             padding: 5px 3px;
             background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 3px;z-index: 110;
+            border-radius: 3px;
+            z-index: 110;
         }
 
         .svgcontent {
@@ -91,7 +92,7 @@
 
         #div3 {
             background-color: rgba(0, 0, 0, 0.5);
-            z-index: 100;
+            z-index: 9;
             height: 100px;
             width: 100px;
             border-radius: 3px;
@@ -109,7 +110,6 @@
 <body>
 <div class="svgcontent" style="position: relative">
     <div id="div1"></div>
-
     <div id="div2"></div>
     <div id="div3"></div>
 </div>
@@ -121,15 +121,15 @@
 
     var dataset = {
         nodes: [/*statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）*/
-            {id: 0, name: "aaa", type: "1", statue: false, step: 0},
-            {id: 1, name: "bbb", type: "1", statue: false, step: 1},
-            {id: 2, name: "ccc", type: "1", statue: false, step: 1},
-            {id: 3, name: "ddd", type: "1", statue: true, step: 1},
-            {id: 4, name: "eee", type: "2", statue: false, step: 2},
-            {id: 5, name: "fff", type: "2", statue: false, step: 2},
-            {id: 6, name: "ggg", type: "2", statue: false, step: 2},
-            {id: 7, name: "hhh", type: "2", statue: false, step: 3},
-            {id: 8, name: "iii", type: "2", statue: false, step: 3}
+            {id: 0, name: "第一层知识点", type: "1", statue: false, step: 0},
+            {id: 1, name: "第二层知识点1", type: "1", statue: false, step: 1},
+            {id: 2, name: "第二层知识点2", type: "1", statue: false, step: 1},
+            {id: 3, name: "当前，第二层知识点3", type: "1", statue: true, step: 1},
+            {id: 4, name: "第三层知识点1", type: "2", statue: false, step: 2},
+            {id: 5, name: "第三层知识点2", type: "2", statue: false, step: 2},
+            {id: 6, name: "第三层知识点3", type: "2", statue: false, step: 2},
+            {id: 7, name: "第四层知识点1", type: "3", statue: false, step: 3},
+            {id: 8, name: "第四层知识点2", type: "3", statue: false, step: 3}
         ],
         edges: [/*type:no不推荐，tj推荐，now当前*/
             {source: 0, target: 1, type: "no"},
@@ -158,6 +158,8 @@
         } else {
             nodes[old_nodes[i].step].push(old_nodes[i]);
         }
+
+
     }
 
     var GetY = function (itemLength, colWidth, c, cnt) {
@@ -200,6 +202,11 @@
 
     initData(width, height)
 
+    for (var i = 0; i < lastNodes.length; i++) {
+        if (lastNodes[i].statue == true) {
+            document.getElementById('div1').innerText = lastNodes[i].name;
+        }
+    }
 
     // 数据转换
     links.some(function (v, i) {
@@ -307,7 +314,7 @@
                     d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
 
                 }
-                d3.select('#div1').text(d.name);
+                //d3.select('#div1').text(d.name);
                 tooltip.html(d.name)
                         .style('left', (d3.event.pageX - 50) + 'px')
                         .style('top', (d3.event.pageY + 20) + 'px')
@@ -331,7 +338,7 @@
                                 }
                                 return color
                             });
-                    d3.select('#div1').text("");
+                    //d3.select('#div1').text("");
                 }
                 tooltip.style('opacity', 0.0);
             })
@@ -371,7 +378,16 @@
                 var y2 = d.target.y;
                 return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
             })
-            .style("stroke", '#ccc')
+        // .style("stroke", '#ccc')
+            .style("stroke", function (d, i) {
+                var color;
+                if (d.type == 'tj') {
+                    color = 'blue'
+                } else {
+                    color = '#ccc'
+                }
+                return color
+            })
             .style("storke-width", "1px");
 
     svg_small.append('g').selectAll('circle')
