@@ -1,0 +1,1350 @@
+﻿{
+  "ID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+  "Title": "1992年全国统一高考数学试卷（湖南、云南、海南）",
+  "ViewCount": 78,
+  "DownCount": 10,
+  "FavoriteCount": 0,
+  "Subject": 30,
+  "RegionName": "全国",
+  "Year": 1992,
+  "SourceName": "高考真题",
+  "GradeName": null,
+  "TermName": null,
+  "EditionName": null,
+  "SchoolName": null,
+  "Score": 0,
+  "Degree": 0.0,
+  "Times": 0,
+  "Groups": [
+    {
+      "Key": "一、选择题：在每小题给出的四个选项中，只有一项是符合题目要求的.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "b8a74e07-d437-425c-a28b-2f67c4959be0",
+          "Content": "设函数z=i<SUP>2</SUP>+$\\sqrt{3}i$，那么argz是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "A2",
+              "Value": "复数的基本概念"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "$\\frac{5}{6}π$",
+            "$\\frac{π}{3}$",
+            "$\\frac{2}{3}π$",
+            "-$\\frac{4}{3}π$"
+          ],
+          "FavTime": 1,
+          "ViewCount": 232,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 13,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a334abdd-ccc6-4ecb-817a-e886cab58994",
+          "Content": "如果等边圆柱（即底面直径与母线相等的圆柱）的体积是16πcm<SUP>3</SUP>，那么它的底面半径等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "L5",
+              "Value": "旋转体（圆柱、圆锥、圆台）"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            }
+          ],
+          "Options": [
+            "4$\\root{3}{2}$cm",
+            "4cm",
+            "2$\\root{3}{2}$cm",
+            "2cm"
+          ],
+          "FavTime": 2,
+          "ViewCount": 250,
+          "DownCount": 11,
+          "RealCount": 1,
+          "PaperCount": 88,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "65fbe12a-fa38-4822-aee1-ea1a9a6f821d",
+          "Content": "$\\frac{arcsin\\frac{\\sqrt{3}}{2}-arccos（-\\frac{1}{2}）}{arctan（-\\sqrt{3}）}$的值等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.75,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HV",
+              "Value": "反三角函数的运用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "56 ",
+              "Value": "三角函数的求值"
+            }
+          ],
+          "Options": [
+            "1",
+            "0",
+            "-$\\frac{2}{5}$",
+            "-$\\frac{6}{5}$"
+          ],
+          "FavTime": 1,
+          "ViewCount": 262,
+          "DownCount": 13,
+          "RealCount": 1,
+          "PaperCount": 66,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "03bf4225-844e-431a-94ba-ae5f185c5238",
+          "Content": "函数y=log$\\frac{1}{2}（1-x）（x＜1）$的反函数是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "4R",
+              "Value": "反函数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            }
+          ],
+          "Options": [
+            "y=1+2<SUP>-x</SUP>&nbsp;&nbsp;（x∈R）",
+            "y=1-2<SUP>-x</SUP>&nbsp;&nbsp;&nbsp;（x∈R）",
+            "y=1+2<SUP>x</SUP>（x∈R）",
+            "y=1-2<SUP>x</SUP>（x∈R）"
+          ],
+          "FavTime": 1,
+          "ViewCount": 199,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 38,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "3173eedf-2e0e-4872-865a-3efb19e91e22",
+          "Content": "在长方体ABCD-A<SUB>1</SUB>B<SUB>1</SUB>C<SUB>1</SUB>D<SUB>1</SUB>中，如果AB=BC=a，AA<SUB>1</SUB>=2a，那么点A到直线A<SUB>1</SUB>C的距离等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "L2",
+              "Value": "棱柱的结构特征"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            }
+          ],
+          "Options": [
+            "$\\frac{2\\sqrt{6}}{3}a$",
+            "$\\frac{3\\sqrt{6}}{2}$a",
+            "$\\frac{2\\sqrt{3}}{3}$a",
+            "$\\frac{\\sqrt{6}}{3}$a"
+          ],
+          "FavTime": 7,
+          "ViewCount": 494,
+          "DownCount": 11,
+          "RealCount": 1,
+          "PaperCount": 51,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "3c9466d0-dc70-41ca-91df-01e10b93164c",
+          "Content": "函数y=sinxcosx+$\\sqrt{3}co{s}^{2}x-\\frac{\\sqrt{3}}{2}$的最小正周期等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.66,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GL",
+              "Value": "三角函数中的恒等变换应用"
+            },
+            {
+              "Key": "H1",
+              "Value": "三角函数的周期性及其求法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "57 ",
+              "Value": "三角函数的图像与性质"
+            }
+          ],
+          "Options": [
+            "π",
+            "2π",
+            "$\\frac{π}{4}$",
+            "$\\frac{π}{2}$"
+          ],
+          "FavTime": 4,
+          "ViewCount": 232,
+          "DownCount": 11,
+          "RealCount": 1,
+          "PaperCount": 107,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "58289cde-e91d-41e2-b8f1-1a2f4cc0fd58",
+          "Content": "有一个椭圆，它的极坐标方程是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "Q4",
+              "Value": "简单曲线的极坐标方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5D ",
+              "Value": "圆锥曲线的定义、性质与方程"
+            }
+          ],
+          "Options": [
+            "$ρ=\\frac{5}{\\sqrt{3}-2cosθ}$",
+            "ρ=$\\frac{5}{\\sqrt{3}-\\sqrt{3}cosθ}$",
+            "ρ=$\\frac{2-\\sqrt{3}cosθ}{5}$",
+            "ρ=$\\frac{5}{2-\\sqrt{3}cosθ}$"
+          ],
+          "FavTime": 1,
+          "ViewCount": 245,
+          "DownCount": 13,
+          "RealCount": 1,
+          "PaperCount": 52,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "85dbedbb-a7ef-4514-9429-50085ad6ee97",
+          "Content": "不等式$|\\sqrt{x-2}-3|＜1$的解集是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "R5",
+              "Value": "绝对值不等式的解法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [
+            "{x|5＜x＜16}",
+            "{x|6＜x＜18}",
+            "{x|7＜x＜20}",
+            "{x|8＜x＜22}"
+          ],
+          "FavTime": 2,
+          "ViewCount": 355,
+          "DownCount": 14,
+          "RealCount": 2,
+          "PaperCount": 66,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "985c77b8-0273-4762-98af-d46461e06512",
+          "Content": "设等差数列{a<SUB>n</SUB>}的公差是d，如果它的前n项和S<SUB>n</SUB>=-n<SUP>2</SUP>，那么（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "85",
+              "Value": "等差数列的前n项和"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "54 ",
+              "Value": "等差数列与等比数列"
+            }
+          ],
+          "Options": [
+            "a<SUB>n</SUB>=2n-1，d=-2",
+            "a<SUB>n</SUB>=2n-1，d=2",
+            "a<SUB>n</SUB>=-2n+1，d=-2",
+            "a<SUB>n</SUB>=-2n+1，d=2"
+          ],
+          "FavTime": 2,
+          "ViewCount": 314,
+          "DownCount": 12,
+          "RealCount": 2,
+          "PaperCount": 64,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "21c1de27-146d-4280-8b6d-0a2bae30b52a",
+          "Content": "方程cos2x=3cosx+1的解集是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.66,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GT",
+              "Value": "二倍角的余弦"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "56 ",
+              "Value": "三角函数的求值"
+            }
+          ],
+          "Options": [
+            "{x|x=2k$π±\\frac{2}{3}π，k∈Z$}",
+            "${x|x=kπ±\\frac{1}{3}π，k∈Z}$",
+            "{x|x=k$π±\\frac{2}{3}π，k∈Z$}",
+            "{x|x=2kx$±\\frac{1}{3}π，k∈Z$}"
+          ],
+          "FavTime": 1,
+          "ViewCount": 328,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 79,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1451e401-8417-472b-8988-909c2fdaac62",
+          "Content": "有一条半径是2的弧，其度数是60°，它绕经过弧的中点的直径旋转得到一个球冠，那么这个球冠的面积是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LG",
+              "Value": "球的体积和表面积"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            }
+          ],
+          "Options": [
+            "4（2-$\\sqrt{3}$）π",
+            "2（2-$\\sqrt{3}π$）",
+            "4$\\sqrt{3}π$",
+            "2$\\sqrt{3}π$"
+          ],
+          "FavTime": 2,
+          "ViewCount": 521,
+          "DownCount": 13,
+          "RealCount": 1,
+          "PaperCount": 47,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "19bd0451-152e-4cfc-aae4-e515f0c352b9",
+          "Content": "某小组共有10名学生，其中女生3名．现选举2名代表，至少有1名女生当选的不同的选法共有（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "D9",
+              "Value": "排列、组合及简单计数问题"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [
+            "27种",
+            "48种",
+            "21种",
+            "24种"
+          ],
+          "FavTime": 5,
+          "ViewCount": 439,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 50,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "4e15ff41-ddb7-41f8-8a45-7b2aaa3ccd8d",
+          "Content": "设全集I=R，集合M={x|$\\sqrt{{x}^{2}}$＞2}，N={x|log<SUB>x</SUB>7＞log<SUB>3</SUB>7}那么M∩∁<SUB>U</SUB>N=（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "1E",
+              "Value": "交集及其运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [
+            "{x|x＜-2}",
+            "{x|x＜-2，或x≥3}",
+            "{x|x≥3}",
+            "{x|-2≤x＜3}"
+          ],
+          "FavTime": 1,
+          "ViewCount": 234,
+          "DownCount": 12,
+          "RealCount": 1,
+          "PaperCount": 85,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "4f9da6fc-1f18-48f0-852f-68120ae25dba",
+          "Content": "设{a<SUB>n</SUB>}是由正数组成的等比数列，公比q=2，且a<SUB>1</SUB>•a<SUB>2</SUB>•a<SUB>3</SUB>•…•a<SUB>30</SUB>=2<SUP>30</SUP>，那么a<SUB>3</SUB>•a<SUB>6</SUB>•a<SUB>9</SUB>•…•a<SUB>30</SUB>等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.49,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "88",
+              "Value": "等比数列的通项公式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "2<SUP>10</SUP>",
+            "2<SUP>20</SUP>",
+            "2<SUP>16</SUP>",
+            "2<SUP>15</SUP>"
+          ],
+          "FavTime": 58,
+          "ViewCount": 2432,
+          "DownCount": 15,
+          "RealCount": 19,
+          "PaperCount": 217,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "8fb0f991-da1c-44ef-aa6d-536aaa4eea25",
+          "Content": "设△ABC不是直角三角形，A和B是它的两个内角，那么（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.53,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "2L",
+              "Value": "必要条件、充分条件与充要条件的判断"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "2A ",
+              "Value": "探究型"
+            }
+          ],
+          "Options": [
+            "“A＜B“是“tanA＜tanB“的充分条件，但不是必要条件．",
+            "“A＜B“是“tanA＜tanB“的必要条件，但不是充分条件．",
+            "“A＜B“是“tanA＜tanB“的充分必要条件．",
+            "“A＜B“不是“tanA＜tanB“的充分条件，也不是必要条件．"
+          ],
+          "FavTime": 0,
+          "ViewCount": 468,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 53,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "01ec4c81-b1c3-4767-9a6f-6deea27cf684",
+          "Content": "对于定义域是R的任何奇函数f（x），都有（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.53,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3L",
+              "Value": "函数奇偶性的性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "2A ",
+              "Value": "探究型"
+            }
+          ],
+          "Options": [
+            "f（x）-f（-x）＞0&nbsp;（x∈R）",
+            "f（x）-f（-x）≤0&nbsp;&nbsp;&nbsp;&nbsp;（x∈R）",
+            "f（x）f（-x）≤0&nbsp;（x∈R）",
+            "f（x）f（-x）＞0&nbsp;（x∈R）"
+          ],
+          "FavTime": 3,
+          "ViewCount": 265,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 62,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b1102ebb-3021-4475-bfc6-d01034c64373",
+          "Content": "如果双曲线的两条渐近线的方程是$y=±\\frac{3}{2}x$，焦点坐标是（-$\\sqrt{26}$，0）和（$\\sqrt{26}$，0），那么它的两条准线之间的距离是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.53,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KC",
+              "Value": "双曲线的简单性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            }
+          ],
+          "Options": [
+            "$\\frac{8}{13}\\sqrt{26}$",
+            "$\\frac{4}{13}\\sqrt{26}$",
+            "$\\frac{18}{13}\\sqrt{26}$",
+            "$\\frac{9}{13}\\sqrt{26}$"
+          ],
+          "FavTime": 2,
+          "ViewCount": 159,
+          "DownCount": 11,
+          "RealCount": 1,
+          "PaperCount": 50,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题：把答案填在题中的横线上.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "a083284d-4884-4f7a-ad05-1a50a5876802",
+          "Content": "$tan\\frac{π}{8}$=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GU",
+              "Value": "二倍角的正切"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "56 ",
+              "Value": "三角函数的求值"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 273,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 59,
+          "Answers": [
+            "$\\sqrt{2}$-1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b7f56e6c-9af4-4212-86c6-0a8c99230cc3",
+          "Content": "设直线的参数方程是$\\left\\{\\begin{array}{l}{x=2+\\frac{1}{2}t}\\\\{y=3+\\frac{\\sqrt{3}}{2}t}\\end{array}\\right.$，那么它的斜截式方程是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "QJ",
+              "Value": "直线的参数方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5B ",
+              "Value": "直线与圆"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 300,
+          "DownCount": 14,
+          "RealCount": 1,
+          "PaperCount": 61,
+          "Answers": [
+            "$y=\\sqrt{3}x+3-2\\sqrt{3}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "25fb1c78-e5cb-4731-8e18-2ffb483ef8fb",
+          "Content": "如果三角形的顶点分别是O（0，0），A（0，15），B（-8，0），那么它的内切圆方程是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.63,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "J9",
+              "Value": "直线与圆的位置关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5B ",
+              "Value": "直线与圆"
+            }
+          ],
+          "Options": [],
+          "FavTime": 21,
+          "ViewCount": 769,
+          "DownCount": 17,
+          "RealCount": 1,
+          "PaperCount": 52,
+          "Answers": [
+            "（x+3）<SUP>2</SUP>+（y-3）<SUP>2</SUP>=9"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "fcae91a2-527a-4a86-9634-d3701110208d",
+          "Content": "$\\underset{lim}{n→∞}[\\frac{1}{1•4}+\\frac{1}{4•7}+\\frac{1}{7•10}+…+\\frac{1}{（3n-2）（3n+1）}]$=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "6F",
+              "Value": "极限及其运算"
+            },
+            {
+              "Key": "8E",
+              "Value": "数列的求和"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "52 ",
+              "Value": "导数的概念及应用"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 188,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 8,
+          "Answers": [
+            "$\\frac{1}{3}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1ce9808b-0ec5-43cd-8e8e-4a7625cdcf5f",
+          "Content": "91<SUP>92</SUP>除以100的余数是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.47,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "DC",
+              "Value": "二项式定理的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 27,
+          "ViewCount": 1088,
+          "DownCount": 16,
+          "RealCount": 1,
+          "PaperCount": 76,
+          "Answers": [
+            "81"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "42927e5b-4cae-4fc6-a8e4-fac90dd0b2ee",
+          "Content": "已知三棱锥A-BCD的体积是V，棱BC的长是a，面ABC和面DBC的面积分别是S<SUB>1</SUB>和S<SUB>2</SUB>．设面ABC和面DBC所成的二面角是α，那么sinα=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.47,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "MT",
+              "Value": "二面角的平面角及求法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "13 ",
+              "Value": "作图题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 2,
+          "ViewCount": 335,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 46,
+          "Answers": [
+            "$\\frac{3aV}{2{S}_{1}{S}_{2}}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题：解题应写出文字说明、演算步骤.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "e194e8b2-fee1-450a-8c7b-dca1900f5193",
+          "Content": "已知关于x的方程2a<SUP>2x-2</SUP>-7a<SUP>x-1</SUP>+3=0有一个根是2，求a的值和方程其余的根．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.67,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "54",
+              "Value": "根的存在性及根的个数判断"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 4,
+          "ViewCount": 627,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 61,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 0.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b11008fe-56eb-4c10-949e-320294e2f034",
+          "Content": "已知：平面α和不在这个平面内的直线a都垂直于平面β．求证：a∥α．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LS",
+              "Value": "直线与平面平行的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 175,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 34,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 0.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "0e592f77-de55-44e1-8728-bcc610c3fc81",
+          "Content": "证明不等式$1+\\frac{1}{{\\sqrt{2}}}+\\frac{1}{{\\sqrt{3}}}+…+\\frac{1}{{\\sqrt{n}}}＜2\\sqrt{n}$（n∈N<SUP>*</SUP>）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.62,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "RM",
+              "Value": "用数学归纳法证明不等式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "14 ",
+              "Value": "证明题"
+            },
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            }
+          ],
+          "Options": [],
+          "FavTime": 20,
+          "ViewCount": 654,
+          "DownCount": 18,
+          "RealCount": 3,
+          "PaperCount": 196,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 0.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "8bbb1bd8-5cc8-4556-956f-b19d26ff0796",
+          "Content": "设抛物线经过两点（-1，6）和（-1，-2）对称轴与x轴平行，开口向右，直线y=2x+7被抛物线截得的线段的长是$4\\sqrt{10}$，求抛物线的方程．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KG",
+              "Value": "直线与圆锥曲线的关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5D ",
+              "Value": "圆锥曲线的定义、性质与方程"
+            }
+          ],
+          "Options": [],
+          "FavTime": 4,
+          "ViewCount": 229,
+          "DownCount": 14,
+          "RealCount": 1,
+          "PaperCount": 37,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 27,
+          "Score": 0.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "826c1ce4-36e6-4902-859f-b98ad68728b2",
+          "Content": "求同时满足下列两个条件的所有复数z：<br />①z+$\\frac{10}{z}$是实数，且1＜z+$\\frac{10}{z}$≤6；<br />②z的实部和虚部都是整数．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.51,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1992•湖南、云南、海南）",
+          "LabelReportID": "33d26595-3e0c-4662-972d-ab8008d93cba",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "A7",
+              "Value": "复数代数形式的混合运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 14,
+          "ViewCount": 763,
+          "DownCount": 14,
+          "RealCount": 10,
+          "PaperCount": 74,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 28,
+          "Score": 0.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    }
+  ]
+}
