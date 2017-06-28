@@ -1,0 +1,1022 @@
+﻿{
+  "ID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+  "Title": "2001年上海市高考数学试卷（文科）",
+  "ViewCount": 1087,
+  "DownCount": 51,
+  "FavoriteCount": 12,
+  "Subject": 30,
+  "RegionName": "上海",
+  "Year": 2001,
+  "SourceName": "高考真题",
+  "GradeName": null,
+  "TermName": null,
+  "EditionName": null,
+  "SchoolName": null,
+  "Score": 150,
+  "Degree": 0.6046667,
+  "Times": 120,
+  "Groups": [
+    {
+      "Key": "一、填空题（本大题满分48分）本大题共有12题，只要求直接填写结果，每个空格填对得4分，否则一律得零分.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "e12bd984-ca8f-4f42-a7de-209eac1cc78a",
+          "Content": "设函数f（x）=log<SUB>9</SUB>x，则满足$f（x）=\\frac{1}{2}$的x值为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.78,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "4H",
+              "Value": "对数的运算性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            }
+          ],
+          "Options": [],
+          "FavTime": 2,
+          "ViewCount": 197,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 73,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "bc3d11e8-6962-4c11-8b3d-3c4d71053fe9",
+          "Content": "设数列{a<SUB>n</SUB>}的首项a<SUB>1</SUB>=-7，且满足a<SUB>n+1</SUB>=a<SUB>n</SUB>+2（n∈N），则a<SUB>1</SUB>+a<SUB>2</SUB>+…+a<SUB>17</SUB>=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.76,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "85",
+              "Value": "等差数列的前n项和"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 2,
+          "ViewCount": 521,
+          "DownCount": 14,
+          "RealCount": 2,
+          "PaperCount": 86,
+          "Answers": [
+            "153"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "250fae39-ec6d-4350-9166-c05160b3c891",
+          "Content": "设P为双曲线$\\frac{{x}^{2}}{4}$-y<SUP>2</SUP>=1上一动点，O为坐标原点，M为线段OP的中点，则点M的轨迹方程是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KC",
+              "Value": "双曲线的简单性质"
+            },
+            {
+              "Key": "J3",
+              "Value": "轨迹方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 17,
+          "ViewCount": 606,
+          "DownCount": 14,
+          "RealCount": 16,
+          "PaperCount": 73,
+          "Answers": [
+            "x<SUP>2</SUP>-4y<SUP>2</SUP>=1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "c286532b-68b5-4174-88d2-4ee810418485",
+          "Content": "设集合A={x|2lgx=lg（8x-15），x∈R}，B={x|cos$\\frac{x}{2}$＞0，x∈R}，则A∩B的元素个数为 \r\n<div class='quizPutTag' contenteditable='true'>&nbsp;</div>个．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "1E",
+              "Value": "交集及其运算"
+            },
+            {
+              "Key": "4K",
+              "Value": "对数函数的定义域"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 2,
+          "ViewCount": 255,
+          "DownCount": 11,
+          "RealCount": 4,
+          "PaperCount": 104,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "e7927f4c-c145-4412-8227-df3d19d4f787",
+          "Content": "抛物线x<SUP>2</SUP>-4y-3=0的焦点坐标为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "K8",
+              "Value": "抛物线的简单性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5D ",
+              "Value": "圆锥曲线的定义、性质与方程"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 216,
+          "DownCount": 12,
+          "RealCount": 2,
+          "PaperCount": 32,
+          "Answers": [
+            "$（0，\\frac{1}{4}）$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "e9f222b4-9e0c-4d90-a2ad-88a81912a285",
+          "Content": "设数列{a<SUB>n</SUB>}是公比为q＞0的等比数列，S<SUB>n</SUB>是它的前n项和，若$\\lim_{n→+∞}{S_n}=7$，则此数列的首项a<SUB>1</SUB>的取值范围为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.62,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "6F",
+              "Value": "极限及其运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 264,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 38,
+          "Answers": [
+            "（0，7）"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "cee23a0c-3982-42d1-89b0-2540f3ff86b3",
+          "Content": "某餐厅供应客饭，每位顾客可以在餐厅提供的菜肴中任选2菜2素共4种不同的品种．现在餐厅准备了5种不同的荤菜，若要保证每位顾客有200种以上的不同选择，则餐厅至少还需要不同的素菜品种<div class='quizPutTag' contenteditable='true'>&nbsp;</div>种．（结果用数值表示）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "D2",
+              "Value": "分步乘法计数原理"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "FavTime": 10,
+          "ViewCount": 1138,
+          "DownCount": 12,
+          "RealCount": 10,
+          "PaperCount": 142,
+          "Answers": [
+            "7"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "13c34392-79c0-40b0-8b40-f05e1f0a0cdb",
+          "Content": "${（{x-\\frac{1}{{\\sqrt{x}}}}）^6}$的二项展开式中的常数项为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.65,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2013•天津）",
+          "LabelReportID": "7ed85170-5bb3-4e9a-950a-8a1329436779",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "DB",
+              "Value": "二项式系数的性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5P ",
+              "Value": "二项式定理"
+            }
+          ],
+          "Options": [],
+          "FavTime": 10,
+          "ViewCount": 816,
+          "DownCount": 12,
+          "RealCount": 7,
+          "PaperCount": 108,
+          "Answers": [
+            "15"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "bda0cbf6-0b80-4cc5-8d33-be80be09ede0",
+          "Content": "设x=sinα，且$α∈[-\\frac{π}{6}，\\frac{5π}{6}]$，则arccosx的取值范围是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.63,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HV",
+              "Value": "反三角函数的运用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "56 ",
+              "Value": "三角函数的求值"
+            }
+          ],
+          "Options": [],
+          "FavTime": 2,
+          "ViewCount": 255,
+          "DownCount": 12,
+          "RealCount": 2,
+          "PaperCount": 54,
+          "Answers": [
+            "$[0，\\frac{2π}{3}]$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "ce824b46-8a51-46e0-b472-9c9fb488e3e7",
+          "Content": "利用下列盈利表中的数据进行决策，<br />\r\n<table class=\"edittable\">\r\n<TBODY>\r\n<TR>\r\n<td width=117>自然状况</TD>\r\n<td width=147><br />方案<br />盈利（万元）<br />概率</TD>\r\n<td width=61>A<SUB>1</SUB></TD>\r\n<td width=52>A<SUB>2</SUB></TD>\r\n<td width=52>A<SUB>3</SUB></TD>\r\n<td width=50>A<SUB>4</SUB></TD></TR>\r\n<TR>\r\n<td>S<SUB>1</SUB></TD>\r\n<td>0.25</TD>\r\n<td>50</TD>\r\n<td>70</TD>\r\n<td>-20</TD>\r\n<td>98</TD></TR>\r\n<TR>\r\n<td>S<SUB>2</SUB></TD>\r\n<td>0.30</TD>\r\n<td>65</TD>\r\n<td>26</TD>\r\n<td>52</TD>\r\n<td>82</TD></TR>\r\n<TR>\r\n<td>S<SUB>3</SUB></TD>\r\n<td>0.45</TD>\r\n<td>26</TD>\r\n<td>16</TD>\r\n<td>78</TD>\r\n<td>-10</TD></TR></TBODY></TABLE>应选择的方案是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.47,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "5A",
+              "Value": "函数最值的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 550,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 71,
+          "Answers": [
+            "A<SUB>3</SUB>"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "d54e4f19-d446-440b-ba6e-a2fa6a9dc006",
+          "Content": "已知两个圆：x<SUP>2</SUP>+y<SUP>2</SUP>=1&nbsp;①；x<SUP>2</SUP>+（y-3）<SUP>2</SUP>=1&nbsp;②，则由①式减去②式可得上述两个圆的对称轴方程．将上述命题在曲线仍为圆的情况下加以推广，即要求得到一个更一般的命题，而已知命题应成为所推广命题的一个特例，推广的命题为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.52,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "F3",
+              "Value": "类比推理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "29 ",
+              "Value": "规律型"
+            }
+          ],
+          "Options": [],
+          "FavTime": 3,
+          "ViewCount": 552,
+          "DownCount": 15,
+          "RealCount": 3,
+          "PaperCount": 45,
+          "Answers": [
+            "设圆方程（x-a）<SUP>2</SUP>+（y-b）<SUP>2</SUP>=r<SUP>2</SUP> ①（x-c）<SUP>2</SUP>+（y-d）<SUP>2</SUP>=r<SUP>2</SUP> ②（a≠c或b≠d），<br />由①-②，得两圆的对称轴方程"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "db414ddd-f448-49df-a616-1fe3a093fbe2",
+          "Content": "据报道，我国目前已成为世界上受荒漠化危害最严重的国家之一，如表示我国土地沙化总面积在上个世纪五六十年代、七八十年代、九十年代的变化情况，由图中的相关信息，可将上述有关年代中，我国年平均土地沙化面积在图中图示为：<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/222/4301a218.png\" style=\"vertical-align:middle\" />",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.52,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "38",
+              "Value": "函数的表示方法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "27 ",
+              "Value": "图表型"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 549,
+          "DownCount": 15,
+          "RealCount": 2,
+          "PaperCount": 85,
+          "Answers": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/222/26c4b1a0.png\" style=\"vertical-align:middle;FLOAT:right\" />"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "二、选择题（本大题满分16分）本大题共有4题，每题都给出代号为A、B、C、D的四个结论，其中有且只有一个结论是正确的，必须把正确结论的代号写在题后的圆括号内，选对得4分，不选、选错或者选出的代号超过一个（不论是否都写在圆括号内），一律得零分.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "9899b468-9c37-49a8-b377-7c994ad847db",
+          "Content": "a=3是直线ax+2y+3a=0和直线3x+（a-1）y=a-7平行且不重合的（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "2L",
+              "Value": "必要条件、充分条件与充要条件的判断"
+            },
+            {
+              "Key": "II",
+              "Value": "直线的一般式方程与直线的平行关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "29 ",
+              "Value": "规律型"
+            }
+          ],
+          "Options": [
+            "充分非必要条件",
+            "必要非充分条件",
+            "充要条件",
+            "既非充分也非必要条件"
+          ],
+          "FavTime": 4,
+          "ViewCount": 385,
+          "DownCount": 11,
+          "RealCount": 12,
+          "PaperCount": 73,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "d078a15f-8f9a-4ae3-a96d-b1591b871522",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/83/4aeeb2da.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在平行六面体ABCD-A<SUB>1</SUB>B<SUB>1</SUB>C<SUB>1</SUB>D<SUB>1</SUB>中，M为AC与BD的交点，若$\\overrightarrow{{A}_{1}B_1}$=$\\overrightarrow{a}$，$\\overrightarrow{{A}_{1}{D}_{1}}$=$\\overrightarrow{b}$，$\\overrightarrow{{A}_{1}A}$=$\\overrightarrow{c}$．则下列向量中与$\\overrightarrow{{B}_{1}M}$相等的向量是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "97",
+              "Value": "相等向量与相反向量"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "-$\\frac{1}{2}$$\\overrightarrow{a}$+$\\frac{1}{2}\\overrightarrow{b}$+$\\overrightarrow{c}$",
+            "$\\frac{1}{2}\\overrightarrow{a}+\\frac{1}{2}\\overrightarrow{b}+\\overrightarrow{c}$",
+            "$\\frac{1}{2}\\overrightarrow{a}-\\frac{1}{2}\\overrightarrow{b}+\\overrightarrow{c}$",
+            "-$\\frac{1}{2}\\overrightarrow{a}$-$\\frac{1}{2}\\overrightarrow{b}$+$\\overrightarrow{c}$"
+          ],
+          "FavTime": 9,
+          "ViewCount": 697,
+          "DownCount": 13,
+          "RealCount": 52,
+          "PaperCount": 167,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2b2576da-7977-4118-9842-77446d120a83",
+          "Content": "已知a，b为两条不同的直线，α，β为两个不同的平面，且a⊥α，b⊥β，则下列命题中的假命题是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LP",
+              "Value": "空间中直线与平面之间的位置关系"
+            },
+            {
+              "Key": "LO",
+              "Value": "空间中直线与直线之间的位置关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "若a∥b，则α∥β",
+            "若α⊥β，则a⊥b",
+            "若a，b相交，则α，β相交",
+            "若α，β相交，则a，b相交"
+          ],
+          "FavTime": 5,
+          "ViewCount": 1130,
+          "DownCount": 10,
+          "RealCount": 14,
+          "PaperCount": 46,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "951b7517-a5da-4464-b4cf-f310ad847214",
+          "Content": "用计算器验算函数$y=\\frac{lgx}{x}（x＞1）$的若干个值，可以猜想下列命题中的真命题只能是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.48,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "2K",
+              "Value": "命题的真假判断与应用"
+            },
+            {
+              "Key": "4T",
+              "Value": "对数函数图象与性质的综合应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            },
+            {
+              "Key": "52 ",
+              "Value": "导数的概念及应用"
+            }
+          ],
+          "Options": [
+            "$y=\\frac{lgx}{x}$在（1，+∞）上是单调减函数",
+            "$y=\\frac{lgx}{x}$，x∈（1，+∞）有最小值",
+            "$y=\\frac{lgx}{x}$，x∈（1，+∞）的值域为$（0，\\frac{lg3}{3}]$",
+            "$\\lim_{n→∞}\\frac{lgn}{n}=0，n∈N$"
+          ],
+          "FavTime": 3,
+          "ViewCount": 286,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 32,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "三．解答题（本大题满分86分）本大题共有6题，解答下列各题必须写出必要的步骤.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "aa5e351e-cb1b-4e83-8ee8-fdc3f73a3363",
+          "Content": "已知a、b、c是△ABC中∠A、∠B、∠C的对边，S是△ABC的面积，若a=4，b=5，S=5$\\sqrt{3}$，求c的长度．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.74,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HX",
+              "Value": "解三角形"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 10,
+          "ViewCount": 455,
+          "DownCount": 14,
+          "RealCount": 11,
+          "PaperCount": 145,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "45e5b39a-edea-43ab-b31f-d0cd12f88c40",
+          "Content": "设F<SUB>1</SUB>，F<SUB>2</SUB>为椭圆$\\frac{x^2}{9}+\\frac{y^2}{4}=1$的两个焦点，P为椭圆上的一点，已知P，F<SUB>1</SUB>，F<SUB>2</SUB>是一个直角三角形的三个顶点，且|PF<SUB>1</SUB>|＞|PF<SUB>2</SUB>|，求$\\frac{{|P{F_1}|}}{{|P{F_2}|}}$的值．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.62,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "K4",
+              "Value": "椭圆的简单性质"
+            },
+            {
+              "Key": "9V",
+              "Value": "向量在几何中的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "32 ",
+              "Value": "分类讨论"
+            }
+          ],
+          "Options": [],
+          "FavTime": 32,
+          "ViewCount": 864,
+          "DownCount": 25,
+          "RealCount": 5,
+          "PaperCount": 114,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "abd3b0b0-5d9d-4f99-908c-72253750ff6f",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201510/186/7fc34344.png\" style=\"vertical-align:middle;FLOAT:right\" />在棱长为a的正方体OABC-O′A′B′C′中，E、F分别是棱AB、BC上的动点，且AE=BF．<br />（Ⅰ）求证：A′F⊥C′E；<br />（Ⅱ）当三棱锥B′-BEF的体积取得最大值时，求二面角B′-EF-B的大小．（结果用反三角函数表示）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "MT",
+              "Value": "二面角的平面角及求法"
+            },
+            {
+              "Key": "LW",
+              "Value": "直线与平面垂直的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5F ",
+              "Value": "空间位置关系与距离"
+            },
+            {
+              "Key": "5G ",
+              "Value": "空间角"
+            }
+          ],
+          "Options": [],
+          "FavTime": 9,
+          "ViewCount": 1192,
+          "DownCount": 13,
+          "RealCount": 2,
+          "PaperCount": 35,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 14.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a814650b-fda3-4d5d-a14b-ae98757752ab",
+          "Content": "对任意一人非零复数z，定义集合${M_z}=\\{w|w={z^n}，n∈N\\}$．<br />（1）设z是方程$x+\\frac{1}{x}=0$的一个根．试用列举法表示集合M<SUB>z</SUB>，若在M<SUB>z</SUB>中任取两个数，求其和为零的概率P；<br />（2）若集合M<SUB>z</SUB>中只有3个元素，试写出满足条件的一个z值，并说明理由．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "CC",
+              "Value": "列举法计算基本事件数及事件发生的概率"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 662,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 40,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 14.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "5c79646f-3e59-414f-92ab-9a9887c5b58b",
+          "Content": "用水清洗一堆蔬菜上残留的农药，对用一定量的水清洗一次的效果作如下假定：用1个单位量的水可洗掉蔬菜上残留农药量的$\\frac{1}{2}$，用水越多洗掉的农药量也越多，但总还有农药残留在蔬菜上．设用x单位量的水清洗一次以后，蔬菜上残留的农药量与本次清洗前残留的农药量之比为函数f（x）．<br />（Ⅰ）试规定f（0）的值，并解释其实际意义；<br />（Ⅱ）试根据假定写出函数f（x）应该满足的条件和具有的性质；<br />（Ⅲ）设$f（x）=\\frac{1}{{1+{x^2}}}$．现有a（a＞0）单位量的水，可以清洗一次，也可以把水平均分成2份后清洗两次，试问用哪种方案清洗后蔬菜上残留的农药量比较省？说明理由．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.51,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "5D",
+              "Value": "函数模型的选择与应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 11,
+          "ViewCount": 573,
+          "DownCount": 13,
+          "RealCount": 13,
+          "PaperCount": 76,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 16.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "c95cbaaa-219f-48d8-8296-0fc9e33cae0f",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201309/132/a2d9aa89.png\" style=\"vertical-align:middle;FLOAT:right;\" />对任意函数f（x），x∈D，可按图示构造一个数列发生器，其工作原理如下：<br />①输入数据x<SUB>0</SUB>∈D，经按列发生器，其工作原理如图：<br />②若x<SUB>1</SUB>∈D，则数列发生器结束工作；若x<SUB>1</SUB>∈D，则将x<SUB>1</SUB>反馈回输入端，再输出x<SUB>2</SUB>=f（x<SUB>1</SUB>），并依此规律继续下去，现定义$f（x）=\\frac{4x-2}{x+1}$．<br />（Ⅰ）若输入${x_0}=\\frac{49}{65}$，则由数列发生器产生数列{x<SUB>n</SUB>}．请写出数列{x<SUB>n</SUB>}的所有项：<br />（Ⅱ）若要数列发生器产生一个无穷的常数数列，试求输入的初始数据x<SUB>0</SUB>的值；<br />（Ⅲ）若输入x<SUB>0</SUB>时，产生的无穷数列{x<SUB>n</SUB>}满足；对任意正整数n，均有x<SUB>n</SUB>＞x<SUB>n+1</SUB>，求x<SUB>0</SUB>的取值范围．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.45,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2001•上海）",
+          "LabelReportID": "6e261a9a-610a-4898-a6c9-9b0eb22e6ef4",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "8I",
+              "Value": "数列与函数的综合"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "54 ",
+              "Value": "等差数列与等比数列"
+            }
+          ],
+          "Options": [],
+          "FavTime": 6,
+          "ViewCount": 561,
+          "DownCount": 12,
+          "RealCount": 2,
+          "PaperCount": 38,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 18.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    }
+  ]
+}

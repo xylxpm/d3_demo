@@ -1,0 +1,1023 @@
+﻿{
+    "ID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+    "Title": "1952年全国统一高考数学试卷",
+    "ViewCount": 1760,
+    "DownCount": 38,
+    "FavoriteCount": 23,
+    "Subject": 30,
+    "RegionName": "全国",
+    "Year": 1952,
+    "SourceName": "高考真题",
+    "GradeName": null,
+    "TermName": null,
+    "EditionName": null,
+    "SchoolName": null,
+    "Score": 0,
+    "Degree": 0,
+    "Times": 0,
+    "Groups": [
+        {
+            "Key": "一、解答题（共24小题，满分0分）",
+            "Value": [
+                {
+                    "Subject": 30,
+                    "ID": "29f14853-e947-491e-b5f9-dc514a96c5e8",
+                    "Content": "因式分解：x<SUP>4</SUP>-y<SUP>4</SUP>．",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.83,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "&M",
+                            "Value": "因式分解定理"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 0,
+                    "ViewCount": 328,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 7,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 1,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "9bbfd6f9-63ed-440b-b6c0-b5fb60b77d3f",
+                    "Content": "若lg2x=21lgx，问x=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.7,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "4H",
+                            "Value": "对数的运算性质"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "35 ",
+                            "Value": "转化思想"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 7,
+                    "ViewCount": 322,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 89,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 2,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "ccd9299f-684d-478d-8f34-929ef32844d2",
+                    "Content": "若方程x<SUP>3</SUP>+bx<SUP>2</SUP>+cx+d=0的三根为1，-1，$\\frac{1}{2}$，则c=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.73,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "54",
+                            "Value": "根的存在性及根的个数判断"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 3,
+                    "ViewCount": 277,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 95,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 3,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "0e052f4a-ca35-42af-939f-6196d9473a1c",
+                    "Content": "若$\\sqrt{{x^2}+7}$-4=0，求x．",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.73,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "54",
+                            "Value": "根的存在性及根的个数判断"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 0,
+                    "ViewCount": 254,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 56,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 4,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "00664e50-cc3a-4484-a6b9-ccfa2824ec16",
+                    "Content": "$|\\begin{array}{l}{1}&2&3\\\\ 4&5&0\\\\ 3&2&1\\end{array}\\right|$=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.83,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "OY",
+                            "Value": "三阶矩阵"
+                        },
+                        {
+                            "Key": "O1",
+                            "Value": "二阶矩阵"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 299,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 10,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 5,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "fe25c8e2-1faa-4666-9c57-655694fb180b",
+                    "Content": "两个圆的半径都是4寸，并且一个圆过另一个圆的圆心，则此两圆的公共弦长是多少寸？<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/131/b5aac533.png\" style=\"vertical-align:middle\" />",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "JA",
+                            "Value": "圆与圆的位置关系及其判定"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 0,
+                    "ViewCount": 322,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 39,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 6,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "0382d75a-c535-481b-b0c8-1af14dde79b1",
+                    "Content": "三角形ABC的面积是60平方寸，M是AB的中点，N是AC的中点，△AMN的面积是多少？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "N5",
+                            "Value": "相似三角形的性质"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 359,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 11,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 7,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "90f14b4d-81ea-43a0-ae2b-a4a5543dc51a",
+                    "Content": "正十边形的一个内角是多少度？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "N8",
+                            "Value": "圆內接多边形的性质与判定"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 2,
+                    "ViewCount": 1383,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 19,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 8,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "65bfcebd-5f22-4768-a6a8-024a7a226c88",
+                    "Content": "祖冲之的圆周率π=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "V1",
+                            "Value": "早期算术与几何──计数与测量"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "21 ",
+                            "Value": "阅读型"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 2,
+                    "ViewCount": 1302,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 8,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 9,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "87f2888b-8c92-43b5-9d19-af77bbdd1f94",
+                    "Content": "球的面积等于大圆面积的多少倍？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.63,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "LG",
+                            "Value": "球的体积和表面积"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 274,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 39,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 10,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "b35c9a5c-b203-40e6-baeb-78ae38a5f753",
+                    "Content": "圆锥之底半径为3尺，母线为5尺，则其体积为多少立方尺？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "LF",
+                            "Value": "棱柱、棱锥、棱台的体积"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 0,
+                    "ViewCount": 132,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 32,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 11,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "2e3f4e49-6725-4ada-a595-29d776c69df1",
+                    "Content": "正多面体有几种？其名称是什么？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "L3",
+                            "Value": "棱锥的结构特征"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "1  ",
+                            "Value": "常规题型"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 3,
+                    "ViewCount": 1029,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 40,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 12,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "3587828d-5b88-4a1b-8ea0-ae3807141875",
+                    "Content": "已知&nbsp;sinθ=$\\frac{1}{3}$，求cos2θ=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.63,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "GT",
+                            "Value": "二倍角的余弦"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 220,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 48,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 13,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "250cdb20-d191-41c1-abf0-de0de54ec5dc",
+                    "Content": "方程tan2x=1的通解x=？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "GU",
+                            "Value": "二倍角的正切"
+                        }
+                    ],
+                    "Topics": [],
+                    "Options": [],
+                    "FavTime": 0,
+                    "ViewCount": 310,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 42,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 14,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "2808fa30-9e0f-48ed-bebf-b9796bab8790",
+                    "Content": "太阳的仰角为30°时，塔影长为5丈，求塔高是多少？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.75,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "HU",
+                            "Value": "解三角形的实际应用"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "12 ",
+                            "Value": "应用题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 297,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 41,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 15,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "31726156-55e2-4c8a-b911-ddeaa6f86d0a",
+                    "Content": "△ABC的b边为3寸，c边为4寸，A角为30°，问△ABC的面积为多少平方寸？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "HT",
+                            "Value": "三角形中的几何计算"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 249,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 40,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 16,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "22a06f9a-dd49-42d5-b02d-8ab0dd561c89",
+                    "Content": "已知一直线经过（2，3），其斜率为-1，则此直线方程如何？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.75,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "IG",
+                            "Value": "直线的一般式方程"
+                        },
+                        {
+                            "Key": "I3",
+                            "Value": "直线的斜率"
+                        }
+                    ],
+                    "Topics": [],
+                    "Options": [],
+                    "FavTime": 2,
+                    "ViewCount": 318,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 37,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 17,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "702df990-2795-44fb-9c82-5fe6a057a331",
+                    "Content": "若原点在一圆上，而此圆的圆心为（3，4）则此圆的方程如何？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "J1",
+                            "Value": "圆的标准方程"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 2,
+                    "ViewCount": 247,
+                    "DownCount": 10,
+                    "RealCount": 1,
+                    "PaperCount": 41,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 18,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "a19f6e82-33b7-4d1c-bf30-c5623d6f50f4",
+                    "Content": "求原点至3x+4y+1=0的距离？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.65,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "IT",
+                            "Value": "点到直线的距离公式"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 189,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 34,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 19,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "3dd70b70-03eb-450e-b984-ae7f00044480",
+                    "Content": "抛物线y<SUP>2</SUP>-8x+6y+17=0的顶点坐标是什么？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.5,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "K8",
+                            "Value": "抛物线的简单性质"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        },
+                        {
+                            "Key": "4I ",
+                            "Value": "配方法"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 3,
+                    "ViewCount": 339,
+                    "DownCount": 12,
+                    "RealCount": 1,
+                    "PaperCount": 47,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 20,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "640e5fd9-b698-48ea-aab8-263b619ffec8",
+                    "Content": "解方程x<SUP>4</SUP>+5x<SUP>3</SUP>-7x<SUP>2</SUP>-8x-12=0．",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.43,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "54",
+                            "Value": "根的存在性及根的个数判断"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "11 ",
+                            "Value": "计算题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 7,
+                    "ViewCount": 523,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 75,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 21,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "971ab58f-e96f-4a98-815c-4349af3fa04c",
+                    "Content": "△ABC中，∠A外角的平分线与此三角形外接圆相交于P，求证：BP=CP．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/113/b9e32324.png\" style=\"vertical-align:middle\" />",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.5,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "N7",
+                            "Value": "圆周角定理"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "14 ",
+                            "Value": "证明题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 414,
+                    "DownCount": 11,
+                    "RealCount": 1,
+                    "PaperCount": 42,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 22,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "108812e2-1bbf-41b0-8b86-80291fe17331",
+                    "Content": "设三角形的边长为a=4，b=5，c=6，其对角依次为A，B，C求cosC，sinC，sinB，sinA．问A，B，C三角为锐角或钝角？",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.3,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "HR",
+                            "Value": "余弦定理"
+                        },
+                        {
+                            "Key": "HP",
+                            "Value": "正弦定理"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "15 ",
+                            "Value": "综合题"
+                        },
+                        {
+                            "Key": "16 ",
+                            "Value": "压轴题"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 14,
+                    "ViewCount": 842,
+                    "DownCount": 19,
+                    "RealCount": 1,
+                    "PaperCount": 591,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 23,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                },
+                {
+                    "Subject": 30,
+                    "ID": "64e35528-6b91-485f-ac22-059a1825569d",
+                    "Content": "一椭圆通过（2，3）及（-1，4）两点，中心为原点，长短轴重合于坐标轴，试求其长轴，短轴及焦点．",
+                    "Method": "",
+                    "Analyse": "",
+                    "Discuss": "",
+                    "Degree": 0.38,
+                    "Cate": 9,
+                    "CateName": "解答题",
+                    "Label": "（1952•全国）",
+                    "LabelReportID": "130d1211-5e0d-455d-a501-e940f0e61dee",
+                    "Teacher": "",
+                    "Points": [
+                        {
+                            "Key": "K4",
+                            "Value": "椭圆的简单性质"
+                        }
+                    ],
+                    "Topics": [
+                        {
+                            "Key": "16 ",
+                            "Value": "压轴题"
+                        },
+                        {
+                            "Key": "43 ",
+                            "Value": "待定系数法"
+                        }
+                    ],
+                    "Options": [],
+                    "FavTime": 1,
+                    "ViewCount": 326,
+                    "DownCount": 13,
+                    "RealCount": 1,
+                    "PaperCount": 126,
+                    "Answers": [],
+                    "QuesFiles": [],
+                    "QuesChilds": [],
+                    "ParentID": null,
+                    "ParentContent": null,
+                    "Seq": 24,
+                    "Score": 0,
+                    "UserAnswers": [],
+                    "UserScores": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1233 @@
+﻿{
+  "ID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+  "Title": "1991年全国统一高考数学试卷（理科）",
+  "ViewCount": 4798,
+  "DownCount": 53,
+  "FavoriteCount": 21,
+  "Subject": 30,
+  "RegionName": "全国",
+  "Year": 1991,
+  "SourceName": "高考真题",
+  "GradeName": null,
+  "TermName": null,
+  "EditionName": null,
+  "SchoolName": null,
+  "Score": 120,
+  "Degree": 0.6047499,
+  "Times": 120,
+  "Groups": [
+    {
+      "Key": "一、选择题（共15小题，每小题3分，满分45分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "31a68496-6034-4186-8682-405169ffb834",
+          "Content": "已知sinα=$\\frac{4}{5}$，并且α是第二象限的角，那么tanα的值等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.95,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GH",
+              "Value": "同角三角函数基本关系的运用"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "-$\\frac{4}{3}$",
+            "-$\\frac{3}{4}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{4}{3}$"
+          ],
+          "FavTime": 44,
+          "ViewCount": 3188,
+          "DownCount": 31,
+          "RealCount": 97,
+          "PaperCount": 3115,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b3412442-53dc-4be2-bca7-8cd99a62eb89",
+          "Content": "2、焦点在（-1，0），顶点在（1，0）的抛物线方程是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "K7",
+              "Value": "抛物线的标准方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "48 ",
+              "Value": "分析法"
+            }
+          ],
+          "Options": [
+            "y<SUP>2</SUP>=8（x+1）",
+            "y<SUP>2</SUP>=-8（x+1）",
+            "y<SUP>2</SUP>=8（x-1）",
+            "y<SUP>2</SUP>=-8（x-1）"
+          ],
+          "FavTime": 2,
+          "ViewCount": 269,
+          "DownCount": 13,
+          "RealCount": 2,
+          "PaperCount": 118,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1de4689e-6515-404f-8c14-776061cdb941",
+          "Content": "函数y=cos<SUP>4</SUP>x-sin<SUP>4</SUP>x的最小正周期是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.81,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GH",
+              "Value": "同角三角函数基本关系的运用"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "$\\frac{π}{2}$",
+            "π",
+            "2π",
+            "4π"
+          ],
+          "FavTime": 29,
+          "ViewCount": 1432,
+          "DownCount": 18,
+          "RealCount": 12,
+          "PaperCount": 546,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "764d3b4a-714d-4a28-bb5b-f344fa863691",
+          "Content": "4、如果把两条异面直线看成“一对”，那么六棱锥的棱所在的12条直线中，异面直线共有（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LO",
+              "Value": "空间中直线与直线之间的位置关系"
+            },
+            {
+              "Key": "L2",
+              "Value": "棱柱的结构特征"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "12对",
+            "24对",
+            "36对",
+            "48对"
+          ],
+          "FavTime": 20,
+          "ViewCount": 1426,
+          "DownCount": 19,
+          "RealCount": 23,
+          "PaperCount": 181,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2727722e-989f-4119-82c5-d552ebd2df48",
+          "Content": "函数y=sin（2x+$\\frac{5π}{2}$）的图象的一条对称轴的方程是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.77,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HJ",
+              "Value": "函数y=Asin（ωx+φ）的图象变换"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "x=-$\\frac{π}{2}$",
+            "x=-$\\frac{π}{4}$",
+            "x=$\\frac{π}{8}$",
+            "x=$\\frac{5π}{4}$"
+          ],
+          "FavTime": 36,
+          "ViewCount": 916,
+          "DownCount": 14,
+          "RealCount": 49,
+          "PaperCount": 305,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "e419a1f5-ca7c-4915-9012-a1f2461e66e6",
+          "Content": "6、如果三棱锥S-ABC的底面是不等边三角形，侧面与底面所成的二面角都相等，且顶点S在底面的射影O在△ABC内，那么O是△ABC的（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "L3",
+              "Value": "棱锥的结构特征"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "14 ",
+              "Value": "证明题"
+            },
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            }
+          ],
+          "Options": [
+            "垂心",
+            "重心",
+            "外心",
+            "内心"
+          ],
+          "FavTime": 6,
+          "ViewCount": 503,
+          "DownCount": 10,
+          "RealCount": 7,
+          "PaperCount": 104,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2bf56178-1bbc-4265-ba36-43089c87d4dd",
+          "Content": "已知{a<SUB>n</SUB>}是等比数列，且a<SUB>n</SUB>＞0，a<SUB>2</SUB>a<SUB>4</SUB>+2a<SUB>3</SUB>a<SUB>5</SUB>+a<SUB>4</SUB>a<SUB>6</SUB>=25，那么a<SUB>3</SUB>+a<SUB>5</SUB>的值等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.81,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "87",
+              "Value": "等比数列"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "FavTime": 24,
+          "ViewCount": 1384,
+          "DownCount": 22,
+          "RealCount": 63,
+          "PaperCount": 1265,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "d1683e16-e8dc-4dc7-8e7f-c5ce32279c22",
+          "Content": "8、如果圆锥曲线的极坐标方程为ρ=$\\frac{16}{5-3cosθ}$，那么它的焦点的极坐标为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "Q4",
+              "Value": "简单曲线的极坐标方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "（0，0），（6，π）",
+            "（-3，0），（3，0）",
+            "（0，0），（3，0）",
+            "（0，0），（6，0）"
+          ],
+          "FavTime": 1,
+          "ViewCount": 344,
+          "DownCount": 16,
+          "RealCount": 1,
+          "PaperCount": 49,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "8d5048c4-938a-4d64-81b1-e75b0f466593",
+          "Content": "从4台甲型和5台乙型电视机中任意取出3台，其中至少要有甲型与乙型电视机各1台，则不同的取法共有（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.79,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "D2",
+              "Value": "分步乘法计数原理"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "140种",
+            "84种",
+            "70种",
+            "35种"
+          ],
+          "FavTime": 104,
+          "ViewCount": 3603,
+          "DownCount": 41,
+          "RealCount": 23,
+          "PaperCount": 2043,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b033f637-b252-44bf-b98b-15be62f88561",
+          "Content": "如果AC＜0，且BC＜0，那么直线Ax+By+C=0不通过（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.69,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "IG",
+              "Value": "直线的一般式方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "FavTime": 19,
+          "ViewCount": 1763,
+          "DownCount": 22,
+          "RealCount": 60,
+          "PaperCount": 1151,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a116ed0e-67c4-4f09-9de2-f73f59b691e7",
+          "Content": "11、设甲、乙、丙是三个命题．如果甲是乙的必要条件；丙是乙的充分条件但不是乙的必要条件，那么（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "2L",
+              "Value": "必要条件、充分条件与充要条件的判断"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "丙是甲的充分条件，但不是甲的必要条件",
+            "丙是甲的必要条件，但不是甲的充分条件",
+            "丙是甲的充要条件",
+            "丙不是甲的充分条件，也不是甲的必要条件"
+          ],
+          "FavTime": 4,
+          "ViewCount": 407,
+          "DownCount": 11,
+          "RealCount": 2,
+          "PaperCount": 46,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "9c8df43c-f0f7-4c09-948b-b60e689d454c",
+          "Content": "$\\lim_{n→∞}$[n（1-$\\frac{1}{3}$）（1-$\\frac{1}{4}$）（1-$\\frac{1}{5}$）…（1-$\\frac{1}{n+2}$）]等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.71,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "6F",
+              "Value": "极限及其运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 283,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 9,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "5543ec22-4b27-4e59-b83c-b4e22ae39673",
+          "Content": "如果奇函数f（x）在区间[3，7]上是增函数且最小值为5，那么f（x）在区间[-7，-3]上是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.82,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3I",
+              "Value": "奇函数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "增函数且最小值为-5",
+            "增函数且最大值为-5",
+            "减函数且最小值为-5",
+            "减函数且最大值为-5"
+          ],
+          "FavTime": 40,
+          "ViewCount": 2681,
+          "DownCount": 35,
+          "RealCount": 78,
+          "PaperCount": 1275,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "9316e51c-5968-465f-b1a9-d55baeca2170",
+          "Content": "圆x<SUP>2</SUP>+2x+y<SUP>2</SUP>+4y-3=0上到直线x+y+1=0的距离为$\\sqrt{2}$的点共有（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.43,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "J9",
+              "Value": "直线与圆的位置关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "FavTime": 18,
+          "ViewCount": 1124,
+          "DownCount": 20,
+          "RealCount": 57,
+          "PaperCount": 581,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "394697c4-7554-4bcf-bcfc-d5dc69c7cb8a",
+          "Content": "设全集为R，f&nbsp;（x）=sinx，g&nbsp;（x）=cosx，M={x|f&nbsp;（x）≠0}，N={x|g&nbsp;（x）≠0}，那么集合<br />{x|f&nbsp;（x）g&nbsp;（x）=0}等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.36,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "1H",
+              "Value": "交、并、补集的混合运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "$\\overline M∩\\overline N$",
+            "$\\overline M∪N$",
+            "$M∪\\overline N$",
+            "$\\overline M∪\\overline N$"
+          ],
+          "FavTime": 19,
+          "ViewCount": 566,
+          "DownCount": 17,
+          "RealCount": 1,
+          "PaperCount": 549,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（共5小题，每小题3分，满分15分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "5bd851c1-e5be-4317-a1b1-eaa394abd40d",
+          "Content": "arctg$\\frac{1}{3}$+arctg$\\frac{1}{2}$的值是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.74,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HV",
+              "Value": "反三角函数的运用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 219,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 47,
+          "Answers": [
+            "$\\frac{π}{4}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "e266c061-0070-4a19-8aa4-f090e7c51eae",
+          "Content": "不等式${6^{{x^2}+x-2}}＜1$的解集是 \r\n<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "74",
+              "Value": "一元二次不等式的解法"
+            },
+            {
+              "Key": "4B",
+              "Value": "指数函数的单调性与特殊点"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 3,
+          "ViewCount": 438,
+          "DownCount": 24,
+          "RealCount": 6,
+          "PaperCount": 704,
+          "Answers": [
+            "{x|-2＜x＜1}"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "d5d4a9dd-b36a-4043-8e95-6f55cb8d595c",
+          "Content": "已知正三棱台上底面边长为2，下底面边长为4，且侧棱与底面所成的角是45°，那么这个正三棱台的体积等于<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.66,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LF",
+              "Value": "棱柱、棱锥、棱台的体积"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 490,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 53,
+          "Answers": [
+            "$\\frac{14}{3}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "147f7aa1-2a4a-4eb4-9777-e712f3a91764",
+          "Content": "（ax+1）<SUP>7</SUP>的展开式中，x<SUP>3</SUP>的系数是x<SUP>2</SUP>的系数与x<SUP>4</SUP>的系数的等差中项．若实数a＞1，那么a=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.48,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "7F",
+              "Value": "基本不等式"
+            },
+            {
+              "Key": "DA",
+              "Value": "二项式定理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 3,
+          "ViewCount": 507,
+          "DownCount": 14,
+          "RealCount": 4,
+          "PaperCount": 118,
+          "Answers": [
+            "1+$\\frac{{\\sqrt{10}}}{5}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "271bb264-fb91-43b3-8e8b-0160c8d776d2",
+          "Content": "空间四个点P、A、B、C在同一球面上，PA、PB、PC两两垂直，且PA=PB=PC=a，那么这个球面的面积是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.34,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LR",
+              "Value": "球内接多面体"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 18,
+          "ViewCount": 1143,
+          "DownCount": 16,
+          "RealCount": 21,
+          "PaperCount": 276,
+          "Answers": [
+            "3πa<SUP>2</SUP>"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题（共6小题，满分60分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "a91d0da7-93a4-4d5a-a6f8-8800068f40d1",
+          "Content": "求函数y=sin<SUP>2</SUP>x+2sinxcosx+3cos<SUP>2</SUP>x的最小值，并写出使函数y取最小值的x的集合．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HW",
+              "Value": "三角函数的最值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 4,
+          "ViewCount": 855,
+          "DownCount": 10,
+          "RealCount": 1,
+          "PaperCount": 55,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "93541088-04c5-4f39-999d-ba3d05994fc9",
+          "Content": "已知复数z=1+i，求复数$\\frac{{{z^2}-3z+6}}{z+1}$的模和辐角的主值．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.65,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "A2",
+              "Value": "复数的基本概念"
+            },
+            {
+              "Key": "A5",
+              "Value": "复数代数形式的乘除运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 0,
+          "ViewCount": 382,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 30,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "4b1bd288-4c6c-40c9-8bf8-f1b012238139",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/98/dad0a23a.png\" style=\"vertical-align:middle;FLOAT:right;\" />已知ABCD是边长为4的正方形，E、F分别是AB、AD的中点，GC垂直于ABCD所在的平面，且GC=2．求点B到平面EFG的距离．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.67,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "MK",
+              "Value": "点、线、面间的距离计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 15,
+          "ViewCount": 1552,
+          "DownCount": 11,
+          "RealCount": 3,
+          "PaperCount": 40,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2679214f-9962-4e57-8e03-f242dbe3e424",
+          "Content": "根据函数单调性的定义，证明函数f&nbsp;（x）=-x<SUP>3</SUP>+1在（-∞，+∞）上是减函数．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.65,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3E",
+              "Value": "函数单调性的判断与证明"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "14 ",
+              "Value": "证明题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 12,
+          "ViewCount": 1591,
+          "DownCount": 15,
+          "RealCount": 4,
+          "PaperCount": 214,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "fa81bec6-3f74-47eb-852a-f4f215bc1751",
+          "Content": "已知n为自然数，实数a＞1，解关于x的不等式${log_a}x-4{log_{a^2}}x+12{log_{a^3}}x-…+n{（-2）^{n-1}}{log_{a^n}}x＞\\frac{{1-{{（-2）}^n}}}{3}{log_a}（{x^2}-a）$．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.3,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "4H",
+              "Value": "对数的运算性质"
+            },
+            {
+              "Key": "4I",
+              "Value": "换底公式的应用"
+            },
+            {
+              "Key": "7E",
+              "Value": "其他不等式的解法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "32 ",
+              "Value": "分类讨论"
+            }
+          ],
+          "Options": [],
+          "FavTime": 37,
+          "ViewCount": 1177,
+          "DownCount": 22,
+          "RealCount": 3,
+          "PaperCount": 756,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "00223b13-f90c-43b7-8569-c12f66d332f2",
+          "Content": "双曲线的中心在坐标原点O，焦点在x轴上，过双曲线右焦点且斜率为$\\sqrt{\\frac{3}{5}}$的直线交双曲线于P、Q两点．若OP⊥OQ，|PQ|=4，求双曲线的方程．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.3,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（1991•全国）",
+          "LabelReportID": "dcc2058b-33e2-4124-834f-204351e50ad0",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KB",
+              "Value": "双曲线的标准方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 33,
+          "ViewCount": 1385,
+          "DownCount": 21,
+          "RealCount": 2,
+          "PaperCount": 159,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    }
+  ]
+}

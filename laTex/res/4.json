@@ -1,0 +1,1090 @@
+﻿{
+  "ID": "06889c7c-0dc4-4ec4-a272-b393832f1c6f",
+  "Title": "2003年广东省高考数学试卷",
+  "ViewCount": 1820,
+  "DownCount": 60,
+  "FavoriteCount": 17,
+  "Subject": 30,
+  "RegionName": "广东",
+  "Year": 2003,
+  "SourceName": "高考真题",
+  "GradeName": null,
+  "TermName": null,
+  "EditionName": null,
+  "SchoolName": null,
+  "Score": 150,
+  "Degree": 0.6088666,
+  "Times": 120,
+  "Groups": [
+    {
+      "Key": "一、选择题（共12小题，每小题5分，满分60分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "7ebd0577-bedb-4cff-9506-1036bb49ac4e",
+          "Content": "在同一直角坐标系中，表示直线y=ax与y=x+a正确的是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.82,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•广东）",
+          "LabelReportID": "06889c7c-0dc4-4ec4-a272-b393832f1c6f",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "I1",
+              "Value": "确定直线位置的几何要素"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/140/340bcfca.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/140/2e14e6ba.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/140/71180d30.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/140/ae94aca9.png\" style=\"vertical-align:middle\" />"
+          ],
+          "FavTime": 12,
+          "ViewCount": 1843,
+          "DownCount": 17,
+          "RealCount": 83,
+          "PaperCount": 518,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "88828a0c-762c-4686-9929-bc830253695e",
+          "Content": "已知x∈（-$\\frac{π}{2}$，0），cosx=$\\frac{4}{5}$，则tan2x等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.81,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GU",
+              "Value": "二倍角的正切"
+            },
+            {
+              "Key": "GK",
+              "Value": "弦切互化"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "$\\frac{7}{24}$",
+            "-$\\frac{7}{24}$",
+            "$\\frac{24}{7}$",
+            "-$\\frac{24}{7}$"
+          ],
+          "FavTime": 9,
+          "ViewCount": 1279,
+          "DownCount": 12,
+          "RealCount": 19,
+          "PaperCount": 306,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a4d3bb8a-52c3-4c82-9e37-49a583b188bc",
+          "Content": "圆锥曲线$ρ=\\frac{8sinθ}{{cos}^{2}\\;θ}$的准线方程是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.92,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "Q8",
+              "Value": "点的极坐标和直角坐标的互化"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "ρcosθ=-2",
+            "ρcosθ=2",
+            "ρsinθ=-2",
+            "ρsinθ=2"
+          ],
+          "FavTime": 9,
+          "ViewCount": 831,
+          "DownCount": 23,
+          "RealCount": 2,
+          "PaperCount": 279,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1aafe715-9983-48c9-9d52-67140d053c35",
+          "Content": "等差数列{a<SUB>n</SUB>}中，已知a<SUB>1</SUB>=$\\frac{1}{3}$，a<SUB>2</SUB>+a<SUB>5</SUB>=4，a<SUB>n</SUB>=33，则n为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.78,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•天津）",
+          "LabelReportID": "15734c91-5cf3-425d-a25a-c731efd2ce03",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "83",
+              "Value": "等差数列"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            }
+          ],
+          "Options": [
+            "48",
+            "49",
+            "50",
+            "51"
+          ],
+          "FavTime": 11,
+          "ViewCount": 710,
+          "DownCount": 12,
+          "RealCount": 38,
+          "PaperCount": 354,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1bab3e6e-649b-4102-baf2-9d9cac0f19b8",
+          "Content": "双曲线虚轴的一个端点为M，两个焦点为F<SUB>1</SUB>、F<SUB>2</SUB>，∠F<SUB>1</SUB>MF<SUB>2</SUB>=120°，则双曲线的离心率为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•天津）",
+          "LabelReportID": "15734c91-5cf3-425d-a25a-c731efd2ce03",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KC",
+              "Value": "双曲线的简单性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "$\\sqrt{3}$",
+            "$\\frac{{\\sqrt{6}}}{2}$",
+            "$\\frac{{\\sqrt{6}}}{3}$",
+            "$\\frac{{\\sqrt{3}}}{3}$"
+          ],
+          "FavTime": 12,
+          "ViewCount": 747,
+          "DownCount": 14,
+          "RealCount": 21,
+          "PaperCount": 73,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "e8562625-df59-45e4-a73b-d9d4f4f72616",
+          "Content": "设函数$f（x）=\\left\\{\\begin{array}{l}{2^{-x}}-1&x≤0\\\\{x^{\\frac{1}{2}}}&x＞0\\end{array}\\right.$若f（x<SUB>0</SUB>）＞1，则x<SUB>0</SUB>的取值范围是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.79,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3B",
+              "Value": "分段函数的解析式求法及其图象的作法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "（-1，1）",
+            "（-1，+∞）",
+            "（-∞，-2）∪（0，+∞）",
+            "（-∞，-1）∪（1，+∞）"
+          ],
+          "FavTime": 16,
+          "ViewCount": 1057,
+          "DownCount": 23,
+          "RealCount": 47,
+          "PaperCount": 201,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "c7a140cc-9dde-493d-8e98-5decbf855f07",
+          "Content": "函数y=2sinx（sinx+cosx）的最大值为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GS",
+              "Value": "二倍角的正弦"
+            },
+            {
+              "Key": "GT",
+              "Value": "二倍角的余弦"
+            },
+            {
+              "Key": "H4",
+              "Value": "正弦函数的定义域和值域"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "$1+\\sqrt{2}$",
+            "$\\sqrt{2}-1$",
+            "$\\sqrt{2}$",
+            "2"
+          ],
+          "FavTime": 13,
+          "ViewCount": 1048,
+          "DownCount": 12,
+          "RealCount": 6,
+          "PaperCount": 128,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a93b34cb-b6ca-4f6d-8dba-c1009379503b",
+          "Content": "已知圆C：（x-a）<SUP>2</SUP>+（y-2）<SUP>2</SUP>=4及直线l：x-y+3=0，当直线l被C截得的弦长为$2\\sqrt{3}$时，则a等于（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "J9",
+              "Value": "直线与圆的位置关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "$\\sqrt{2}$",
+            "$2-\\sqrt{3}$",
+            "$±\\sqrt{2}-1$",
+            "$\\sqrt{2}+1$"
+          ],
+          "FavTime": 4,
+          "ViewCount": 830,
+          "DownCount": 13,
+          "RealCount": 9,
+          "PaperCount": 70,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "01a24e0c-e5df-4f33-95f2-090b3486a08d",
+          "Content": "已知圆锥的底面半径为R，高为3R，在它的所有内接圆柱中，全面积的最大值是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "7G",
+              "Value": "基本不等式在最值问题中的应用"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "2πR<SUP>2</SUP>",
+            "$\\frac{9}{4}π{R^2}$",
+            "$\\frac{8}{3}π{R^2}$",
+            "$\\frac{3}{2}π{r^2}$"
+          ],
+          "FavTime": 14,
+          "ViewCount": 874,
+          "DownCount": 17,
+          "RealCount": 7,
+          "PaperCount": 104,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "4f2edcbf-88f0-4ed3-bba6-1c582e6d4f19",
+          "Content": "函数f（x）=sinx，x∈$[\\frac{π}{2}，\\frac{3π}{2}]$的反函数f<SUP>-1</SUP>（x）=（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HV",
+              "Value": "反三角函数的运用"
+            },
+            {
+              "Key": "4R",
+              "Value": "反函数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "-arcsinx，x∈[-1，1]",
+            "-π-arcsinx，x∈[-1，1]",
+            "-π+arcsinx，x∈[-1，1]",
+            "π-arcsinx，x∈[-1，1]"
+          ],
+          "FavTime": 4,
+          "ViewCount": 530,
+          "DownCount": 11,
+          "RealCount": 3,
+          "PaperCount": 107,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "59876142-509c-4672-ace2-29817d001297",
+          "Content": "已知长方形的四个项点A（0，0），B（2，0），C（2，1）和D（0，1），一质点从AB的中点P<SUB>0</SUB>沿与AB夹角为θ的方向射到BC上的点P<SUB>1</SUB>后，依次反射到CD．DA和AB上的点P<SUB>2</SUB>．P<SUB>3</SUB>和P<SUB>4</SUB>（入射角等于反射角），设P<SUB>4</SUB>坐标为（x<SUB>4</SUB>，0），若1＜x<SUB>4</SUB>＜2，则tanθ的取值范围是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.49,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "IQ",
+              "Value": "与直线关于点、直线对称的直线方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "（$\\frac{1}{3}$，1）",
+            "（$\\frac{1}{3}$，$\\frac{2}{3}$）",
+            "（$\\frac{2}{5}$，$\\frac{1}{2}$）",
+            "（$\\frac{2}{5}$，$\\frac{2}{3}$）"
+          ],
+          "FavTime": 27,
+          "ViewCount": 1475,
+          "DownCount": 18,
+          "RealCount": 10,
+          "PaperCount": 278,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "dc162102-b512-4bfb-8776-aef0865d7d66",
+          "Content": "棱长都为$\\sqrt{2}$的四面体的四个顶点在同一球面上，则此球的表面积为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.36,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "LG",
+              "Value": "球的体积和表面积"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "3π",
+            "4π",
+            "3$\\sqrt{3}π$",
+            "6π"
+          ],
+          "FavTime": 76,
+          "ViewCount": 2239,
+          "DownCount": 19,
+          "RealCount": 15,
+          "PaperCount": 678,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（共4小题，每小题4分，满分16分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "c7563465-0c60-4c35-88a8-502578174610",
+          "Content": "不等式$\\sqrt{4x-{x^2}}＜x$的解集是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.68,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "5197da3a-617b-447b-8cc8-bdf4809b5dd9",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "74",
+              "Value": "一元二次不等式的解法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [],
+          "FavTime": 4,
+          "ViewCount": 245,
+          "DownCount": 12,
+          "RealCount": 3,
+          "PaperCount": 139,
+          "Answers": [
+            "（2，4]"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "1421b055-24ef-45ac-a52f-e292cc874cac",
+          "Content": "在${（{x-\\frac{1}{2x}}）^9}$的展开式中，x<SUP>3</SUP>的系数是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>（用数字作答）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.7,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "DC",
+              "Value": "二项式定理的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 1,
+          "ViewCount": 782,
+          "DownCount": 12,
+          "RealCount": 15,
+          "PaperCount": 50,
+          "Answers": [
+            "-$\\frac{21}{2}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "beefcc4d-7fc2-4e3a-9123-f469dfb23c58",
+          "Content": "在平面几何里，有勾股定理“设△ABC的两边AB，AC互相垂直，则AB<SUP>2</SUP>+AC<SUP>2</SUP>=BC<SUP>2</SUP>”，拓展到空间，类比平面几何的勾股定理，研究三棱锥的侧面面积与底面面积间的关系，可以得出正确的结论是：“设三棱锥A-BCD的三个侧面ABC、ACD、ADB两两互相垂直，则<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．”<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201511/166/f8fe95f2.png\" style=\"vertical-align:middle\" />",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.52,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2003•天津）",
+          "LabelReportID": "15734c91-5cf3-425d-a25a-c731efd2ce03",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "F3",
+              "Value": "类比推理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 20,
+          "ViewCount": 1775,
+          "DownCount": 23,
+          "RealCount": 28,
+          "PaperCount": 127,
+          "Answers": [
+            "S<SUB>△ABC</SUB><SUP>2</SUP>+S<SUB>△ACD</SUB><SUP>2</SUP>+S<SUB>△ADB</SUB><SUP>2</SUP>=S<SUB>△BCD</SUB><SUP>2</SUP>"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "23c478c2-ef1e-401b-9cc1-8bc1ea3043cc",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201509/182/8d847c0b.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，一个地区分为5个行政区域，现给地图着色，要求相邻区域不得使用同一颜色．现有4种颜色可供选择，则不同的着色方法共有<div class='quizPutTag' contenteditable='true'>&nbsp;</div>种．（以数字作答）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.51,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "D5",
+              "Value": "组合及组合数公式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "32 ",
+              "Value": "分类讨论"
+            }
+          ],
+          "Options": [],
+          "FavTime": 23,
+          "ViewCount": 1482,
+          "DownCount": 26,
+          "RealCount": 16,
+          "PaperCount": 325,
+          "Answers": [
+            "72"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题（共6小题，满分74分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "c05d36b7-1534-4c9e-b792-e3330dd1f723",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/154/583e6101.png\" style=\"vertical-align:middle;FLOAT:right\" />已知正四棱柱ABCD-A<SUB>1</SUB>B<SUB>1</SUB>C<SUB>1</SUB>D<SUB>1</SUB>．AB=1，AA<SUB>1</SUB>=2，点E为CC<SUB>1</SUB>中点，点F为BD<SUB>1</SUB>中点．<br />（1）证明EF为BD<SUB>1</SUB>与CC<SUB>1</SUB>的公垂线；<br />（2）求点D<SUB>1</SUB>到面BDE的距离．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.74,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•天津）",
+          "LabelReportID": "15734c91-5cf3-425d-a25a-c731efd2ce03",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "MK",
+              "Value": "点、线、面间的距离计算"
+            },
+            {
+              "Key": "L2",
+              "Value": "棱柱的结构特征"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "14 ",
+              "Value": "证明题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 13,
+          "ViewCount": 1013,
+          "DownCount": 12,
+          "RealCount": 12,
+          "PaperCount": 116,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "79d8bc1e-ed10-4ec3-b14c-98fb9c68ffd7",
+          "Content": "已知复数z的辐角为60°，且|z-1|是|z|和|z-2|的等比中项．求|z|．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.73,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "A2",
+              "Value": "复数的基本概念"
+            },
+            {
+              "Key": "8G",
+              "Value": "等比数列的性质"
+            },
+            {
+              "Key": "A8",
+              "Value": "复数求模"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 5,
+          "ViewCount": 593,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 47,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "8696849f-cb96-40a5-831b-2636e205ff29",
+          "Content": "已知c＞0，设P：函数y=c<SUP>x</SUP>在R上单调递减，Q：不等式x+|x-2c|＞1的解集为R．如果P和Q有且仅有一个正确，求c的取值范围．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.64,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "R5",
+              "Value": "绝对值不等式的解法"
+            },
+            {
+              "Key": "4C",
+              "Value": "指数函数单调性的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 28,
+          "ViewCount": 1222,
+          "DownCount": 18,
+          "RealCount": 12,
+          "PaperCount": 99,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "9763db5b-5585-49a1-960b-dc66d1f0baa2",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201510/193/5e0c2d72.png\" style=\"vertical-align:middle;FLOAT:right\" />在某海滨城市附近海面有一台风，据监测，当前台风中心位于城市O（如图）的东偏南$θ（cosθ=\\frac{{\\sqrt{2}}}{10}）$方向300km的海面P处，并以20km/h的速度向西偏北45°方向移动，台风侵袭的范围为圆形区域，当前半径为60km，并以10km/h的速度不断增大，问几小时后该城市开始受到台风的侵袭？",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.47,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "JF",
+              "Value": "圆方程的综合应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 58,
+          "ViewCount": 6371,
+          "DownCount": 26,
+          "RealCount": 18,
+          "PaperCount": 165,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "382a232a-d273-488b-a28c-60a62c389b35",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201505/87/cf7b0350.png\" style=\"vertical-align:middle;FLOAT:right\" />已知常数a＞0，在矩形ABCD中，AB=4，BC=4a，O为AB的中点，点E、F、G分别在BC、CD、DA上移动，且$\\frac{BE}{BC}=\\frac{CF}{CD}=\\frac{DG}{DA}$，P为GE与OF的交点（如图），问是否存在两个定点，使P到这两点的距离的和为定值？若存在，求出这两点的坐标及此定值；若不存在，请说明理由．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.31,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•全国）",
+          "LabelReportID": "4067b464-e32c-4a74-a2c0-045147b38464",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "J3",
+              "Value": "轨迹方程"
+            },
+            {
+              "Key": "K4",
+              "Value": "椭圆的简单性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 23,
+          "ViewCount": 1387,
+          "DownCount": 19,
+          "RealCount": 4,
+          "PaperCount": 222,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a67ecc0f-b783-4bc7-bdb6-e5ae6c9232fa",
+          "Content": "设a<SUB>n</SUB>为常数，且a<SUB>n</SUB>=3<SUP>n-1</SUP>-2a<SUB>n-1</SUB>（n∈N<SUP>*</SUP>）．<BR>（1）证明对任意n≥1，有${a_n}=\\frac{{{3^n}+{{（-1）}^{n-1}}{2^n}}}{5}+{（-1）^n}{2^n}{a_0}$；<BR>（2）假设对任意n≥1有a<SUB>n</SUB>＞a<SUB>n-1</SUB>，求a<SUB>0</SUB>的取值范围．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.29,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2003•天津）",
+          "LabelReportID": "ad55aa9b-e12f-4c45-a368-57d4225e1106",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "8H",
+              "Value": "数列递推式"
+            },
+            {
+              "Key": "RG",
+              "Value": "数学归纳法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "FavTime": 17,
+          "ViewCount": 963,
+          "DownCount": 22,
+          "RealCount": 3,
+          "PaperCount": 189,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 14.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    }
+  ]
+}

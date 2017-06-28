@@ -14,7 +14,7 @@
         }
 
         path.link.now {
-            stroke: red;
+            stroke: #ff8a65;
         }
 
         path.link.tj {
@@ -22,7 +22,7 @@
         }
 
         path.link.no {
-            stroke: #000;
+            stroke: #e2dddb;
             /*stroke-dasharray: 0,2 1;*/
         }
 
@@ -197,6 +197,8 @@
                 lastNodes.push(nodes[i][j]);
             }
         }
+      //  console.log('nodes');
+      //  console.log(lastNodes);
     }
 
     initData(width, height)
@@ -219,6 +221,8 @@
         });
         v.index = ++i;
     });
+  //  console.log('links');
+  //  console.log(links);
 
     var zoom = d3.behavior.zoom()
             .scaleExtent([1, 3])
