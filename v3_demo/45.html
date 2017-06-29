@@ -13,18 +13,18 @@
             stroke-width: 1.5px;
         }
 
-        path.link.now {
-            stroke: #ff8a65;
-        }
+        /*path.link.now {*/
+            /*stroke: #ff8a65;*/
+        /*}*/
 
-        path.link.tj {
-            stroke: blue;
-        }
+        /*path.link.tj {*/
+            /*stroke: blue;*/
+        /*}*/
 
-        path.link.no {
-            stroke: #e2dddb;
-            /*stroke-dasharray: 0,2 1;*/
-        }
+        /*path.link.no {*/
+            /*stroke: #e2dddb;*/
+            /*/!*stroke-dasharray: 0,2 1;*!/*/
+        /*}*/
 
         marker#now {
             fill: red
@@ -117,32 +117,47 @@
 <script>
     var width = 300, height = 300;
 
-
     var dataset = {
-        nodes: [/*statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）*/
-            {id: 0, name: "第一层知识点", type: "1", statue: false, step: 0},
-            {id: 1, name: "第二层知识点1", type: "1", statue: false, step: 1},
-            {id: 2, name: "第二层知识点2", type: "1", statue: false, step: 1},
-            {id: 3, name: "当前，第二层知识点3", type: "1", statue: true, step: 1},
-            {id: 4, name: "第三层知识点1", type: "2", statue: false, step: 2},
-            {id: 5, name: "第三层知识点2", type: "2", statue: false, step: 2},
-            {id: 6, name: "第三层知识点3", type: "2", statue: false, step: 2},
-            {id: 7, name: "第四层知识点1", type: "3", statue: false, step: 3},
-            {id: 8, name: "第四层知识点2", type: "3", statue: false, step: 3}
+        nodes: [/*statue是否是当前知识点，type种知识点：3当前题目知识点，4目标知识点，1可推荐的前置知识点，step这个知识点在什么位置*/
+            {id: 0, name: "前置1", type: "1", statue: false, step: 0},
+            {id: 1, name: "前置2", type: "1", statue: false, step: 0},
+            {id: 2, name: "前置3", type: "1", statue: false, step: 0},
+            {id: 3, name: "当前知识点", type: "3", statue: true, step: 1},
+            {id: 4, name: "目标知识点", type: "2", statue: false, step: 2}
         ],
-        edges: [/*type:no不推荐，tj推荐，now当前*/
-            {source: 0, target: 1, type: "tj"},
-            {source: 0, target: 3, type: "now"},
-            {source: 1, target: 2, type: "tj"},
-            {source: 1, target: 5, type: "no"},
-            {source: 1, target: 3, type: "no"},
-            {source: 1, target: 6, type: "no"},
-            {source: 2, target: 3, type: "no"},
-            {source: 2, target: 7, type: "tj"},
-            {source: 2, target: 8, type: "no"},
-            {source: 3, target: 4, type: "no"}
+        edges: [
+            {source: 0, target: 3},
+            {source: 1, target: 3},
+            {source: 2, target: 3},
+            {source: 3, target: 4}
         ]
     };
+
+//    var dataset = {
+//        nodes: [/*statue是否是当前知识点，type知识点分类（目标知识点，可推荐的前置）*/
+//            {id: 0, name: "第一层知识点", type: "1", statue: false, step: 0},
+//            {id: 1, name: "第二层知识点1", type: "1", statue: false, step: 1},
+//            {id: 2, name: "第二层知识点2", type: "1", statue: false, step: 1},
+//            {id: 3, name: "当前，第二层知识点3", type: "1", statue: true, step: 1},
+//            {id: 4, name: "第三层知识点1", type: "2", statue: false, step: 2},
+//            {id: 5, name: "第三层知识点2", type: "2", statue: false, step: 2},
+//            {id: 6, name: "第三层知识点3", type: "2", statue: false, step: 2},
+//            {id: 7, name: "第四层知识点1", type: "3", statue: false, step: 3},
+//            {id: 8, name: "第四层知识点2", type: "3", statue: false, step: 3}
+//        ],
+//        edges: [/*type:no不推荐，tj推荐，now当前*/
+//            {source: 0, target: 1, type: "tj"},
+//            {source: 0, target: 3, type: "now"},
+//            {source: 1, target: 2, type: "tj"},
+//            {source: 1, target: 5, type: "no"},
+//            {source: 1, target: 3, type: "no"},
+//            {source: 1, target: 6, type: "no"},
+//            {source: 2, target: 3, type: "no"},
+//            {source: 2, target: 7, type: "tj"},
+//            {source: 2, target: 8, type: "no"},
+//            {source: 3, target: 4, type: "no"}
+//        ]
+//    };
 
 
     var links = dataset.edges, old_nodes = dataset.nodes, nodes = [], lastNodes = [], rowCount, rowHeight, rowCenter;
@@ -157,9 +172,8 @@
         } else {
             nodes[old_nodes[i].step].push(old_nodes[i]);
         }
-
-
     }
+    console.log(nodes);
 
     var GetY = function (itemLength, colWidth, c, cnt) {
         var rowC = 0;
@@ -197,8 +211,6 @@
                 lastNodes.push(nodes[i][j]);
             }
         }
-      //  console.log('nodes');
-      //  console.log(lastNodes);
     }
 
     initData(width, height)
@@ -221,8 +233,6 @@
         });
         v.index = ++i;
     });
-  //  console.log('links');
-  //  console.log(links);
 
     var zoom = d3.behavior.zoom()
             .scaleExtent([1, 3])
@@ -255,17 +265,18 @@
                 var y2 = d.target.y;
                 return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
             })
-            .style("stroke", function (d, i) {
-                var color;
-                if (d.type == 'now') {
-                    color = 'red'
-                } else if (d.type == 'tj') {
-                    color = 'blue'
-                } else if (d.type == 'no') {
-                    color = '#ccc'
-                }
-                return color
-            })
+            .style("stroke", '#ccc')
+//            .style("stroke", function (d, i) {
+//                var color;
+//                if (d.type == 'now') {
+//                    color = 'red'
+//                } else if (d.type == 'tj') {
+//                    color = 'blue'
+//                } else if (d.type == 'no') {
+//                    color = '#ccc'
+//                }
+//                return color
+//            })
             .style("storke-width", "1px");
 
     container.append('g').selectAll('circle')
@@ -291,7 +302,7 @@
             .attr('fill', function (d) {
                 var color;
                 if (d.statue == true) {
-                    color = '#FFA400'
+                    color = '#fdc100'
                 } else {
                     color = '#fff'
                 }
@@ -300,21 +311,19 @@
             .attr('stroke', function (d) {
                 var color;
                 if (d.statue == true) {
-                    color = '#FFA400'
+                    color = '#fdc100'
                 } else {
                     if (d.type == "1") {
-                        color = '#ff7f0e'
+                        color = '#ffd54f'
                     } else if (d.type == "2") {
-                        color = '#b3e5fc'
-                    } else if (d.type == "3") {
-                        color = '#9ccc65'
+                        color = '#aed581'
                     }
                 }
                 return color
             })
             .on("mouseover", function (d, i) {
                 if (d.statue == false) {
-                    d3.select(this).style("fill", "#FFA400").style("stroke", "#FFA400").attr('r', 10);
+                    d3.select(this).style("fill", "#fdc100").style("stroke", "#fdc100").attr('r', 10);
 
                 }
                 //d3.select('#div1').text(d.name);
@@ -333,11 +342,9 @@
                             .style("stroke", function (d) {
                                 var color;
                                 if (d.type == "1") {
-                                    color = '#ff7f0e'
+                                    color = '#ffd54f'
                                 } else if (d.type == "2") {
-                                    color = '#b3e5fc'
-                                } else if (d.type == "3") {
-                                    color = '#9ccc65'
+                                    color = '#aed581'
                                 }
                                 return color
                             });
@@ -381,16 +388,16 @@
                 var y2 = d.target.y;
                 return "M" + x1 + " " + y1 + "L" + x2 + " " + y2;
             })
-        // .style("stroke", '#ccc')
-            .style("stroke", function (d, i) {
-                var color;
-                if (d.type == 'tj') {
-                    color = 'blue'
-                } else {
-                    color = '#ccc'
-                }
-                return color
-            })
+         .style("stroke", '#bebebe')
+//            .style("stroke", function (d, i) {
+//                var color;
+//                if (d.type == 'tj') {
+//                    color = 'blue'
+//                } else {
+//                    color = '#ccc'
+//                }
+//                return color
+//            })
             .style("storke-width", "1px");
 
     svg_small.append('g').selectAll('circle')
@@ -416,9 +423,9 @@
             .attr('fill', function (d) {
                 var color;
                 if (d.statue == true) {
-                    color = '#FFA400'
+                    color = '#f8e81c'
                 } else {
-                    color = '#fff'
+                    color = '#ffd5af'
                 }
                 return color
             })
