@@ -186,7 +186,8 @@
                 {
                     "Subject": 30,
                     "ID": "00664e50-cc3a-4484-a6b9-ccfa2824ec16",
-                    "Content": "$|\\begin{array}{l}{1}&2&3\\\\ 4&5&0\\\\ 3&2&1\\end{array}\\right|$=？",
+                    "Content": "$\\left|\\begin{array}{l}{1}&2&3\\\\ 4&5&0\\\\ 3&2&1\\end{array}\\right|$=？",
+
                     "Method": "",
                     "Analyse": "",
                     "Discuss": "",
