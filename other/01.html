@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .parent {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .parent2 {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .inputBox {
+            display: flex;
+            width: 250px;
+        }
+
+        .inputBox-ipt {
+            flex: 1;
+        }
+
+        .parent3 {
+            display: flex;
+        }
+
+        .child {
+            flex: 1;
+            height: 100px;
+        }
+
+        .child + .child {
+            margin-left: 20px;
+        }
+
+        .box {
+            display: flex;
+            background-color: lightgrey;
+            width: 300px;
+        }
+
+        .left {
+            margin-right: 20px;
+            background-color: lightblue;
+            height: 30px;
+        }
+
+        .main {
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent" style="background-color: lightgrey;height: 100px;width: 200px;">
+    <div class="in" style="background-color: lightblue;">DEMO</div>
+    <div class="in" style="background-color: lightgreen;">DEMO</div>
+    <div class="in" style="background-color: lightcyan;">DEMO</div>
+    <div class="in" style="background-color: lightseagreen;">DEMO</div>
+</div>
+<div class="parent2" style="background-color: lightgrey;height: 100px;width: 200px;">
+    <div class="in" style="background-color: lightblue; height:20px;">DEMO</div>
+    <div class="in" style="background-color: lightgreen; height:30px;">DEMO</div>
+    <div class="in" style="background-color: lightcyan; height:40px;">DEMO</div>
+    <div class="in" style="background-color: lightseagreen; height:50px;">DEMO</div>
+</div>
+<div class="inputBox">
+    <input class="inputBox-ipt">
+    <button class="inputBox-btn">按钮</button>
+</div>
+<div class="parent3" style="background-color: lightgrey;">
+    <div class="child" style="background-color: lightblue;">1</div>
+    <div class="child" style="background-color: lightgreen;">2</div>
+    <div class="child" style="background-color: lightsalmon;">3</div>
+    <div class="child" style="background-color: pink;">4</div>
+</div>
+<div class="box">
+    <div class="left">左侧悬挂</div>
+    <div class="main">主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容主要内容</div>
+</div>
+
+</body>
+</html>
