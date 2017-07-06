@@ -1,0 +1,805 @@
+一、填空题（解答题当成填空题）
+
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!--Source:题目来源  BookId:来源唯一号 -->
+<TiMu Source="中学教材全解" BookId="ISBN 978-7-80718-861-2">
+    <!--Page:题目所在书的页码-->
+    <Page>38</Page>
+    <!--SubjectID:学科ID-->
+    <SubjectID>2</SubjectID>
+    <!--Type:题目类型：选择题，填空题，子母题-->
+    <Type>填空题</Type>
+    <!--Analyse:分析-->
+    <Analyse>运用立方根，绝对值，有理数的乘方和负整数指数幂的法则计算．</Analyse>
+    <!--Explain:解答-->
+    <Explain>|-1|=1，
+        <br/>
+        <math>
+            <mrow>
+                <msup>
+                    <mn>2</mn>
+                    <mrow>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                    </mrow>
+                </msup>
+                <mo>=</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>4</mn>
+                </mfrac>
+            </mrow>
+        </math>
+        ，
+        <br/>
+        <math>
+            <mrow>
+                <msup>
+                    <mrow>
+                        <mo stretchy='false'>(</mo>
+                        <mo>-</mo>
+                        <mn>3</mn>
+                        <mo stretchy='false'>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+                <mn>9</mn>
+            </mrow>
+        </math>
+        ，
+        <br/>
+        <math>
+            <mrow>
+                <mroot>
+                    <mrow>
+                        <mo>-</mo>
+                        <mn>8</mn>
+                    </mrow>
+                    <mn>3</mn>
+                </mroot>
+                <mo>=</mo>
+                <mo>-</mo>
+                <mn>2</mn>
+            </mrow>
+        </math>
+        ．
+    </Explain>
+    <!--Comment:点评-->
+    <Comment>本题涉及了立方根，绝对值，有理数的乘方和负整数指数幂的知识，解题的关键是熟记法则．</Comment>
+    <!--Trunk:题干
+        <kbd></kbd>表示答题框
+        -->
+    <Trunk>计算：|-1|=<kbd></kbd>，
+        <math>
+            <mrow>
+                <msup>
+                    <mn>2</mn>
+                    <mrow>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                    </mrow>
+                </msup>
+            </mrow>
+        </math>
+        =<kbd></kbd>，
+        <math>
+            <mrow>
+                <msup>
+                    <mrow>
+                        <mo stretchy='false'>(</mo>
+                        <mo>-</mo>
+                        <mn>3</mn>
+                        <mo stretchy='false'>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+            </mrow>
+        </math>
+        `<kbd></kbd>，
+        <math>
+            <mrow>
+                <mroot>
+                    <mrow>
+                        <mo>-</mo>
+                        <mn>8</mn>
+                    </mrow>
+                    <mn>3</mn>
+                </mroot>
+            </mrow>
+        </math>
+        =<kbd></kbd>．
+    </Trunk>
+
+    <!--题目空集合-->
+    <Inputs>
+        <Input>
+            <!--序号-->
+            <Order>1</Order>
+            <!--正确答案-->
+            <InputAnswer>1</InputAnswer>
+            <!--空基础类型：填空类：text -->
+            <BaseType>text</BaseType>
+        </Input>
+        <Input>
+            <!--序号-->
+            <Order>2</Order>
+            <!--正确答案-->
+            <InputAnswer>
+                <math>
+                    <mrow>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>4</mn>
+                        </mfrac>
+                    </mrow>
+                </math>
+            </InputAnswer>
+            <!--空基础类型-->
+            <BaseType>text</BaseType>
+        </Input>
+        <Input>
+            <!--序号-->
+            <Order>3</Order>
+            <!--正确答案-->
+            <InputAnswer>9</InputAnswer>
+            <!--空基础类型-->
+            <BaseType>text</BaseType>
+        </Input>
+        <Input>
+            <!--序号-->
+            <Order>4</Order>
+            <!--正确答案-->
+            <InputAnswer>-2</InputAnswer>
+            <!--空基础类型-->
+            <BaseType>text</BaseType>
+        </Input>
+    </Inputs>
+
+</TiMu>
+
+
+        二、选择题（判断题当成选择题，选项为对或错）
+
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!--Source:题目来源  BookId:来源唯一号 -->
+<TiMu Source="中学教材全解" BookId="ISBN 978-7-80718-861-2">
+<!--Page:题目所在书的页码-->
+<Page>26</Page>
+<!--SubjectID:学科ID-->
+<SubjectID>2</SubjectID>
+<!--Type:题目类型：选择题，填空题，子母题-->
+<Type>选择题</Type>
+<!--Analyse:分析-->
+<Analyse></Analyse>
+<!--Explain:解答-->
+<Explain>选项A，
+    <math>
+        <mrow>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+        </mrow>
+    </math>
+    和
+    <math>
+        <mrow>
+            <msqrt>
+                <mn>3</mn>
+            </msqrt>
+        </mrow>
+    </math>
+    不是同类项，无法进行合并，所以结论错误；
+    <br/>
+    选项B，3和
+    <math>
+        <mrow>
+            <mn>2</mn>
+            <msqrt>
+                <mn>3</mn>
+            </msqrt>
+        </mrow>
+    </math>
+    不是同类项，无法进行合并，所以结论错误；
+    <br/>
+    选项C，
+    <math>
+        <mrow>
+            <msqrt>
+                <mn>3</mn>
+            </msqrt>
+            <mi>a</mi>
+            <mo>-</mo>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+            <mi>a</mi>
+            <mo>=</mo>
+            <mo>(</mo>
+            <msqrt>
+                <mn>3</mn>
+            </msqrt>
+            <mo>-</mo>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+            <mo>)</mo>
+            <mi>a</mi>
+            <mo>&#x2260;</mo>
+            <mi>a</mi>
+        </mrow>
+    </math>
+    ，所以结论错误；
+    <br/>
+    选项D，
+    <math>
+        <mrow>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+            <mo>+</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+            <mo>=</mo>
+            <mo stretchy='false'>(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mo stretchy='false'>)</mo>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+            <mo>=</mo>
+            <mfrac>
+                <mn>3</mn>
+                <mn>2</mn>
+            </mfrac>
+            <msqrt>
+                <mn>2</mn>
+            </msqrt>
+        </mrow>
+    </math>
+    ，所以结论正确.
+    <br/>
+    故选D.
+</Explain>
+<!--Comment:点评-->
+<Comment>要掌握同类项的概念，只有同类项才可以合并.</Comment>
+<!--Trunk:题干
+    <kbd></kbd>表示答题框
+    -->
+<Trunk>下列计算正确的是
+    <kbd></kbd>
+</Trunk>
+
+<!--题目空集合-->
+<Inputs>
+    <Input>
+        <!--正确答案-->
+        <InputAnswer>4</InputAnswer>
+        <!--空基础类型：选择类：choice -->
+        <BaseType>choice</BaseType>
+    </Input>
+</Inputs>
+
+<!--选项集合-->
+<Choices>
+    <Choice>
+        <!--序号-->
+        <Order>1</Order>
+        <!--选项内容-->
+        <ChoiceContent>
+            <math>
+                <mrow>
+                    <msqrt>
+                        <mn>3</mn>
+                    </msqrt>
+                    <mo>+</mo>
+                    <msqrt>
+                        <mn>2</mn>
+                    </msqrt>
+                    <mo>=</mo>
+                    <msqrt>
+                        <mn>6</mn>
+                    </msqrt>
+                </mrow>
+            </math>
+        </ChoiceContent>
+    </Choice>
+    <Choice>
+        <!--序号-->
+        <Order>2</Order>
+        <!--选项内容-->
+        <ChoiceContent>
+            <math>
+                <mrow>
+                    <mn>3</mn>
+                    <mo>+</mo>
+                    <mn>2</mn>
+                    <msqrt>
+                        <mn>3</mn>
+                    </msqrt>
+                    <mo>=</mo>
+                    <mn>5</mn>
+                    <msqrt>
+                        <mn>6</mn>
+                    </msqrt>
+                </mrow>
+            </math>
+        </ChoiceContent>
+    </Choice>
+    <Choice>
+        <!--序号-->
+        <Order>3</Order>
+        <!--选项内容-->
+        <ChoiceContent>
+            <math>
+                <mrow>
+                    <msqrt>
+                        <mn>3</mn>
+                    </msqrt>
+                    <mi>a</mi>
+                    <mo>-</mo>
+                    <msqrt>
+                        <mn>2</mn>
+                    </msqrt>
+                    <mi>a</mi>
+                    <mo>=</mo>
+                    <mi>a</mi>
+                </mrow>
+            </math>
+        </ChoiceContent>
+    </Choice>
+    <Choice>
+        <!--序号-->
+        <Order>4</Order>
+        <!--选项内容-->
+        <ChoiceContent>
+            <math>
+                <mrow>
+                    <msqrt>
+                        <mn>2</mn>
+                    </msqrt>
+                    <mo>+</mo>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                    <msqrt>
+                        <mn>2</mn>
+                    </msqrt>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mn>3</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                    <msqrt>
+                        <mn>2</mn>
+                    </msqrt>
+                </mrow>
+            </math>
+        </ChoiceContent>
+    </Choice>
+</Choices>
+
+</TiMu>
+
+
+        四、复合题（子母题）
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!--Source:题目来源  BookId:来源唯一号 -->
+<TiMu Source="中学教材全解" BookId="ISBN 978-7-80718-861-2">
+<!--Page:题目所在书的页码-->
+<Page>18</Page>
+<!--TMID:子母题的题目ID统一为:TMID-->
+<TMID>TMID</TMID>
+<!--SubjectID:学科ID-->
+<SubjectID>2</SubjectID>
+<!--Type:题目类型：选择题，填空题，子母题-->
+<Type>子母题</Type>
+<!--Analyse:分析-->
+<Analyse></Analyse>
+<!--Explain:解答-->
+<Explain></Explain>
+<!--Comment:点评-->
+<Comment>本题前两问直接利用梯形面积公式和三角形面积公式求解就行，第(3)问通过用大面积减小面积求解，应用此法原则是将不规则或不易求解的图形的面积转化为条件中易求解的图形的面积之和或差来计算.</Comment>
+<!--Trunk:题干
+    -->
+<Trunk>已知(如图)，正方形ABCD的边长为b，正方形DEFG的边长为a. 求：
+    <img src="data:image/png;base64,R0lGODlhAwADAIABAL6+vv///yH5BAEAAAEALAAAAAADAAMAAAIDjA9WADs="/>
+</Trunk>
+
+<!--题目小题集合-->
+<TMChilds>
+    <TMChild>
+        <!--小题ID-->
+        <TMChildID>TMID_1</TMChildID>
+        <!--父ID-->
+        <ParentChildID>TMID</ParentChildID>
+        <!--是否还有小题-->
+        <IsChild>0</IsChild>
+        <!--Analyse:分析-->
+        <Analyse>找出梯形的两个底和高，用梯形面积公式计算即可.</Analyse>
+        <!--Explain:解答-->
+        <Explain>解：根据题意可知，梯形的两底为a和b，高为a， 梯形ADGF的面积为
+            <math>
+                <mrow>
+                    <mfrac>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo stretchy='false'>(</mo>
+                            <mi>a</mi>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                            <mo stretchy='false'>)</mo>
+                        </mrow>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </math>
+            .
+        </Explain>
+        <!--Comment:点评-->
+        <Comment></Comment>
+        <!--Trunk:题干
+            <kbd></kbd>表示答题框
+            -->
+        <Trunk>梯形ADGF的面积.
+            <kbd></kbd>
+        </Trunk>
+
+        <!--子题目空集合-->
+        <Inputs>
+            <Input>
+                <!--序号-->
+                <Order>1</Order>
+                <!--正确答案-->
+                <InputAnswer></InputAnswer>
+                <!--空基础类型：填空类：text -->
+                <BaseType>text</BaseType>
+            </Input>
+        </Inputs>
+    </TMChild>
+    <TMChild>
+        <!--小题ID-->
+        <TMChildID>TMID_2</TMChildID>
+        <!--父ID-->
+        <ParentChildID>TMID</ParentChildID>
+        <!--是否还有小题-->
+        <IsChild>0</IsChild>
+        <!--Analyse:分析-->
+        <Analyse></Analyse>
+        <!--Explain:解答-->
+        <Explain>解：三角形AEF为直角三角形，两直角边分别为a和b-a， 所以三角形AEF的面积为
+            <math>
+                <mrow>
+                    <mfrac>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo stretchy='false'>(</mo>
+                            <mi>b</mi>
+                            <mo>&#x2212;</mo>
+                            <mi>a</mi>
+                            <mo stretchy='false'>)</mo>
+                        </mrow>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </math>
+            .
+        </Explain>
+        <!--Comment:点评-->
+        <Comment></Comment>
+        <!--Trunk:题干
+            <kbd></kbd>表示答题框
+            -->
+        <Trunk>三角形AEF的面积.
+            <kbd></kbd>
+        </Trunk>
+        <!--子题目空集合-->
+        <Inputs>
+            <Input>
+                <!--序号-->
+                <Order>1</Order>
+                <!--正确答案-->
+                <InputAnswer></InputAnswer>
+                <!--空基础类型：填空类：text -->
+                <BaseType>text</BaseType>
+            </Input>
+        </Inputs>
+    </TMChild>
+    <TMChild>
+        <!--小题ID-->
+        <TMChildID>TMID_3</TMChildID>
+        <!--父ID-->
+        <ParentChildID>TMID</ParentChildID>
+        <!--是否还有小题-->
+        <IsChild>0</IsChild>
+        <!--Analyse:分析-->
+        <Analyse></Analyse>
+        <!--Explain:解答-->
+        <Explain>解：因为△CFG的面积为
+            <math>
+                <mrow>
+                    <mfrac>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo>(</mo>
+                            <mi>a</mi>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </math>
+            ，△ABC的面积为
+            <math>
+                <mrow>
+                    <mfrac>
+                        <mrow>
+                            <msup>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mrow>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </math>
+            ，正方形ABCD的面积为
+            <math>
+                <mrow>
+                    <msup>
+                        <mi>b</mi>
+                        <mn>2</mn>
+                    </msup>
+                </mrow>
+            </mrow>
+        </math>
+        ，
+        <br/>
+        所以△AFC的面积=梯形ADGF的面积+正方形ABCD的面积-△CFG的面积-△ABC的面积
+        <br/>
+        =
+        <math>
+            <mrow>
+                <mfrac>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo stretchy='false'>(</mo>
+                        <mi>a</mi>
+                        <mo>+</mo>
+                        <mi>b</mi>
+                        <mo stretchy='false'>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                </mfrac>
+                <mo>+</mo>
+                <msup>
+                    <mi>b</mi>
+                    <mn>2</mn>
+                </msup>
+                <mo>&#x2212;</mo>
+                <mfrac>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo stretchy='false'>(</mo>
+                        <mi>a</mi>
+                        <mo>+</mo>
+                        <mi>b</mi>
+                        <mo stretchy='false'>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                </mfrac>
+                <mo>&#x2212;</mo>
+                <mfrac>
+                    <mrow>
+                        <msup>
+                            <mi>b</mi>
+                            <mn>2</mn>
+                        </msup>
+                    </mrow>
+                    <mn>2</mn>
+                </mfrac>
+            </mrow>
+        </math>
+        <br/>
+        =
+        <math>
+            <mrow>
+                <msup>
+                    <mi>b</mi>
+                    <mn>2</mn>
+                </msup>
+                <mo>&#x2212;</mo>
+                <mfrac>
+                    <mrow>
+                        <msup>
+                            <mi>b</mi>
+                            <mn>2</mn>
+                        </msup>
+                    </mrow>
+                    <mn>2</mn>
+                </mfrac>
+            </mrow>
+        </math>
+        <br/>
+        =
+        <math>
+            <mrow>
+                <mfrac>
+                    <mrow>
+                        <msup>
+                            <mi>b</mi>
+                            <mn>2</mn>
+                        </msup>
+                    </mrow>
+                    <mn>2</mn>
+                </mfrac>
+            </mrow>
+        </math>
+        .
+    </Explain>
+    <!--Comment:点评-->
+    <Comment></Comment>
+    <!--Trunk:题干
+        <kbd></kbd>表示答题框
+        -->
+    <Trunk>三角形AFC的面积.
+        <kbd></kbd>
+    </Trunk>
+    <!--子题目空集合-->
+    <Inputs>
+        <Input>
+            <!--序号-->
+            <Order>1</Order>
+            <!--正确答案-->
+            <InputAnswer></InputAnswer>
+            <!--空基础类型：填空类：text -->
+            <BaseType>text</BaseType>
+        </Input>
+    </Inputs>
+</TMChild>
+<TMChild>
+    <!--小题ID-->
+    <TMChildID>TMID_4</TMChildID>
+    <!--父ID-->
+    <ParentChildID>TMID</ParentChildID>
+    <!--是否还有小题-->
+    <IsChild>0</IsChild>
+    <!--Analyse:分析-->
+    <Analyse></Analyse>
+    <!--Explain:解答-->
+    <Explain></Explain>
+    <!--Comment:点评-->
+    <Comment></Comment>
+    <!--Trunk:题干
+        <kbd></kbd>表示答题框
+        -->
+    <Trunk>下列计算正确的是.
+        <kbd></kbd>
+    </Trunk>
+    <!--子题目空集合-->
+    <Inputs>
+        <Input>
+            <!--正确答案-->
+            <InputAnswer>4</InputAnswer>
+            <!--空基础类型：选择类：choice -->
+            <BaseType>choice</BaseType>
+        </Input>
+    </Inputs>
+
+    <!--选项集合-->
+    <Choices>
+        <Choice>
+            <!--序号-->
+            <Order>1</Order>
+            <!--选项内容-->
+            <ChoiceContent>
+                <math>
+                    <mrow>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+                        <mo>+</mo>
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                        <mo>=</mo>
+                        <msqrt>
+                            <mn>6</mn>
+                        </msqrt>
+                    </mrow>
+                </math>
+            </ChoiceContent>
+        </Choice>
+        <Choice>
+            <!--序号-->
+            <Order>2</Order>
+            <!--选项内容-->
+            <ChoiceContent>
+                <math>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>+</mo>
+                        <mn>2</mn>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+                        <mo>=</mo>
+                        <mn>5</mn>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+                    </mrow>
+                </math>
+            </ChoiceContent>
+        </Choice>
+        <Choice>
+            <!--序号-->
+            <Order>3</Order>
+            <!--选项内容-->
+            <ChoiceContent>
+                <math>
+                    <mrow>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+                        <mi>a</mi>
+                        <mo>&#x2212;</mo>
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mi>a</mi>
+                    </mrow>
+                </math>
+            </ChoiceContent>
+        </Choice>
+        <Choice>
+            <!--序号-->
+            <Order>4</Order>
+            <!--选项内容-->
+            <ChoiceContent>
+                <math>
+                    <mrow>
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mn>3</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                    </mrow>
+                </math>
+            </ChoiceContent>
+        </Choice>
+    </Choices>
+</TMChild>
+
+</TMChilds>
+
