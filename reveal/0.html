@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="css/theme/white.css">
 </head>
 <body>
-<div class="reveal" >
+<div class="reveal">
 
     <div class="slides">
         <section>
             <h2>Some Slide</h2>
 
             <aside class="notes">
-                Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+                Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open
+                the speaker notes window (hit 's' on your keyboard).
             </aside>
         </section>
 
         <section>
+           <iframe src="http://www.baidu.com" style="width: 500px" frameborder="0" scrolling="no" id="external-frame" onload="setIframeHeight(this)"></iframe>
+        </section>
+
+        <section>
             <h2>reveal.js Math Plugin</h2>
+
             <p>A thin wrapper for MathJax</p>
         </section>
 
@@ -37,6 +43,7 @@
         <section>
             <script type="math/tex; mode=display">
 				\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+
             </script>
         </section>
 
@@ -166,18 +173,31 @@
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
 <script>
+    function setIframeHeight(iframe) {
+        if (iframe) {
+            var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+            if (iframeWin.document.body) {
+                iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+            }
+        }
+    };
+
+    window.onload = function () {
+        setIframeHeight(document.getElementById('external-frame'));
+    };
+
+
     Reveal.initialize({
         history: true,
         transition: 'linear',
-
         math: {
-            // mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
             config: 'TeX-AMS_HTML-full'
         },
-
         dependencies: [
             {src: 'lib/js/classList.js'},
-            {src: 'plugin/math/math.js', async: true}
+            {src: 'plugin/math/math.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+
         ]
     });
 </script>

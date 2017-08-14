@@ -10,33 +10,22 @@
 </head>
 <body>
 <div class="reveal">
-    <section data-markdown>
-	<textarea data-template>
-		> ## 这是一个标题。
->
-> 1.   这是第一行列表项。
-> 2.   这是第二行列表项。
->
-> 给出一些例子代码：
->
->     return shell_exec("echo $input | $markdown_script");
-	</textarea>
-    </section>
+    <div class="slides">
+        <section>
+            <h2>Some Slide</h2>
+        </section>
+
+        <section>
+            <h2>reveal.js Math Plugin</h2>
+
+            <p>A thin wrapper for MathJax</p>
+        </section>
+    </div>
 </div>
 
-<script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
 <script>
-    Reveal.initialize({
-        markdown: {
-            smartypants: true
-        },
-        dependencies: [
-            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-
-        ]
-    });
+    Reveal.initialize();
 </script>
 </body>
 </html>
