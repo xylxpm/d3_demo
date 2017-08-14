@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <title>latexit-demo -0</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    <script type="text/javascript" async  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
     <link rel="stylesheet" href="css.css"/>
     <script type="text/x-mathjax-config">
 
         $(function () {
-            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+
             function cutstr(text, start, end) {
                 var s = text.indexOf(start)
                 if (s > -1) {
@@ -56,9 +55,9 @@
                     }
                 }
 
-                $('body').html(_str);
-                $('img').removeAttr('style')
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+               $('body').html(_str);
+               $('img').removeAttr('style')
+
 
             })
 
