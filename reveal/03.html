@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RN介绍</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <style>
+        .pp1{
+            font-size: 24px
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <h1>React-Native 介绍</h1>
+            <p class="footer">
+                <span>按 → 继续</span>
+            </p>
+        </section>
+        <section>
+            <h3>来自百度百科</h3>
+            <p class="fragment" style="font-size: 24px">React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架</p>
+            <p class="fragment" style="font-size: 24px">目前支持iOS和安卓两大平台</p>
+            <p class="fragment" style="font-size: 24px">RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用</p>
+            <p class="fragment" style="font-size: 24px">。。。。。。</p>
+        </section>
+        <section>
+            <h3>优点</h3>
+            <ol>
+                <li style="font-size: 24px">对应到前端开发，整个系统结构是这样<br/>
+                    * JSX vs HTML<br/>
+                    * CSS-layout vs css<br/>
+                    * ECMAScript 6 <br/>
+                    * React native View vs DOM<br/>
+                </li>
+                <li style="font-size: 24px">两端并行开发，RN可以调用android和ios原生代码实现需要的功能</li>
+                <li style="font-size: 24px">热更新</li>
+                <li style="font-size: 24px">社区力量，三方组件</li>
+            </ol>
+        </section>
+        <section>
+            <h3>缺点</h3>
+            <ol>
+                <li style="font-size: 24px">初期学习成本高，需要学习ES6，函数式编程思想，新的标签，新的控件，开发环境的配置</li>
+                <li style="font-size: 24px">RN本身更新很快，现在到0.47版本，这就意味着不稳定，坑多</li>
+                <li style="font-size: 24px">第三方组件之间会有冲突，或者组件本身有坑</li>
+                <li style="font-size: 24px">可以预见的性能问题，比如list列表</li>
+            </ol>
+        </section>
+        <section>
+            <h3>demo</h3>
+            <ol>
+                <li style="font-size: 24px">仿饿了么</li>
+                <li style="font-size: 24px">bilibili客户端</li>
+                <li style="font-size: 24px">nba-app</li>
+                <li style="font-size: 24px">MyApp</li>
+            </ol>
+        </section>
+
+    </div>
+</div>
+</body>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+
+
+
+    Reveal.initialize({
+        history: true,
+        transition: 'linear',
+        dependencies: [
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+</script>
+</html>
