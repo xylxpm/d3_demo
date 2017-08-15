@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>RN介绍</title>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/theme/moon.css">
     <style>
         .pp1{
             font-size: 24px
@@ -12,23 +12,37 @@
     </style>
 </head>
 <body>
+<div style="height: 30px;border:1px solid red;background-color: white">
+<select id="select" style="width: 200px">
+    <option>moon</option>
+    <option>beige</option>
+    <option>black</option>
+    <option>blood</option>
+    <option>league</option>
+    <option>night</option>
+    <option>simple</option>
+    <option>sky</option>
+    <option>solarized</option>
+    <option>white</option>
+</select>
+</div>
 <div class="reveal">
     <div class="slides">
 
-        <section>
+        <section data-transition="concave" data-transition-speed="slow">
             <h1>React-Native 介绍</h1>
             <p class="footer">
                 <span>按 → 继续</span>
             </p>
         </section>
-        <section>
+        <section data-transition="concave" data-transition-speed="slow">
             <h3>来自百度百科</h3>
             <p class="fragment" style="font-size: 24px">React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架</p>
             <p class="fragment" style="font-size: 24px">目前支持iOS和安卓两大平台</p>
             <p class="fragment" style="font-size: 24px">RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用</p>
             <p class="fragment" style="font-size: 24px">。。。。。。</p>
         </section>
-        <section>
+        <section data-transition="concave" data-transition-speed="slow">
             <h3>优点</h3>
             <ol>
                 <li style="font-size: 24px">对应到前端开发，整个系统结构是这样<br/>
@@ -42,7 +56,7 @@
                 <li style="font-size: 24px">社区力量，三方组件</li>
             </ol>
         </section>
-        <section>
+        <section data-transition="concave" data-transition-speed="slow">
             <h3>缺点</h3>
             <ol>
                 <li style="font-size: 24px">初期学习成本高，需要学习ES6，函数式编程思想，新的标签，新的控件，开发环境的配置</li>
@@ -51,7 +65,7 @@
                 <li style="font-size: 24px">可以预见的性能问题，比如list列表</li>
             </ol>
         </section>
-        <section>
+        <section data-transition="concave" data-transition-speed="slow">
             <h3>demo</h3>
             <ol>
                 <li style="font-size: 24px">仿饿了么</li>
@@ -66,8 +80,14 @@
 </body>
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 <script>
-
+$(function () {
+    $("#select option:selected").click(function () {
+        var name = $(this).text();
+        alert(name)
+    })
+})
 
 
     Reveal.initialize({
