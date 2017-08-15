@@ -4,42 +4,47 @@
     <meta charset="UTF-8">
     <title>RN介绍</title>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/moon.css">
+    <link rel="stylesheet" href="css/theme/moon.css" id="cssfile">
     <style>
-        .pp1{
+        .pp1 {
             font-size: 24px
         }
     </style>
 </head>
 <body>
 <div style="height: 30px;border:1px solid red;background-color: white">
-<select id="select" style="width: 200px">
-    <option>moon</option>
-    <option>beige</option>
-    <option>black</option>
-    <option>blood</option>
-    <option>league</option>
-    <option>night</option>
-    <option>simple</option>
-    <option>sky</option>
-    <option>solarized</option>
-    <option>white</option>
-</select>
+    <select id="select" style="width: 200px">
+        <option>moon</option>
+        <option>beige</option>
+        <option>black</option>
+        <option>blood</option>
+        <option>league</option>
+        <option>night</option>
+        <option>simple</option>
+        <option>sky</option>
+        <option>solarized</option>
+        <option>white</option>
+    </select>
 </div>
 <div class="reveal">
     <div class="slides">
 
         <section data-transition="concave" data-transition-speed="slow">
             <h1>React-Native 介绍</h1>
+
             <p class="footer">
                 <span>按 → 继续</span>
             </p>
         </section>
         <section data-transition="concave" data-transition-speed="slow">
             <h3>来自百度百科</h3>
+
             <p class="fragment" style="font-size: 24px">React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架</p>
+
             <p class="fragment" style="font-size: 24px">目前支持iOS和安卓两大平台</p>
+
             <p class="fragment" style="font-size: 24px">RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用</p>
+
             <p class="fragment" style="font-size: 24px">。。。。。。</p>
         </section>
         <section data-transition="concave" data-transition-speed="slow">
@@ -82,12 +87,14 @@
 <script src="js/reveal.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script>
-$(function () {
-    $("#select option:selected").click(function () {
-        var name = $(this).text();
-        alert(name)
+    $(function () {
+        $("#select").change(function () {
+            var name = $("#select option:selected").text()
+            css = document.getElementById("cssfile");
+            css.href = "css/theme/" + name + ".css";
+            document.styleSheets[1].href = name;
+        })
     })
-})
 
 
     Reveal.initialize({
