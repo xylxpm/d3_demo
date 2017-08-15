@@ -12,6 +12,20 @@
     </style>
 </head>
 <body>
+<div style="height: 30px;border:1px solid red;background-color: white">
+    <select id="select" style="width: 200px">
+        <option>moon</option>
+        <option>beige</option>
+        <option>black</option>
+        <option>blood</option>
+        <option>league</option>
+        <option>night</option>
+        <option>simple</option>
+        <option>sky</option>
+        <option>solarized</option>
+        <option>white</option>
+    </select>
+</div>
 <div class="reveal">
     <div class="slides">
 
@@ -71,7 +85,16 @@
 </body>
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 <script>
+    $(function () {
+        $("#select").change(function () {
+            var name = $("#select option:selected").text()
+            css = document.getElementById("cssfile");
+            css.href = "css/theme/" + name + ".css";
+            document.styleSheets[1].href = name;
+        })
+    })
 
 
     Reveal.initialize({
