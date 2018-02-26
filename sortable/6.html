@@ -1,0 +1,193 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>jQuery UI Draggable + Sortable</title>
+
+    <link href="css/bootstrap.css?v=3.3.7" rel="stylesheet">
+    <link href="css/layui.css" rel="stylesheet">
+    <link href="css/home_icon.css" rel="stylesheet">
+    <link href="css/common_ec.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-sortable.js"></script>
+    <style>
+        /*.aa {*/
+        /*border: 1px solid red;*/
+        /*}*/
+
+        .ibox-title {
+            cursor: move
+        }
+
+        .ibox {
+            position: relative
+        }
+
+        body.dragging, body.dragging * {
+            cursor: move !important;
+        }
+
+        .dragged {
+            position: absolute;
+            opacity: 0.5;
+            z-index: 2000;
+        }
+
+        .placeholder {
+            position: relative;
+        }
+
+        .placeholder:before {
+            position: absolute;
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-top-color: red;
+            top: -6px;
+            margin-left: -5px;
+            border-bottom: none;
+        }
+    </style>
+
+
+
+    <script>
+
+        $(function () {
+
+            $(".aa").sortable({
+                group: 'aa',
+                handle: '.ibox-title',
+
+                onDrop: function ($item, container, _super) {
+                    _super($item, container);
+                },
+
+                onDragStart: function ($item, container, _super) {
+                    //拖拽开始
+                    var offset = $item.offset(),
+                        pointer = container.rootGroup.pointer;
+                    adjustment = {
+                        left: pointer.left - offset.left,
+                        top: pointer.top - offset.top
+                    };
+                    _super($item, container);
+                },
+                onDrag: function ($item, position) {
+                    //拖拽中
+                    $item.css({
+                        left: position.left - adjustment.left,
+                        top: position.top - adjustment.top
+                    });
+                }
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <!--第一列-->
+        <ul class="aa  col-lg-4 col-md-12 col-sm-12 col-xs-12 firstColumn">
+            <li class="ibox float-e-margins" id="module_1">
+                <div class="ibox-title"><h5>模块一</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+            <li class="ibox float-e-margins" id="module_2">
+                <div class="ibox-title"><h5>模块二</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <!--第二列-->
+        <ul class="aa  col-lg-5 col-md-6 col-sm-6 col-xs-12 secondColumn">
+            <li class="ibox float-e-margins" id="module_3">
+                <div class="ibox-title"><h5>模块三</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+            <li class="ibox float-e-margins" id="module_4">
+                <div class="ibox-title"><h5>模块四</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <!--第三列-->
+        <ul class="aa col-lg-3 col-md-6 col-sm-6 col-xs-12 thirdColumn">
+            <li class="ibox float-e-margins" id="module_5">
+                <div class="ibox-title"><h5>模块五</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+            <li class="ibox float-e-margins" id="module_6">
+                <div class="ibox-title"><h5>模块六</h5>
+                    <div class="ibox-tools"><a class="collapse-link" data-expand="1"><i
+                            class="fa fa-chevron-up"></i></a> <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="p24 index-info">
+                        10
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+
+</html>
+
