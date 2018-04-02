@@ -1,0 +1,163 @@
+#colorbox, #cboxOverlay, #cboxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden
+}
+
+#colorbox {
+    -moz-box-shadow: 0 0 1px #aaa;
+    -webkit-box-shadow: 0 0 1px rgba(166, 166, 166, 0.5);
+    box-shadow: 0 0 1px rgba(166, 166, 166, 0.5);
+    border-radius: 5px
+}
+
+#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+    clear: left
+}
+
+#cboxContent {
+    position: relative
+}
+
+#cboxLoadedContent {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 15px 8px
+}
+
+#cboxTitle {
+    margin: 0
+}
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+    cursor: pointer
+}
+
+.cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 0;
+    display: block;
+    max-width: none
+}
+
+.cboxIframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box
+}
+
+#cboxOverlay {
+    background: #333
+}
+
+#colorbox {
+    outline: 0
+}
+
+#cboxClose {
+    background: url(images/box.png) no-repeat
+}
+
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxMiddleLeft, #cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight, #cboxBottomLeft, #cboxMiddleRight {
+    display: none
+}
+
+#cboxContent {
+    background: #fff;
+    overflow: hidden
+}
+
+#cboxError {
+    padding: 50px;
+    border: 1px solid #ccc;
+    color: red;
+    text-align: center
+}
+
+#cboxLoadedContent {
+    margin: 20px 0 0 0
+}
+
+#cboxTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 35px;
+    height: 35px;
+    background-color: #63a8eb
+}
+
+#cboxCurrent {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    color: #999
+}
+
+#cboxSlideshow {
+    position: absolute;
+    top: 0;
+    right: 42px;
+    color: #444
+}
+
+#cboxPrevious {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #444
+}
+
+#cboxNext {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    color: #444
+}
+
+#cboxLoadingOverlay {
+    background: #fff url(images/load.gif) no-repeat center center;
+    height: 100px
+}
+
+#cboxClose {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    background: url(images/close.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px
+}

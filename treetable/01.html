@@ -5,7 +5,7 @@
     <title>Demo by dq</title>
     <meta http-equiv="X-UA-Compatible" content="IE=11;IE=10;IE=9;IE=8;"/>
     <!--引入文件： 1、zTree默认css样式  2、jquery  3、zTree js-->
-    <link href="zTreeStyle.min.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/zTree.v3/3.5.29/js/jquery.ztree.all.min.js"></script>
 </head>
@@ -15,7 +15,7 @@
         display: inline-block;
         height: 25px;
         width: 35px;
-        background: url(http://c.csdnimg.cn/public/common/toolbar/images/f_icon.png) no-repeat 12px -127px;
+        /*background: url(http://c.csdnimg.cn/public/common/toolbar/images/f_icon.png) no-repeat 12px -127px;*/
     }
 
     .icon_div a {
@@ -140,8 +140,8 @@
         switchObj.before(spaceStr);
         var editStr = '';
         editStr += '<div class="diy">' + (treeNode.CONTACT_USER == null ? '&nbsp;' : treeNode.CONTACT_USER) + '</div>';
-        var corpCat = '<div title="' + treeNode.CORP_CAT + '">' + treeNode.CORP_CAT + '</div><div title="' + treeNode.CORP_CAT + '">' + treeNode.CORP_CAT + '</div>';
-        editStr += '<div class="diy" id="aaa">' + (treeNode.CORP_CAT == '-' ? '&nbsp;' : corpCat ) + '</div>';
+        var corpCat = '<div title="' + treeNode.CORP_CAT + '">' + treeNode.CORP_CAT + '</div>';
+        editStr += '<div class="diy">' + (treeNode.CORP_CAT == '-' ? '&nbsp;' : corpCat ) + '</div>';
         editStr += '<div class="diy">' + (treeNode.CONTACT_PHONE == null ? '&nbsp;' : treeNode.CONTACT_PHONE ) + '</div>';
         editStr += '<div class="diy">' + formatHandle(treeNode) + '</div>';
         aObj.append(editStr);
@@ -418,8 +418,6 @@
             $("#dataTree").append(li_head);
             $("#dataTree").append('<li ><div style="text-align: center;line-height: 30px;" >无符合条件数据</div></li>')
         }
-
-
     }
     /**
      * 根据权限展示功能按钮
@@ -438,12 +436,6 @@
     $(function () {
         //初始化数据
         query();
-        $("#dataTree li").each(function () {
-            var _this=$(this);
-            var _h = _this.find("#aaa").eq(0).height();
-            _this.find(".diy").height(_h)
-        })
-
     })
 </script>
 </body>

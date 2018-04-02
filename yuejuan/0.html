@@ -1,0 +1,360 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>大连 云阅卷服务平台欢迎您！</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="./css/style-mark.css?20170601">
+</head>
+<body>
+<div id="id_position">
+    <div class="fl">孙雪莎，您正在批阅：阅卷演示数据 » 理综合 » 1</div>
+    <a class="btnback" href="union-list.shtml" title="返回试题列表">返回</a>
+</div>
+<input type="hidden" id="id_sign_url" value="mark-union" alt="/r/">
+<div id="id_tool" style="display: block;">
+    <div id="id_answer" class="fold_bar">
+        <a title="查看标准答案"
+           href="/r/35373232393464642d313631312d353836372d393531362d6463343938326232623765663a2f756e696f6e5f6e65772f332f31312f616e737765722fb2a60abda1c106ce6ecb.png"
+           target="_blank">标准答案</a><span class="division">|</span>
+        <ul id="id_bar">
+            <li id="bar_default" title="指针" class="baractive"></li>
+            <li id="bar_word" title="文字"></li>
+            <li id="bar_box" title="方框"></li>
+            <li id="bar_line" title="直线"></li>
+            <li id="bar_wave" title="波浪线"></li>
+            <li id="bar_right" title="对号"></li>
+            <li id="bar_wrong" title="错号"></li>
+            <li class="class_score" title="+0.5">+0.5</li>
+            <li class="class_score" title="-0.5">-0.5</li>
+            <li class="class_score" title="+1">+1</li>
+            <li class="class_score" title="-1">-1</li>
+            <li class="class_score" title="+1.5">+1.5</li>
+            <li class="class_score" title="-1.5">-1.5</li>
+            <li class="class_score" title="+2">+2</li>
+            <li class="class_score" title="-2">-2</li>
+            <li class="class_score" title="+2.5">+2.5</li>
+            <li class="class_score" title="-2.5">-2.5</li>
+            <li class="class_score" title="+3">+3</li>
+            <li class="class_score" title="-3">-3</li>
+            <li class="class_score" title="+4">+4</li>
+            <li class="class_score" title="-4">-4</li>
+            <li class="class_score" title="+5">+5</li>
+            <li class="class_score" title="-5">-5</li>
+            <li class="class_score" title="+6">+6</li>
+            <li class="class_score" title="-6">-6</li>
+            <li id="bar_clear" title="清除批注">清除批注</li>
+        </ul>
+        <div style="display:none">
+            <div id="id_tag_word">
+                <input id="id_word" type="text" size="45"><br>
+                <input type="button" class="btn-ok" value="确 定">
+            </div>
+        </div>
+        <div id="id_dragTag">批注开启状态无法进行拖拽...</div>
+    </div>
+    <div id="id_plus_minus" class="fold">
+        缩放大小<span class="division open">|</span>
+        <input type="hidden" id="id_rememberSize" name="rememberSize" value="200">
+        <ul id="id_plus_minus_info">
+            <li value="60">60%</li>
+            <li value="70">70%</li>
+            <li value="85">85%</li>
+            <li value="100">100%</li>
+            <li value="115">115%</li>
+            <li value="130">130%</li>
+            <li id="id_screen_plus" value="200" class="foldCur">适应屏幕</li>
+        </ul>
+    </div>
+    <div id="id_note"><span id="id_show_mark">显示批注栏</span><span class="division">|</span><input type="hidden"
+                                                                                                id="id_showTag"
+                                                                                                name="showTag" value="">
+    </div>
+    <div id="id_signed" class="good_paper">
+        <span>标记:</span><span class="ft-red signed"></span><span class="division">|</span>
+    </div>
+    <div id="id_signing" class="good_paper fold" style="display: block;"><span>标记</span><span
+            class="division open">|</span>
+        <ul id="id_sign">
+            <li value="1">优秀</li>
+            <li value="2">典型错误</li>
+            <li value="3">其他</li>
+        </ul>
+    </div>
+    <div id="id_monitored" class="mark_monitor"><span class="ft-gray"></span><span class="division">|</span></div>
+    <div id="id_monitor" class="mark_monitor fold" style="display: block;"><span>异常报警</span><span class="division open">|</span>
+        <ul id="id_monitorInfo">
+            <li id="2_1_unusual" value="2">答题内容显示不全</li>
+            <li id="3_1_unusual" value="3">文字看不清楚</li>
+            <li id="4_1_unusual" value="4">答错位置</li>
+            <li id="5_2_unusual" value="5">非本科试卷</li>
+            <li id="6_3_unusual" value="6">雷同卷</li>
+        </ul>
+    </div>
+    <div id="id_backMark" style="display: none;">
+        <span>回评</span><span class="division">|</span></div>
+    <div class="fold1" style="padding-left:3px;">
+        <span id="id_scoreControl" title="展开/收起面板" class="score-control">给分面板<span class="open division">|</span></span>
+        <div class="foldContent" style="top:41px;width:90px;">
+		<span id="id_marktypetool" style="display: none;"><font class="ft-gray">给分方式：</font><br>
+			<input type="radio" value="1" name="markingType" id="id_markType1"><label for="id_markType1">计算器</label><br>
+			<input type="radio" value="2" name="markingType" id="id_markType2"><label
+                    for="id_markType2">一键给分</label><br>
+		</span>
+            <span id="id_scoretool">
+			<font class="ft-gray">面板位置：</font><br>
+			<a class="ft-blue" id="id_markbottom" href="javascript:void(0);" title="bottom">下方</a>&nbsp;&nbsp;
+			<a class="ft-blue" id="id_markright" href="javascript:void(0);" title="right">右侧</a>
+		</span>
+        </div>
+    </div>
+    <div id="colortool" class="fold1" style="padding:0 2px;_padding-top:10px;">
+        <span id="id_nowcolor" class="colorBlock"></span>
+        <span id="id_morecolor" title="展开/收起面板">换肤<span class="open">&nbsp;</span><input type="hidden"
+                                                                                         id="id_cookiePath"
+                                                                                         value=""></span>
+        <div id="id_colorSelect" class="foldContent" style="padding:4px;">
+            <span title="transparent" class="colorBlock" style="background-color: #FFFFFF;"></span>
+            <span title="#DDDDDD" class="colorBlock" style="background-color: #DDDDDD;"></span>
+            <span title="#C0C0C0" class="colorBlock" style="background-color: #C0C0C0;"></span>
+            <span title="#999999" class="colorBlock" style="background-color: #999999;"></span>
+            <span title="#333333" class="colorBlock" style="background-color: #666666;"></span>
+            <span title="#000000" class="colorBlock" style="background-color: #000000;"></span>
+
+            <span title="#FFE6E6" class="colorBlock" style="background-color: #FFE6E6;"></span>
+            <span title="#FFB0B0" class="colorBlock" style="background-color: #FFB0B0;"></span>
+            <span title="#FF7575" class="colorBlock" style="background-color: #FF7575;"></span>
+            <span title="#FF3E3E" class="colorBlock" style="background-color: #FF3E3E;"></span>
+            <span title="#F00000" class="colorBlock" style="background-color: #F00000;"></span>
+            <span title="#9F0000" class="colorBlock" style="background-color: #9F0000;"></span>
+
+            <span title="#FDF1E5" class="colorBlock" style="background-color: #FDF1E5;"></span>
+            <span title="#F9D5B1" class="colorBlock" style="background-color: #F9D5B1;"></span>
+            <span title="#F5B87F" class="colorBlock" style="background-color: #F5B87F;"></span>
+            <span title="#F29D4C" class="colorBlock" style="background-color: #F29D4C;"></span>
+            <span title="#EB7400" class="colorBlock" style="background-color: #EB7400;"></span>
+            <span title="#CA6500" class="colorBlock" style="background-color: #CA6500;"></span>
+
+            <span title="#FFFDE6" class="colorBlock" style="background-color: #FFFDE6;"></span>
+            <span title="#FEFAB1" class="colorBlock" style="background-color: #FEFAB1;"></span>
+            <span title="#FFF780" class="colorBlock" style="background-color: #FFF780;"></span>
+            <span title="#FFF44C" class="colorBlock" style="background-color: #FFF44C;"></span>
+            <span title="#FFF000" class="colorBlock" style="background-color: #FFF000;"></span>
+            <span title="#E1D600" class="colorBlock" style="background-color: #E1D600;"></span>
+
+            <span title="#E6F4E5" class="colorBlock" style="background-color: #E6F4E5;"></span>
+            <span title="#B2E0B2" class="colorBlock" style="background-color: #B2E0B2;"></span>
+            <span title="#81CB80" class="colorBlock" style="background-color: #81CB80;"></span>
+            <span title="#4FB64B" class="colorBlock" style="background-color: #4FB64B;"></span>
+            <span title="#049700" class="colorBlock" style="background-color: #049700;"></span>
+            <span title="#037500" class="colorBlock" style="background-color: #037500;"></span>
+
+            <span title="#E8F2FE" class="colorBlock" style="background-color: #E8F2FE;"></span>
+            <span title="#B8D4F9" class="colorBlock" style="background-color: #B8D4F9;"></span>
+            <span title="#8AB8F4" class="colorBlock" style="background-color: #8AB8F4;"></span>
+            <span title="#5A9DEE" class="colorBlock" style="background-color: #5A9DEE;"></span>
+            <span title="#1372E6" class="colorBlock" style="background-color: #1372E6;"></span>
+            <span title="#0E53A7" class="colorBlock" style="background-color: #0E53A7;"></span>
+
+            <span title="#EDEEF3" class="colorBlock" style="background-color: #EDEEF3;"></span>
+            <span title="#C6CDDD" class="colorBlock" style="background-color: #C6CDDD;"></span>
+            <span title="#A0AEC8" class="colorBlock" style="background-color: #A0AEC8;"></span>
+            <span title="#7B8DB1" class="colorBlock" style="background-color: #7B8DB1;"></span>
+            <span title="#425E90" class="colorBlock" style="background-color: #425E90;"></span>
+            <span title="#3A5381" class="colorBlock" style="background-color: #3A5381;"></span>
+
+            <span title="#E8E7F7" class="colorBlock" style="background-color: #E8E7F7;"></span>
+            <span title="#BDB7E5" class="colorBlock" style="background-color: #BDB7E5;"></span>
+            <span title="#9088D5" class="colorBlock" style="background-color: #9088D5;"></span>
+            <span title="#6357C3" class="colorBlock" style="background-color: #6357C3;"></span>
+            <span title="#200FAB" class="colorBlock" style="background-color: #200FAB;"></span>
+            <span title="#1B0D93" class="colorBlock" style="background-color: #1B0D93;"></span>
+            <span title="应用并关闭面板" class="ft-gray" id="id_colorClose">【保存当前设置】</span>
+        </div>
+    </div>
+
+</div>
+<div class="time-quickly timeToast hide">批阅速度过快（该题最低阅卷时间0秒），请再次核对下答题卡！</div>
+<div id="id_waitDiv" style="display: none;">
+    <img src="./images/waiting.gif" alt="加载中..."><br>正在获取下一个学生的题目图片...
+    <input id="id_url" type="hidden"
+           value="http://dl.yunyuejuan.net/r/35373232393464642d313631312d353836372d393531362d6463343938326232623765663a2f756e696f6e5f6e65772f332f31312f35312f73747564656e742f36313432382f30666266616435313164613834633863623465363637353235313262363534f0ec1ff7f2b106ce6ecb.png?_=0.20496509410440922">
+</div>
+<div id="id_noimgbaojing" style="display:none; font-size: 14px;margin: 20px;">
+    请注意：无法获取该学生的作答图像，<a style="color:red;" href="javascript:void(0);" id="id_baojing">点击报警</a>
+</div>
+<div id="id_getDiv" class="ui-resizable" style="width: 1352px; height: 886px; cursor: default;"><img
+        src=""
+        style="">
+    <div class="protect"></div>
+    <input type="hidden" name="loadTagData" value="">
+    <ul class="contextMenu">
+        <li><span title="right">√</span></li>
+        <li><span title="wrong">×</span></li>
+        <li><span title="+0.5">+0.5</span></li>
+        <li><span title="-0.5">-0.5</span></li>
+        <li><span title="+1">+1</span></li>
+        <li><span title="-1">-1</span></li>
+        <li><span title="+1.5">+1.5</span></li>
+        <li><span title="-1.5">-1.5</span></li>
+        <li><span title="+2">+2</span></li>
+        <li><span title="-2">-2</span></li>
+        <li><span title="+2.5">+2.5</span></li>
+        <li><span title="-2.5">-2.5</span></li>
+        <li><span title="+3">+3</span></li>
+        <li><span title="-3">-3</span></li>
+        <li><span title="+4">+4</span></li>
+        <li><span title="-4">-4</span></li>
+        <li><span title="+5">+5</span></li>
+        <li><span title="-5">-5</span></li>
+        <li><span title="+6">+6</span></li>
+        <li><span title="-6">-6</span></li>
+    </ul>
+    <div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div>
+    <div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div>
+    <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1000;"></div>
+</div>
+<input type="hidden" id="id_markType" name="markType" value="default">
+<input type="hidden" id="id_markScore" name="markScore" value="">
+<input type="hidden" name="position" value="247.5,1352,,">
+<input type="hidden" id="id_markingType" name="markingTypeJs" value="1" alt="" title="">
+<form id="id_frm_score" name="frm_score" method="post" action="mark-union!saveScore.shtml">
+    <div id="id_scoreDiv" style="display: block;">
+        <input type="hidden" id="id_timeFlag" name="timeFlag" value="0">
+        <input type="hidden" id="id_time" name="time" value="0">
+        <input type="hidden" id="id_questionID" name="questionID" value="1413">
+        <input type="hidden" id="id_optionIndex" name="optionIndex" value="0">
+        <input type="hidden" id="id_flag3" name="flag3" value="0">
+        <input type="hidden" id="id_studentID" name="studentID" value="61428">
+        <input type="hidden" id="id_choiceFlag" name="choiceFlag" value="0">
+        <input type="hidden" id="id_sheetID" name="sheetID" value="26">
+        <input type="hidden" id="id_markTeacherType" name="markTeacherType" value="1">
+        <input type="hidden" id="id_tags" name="tags" value="">
+        <div id="id_markInfo">
+            我的已阅量/任务量：<font class="ft-red scoreDone">0</font><font>/9</font>，
+            所有已阅学生的平均分：<font class="ft-blue scoreAvg">4.05</font> 分
+        </div>
+        <div id="id_mark" style="top: 247.5px; left: 1352px; width: 262px;">
+            <table>
+                <tbody>
+                <tr>
+                    <td style="text-indent: 4px;">
+                        <input type="text" id="id_score" name="score" value="" alt="6">
+                    </td>
+                    <td>
+                        <input id="id_saveSubmit" type="button" value="" class="btnSave" title="给 分">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table id="id_markBtn">
+                            <tbody>
+                            <tr>
+                                <td><input type="button" value="7" class="btnMark class_mark"></td>
+                                <td><input type="button" value="8" class="btnMark class_mark"></td>
+                                <td><input type="button" value="9" class="btnMark class_mark"></td>
+                                <td><input type="button" value="0" class="btnMark class_mark"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="4" class="btnMark class_mark"></td>
+                                <td><input type="button" value="5" class="btnMark class_mark"></td>
+                                <td><input type="button" value="6" class="btnMark class_mark"></td>
+                                <td><input type="button" value="." class="btnMark class_mark btnZero"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="1" class="btnMark class_mark"></td>
+                                <td><input type="button" value="2" class="btnMark class_mark"></td>
+                                <td><input type="button" value="3" class="btnMark class_mark"></td>
+                                <td><input type="button" value="退格" class="btnMark class_mark"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><input type="button" value="满 分 （6分）"
+                                                       class="btnMark class_mark fullmark"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td id="id_submitWait"><span>正在提交..</span></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+<div id="id_overlay"></div>
+<form id="id_frm_score_monitor" name="frm_score_monitor" method="post" action="mark-union!goWarning.shtml">
+    <input type="hidden" name="questionID" value="1413">
+    <input type="hidden" name="optionIndex" value="0">
+    <input type="hidden" name="choiceFlag" value="0">
+    <input type="hidden" name="flag3" value="0">
+    <input type="hidden" id="id_studentID4Back" name="studentID" value="61428">
+    <input type="hidden" name="showTag" value="">
+    <input type="hidden" name="markType" value="default">
+    <input type="hidden" name="markScore" value="">
+    <input type="hidden" name="rememberSize" value="200">
+    <input type="hidden" name="position" value="247.5,1352,,">
+    <input type="hidden" id="id_optionIndexNew" name="optionIndexNew" value="0">
+    <input type="hidden" name="sheetID" value="26">
+    <input type="hidden" id="id_unusualID" name="unusualID" value="0">
+    <input type="hidden" id="id_unusualState" name="unusualState" value="0">
+    <input type="hidden" name="markingType" value="1">
+    <input type="hidden" name="markTeacherType" value="1">
+</form>
+<script type="text/javascript" src="./js/jquery-1.5.2.min.js?20160413"></script>
+<script type="text/javascript" src="./js/jquery.alerts.min.js?20160413"></script>
+<script type="text/javascript"  src="./js/jquery.colorbox-min.js?20160413"></script>
+<script type="text/javascript" src="./js/imgtag.js?20160413"></script>
+<script type="text/javascript" src="./js/mark.js?20160413"></script>
+<link type="text/css" rel="stylesheet" href="./css/jquery.alerts.css">
+<link type="text/css" rel="stylesheet" href="./css/colorbox.css">
+<link type="text/css" rel="stylesheet" href="./css/jquery.ui.mark.css">
+<script type="text/javascript"  src="./js/jquery.ui.mark.min.js?20160413"></script>
+<script type="text/javascript">
+    function doLocal() {
+        $("#id_signing").show();
+        $("#id_backMark").click(function () {
+            $("#id_studentID4Back").val("0");
+            $("#id_frm_score_monitor").attr("action", "mark-union-back.shtml").submit();
+        });
+        setChoice();
+    }
+
+    function setChoice() {
+        return;
+    }
+</script>
+
+
+
+
+<div id="cboxOverlay" style="display: none;"></div>
+<div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+    <div id="cboxWrapper">
+        <div>
+            <div id="cboxTopLeft" style="float: left;"></div>
+            <div id="cboxTopCenter" style="float: left;"></div>
+            <div id="cboxTopRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxMiddleLeft" style="float: left;"></div>
+            <div id="cboxContent" style="float: left;">
+                <div id="cboxTitle" style="float: left;"></div>
+                <div id="cboxCurrent" style="float: left;"></div>
+                <button id="cboxPrevious"></button>
+                <button id="cboxNext"></button>
+                <button id="cboxSlideshow"></button>
+                <div id="cboxLoadingOverlay" style="float: left;"></div>
+                <div id="cboxLoadingGraphic" style="float: left;"></div>
+                <button id="cboxClose"></button>
+            </div>
+            <div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxBottomLeft" style="float: left;"></div>
+            <div id="cboxBottomCenter" style="float: left;"></div>
+            <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+    </div>
+    <div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+#popup_container {
+    width: auto !important;
+    width: 325px;
+    min-width: 325px;
+    height: auto !important;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff
+}
+
+#popup_title {
+    padding: 7px 0 7px 15px;
+    background-color: #63a8eb;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff
+}
+
+#popup_content {
+    padding: 10px 5px 5px 35px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 14 px；
+}
+
+.alert {
+    background: 15px 15px no-repeat url(images/info.png)
+}
+
+.confirm {
+    background: 15px 15px no-repeat url(images/help.png)
+}
+
+.prompt {
+    background: 15px 15px no-repeat url(images/important.gif)
+}
+
+#popup_message {
+    padding-left: 45px;
+    line-height: 20px;
+    font-size: 14px
+}
+
+#popup_panel {
+    text-align: center;
+    margin: 15px 0 5px 5px
+}
+
+#popup_panel input {
+    cursor: pointer;
+    width: 86px;
+    height: 32px;
+    border: 1px solid #63a8eb;
+    background-color: #fff;
+    color: #3fa5f7;
+    border-radius: 32px;
+    outline: 0
+}
+
+input#popup_ok {
+    margin-right: 10px;
+    background-color: #63a8eb;
+    color: #fff
+}
+
+#popup_prompt {
+    width: 200px
+}
+
+#popup_load {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 20px
+}
+
+.load {
+    background: url(../../../../images/processing.gif) no-repeat top center;
+    color: #ac8c7b
+}
+
+.wait {
+    background: url(../../../../images/waiting.gif) no-repeat top center;
+    color: #999
+}
+
+.pop-mask {
+    border-radius: 3px;
+    border: 1px solid #0d3a5f;
+    background-color: #43526b;
+    z-index: 101;
+    opacity: .9;
+    min-width: 400px;
+    width: auto !important;
+    width: 400px;
+    position: fixed;
+    _position: absolute;
+    left: 50%;
+    top: 45%;
+    _top: 20%;
+    margin-left: -170px
+}
+
+.pop-txt {
+    width: 380px;
+    padding: 10px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    font-family: "微软雅黑"
+}
