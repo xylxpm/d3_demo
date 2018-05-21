@@ -1,7 +1,7 @@
 .quizPutTag {
     border-bottom: 1px solid black;
     display: inline-block;
-    width: 200px;
+    padding: 0 20px;
 }
 
 .div {

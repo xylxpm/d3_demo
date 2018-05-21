@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>物理2018.5.21</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <!--<script type="text/javascript" async-->
+            <!--src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->
+    <!--</script>-->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <link rel="stylesheet" href="css.css"/>
+    <script type="text/x-mathjax-config">
+
+        $(function () {
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            function cutstr(text, start, end) {
+                var s = text.indexOf(start)
+                if (s > -1) {
+                    var text2 = text.substr(s);
+                    var s2 = text2.lastIndexOf(end);
+                    if (s2 > -1) {
+                        result = text2.substr(0, s2 + 1);
+                    } else {
+                        result = '';
+                    }
+                } else {
+                    result = '';
+                }
+                return result;
+            }
+
+
+            $.getJSON("res/wl.json?r=" + Math.random(), function (data) {
+                var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
+
+                for (var i = 0; i < data.Groups.length; i++) {
+                    _str += '<p style="text-align: left;font-size: 18px; margin-bottom:40px">' + data.Groups[i].Key + '</p>';
+
+                    for (var j = 0; j < data.Groups[i].Value.length; j++) {
+
+                        var _word = DBC2SBC(data.Groups[i].Value[j].Content);
+                        if (data.Groups[i].Value[j].Cate != 1) {
+
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word + '</div>';
+
+                        } else if (data.Groups[i].Value[j].Cate == 1) {
+
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
+
+
+                            for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
+                                var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
+                                _str += '<p class="options">' + k + '、' + _s + '</p>';
+                            }
+                            _str += '</div>'
+                        }
+                    }
+                }
+
+                $('body').html(_str);
+                $('img').removeAttr('style')
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+
+            })
+
+
+            function DBC2SBC(str) {
+                var result = "";
+                for (var i = 0; i < str.length; i++) {
+                    code = str.charCodeAt(i)
+                    if (code >= 65281 && code <= 65373) {
+                        var d = str.charCodeAt(i) - 65248;
+                        result += String.fromCharCode(d);
+                    }
+                    else if (code == 12288)//空格
+                    {
+                        var d = str.charCodeAt(i) - 12288 + 32;
+                        result += String.fromCharCode(d);
+                    }
+                    else {
+                        result += str.charAt(i);
+                    }
+                }
+                return result;
+            }
+        })
+
+
+    </script>
+</head>
+
+
+<body>
+
+</body>
+
+
+</html>

@@ -48,7 +48,8 @@
                     })
                 })
             }).data("beginPosition", f)
-        }, initMenu: function () {
+        },
+        initMenu: function () {
             var d = this;
             var e = d.$container.children(".contextMenu");
             e.find("span").mouseover(function () {
@@ -73,7 +74,8 @@
                 }
                 return false
             })
-        }, overDelete: function (d) {
+        },
+        overDelete: function (d) {
             var e = c(d.target);
             if (e.hasClass("draw")) {
                 c("span.delete_tag").hide();
@@ -83,7 +85,8 @@
                     c("span.delete_tag").hide()
                 }
             }
-        }, addBox: function (i) {
+        },
+        addBox: function (i) {
             var f = this;
             var g = f.$container.width();
             var e = f.$container.height();
@@ -112,7 +115,8 @@
                 d.data("init", f.getInitOffset(d));
                 (d.width() <= 0 && d.height() <= 0) && f.deleteTag(d)
             })
-        }, addLine: function (g) {
+        },
+        addLine: function (g) {
             var e = this;
             var f = e.$container.width();
             var d = e.createLine();
@@ -133,7 +137,8 @@
                 d.data("init", e.getInitOffset(d));
                 (d.width() <= 0) && e.deleteTag(d)
             })
-        }, addWave: function (g) {
+        },
+        addWave: function (g) {
             var e = this;
             var f = e.$container.width();
             var d = e.createWave();
@@ -154,27 +159,32 @@
                 d.data("init", e.getInitOffset(d));
                 (d.width() <= 0) && e.deleteTag(d)
             })
-        }, addRight: function (f) {
+        },
+        addRight: function (f) {
             var e = this;
             var d = e.createRight().css("font-size", Math.floor(e.settings.right_size * e.settings.bili) + "px");
             e.resetPosition(d, f);
             d.data("init", e.getInitOffset(d))
-        }, addWrong: function (f) {
+        },
+        addWrong: function (f) {
             var e = this;
             var d = e.createWrong().css("font-size", Math.floor(e.settings.wrong_size * e.settings.bili) + "px");
             e.resetPosition(d, f);
             d.data("init", e.getInitOffset(d))
-        }, addScore: function (f) {
+        },
+        addScore: function (f) {
             var e = this;
             var d = e.createScore().css("font-size", Math.floor(e.settings.score_size * e.settings.bili) + "px").prepend(c.fn.imgtag.score);
             e.resetPosition(d, f);
             d.data("init", e.getInitOffset(d));
             e.caculateScore(c.fn.imgtag.score)
-        }, caculateScore: function (d) {
+        },
+        caculateScore: function (d) {
             d = parseFloat(d);
             this.scoreTemp += d;
             this.settings.addScoreAction.call(self.$container, this.scoreTemp)
-        }, addWord: function (h) {
+        },
+        addWord: function (h) {
             var f = this;
             var d = c("#id_tag_word").children("input");
             var e = d.eq(0);
@@ -233,7 +243,8 @@
                     }
                 })
             }
-        }, setup: function (d) {
+        },
+        setup: function (d) {
             var e = this.getRealPosition(d);
             switch (c.fn.imgtag.type) {
                 case"box":
@@ -259,7 +270,8 @@
                     break;
                 default:
             }
-        }, getInitOffset: function (l) {
+        },
+        getInitOffset: function (l) {
             var f = this.settings.bili;
             var d = l.position();
             var j = Math.floor(d.left / f);
@@ -279,7 +291,8 @@
             }
             var g = l.text().replace(/删 除$/, "");
             return {x: j, y: i, width: e, height: k, type: h, note: g}
-        }, loadTags: function () {
+        },
+        loadTags: function () {
             var d = this;
             try {
                 var g = jQuery.parseJSON(d.settings.loadData);
@@ -297,7 +310,8 @@
             } catch (e) {
                 return false
             }
-        }, clearTags: function () {
+        },
+        clearTags: function () {
             this.tags.remove();
             this.tags = c([]);
             this.scoreTemp = 0
