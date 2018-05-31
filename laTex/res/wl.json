@@ -1,0 +1,1941 @@
+﻿{
+  "ID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+  "Title": "2015-2016学年广西南宁四十七中八年级（上）第一次月考物理试卷",
+  "Year": 2015,
+  "Times": 90,
+  "Score": 100,
+  "EditionID": 17,
+  "GradeID": 8,
+  "TermID": 1,
+  "SourceID": 8,
+  "SourceName": "月考试题",
+  "RegionID": "1190102",
+  "RegionNames": [
+    "广西",
+    "南宁市",
+    "青秀区"
+  ],
+  "ViewCount": 129,
+  "Date": "2016-01-21T00:00:00",
+  "Subject": 21,
+  "EditionName": "人教新版",
+  "GradeName": "八年级",
+  "TermName": "上学期",
+  "SchoolName": "南宁第四十七中学",
+  "Groups": [
+    {
+      "Key": "一、单项选择题（每题2分，共40分）下面每小题给出的四个选项中，只有一个正确答案，请你把它选出来，并将选出来的选项前的字母代号写在题后的括号内．每小题选对的得2分，不选、多选或选错的得0分．",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "dbb5c4e1-55ac-4c18-967d-92da830d36ff",
+          "Content": "关于下列四幅图片的说法中，正确的是（　　）",
+          "Analyse": "（1）声音的传播必须靠介质，真空不能传声；<br />（2）频率的高低影响音调的高低；<br />（3）振幅影响声音响度的大小；<br />（4）超声波可以传递信息。",
+          "Method": "解：A、说法正确，闹铃的声音听不到，因为它周围是真空，真空不能传声；<br />B、说法错误，图片B所示的实验表明，频率越高，音调越高；<br />C、说法错误，图片C所示的实验即可研究声音响度的大小与振幅的关系，也可研究声音的音调与频率的关系，故C选项说法错误；<br />D、说法错误，图片D中的蝙蝠利用发出的超声波导航；<br />故选：A。",
+          "Discuss": "此题是一道声学综合题，涉及较多声学知识，但都是基础知识，比较容易。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "llm老师",
+          "Points": [
+            {
+              "Key": "92",
+              "Value": "声音的传播条件"
+            },
+            {
+              "Key": "9D",
+              "Value": "频率及音调的关系"
+            },
+            {
+              "Key": "9E",
+              "Value": "超声波与次声波"
+            },
+            {
+              "Key": "9G",
+              "Value": "响度与振幅的关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/206/e874a334.png\" style=\"vertical-align:middle\" />图片所示的实验表明，真空不能传声",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/206/2f81cc8e.png\" style=\"vertical-align:middle\" />图片所示的实验表明，频率越高，音调越低",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/206/4b898b71.png\" style=\"vertical-align:middle\" />图片所示的实验表明，噪声可以在人耳处减弱",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/206/2a429b00.png\" style=\"vertical-align:middle\" />图片中的蝙蝠利用发出的次声波"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 98,
+          "DownCount": 0,
+          "RealCount": 4,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "8f48bf5f-9982-47a4-af05-1bb96e68cdea",
+          "Content": "下列事例中属于阻断噪声传播的是（　　）",
+          "Analyse": "减弱噪声主要从三种途径入手，一是在声源处减弱，二是在传播过程中减弱，三是在人耳处减弱。",
+          "Method": "解：A、中考期间考场周边工地停止施工，防止噪声的产生，属于在声源处减弱噪声，不符合题意；<br />B、飞机场附近居民采用双层窗，阻断噪声的传播，属于在传播过程中减弱噪声，符合题意；<br />C、汽车驶入市区禁止鸣喇叭，防止噪声的产生，属于在声源处减弱噪声，不符合题意；<br />D、工人工作时戴防噪声耳罩，防止噪声进入人耳，属于在人耳处减弱噪声，不符合题意。<br />故选：B。",
+          "Discuss": "噪声的减弱办法是针对声音的产生、传播、接收这三个过程来采取措施的，两者对应起来，可以简化对噪声减弱办法的记忆。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2014秋•克东县校级期中）",
+          "LabelReportID": "220a05d7-ae62-4adc-a733-2d32b951e968",
+          "Teacher": "wscdd老师",
+          "Points": [
+            {
+              "Key": "9L",
+              "Value": "防治噪声的途径"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/7/e5fd8e6d.png\" style=\"vertical-align:middle\" /><br />中考期间考场周边工地停止施工",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/7/d5792797.png\" style=\"vertical-align:middle\" /><br />飞机场附近居民采用双层窗",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/7/338bea02.png\" style=\"vertical-align:middle\" /><br />汽车驶入市区禁止鸣喇叭",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/7/95da5080.png\" style=\"vertical-align:middle\" /><br />工人工作时戴防噪声耳罩"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 199,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 15,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "48c48dc2-757e-4e7e-9d76-4fa0b0eaaa00",
+          "Content": "小明同学用刻度尺测出一个物体的长度为172.5mm，下面物体中最接近这个数值的是（　　）",
+          "Analyse": "估测是一种科学的近似值，它不仅是一种常用的解题方法和思维方法而且是一种重要的科学研究方法，在生产和生活中也有着重要的作用，应用日常知识积累解答此题。",
+          "Method": "解：172.5mm=17.25cm；<br />A、物理课本的厚度应该在0.5cm左右，此选项不符合题意；<br />B、一根粉笔的长度约为10cm左右，此选项不符合题意；<br />C、黑板的长度约为5m左右；此选项不符合题意；<br />D、饮水杯的高度在17cm左右，此选项符合题意；<br />故选：D。",
+          "Discuss": "本题考查对常见的一些量要有数据的认识，估测的题目，要求学生对相关物理量的数据有一个明确的概念，多注意日常积累，培养自己的估测能力。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2005•天津）",
+          "LabelReportID": "b88d1db2-fead-4b51-b59b-dd837b10251b",
+          "Teacher": "hyan老师",
+          "Points": [
+            {
+              "Key": "63",
+              "Value": "长度的估测"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "4H ",
+              "Value": "估算法"
+            }
+          ],
+          "Options": [
+            "物理课本的厚度",
+            "一根粉笔的长度",
+            "黑板的长度",
+            "饮水杯的高度"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 10,
+          "ViewCount": 1476,
+          "DownCount": 13,
+          "RealCount": 96,
+          "PaperCount": 312,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "147da89c-c06a-49f8-87bb-fa975b186f99",
+          "Content": "下列关于声音的说法中不正确的是（　　）",
+          "Analyse": "声音有三大特征，分别是响度、音调和音色。<br />响度是指声音的强弱，它与振幅有关。<br />音调是指声音的高低，它与频率有关。<br />音色是指声音的品质与特色，不同物体发出的声音音色是不同的。<br />声音的传播需要介质，真空不能传声。根据以上内容，对各个选项进行分析。",
+          "Method": "解：A、物体振幅越大，响度越大。故A正确；<br />B、“震耳欲聋”说明声音的响度大。故B错误；<br />C、墙壁是固体，固体可以传声。故C正确；<br />D、不同人说话的特点不同，就是指音色不同。故D正确。<br />故选：B。",
+          "Discuss": "本题考查声音的三个特征，及其相关因素。同时要了解声音的传播需要介质这一特点。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2015•南昌三模）",
+          "LabelReportID": "f7bac323-efb8-4f4c-943a-72219c13527a",
+          "Teacher": "wdz****z001老师",
+          "Points": [
+            {
+              "Key": "91",
+              "Value": "声音的产生"
+            },
+            {
+              "Key": "92",
+              "Value": "声音的传播条件"
+            },
+            {
+              "Key": "9I",
+              "Value": "音调、响度与音色的区分"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [
+            "“响鼓也要重锤敲”，说明声音是由振动产生的，且振幅越大响度越大",
+            "“震耳欲聋”说明声音的音调高",
+            "“隔墙有耳”，说明固体能传声",
+            "“闻其声知其人”，说明可以根据音色来判断说话者"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 7,
+          "ViewCount": 586,
+          "DownCount": 16,
+          "RealCount": 21,
+          "PaperCount": 439,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "a7174226-0c21-4ad7-99f2-1a565b028135",
+          "Content": "关于声音，下列说法中正确的是（　　）",
+          "Analyse": "A、根据音色定义去分析；<br />B、人的听觉范围在20赫兹到20000赫兹，低于20赫兹的是次声波，高于20000赫兹的超声波，无论次声波和超声波，人耳都听不见；<br />C、根据响度是指声音的大小，与振幅有关，振动的幅度越大，响度越大去分析；<br />D、可根据振幅与响度的关系进行解答。",
+          "Method": "解：A、我们能区分出小提琴和二胡的声音，是因为它们发出声音的音色不同，故本选项错误；<br />B、因为蝴蝶翅膀振动发出的声音，小于20赫兹，是次声波，人耳听不到，而不是因为它发出声音的响度太小，故本选项错误；<br />C、敲锣时用力越大，振幅大，所以它发出声音的响度越大，故本选项正确；<br />D、歌唱演员引吭高歌，其中的“高”是指响度大，故本选项错误。<br />故选：C。",
+          "Discuss": "解答此题应掌握以下知识点：①应该掌握音调、音色、响度的区别；<br />②音调是指声音的高低，与频率有关，振动的频率越高，音调越高；<br />③响度是指声音的大小，与振幅有关，振动的幅度越大，响度越大；<br />④不同物体的材料和结构不同，所以音色不同。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•阿坝州）",
+          "LabelReportID": "1aa621ab-63f9-4040-8701-c304444dbfbc",
+          "Teacher": "wdn****2011老师",
+          "Points": [
+            {
+              "Key": "9I",
+              "Value": "音调、响度与音色的区分"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [
+            "我们能区分出小提琴和二胡的声音，是因为它们发出声音的音调不同",
+            "我们无法听到蝴蝶飞过的声音，是因为它发出声音的响度太小",
+            "敲锣时用力越大，它发出声音的响度越大",
+            "歌唱演员引吭高歌，其中的“高”是指音调高"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 20,
+          "ViewCount": 909,
+          "DownCount": 13,
+          "RealCount": 105,
+          "PaperCount": 214,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d7a3bf1a-7d1a-4f0b-b0c4-e02a8c23074c",
+          "Content": "用刻度尺测物体的长度时，下列要求错误的是（　　）",
+          "Analyse": "（1）使用之前的“三看”：看零刻线是否磨损、看清量程的大小、看清尺子的分度值。<br />（2）使用时要做到“四会”：会放、会看、会读、会记。<br />①会放：刻度尺要放正，做到“齐、平、贴”，即刻度尺的零刻线与被测物体的边缘对齐、刻度尺与被测物体长度平行、刻度线贴近被测物体，以减小刻度尺的厚度产生的误差。<br />②会看：读数时视线与刻度尺表面垂直。<br />③会读：数值要估读到分度值的下一位。<br />④会记：测量结果由数字和单位组成，没有单位的任何记录都是没有意义的。",
+          "Method": "解：（1）由刻度尺的正确使用方法，可知A、C、D是正确的；<br />（2）B的说法是错误的，因为测量时如果零刻线磨损，可以从较清楚的刻线处对齐测量，记录结果时从对齐的刻线处量起；<br />故选：B。",
+          "Discuss": "正确使用刻度尺是必须要掌握的一项基本技能，了解误差产生的原因，有利于我们改进实验方法，减小误差。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•官渡区期末）",
+          "LabelReportID": "4544093b-180b-4eb3-9366-9bf595608d5b",
+          "Teacher": "刘治强老师",
+          "Points": [
+            {
+              "Key": "66",
+              "Value": "刻度尺的使用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "13 ",
+              "Value": "实验题"
+            }
+          ],
+          "Options": [
+            "测量时，刻度尺不能歪斜",
+            "测量时，必须从刻度尺的零刻度线处量起",
+            "读数时，视线应与尺面垂直",
+            "记录测量结果时，必须在数字后面写上单位"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 6,
+          "ViewCount": 974,
+          "DownCount": 21,
+          "RealCount": 44,
+          "PaperCount": 605,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "bc59ee11-2ca4-48a6-8d93-d74ccd1df3db",
+          "Content": "小明和小丽站在路边等校车，小丽说自己是运动的，她所选择的参照物是（　　）",
+          "Analyse": "研究物体的运动时，必须事先选定一个标准的物体，这个事先被选作标准的物体叫参照物。如果被研究的物体相对于这个标准位置发生了改变，则是运动的；如果被研究的物体相对于这个标准位置没有发生了改变，则是静止的。",
+          "Method": "解：站在路边的小丽相对于小明的位置不发生变化，所以以小明为参照物时，小丽是静止的；以驶来的校车为参照物，小丽与汽车之间的相对位置不断发生变化，所以她是运动的。<br />故选：D。",
+          "Discuss": "一个物体的运动状态的确定，关键取决于所选取的参照物。所选取的参照物不同，得到的结论也不一定相同。这就是运动和静止的相对性。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•吉林）",
+          "LabelReportID": "dc87f324-fb36-4023-b78c-1e1d06984e03",
+          "Teacher": "空气凤梨老师",
+          "Points": [
+            {
+              "Key": "53",
+              "Value": "运动和静止的相对性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "572",
+              "Value": "运动和力"
+            }
+          ],
+          "Options": [
+            "路灯",
+            "路边的树木",
+            "小明",
+            "驶来的校车"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 5,
+          "ViewCount": 792,
+          "DownCount": 12,
+          "RealCount": 68,
+          "PaperCount": 129,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "de76fa0e-7694-4bb8-9153-18ac738ae9cb",
+          "Content": "科学家在对蝙蝠的研究中，曾用黑布把蝙蝠的双眼蒙上，发现蝙蝠也可以正常地飞行，没有受到一点影响，这是因为（　　）",
+          "Analyse": "蝙蝠可以发出超声，超声在遇到障碍物后可以发生反射。<br />声音可以传递信息，也可以传递能量。<br />根据这两方面内容，对题目进行分析。",
+          "Method": "解：蝙蝠的视力很差，蝙蝠主要通过自己发出的超声波遇到障碍物被反射，蝙蝠接收反射回来的超声波，根据反射回来的超声波进行定位，判断物体的形状。<br />故选：C。",
+          "Discuss": "本题考查了蝙蝠的定位方法，蝙蝠是利用超声波进行定位的，雷达就是模仿蝙蝠的定位方法进行定位的。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2014秋•三台县期末）",
+          "LabelReportID": "a600e92b-f4bf-426c-87c7-d885bbed4b22",
+          "Teacher": "碧浪淘沙老师",
+          "Points": [
+            {
+              "Key": "9E",
+              "Value": "超声波与次声波"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [
+            "蝙蝠的眼睛会发出超声波，穿透黑布，清楚地看到黑布外面的目标",
+            "蝙蝠在飞行时会发出次声波，根据回声定位原理来飞行",
+            "蝙蝠在飞行时会发出超声波，根据回声定位原理来飞行",
+            "黑布太薄会透光，蝙蝠可以很清楚地看到黑布外面的目标"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 834,
+          "DownCount": 10,
+          "RealCount": 15,
+          "PaperCount": 39,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "5b155c78-e409-44bd-9891-cc7a24e77ebf",
+          "Content": "下列有关误差的说法中，正确的是（　　）",
+          "Analyse": "解答本题要弄清误差与错误的区别，减小误差的方法和误差的不可避免性。",
+          "Method": "解：A、多次测量取平均值就是为了减小误差，符合题意；<br />B、误差和错误产生的原因不同，不符合题意；<br />C、误差是不可以避免的，不符合题意；<br />D、误差是不可以消除的，不符合题意；<br />故选：A。",
+          "Discuss": "本题考查了减小误差的方法、误差的不可避免性及误差与错误的区别。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2005•北京）",
+          "LabelReportID": "055968db-ce00-4625-a22b-557dbb30d2fa",
+          "Teacher": "292263老师",
+          "Points": [
+            {
+              "Key": "67",
+              "Value": "误差及其减小方法"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "多次测量取平均值可以减小误差",
+            "误差就是测量中产生的错误",
+            "只要认真测量，就可以避免误差",
+            "选用精密的测量仪器可以消除误差"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 23,
+          "ViewCount": 2043,
+          "DownCount": 34,
+          "RealCount": 338,
+          "PaperCount": 1141,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "9412555c-74da-4c51-b43d-65726e930dda",
+          "Content": "有一种专门存放贵重物品的“银行”，当人们存放了自己的贵重物品后，要用仪器记录下自己的“手纹”、“眼纹”、“声纹”等。以便今后用这些细节独有的特征才能亲自取走物品，防止被别人领走，这里的“声纹”记录的是人说话的（　　）",
+          "Analyse": "音色是指声音的品质与特色，不同人说话的特色是不同的。",
+          "Method": "解：因为每个人发声的特点都不同，即音色不同，这样我们可以通过音色进行辨别不同人的说话，所以“声纹”记录的是主人的音色；<br />故选：C。",
+          "Discuss": "本题考查学生对音色定义的理解情况，需要结合具体例子具体分析。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2010•通辽）",
+          "LabelReportID": "ab0b56bc-2561-473d-8031-2c111b1ba6da",
+          "Teacher": "sdpyqjy老师",
+          "Points": [
+            {
+              "Key": "9H",
+              "Value": "音色"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "21 ",
+              "Value": "信息给予题"
+            }
+          ],
+          "Options": [
+            "音调",
+            "响度",
+            "音色",
+            "三者都有"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 9,
+          "ViewCount": 991,
+          "DownCount": 12,
+          "RealCount": 68,
+          "PaperCount": 87,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "772435c1-5de2-42a1-a6e7-d08d237512dd",
+          "Content": "如图所示，两个中学生用细棉线连接两个纸杯，制成了一个“土电话”，对该实验的解释中不正确的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201406/21/713dc872.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "解决此题需要掌握：<br />声音是由物体振动产生的，声音的传播需要介质，固体、液体、气体都可以传声；<br />音色反映了声音的品质与特色，不同的物体音色不同。",
+          "Method": "解：A、声音可以在固体中进行传播，当然也可以通过绳子振动传播声音，选项说法正确，不符合题意；<br />B、改用金属丝连接土电话，听到的声音大，唯一的原因肯定就是金属丝的传声性能比棉线的好，选项说法错误，符合题意；<br />C、每个人的声带结构不同，所以发出声音的音色就会不同，所以我们可以通过音色辨别是谁，选项说法正确，不符合题意；<br />D、如果线没有拉直，那么由于线是松软的，振动会被棉线上的空隙吸收，从而无法传递振动，另一方就听不到声音，选项说法正确，不符合题意；<br />故选：B。",
+          "Discuss": "解决此类问题要结合声音的传播条件和声音的特性进行分析解答。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2006•哈尔滨）",
+          "LabelReportID": "e7b5098f-de7c-4b36-b639-c919b96e0bc8",
+          "Teacher": "sdpyqjy老师",
+          "Points": [
+            {
+              "Key": "92",
+              "Value": "声音的传播条件"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "21 ",
+              "Value": "信息给予题"
+            }
+          ],
+          "Options": [
+            "用“土电话”通话，表明固体能够传声",
+            "用金属丝代替细棉线听到的声音更大些，这是因为金属丝振动得快",
+            "听到声音就能分辨出是谁，是根据音色不同",
+            "实验时若不张紧棉线，对方就听不到由“土电话”传来的声音"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 15,
+          "ViewCount": 1630,
+          "DownCount": 18,
+          "RealCount": 11,
+          "PaperCount": 120,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "c75cd819-a7e1-4a4b-9c2c-94751ea9f076",
+          "Content": "关于运动和静止，下列说法错误的是（　　）",
+          "Analyse": "题目中各选项的参照物和被研究物体已给出，所以解答此题的关键是看被研究的物体与所选的参照物之间的相对位置是否发生了改变，如果发生改变，则物体是运动的；如果未发生变化，则物体是静止的。",
+          "Method": "解：A、拖拉机和联合收割机以同样的速度前进时，以拖拉机为参照物，联合收割机相对于拖拉机的位置没有发生变化，所以它们是相对静止的。故本选项正确。<br />B、站在正在上升的观光电梯上的乘客认为电梯是静止的，是因为他以身边的乘客为参照物，他们之间的相对位置没有发生变化，所以它们是相对静止的。故本选项正确。<br />C、站在地球上的人如果他以自己为参照物。自己与地球同步通信卫星的相对位置没有发生改变，所以觉得地球同步通信卫星在空中静止不动，故本选项正确；<br />D、加油机在空中给受油机加油时，以加油机为参照物，受油机相对于加油机的位置没有发生变化，所以它们是相对静止的。故本选项错误；<br />故选：D。",
+          "Discuss": "此题主要考查学生对参照物的选择、运动和静止的相对性的理解和掌握，研究同一物体的运动状态，如果选择不同的参照物，得出的结论可以不同，但都是正确的结论。注意题目的要求：选择错误的。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•十堰）",
+          "LabelReportID": "58cd52fd-8257-448a-bc43-8ed1f74aa88d",
+          "Teacher": "wdn****2011老师",
+          "Points": [
+            {
+              "Key": "53",
+              "Value": "运动和静止的相对性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [
+            "拖拉机和联合收割机以同样的速度前进时，以拖拉机为参照物，联合收割机是静止的",
+            "站在正在上升的观光电梯上的乘客认为电梯是静止的，是因为他以身边的乘客为参照物",
+            "站在地球上的人觉得地球同步通信卫星在空中静止不动，是因为他以自己为参照物",
+            "飞机在空中加油时若以受油机为参照物，加油机是运动的"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 25,
+          "ViewCount": 1355,
+          "DownCount": 16,
+          "RealCount": 116,
+          "PaperCount": 327,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d753daa9-8fb3-4b6f-a7b1-9a3d7ce3eacc",
+          "Content": "站在桥洞里说话时，听不到回声的原因是（　　）",
+          "Analyse": "回声是声波被反射回来形成的，人耳区分开原声和回声的最小时间差是0.1s，因此区分开原声和回声最短距离，据此分析回答。",
+          "Method": "解：<br />站在桥洞里说话时，由于我们说话的地点离桥洞两侧较近，声音传到桥洞两侧上反射回来的时间与我们说话的时间几乎是同时的，时间差太短，所以我们的耳朵不能区分说话声和回声，也就听不到回声，C选项的说法正确。<br />故选：C。",
+          "Discuss": "知道人耳区分开原声和回声的最小时间是0.1s，从而确定听到回声需要一定的距离，是一道基础题目。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "96",
+              "Value": "回声"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [
+            "桥洞两端是开口的，不反射声音",
+            "桥洞反射的声音从洞口跑了",
+            "桥洞窄小，反射回来的声音与原声混在一起分辨不出来",
+            "桥洞窄小，不产生回声"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 171,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 69,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d0e64b0a-f463-46d5-b509-03dfa07ad7d9",
+          "Content": "某人乘游艇在黄河上逆流而上，若说他静止，是以下列哪个物体为参照物（　　）",
+          "Analyse": "在研究机械运动时，被选作标准的物体叫参照物。一个物体是运动还是静止，需要看它相对于参照物的位置是否变化。",
+          "Method": "解：<br />A、人相对于河水是向上运动的。不符合题意；<br />B、人相对于岸边的高楼，位置是不断变化的。不符合题意；<br />C、人相对于自己乘坐的游艇，位置没有变化。符合题意；<br />D、人相对于迎面驶来的游艇是向前运动的。不符合题意。<br />故选：C。",
+          "Discuss": "一个物体是运动还是静止，决定于选择的参照物，参照物不同，运动状态也不一样。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•兰州）",
+          "LabelReportID": "3a7898d8-4108-480a-8573-2a59198a63e7",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "52",
+              "Value": "参照物及其选择"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "黄河水",
+            "岸边的高楼",
+            "他乘坐的游艇",
+            "迎面驶来的游艇"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 5,
+          "ViewCount": 1417,
+          "DownCount": 13,
+          "RealCount": 70,
+          "PaperCount": 165,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "74737ecc-f413-4465-8e3c-280809bc4c13",
+          "Content": "如图所示，是香香同学在相等时间间隔里运动的情景，可能做匀速运动的是（　　）",
+          "Analyse": "经过的路线是直线，快慢不变的运动叫匀速直线运动。匀速直线运动是最简单的运动。",
+          "Method": "解：<br />A、在相等时间间隔里位置没有变化，即静止；<br />B、已知时间间隔相同，每个时间段内通过的距离也相同，说明物体在这一时间内可能做匀速运动；<br />C、已知时间间隔相同，相同时间段通过的距离越来越大，说明物体做变速运动；<br />D、已知时间间隔相同，相同时间段通过的距离越来越小，说明物体做变速运动。<br />故选：B。",
+          "Discuss": "此题考查的是匀速直线运动的概念，真正的匀速直线运动包含两层意思：相同时间通过的路程相同，相同路程所用时间相同。物体作绝对匀速直线运动的情况很少，大部分情况下都作变速运动。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•江西）",
+          "LabelReportID": "b27a4a17-91eb-4fa0-8ea2-cf8c8b3b9e04",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "6C",
+              "Value": "匀速直线运动"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "21 ",
+              "Value": "信息给予题"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201401/157/44b0451a.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201401/157/515631eb.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201401/157/887b9674.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201401/157/3711bc2b.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 15,
+          "ViewCount": 2742,
+          "DownCount": 18,
+          "RealCount": 119,
+          "PaperCount": 717,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "e26b420a-acb7-4ee0-9675-c75cba7b029c",
+          "Content": "古诗词《浪淘沙》中写到：“满眼风光多闪烁，看山恰似走来迎”，诗人描述“山是运动的”是选用哪个物体作为参照物（　　）",
+          "Analyse": "本题中研究的分别是山的运动状态，解答此题的关键是看被研究的物体与参照物之间的相对位置是否发生了改变。",
+          "Method": "解：以船为参照物，山与船之间的位置发生了变化，山是运动的，所以会感觉到“看山恰似走来迎”；<br />故选：A。",
+          "Discuss": "研究同一物体的运动状态，如果选择不同的参照物，得出的结论可以不同，但都是正确的结论。因此，解答中要抓住“参照物”这个中心，认真分析，灵活处理。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•泉州）",
+          "LabelReportID": "15a5ea72-682a-40ca-be65-c3bcb1114c91",
+          "Teacher": "wdn****2011老师",
+          "Points": [
+            {
+              "Key": "52",
+              "Value": "参照物及其选择"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "船",
+            "山",
+            "河岸",
+            "树木"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 11,
+          "ViewCount": 2626,
+          "DownCount": 14,
+          "RealCount": 80,
+          "PaperCount": 289,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "73d6a20c-0597-4e40-a91c-3051c995ce18",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/193/5783ba6e.png\" style=\"vertical-align:middle;FLOAT:right\" />2012年6月16日18时56分，执行我国首次载人交会对接任务的神舟九号载人飞船，在酒泉卫星发射中心发射升空，顺利将3名航天员送上太空。如图为神舟九号发射升空过程中，乘员景海鹏、刘旺、刘洋固定在舱内的情景。在神舟九号发射升空过程中，正确的说法是（　　）",
+          "Analyse": "一个物体相对于另一个物体位置的改变叫机械运动，在研究机械运动时，假定不动的物体叫参照物。判断一个物体是运动还是静止，看这个物体相对于参照物的位置是否变化。",
+          "Method": "解：在神舟九号发射升空过程中，<br />A、B、以地面为参照物，航天员与地面的距离是变化的，所以航天员是向上运动的。选项A错误，选项B正确；<br />C、以神舟九号为参照物，航天员随之同时运动，两者之间的位置没有变化，所以是静止的。此选项错误；<br />D、以刘洋为参照物，景海鹏随之同时运动，两者之间的位置没有变化，所以是静止的。此选项错误。<br />故选：B。",
+          "Discuss": "此题考查的是根据参照物判断研究对象的运动状态，需要明确的是，选择哪一个物体作参照物，这个物体就是“静止”的。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•成都）",
+          "LabelReportID": "2abd40e1-95e0-479c-99e1-b34d919eee81",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "52",
+              "Value": "参照物及其选择"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "以地面为参照物，航天员是静止的",
+            "以地面为参照物，航天员是运动的",
+            "以神舟九号为参照物，航天员是运动的",
+            "以刘洋为参照物，景海鹏是运动的"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 2,
+          "ViewCount": 1919,
+          "DownCount": 14,
+          "RealCount": 53,
+          "PaperCount": 182,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "c58def0e-57e3-4565-9381-3669293e25d9",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201411/60/ee450d48.png\" style=\"vertical-align:middle;FLOAT:right\" />甲、乙两物体同时同地同方向开始做匀速直线运动，甲的速度大于乙的速度，它们的s-t图象为图所示a、b、c三条图线中的两条，运动5秒甲、乙间的距离大于2米，则（　　）",
+          "Analyse": "（1）根据s-t图象找出同一时刻a、b、c对应的路程，然后由速度公式判断三图象对应速度的大小关系；<br />（2）由图象判断5s内，三图象的路程差；<br />（3）根据图象a、b、c的速度及它们5s的路程差，根据题意选择答案。",
+          "Method": "解：由图象可知，经过5s后a的路程为s<SUB>a</SUB>=5.5m，b的路程为s<SUB>b</SUB>=2.5m，c的路程为s<SUB>c</SUB>=1m，由此可知a的速度大于b的速度，大于c的速度，<br />由题意知，甲的速度大于乙的速度，所以乙可能是b、c，甲可能是a、b；------①<br />由题意知，运动5秒后，甲、乙间的距离大于2米，而a和b的距离大于2m，a和c的距离大于2m，可见甲、乙可能是a、b，也可能是a、c------②<br />综合①②可知，甲一定是a，不能使b、c。<br/>故选：A。",
+          "Discuss": "本题是一道物体的s-t图象题，对初中学生来说有一定的难度；分析清楚图象，由图象找出路程s与时间t的对应关系是正确解题的前提与关键。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•上海）",
+          "LabelReportID": "4a3a7a7e-0749-456c-9314-c7d373a3d74c",
+          "Teacher": "wdlf老师",
+          "Points": [
+            {
+              "Key": "68",
+              "Value": "速度与物体运动"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "甲的s-t图一定为图线a",
+            "甲的s-t图可能为图线b",
+            "乙的s-t图一定为图线c",
+            "乙的s-t图可能为图线a"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 17,
+          "ViewCount": 804,
+          "DownCount": 19,
+          "RealCount": 136,
+          "PaperCount": 262,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "0e7e2fe5-d641-4695-823f-7b11da031b71",
+          "Content": "对平均速度的说法不正确的是（　　）",
+          "Analyse": "（1）（2）平均速度等于总路程除以总时间。<br />（3）测量物体运动的平均速度必须测出路程和时间，根据测出的距离和对应的时间，用公式v=$\\frac{s}{t}$算出平均速度。<br />（4）利用公式v=$\\frac{s}{t}$分析即可。",
+          "Method": "解：A、做变速运动的物体可以用v=$\\frac{s}{t}$来计算它的平均速度。故A正确；<br />B、平均速度等于总路程除以总时间，不是速度的平均值，故B错误；<br />C、测出物体运动的路程和时间，用公式v=$\\frac{s}{t}$可计算出物体运动的平均速度。故C正确；<br />D、根据v=$\\frac{s}{t}$可知，路程一定，时间越少，速度越大，最先到达终点的选手用时少，所以平均速度大。故D正确。<br />故选：B。",
+          "Discuss": "此题考查学生对平均速度的理解，根据速度公式，利用控制变量法分析即可解题。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2016秋•碑林区校级期中）",
+          "LabelReportID": "fd4706bf-798f-4643-ab37-02b46b44da60",
+          "Teacher": "210****9882老师",
+          "Points": [
+            {
+              "Key": "68",
+              "Value": "速度与物体运动"
+            },
+            {
+              "Key": "6D",
+              "Value": "变速运动与平均速度"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "比较思想"
+            },
+            {
+              "Key": "41 ",
+              "Value": "控制变量法"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "物体做变速运动时，可以求它的平均速度",
+            "平均速度就是速度的平均值",
+            "平均速度可以测量",
+            "100m比赛过程中，最先到达终点的选手平均速度大"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 76,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "6fbfdb8a-b842-44be-b048-92a8fb0ab600",
+          "Content": "对一物体测量长度为34.57cm，所用刻度尺的分度值、数据的准确值和估计值分别是（　　）",
+          "Analyse": "刻度尺的分度值是刻度尺相邻两刻度线表示的长度。<br />对于一个正确的长度测量结果，倒数第二位对应的单位是刻度尺的最小刻度，最后一位是估读值，其它都是准确值。",
+          "Method": "解：<br />在数值34.57cm中，“5”对应的单位是mm，所以刻度尺的分度值位1mm，准确值是34.5cm，估计值是0.07cm。<br/>故选：B。",
+          "Discuss": "初中物理涉及到很多的测量，没有特殊说明，只有长度的测量需要有一位估计值，其它不作要求。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2016秋•碑林区校级期中）",
+          "LabelReportID": "fd4706bf-798f-4643-ab37-02b46b44da60",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "64",
+              "Value": "长度的测量"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [
+            "1mm、34.50cm、0.07cm",
+            "1mm、34.5cm、0.07cm",
+            "1cm、34cm、0.57cm",
+            "1cm、34.5cm、0.07cm"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 302,
+          "DownCount": 12,
+          "RealCount": 6,
+          "PaperCount": 84,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（每空1分，共20分）请把答案直接填写在题中横线上的空白处，不要求写出演算过程．",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "c9787502-215f-4af7-a787-1f20719c3d3b",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201409/202/1b017b0d.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，用刻度尺测物体的长度，则尺的分度值是<div class=\"quizPutTag\">1mm</div>，所测物体的长度是<div class=\"quizPutTag\">3.80cm</div>。",
+          "Analyse": "刻度尺的分度值为相邻的刻度线表示的长度；使用刻度尺测量物体长度时，要观察是否从0刻度线量起，起始端没从0开始，要以某一刻度当作“0”刻度，读出末端刻度值，减去起始端所对的刻度即为物体长度，注意刻度尺要估读到分度值的下一位。",
+          "Method": "解：<br />由图知，在1cm之间有10个小格，所以一个小格代表的长度为1mm，也就是此刻度尺的分度值为1mm；<br />由图知，起始端在6.00cm处，末端在9.80cm处，所以物体长度为L=9.80cm-6.00cm=3.80cm。<br/>故答案为：1mm；3.80cm。",
+          "Discuss": "刻度尺是日常生活和物理实验中经常使用的测量工具，要掌握其使用和读数方法。",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2016•深圳一模）",
+          "LabelReportID": "af59a8ca-4f95-4e5b-9e49-d81f0457eb72",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "64",
+              "Value": "长度的测量"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "1mm",
+            "3.80cm"
+          ],
+          "FavTime": 15,
+          "ViewCount": 1558,
+          "DownCount": 34,
+          "RealCount": 204,
+          "PaperCount": 2907,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "1d6790fb-a3af-4d58-8c68-767ea538641c",
+          "Content": "停表的示数如图所示，分别读出停表所示的时间为<div class=\"quizPutTag\">187.5</div>s．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/114/35943c05.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "停表的中间的表盘代表分钟，周围的大表盘代表秒，停表读数是两个表盘的示数之和．",
+          "Method": "解：由图知：<br />在停表的中间表盘上，1min中间有两个小格，所以一个小格代表0.5min，指针在“3”和“4”之间，偏向“3”一侧，所以分针指示的时间为3min；<br />在停表的大表盘上，1s之间有10个小格，所以一个小格代表0.1s，指针在7.5s处，所以秒针指示的时间为7.5s，即停表的读数为3min7.5s=187.5s．<br />故答案为：187.5．",
+          "Discuss": "在日常生活、物理实验和体育活动中经常使用秒表、停表等，我们要熟练掌握其使用和读数方法．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2014春•博兴县校级期中）",
+          "LabelReportID": "2c2152f3-7147-40bb-9b5a-6d15582e4761",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "63",
+              "Value": "长度的估测"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "187.5"
+          ],
+          "FavTime": 0,
+          "ViewCount": 474,
+          "DownCount": 12,
+          "RealCount": 5,
+          "PaperCount": 53,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 1.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "4264b546-d1df-4d61-b2f2-5ef199614f70",
+          "Content": "在下列数据后填上合适的单位：<br />（1）小明的身高为172<div class=\"quizPutTag\">cm</div>．<br />（2）人的心脏跳动10次时间约为9.8<div class=\"quizPutTag\">s</div>．<br />（3）人步行的速度约为1.1<div class=\"quizPutTag\">m/s</div>．",
+          "Analyse": "不同物理量的估算，有的需要凭借生活经验，有的需要简单的计算，有的要进行单位的换算，最后判断最符合实际的是哪一个．",
+          "Method": "解：<br />（1）小明的身高在172cm；<br />（2）正常情况下，人的心脏每分钟跳动75次，跳动一次的时间接近1s，所以跳动10次的时间约为9.8s；<br />（3）人步行的速度大约1.1m/s．<br />故答案为：cm；s；m/s．",
+          "Discuss": "对于生活中数据的估测，应从实际的角度出发进行判断，也可从自己的角度出发判断，如自己的身高、自己的体重、自己正常时的体温及正常行走的速度等方面来与题目中的数据比较，只要相差不大，即该数据就是合理的．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2013秋•松山区校级期中）",
+          "LabelReportID": "6b4ba8b0-3be1-49b1-be2f-f9e31a211044",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "2S",
+              "Value": "物理量的单位及单位换算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "cm",
+            "s",
+            "m/s"
+          ],
+          "FavTime": 0,
+          "ViewCount": 218,
+          "DownCount": 10,
+          "RealCount": 9,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "20239c21-d48b-4afb-af27-eaf08ec7f4ca",
+          "Content": "单位换算：<br />（1）50m=<div class=\"quizPutTag\">0.05</div>km&nbsp;&nbsp;&nbsp;（2）108km/h=<div class=\"quizPutTag\">30</div>&nbsp;m/s<br />（3）20min=<div class=\"quizPutTag\">0.33</div>h&nbsp;&nbsp;（4）25m/s=<div class=\"quizPutTag\">90</div>km/h．",
+          "Analyse": "此题考查物理量不同单位间的换算，运用不同单位间的具体关系，利用数学上的运算就可解答．",
+          "Method": "解：<br />（1）因为1m=10<SUP>-3</SUP>km，所以50m=50×10<SUP>-3</SUP>km=0.05km；<br />（2）因为1km/h=$\\frac{1}{3.6}$m/s，所以108km/h=108×$\\frac{1}{3.6}$m/s=30m/s；<br />（3）因为1min=$\\frac{1}{60}$h，所以20min=20×$\\frac{1}{60}$≈0.33h；<br />（4）因为1m/s=3.6km/h，所以25m/s=25×3.6km/h=90km/h．<br />故答案为：（1）0.05；（2）30；（3）0.33；（4）90．",
+          "Discuss": "进行单位间的换算时，运用不同单位间的具体关系，利用数学上的运算即可；同时对某些物理量的单位的由来也要有明确的认识，可借助于物理公式去理解．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "2S",
+              "Value": "物理量的单位及单位换算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "32 ",
+              "Value": "定量思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "顺推法"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "0.05",
+            "30",
+            "0.33",
+            "90"
+          ],
+          "FavTime": 0,
+          "ViewCount": 71,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "04a986f8-c134-42b8-8cf0-4b7ab6e7ad19",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201209/51/c5b1b205.png\" style=\"vertical-align:middle;FLOAT:right\" />2011年11月14日，我国天宫一号飞行器与神舟八号飞船第二次交会对接试验获得成功（如图）．在此过程中有：倒飞、分离、对接三个关节点，其中分离的时候很容易产生两个目标的偏航、倾斜．因而，在分离前，要控制好两个目标器保持相对<div class=\"quizPutTag\">静止</div>．当神舟八号飞船撤离至140米后，在地面控制下，神舟八号再次向天宫一号缓缓靠近，30米，20米，10米…逐渐抵达天宫“身旁”的过程中，天宫一号相对神州八号是<div class=\"quizPutTag\">运动</div>的．（填“运动”或“静止”）",
+          "Analyse": "判断一个物体的运动和静止，首先确定一个参照物，被研究的物体和参照物之间发生了位置的改变，被研究的物体是运动的．否则是静止的．",
+          "Method": "解：天宫一号与神舟八号进行对接，必须控制好两个目标器保持相对是相对静止，才容易对接，所以两者在空中飞行的速度大小和方向必须相同，两者之间的相对位置不变，处于相对静止状态；<br />当神舟八号飞船再次向天宫一号缓缓靠近的过程中，天宫一号相对神州八号相对于神州八号的位置在发生变化，所以相对于神州八号是运动的．<br />故答案为：静止；运动．",
+          "Discuss": "在选定参照物时，被研究物体与参照物之间存在位移的变化，那么被研究物体就是运动的，反之则静止；要充分理解运动和静止的相对性．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2013•东湖区校级模拟）",
+          "LabelReportID": "83895b58-b34a-44c0-9946-cf2d50770338",
+          "Teacher": "wdn****2011老师",
+          "Points": [
+            {
+              "Key": "53",
+              "Value": "运动和静止的相对性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "572",
+              "Value": "运动和力"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "静止",
+            "运动"
+          ],
+          "FavTime": 0,
+          "ViewCount": 331,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "bdc29a23-b733-40b2-8e85-acaf72786881",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201504/75/c0cad804.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，晓雯在二胡演奏时，用弓拉动琴弦，使琴弦<div class=\"quizPutTag\">振动</div>而发声；表演中不断用手指控制琴弦长度，这样做的目的是为了改变声音的<div class=\"quizPutTag\">音调</div>。",
+          "Analyse": "①声音是物体振动产生的，一切发声体都在振动；<br />②声音的高低叫音调，音调与发声体的振动频率有关：频率越大，音调越高。",
+          "Method": "解：①晓雯在二胡演奏时，用弓拉动琴弦，使琴弦振动而发声；<br />②琴弦的长度不同，振动的频率不同，发出的音调也不同，表演中不断用手指控制琴弦长度，这样做的目的是为了改变声音的音调。<br />故答案为：振动；音调。",
+          "Discuss": "此题考查的是声音产生的条件和音调的影响因素，属于基础题。分析声音的物理特征时，注意音调与响度的区别。",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•临沂）",
+          "LabelReportID": "4b75cbe8-6130-46fe-b202-6563cbe21335",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "9D",
+              "Value": "频率及音调的关系"
+            },
+            {
+              "Key": "91",
+              "Value": "声音的产生"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "振动",
+            "音调"
+          ],
+          "FavTime": 6,
+          "ViewCount": 1586,
+          "DownCount": 13,
+          "RealCount": 75,
+          "PaperCount": 108,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "4d9f67d4-e631-4974-bfa0-8039165dd0d1",
+          "Content": "2011年北京时间9月8日8时15分，中国地震网通过接收到的<div class=\"quizPutTag\">次声波</div>（选填“超声波”或“次声波”）测定新疆乌恰县发生3.6级地震，这种声波人耳<div class=\"quizPutTag\">不能</div>（选填“能”或“不能”）听到．",
+          "Analyse": "要解答本题需掌握：次声波的产生，人们把低于20HZ的声音叫做次声波，它低于人类的听觉下限．",
+          "Method": "解：次声波一般是在地震、海啸、核爆炸等情况下产生，且人耳听不见次声波．人耳的听觉范围是20Hz～20000Hz，其中高于20000Hz的声波是超声波，低于20Hz的声波叫做次声波．<BR>故答案为：次声波；不能．",
+          "Discuss": "本题考查次声波，以及次声波的应用，地震时伴有次声波产生，它低于人类的听觉下限，它属于声波的一种．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2011秋•宣州区校级期中）",
+          "LabelReportID": "bba0e152-a184-4c1e-860c-cf34c5caeeb0",
+          "Teacher": "王富文老师",
+          "Points": [
+            {
+              "Key": "9E",
+              "Value": "超声波与次声波"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "次声波",
+            "不能"
+          ],
+          "FavTime": 0,
+          "ViewCount": 241,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 19,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 27,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "1685f6a0-c2e4-4a80-9a84-15775b038ed4",
+          "Content": "我市为创建“美丽泰安”做了大量的工作，控制噪声污染就是其中一项，我们用<div class=\"quizPutTag\">dB（分贝）</div>为单位来表示噪声的强弱等级．当人们感觉到室外的噪声过大时，习惯于关闭门窗，从声学角度讲，这是用<div class=\"quizPutTag\">传播过程中</div>方法减弱噪声．",
+          "Analyse": "①人们以分贝（dB）为单位来表示声音强弱的等级．0dB是人刚能听到的最微弱的声音；<br />②防治噪声污染可以从噪声的产生、噪声的传播及噪声的接收这三个环节进行防治．",
+          "Method": "解：声音的强弱通常用分贝来表示．<br />控制噪声有三种途径：阻止噪声产生，阻断噪声的传播和防止噪声进入耳朵．<br />当人们感觉室外的噪声过大时，习惯于关闭门窗，从声学角度讲，这是从传播过程中减弱噪声．<br />故答案为：dB（分贝）；传播过程中",
+          "Discuss": "本题主要考查学生对声音的强弱的表示方法和等级划分以及防治噪声的途径了解和掌握，是一道基础题．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2014秋•岱岳区期中）",
+          "LabelReportID": "d1e46c9b-0d1e-41e8-96cc-bf5de575395e",
+          "Teacher": "190****9360老师",
+          "Points": [
+            {
+              "Key": "9K",
+              "Value": "声音的等级和噪声的危害"
+            },
+            {
+              "Key": "9L",
+              "Value": "防治噪声的途径"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "声现象"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "dB（分贝）",
+            "传播过程中"
+          ],
+          "FavTime": 0,
+          "ViewCount": 649,
+          "DownCount": 10,
+          "RealCount": 6,
+          "PaperCount": 26,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 28,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "a865a55c-d8cc-40f7-bb55-044a66a5fc18",
+          "Content": "一个做匀速直线运动的物体，在5s内通过的路程是15m，它的速度是<div class=\"quizPutTag\">3</div>m/s，在30s内通过的路程是<div class=\"quizPutTag\">90</div>m．",
+          "Analyse": "做匀速直线运动的物体速度保持不变，已知路程与运动时间，由速度公式可以求出物体的运动速度；<br />已知速度与运动时间，由速度公式的变形公式可以求出物体的路程．",
+          "Method": "解：物体做匀速直线运动的速度：<br />v=$\\frac{s}{t}$=$\\frac{15m}{5s}$=3m/s；<br />由v=$\\frac{s}{t}$可得，30秒内通过的路程：<br />s′=vt′=3m/s×30s=90m．<br />故答案为：3；90．",
+          "Discuss": "本题考查了求速度与运动路程问题，熟练应用速度公式及其变形公式即可正确解题．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "210****9882老师",
+          "Points": [
+            {
+              "Key": "69",
+              "Value": "速度公式及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "31 ",
+              "Value": "定性思想"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "3",
+            "90"
+          ],
+          "FavTime": 0,
+          "ViewCount": 65,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 29,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、简答题（共4分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "a509e6e4-db1f-4af4-9a8c-aef0e211e205",
+          "Content": "小李领起水壶向暖水瓶中灌水，小张在一旁提醒他：“小李，快满了！”小李说：“你怎么知道的？”小张说：“听出来的．”小李迷惑不解，你知道小张是根据声音的哪个特性判断的吗？原因是什么？",
+          "Analyse": "解决此题的关键是知道瓶内响声是由于瓶里空气柱振动产生的，音调的高低与发声体振动快慢有关，物体振动越快，音调就越高",
+          "Method": "答：根据音调．原因是往暖水瓶中倒水时，瓶内的空气柱振动发声，随着水越来越多，空气柱越来越短，振动越来越快，频率越来越大，音调越来越高．",
+          "Discuss": "解决此类题目要结合频率及音调的关系进行分析解答．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2016秋•大石桥市月考）",
+          "LabelReportID": "79bc364b-40a4-48cf-bb4f-287ed3a6f719",
+          "Teacher": "wdlf老师",
+          "Points": [
+            {
+              "Key": "9D",
+              "Value": "频率及音调的关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 2,
+          "ViewCount": 107,
+          "DownCount": 2,
+          "RealCount": 2,
+          "PaperCount": 42,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 30,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "四、实验题（每空1分，共18分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "98b7b7b5-0b77-4675-8c15-beff58e6bfea",
+          "Content": "在学习演奏小提琴的过程中，小明和同学们发现弦乐器的琴弦发出声音的音调受很多因素的影响，他们决定对这种现象进行探究，经讨论后提出以下猜想：<br />猜想一：琴弦发出声音的音调可能与琴弦的材料有关；<br />猜想二：琴弦发出声音的音调可能与琴弦的长短有关；<br />猜想三：琴弦发出声音的音调可能与琴弦的横截面积有关．<br />为了验证以上猜想是否正确，他们找到了一些不同规格的琴弦，如下表：<br />\r\n<table class=\"edittable\">\r\n<TBODY>\r\n<TR>\r\n<td width=90>编号</TD>\r\n<td width=118>琴弦的材料</TD>\r\n<td width=141>琴弦的长度/cm</TD>\r\n<td width=187>琴弦的横截面积/mm<SUP>2</SUP></TD></TR>\r\n<TR>\r\n<td>①</TD>\r\n<td>钢</TD>\r\n<td>20</TD>\r\n<td>0.3</TD></TR>\r\n<TR>\r\n<td>②</TD>\r\n<td>钢</TD>\r\n<td></TD>\r\n<td></TD></TR>\r\n<TR>\r\n<td>③</TD>\r\n<td>钢</TD>\r\n<td>40</TD>\r\n<td>0.5</TD></TR>\r\n<TR>\r\n<td>④</TD>\r\n<td>尼龙丝</TD>\r\n<td>30</TD>\r\n<td>0.5</TD></TR>\r\n<TR>\r\n<td>⑤</TD>\r\n<td>尼龙丝</TD>\r\n<td>40</TD>\r\n<td>0.5</TD></TR></TBODY></TABLE>（1）为了验证猜想一，应选用编号为<div class=\"quizPutTag\">③</div>、<div class=\"quizPutTag\">⑤</div>的琴弦进行实验．<br />（2）为了验证猜想二，应选用编号为<div class=\"quizPutTag\">④</div>、<div class=\"quizPutTag\">⑤</div>的琴弦进行实验．<br />（3）为了验证猜想三，小明选用编号为<div class=\"quizPutTag\">①</div>、<div class=\"quizPutTag\">②</div>的琴弦进行实验，则表中缺少的数据应为<div class=\"quizPutTag\">20</div>，<div class=\"quizPutTag\">0.5</div>．",
+          "Analyse": "探究琴弦发出声音的音调高低与琴弦的材料的关系时，需控制琴弦的长度和横截面积不变．<br />探究琴弦发出声音的音调高低与琴弦的长短的关系时，控制琴弦的材料和横截面积不变．<br />探究琴弦发出声音的音调高低与琴弦的横截面积的关系时，控制琴弦的材料和长度不变．<br />根据控制变量法的要求，分析表中实验数据，然后答题．",
+          "Method": "解：（1）要验证猜想一：琴弦发出声音的音调可能与琴弦的材料有关，应该控制琴弦的长度和横截面积相同而琴弦的材料不同，由表中实验数据可知，应选编号为③⑤的琴弦进行实验；<br />（2）要验证猜想二：琴弦发出声音的音调可能与琴弦的长短有关，应该控制琴弦的材料和横截面积相同而琴弦的长度不同，由表中实验数据可知，应选编号为④⑤的琴弦进行实验；<br />（3）要验证猜想三：琴弦发出声音的音调可能与琴弦的横截面积有关，应控制琴弦的材料和长度相同而横截面积不同，由表中实验数据可知，应选编号为①②的琴弦进行实验，表中缺少的数据为：琴弦长度为20cm，琴弦横截面积为0.5mm<SUP>2</SUP>；<br />故答案为：（1）③⑤；（2）④⑤；（3）①②；20；0.5．",
+          "Discuss": "琴弦发出声音的音调受很多因素的影响，物理学中对于多因素的问题，常常采用控制变量的方法，把多因素的问题变成多个单因素的问题，每一次只改变其中的某一个因素，而控制其余几个因素不变，从而研究被改变的这个因素对事物影响，分别加以研究，最后再综合解决，这种方法叫控制变量法．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "pywl老师",
+          "Points": [
+            {
+              "Key": "9D",
+              "Value": "频率及音调的关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "③",
+            "⑤",
+            "④",
+            "⑤",
+            "①",
+            "②",
+            "20",
+            "0.5"
+          ],
+          "FavTime": 0,
+          "ViewCount": 334,
+          "DownCount": 11,
+          "RealCount": 3,
+          "PaperCount": 26,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 31,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "278f6e6b-d5aa-4329-8bfa-01c831836c3a",
+          "Content": "在课外实践活动中，用闪光照相机探究纸锥竖直下落的运动情况，照相机每隔0.2s曝光一次．<br />（1）小芳所在的兴趣小组拍下的照片如图1所示，由此可以判断纸锥下落的速度变化情况是<div class=\"quizPutTag\">先变大后不变</div>&nbsp;&nbsp;（填“不变”“先变大后不变”或“一直变大”）．若测得纸锥在A、C两位置间的实际距离为6.40cm，则AC过程中，纸锥的速度为<div class=\"quizPutTag\">0.16</div>m/s．<br />（2）小组间交流时，发现不同小组测得纸锥下落的最大速度不同．<br />①请你猜想影响最大速度的因素可能是<div class=\"quizPutTag\">纸锥的质量</div>；（写出一个影响因素）<br />②为了验证你的猜想，简要的做法是<div class=\"quizPutTag\">选择形状相同、质量不同的纸锥从同一高度竖直下落，分别测出它们的最大速度，并分析最大速度与质量的关系</div>．<br />（3）如图2所示，四个速度随时间的关系图象，能反映出该纸锥下落运动的是<div class=\"quizPutTag\">A</div>．（填图中的选项字母）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201510/164/856f465c.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）比较相同时间内通过的路程即可判断物体运动的快慢；直接利用速度公式计算．<br />（2）根据猜想判断可能的因素，利用控制变量法分析解答．<br />（3）匀速直线运动的v-t图象是一条平行于时间轴的直线，匀加速直线运动的v-t图象是一条向上倾斜的直线，减速直线运动的v-t图象是一条向下倾斜的直线，分析四个选项中的图象，找出与纸锥运动相符的图象．",
+          "Method": "解：（1）纸锥在相同的时间内通过的路程先变大，后不变，所以纸锥的运动速度先变大后不变．<br />在AC过程中，纸锥的速度为：v=$\\frac{s}{t}$=$\\frac{0.064m}{0.4s}$=0.16m/s．<br />（2）①纸锥在下落过程中受到重力与空气阻力的作用，所以纸锥下落的速度可能跟纸锥的质量有关（其他猜想只要合理也可以）．<br />②选择形状相同、质量不同的纸锥从同一高度竖直下落，分别测出它们的最大速度，并分析最大速度与质量的关系（其他对应的做法只要合理也可）．<br />（3）因为纸锥的下落速度是先变大后保持不变，因此只有A选项符合要求，故A正确．<br />故答案为：（1）先变大后不变； 0.16；<br />（2）①纸锥的质量（其他猜想只要合理也可以）；<br />②选择形状相同、质量不同的纸锥从同一高度竖直下落，分别测出它们的最大速度，并分析最大速度与质量的；<br />（3）A．",
+          "Discuss": "本题考查以下知识点：<br />（1）判断物体运动快慢的方法和速度大小的计算；（2）力与运动的关系；（3）物体速度时间图象的识图方法．关键是知道判断物体运动快慢的方法和力与图象的含义．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•静宁县校级期中）",
+          "LabelReportID": "d3bf6413-e9d7-4f03-a51b-9869d20c6aad",
+          "Teacher": "pydrx老师",
+          "Points": [
+            {
+              "Key": "68",
+              "Value": "速度与物体运动"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "先变大后不变",
+            "0.16",
+            "纸锥的质量",
+            "选择形状相同、质量不同的纸锥从同一高度竖直下落，分别测出它们的最大速度，并分析最大速度与质量的关系",
+            "A"
+          ],
+          "FavTime": 8,
+          "ViewCount": 677,
+          "DownCount": 8,
+          "RealCount": 6,
+          "PaperCount": 102,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 32,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "f390fa6e-bb2c-44e0-91ed-66186ad20e30",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201210/41/8e912d72.png\" style=\"vertical-align:middle;FLOAT:right;\" />小明在“测小车的平均速度”的实验中，设计了如图所示的实验装置：小车从带刻度的斜面顶端由静止下滑，图中的圆圈是小车到达A、B、C三处时电子表的显示（数字分别表示“小时：分：秒”）<BR>（1）该实验测小车平均速度的实验原理是：<div class=\"quizPutTag\">v=$\\frac{s}{t}$</div>．<BR>（2）实验中为了方便计时，应使斜面坡度较<div class=\"quizPutTag\">小</div>（填“大、小”）<BR>（3）小车通过全过程的平均速度v<SUB>AC</SUB>=<div class=\"quizPutTag\">0.24</div>m/s．若s<SUB>2</SUB>的路程正好是全部路程的一半，则小车通过上半段路程的平均速度v<SUB>AB</SUB>=<div class=\"quizPutTag\">0.2</div>m/s．<BR>（4）实验前必须学会熟练使用电子表，如果让小车过了A点才开始计时，则会使所测AC段的平均速度v<SUB>AC</SUB>偏<div class=\"quizPutTag\">大</div>（选填“大”或“小”）．",
+          "Analyse": "（1）公式v=$\\frac{s}{t}$既能用于匀速直线运动求速度，又能用于变速直线运动求平均速度．<BR>（2）若要计时方便，应使所用的时间长些．<BR>（3）由图读出小车通过全过程走的路程和所用的时间，利用速度公式求小车通过全过程的平均速度；再读出走s<SUB>2</SUB>的路程用的时间，利用速度公式求小车通过上半段路程的平均速度；<BR>（4）如果让小车过了A点后才开始计时，计时过晚，使所计时间偏小．",
+          "Method": "解：<BR>（1）该实验测小车平均速度的实验原理是v=$\\frac{s}{t}$．<BR>（2）斜面坡度越大，小车沿斜面向下加速运动越快，过某点的时间会越短，计时会越困难，所以为使计时方便，斜面坡度应较小．<BR>（3）由图知，小车通过全过程走的路程s<SUB>1</SUB>=120cm=1.2m，所用的时间t<SUB>1</SUB>=5s，<BR>v<SUB>AC</SUB>=$\\frac{{s}_{1}}{{t}_{1}}$=$\\frac{1.2m}{5s}$=0.24m/s；<BR>走s<SUB>2</SUB>的路程用的时间t<SUB>2</SUB>=3s，s<SUB>2</SUB>=$\\frac{1}{2}$s<SUB>1</SUB>=$\\frac{1}{2}$×120cm=60cm=0.6m，<BR>v<SUB>AB</SUB>=$\\frac{{s}_{2}}{{t}_{2}}$=$\\frac{0.6m}{3s}$=0.2m/s；<BR>（4）计时晚，所计时间偏小，用公式v=$\\frac{s}{t}$算出的速度偏大．<BR>故答案为：（1）v=$\\frac{s}{t}$；（2）小；（3）0.24；0.2；（4）大．",
+          "Discuss": "“测小车的平均速度”的实验，一定学会读出路程和时间，按平均速度的定义代入v=$\\frac{s}{t}$算出平均速度．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•太原校级月考）",
+          "LabelReportID": "f261a77d-793e-4364-9b55-0c7d0642765c",
+          "Teacher": "951****4352老师",
+          "Points": [
+            {
+              "Key": "6D",
+              "Value": "变速运动与平均速度"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5A4",
+              "Value": "测量型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "v=$\\frac{s}{t}$",
+            "小",
+            "0.24",
+            "0.2",
+            "大"
+          ],
+          "FavTime": 6,
+          "ViewCount": 900,
+          "DownCount": 14,
+          "RealCount": 3,
+          "PaperCount": 28,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 33,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "be3c8711-c5d0-44fc-8dd1-496b8492e442",
+          "Content": "小华学习了有关声音的知识后，对材料的隔音性能很感兴趣，于是他设计了如下实验进行探究，请阅读并回答下列问题．<br />实验步骤：<br />①先搜集各种材料，如衣服、报纸、平装书、塑料袋、袜子；<br />②把闹钟放到一个鞋盒里，将衣服盖在鞋盒上方，然后逐渐远离盒子直到听不见滴答声，记下此时人离盒子的距离；<br />③分别将各种材料盖在鞋盒上方，重复以上实验，得到下表的数据：<br />\r\n<table class=\"edittable\">\r\n<TBODY>\r\n<TR>\r\n<td width=108>材&nbsp;&nbsp;料</TD>\r\n<td width=69>衣服</TD>\r\n<td width=69>报纸</TD>\r\n<td width=69>平装书</TD>\r\n<td width=69>塑料袋</TD>\r\n<td width=69>袜子</TD></TR>\r\n<TR>\r\n<td>听不见滴答声的实际距离/m</TD>\r\n<td>2.1</TD>\r\n<td>2.8</TD>\r\n<td>3.7</TD>\r\n<td>5.2</TD>\r\n<td>1.2</TD></TR></TBODY></TABLE>回答问题：<br />（1）小华设计的实验利用了离声源越远，听到声音的响度越<div class=\"quizPutTag\">小</div>（选填“大”或“小”）的原理．<br />（2）根据小华所得数据可知粗糙的材料比平滑材料隔音性能<div class=\"quizPutTag\">好</div>（选填“好”或“差”），其原因是粗糙材料吸收声音的性能要比平滑材料<div class=\"quizPutTag\">强</div>（选填“强”或“弱”）．<br />（3）实验中他还应做到那些步骤能使结论更可靠？",
+          "Analyse": "此题运用了转化法的研究思想，将隔音性能的优劣转化为距离的远近；物理学中把人耳能感觉到的声音的强弱称为响度，与振幅和距离有关．",
+          "Method": "解：（1）小华设计的实验利用了离声源越远，听到声音的响度越小的原理．<br />（2）根据小华所得数据可知粗糙的材料比平滑材料隔音性能好，其原因是粗糙材料吸收声音的性能要比平滑材料强．<br />（3）控制盖在鞋盒上方材料的厚度、盖的方式相同等可以使实验结论更可靠．<br />故答案为：（1）小；（2）好；强；（3）控制盖在鞋盒上方材料的厚度、盖的方式相同等．",
+          "Discuss": "此题考查学生通过数据分析得出结论的能力，还考查运用结论处理具体问题的能力；结合响度知识以及影响响度的因素等知识可解答．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2016秋•霍邱县校级月考）",
+          "LabelReportID": "d923cda6-74a2-4bf3-bec1-fe30e6efa9a3",
+          "Teacher": "pywl老师",
+          "Points": [
+            {
+              "Key": "2P",
+              "Value": "控制变量法与探究性实验方案"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "小",
+            "好",
+            "强"
+          ],
+          "FavTime": 1,
+          "ViewCount": 515,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 34,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "五、计算应用题（共18分．本大题各小题要求写出必要的文字说明，解答步骤和公式，只写出最后答案的不能给分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "4bfd37ce-51b0-419f-ba4b-fd0aad7a01bb",
+          "Content": "匀速行驶在平直公路上的汽车，在6min内行驶了9km．<BR>（1）汽车匀速行驶的速度是多少？<BR>（2）汽车以此速度匀速行驶了30min，通过的路程是多少？若这段时间内汽车牵引力做功为9×10<SUP>7</SUP>J，则汽车的牵引力是多大？",
+          "Analyse": "（1）首先将时间6min化为国际制单位，6min=0.1h，根据汽车行驶的速度：v=$\\frac{s}{t}$，代入数值，解答出即可；<BR>（2）先由速度公式v=$\\frac{s}{t}$可得s=vt，求出路程s=vt=90km/h×0.5h=45km；再由F=$\\frac{W}{s}$，即可求出；",
+          "Method": "解：（1）汽车行驶的速度：v=$\\frac{s}{t}$=$\\frac{9km}{0.1h}$=90km/h．<BR>答：汽车匀速行驶的速度为90km/h．<BR>（2）由v=$\\frac{s}{t}$得，s=vt=90km/h×0.5h=45km；<BR>由W=Fs，得F=$\\frac{W}{s}$=$\\frac{9×{10}^{7}J}{45000m}$=2×10<SUP>3</SUP>N．<BR>答：汽车的牵引力是2×10<SUP>3</SUP>N．",
+          "Discuss": "本题考查了速度和功的计算，熟记公式是解答的基础，在解答过程中，要注意单位的统一．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2007•南宁）",
+          "LabelReportID": "dbaef398-377f-4944-9650-2429a1cb2d3a",
+          "Teacher": "xjb老师",
+          "Points": [
+            {
+              "Key": "6A",
+              "Value": "速度的计算"
+            },
+            {
+              "Key": "69",
+              "Value": "速度公式及其应用"
+            },
+            {
+              "Key": "EC",
+              "Value": "功的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 564,
+          "DownCount": 10,
+          "RealCount": 3,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 35,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "32ada5b2-9533-462e-ba7b-07b9a12a9463",
+          "Content": "一门反坦克炮瞄准一辆坦克，开炮后0.6s看到炮弹在坦克上爆炸，又经过1.5s听到爆炸声，求炮弹水平飞行速度大小？（附加题）",
+          "Analyse": "知道炮弹爆炸发出声音传到反坦克炮的时间和声音的传播速度，利用速度公式求反坦克炮与坦克之间的距离；知道坦克炮与坦克的距离和从开炮到炮弹击中目标的时间，利用速度公式求炮弹飞行的速度．",
+          "Method": "已知：炮弹飞行时间t′=0.6s，声音传播时间t=1.5s<br />求：炮弹飞行速度v′=？<br />解：∵v=$\\frac{s}{t}$<br />∴大炮距坦克的距离（即炮弹飞行的距离）：<br />s=vt=340m/s×1.5s=510m；&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />炮弹运行速度v'=$\\frac{s}{t′}$=$\\frac{510m}{0.6s}$=850m/s．<br />答：大炮距坦克714m，炮弹运行速度是850m/s．",
+          "Discuss": "本题考查了速度公式的应用，认真审题，确定从爆炸到听到爆炸声的时间、从开炮到炮弹击中目标的时间时本题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2011秋•庐江县校级期中）",
+          "LabelReportID": "51708069-6a78-484c-8bb8-b40b650d2802",
+          "Teacher": "东方星老师",
+          "Points": [
+            {
+              "Key": "6A",
+              "Value": "速度的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 352,
+          "DownCount": 10,
+          "RealCount": 3,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 36,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "e7eabb9c-87a2-4440-b031-f8e8950dabb3",
+          "Content": "一汽车以72km/h的速度向一山崖开进，途中鸣了一声笛，2秒钟后听到山崖传来回声，当司机听到回声时，汽车离山崖还有多远？（声速取340m/s）",
+          "Analyse": "如图，车在A处鸣笛，因为v<SUB>声</SUB>＞v<SUB>车</SUB>，所以声音从A→C→B，设声音的传播所用时间为t，在这个时间内，车由A→B，所用时间也为t，由图知2s<SUB>AC</SUB>=s<SUB>车</SUB>+s<SUB>声</SUB>，据此可求鸣笛时到山崖的距离，再减去汽车行驶的路程就是当司机听到回声时，汽车离山崖的距离．",
+          "Method": "解：v<SUB>车</SUB>=72km/h=20m/s，<br />设车由A→B，所用时间为t．<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201012/19/0a31054c.png\" style=\"vertical-align:middle;FLOAT:right;\" /><br />车行驶的路程s<SUB>AB</SUB>=v<SUB>车</SUB>t<br />由图知，2s<SUB>AC</SUB>=s<SUB>车</SUB>+s<SUB>声</SUB>，<br />2s<SUB>AC</SUB>=s<SUB>车</SUB>+s<SUB>声</SUB>=v<SUB>车</SUB>t+v<SUB>声</SUB>t=（v<SUB>车</SUB>+v<SUB>声</SUB>）t=（20m/s+340m/s）×2s<br />解得：<br />s<SUB>AC</SUB>=360m，<br />司机听到笛的回声时离山脚的距离：<br />s<SUB>BC</SUB>=s<SUB>AC</SUB>-v<SUB>车</SUB>t=360m-20m/s×2s=320m．<br />答：当司机听到回声时，汽车离山崖还有320m．",
+          "Discuss": "本题考查了速度公式及回声测距离的应用，解题的关键是弄清声音和汽车行驶的路程之和是鸣笛时汽车与山崖距离的2倍．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0ac6666b-5396-4714-b5bf-1977ae8756f9",
+          "Teacher": "210****9882老师",
+          "Points": [
+            {
+              "Key": "69",
+              "Value": "速度公式及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "4C ",
+              "Value": "方程法"
+            },
+            {
+              "Key": "571",
+              "Value": "长度、时间、速度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 1,
+          "ViewCount": 77,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 37,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.688
+}

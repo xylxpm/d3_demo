@@ -1,0 +1,1315 @@
+﻿{
+  "ID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+  "Title": "2016-2017学年山东省聊城市阳谷县九年级（上）期末化学试卷",
+  "Year": 2017,
+  "Times": 70,
+  "Score": 100,
+  "EditionID": 1,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 6,
+  "SourceName": "期末试题",
+  "RegionID": "1081502",
+  "RegionNames": [
+    "山东省",
+    "聊城市",
+    "阳谷县"
+  ],
+  "ViewCount": 45,
+  "Date": "2017-02-22T00:00:00",
+  "Subject": 22,
+  "EditionName": "人教版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "",
+  "Groups": [
+    {
+      "Key": "一、选择题（本题包括16小题，共40分．每小题只有一个选项符合题意．）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "dfbe46fd-86e0-4352-a185-7e37a0e6fc3d",
+          "Content": "下列变化不属于化学变化的是（　　）",
+          "Analyse": "化学变化是指有新物质生成的变化，物理变化是指没有新物质生成的变化，化学变化和物理变化的本质区别是否有新物质生成；据此分析判断．",
+          "Method": "解：A、煤气爆炸过程中有新物质生成，属于化学变化。<br />B、纸张燃烧过程中有新物质二氧化碳等生成，属于化学变化。<br />C、水果榨汁过程中没有新物质生成，属于物理变化。<br />D、菜刀生锈过程中有新物质铁锈生成，属于化学变化。<br />故选：C。",
+          "Discuss": "本题难度不大，解答时要分析变化过程中是否有新物质生成，若没有新物质生成属于物理变化，若有新物质生成属于化学变化．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "E3",
+              "Value": "化学变化和物理变化的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "512",
+              "Value": "物质的变化与性质"
+            }
+          ],
+          "Options": [
+            "煤气爆炸",
+            "纸张燃烧",
+            "水果榨汁",
+            "菜刀生锈"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 34,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "8e5a924e-54bc-4a85-806e-7389d355c4c3",
+          "Content": "我们熟悉的物质里属于纯净物的是（　　）",
+          "Analyse": "汽水、食醋、碘酒等物质都是由多种物质组成的，属于混合物；酒精是由一种物质组成的，属于纯净物．",
+          "Method": "解：A、汽水中含有水、碳酸等物质，属于混合物。不符合题意；<br />B、酒精是由一种物质组成的，属于纯净物。符合题意；<br />C、食醋中含有水和醋酸，属于混合物。不符合题意；<br />D、碘酒中含有碘和酒精，属于混合物。不符合题意；<br />故选：B。",
+          "Discuss": "本题主要考查物质的分类，解答时要分析物质的组成，如果只有一种物质组成就属于纯净物，如果有多种物质组成就属于混合物．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2011•聊城）",
+          "LabelReportID": "e88e3c80-b90b-4c7d-bf5f-2310709929ed",
+          "Teacher": "fqk老师",
+          "Points": [
+            {
+              "Key": "A5",
+              "Value": "纯净物和混合物的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "516",
+              "Value": "物质的分类"
+            }
+          ],
+          "Options": [
+            "汽水",
+            "酒精",
+            "食醋",
+            "碘酒"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 2,
+          "ViewCount": 394,
+          "DownCount": 10,
+          "RealCount": 7,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "bb05e6aa-30b6-4b93-a167-bf3e66982602",
+          "Content": "物质的性质决定其用途，下列有关物质用途正确的是（　　）",
+          "Analyse": "根据物质的性质分析物质的用途．",
+          "Method": "解：A、稀有气体用作电光源，错误；<br />B、活性炭有吸附性，用于冰箱除臭，正确；<br />C、烧碱是强碱，不能用于治疗胃酸过多，错误；<br />D、氧气用作火箭助燃剂，错误；<br />故选：B。",
+          "Discuss": "解答本题要掌握各种物质的性质方面的内容，只有这样才能确定物质的用途．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "6K",
+              "Value": "常见气体的用途"
+            },
+            {
+              "Key": "94",
+              "Value": "常见碱的特性和用途"
+            },
+            {
+              "Key": "C6",
+              "Value": "碳单质的物理性质及用途"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "144",
+              "Value": "物质的性质与用途"
+            }
+          ],
+          "Options": [
+            "氮气用作电光源",
+            "活性炭用于冰箱除臭",
+            "烧碱用于治疗胃酸过多",
+            "氧气用作火箭燃料"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 19,
+          "DownCount": 0,
+          "RealCount": 3,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "5ef38e6a-cc57-4bd7-a790-cd43d6daa75d",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201702/229/bda5d608.png\" style=\"vertical-align:middle;FLOAT:right;\" />在特殊条件下，水能表现出许多有趣的结构和性质．一定条件下给水施加一个弱电场，常温常压下水能结成冰，俗称“热冰”，如图为其模拟图．下列说法正确的是（　　）",
+          "Analyse": "根据水变成冰的过程考虑，发生物理变化时分子本身不变，所以原子个数也不变．",
+          "Method": "解：A、水结成冰由液态变为固态，固体是有序排列的，分子运动的范围比较小，液态的水分子运动的范围大呈无序状，故A说法错误；<br />B、上述变化过程中分子间间隔发生了变化，故B错误；<br />C、水结成冰由液态变为固态，固体是有序排列的，分子运动的范围比较小，液态的水分子运动的范围大呈无序状，故C说法错误；<br />D、根据题干中：一定条件下给水施加一个弱电场，常常压下水结成冰，俗称“热冰”，所以常温常压下“热冰”是固体。故D正确。<br />故选：D。",
+          "Discuss": "解答本题的关键是水由液态变为固态，在这一变化过程中分子本身不变，变化的是分子之间的间隔或距离．还需要结合固体、液体分子运动的特点考虑．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "BA",
+              "Value": "分子的定义与分子的特性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "“热冰”中的水分子是无规则的排列",
+            "水结成“热冰”的过程中，水分子间的间隔没有发生变化",
+            "在弱电场下，水分子的运动停止了",
+            "常温常压下“热冰”是固体"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 37,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "553a9d7d-d1fb-4fee-9d7d-96edff5b279d",
+          "Content": "加油站应张贴的标志是（　　）",
+          "Analyse": "根据图标所表示的含义来考虑，并结合加油站应注意的事项进行分析判断．",
+          "Method": "解：可燃性的气体与氧气或空气混合后点燃易发生爆炸，加油站内的空气中混有可燃的汽油蒸气，要防止引燃混合气体发生爆炸。<br />A、图中所示标志是腐蚀品标志，不适合在加油站使用，故选项错误。<br />B、图中所示标志是禁止烟火标志，适合在加油站使用，故选项正确。<br />C、图中所示标志是有毒品标志，不适合在加油站使用，故选项错误。<br />D、图中所示标志是腐蚀品标志，不适合在加油站使用，故选项错误。<br />故选：B。",
+          "Discuss": "本题难度不大，了解各个标签所代表的含义、加油站应注意事项是解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "xiaoxi老师",
+          "Points": [
+            {
+              "Key": "HH",
+              "Value": "几种常见的与化学有关的图标"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "213",
+              "Value": "化学与能源"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/46/a9d4b70b.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/46/3a250525.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/46/83091f8f.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/46/6004f54d.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 21,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "44c24e00-eca5-4e2e-8e31-1740334cbdb9",
+          "Content": "我国研制的闪烁晶体材料BixGe<SUB>3</SUB>O<SUB>12</SUB>，被应用于诺贝尔奖获得者丁肇中的著名实验中．其中铋（Bi）、锗（Ge）元素的化合价分别为+3、+4价，则x的值为（　　）",
+          "Analyse": "根据在化合物中正负化合价代数和为零，结合Bi<SUB>x</SUB>Ge<SUB>3</SUB>O<SUB>12</SUB>的化学式进行解答即可．",
+          "Method": "解：铋（Bi）、锗（Ge）元素的化合价分别为+3、+4价，氧元素显-2价，根据在化合物中正负化合价代数和为零，可得：（+3）×x+（+4）×3+（-2）×12=0，则x=4。<br/>故选：A。",
+          "Discuss": "本题难度不大，掌握利用化合价的原则（化合物中正负化合价代数和为零）计算化学式中指定数字的方法即可正确解答此类题．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "D6",
+              "Value": "有关元素化合价的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "191",
+              "Value": "化学式的计算"
+            }
+          ],
+          "Options": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 176,
+          "DownCount": 10,
+          "RealCount": 7,
+          "PaperCount": 22,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "d6e93d1e-4b8b-477a-af97-ecd8cca1bcd6",
+          "Content": "用嘴吹灭燃着的生日蜡烛，利用的主要灭火原理是（　　）",
+          "Analyse": "根据灭火的原理分析判断．灭火的原理：（只要消除燃烧条件的任意一个即可）①消除可燃物，②隔绝氧气（或空气），③降温到着火点以下．",
+          "Method": "解：A、吹灭蜡烛时没有隔绝空气。故错误；<br />B、物质的着火点是物质的属性，是固定不变的。故错误；<br />C、用嘴吹灭蜡烛，使然着的烛心温度降低到着火点以下，所以蜡烛熄灭。故正确。<br />D、用嘴吹灭蜡烛时，可燃物并没有消除。故错误；<br />故选：C。",
+          "Discuss": "应在熟知灭火原理的基础上，对生活中出现的现象进行规范的合理的解释．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "H4",
+              "Value": "灭火的原理和方法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "213",
+              "Value": "化学与能源"
+            }
+          ],
+          "Options": [
+            "隔绝空气",
+            "降低可燃物的着火点",
+            "使可燃物温度降到着火点以下",
+            "消除可燃物"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 51,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "b75b889f-d871-4e4f-9142-83fa62024c29",
+          "Content": "测得某些食品的近似pH如下所示，则下列说法正确的是（　　）<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=114>柠檬</TD><TD width=114>苹果</TD><TD width=114>西红柿</TD><TD width=114>牛奶</TD><TD width=114>玉米粥</TD></TR><TR><TD>2.3</TD><TD>3.1</TD><TD>4.2</TD><TD>6.5</TD><TD>7.6</TD></TR></TBODY></TABLE>",
+          "Analyse": "当溶液的pH等于7时，呈中性．当溶液的pH大于7时，呈碱性．当溶液的pH小于7时，呈酸性．同时要明确酸性溶液能使紫色石蕊试液变红色，碱性溶液能使无色酚酞试液变红色；胃酸内含有盐酸显强酸性，胃酸过多的病人要少食用酸性食品．",
+          "Method": "解：A、牛奶的pH小于7，显酸性；玉米粥的pH大于7，显碱性。错误；<br />B、西红柿的pH小于苹果的pH，所以西红柿的酸性比苹果弱。错误；<br />C、柠檬汁显酸性，不能使无色酚酞试液变红。错误；<br />D、因为苹果的pH小于7，显酸性，所以胃酸过多的人应少食苹果。正确。<br />故选：D。",
+          "Discuss": "解答本题要掌握溶液的pH与溶液酸碱性之间的关系方面的知识，只有这样才能对相关方面的问题做出正确的判断．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•莘县期末）",
+          "LabelReportID": "0faa3a6a-6ed2-4797-8292-e62d1439f80a",
+          "Teacher": "276****2328老师",
+          "Points": [
+            {
+              "Key": "99",
+              "Value": "溶液的酸碱性与pH值的关系"
+            },
+            {
+              "Key": "91",
+              "Value": "酸碱指示剂及其性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "525",
+              "Value": "常见的酸 酸的通性"
+            }
+          ],
+          "Options": [
+            "牛奶和玉米粥均属碱性食品",
+            "西红柿的酸性比苹果强",
+            "柠檬汁能使酚酞试液变红",
+            "胃酸过多的人应少食苹果"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 32,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "39617e27-72ea-4b8a-8b7d-72c5fa5c32b6",
+          "Content": "下列实验操作中正确的是（　　）",
+          "Analyse": "A、根据胶头滴管的使用方法进行分析判断；<br />B、根据过滤液体时，要注意“一贴、二低、三靠”的原则进行分析判断；<br />C、根据闻气体的气味时的方法进行分析判断；<br />D、根据 稀释浓硫酸的方法进行分析判断．",
+          "Method": "解：A、使用胶头滴管滴加少量液体时，注意胶头滴管不能伸入到试管内或接触试管内壁。应垂直悬空在试管口上方滴加液体，防止污染胶头滴管，图中所示操作错误；<br />B、过滤液体时，要注意“一贴、二低、三靠”的原则，图中缺少玻璃棒引流，图中所示操作错误；<br />C、闻气体的气味时，应用手在瓶口轻轻的扇动，使极少量的气体飘进鼻子中，不能将鼻子凑到集气瓶口去闻气体的气味，图中所示操作正确；<br />D、稀释浓硫酸时，要把浓硫酸缓缓地沿器壁注入水中，同时用玻璃棒不断搅拌，以使热量及时地扩散；一定不能把水注入浓硫酸中，图中所示操作错误。<br />故选：C。",
+          "Discuss": "本题难度不大，熟悉各种仪器的用途及使用注意事项、掌握常见化学实验基本操作的注意事项是解答此类试题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "49",
+              "Value": "液体药品的取用"
+            },
+            {
+              "Key": "4D",
+              "Value": "浓硫酸的性质及浓硫酸的稀释"
+            },
+            {
+              "Key": "4G",
+              "Value": "过滤的原理、方法及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "341",
+              "Value": "化学学习中的实验思想"
+            },
+            {
+              "Key": "531",
+              "Value": "常见仪器及化学实验基本操作"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/8/ada40c02.png\" style=\"vertical-align:middle\" /><br />取用少量液体",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/8/f577f548.png\" style=\"vertical-align:middle\" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;过滤",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/8/ad06db10.png\" style=\"vertical-align:middle\" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 闻气味",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/8/67a1c983.png\" style=\"vertical-align:middle\" /><br />&nbsp;&nbsp;&nbsp; 稀释浓硫酸"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 33,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "de8879ac-f9af-44a4-967f-fe7386d50722",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201504/46/27696e52.png\" style=\"vertical-align:middle;FLOAT:right;\" />根据如图提供的信息，下列判断正确的是（　　）",
+          "Analyse": "A、依据元素周期数与原子结构的特点分析即可；<br />B、依据钠离子的结构分析即可；<br />C、从二、三周期的原子结构分析即可；<br />D、依据镁的原子结构结合离子测写法分析解答即可．",
+          "Method": "解：A、由图示及所学可知元素所在的周期数等于其原子的电子层数，故说法错误；<br />B、钠原子核外由11个电子，其最外层是1个电子，钠离子是失掉该电子而带一个单位的正电荷微粒，此时核外共10个电子分为两层电子，故说法错误。<br />C、由图示可知第二、三周期元素的原子从左至右最外层电子数逐渐增多，故说法正确；<br />D、镁原子最外层有2个电子，在化学反应中易失掉这2个电子而变成带2个单位正电荷的镁离子，其符号为Mg<SUP>2+</SUP>，故说法错误。<br />故选：C。",
+          "Discuss": "本题考查学生对元素周期律知识的理解与掌握，并能在解题中灵活应用的能力，属基础性知识考查题．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2015•河南模拟）",
+          "LabelReportID": "c960efd6-4f12-473c-92cc-e4c598e98fbd",
+          "Teacher": "sdlbsh老师",
+          "Points": [
+            {
+              "Key": "C5",
+              "Value": "元素周期表的特点及其应用"
+            },
+            {
+              "Key": "B8",
+              "Value": "原子结构示意图与离子结构示意图"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "元素所在的周期数等于其原子的最外层电子数",
+            "钠离子核外有三个电子层",
+            "第二、三周期元素的原子从左至右最外层电子数逐渐增多",
+            "在化学变化中镁元素容易失去最外层2个电子形成镁离子，其离子符号是Mg<SUP>2-</SUP>"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 199,
+          "DownCount": 10,
+          "RealCount": 3,
+          "PaperCount": 44,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0cf0b463-d858-4bd4-9bf0-831ae332f039",
+          "Content": "对下列事实解释正确的是（　　）",
+          "Analyse": "A、根据点燃可燃性气体容易发生爆炸考虑；<br />B、空气被压缩是由于分子之间间隔变小；<br />C、浓硫酸具有吸水性；<br />D、根据电子得失情况进行分析．",
+          "Method": "解：A、点燃可燃性气体容易发生爆炸，在爆炸极限内就发生爆炸，点燃前要验纯，故A正确；<br />B、空气被压缩是由于分子之间间隔变小，不是分子体积变小，故B错；<br />C、浓硫酸具有吸水性，未发生化学变化，故C错；<br />D、钠原子最外层电子数比镁原子少，因此钠原子比镁原子更容易失去电子，故D错。<br />故选：A。",
+          "Discuss": "解答本题关键是指导发生物理变化时，分子本身不变，变化的是分子之间的间隔；点燃可燃性气体容易发生爆炸，在爆炸极限内就发生爆炸，点燃前要验纯．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "B9",
+              "Value": "利用分子与原子的性质分析和解决问题"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "点燃所有可燃性气体前都应先验纯--防止气体不纯点燃时爆炸",
+            "空气能被压缩--分子的体积变小",
+            "浓硫酸、氢氧化钠溶液露置在空气中质量都增加--都发生了变质",
+            "钠原子最外层电子数比镁原子少--钠原子比镁原子更容易得到电子"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 15,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "6ddf55ad-8874-4dfb-a392-7f320394c884",
+          "Content": "猕猴桃肉肥汁多，清香鲜美，甜酸宜人，含有丰富的维生素C（化学式为C<SUB>6</SUB>H<SUB>8</SUB>O<SUB>6</SUB>），可强化免疫系统，促进伤口愈合和对铁质的吸收．下列说法正确的是（　　）",
+          "Analyse": "A、相对分子质量单位是“1”，不是“克”，常常省略不写．<br />B、根据维生素C化学式的含义进行分析判断．<br />C、根据维生素C的微观构成进行分析判断．<br />D、根据化合物中各元素质量比=各原子的相对原子质量×原子个数之比，进行分析判断",
+          "Method": "解：A、相对分子质量单位是“1”，不是“克”，常常省略不写，故选项说法错误。<br />B、维生素C是由碳、氢、氧三种元素组成的，故选项说法正确。<br />C、维生素C是由维生素C分子构成的，1个维生素C分子是由6个碳原子、8个氢原子和6个氧原子构成的，故选项说法错误。<br />D、维生素C中碳元素、氢元素、氧元素的质量比为 （12×6）：（1×8）：（16×6）=9：1：12，故选项说法错误。<br />故选：B。",
+          "Discuss": "本题难度不大，考查同学们结合新信息、灵活运用化学式的含义与有关计算进行分析问题、解决问题的能力．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•东明县期末）",
+          "LabelReportID": "57f8696e-443b-41dd-817f-47f8224f4e7c",
+          "Teacher": "liuxia老师",
+          "Points": [
+            {
+              "Key": "D1",
+              "Value": "化学式的书写及意义"
+            },
+            {
+              "Key": "D8",
+              "Value": "相对分子质量的概念及其计算"
+            },
+            {
+              "Key": "D9",
+              "Value": "元素质量比的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "维生素C相对分子质量为176g",
+            "维生素C由碳、氢、氧三种元素组成",
+            "维生素C是由6个碳原子、8个氢原子和6个氧原子构成",
+            "维生素C中C、H、O三种元素质量比是3：4：3"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 30,
+          "DownCount": 1,
+          "RealCount": 3,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "01a25938-7190-4c19-854d-2531450a25be",
+          "Content": "某化学反应的微观过程如图，则下列说法中，不合理的是（　　）<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/28/703ab252.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "根据化学反应的微观过程、物质的微观构成及质量守恒定律，分析反应物、生成物，写出反应的方程式，据此分析有关的问题．",
+          "Method": "解：由化学反应的微观过程及物质的微观构成可知，反应物是乙炔和氧气；由质量守恒定律，生成物是二氧化碳和水，反应的方程式是：2C<SUB>2</SUB>H<SUB>2</SUB>+5O<SUB>2</SUB> $\\frac{\\underline{\\;点燃\\;}}{\\;}$4CO<SUB>2</SUB>+2H<SUB>2</SUB>O，由方程式可知：<br />A、该反应是乙炔和氧气发生了反应，不属于复分解反应。故A说法不合理；<br />B、由反应的方程式可知，甲、乙两物质参加反应的质量比为：[（12×2+1×2）×2]：（16×2×5）=13：40．故B说法合理；<br />C、物质丁的化学式是H<SUB>2</SUB>O．故C说法合理；<br />D、反应前氧元素的化合价是0价，反应后氧元素的化合价是-2价。反应前后氧元素的化合价发生了改变。故D说法合理。<br />故选：A。",
+          "Discuss": "本题在解答时，首先根据反应的微观示意图及物质的微观构成示意图，写出反应的方程式，再根据反应的方程式，进行分析判断比较简单．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "sdl****yhcl老师",
+          "Points": [
+            {
+              "Key": "B3",
+              "Value": "微粒观点及模型图的应用"
+            },
+            {
+              "Key": "FA",
+              "Value": "反应类型的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "132",
+              "Value": "化学反应模拟图型"
+            }
+          ],
+          "Options": [
+            "该反应属于复分解反应",
+            "甲、乙两物质参加反应的质量比为13：40",
+            "物质丁的化学式是H<SUB>2</SUB>O",
+            "反应前后氧元素的化合价发生了改变"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 34,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "26be8ad5-f050-4e1f-936f-40c8d89f6b0e",
+          "Content": "推理是学习化学的一种重要方法，下列推理中，正确的是（　　）",
+          "Analyse": "按照物质的性质、化学反应的现象进行分析解答，再通过举出反例的方法来验证观点是否正确．",
+          "Method": "解：碱溶液能使酚酞试液变红，能使酚酞试液变红的不一定是碱溶液，比如碳酸钠溶液能使酚酞试液变红，错误；<br />B、给水通直流电可以产生氢气和氧气，说明水是由氢元素和氧元素组成的，错误；<br />C、同种元素的原子质子数相同，但是质子数相同的微粒不一定属于同种元素，比如水分子和氖原子，错误；<br />D、氧化物由两种元素组成，其中一种元素为氧元素，所以水属于氧化物，正确；<br />故选：D。",
+          "Discuss": "本题考查的是对常见概念的推断，完成此题，可以依据已有的物质的性质进行分析解答．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "bsx老师",
+          "Points": [
+            {
+              "Key": "95",
+              "Value": "碱的化学性质"
+            },
+            {
+              "Key": "71",
+              "Value": "电解水实验"
+            },
+            {
+              "Key": "A3",
+              "Value": "从组成上识别氧化物"
+            },
+            {
+              "Key": "C1",
+              "Value": "元素的概念"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            },
+            {
+              "Key": "516",
+              "Value": "物质的分类"
+            },
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            },
+            {
+              "Key": "526",
+              "Value": "常见的碱 碱的通性"
+            }
+          ],
+          "Options": [
+            "碱溶液能使酚酞试液变红，则能使酚酞试液变红的一定是碱溶液",
+            "给水通直流电可以产生氢气和氧气，则水是由氢气和氧气组成的",
+            "同种元素的原子质子数相同，则质子数相同的微粒属于同种元素",
+            "氧化物由两种元素组成，其中一种元素为氧元素，所以水属于氧化物"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 30,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "2a79e3ab-1768-4370-ac91-7e49313391db",
+          "Content": "现有四瓶失去标签的无色溶液，只知道它们分别是盐酸、氢氧化钠、氯化钠和碳酸钠．各取少量于4支试管中，分别向试管中滴入紫色石蕊试液，先被鉴别出来的两种物质是（　　）",
+          "Analyse": "根据盐酸、氢氧化钠、氯化钠和碳酸钠四种溶液分别显酸性、碱性、中性、碱性，紫色石蕊溶液遇酸性溶液变红，遇碱性溶液变蓝，进行分析判断．",
+          "Method": "解：紫色石蕊溶液遇酸性溶液变红，遇碱性溶液变蓝，盐酸、氢氧化钠、氯化钠和碳酸钠四种溶液分别显酸性、碱性、中性、碱性，各取少量于4支试管中，分别向试管中滴入紫色石蕊试液，分别显示红色、紫色、蓝色、蓝色，则显红色的是盐酸，显紫色的是氯化钠溶液，显蓝色的是氢氧化钠和碳酸钠溶液，故先被鉴别出来的两种物质是盐酸和氯化钠。<br />故选：A。",
+          "Discuss": "本题有一定难度，在解决鉴别物质题时，判断的依据是：所选试剂需要与待鉴别的物质反应并出现明显不同的现象．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2014•槐荫区一模）",
+          "LabelReportID": "7aeb7b11-5711-4a84-970f-1dbdb9b27616",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "9U",
+              "Value": "酸、碱、盐的鉴别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "182",
+              "Value": "物质的鉴别题"
+            }
+          ],
+          "Options": [
+            "盐酸和氯化钠",
+            "盐酸和氢氧化钠",
+            "盐酸和碳酸钠",
+            "碳酸钠和氯化钠"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 3,
+          "ViewCount": 324,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 13,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "9888436e-7cc6-4e69-94c5-0ab6cf8f5c28",
+          "Content": "有关溶液的说法正确的是（　　）",
+          "Analyse": "A、根据溶液属于混合物考虑；<br />B、根据溶解度的影响因素：温度考虑；<br />C、根据饱和溶液的特点考虑；<br />D、溶液都是由溶质和溶剂组成的",
+          "Method": "解：A、溶液是均一、稳定的混合物，具有均一性、稳定性的液体不一定是混合物，故A错；<br />B、搅拌只能加快物质的溶解速度，不能改变溶解量，故B错；<br />C、饱和溶液只是对于某一溶质来说的，可以溶解其它溶质，故C错；<br />D、溶液都是由溶质和溶剂组成的，正确；<br />故选：D。",
+          "Discuss": "解答本题关键是要熟悉溶液是均一稳定的混合物，知道饱和溶液的定义，物质溶于水的过程．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "山清水秀老师",
+          "Points": [
+            {
+              "Key": "7C",
+              "Value": "溶液的概念、组成及其特点"
+            },
+            {
+              "Key": "7I",
+              "Value": "饱和溶液和不饱和溶液"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "515",
+              "Value": "溶液、浊液与溶解度"
+            }
+          ],
+          "Options": [
+            "具有均一性、稳定性的液体一定是溶液",
+            "配制溶液时，搅拌可以增大固体溶质的溶解量",
+            "饱和溶液就是不能再溶解任何物质的溶液",
+            "溶液都是由溶质和溶剂组成的"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 35,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（本题包括4个小题，共28分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "563fc078-fa44-4c4f-ad8f-a0421490989f",
+          "Content": "化学与生活息息相关，可以帮助人类认识、改造世界．<br />（1）为了全民健康，卫生部推广使用强化加铁酱油，这里的“铁”指的是<div class=\"quizPutTag\">元素</div>（填“单质”、“元素”、“原子”）．<br />（2）下列说法正确缺的是<div class=\"quizPutTag\">AC</div>（填序号）<br />A．煤、石油和天然气的主要成分都是碳氢化合物<br />B．石油的综合利用措施主要有石油的气化、焦化和液化<br />C．随着人类对能源的需求量日益增长，不可再生能源将面临枯竭的危险<br />D．人类利用的能量都是通过化学反应获得的<br />（3）我们常用洗洁精洗餐具上的油污，是因为清洁精具有<div class=\"quizPutTag\">乳化</div>作用．",
+          "Analyse": "（1）加铁酱油中的铁指的是铁元素．<br />（2）A．根据煤、石油和天然气的主要成分分析；<br />B．石油的综合利用方法有分馏和裂化；<br />C．根据能源的现状、能量的获取进行分析；<br />D．根据人类利用的能量来源进行分析．<br />（3）根据洗洁精具有乳化作用进行解答．",
+          "Method": "解：（1）卫生部推广使用强化加铁酱油．这里的“铁”指的是元素．故答案为：元素．<br />（2）A．煤炭的主要成分是碳，石油是各种烷烃、环烷烃、芳香烃的混合物，天然气的主要成分是甲烷都是碳氢化合物，故A正确；<br />B．煤的综合利用方法有气化、焦化和液化，石油的综合利用方法有分馏和裂化；故B错误；<br />C．随着人类对能源的需求量日益增长，不可再生能源将面临枯竭的危险，我们要节约能源，故C正确；<br />D．人类利用的能量不完全是通过化学反应获得的，比如水能、风能、地热能、海洋能等就不是通化学反应而获得的，故D错误；<br />故选：AC．<br />（3）洗洁精洗餐具上的油污，原理是在洗洁精的作用下，油污以极小的液滴均匀悬浮在另一种液体中形成乳浊液从而除去．其中的乳化剂所起的作用就叫乳化作用．<br />故答案为：（1）元素；（2）AC；（3）乳化．",
+          "Discuss": "化学与我们的生活息息相关，与生活相关的知识是中考考查的热点之一，灵活运用所学知识是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "H7",
+              "Value": "化石燃料及其综合利用"
+            },
+            {
+              "Key": "7H",
+              "Value": "乳化现象与乳化作用"
+            },
+            {
+              "Key": "C1",
+              "Value": "元素的概念"
+            },
+            {
+              "Key": "E5",
+              "Value": "物质发生化学变化时的能量变化"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "213",
+              "Value": "化学与能源"
+            },
+            {
+              "Key": "323",
+              "Value": "化学知识生活化"
+            },
+            {
+              "Key": "515",
+              "Value": "溶液、浊液与溶解度"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "元素",
+            "AC",
+            "乳化"
+          ],
+          "FavTime": 0,
+          "ViewCount": 33,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "3ecf357f-53f1-4675-8a2d-1d8369c1394b",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/57/281d33d5.png\" style=\"vertical-align:middle;FLOAT:right;\" />水对于我们的生产和生活都是非常重要的．<br />（1）如图所示电解水的实验中，试管2中收集到的气体是<div class=\"quizPutTag\">氧</div>气．<br />（2）下列净化水的方法中，能除去水中可溶性物质的是<div class=\"quizPutTag\">D</div>（填序号）<br />A．吸附&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B．沉淀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C．过滤&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D．蒸馏<br />（3）水是最常见的溶剂，将少量下列物质分别加入水中，不能形成溶液的是<div class=\"quizPutTag\">AD</div><br />A．面粉&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B．白糖&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C．味精&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D．植物油<br />（4）下列关于水的认识不正确的是<div class=\"quizPutTag\">AB</div><br />A．将活性炭放入硬水中使其软化&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B．经过自来水厂处理的水是纯水<br />C．过滤能除去天然水中固体杂质&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D．水通过“三态”变化实现在自然界中的循环．",
+          "Analyse": "（1）根据电解水的实验进行分析解答，与电源负极相连的试管中产生气体较多，是氢气；与电源正极相连的试管中产生气体较少，是氧气；且二者的体积比约为2：1．<br />（2）根据净化水操作的原理及在净化过程中所起到的作用；<br />（3）根据溶液的特征分析．<br />（4）<br />A、根据活性炭的性质分析．<br />B、根据经过自来水厂处理的水中含有可溶性物质解答；<br />C、根据过滤的原理解答；<br />D、根据水通过“三态”变化实现在自然界中的循环解答．",
+          "Method": "解：<br />（1）通电一段时间后，2试管中收集到的气体体积少，是氧气（或O<SUB>2</SUB>），1试管中产生气体较多，是氢气；通过该实验可以说明水是由氢元素和氧元素组成的．<br />（2）A、吸附只能与除去水中的异味等离，但不能除掉水中的不溶性杂质，故选项错误．<br />B、沉淀是通过静置使水中不溶性固体沉降在水的底部的方法，沉淀不能除去水中可溶性杂质，故选项错误．<br />C、过滤是把不溶于液体的固体与液体分离的一种方法，不能除去河水中可溶性杂质，故选项错误．<br />D、通过蒸馏可得到纯净的水，能将水与不溶性杂质、可溶性杂质分离，既能将水中的不溶性杂质除去，又能将水中的可溶性杂质除去，故选项正确．<br />（3）水是最常见的溶剂，由于面粉、植物油不溶于水，分别加入水中，不能形成溶液；白糖、味精溶于水能形成溶液．<br />（4）<br />A、活性炭可以吸附色素和异味，不会使硬水软化，故错误；<br />B、经过自来水厂处理的水中含有可溶性物质，数混合物，故错误；<br />C、过滤能除去天然水中固体杂质，故正确；<br />D、水通过“三态”变化实现在自然界中的循环，故正确．<br />故答案为：<br />（1）氧；<br />（2）D；<br />（3）AD；<br />（4）AB",
+          "Discuss": "本题难度不大，考查水的净化，了解净化水的操作方法、原理是正确解答本题的关键，水是人及一切生物生存所必须的，尽管地球上的总水量很大，但是淡水资源却很不充裕，其中可用的淡水量就更少，还不到总水量的1%，所以要保护水源．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "276****2328老师",
+          "Points": [
+            {
+              "Key": "71",
+              "Value": "电解水实验"
+            },
+            {
+              "Key": "75",
+              "Value": "水的净化"
+            },
+            {
+              "Key": "77",
+              "Value": "硬水与软水"
+            },
+            {
+              "Key": "7C",
+              "Value": "溶液的概念、组成及其特点"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "氧",
+            "D",
+            "AD",
+            "AB"
+          ],
+          "FavTime": 0,
+          "ViewCount": 16,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "d5ee608e-f34e-4706-8f98-65a4b1f33508",
+          "Content": "写出符合下列要求的物质（或主要成分）的化学式．<br />（1）二氧化碳溶于水生成的酸是<div class=\"quizPutTag\">H<SUB>2</SUB>CO<SUB>3</SUB></div>；<br />（2）常用于治疗胃酸过多的一种盐<div class=\"quizPutTag\">NaHCO<SUB>3</SUB></div>；<br />（3）常被称为“火碱”的物质是<div class=\"quizPutTag\">NaOH</div>；<br />（4）厨房中一种调味品是<div class=\"quizPutTag\">NaCl</div>．",
+          "Analyse": "首先根据题意确定物质的化学名称，然后根据书写化学式的方法和步骤写出物质的化学式即可．",
+          "Method": "解：（1）二氧化碳溶于水生成的酸是碳酸，其化学式为：H<SUB>2</SUB>CO<SUB>3</SUB>；<br />（2）碳酸氢钠是常用于治疗胃酸过多的一种盐，其化学式为：NaHCO<SUB>3</SUB>；<br />（3）氢氧化钠俗称火碱，其化学式为：NaOH；<br />（4）食盐是氯化钠的俗称，是厨房常用的一种调味品，其化学式为：NaCl；<br />故答案为：（1）H<SUB>2</SUB>CO<SUB>3</SUB>；（2）NaHCO<SUB>3</SUB>；（3）NaOH；（4）NaCl；",
+          "Discuss": "本题难度不大，熟练掌握常见物质的性质、用途、组成及化学式的书写是正确解答此类题的关键所在．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "liuxia老师",
+          "Points": [
+            {
+              "Key": "D1",
+              "Value": "化学式的书写及意义"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "H<SUB>2</SUB>CO<SUB>3</SUB>",
+            "NaHCO<SUB>3</SUB>",
+            "NaOH",
+            "NaCl"
+          ],
+          "FavTime": 0,
+          "ViewCount": 65,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "bd083e40-bd63-4b25-a6fa-5bffb9866d39",
+          "Content": "请根据下列表述回答问题：已知A、B、C、D均含有两种元素．固体A中加入液体B，能放出大量热．固体C中加入液体D，有气泡产生，爱气体能供呼吸，充分反应后过滤，只得到液体B和固体C．<br />（1）A跟B反应的生成物可用于改良酸性土壤或用于建筑材料等，则A的化学式为<div class=\"quizPutTag\">CaO</div>．<br />（2）C跟D发生反应的化学方程式为<div class=\"quizPutTag\">2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑</div>．<br />（3）C在上述化学反应中所起的作用是<div class=\"quizPutTag\">催化</div>．",
+          "Analyse": "根据题目中的信息“A、B、C、D均含有两种元素．固体A中加入液体B，能放出大量热．固体C中加入液体D，有气泡产生，充分反应后过滤，只得到液体B和固体C”，“A跟B反应的生成物可用于改良酸性土壤或用于建筑材料等”，则推测A为氧化钙，B为水；也可推测CD．",
+          "Method": "解：<br />根据题目中的信息“A、B、C、D均含有两种元素．固体A中加入液体B，能放出大量热．固体C中加入液体D，有气泡产生，气体能供呼吸，充分反应后过滤，只得到液体B和固体C”，“A跟B反应的生成物可用于改良酸性土壤或用于建筑材料等”，则推测A为氧化钙，B为水；也可推测C为二氧化锰，D为双氧水．故：<br />（1）A跟B反应的生成物可用于改良酸性土壤或用于建筑材料等，则A的化学式为 CaO．<br />（2）C跟D发生反应的化学方程式为 2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑；<br />（3）C在上述化学反应中所起的作用是催化作用．<br />故答案为：<br />（1）①CaO；②2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑；催化．",
+          "Discuss": "本考点属于物质的推断，是通过对实验方法和过程的探究，在比较鉴别的基础上，得出了正确的实验结论，本考点是中考的重要内容之一．",
+          "Degree": 0.60,
+          "CateID": 8,
+          "CateName": "推断题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "ls0906老师",
+          "Points": [
+            {
+              "Key": "AE",
+              "Value": "物质的鉴别、推断"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "112",
+              "Value": "常见物质的推断题"
+            },
+            {
+              "Key": "122",
+              "Value": "实验性简答题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "CaO",
+            "2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑",
+            "催化"
+          ],
+          "FavTime": 0,
+          "ViewCount": 47,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、实验探究题（本题包括2小题，共22分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "8d9c2b64-3032-4355-972a-c79933fea3e4",
+          "Content": "根据下列装置图，回答有关问题：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/21/2c7d2ba5.png\" style=\"vertical-align:middle\" /><br />（1）实验室制取CO<SUB>2</SUB>时，从分液漏斗中加入的试剂名称是<div class=\"quizPutTag\">稀盐酸</div>；不能用来收集CO<SUB>2</SUB>等装置是<div class=\"quizPutTag\">C或D</div>．<br />（2）如图E所示，向烧杯中倾倒二氧化碳，下层蜡烛先熄灭，上层蜡烛后熄灭，说明二氧化碳具有的物理性质是<div class=\"quizPutTag\">密度比空气的密度大</div>，因此，二氧化碳可用于<div class=\"quizPutTag\">灭火</div>．<br />（3）可以使用装置A制取氧气的原因是<div class=\"quizPutTag\">固液反应，不需要加热</div>．",
+          "Analyse": "制取装置包括加热和不需加热两种，实验室制取CO<SUB>2</SUB>，是在常温下，用大理石或石灰石和稀盐酸制取的，碳酸钙和盐酸互相交换成分生成氯化钙和水和二氧化碳，因此不需要加热．二氧化碳能溶于水，密度比空气的密度大，因此只能用向上排空气法收集．如图E所示，向烧杯中倾倒二氧化碳，下层蜡烛先熄灭，上层蜡烛后熄灭，说明二氧化碳具有的物理性质是：密度比空气的密度大；说明的化学性质是：二氧化碳既不能燃烧，也不能支持燃烧，因此，二氧化碳可用于灭火．可以使用装置A制取氧气的原因是：固液反应，不需要加热．",
+          "Method": "解：（1）实验室制取CO<SUB>2</SUB>，是在常温下，用大理石或石灰石和稀盐酸制取的，碳酸钙和盐酸互相交换成分生成氯化钙和水和二氧化碳，因此不需要加热；二氧化碳能溶于水，密度比空气的密度大，因此只能用向上排空气法收集；故答案为：稀盐酸；C或D；<br />（2）如图E所示，向烧杯中倾倒二氧化碳，下层蜡烛先熄灭，上层蜡烛后熄灭，说明二氧化碳具有的物理性质是：密度比空气的密度大；说明的化学性质是：二氧化碳既不能燃烧，也不能支持燃烧，因此，二氧化碳可用于灭火；故答案为：密度比空气的密度大；灭火；<br />（3）可以使用装置A制取氧气的原因是：固液反应，不需要加热；故答案为：固液反应，不需要加热；",
+          "Discuss": "本考点主要考查了气体的制取装置和收集装置的选择，同时也考查了气体的性质等，综合性比较强．气体的制取装置的选择与反应物的状态和反应的条件有关；气体的收集装置的选择与气体的密度和溶解性有关．本考点是中考的重要考点之一，主要出现在实验题中．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "吕 华老师",
+          "Points": [
+            {
+              "Key": "6L",
+              "Value": "二氧化碳的实验室制法"
+            },
+            {
+              "Key": "6P",
+              "Value": "二氧化碳的物理性质"
+            },
+            {
+              "Key": "6Q",
+              "Value": "二氧化碳的化学性质"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "534",
+              "Value": "常见气体的实验室制法、检验、干燥与净化"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "稀盐酸",
+            "C或D",
+            "密度比空气的密度大",
+            "灭火",
+            "固液反应，不需要加热"
+          ],
+          "FavTime": 0,
+          "ViewCount": 31,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "b4b8a908-3d2a-4c68-a6f9-c93e7f7a7cc8",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201703/34/0802a6c0.png\" style=\"vertical-align:middle;FLOAT:right;\" />下面是某化学兴趣小组同学学习氢氧化钠和稀盐酸反应时，进行多角度探究的实录：<br />（1）探究实验中的能量变化．<br />在盛有氢氧化钠溶液的烧杯中，插入一支温度计测量溶液的温度．用胶头滴管吸取4%的稀盐酸逐渐滴加入到氢氧化钠溶液中．在实验过程中，随着稀盐酸的不断滴入，溶液的温度逐渐升高，你认为溶液温度升高的原因是<div class=\"quizPutTag\">中和反应放热</div>；<br />（若向氢氧化钠固体中滴加稀盐酸，溶液的温度也逐渐升高，但不能证明氢氧化钠固体与稀盐酸发生了化学反应，你认为原因是<div class=\"quizPutTag\">氢氧化钠固体溶于水也放热</div>．<br />（2）探究反应过程中的酸碱度变化．<br />如图是氢氧化钠溶液和硫酸用滴加2方式反应时，溶液pH随滴入溶液体积变化的曲线．根据曲线图判断，该反应是将<div class=\"quizPutTag\">氢氧化钠溶液</div>（填“氢氧化钠溶液”或“盐酸”）滴入另一种更溶液中．当滴入溶液的体积为5mL时，若在此溶液中滴入石蕊试液，溶液显<div class=\"quizPutTag\">红</div>色．<br />（3）讨论关于实验中的细节和意外情况<br />实验过程中意外发现有气泡出现，你认为原因是<div class=\"quizPutTag\">CO<SUB>2</SUB>+2NaOH═Na<SUB>2</SUB>CO<SUB>3</SUB>+H<SUB>2</SUB>O；Na<SUB>2</SUB>CO<SUB>3</SUB>+2HCl═2NaCl+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑</div>（用化学方程式表示）．<br />（4）探究物质反应实质<br />从微观角度分析稀盐酸和NaOH溶液发生中和反应的实质是<div class=\"quizPutTag\">氢离子和氢氧根离子结合生成水</div>．",
+          "Analyse": "（1）中和反应释放热；<br />（2）当溶液的pH＜7时，溶液显酸性，当溶液的pH＞7时，溶液显碱性，当溶液的pH=7时，溶液显中性；根据盐酸和氢氧化钠的反应原理以及图象数据来回答．<br />（3）从氢氧化钠变质，生成的碳酸钠与硫酸反应生成二氧化碳气体考虑．<br />（4）根据中和反应的实质进行分析．",
+          "Method": "解：（1）由于中和反应是放热反应，所以会使溶液的温度升高；氢氧化钠固体溶于水也放热；故填：中和反应放热；氢氧化钠固体溶于水也放热；<br />（2）根据图象，在反应未进行时，溶液的pH=1，为强酸性溶液，所以该曲线反应是将氢氧化钠溶液滴入硫酸中；滴入氢氧化钠溶液的体积为5mL时，溶液仍为强酸性，若在此溶液中滴入石蕊试液，溶液显红色，故填：氢氧化钠溶液；红．<br />（3）如果氢氧化钠变质，生成的碳酸钠与硫酸反应生成二氧化碳气体，故填：CO<SUB>2</SUB>+2NaOH═Na<SUB>2</SUB>CO<SUB>3</SUB>+H<SUB>2</SUB>O；Na<SUB>2</SUB>CO<SUB>3</SUB>+2HCl═2NaCl+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑；<br />（4）从微观角度分析稀盐酸和NaOH溶液发生中和反应的实质是氢离子和氢氧根离子结合生成水．．故答案为：氢离子和氢氧根离子结合生成水．",
+          "Discuss": "酸碱中和反应结合图象知识来考查，难度较大，考查的知识面较广．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•阳谷县期末）",
+          "LabelReportID": "0b128eb2-20bc-471d-b49b-b81f6dc2aea7",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "97",
+              "Value": "中和反应及其应用"
+            },
+            {
+              "Key": "99",
+              "Value": "溶液的酸碱性与pH值的关系"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "537",
+              "Value": "科学探究"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "中和反应放热",
+            "氢氧化钠固体溶于水也放热",
+            "氢氧化钠溶液",
+            "红",
+            "CO<SUB>2</SUB>+2NaOH═Na<SUB>2</SUB>CO<SUB>3</SUB>+H<SUB>2</SUB>O；Na<SUB>2</SUB>CO<SUB>3</SUB>+2HCl═2NaCl+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑",
+            "氢离子和氢氧根离子结合生成水"
+          ],
+          "FavTime": 0,
+          "ViewCount": 53,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "四、计算题（本题包括1小题，共10分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "52b593ac-ac67-49ef-86de-3c41a3595314",
+          "Content": "某化学课外活动小组为了测定石灰石中碳酸钙的含量，把10g石灰石固体样品进行高温煅烧，发生反应的化学方程式为：CaCO<SUB>3</SUB>$\\frac{\\underline{\\;高温\\;}}{\\;}$CaO+CO<SUB>2</SUB>↑．完全反应后，冷却、称量，残留固体质量7.8g．计算：<BR>（假设杂质不参加反应）<BR>（1）固体质量减少了<div class=\"quizPutTag\">2.2</div>g，根据质量守恒定律，这是生成的<div class=\"quizPutTag\">二氧化碳（或CO<SUB>2</SUB>）</div>（填具体物质名称或化学式）的质量．<BR>（2）石灰石样品中碳酸钙的质量分数是多少？（要求写出计算过程）",
+          "Analyse": "根据质量守恒定律，固体质量的减少的质量即为生成的二氧化碳质量；据此根据反应的化学方程式列式计算出参加反应碳酸钙的质量，进而计算出石灰石样品中碳酸钙的质量分数．",
+          "Method": "解：（1）根据质量守恒定律，固体质量减少了10g-7.8g=2.2g，固体质量的减少的质量即为生成的二氧化碳质量．故答案为：2.2；二氧化碳（或CO<SUB>2</SUB>）．<BR>（2）设10g石灰石固体样品中含碳酸钙的质量为x，<BR>CaCO<SUB>3</SUB>$\\frac{\\underline{\\;高温\\;}}{\\;}$CaO+CO<SUB>2</SUB>↑<BR>100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44<BR>x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.2g<BR>$\\frac{100}{44}=\\frac{x}{2.2g}$&nbsp;&nbsp;&nbsp; x=5g<BR>石灰石样品中碳酸钙的质量分数是$\\frac{5g}{10g}×$100%=50%．<BR>答：石灰石样品中碳酸钙的质量分数是50%．",
+          "Discuss": "本题难度不大，掌握根据化学方程式的计算即可正确解答本题，根据质量守恒定律计算出二氧化碳的质量是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•柳州）",
+          "LabelReportID": "dfb023f0-228b-4495-9a08-278bd1e3b011",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "G6",
+              "Value": "根据化学反应方程式的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴实验题"
+            },
+            {
+              "Key": "193",
+              "Value": "有关化学方程式的计算"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "2.2",
+            "二氧化碳（或CO<SUB>2</SUB>）"
+          ],
+          "FavTime": 11,
+          "ViewCount": 1854,
+          "DownCount": 12,
+          "RealCount": 7,
+          "PaperCount": 61,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.6120001
+}
