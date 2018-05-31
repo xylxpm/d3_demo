@@ -1,0 +1,15 @@
+.quizPutTag {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.div {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.options {
+    margin: 20px 30px;
+}
+.MathJax{outline:0;}

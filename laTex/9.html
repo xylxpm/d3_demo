@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>化学2018.5.21</title>
+    <title>2016-2017学年山东省聊城市阳谷县九年级（上）期末 化学试卷</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" async
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <script type="text/javascript" async  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="stylesheet" href="css.css"/>
     <script type="text/x-mathjax-config">
 
@@ -38,20 +36,28 @@
                     for (var j = 0; j < data.Groups[i].Value.length; j++) {
 
                         var _word = DBC2SBC(data.Groups[i].Value[j].Content);
-                        if (data.Groups[i].Value[j].Cate != 1) {
+
+                        if (data.Groups[i].Value[j].CateID != 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word + '</div>';
 
-                        } else if (data.Groups[i].Value[j].Cate == 1) {
+                             _str += '<div style="margin-top:10px">分析：' + data.Groups[i].Value[j].Analyse  + '</div><br/><br/>';
+                              _str += '<div style="margin-top:10px">' + data.Groups[i].Value[j].Method  + '</div><br/><br/><br/>';
+
+                        } else if (data.Groups[i].Value[j].CateID == 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
 
+                            var sss= '';
 
                             for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
                                 var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
                                 _str += '<p class="options">' + k + '、' + _s + '</p>';
+                                 sss="正确答案 "+data.Groups[i].Value[j].Answers;
                             }
+                             _str += '<p>'+sss+'</p>'
                             _str += '</div>'
+
                         }
                     }
                 }

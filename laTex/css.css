@@ -7,9 +7,23 @@
 .div {
     font-size: 14px;
     padding: 20px 0;
+    line-height: 27px;
 }
 
 .options {
-    margin: 20px 30px;
+    margin: 5px 30px;
 }
+p{
+    margin: 0;
+}
+
+.edittable{
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+.edittable td{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
 .MathJax{outline:0;}

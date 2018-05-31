@@ -1,0 +1,1304 @@
+﻿{
+  "ID": "00c4f8a4-3428-4118-a558-a3c9646251b1",
+  "Title": "2015-2016学年山东省济南市长清实验中学八年级（上）期末数学试卷",
+  "Year": 2016,
+  "Times": 90,
+  "Score": 120,
+  "EditionID": 15,
+  "GradeID": 8,
+  "TermID": 1,
+  "SourceID": 6,
+  "SourceName": "期末试题",
+  "RegionID": "1080106",
+  "RegionNames": [
+    "山东省",
+    "济南市",
+    "长清区"
+  ],
+  "ViewCount": 617,
+  "Date": "2016-02-12T00:00:00",
+  "Subject": 20,
+  "EditionName": "北师大新版",
+  "GradeName": "八年级",
+  "TermName": "上学期",
+  "SchoolName": "长清实验中学",
+  "Groups": [
+    {
+      "Key": "一、选择题（共15题，每题3分，共45分．在每小题给出的四个选项中，只有一项是符合题目要求的．）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "02051922-9b16-494e-b6d0-ee85e46e94b0",
+          "Content": "下列实数中无理数是（　　）",
+          "Analyse": "直接根据无理数的定义对各选项进行逐一分析即可．",
+          "Method": "解：A、∵0是整数，∴0是有理数，故本选项错误；<br />B、∵π是无限不循环小数，∴π是无理数，故本选项正确；<br />C、∵$\\sqrt{4}$=2，2是整数，∴2是有理数，故本选项错误；<br />D、∵-$\\frac{22}{7}$是分数，∴-$\\frac{22}{7}$是有理数，故本选项错误．<br />故选：B．",
+          "Discuss": "此题主要考查了无理数的定义，注意带根号的要开不尽方才是无理数，无限不循环小数为无理数．如π，$\\sqrt{6}$，0.8080080008…（每两个8之间依次多1个0）等形式．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2012•封开县二模）",
+          "LabelReportID": "6ec72262-c475-47b2-832c-339481b409ba",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "26",
+              "Value": "无理数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "2C ",
+              "Value": "存在型"
+            }
+          ],
+          "Options": [
+            "0",
+            "π",
+            "$\\sqrt{4}$",
+            "-$\\frac{22}{7}$"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 584,
+          "DownCount": 10,
+          "RealCount": 9,
+          "PaperCount": 44,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "81148ea8-e6c1-4c8b-b77e-1b4fd2bc30b2",
+          "Content": "以下列各组数为三角形的边长，能构成直角三角形的是（　　）",
+          "Analyse": "求证是否为直角三角形，这里给出三边的长，只要验证两小边的平方和等于最长边的平方即可．",
+          "Method": "解：A、8<SUP>2</SUP>+12<SUP>2</SUP>≠17<SUP>2</SUP>，不能构成直角三角形，故选项错误；<br />B、1<SUP>2</SUP>+2<SUP>2</SUP>≠3<SUP>2</SUP>，不能构成直角三角形，故选项错误；<br />C、6<SUP>2</SUP>+8<SUP>2</SUP>=10<SUP>2</SUP>，能构成直角三角形，故选项正确；<br />D、5<SUP>2</SUP>+9<SUP>2</SUP>≠12<SUP>2</SUP>，不能构成直角三角形，故选项错误．<br />故选：C．",
+          "Discuss": "本题考查了勾股定理的逆定理，在应用勾股定理的逆定理时，应先认真分析所给边的大小关系，确定最大边后，再验证两条较小边的平方和与最大边的平方之间的关系，进而作出判断．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•长清区校级期末）",
+          "LabelReportID": "00c4f8a4-3428-4118-a558-a3c9646251b1",
+          "Teacher": "HJJ老师",
+          "Points": [
+            {
+              "Key": "KS",
+              "Value": "勾股定理的逆定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "8，12，17",
+            "1，2，3",
+            "6，8，10",
+            "5，12，9"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 121,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 42,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "4878de3f-1933-4b72-9717-aa7114d21763",
+          "Content": "在平面直角坐标系中，点P（-2，3）关于y轴的对称点在（　　）",
+          "Analyse": "点P（x，y）关于y轴的对称点是（-x，y），根据横纵坐标的符号即可判断所在象限．",
+          "Method": "解：点P（-2，3）关于y轴的对称点是：（2，3），在第一象限．<br />故选：D．",
+          "Discuss": "本题主要考查了点P（x，y）关于y轴的对称点是（-x，y），以及坐标系中点的坐标的符号．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•钦州期末）",
+          "LabelReportID": null,
+          "Teacher": "zhxl老师",
+          "Points": [
+            {
+              "Key": "P3",
+              "Value": "轴对称图形"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "第四象限",
+            "第三象限",
+            "第二象限",
+            "第一象限"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 1,
+          "ViewCount": 396,
+          "DownCount": 11,
+          "RealCount": 13,
+          "PaperCount": 41,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "25f3339d-14e3-44e2-a108-3c34e48ce9bb",
+          "Content": "等腰三角形一边长等于5，一边长等于9，则它的周长是（　　）",
+          "Analyse": "分腰长为5和腰长为9两种情况分别讨论，再利用三角形三边关系进行判断，可求得其周长．",
+          "Method": "解：当腰长为5时，则三角形的三边分别为5、5、9，满足三角形的三边关系，其周长为19；<br />当腰长为9时，则三角形的三边分别为9、9、5，满足三角形的三边关系，其周长为23；<br />综上可知三角形的周长为19或23，<br />故选：D．",
+          "Discuss": "本题主要考查等腰三角形的性质，掌握等腰三角形的两腰相等是解题的关键．注意利用三角形三边关系进行验证．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•鄂托克旗期末）",
+          "LabelReportID": null,
+          "Teacher": "Ldt老师",
+          "Points": [
+            {
+              "Key": "KH",
+              "Value": "等腰三角形的性质"
+            },
+            {
+              "Key": "K6",
+              "Value": "三角形三边关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "14",
+            "23",
+            "19",
+            "19或23"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 12,
+          "ViewCount": 762,
+          "DownCount": 46,
+          "RealCount": 13,
+          "PaperCount": 1267,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "5f32cdf5-9792-48c9-a670-55b6f4d6afe7",
+          "Content": "每年的4月23日是“世界读书日”．某中学为了了解八年级学生的读书情况，随机调查了50名学生的册数，统计数据如表所示：<br /><TABLE class=\"edittable\"><TBODY><TR><TD>册数</TD><TD>0</TD><TD>1</TD><TD>2</TD><TD>3</TD><TD>4</TD></TR><TR><TD>人数</TD><TD>3</TD><TD>13</TD><TD>16</TD><TD>17</TD><TD>1</TD></TR></TBODY></TABLE>则这50名学生读数册数的众数、中位数是（　　）",
+          "Analyse": "在这组样本数据中，3出现的次数最多，所以求出了众数，将这组样本数据按从小到大的顺序排列，其中处于中间的两个数都是2，从而求出中位数是2；",
+          "Method": "解：∵这组样本数据中，3出现了17次，出现的次数最多，<br />∴这组数据的众数是3．<br />∵将这组样本数据按从小到大的顺序排列，其中处于中间的两个数都是2，有$\\frac{2+2}{2}$=2，<br />∴这组数据的中位数为2；<br />故选：B．",
+          "Discuss": "本题考查的知识点有：用样本估计总体、众数以及中位数的知识，解题的关键是牢记概念及公式．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•阜新）",
+          "LabelReportID": "08c04e0d-4c83-4334-86aa-911182312bb9",
+          "Teacher": "caicl老师",
+          "Points": [
+            {
+              "Key": "W5",
+              "Value": "众数"
+            },
+            {
+              "Key": "W4",
+              "Value": "中位数"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "3，3",
+            "3，2",
+            "2，3",
+            "2，2"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 21,
+          "ViewCount": 1474,
+          "DownCount": 15,
+          "RealCount": 20,
+          "PaperCount": 67,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "4532edc5-ee65-4c71-9bc1-6c7636439bf5",
+          "Content": "一次函数y=kx+b，y随x增大而增大，且b＞0，则该函数的大致图象为（　　）",
+          "Analyse": "根据题意判断出函数的图象所经过的象限即可得出结论．",
+          "Method": "解：∵一次函数y=kx+b，y随x增大而增大，<br />∴k＞0，<br />∵b＞0，<br />∴此函数的图象经过一、二、三象限．<br />故选：B．",
+          "Discuss": "本题考查的是一次函数的图象与系数的关系，熟知一次函数y=kx+b（k≠0）中，k＞0，b＞0时，函数图象经过一、二、三象限是解答此题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•历城区期末）",
+          "LabelReportID": "85287c52-e9a4-4989-9f60-1cdc33262924",
+          "Teacher": "CJX老师",
+          "Points": [
+            {
+              "Key": "F7",
+              "Value": "一次函数图象与系数的关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/784a7b2b.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/95c008aa.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/fbb36684.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/15357486.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 7,
+          "ViewCount": 301,
+          "DownCount": 14,
+          "RealCount": 5,
+          "PaperCount": 201,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "9939ad0e-1aa1-4ca8-b35f-269dcb91c175",
+          "Content": "三角形内有一点到三角形三顶点的距离相等，则这点一定是三角形的（　　）",
+          "Analyse": "根据线段垂直平分线的性质：线段垂直平分线上任意一点，到线段两端点的距离相等可得答案．",
+          "Method": "解：三角形内有一点到三角形三顶点的距离相等，则这点一定是三角形的三边垂直平分线的交点，<br />故选：B．",
+          "Discuss": "此题主要考查了线段垂直平分线的性质，关键是掌握线段垂直平分线上任意一点，到线段两端点的距离相等．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•凉州区期末）",
+          "LabelReportID": "42544060-3975-4932-b382-e1b7514d6179",
+          "Teacher": "sd2011老师",
+          "Points": [
+            {
+              "Key": "KG",
+              "Value": "线段垂直平分线的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "三条中线的交点",
+            "三边垂直平分线的交点",
+            "三条高的交点",
+            "三条角平分线的交点"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 8,
+          "ViewCount": 1005,
+          "DownCount": 28,
+          "RealCount": 22,
+          "PaperCount": 552,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "13824fae-928c-4531-80f5-9c9428cfed1a",
+          "Content": "关于函数y=-2x+1，下列结论正确的是（　　）",
+          "Analyse": "根据一次函数的性质，依次分析选项可得答案．",
+          "Method": "解：根据一次函数的性质，依次分析可得，<br />A、x=-2时，y=-2×-2+1=5，故图象必经过（-2，5），故错误，<br />B、k＜0，则y随x的增大而减小，故错误，<br />C、k=-2＜0，b=1＞0，则图象经过第一、二、四象限，故错误，<br />D、当x＞$\\frac{1}{2}$时，y＜0，正确；<br />故选：D．",
+          "Discuss": "本题考查一次函数的性质，注意一次函数解析式的系数与图象的联系．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•五华县期末）",
+          "LabelReportID": "6ba07b47-1dce-4abf-842f-f2cd13903bb6",
+          "Teacher": "自由人老师",
+          "Points": [
+            {
+              "Key": "F5",
+              "Value": "一次函数的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "图象必经过（-2，1）",
+            "y随x的增大而增大",
+            "图象经过第一、二、三象限",
+            "当x＞$\\frac{1}{2}$时，y＜0"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 4,
+          "ViewCount": 635,
+          "DownCount": 25,
+          "RealCount": 15,
+          "PaperCount": 441,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "43eb3124-10c7-4ad9-8d02-39f891a65a67",
+          "Content": "下列图形中，已知∠1=∠2，则可得到AB∥CD的是（　　）",
+          "Analyse": "先确定两角之间的位置关系，再根据平行线的判定来确定是否平行，以及哪两条直线平行．",
+          "Method": "解：A、∠1和∠2的是对顶角，不能判断AB∥CD，此选项不正确；<br />B、∠1和∠2的对顶角是同位角，又相等，所以AB∥CD，此选项正确；<br />C、∠1和∠2的是内错角，又相等，故AC∥BD，不是AB∥CD，此选项错误；<br />D、∠1和∠2互为同旁内角，同旁内角相等两直线不平行，此选项错误．<br />故选：B．",
+          "Discuss": "本题考查了平行线的判定，解题的关键是熟练掌握3线8角之间的位置关系．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•五华县期末）",
+          "LabelReportID": "6ba07b47-1dce-4abf-842f-f2cd13903bb6",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "J9",
+              "Value": "平行线的判定"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/9ab5175c.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/5db29da8.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/8cf86383.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201402/2/9834bedf.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 12,
+          "ViewCount": 872,
+          "DownCount": 45,
+          "RealCount": 6,
+          "PaperCount": 1168,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "457ff2c3-9162-4ae4-b1e0-61331ced6d98",
+          "Content": "为筹备学校元旦联欢晚会，在准备工作中，班长对全班同学爱吃什么水果作了民意调查，再决定最终买哪种水果，下面的调查数据中，他最关注的是（　　）",
+          "Analyse": "一组数据中出现次数最多的一个数是这组数据的众数，班长最关心吃哪种水果的人最多，即这组数据的众数．",
+          "Method": "解：吃哪种水果的人最多，就决定最终买哪种水果，而一组数据中出现次数最多的一个数是这组数据的众数．<br />故选：D．",
+          "Discuss": "此题主要考查统计的有关知识，主要是众数的意义．反映数据集中程度的统计量有平均数、中位数、众数方差等，各有局限性，因此要对统计量进行合理的选择和恰当的运用．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2017•琼山区校级模拟）",
+          "LabelReportID": "0e9f44f7-f896-4bf9-a0ef-df77b9038b24",
+          "Teacher": "bjy老师",
+          "Points": [
+            {
+              "Key": "WA",
+              "Value": "统计量的选择"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "中位数",
+            "平均数",
+            "加权平均数",
+            "众数"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 979,
+          "DownCount": 18,
+          "RealCount": 21,
+          "PaperCount": 223,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "44138c02-1b93-424e-a18c-3093a9c84735",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201202/19/bac03d0a.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，以两条直线l<SUB>1</SUB>，l<SUB>2</SUB>的交点坐标为解的方程组是（　　）",
+          "Analyse": "两条直线的交点坐标应该是联立两个一次函数解析式所组方程组的解．因此本题需先根据两直线经过的点的坐标，用待定系数法求出两直线的解析式．然后联立两函数的解析式可得出所求的方程组．",
+          "Method": "解：直线l<SUB>1</SUB>经过（2，3）、（0，-1），易知其函数解析式为y=2x-1；<br />直线l<SUB>2</SUB>经过（2，3）、（0，1），易知其函数解析式为y=x+1；<br />因此以两条直线l<SUB>1</SUB>，l<SUB>2</SUB>的交点坐标为解的方程组是：$\\left\\{\\begin{array}{l}x-y=-1\\\\2x-y=1\\end{array}\\right.$．<br />故选：C．",
+          "Discuss": "本题主要考查了函数解析式与图象的关系，满足解析式的点就在函数的图象上，在函数的图象上的点，就一定满足函数解析式．函数图象交点坐标为两函数解析式组成的方程组的解．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2007•聊城）",
+          "LabelReportID": "55dd628d-4b05-4652-b88b-7f2bc424b475",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "FE",
+              "Value": "一次函数与二元一次方程（组）"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            }
+          ],
+          "Options": [
+            "$\\left\\{\\begin{array}{l}x-y=1\\\\2x-y=1\\end{array}\\right.$",
+            "$\\left\\{\\begin{array}{l}x-y=-1\\\\2x-y=-1\\end{array}\\right.$",
+            "$\\left\\{\\begin{array}{l}x-y=-1\\\\2x-y=1\\end{array}\\right.$",
+            "$\\left\\{\\begin{array}{l}x-y=1\\\\2x-y=-1\\end{array}\\right.$"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 22,
+          "ViewCount": 1643,
+          "DownCount": 35,
+          "RealCount": 57,
+          "PaperCount": 644,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "b7bb2228-36ea-4f62-bb15-69e92d4d4c89",
+          "Content": "若点A（a+1，b-2）在第二象限，则点B（-a，b+1）在（　　）",
+          "Analyse": "根据第二象限内的点的横坐标小于零，纵坐标大于零，可得关于a、b的不等式，再根据不等式的性质，可得B点的坐标符号．",
+          "Method": "解：由A（a+1，b-2）在第二象限，得<br />a+1＜0，b-2＞0．<br />解得a＜-1，b＞2．<br />由不等式的性质，得<br />-a＞1，b+1＞3，<br />点B（-a，b+1）在第一象限，<br />故选：A．",
+          "Discuss": "本题考查了点的坐标，利用第二象限内点的横坐标小于零，纵坐标大于零得出不等式，又利用不等式的性质得出B点的坐标符号是解题关键．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2015•威海）",
+          "LabelReportID": "0afe8afc-1abb-4108-b20c-700fed04bf94",
+          "Teacher": "230****0618老师",
+          "Points": [
+            {
+              "Key": "D1",
+              "Value": "点的坐标"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 84,
+          "ViewCount": 3634,
+          "DownCount": 126,
+          "RealCount": 65,
+          "PaperCount": 7597,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "33e04ad0-2c76-49e6-b93f-3c6e99aaada2",
+          "Content": "下列命题是真命题的是（　　）",
+          "Analyse": "根据平方根的定义对A进行判断；根据三角形全等的判定方法对B进行判断；根据算术平方根的定义对C进行判断；根据二元一次方程解的解得定义对D进行判断．",
+          "Method": "解：A、如果a<SUP>2</SUP>=b<SUP>2</SUP>，则a=b或a=-b，所以A选项为假命题；<br />B、两边和它们的夹角对应相等的两个三角形全等，所以B选项为假命题；<br />C、$\\sqrt{81}$=9，而9的算术平方根为3，所以C选项为假命题；<br />D、x=2，y=1是方程2x-y=3的解，所以D选项为真命题．<br />故选：D．",
+          "Discuss": "本题考查了命题与定理：判断一件事情的语句，叫做命题．许多命题都是由题设和结论两部分组成，题设是已知事项，结论是由已知事项推出的事项，一个命题可以写成“如果…那么…”形式．有些命题的正确性是用推理证实的，这样的真命题叫做定理．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•吉州区期末）",
+          "LabelReportID": null,
+          "Teacher": "gsls老师",
+          "Points": [
+            {
+              "Key": "O1",
+              "Value": "命题与定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "如果a<SUP>2</SUP>=b<SUP>2</SUP>，则a=b",
+            "两边一角对应相等的两个三角形全等",
+            "$\\sqrt{81}$的算术平方根是9",
+            "x=2，y=1是方程2x-y=3的解"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 1,
+          "ViewCount": 179,
+          "DownCount": 5,
+          "RealCount": 4,
+          "PaperCount": 64,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "d0a4ea72-52be-4e21-b672-a04c5f476b37",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201506/161/e0ec1185.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，在△ABC中，AB=AC，BD平分∠ABC交AC于点D，AE∥BD交CB的延长线于点E．若∠E=35°，则∠BAC的度数为（　　）",
+          "Analyse": "根据平行线的性质可得∠CBD的度数，根据角平分线的性质可得∠CBA的度数，根据等腰三角形的性质可得∠C的度数，根据三角形内角和定理可得∠BAC的度数．",
+          "Method": "解：∵AE∥BD，<br />∴∠CBD=∠E=35°，<br />∵BD平分∠ABC，<br />∴∠CBA=70°，<br />∵AB=AC，<br />∴∠C=∠CBA=70°，<br />∴∠BAC=180°-70°×2=40°．<br />故选：A．",
+          "Discuss": "考查了平行线的性质，角平分线的性质，等腰三角形的性质和三角形内角和定理．关键是得到∠C=∠CBA=70°．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2015•内江）",
+          "LabelReportID": "8be43413-e9cf-40c0-9b2a-c86c97074618",
+          "Teacher": "HJJ老师",
+          "Points": [
+            {
+              "Key": "KH",
+              "Value": "等腰三角形的性质"
+            },
+            {
+              "Key": "JA",
+              "Value": "平行线的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "40°",
+            "45°",
+            "60°",
+            "70°"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 63,
+          "ViewCount": 3291,
+          "DownCount": 87,
+          "RealCount": 92,
+          "PaperCount": 5987,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "dc2f4c4b-95e1-42f7-a504-1a934b342287",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201111/7/b16005e7.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，正方形ABCD的边长为4，P为正方形边上一动点，运动路线是A→D→C→B→A，设P点经过的路程为x，以点A、P、D为顶点的三角形的面积是y，则下列图象能大致反映y与x的函数关系的是（　　）",
+          "Analyse": "根据动点从点A出发，首先向点D运动，此时y不随x的增加而增大，当点P在DC上运动时，y随着x的增大而增大，当点P在CB上运动时，y不变，据此作出选择即可．",
+          "Method": "解：当点P由点A向点D运动，即0≤x≤4时，y的值为0；<br />当点P在DC上运动，即4＜x≤8时，y随着x的增大而增大；<br />当点P在CB上运动，即8＜x≤12时，y不变；<br />当点P在BA上运动，即12＜x≤16时，y随x的增大而减小．<br />故选：B．",
+          "Discuss": "本题考查了动点问题的函数图象，解决动点问题的函数图象问题关键是发现y随x的变化而变化的趋势．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2015•樊城区模拟）",
+          "LabelReportID": "f604e1e3-cf0c-46f2-94fd-f65dc7bdc71b",
+          "Teacher": "dbz1018老师",
+          "Points": [
+            {
+              "Key": "E7",
+              "Value": "动点问题的函数图象"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/148/d0461f96.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/148/9d3f4418.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/148/150bece9.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/148/d7dbbdfa.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 66,
+          "ViewCount": 1750,
+          "DownCount": 68,
+          "RealCount": 39,
+          "PaperCount": 810,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（共6题，每题3分，共18分．把答案填在题中的横线上．）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "7c2fe724-ce82-4968-8ca4-002904c8af1e",
+          "Content": "化简：$\\sqrt{8}×\\sqrt{2}$=<div class=\"quizPutTag\">4</div>．",
+          "Analyse": "根据二次根式的乘法 $\\sqrt{8}$×$\\sqrt{2}$=$\\sqrt{8×2}$，化简即可得解．",
+          "Method": "解：$\\sqrt{8}$×$\\sqrt{2}$=$\\sqrt{16}$=4．<br />故答案为：4．",
+          "Discuss": "本题考查二次根式的乘法：$\\sqrt{a}$×$\\sqrt{b}$=$\\sqrt{ab}$（a≥0，b≥0），注意结果要化为最简形式．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2011•台州模拟）",
+          "LabelReportID": "9e8fc0eb-a012-49f0-b64d-b676dc6924b4",
+          "Teacher": "HJJ老师",
+          "Points": [
+            {
+              "Key": "75",
+              "Value": "二次根式的乘除法"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "4"
+          ],
+          "FavTime": 0,
+          "ViewCount": 259,
+          "DownCount": 10,
+          "RealCount": 3,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "45d6f2df-8856-42bc-a0ba-865fa19779e4",
+          "Content": "已知a，b满足方程组$\\left\\{\\begin{array}{l}{2a-b=2}\\\\{a+2b=5}\\end{array}\\right.$，则3a+b的值为<div class=\"quizPutTag\">7</div>．",
+          "Analyse": "根据加减法，可得答案．",
+          "Method": "解：两式相加，得<br />3a+b=7，<br />故答案为：7．",
+          "Discuss": "本题考查了解二元一次方程组，利用等式的性质把两式相加是解题关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•市中区期末）",
+          "LabelReportID": "51456997-1d2a-42ff-8c48-14b25e14bc64",
+          "Teacher": "230****0618老师",
+          "Points": [
+            {
+              "Key": "98",
+              "Value": "解二元一次方程组"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "7"
+          ],
+          "FavTime": 3,
+          "ViewCount": 126,
+          "DownCount": 1,
+          "RealCount": 3,
+          "PaperCount": 96,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "d26c6685-ea03-41d9-9dfd-768ffc2d18fb",
+          "Content": "直线y=kx+1与y=2x-1平行，则y=kx+1的图象不经过<div class=\"quizPutTag\">四</div>象限．",
+          "Analyse": "根据两直线平行的问题得到k=2，然后根据一次函数与系数的关系判断直线y=2x+1所经过的象限，则可得到y=kx+1不经过的象限．",
+          "Method": "解：∵直线y=kx+1与y=2x-1平行，<br />∴k=2，<br />∴直线y=kx-1的解析式为y=2x+1，<br />∴直线y=2x+1经过第一、二、三象限，<br />∴y=kx+1不经过第四象限．<br />故答案为四．",
+          "Discuss": "本题考查了两条直线相交或平行问题：两条直线的交点坐标，就是由这两条直线相对应的一次函数表达式所组成的二元一次方程组的解；若两条直线是平行的关系，那么他们的自变量系数相同，即k值相同．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2017•和平区校级模拟）",
+          "LabelReportID": "a0fd8edb-202a-4061-a906-7d3d222cf368",
+          "Teacher": "守拙老师",
+          "Points": [
+            {
+              "Key": "FF",
+              "Value": "两条直线相交或平行问题"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "四"
+          ],
+          "FavTime": 2,
+          "ViewCount": 98,
+          "DownCount": 0,
+          "RealCount": 3,
+          "PaperCount": 81,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "56a7d291-423b-4632-8b24-c4e8c6ee7d17",
+          "Content": "直线经过A（0，2）和B（3，0）两点，那么这个一次函数关系式是<div class=\"quizPutTag\">y=-$\\frac{2}{3}$x+2</div>．",
+          "Analyse": "设直线y=kx+b，经过A（0，2）和B（3，0）两点，代入可求出函数关系式．",
+          "Method": "解：设直线为y=kx+b，<br />∵经过A（0，2）和B（3，0）两点，<br />∴$\\left\\{\\begin{array}{l}{b=2}\\\\{3k+b=0}\\end{array}\\right.$，<br />解得$\\left\\{\\begin{array}{l}{k=-\\frac{2}{3}}\\\\{b=2}\\end{array}\\right.$，<br />∴这个一次函数关系式是y=-$\\frac{2}{3}$x+2．<br />故答案为y=-$\\frac{2}{3}$x+2．",
+          "Discuss": "本题考查了待定系数法求一次函数解析式：先设出函数的一般形式，如求一次函数的解析式时，先设y=kx+b；将自变量x的值及与它对应的函数值y的值代入所设的解析式，得到关于待定系数的方程或方程组；解方程或方程组，求出待定系数的值，进而写出函数解析式．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2017•津南区校级模拟）",
+          "LabelReportID": "bee3a89c-7cc9-4464-9b44-264282c56eb1",
+          "Teacher": "守拙老师",
+          "Points": [
+            {
+              "Key": "FA",
+              "Value": "待定系数法求一次函数解析式"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "y=-$\\frac{2}{3}$x+2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 160,
+          "DownCount": 5,
+          "RealCount": 4,
+          "PaperCount": 464,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "cc3c1f30-b219-4d5e-84fe-49038394246b",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201406/112/e5e61c6c.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在Rt△ABC中，∠B=90°，AB=3，BC=4，将△ABC折叠，使点B恰好落在边AC上，与点B′重合，AE为折痕，则EB′=<div class=\"quizPutTag\">1.5</div>．",
+          "Analyse": "首先根据折叠可得BE=EB′，AB′=AB=3，然后设BE=EB′=x，则EC=4-x，在Rt△ABC中，由勾股定理求得AC的值，再在Rt△B′EC中，由勾股定理可得方程x<SUP>2</SUP>+2<SUP>2</SUP>=（4-x）<SUP>2</SUP>，再解方程即可算出答案．",
+          "Method": "解：根据折叠可得BE=EB′，AB′=AB=3，<br />设BE=EB′=x，则EC=4-x，<br />∵∠B=90°，AB=3，BC=4，<br />∴在Rt△ABC中，由勾股定理得，$AC=\\sqrt{A{B}^{2}+B{C}^{2}}=\\sqrt{{3}^{2}+{4}^{2}}=5$，<br />∴B′C=5-3=2，<br />在Rt△B′EC中，由勾股定理得，x<SUP>2</SUP>+2<SUP>2</SUP>=（4-x）<SUP>2</SUP>，<br />解得x=1.5，<br />故答案为：1.5．",
+          "Discuss": "此题主要考查了翻折变换，关键是分析清楚折叠以后哪些线段是相等的．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•宜宾）",
+          "LabelReportID": "d4995f0c-c2e3-4591-9318-45927481258e",
+          "Teacher": "wdz****zlhx老师",
+          "Points": [
+            {
+              "Key": "PB",
+              "Value": "翻折变换（折叠问题）"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "121",
+              "Value": "几何图形问题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "1.5"
+          ],
+          "FavTime": 54,
+          "ViewCount": 3875,
+          "DownCount": 32,
+          "RealCount": 48,
+          "PaperCount": 628,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "8a3d890b-3a99-410f-a3a8-dbab6f3de750",
+          "Content": "等腰三角形一腰上的高与另一腰的夹角为30°，腰长为6，则其底边长是<div class=\"quizPutTag\">6$\\sqrt{3}$或6</div>．",
+          "Analyse": "分①三角形是钝角三角形时，根据直角三角形30°角所对的直角边等于斜边的一半可得AD=$\\frac{1}{2}$AB，再根据等腰三角形两底角相等和三角形的一个外角等于与它不相邻的两个内角的和求出∠ABC=30°，然后根据含30°角的直角三角形的性质解答，②三角形是锐角三角形时，判断出△ABC是等边三角形，再根据等边三角形的性质解答．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201403/191/e0cae783.png\" style=\"vertical-align:middle;FLOAT:right\" />解：①三角形是钝角三角形时，如图1，<br />∵∠ABD=30°，<br />∴AD=$\\frac{1}{2}$AB=$\\frac{1}{2}$×6=3，BD=$\\frac{\\sqrt{3}}{2}$AB=3$\\sqrt{3}$，<br />∵AB=AC，<br />∴∠ABC=∠ACB=$\\frac{1}{2}$∠BAD=$\\frac{1}{2}$（90°-30°）=30°，<br />∴BC=2BD=6$\\sqrt{3}$；<br />②三角形是锐角三角形时，如图2，∵∠ABD=30°，<br />∴∠A=90°-30°=60°，<br />∴△ABC是等边三角形，<br />∴BC=AB=6，<br />综上所述，其底边长是6$\\sqrt{3}$或6．<br />故答案为：6$\\sqrt{3}$或6．",
+          "Discuss": "本题考查了直角三角形30°角所对的直角边等于斜边的一半的性质，等腰三角形的性质，难点在于分情况讨论，作出图形更形象直观．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•长清区校级期末）",
+          "LabelReportID": "00c4f8a4-3428-4118-a558-a3c9646251b1",
+          "Teacher": "WW888老师",
+          "Points": [
+            {
+              "Key": "KO",
+              "Value": "含30度角的直角三角形"
+            },
+            {
+              "Key": "KH",
+              "Value": "等腰三角形的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "6$\\sqrt{3}$或6"
+          ],
+          "FavTime": 4,
+          "ViewCount": 208,
+          "DownCount": 1,
+          "RealCount": 2,
+          "PaperCount": 45,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题（本大题共7题，共57分，解答应写出文字说明或演算步骤）．",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "33581934-c6fe-4027-a32a-7db13dab1669",
+          "Content": "（1）计算：（2-$\\sqrt{5}$）（2+$\\sqrt{5}$）+（2-$\\sqrt{2}$）<sup>2</sup>-$\\frac{1}{\\sqrt{2}}$<br />（2）解方程组：$\\left\\{\\begin{array}{l}{3x-y=7①}\\\\{5x+2y=8②}\\end{array}\\right.$．",
+          "Analyse": "（1）根据二次根式的乘法和乘方计算即可；<br />（2）根据二元一次方程组进行解答即可．",
+          "Method": "解：（1）（2-$\\sqrt{5}$）（2+$\\sqrt{5}$）+（2-$\\sqrt{2}$）<sup>2</sup>-$\\frac{1}{\\sqrt{2}}$<br />=4-5+4-4$\\sqrt{2}+2-\\frac{\\sqrt{2}}{2}$，<br />=5-$\\frac{9\\sqrt{2}}{2}$；<br />（2）$\\left\\{\\begin{array}{l}{3x-y=7①}\\\\{5x+2y=8②}\\end{array}\\right.$，<br />①×2+②得：11x=22<br />∴x=2<br />把x=2代入①得：6-y=7<br />∴y=-1&nbsp;&nbsp;&nbsp;<br />∴原方程组的解为$\\left\\{\\begin{array}{l}{x=2}\\\\{y=-1}\\end{array}\\right.$．",
+          "Discuss": "本题考查了二次根式的混合计算，关键是根据二次根式的计算法则解答．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•长清区校级期末）",
+          "LabelReportID": "00c4f8a4-3428-4118-a558-a3c9646251b1",
+          "Teacher": "198****3819老师",
+          "Points": [
+            {
+              "Key": "79",
+              "Value": "二次根式的混合运算"
+            },
+            {
+              "Key": "98",
+              "Value": "解二元一次方程组"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 1,
+          "ViewCount": 112,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 15,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 7.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "547c737b-bf1b-49b5-b3ef-3ddc02dbd66f",
+          "Content": "（1）如图1所示，已知直线BF∥DE，∠1=∠2，求证：GF∥BC．<br />（2）如图2，在△ABC中，AB=AC，∠A=40°，BD是∠ABC的平分线，求∠BDC的度数．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201602/30/38f2b688.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）由平行线的性质和已知条件得出∠FBC=∠1，即可得出结论；<br />（2）由等腰三角形的性质和三角形内角和定理求出∠ABC=∠C=70°，再由角平分线求出∠DBC，然后由三角形内角和定理即可得出结果．",
+          "Method": "（1）证明：∵BF∥DE，（已知）<br />∴∠2=∠FBC．（两直线平行，同位角相等）<br />∵∠2=∠1，（已知）<br />∴∠FBC=∠1．（等量代换）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />∴GF∥BC．（内错角相等，两直线平行）&nbsp;&nbsp;<br />（2）解：∵AB=AC，∠A=40°，<br />∴∠ABC=∠C=$\\frac{1}{2}$（180°-40°）=70°，<br />又BD是∠ABC的平分线，<br />∴∠DBC=$\\frac{1}{2}$∠ABC=35°，<br />∴∠BDC=180°-∠DBC-∠C=75°．",
+          "Discuss": "本题考查了平行线的判定与性质、等腰三角形的性质、三角形内角和定理；熟练掌握平行线的判定与性质，由等腰三角形的性质和三角形内角和定理求出∠ABC是解决问题（2）的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•长清区校级期末）",
+          "LabelReportID": "00c4f8a4-3428-4118-a558-a3c9646251b1",
+          "Teacher": "家有儿女老师",
+          "Points": [
+            {
+              "Key": "JB",
+              "Value": "平行线的判定与性质"
+            },
+            {
+              "Key": "KH",
+              "Value": "等腰三角形的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 154,
+          "DownCount": 4,
+          "RealCount": 1,
+          "PaperCount": 170,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 7.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "29a7dd2c-4adb-4690-bdef-6202c35bdaa0",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201306/73/7f6c0247.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在△ABC中，∠C=90°，AD平分∠CAB，交CB于点D，过点D作DE⊥AB于点E．<br />（1）求证：△ACD≌△AED；<br />（2）若∠B=30°，CD=1，求BD的长．",
+          "Analyse": "（1）根据角平分线性质求出CD=DE，根据HL定理求出另三角形全等即可；<br />（2）求出∠DEB=90°，DE=1，根据含30度角的直角三角形性质求出即可．",
+          "Method": "（1）证明：∵AD平分∠CAB，DE⊥AB，∠C=90°，<br />∴CD=ED，∠DEA=∠C=90°，<br />∵在Rt△ACD和Rt△AED中<br />$\\left\\{\\begin{array}{l}{AD=AD}\\\\{CD=DE}\\end{array}\\right.$<br />∴Rt△ACD≌Rt△AED（HL）；<br /><br />（2）解：∵DC=DE=1，DE⊥AB，<br />∴∠DEB=90°，<br />∵∠B=30°，<br />∴BD=2DE=2．",
+          "Discuss": "本题考查了全等三角形的判定，角平分线性质，含30度角的直角三角形性质的应用，注意：角平分线上的点到角两边的距离相等．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•温州）",
+          "LabelReportID": "dac677a3-47e3-4e0c-bc53-c9b3905d396c",
+          "Teacher": "zjx111老师",
+          "Points": [
+            {
+              "Key": "KD",
+              "Value": "全等三角形的判定与性质"
+            },
+            {
+              "Key": "KF",
+              "Value": "角平分线的性质"
+            },
+            {
+              "Key": "KO",
+              "Value": "含30度角的直角三角形"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 51,
+          "ViewCount": 5620,
+          "DownCount": 57,
+          "RealCount": 103,
+          "PaperCount": 738,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "6e824fe6-769b-4244-a927-f540b421b14f",
+          "Content": "夏季来临，天气逐渐炎热起来，某商店将某种碳酸饮料每瓶的价格上调了10%，将某种果汁饮料每瓶的价格下调了5%，已知调价前买这两种饮料各一瓶共花费7元，调价后买上述碳酸饮料3瓶和果汁饮料2瓶共花费17.5元，问这两种饮料在调价前每瓶各多少元？",
+          "Analyse": "先设这两种饮料在调价前每瓶各x元、y元，根据调价前买这两种饮料各一瓶共花费7元，调价后买上述碳酸饮料3瓶和果汁饮料2瓶共花费17.5元，列出方程组，求出解即可．",
+          "Method": "解：设这两种饮料在调价前每瓶各x元、y元，根据题意得：<br />$\\left\\{\\begin{array}{l}{x+y=7}\\\\{3(1+10%)x+2(1-5%)y=17.5}\\end{array}\\right.$，<br />解得：$\\left\\{\\begin{array}{l}{x=3}\\\\{y=4}\\end{array}\\right.$．<br />答：调价前这种碳酸饮料每瓶的价格为3元，这种果汁饮料每瓶的价格为4元．",
+          "Discuss": "此题考查了二元一次方程组的应用，解题的关键是读懂题意，找出之间的等量关系，列出方程再求解，利用二元一次方程组求解的应用题一般情况下题中要给出2个等量关系，准确的找到等量关系并用方程组表示出来是解题的关键．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•聊城）",
+          "LabelReportID": "e2eb2d2d-1461-466d-8b91-703f2da54bec",
+          "Teacher": "lantin老师",
+          "Points": [
+            {
+              "Key": "9A",
+              "Value": "二元一次方程组的应用"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 53,
+          "ViewCount": 17050,
+          "DownCount": 37,
+          "RealCount": 62,
+          "PaperCount": 672,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "6e0b45c4-b9cd-4887-94b4-1db69e69dac9",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201506/216/786ece81.png\" style=\"vertical-align:middle;FLOAT:right;\" />某游泳馆普通票价20元/张，暑假为了促销，新推出两种优惠卡：<br />①金卡售价600元/张，每次凭卡不再收费．<br />②银卡售价150元/张，每次凭卡另收10元．<br />暑假普通票正常出售，两种优惠卡仅限暑假使用，不限次数．设游泳x次时，所需总费用为y元<br />（1）分别写出选择银卡、普通票消费时，y与x之间的函数关系式；<br />（2）在同一坐标系中，若三种消费方式对应的函数图象如图所示，请求出点A、B、C的坐标；<br />（3）请根据函数图象，直接写出选择哪种消费方式更合算．",
+          "Analyse": "（1）根据银卡售价150元/张，每次凭卡另收10元，以及旅游馆普通票价20元/张，设游泳x次时，分别得出所需总费用为y元与x的关系式即可；<br />（2）利用函数交点坐标求法分别得出即可；<br />（3）利用（2）的点的坐标以及结合得出函数图象得出答案．",
+          "Method": "解：（1）由题意可得：银卡消费：y=10x+150，普通消费：y=20x；<br /><br />（2）由题意可得：当10x+150=20x，<br />解得：x=15，则y=300，<br />故B（15，300），<br />当y=10x+150，x=0时，y=150，故A（0，150），<br />当y=10x+150=600，<br />解得：x=45，则y=600，<br />故C（45，600）；<br /><br />（3）如图所示：由A，B，C的坐标可得：<br />当0＜x＜15时，普通消费更划算； <br />当x=15时，银卡、普通票的总费用相同，均比金卡合算；<br />当15＜x＜45时，银卡消费更划算；<br />当x=45时，金卡、银卡的总费用相同，均比普通票合算；<br />当x＞45时，金卡消费更划算．",
+          "Discuss": "此题主要考查了一次函数的应用，根据数形结合得出自变量的取值范围得出是解题关键．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2015•河南）",
+          "LabelReportID": "4f255dd9-4a16-4d2f-8ea3-7d6e5afd4f5c",
+          "Teacher": "sd2011老师",
+          "Points": [
+            {
+              "Key": "FH",
+              "Value": "一次函数的应用"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 214,
+          "ViewCount": 20551,
+          "DownCount": 274,
+          "RealCount": 68,
+          "PaperCount": 3891,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 9.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "89bb0147-825f-4f8e-ab8a-09be630f14a4",
+          "Content": "某校八年级学生开展踢毽子比赛活动，每班派5名学生参加，按团体总分多少排列名次，在规定时间内每人踢100个以上（含100）为优秀．下表是成绩最好的甲班和乙班5名学生的比赛数据（单位：个）：<br /><table class=\"edittable\"><TBODY><TR><td width=51></TD><td width=61>1号</TD><td width=75>2号</TD><td width=75>3号</TD><td width=90>4号</TD><td width=61>5号</TD><td width=75>总数</TD></TR><TR><td>甲班</TD><td>89</TD><td>100</TD><td>96</TD><td>118</TD><td>97</TD><td>500</TD></TR><TR><td>乙班</TD><td>100</TD><td>95</TD><td>110</TD><td>91</TD><td>104</TD><td>500</TD></TR></TBODY></TABLE>经统计发现两班总数相等．此时有学生建议，可以通过考察数据中的其他信息作为参考．请你回答下列问题：<br />（1）计算两班的优秀率．<br />（2）求两班比赛成绩的中位数．<br />（3）估计两班比赛数据的方差哪一个小？<br />（4）根据以上三条信息，你认为应该把冠军奖状发给哪一个班级？简述你的由．",
+          "Analyse": "（1）根据统计表得到甲班有2个优秀，乙班有3个优秀，然后根据百分比的意义求解；<br />（2）先把两组数据由小到大排列，然后根据中位数的定义求解；<br />（3）比较两组数据，得到甲班的成绩波动比乙班的波动大，根据方差的意义得到乙的方差小；<br />（4）根据优秀率、中位数和方差的意义比较两班的成绩．",
+          "Method": "解：（1）甲班的优秀率=$\\frac{2}{5}$=40%；乙班的优秀率=$\\frac{3}{5}$=60%；<br />（2）甲班的5名学生的比赛成绩由小到大排列为89，96，97，100，118，所以甲班的成绩的中位数为97；<br />乙班的5名学生的比赛成绩由小到大排列为91，95，100，104，110，所以乙班的成绩的中位数为100；<br />（3）由于甲班的成绩波动比乙班的波动大，所以可估计乙的方差小；<br />（4）因为乙班的优秀率比甲班大，乙班的中位数比甲班大，且乙班的方差比甲班小，所以乙班的成绩比甲班好，所以把冠军奖状发给乙班．",
+          "Discuss": "本题考查了方差：方差公式为s<SUP>2</SUP>=$\\frac{1}{n}$[（x<SUB>1</SUB>-x¯）<SUP>2</SUP>+（x<SUB>2</SUB>-x¯）<SUP>2</SUP>+…+（x<SUB>n</SUB>-x¯）<SUP>2</SUP>]；方差是反映一组数据的波动大小的一个量．方差越大，则平均值的离散程度越大，稳定性也越小；反之，则它与其平均值的离散程度越小，稳定性越好．也考查了中位数．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2015秋•郓城县期末）",
+          "LabelReportID": "98b10aa4-57ff-4118-9661-f6770f376a2f",
+          "Teacher": "gsls老师",
+          "Points": [
+            {
+              "Key": "W7",
+              "Value": "方差"
+            },
+            {
+              "Key": "VA",
+              "Value": "统计表"
+            },
+            {
+              "Key": "W4",
+              "Value": "中位数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 2,
+          "ViewCount": 753,
+          "DownCount": 16,
+          "RealCount": 11,
+          "PaperCount": 137,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 27,
+          "Score": 9.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "38aae089-231e-4dd0-950d-8a32786800cd",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201112/26/ffcfb92b.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，一次函数y=-$\\frac{3}{4}$x+3的图象与x轴和y轴分别交于点A和B，再将△AOB沿直线CD对折，使点A与点B重合、直线CD与x轴交于点C，与AB交于点D．<br />（1）点A的坐标为<div class=\"quizPutTag\">（4，0）</div>，点B的坐标为<div class=\"quizPutTag\">（0，3）</div>；<br />（2）求OC的长度；<br />（3）在x轴上有一点P，且△PAB是等腰三角形，不需计算过程，直接写出点P的坐标．",
+          "Analyse": "（1）令y=0求出x的值，再令x=0求出y的值即可求出A、B两点的坐标；<br />（2）OC=x，根据翻折变换的性质用x表示出BC的长，再根据勾股定理求解即可；<br />（3）根据x轴上点的坐标特点设出P点的坐标，再根据两点间的距离公式解答即可．",
+          "Method": "解：（1）令y=0，则x=4；令x=0，则y=3，<br />故点A的坐标为（4，0），点B的坐标为（0，3）．（每空1分）<br /><br />（2）设OC=x，则AC=CB=4-x，<br />∵∠BOA=90°，<br />∴OB<SUP>2</SUP>+OC<SUP>2</SUP>=CB<SUP>2</SUP>，<br />3<SUP>2</SUP>+x<SUP>2</SUP>=（4-x）<SUP>2</SUP>，（2分）<br />解得$x=\\frac{7}{8}$，<br />∴OC=$\\frac{7}{8}$．（3分）<br /><br />（3）设P点坐标为（x，0），<br />当PA=PB时，$\\sqrt{(x-4)^{2}}$=$\\sqrt{{x}^{2}+9}$，解得x=$\\frac{7}{8}$；<br />当PA=AB时，$\\sqrt{(x-4)^{2}}$=$\\sqrt{{4}^{2}+{3}^{2}}$，解得x=9或x=-1；<br />当PB=AB时，$\\sqrt{{x}^{2}+{3}^{2}}$=$\\sqrt{{4}^{2}+{3}^{2}}$，解得x=-4．<br />∴P点坐标为（$\\frac{7}{8}$，0），（-4，0），（-1，0），（9，0）．（2分）",
+          "Discuss": "此题比较复杂，考查的是坐标轴上点的坐标特点、勾股定理及两点间的距离公式，在解（2）时要注意分类讨论，不要漏解．",
+          "Degree": 0.40,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•牡丹区期末）",
+          "LabelReportID": null,
+          "Teacher": "CJX老师",
+          "Points": [
+            {
+              "Key": "FI",
+              "Value": "一次函数综合题"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "（4，0）",
+            "（0，3）"
+          ],
+          "FavTime": 56,
+          "ViewCount": 1858,
+          "DownCount": 70,
+          "RealCount": 13,
+          "PaperCount": 843,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 28,
+          "Score": 9.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.7016666
+}

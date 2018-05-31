@@ -2,156 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>latexit-demo</title>
+    <title>试卷解析实例</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <!--<script type="text/javascript" src="js/latexit.js"></script>-->
-    <script type="text/javascript" src="js/jquery.jslatex.packed.js"></script>
-    <style>
-        .quizPutTag {
-            border-bottom: 1px solid black;
-            display: inline-block;
-            width: 200px;
-        }
-
-        .div {
-            font-size: 14px;
-            padding: 20px 0;
-        }
-
-        .options {
-            margin: 20px 30px;
-        }
-
-        .latex img {
-            margin: 0 15px;
-        }
-    </style>
-    <script>
-        String.prototype.replaceAll = function (FindText, RepText) {
-            regExp = new RegExp(FindText, "g");
-            return this.replace(regExp, RepText);
-        }
-        $(function () {
-
-            var ssss = $(".latex").text();
-            var aa = ssss.replace(/\\\\/g, "\\").replace(/[$]/g, "");
-//            $(".latex").latex();
-//            return
-            function cutstr(text, start, end) {
-                var s = text.indexOf(start)
-                if (s > -1) {
-                    var text2 = text.substr(s);
-                    var s2 = text2.lastIndexOf(end);
-                    if (s2 > -1) {
-                        result = text2.substr(0, s2 + 1);
-                    } else {
-                        result = '';
-                    }
-                } else {
-                    result = '';
-                }
-                return result;
-            }
-
-
-            $.getJSON("res/1.json?r=" + Math.random(), function (data) {
-                var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
-
-                for (var i = 0; i < data.Groups.length; i++) {
-                    _str += '<p style="text-align: left;font-size: 18px; margin-bottom:40px">' + data.Groups[i].Key + '</p>';
-
-                    for (var j = 0; j < data.Groups[i].Value.length; j++) {
-
-                        var _word = DBC2SBC(data.Groups[i].Value[j].Content);
-                        console.log(_word);
-                        var _cont = cutstr(_word, '$', '$').replace(/\\\\/g, "\\").replace(/[$]/g, "");
-//                        var regExp = new RegExp('$', "g");
-//                        var _cont = _word.replaceAll(regExp, '<span class="latex">')
-//                         _cont.replaceAll(/$/ig, '</span>')
-
-
-                        console.log(_cont);
-
-                        if (data.Groups[i].Value[j].Cate != 1) {
-
-                          //_str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _cont + '</div>';
-
-                            if (_cont.length == 0) {
-                                _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word + '</div>';
-                            } else {
-                                var _sss = data.Groups[i].Value[j].Content.split('$');
-                                _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _sss[0] + '<span class="latex" lang="latex">' + _cont + '</span>' + _sss[2] + '</div>';
-                            }
-
-
-                        } else if (data.Groups[i].Value[j].Cate == 1) {
-break
-
-                            if (_cont.length == 0) {
-                                _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
-
-                            } else {
-                                var _sss = data.Groups[i].Value[j].Content.split('$');
-                                _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _sss[0] + '<span class="latex" lang="latex">' + _cont + '</span>' + _sss[2];
-                            }
-                            _str += '</div>'
-                            //break
-                            // console.log('选项');
-                            for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
-                                var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
-                                var _scont = cutstr(_s, '$', '$').replace(/\\\\/g, "\\").replace(/[$]/g, "")
-
-                                console.log(_scont);
-
-                                if (_scont.length == 0) {
-                                    _str += '<p class="options">' + k + '、' + _s + '</p>';
-                                } else {
-                                    _str += '<p class="options">' + k + '、<span class="latex " lang="latex">' + _scont + '</span></p>';
-                                }
-                            }
-                            _str += '</div>'
-                        }
-                    }
-                }
-
-//                $('body').html(_str);
-//                $('img').removeAttr('style')
-                $(".latex").latex();
-            })
-
-
-            function DBC2SBC(str) {
-                var result = "";
-                for (var i = 0; i < str.length; i++) {
-                    code = str.charCodeAt(i)
-                    if (code >= 65281 && code <= 65373) {
-                        var d = str.charCodeAt(i) - 65248;
-                        result += String.fromCharCode(d);
-                    }
-                    else if (code == 12288)//空格
-                    {
-                        var d = str.charCodeAt(i) - 12288 + 32;
-                        result += String.fromCharCode(d);
-                    }
-                    else {
-                        result += str.charAt(i);
-                    }
-                }
-                return result;
-            }
-        })
-
-
-    </script>
 </head>
 
-
 <body>
-<span class="latex">\left\{\begin{array}{l}{x=2+\frac{1}{2}t}\\{y=3+\frac{\sqrt{3}}{2}t}\end{array}\right.</span>
-<span class="latex">tan\frac{π}{8}</span>
-<br/><br/><br/>
-求同时满足下列两个条件的所有复数z：<br />①z+<span class="latex">\frac{10}{z}</span>是实数，且1＜z+<span class="latex">\frac{10}{z}</span>≤6；<br />②z的实部和虚部都是整数．
+<p>试卷解析实例</p><br/><br/>
+<a href="9.html">2016-2017学年山东省聊城市阳谷县九年级（上）期末 化学试卷</a><br/><br/>
+<a href="10.html">2017年山东省高考 数学试卷（理科）</a><br/><br/>
+<a href="11.html">2015-2016学年广西南宁四十七中八年级（上）第一次月考 物理试卷</a><br/><br/>
+<a href="12.html">2015-2016学年山东省济南市长清实验中学八年级（上）期末 数学试卷</a>
 
 </body>
-
 </html>

@@ -1,0 +1,1188 @@
+﻿{
+  "ID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+  "Title": "2017年山东省高考数学试卷（理科）",
+  "ViewCount": 3125,
+  "DownCount": 328,
+  "FavoriteCount": 44,
+  "Subject": 30,
+  "RegionName": "山东",
+  "Year": 2017,
+  "SourceName": "高考真题",
+  "GradeName": null,
+  "TermName": null,
+  "EditionName": null,
+  "SchoolName": null,
+  "Score": 150,
+  "Degree": 0.6106667,
+  "Times": 120,
+  "Groups": [
+    {
+      "Key": "一、选择题：本大题共10小题，每小题5分，共50分，在每小题给出的四个选项中，只有一项是符号题目要求的.",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "4c039225-094e-45b1-a06d-0ae79fb7e899",
+          "Content": "设函数y=$\\sqrt{4-{x}^{2}}$的定义域为A，函数y=ln（1-x）的定义域为B，则A∩B=（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "1E",
+              "Value": "交集及其运算"
+            },
+            {
+              "Key": "33",
+              "Value": "函数的定义域及其求法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "37 ",
+              "Value": "集合思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            },
+            {
+              "Key": "5J ",
+              "Value": "集合"
+            }
+          ],
+          "Options": [
+            "（1，2）",
+            "（1，2]",
+            "（-2，1）",
+            "[-2，1）"
+          ],
+          "FavTime": 13,
+          "ViewCount": 373,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 136,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "7bfbd3e1-1d71-4559-ac62-28272671a996",
+          "Content": "已知a∈R，i是虚数单位，若z=a+$\\sqrt{3}$i，z•$\\overline{z}$=4，则a=（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "A5",
+              "Value": "复数代数形式的乘除运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "5N ",
+              "Value": "数系的扩充和复数"
+            }
+          ],
+          "Options": [
+            "1或-1",
+            "$\\sqrt{7}$或-$\\sqrt{7}$",
+            "-$\\sqrt{3}$",
+            "$\\sqrt{3}$"
+          ],
+          "FavTime": 6,
+          "ViewCount": 118,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 72,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "88d6ef5c-6857-4754-96d3-fcb92589f6a1",
+          "Content": "已知命题p：∀x＞0，ln（x+1）＞0；命题q：若a＞b，则a<SUP>2</SUP>＞b<SUP>2</SUP>，下列命题为真命题的是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "2E",
+              "Value": "复合命题的真假"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "5L ",
+              "Value": "简易逻辑"
+            }
+          ],
+          "Options": [
+            "p∧q",
+            "p∧￢q",
+            "￢p∧q",
+            "￢p∧￢q"
+          ],
+          "FavTime": 4,
+          "ViewCount": 130,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 64,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "d916a7d0-eaf1-4a2e-a89a-282d42e4061a",
+          "Content": "已知x，y满足约束条件$\\left\\{\\begin{array}{l}{x-y+3≤0}\\\\{3x+y+5≤0}\\\\{x+3≥0}\\end{array}\\right.$，则z=x+2y的最大值是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "7C",
+              "Value": "简单线性规划"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            },
+            {
+              "Key": "44 ",
+              "Value": "数形结合法"
+            },
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [
+            "0",
+            "2",
+            "5",
+            "6"
+          ],
+          "FavTime": 2,
+          "ViewCount": 142,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 37,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2a026cec-160a-4652-8a1d-6c78b8808816",
+          "Content": "为了研究某班学生的脚长x（单位：厘米）和身高y（单位：厘米）的关系，从该班随机抽取10名学生，根据测量数据的散点图可以看出y与x之间有线性相关关系，设其回归直线方程为$\\widehat{y}$=$\\widehat{b}$x+$\\widehat{a}$，已知$\\sum_{i=1}^{10}$x<SUB>i</SUB>=225，$\\sum_{i=1}^{10}$y<SUB>i</SUB>=1600，$\\widehat{b}$=4，该班某学生的脚长为24，据此估计其身高为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "BK",
+              "Value": "线性回归方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [
+            "160",
+            "163",
+            "166",
+            "170"
+          ],
+          "FavTime": 7,
+          "ViewCount": 219,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 99,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "a846222e-bbb4-483a-a931-49814b85a339",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201706/74/8f407980.png\" style=\"vertical-align:middle;FLOAT:right;\" />执行两次如图所示的程序框图，若第一次输入的x值为7，第二次输入的x值为9，则第一次，第二次输出的a值分别为（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "EF",
+              "Value": "程序框图"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "28 ",
+              "Value": "操作型"
+            },
+            {
+              "Key": "5K ",
+              "Value": "算法和程序框图"
+            }
+          ],
+          "Options": [
+            "0，0",
+            "1，1",
+            "0，1",
+            "1，0"
+          ],
+          "FavTime": 5,
+          "ViewCount": 96,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 30,
+          "Answers": [
+            "3"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "3de5c47a-42e9-4d64-9df6-6ef23d9fb2b2",
+          "Content": "若a＞b＞0，且ab=1，则下列不等式成立的是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "72",
+              "Value": "不等式比较大小"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            },
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [
+            "a+$\\frac{1}{b}$＜$\\frac{b}{{2}^{a}}$＜log<SUB>2</SUB>（a+b））",
+            "$\\frac{b}{{2}^{a}}$＜log<SUB>2</SUB>（a+b）＜a+$\\frac{1}{b}$",
+            "a+$\\frac{1}{b}$＜log<SUB>2</SUB>（a+b）＜$\\frac{b}{{2}^{a}}$",
+            "log<SUB>2</SUB>（a+b））＜a+$\\frac{1}{b}$＜$\\frac{b}{{2}^{a}}$"
+          ],
+          "FavTime": 6,
+          "ViewCount": 229,
+          "DownCount": 5,
+          "RealCount": 1,
+          "PaperCount": 70,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "03ddb0f3-a7f2-47ee-92c6-224598871f88",
+          "Content": "从分别标有1，2，…，9的9张卡片中不放回地随机抽取2次，每次抽取1张，则抽到在2张卡片上的数奇偶性不同的概率是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "CB",
+              "Value": "古典概型及其概率计算公式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [
+            "$\\frac{5}{18}$",
+            "$\\frac{4}{9}$",
+            "$\\frac{5}{9}$",
+            "$\\frac{7}{9}$"
+          ],
+          "FavTime": 9,
+          "ViewCount": 263,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 77,
+          "Answers": [
+            "2"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "870fdeb7-5685-477a-a092-d3cdce8dc368",
+          "Content": "在ABC中，角A，B，C的对边分别为a，b，c，若△ABC为锐角三角形，且满足sinB（1+2cosC）=2sinAcosC+cosAsinC，则下列等式成立的是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "HP",
+              "Value": "正弦定理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "综合法"
+            },
+            {
+              "Key": "58 ",
+              "Value": "解三角形"
+            }
+          ],
+          "Options": [
+            "a=2b",
+            "b=2a",
+            "A=2B",
+            "B=2A"
+          ],
+          "FavTime": 19,
+          "ViewCount": 312,
+          "DownCount": 9,
+          "RealCount": 1,
+          "PaperCount": 161,
+          "Answers": [
+            "0"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "884316fa-acc7-42e8-9065-49e92855e81e",
+          "Content": "已知当x∈[0，1]时，函数y=（mx-1）<SUP>2</SUP>&nbsp;的图象与y=$\\sqrt{x}$+m的图象有且只有一个交点，则正实数m的取值范围是（　　）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3O",
+              "Value": "函数的图象"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            },
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            }
+          ],
+          "Options": [
+            "（0，1]∪[2$\\sqrt{3}$，+∞）",
+            "（0，1]∪[3，+∞）",
+            "（0，$\\sqrt{2}$）∪[2$\\sqrt{3}$，+∞）",
+            "（0，$\\sqrt{2}$]∪[3，+∞）"
+          ],
+          "FavTime": 22,
+          "ViewCount": 376,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 78,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题：本大题共5小题，每小题5分，共25分",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "c76b76e9-c3d8-4c50-8d7e-162373e2edfd",
+          "Content": "已知（1+3x）<SUP>n</SUP>的展开式中含有x<SUP>2</SUP>的系数是54，则n=<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "DB",
+              "Value": "二项式系数的性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "5P ",
+              "Value": "二项式定理"
+            }
+          ],
+          "Options": [],
+          "FavTime": 5,
+          "ViewCount": 101,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 32,
+          "Answers": [
+            "4"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "120873d4-3077-42bc-b14b-fb8936af655a",
+          "Content": "已知$\\overrightarrow{{e}_{1}}$，$\\overrightarrow{{e}_{2}}$&nbsp;是互相垂直的单位向量，若$\\sqrt{3}$$\\overrightarrow{{e}_{1}}$-$\\overrightarrow{{e}_{2}}$&nbsp;&nbsp;与$\\overrightarrow{{e}_{1}}$+λ$\\overrightarrow{{e}_{2}}$的夹角为60°，则实数λ的值是<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "9R",
+              "Value": "平面向量数量积的运算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "4O",
+              "Value": "定义法"
+            },
+            {
+              "Key": "5A ",
+              "Value": "平面向量及应用"
+            }
+          ],
+          "Options": [],
+          "FavTime": 9,
+          "ViewCount": 155,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 90,
+          "Answers": [
+            "$\\frac{\\sqrt{3}}{3}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "fc3d748e-9c41-4a34-9b07-7f126f6475a6",
+          "Content": "由一个长方体和两个$\\frac{1}{4}$ 圆柱体构成的几何体的三视图如图，则该几何体的体积为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201706/58/b0a6af53.png\" style=\"vertical-align:middle\" />",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.8,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "L!",
+              "Value": "由三视图求面积、体积"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            },
+            {
+              "Key": "44 ",
+              "Value": "数形结合法"
+            },
+            {
+              "Key": "5Q ",
+              "Value": "立体几何"
+            }
+          ],
+          "Options": [],
+          "FavTime": 6,
+          "ViewCount": 148,
+          "DownCount": 2,
+          "RealCount": 2,
+          "PaperCount": 26,
+          "Answers": [
+            "2+$\\frac{π}{2}$"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "bddd7d1d-b118-4e8a-8d28-417aec1ab2f8",
+          "Content": "在平面直角坐标系xOy中，双曲线$\\frac{{x}^{2}}{{a}^{2}}-\\frac{{y}^{2}}{{b}^{2}}$=1（a＞0，b＞0）的右支与焦点为F的抛物线x<sup>2</sup>=2py（p＞0）交于A，B两点，若|AF|+|BF|=4|OF|，则该双曲线的渐近线方程为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "K8",
+              "Value": "抛物线的简单性质"
+            },
+            {
+              "Key": "KC",
+              "Value": "双曲线的简单性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "5D ",
+              "Value": "圆锥曲线的定义、性质与方程"
+            }
+          ],
+          "Options": [],
+          "FavTime": 10,
+          "ViewCount": 244,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 48,
+          "Answers": [
+            "y=±$\\frac{\\sqrt{2}}{2}$x"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "89cf3041-b186-4eff-985a-3f24195dfd80",
+          "Content": "若函数e<SUP>x</SUP>f（x）（e≈2.71828…是自然对数的底数）在f（x）的定义域上单调递增，则称函数f（x）具有M性质．下列函数中所有具有M性质的函数的序号为<div class='quizPutTag' contenteditable='true'>&nbsp;</div>．<br />①f（x）=2<SUP>-x</SUP>&nbsp;&nbsp; ②f（x）=3<SUP>-x</SUP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ③f（x）=x<SUP>3</SUP>&nbsp; ④f（x）=x<SUP>2</SUP>+2．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 2,
+          "CateName": "填空题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "3F",
+              "Value": "函数单调性的性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            },
+            {
+              "Key": "33 ",
+              "Value": "函数思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "52 ",
+              "Value": "导数的概念及应用"
+            },
+            {
+              "Key": "53 ",
+              "Value": "导数的综合应用"
+            }
+          ],
+          "Options": [],
+          "FavTime": 7,
+          "ViewCount": 169,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 25,
+          "Answers": [
+            "①④"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题（共6小题，满分75分）",
+      "Value": [
+        {
+          "Subject": 30,
+          "ID": "ce2659e8-46cb-4592-8c78-ed7a6d4f53a3",
+          "Content": "设函数f（x）=sin（ωx-$\\frac{π}{6}$）+sin（ωx-$\\frac{π}{2}$），其中0＜ω＜3，已知f（$\\frac{π}{6}$）=0．<br />（Ⅰ）求ω；<br />（Ⅱ）将函数y=f（x）的图象上各点的横坐标伸长为原来的2倍（纵坐标不变），再将得到的图象向左平移$\\frac{π}{4}$个单位，得到函数y=g（x）的图象，求g（x）在[-$\\frac{π}{4}$，$\\frac{3π}{4}$]上的最小值．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "GF",
+              "Value": "三角函数的恒等变换及化简求值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "33 ",
+              "Value": "函数思想"
+            },
+            {
+              "Key": "4R",
+              "Value": "转化法"
+            },
+            {
+              "Key": "57 ",
+              "Value": "三角函数的图像与性质"
+            }
+          ],
+          "Options": [],
+          "FavTime": 10,
+          "ViewCount": 276,
+          "DownCount": 3,
+          "RealCount": 1,
+          "PaperCount": 156,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b1308a3f-5e67-4ef7-a924-2f1015b13377",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201706/72/376812a2.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，几何体是圆柱的一部分，它是由矩形ABCD（及其内部）以AB边所在直线为旋转轴旋转120°得到的，G是$\\widehat{DF}$的中点．<br />（Ⅰ）设P是$\\widehat{CE}$上的一点，且AP⊥BE，求∠CBP的大小； <br />（Ⅱ）当AB=3，AD=2时，求二面角E-AG-C的大小．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "MT",
+              "Value": "二面角的平面角及求法"
+            },
+            {
+              "Key": "L5",
+              "Value": "旋转体（圆柱、圆锥、圆台）"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            },
+            {
+              "Key": "31 ",
+              "Value": "数形结合"
+            },
+            {
+              "Key": "41 ",
+              "Value": "向量法"
+            },
+            {
+              "Key": "5G ",
+              "Value": "空间角"
+            }
+          ],
+          "Options": [],
+          "FavTime": 7,
+          "ViewCount": 180,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 32,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "b927a218-903b-413f-b355-22bd0785cab3",
+          "Content": "在心理学研究中，常采用对比试验的方法评价不同心理暗示对人的影响，具体方法如下：将参加试验的志愿者随机分成两组，一组接受甲种心理暗示，另一组接受乙种心理暗示，通过对比这两组志愿者接受心理暗示后的结果来评价两种心理暗示的作用，现有6名男志愿者A<SUB>1</SUB>，A<SUB>2</SUB>，A<SUB>3</SUB>，A<SUB>4</SUB>，A<SUB>5</SUB>，A<SUB>6</SUB>和4名女志愿者B<SUB>1</SUB>，B<SUB>2</SUB>，B<SUB>3</SUB>，B<SUB>4</SUB>，从中随机抽取5人接受甲种心理暗示，另5人接受乙种心理暗示．<br />（Ⅰ）求接受甲种心理暗示的志愿者中包含A<SUB>1</SUB>但不包含B<SUB>1</SUB>的概率．<br />（Ⅱ）用X表示接受乙种心理暗示的女志愿者人数，求X的分布列与数学期望EX．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "CH",
+              "Value": "离散型随机变量的期望与方差"
+            },
+            {
+              "Key": "CG",
+              "Value": "离散型随机变量及其分布列"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "38 ",
+              "Value": "对应思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "综合法"
+            },
+            {
+              "Key": "5I ",
+              "Value": "概率与统计"
+            }
+          ],
+          "Options": [],
+          "FavTime": 14,
+          "ViewCount": 256,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 105,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "2491f0d6-0f7f-4a08-95b0-78ca5a3519ae",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201706/72/c0e0298b.png\" style=\"vertical-align:middle;FLOAT:right\" />已知{x<SUB>n</SUB>}是各项均为正数的等比数列，且x<SUB>1</SUB>+x<SUB>2</SUB>=3，x<SUB>3</SUB>-x<SUB>2</SUB>=2．<br />（Ⅰ）求数列{x<SUB>n</SUB>}的通项公式；<br />（Ⅱ）如图，在平面直角坐标系xOy中，依次连接点P<SUB>1</SUB>（x<SUB>1</SUB>，1），P<SUB>2</SUB>（x<SUB>2</SUB>，2）…P<SUB>n+1</SUB>（x<SUB>n+1</SUB>，n+1）得到折线P<SUB>1</SUB> P<SUB>2</SUB>…P<SUB>n+1</SUB>，求由该折线与直线y=0，x=x<SUB>1</SUB>，x=x<SUB>n+1</SUB>所围成的区域的面积T<SUB>n</SUB>．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "8I",
+              "Value": "数列与函数的综合"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "38 ",
+              "Value": "对应思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "综合法"
+            },
+            {
+              "Key": "54 ",
+              "Value": "等差数列与等比数列"
+            }
+          ],
+          "Options": [],
+          "FavTime": 6,
+          "ViewCount": 278,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 48,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 12.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "6f96f1bd-9de8-4231-980f-1f0c56d4bc21",
+          "Content": "已知函数f（x）=x<SUP>2</SUP>+2cosx，g（x）=e<SUP>x</SUP>（cosx-sinx+2x-2），其中e≈2.17828…是自然对数的底数．<br />（Ⅰ）求曲线y=f（x）在点（π，f（π））处的切线方程；<br />（Ⅱ）令h（x）=g （x）-a f（x）（a∈R），讨论h（x）的单调性并判断有无极值，有极值时求出极值．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.4,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "6D",
+              "Value": "利用导数研究函数的极值"
+            },
+            {
+              "Key": "6H",
+              "Value": "利用导数研究曲线上某点切线方程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "53 ",
+              "Value": "导数的综合应用"
+            },
+            {
+              "Key": "56 ",
+              "Value": "三角函数的求值"
+            }
+          ],
+          "Options": [],
+          "FavTime": 13,
+          "ViewCount": 364,
+          "DownCount": 3,
+          "RealCount": 1,
+          "PaperCount": 63,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 13.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+        {
+          "Subject": 30,
+          "ID": "bda4e355-b3f2-455f-9635-ae467bde6329",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201706/92/d482dc66.png\" style=\"vertical-align:middle;FLOAT:right\" />在平面直角坐标系xOy中，椭圆E：$\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}$=1（a＞b＞0）的离心率为$\\frac{\\sqrt{2}}{2}$，焦距为2．<br />（Ⅰ）求椭圆E的方程．<br />（Ⅱ）如图，动直线l：y=k<SUB>1</SUB>x-$\\frac{\\sqrt{3}}{2}$交椭圆E于A，B两点，C是椭圆E上的一点，直线OC的斜率为k<SUB>2</SUB>，且k<SUB>1</SUB>k<SUB>2</SUB>=$\\frac{\\sqrt{2}}{4}$，M是线段OC延长线上一点，且|MC|：|AB|=2：3，⊙M的半径为|MC|，OS，OT是⊙M的两条切线，切点分别为S，T，求∠SOT的最大值，并求取得最大值时直线l的斜率．",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.4,
+          "Cate": 9,
+          "CateName": "解答题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "KL",
+              "Value": "直线与椭圆的位置关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "34 ",
+              "Value": "方程思想"
+            },
+            {
+              "Key": "4A ",
+              "Value": "数学模型法"
+            },
+            {
+              "Key": "5D ",
+              "Value": "圆锥曲线的定义、性质与方程"
+            }
+          ],
+          "Options": [],
+          "FavTime": 13,
+          "ViewCount": 453,
+          "DownCount": 4,
+          "RealCount": 1,
+          "PaperCount": 29,
+          "Answers": [],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 14.0,
+          "UserAnswers": [],
+          "UserScores": []
+        }
+      ]
+    }
+  ]
+}

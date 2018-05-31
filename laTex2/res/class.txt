@@ -1,0 +1,310 @@
+
+    #region 类
+
+    internal class GSReport
+    {
+        /// <summary>
+        /// 学科
+        /// </summary>
+        public Byte Subject { get; set; }
+
+        /// <summary>
+        /// 试卷标识
+        /// </summary>
+        public Guid ID { get; set; }
+
+        /// <summary>
+        /// 试卷名称
+        /// </summary>
+        public String Title { get; set; }
+
+        /// <summary>
+        /// 年份
+        /// </summary>
+        public int Year { get; set; }
+
+        /// <summary>
+        /// 考试时间
+        /// </summary>
+        public int Times { get; set; }
+
+        /// <summary>
+        /// 考试分值
+        /// </summary>
+        public int Score { get; set; }
+
+        /// <summary>
+        /// 版本标识
+        /// </summary>
+        public Byte EditionID { get; set; }
+
+        /// <summary>
+        /// 版本名称
+        /// </summary>
+        public String EditionName { get; set; }
+
+        /// <summary>
+        /// 年级标识
+        /// </summary>
+        public Byte GradeID { get; set; }
+
+        /// <summary>
+        /// 年级名称
+        /// </summary>
+        public String GradeName { get; set; }
+
+        /// <summary>
+        /// 学期标识
+        /// </summary>
+        public Byte TermID { get; set; }
+
+        /// <summary>
+        /// 学期名称
+        /// </summary>
+        public String TermName { get; set; }
+
+        /// <summary>
+        /// 来源标识
+        /// </summary>
+        public Byte SourceID { get; set; }
+
+        /// <summary>
+        /// 来源名称
+        /// </summary>
+        public String SourceName { get; set; }
+
+        /// <summary>
+        /// 地区标识
+        /// </summary>
+        public String RegionID { get; set; }
+
+        /// <summary>
+        /// 地区名称（一级、二级、三级）
+        /// </summary>
+        public String RegionNames { get; set; }
+
+        /// <summary>
+        /// 浏览次数
+        /// </summary>
+        public long ViewCount { get; set; }
+
+        /// <summary>
+        /// 学校名称
+        /// </summary>
+        public String SchoolName { get; set; }
+
+        /// <summary>
+        /// 总体难度
+        /// </summary>
+        public Decimal Degree { get; set; }
+
+        /// <summary>
+        /// 试卷分组（试题）
+        /// </summary>
+        public List<KeyValuePair<string, List<GSQues>>> Groups { get; set; }
+
+        /// <summary>
+        /// 试卷日期
+        /// </summary>
+        public DateTime Date { get; set; }
+    }
+
+    internal class GSQues
+    {
+        /// <summary>
+        /// 学科
+        /// </summary>
+        public Byte Subject { get; set; }
+
+        /// <summary>
+        /// 试题标识
+        /// </summary>
+        public Guid ID { get; set; }
+
+        /// <summary>
+        /// 题干
+        /// </summary>
+        public String Content { get; set; }
+
+        /// <summary>
+        /// 分析
+        /// </summary>
+        public String Analyse { get; set; }
+
+        /// <summary>
+        /// 解答
+        /// </summary>
+        public String Method { get; set; }
+
+        /// <summary>
+        /// 点评
+        /// </summary>
+        public String Discuss { get; set; }
+
+        /// <summary>
+        /// 难度
+        /// </summary>
+        public Decimal Degree { get; set; }
+
+        /// <summary>
+        /// 题型标识
+        /// </summary>
+        public Byte CateID { get; set; }
+
+        /// <summary>
+        /// 题型名称
+        /// </summary>
+        public String CateName { get; set; }
+
+        /// <summary>
+        /// 来源标识
+        /// </summary>
+        public Byte SourceID { get; set; }
+
+        /// <summary>
+        /// 来源名称
+        /// </summary>
+        public String SourceName { get; set; }
+
+        /// <summary>
+        /// 试题标签
+        /// </summary>
+        public String Label { get; set; }
+
+        /// <summary>
+        /// 标签相关试卷标识
+        /// </summary>
+        public Guid LabelReportID { get; set; }
+
+        /// <summary>
+        /// 答题老师
+        /// </summary>
+        public String Teacher { get; set; }
+
+        /// <summary>
+        /// 试题考点
+        /// </summary>
+        public List<KeyValuePair<string, string>> Points { get; set; }
+
+        /// <summary>
+        /// 试题专题
+        /// </summary>
+        public List<KeyValuePair<string, string>> Topics { get; set; }
+
+        /// <summary>
+        /// 选择题选项
+        /// </summary>
+        public List<String> Options { get; set; }
+
+        /// <summary>
+        /// 标准答案（选择题为选项序号）
+        /// </summary>
+        public List<String> Answers { get; set; }
+
+        /// <summary>
+        /// 收藏次数
+        /// </summary>
+        public long FavTime { get; set; }
+
+        /// <summary>
+        /// 浏览次数
+        /// </summary>
+        public long ViewCount { get; set; }
+
+        /// <summary>
+        /// 下载次数
+        /// </summary>
+        public long DownCount { get; set; }
+
+        /// <summary>
+        /// 真题次数
+        /// </summary>
+        public long RealCount { get; set; }
+
+        /// <summary>
+        /// 组卷次数
+        /// </summary>
+        public long PaperCount { get; set; }
+
+        /// <summary>
+        /// 父题标识
+        /// </summary>
+        public long ParentID { get; set; }
+
+        /// <summary>
+        /// 父题题干
+        /// </summary>
+        public long ParentContent { get; set; }
+
+        /// <summary>
+        /// 在试卷中序号
+        /// </summary>
+        public int Seq { get; set; }
+
+        /// <summary>
+        /// 在试卷中分值
+        /// </summary>
+        public float Score { get; set; }
+
+        /// <summary>
+        /// 用户答案
+        /// </summary>
+        public List<String> UserAnswers { get; set; }
+
+        /// <summary>
+        /// 用户得分
+        /// </summary>
+        public List<Int16> UserScores { get; set; }
+
+        /// <summary>
+        /// 试题文件
+        /// </summary>
+        public List<GSQuesFile> QuesFiles { get; set; }
+
+        /// <summary>
+        /// 子题
+        /// </summary>
+        public List<GSQuesChild> QuesChilds { get; set; }
+    }
+
+    internal class GSQuesFile
+    {
+        /// <summary>
+        /// 音频或视频URL
+        /// </summary>
+        public string AudioUrl { get; set; }
+
+        /// <summary>
+        /// 名称
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// 试题标识
+        /// </summary>
+        public Guid QuesID { get; set; }
+    }
+
+    internal class GSQuesChild
+    {
+        /// <summary>
+        /// 子题标识
+        /// </summary>
+        public Guid ChildID { get; set; }
+
+        /// <summary>
+        /// 试题标识
+        /// </summary>
+        public Guid QuesID { get; set; }
+
+        /// <summary>
+        /// 分值
+        /// </summary>
+        public decimal Score { get; set; }
+
+        /// <summary>
+        /// 序号
+        /// </summary>
+        public byte Seq { get; set; }
+    }
+    #endregion

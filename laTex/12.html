@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2015-2016学年广西南宁四十七中八年级（上）第一次月考 物理试卷</title>
+    <title>2015-2016学年山东省济南市长清实验中学八年级（上）期末 数学试卷</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-       <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <link rel="stylesheet" href="css.css"/>
     <script type="text/x-mathjax-config">
 
@@ -26,8 +27,7 @@
                 return result;
             }
 
-
-            $.getJSON("res/wl.json?r=" + Math.random(), function (data) {
+            $.getJSON("res/sx.json?r=" + Math.random(), function (data) {
                 var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
 
                 for (var i = 0; i < data.Groups.length; i++) {
@@ -36,23 +36,24 @@
                     for (var j = 0; j < data.Groups[i].Value.length; j++) {
 
                         var _word = DBC2SBC(data.Groups[i].Value[j].Content);
+
                         if (data.Groups[i].Value[j].CateID != 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word + '</div>';
-                             _str += '<div style="margin-top:10px">分析：' + data.Groups[i].Value[j].Analyse  + '</div><br/>';
+                            _str += '<div style="margin-top:10px">分析：' + data.Groups[i].Value[j].Analyse  + '</div><br/>';
                               _str += '<div style="margin-top:10px">' + data.Groups[i].Value[j].Method  + '</div><br/><br/><br/>';
 
                         } else if (data.Groups[i].Value[j].CateID == 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
-
                             var sss= '';
                             for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
                                 var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
                                 _str += '<p class="options">' + k + '、' + _s + '</p>';
                                 sss="正确答案 "+data.Groups[i].Value[j].Answers;
                             }
-                              _str += '<p>'+sss+'</p>'
+
+                            _str += '<p>'+sss+'</p>'
                             _str += '</div>'
                         }
                     }
@@ -86,14 +87,11 @@
             }
         })
 
-
     </script>
-</head>
 
+</head>
 
 <body>
 
 </body>
-
-
 </html>
