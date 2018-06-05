@@ -1,0 +1,207 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Resolution Switcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="video-js.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .vjs-resolution-button {
+            color: #ccc;
+            font-family: VideoJS;
+        }
+
+        .vjs-resolution-button .vjs-resolution-button-staticlabel:before {
+            content: '\f110';
+            font-size: 1.8em;
+            line-height: 1.67;
+        }
+
+        .vjs-resolution-button .vjs-resolution-button-label {
+            font-size: 1em;
+            line-height: 3em;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            box-sizing: inherit;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .vjs-resolution-button ul.vjs-menu-content {
+            width: 4em !important;
+        }
+
+        .vjs-resolution-button .vjs-menu {
+            left: 0;
+        }
+
+        .vjs-resolution-button .vjs-menu li {
+            text-transform: none;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #eee;
+        }
+
+        a {
+            color: aliceblue;
+        }
+
+        a:hover {
+            color: aliceblue;
+        }
+
+        h1 a {
+            color: #0082d3;
+        }
+
+        h1 a:hover {
+            color: #0082d3;
+        }
+
+        code {
+            color: #007f90
+        }
+
+        pre {
+            font-size: 0.8em;
+        }
+
+        .section {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 50px;
+            padding-top: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+<p>切换路线</p>
+
+<div class="container-fluid section">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                Set sources dynamically
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+        <pre>
+  videojs('video', {
+    controls: true,
+    plugins: {
+      videoJsResolutionSwitcher: {
+        default: 'low', // Default resolution [{Number}, 'low', 'high'],
+        dynamicLabel: true
+      }
+    }
+  }, function(){
+    var player = this;
+    window.player = player
+    player.updateSrc([
+      {
+        src: 'https://vjs.zencdn.net/v/oceans.mp4?SD',
+        type: 'video/mp4',
+        label: 'SD',
+        res: 360
+      },
+      {
+        src: 'https://vjs.zencdn.net/v/oceans.mp4?HD',
+        type: 'video/mp4',
+        label: 'HD',
+        res: 720
+      }
+    ])
+    player.on('resolutionchange', function(){
+      console.info('Source changed to %s', player.src())
+    })
+  })
+        </pre>
+        </div>
+        <div class="col-md-6">
+            <video id='video' class="video-js vjs-default-skin"></video>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid section">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                Set sources inside <code>&ltvideo&gt</code> tag
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+        <pre>
+&lt;video id=&quot;video_1&quot; class=&quot;video-js vjs-default-skin&quot; controls data-setup='{}' &gt;
+  &lt;source src=&quot;https://vjs.zencdn.net/v/oceans.mp4?sd&quot; type='video/mp4' label='SD' res='480' /&gt;
+  &lt;source src=&quot;https://vjs.zencdn.net/v/oceans.mp4?hd&quot; type='video/mp4' label='HD' res='1080'/&gt;
+  &lt;source src=&quot;https://vjs.zencdn.net/v/oceans.mp4?phone&quot; type='video/mp4' label='phone' res='144'/&gt;
+  &lt;source src=&quot;https://vjs.zencdn.net/v/oceans.mp4?4k&quot; type='video/mp4' label='4k' res='2160'/&gt;
+&lt;/video&gt;
+        </pre>
+        </div>
+        <div class="col-md-6">
+            <video id="video_1" class="video-js vjs-default-skin" fluid="true" controls data-setup='{}' >
+                <source src="https://vjs.zencdn.net/v/oceans.mp4?sd" type='video/mp4' label='SD' res='480' />
+                <source src="https://vjs.zencdn.net/v/oceans.mp4?hd" type='video/mp4' label='HD' res='1080'/>
+                <source src="https://vjs.zencdn.net/v/oceans.mp4?phone" type='video/mp4' label='phone' res='144'/>
+                <source src="https://vjs.zencdn.net/v/oceans.mp4?4k" type='video/mp4' label='4k' res='2160'/>
+            </video>
+        </div>
+    </div>
+</div>
+
+<script src="../js/video7.0.3.js"></script>
+<script src="videojs-resolution-switcher.js"></script>
+<script>
+    // fire up the plugin
+    videojs('video', {
+        controls: true,
+        fluid: true,
+        plugins: {
+            videoJsResolutionSwitcher: {
+                default: 'low', // Default resolution [{Number}, 'low', 'high'],
+                dynamicLabel: true
+            }
+        }
+    }, function(){
+        var player = this;
+        window.player = player
+        player.updateSrc([
+            {
+                src: 'https://vjs.zencdn.net/v/oceans.mp4?SD',
+                type: 'video/mp4',
+                label: 'SD',
+                res: 360
+            },
+            {
+                src: 'https://vjs.zencdn.net/v/oceans.mp4?HD',
+                type: 'video/mp4',
+                label: 'HD',
+                res: 720
+            }
+        ])
+        player.on('resolutionchange', function(){
+            console.info('Source changed to %s', player.src())
+        })
+    })
+    videojs('video_1').videoJsResolutionSwitcher()
+</script>
+</body>
+</html>

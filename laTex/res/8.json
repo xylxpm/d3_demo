@@ -363,6 +363,64 @@
           "UserAnswers": [],
           "UserScores": []
         },
+
+        {
+          "Subject": 30,
+          "ID": "3de5c47a-42e9-4d64-9df6-6ef23d9fb2b2",
+          "Content": "若a＞b＞0，且ab=1，则下列不等式成立的是（&nbsp;&nbsp;&nbsp;&nbsp;）",
+          "Method": "",
+          "Analyse": "",
+          "Discuss": "",
+          "Degree": 0.6,
+          "Cate": 1,
+          "CateName": "选择题",
+          "Label": "（2017•山东）",
+          "LabelReportID": "43e32ab1-3b69-427e-9cba-7dd4c566d0b2",
+          "Teacher": "",
+          "Points": [
+            {
+              "Key": "72",
+              "Value": "不等式比较大小"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "35 ",
+              "Value": "转化思想"
+            },
+            {
+              "Key": "51 ",
+              "Value": "函数的性质及应用"
+            },
+            {
+              "Key": "59 ",
+              "Value": "不等式的解法及应用"
+            }
+          ],
+          "Options": [
+            "a+$\\frac{1}{b}$ ＜ $\\frac{b}{{2}^{a}}$ ＜ log<SUB>2</SUB>（a+b））",
+            "$\\frac{b}{{2}^{a}}$ ＜ log<SUB>2</SUB>（a+b） ＜ a+$\\frac{1}{b}$",
+            "a+$\\frac{1}{b}$ ＜ log<SUB>2</SUB>（a+b） ＜ $\\frac{b}{{2}^{a}}$",
+            "log<SUB>2</SUB>（a+b）） ＜ a+$\\frac{1}{b}$ ＜ $\\frac{b}{{2}^{a}}$"
+          ],
+          "FavTime": 6,
+          "ViewCount": 229,
+          "DownCount": 5,
+          "RealCount": 1,
+          "PaperCount": 70,
+          "Answers": [
+            "1"
+          ],
+          "QuesFiles": [],
+          "QuesChilds": [],
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": []
+        },
+
         {
           "Subject": 30,
           "ID": "3de5c47a-42e9-4d64-9df6-6ef23d9fb2b2",

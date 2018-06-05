@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Example Ad Integration</title>
+    <!-- Load local video.js -->
+    <link rel="stylesheet" href="video-js.css">
+    <script src="../js/video7.0.3.js"></script>
+    <!-- Load local ads plugin. -->
+    <link rel="stylesheet" href="videojs.ads.css">
+    <script src="videojs.ads.js"></script>
+    <!-- Load example ads integraiton. -->
+</head>
+<body>
+
+<h1>Example Ad Integration</h1>
+
+<video
+        id="examplePlayer"
+        class="video-js vjs-default-skin"
+        width="640"
+        height="264"
+        poster="http://vjs.zencdn.net/v/oceans.png"
+        autoplay
+        controls>
+    <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+    <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+    <source src="http://vjs.zencdn.net/v/oceans.ogv" type='video/ogg' />
+</video>
+
+<h2>Set Src programmatically</h2>
+
+<form>
+    <p>
+        <label>
+            <span>src: </span>
+            <input type="text" name="src" value="kitteh.mp4" />
+        </label>
+        <button type="submit">set src</button>
+    </p>
+</form>
+
+<h2>Events</h2>
+
+<ol class="log"></ol>
+
+<script src="app.js"></script>
+</body>
+</html>

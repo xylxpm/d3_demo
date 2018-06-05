@@ -1,20 +1,39 @@
-<head>
-    <link href="https://vjs.zencdn.net/6.9.0/video-js.css" rel="stylesheet">
 
-    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-    <script src="http://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+<html>
+
+<head>
+    <title>Hls.js demo - basic usage</title>
 </head>
 
 <body>
-<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-       poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-    <source src="MY_VIDEO.mp4" type='video/mp4'>
-    <source src="MY_VIDEO.webm" type='video/webm'>
-    <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a web browser that
-        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-</video>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
-<script src="https://vjs.zencdn.net/6.9.0/video.js"></script>
+<center>
+    <video height="600" id="video" controls></video>
+</center>
+
+<script>
+    if(Hls.isSupported()) {
+        var video = document.getElementById('video');
+        var hls = new Hls();
+        hls.loadSource('http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net');
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+            video.play();
+        });
+    }
+    // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+    // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
+    // This is using the built-in support of the plain video element, without using hls.js.
+    else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = 'http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net';
+        video.addEventListener('canplay',function() {
+            video.play();
+        });
+    }
+</script>
+
 </body>
+</html>
+
+
