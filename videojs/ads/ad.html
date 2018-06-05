@@ -3,13 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Example Ad Integration</title>
-    <!-- Load local video.js -->
-    <link rel="stylesheet" href="video-js.css">
-    <script src="../js/video7.0.3.js"></script>
-    <!-- Load local ads plugin. -->
+    <link rel="stylesheet" href="video-js.css/">
     <link rel="stylesheet" href="videojs.ads.css">
-    <script src="videojs.ads.js"></script>
-    <!-- Load example ads integraiton. -->
+
 </head>
 <body>
 
@@ -28,22 +24,38 @@
     <source src="http://vjs.zencdn.net/v/oceans.ogv" type='video/ogg' />
 </video>
 
-<h2>Set Src programmatically</h2>
+<script src="../js/video7.0.3.js"></script>
+<script src="videojs.ads.js"></script>
+<script>
+    var player = videojs('examplePlayer');
 
-<form>
-    <p>
-        <label>
-            <span>src: </span>
-            <input type="text" name="src" value="kitteh.mp4" />
-        </label>
-        <button type="submit">set src</button>
-    </p>
-</form>
+    player.ads(); // initialize videojs-contrib-ads
 
-<h2>Events</h2>
+    // request ads whenever there's new video content
+    player.on('contentchanged', function() {
+        // in a real plugin, you might fetch your ad inventory here
+        player.trigger('adsready');
+    });
 
-<ol class="log"></ol>
+    player.on('readyforpreroll', function() {
+        player.ads.startLinearAdMode();
+        // play your linear ad content
+        // in this example, we use a static mp4
+        player.src('kitteh.mp4');
 
-<script src="app.js"></script>
+        // send event when ad is playing to remove loading spinner
+        player.one('adplaying', function() {
+            player.trigger('ads-ad-started');
+        });
+
+        // resume content when all your linear ads have finished
+        player.one('adended', function() {
+            player.ads.endLinearAdMode();
+        });
+    });
+
+    player.trigger('adsready');
+</script>
+
 </body>
 </html>
