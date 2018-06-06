@@ -12,12 +12,14 @@
             padding: 10px;
         }
     </style>
+    <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/video7.0.3.js"></script>
     <script src='videojs.thumbnails.js'></script>
 </head>
 <body>
 <p>进度条缩略图</p>
 <a href="https://github.com/brightcove/videojs-thumbnails">https://github.com/brightcove/videojs-thumbnails </a>
+
 <video id='video'
        class='video-js vjs-default-skin'
        width='640'
@@ -26,27 +28,69 @@
        controls>
     <source src='http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4' type='video/mp4' />
 </video>
+
+<div id="current">0:00</div>
+<div id="duration">0:00</div>
+
 <script>
     // initialize video.js
-    var video = videojs('video');
+    //
+    // $(document).ready(function(){
+    //     $("#video").on(
+    //         "timeupdate",
+    //         function(event){
+    //             onTrackedVideoFrame(this.currentTime, this.duration);
+    //         });
+    // })
+    //
+    //
+    // function onTrackedVideoFrame(currentTime, duration){
+    //     $("#current").text(currentTime);
+    //     $("#duration").text(duration);
+    // }
 
-    video.thumbnails({
-        0: {
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_160_90.jpg'
-        },
-        60: {
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_200_113.jpg '
-        },
-        120: {
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_251_141.jpg'
-        },
-        240: {
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_320_160.jpg'
-        },
-        300: {
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
-        }
+    var video = videojs('video', null, function onPlayerReady() {
+        videojs.log('Your player is ready!');
+
+      //  this.play();
+
+        // How about an event listener?
+        // this.on('ended', function() {
+        //     videojs.log('Awww...over so soon?!');
+        //     var howLongIsThis = video.duration();
+        //     console.log(howLongIsThis);
+        // });
+
+        this.on('timeupdate', function() {
+            // var currentTime = video.currentTime();
+            // $("#current").text(currentTime);
+
+            var duration = video.duration();
+            duration = Math.round(duration)
+
+            $("#duration").text(duration);
+        });
     });
+
+
+
+    // video.thumbnails({
+    //     0: {
+    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_160_90.jpg'
+    //     },
+    //     60: {
+    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_200_113.jpg '
+    //     },
+    //     120: {
+    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_251_141.jpg'
+    //     },
+    //     240: {
+    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_320_160.jpg'
+    //     },
+    //     300: {
+    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
+    //     }
+    // });
 
     // here's an example of generating thumbnails from a sprited image:
     // video.thumbnails({

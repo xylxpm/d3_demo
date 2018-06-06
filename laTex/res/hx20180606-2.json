@@ -1,0 +1,1458 @@
+﻿{
+  "ID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+  "Title": "2017-2018学年天津市滨海新区九年级（上）期中化学试卷",
+  "Year": 2017,
+  "Times": 0,
+  "Score": 100,
+  "EditionID": 15,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 7,
+  "SourceName": "期中试题",
+  "RegionID": "1030000",
+  "RegionNames": [
+    "天津市",
+    "",
+    ""
+  ],
+  "ViewCount": 41,
+  "Date": "2018-01-14T00:00:00",
+  "Subject": 22,
+  "EditionName": "人教新版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "",
+  "Groups": [
+    {
+      "Key": "一、选择题（共10小题，每小题2分，满分20分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "9a74421d-452d-406d-aca6-a15d401611ea",
+          "Content": "下列变化属于化学变化的是（　　）",
+          "Analyse": "化学变化是指有新物质生成的变化，物理变化是指没有新物质生成的变化，化学变化和物理变化的本质区别是否有新物质生成；据此分析判断．",
+          "Method": "解：A、冰雪融化过程中只是状态发生改变，没有新物质生成，属于物理变化。<br />B、陶瓷破碎过程中没有新物质生成，属于物理变化。<br />C、钢铁生锈过程中有新物质铁锈生成，属于化学变化。<br />D、空气液化过程中只是状态发生改变，没有新物质生成，属于物理变化。<br />故选：C。",
+          "Discuss": "本题难度不大，解答时要分析变化过程中是否有新物质生成，若没有新物质生成属于物理变化，若有新物质生成属于化学变化．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "E3",
+              "Value": "化学变化和物理变化的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "332",
+              "Value": "化学反应的分类思想"
+            },
+            {
+              "Key": "512",
+              "Value": "物质的变化与性质"
+            }
+          ],
+          "Options": [
+            "冰雪融化",
+            "陶瓷破碎",
+            "钢铁生锈",
+            "空气液化"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 7,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "a0b81095-cdd7-45b7-b826-d2d619113b93",
+          "Content": "下列物质中属于混合物的是（　　）",
+          "Analyse": "纯净物是由一种物质组成，混合物是由不同物质组成，最少有两种物质组成；据此分析判断．",
+          "Method": "解：A、洁净的空气中含有氮气、氧气、二氧化碳等物质，属于混合物。故选项正确。<br />B、氧化镁是由一种物质组成的，属于纯净物。故选项错误。<br />C、高锰酸钾是由一种物质组成的，属于纯净物。故选项错误。<br />D、液态氧是由一种物质组成的，属于纯净物。故选项错误；<br />故选：A。",
+          "Discuss": "本题主要考查物质的分类，解答时要分析物质的组成，如果只有一种物质就属于纯净物，如果有多种物质就属于混合物",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdl****yhcl老师",
+          "Points": [
+            {
+              "Key": "A5",
+              "Value": "纯净物和混合物的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "516",
+              "Value": "物质的分类"
+            }
+          ],
+          "Options": [
+            "洁净的空气",
+            "氧化镁",
+            "高锰酸钾",
+            "液态氧"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 7,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "c84ea99b-7d8d-4542-8bed-6529d8b92bb0",
+          "Content": "保护大气不受污染人人有责．下列气体中不属于大气污染物的是（　　）",
+          "Analyse": "根据常见的空气污染物（二氧化硫、一氧化碳、二氧化氮、可吸入颗粒及臭氧等），进行分析判断即可．",
+          "Method": "解：A、臭氧属于三大空气污染物之一，故选项错误。<br />B、二氧化碳排放过多会引起温室效应，但现阶段人们不把二氧化碳作为空气的污染物，二氧化碳不属于三大空气污染物之一，故选项正确。<br />C、一氧化碳属于三大空气污染物之一，故选项错误。<br />D、二氧化氮属于三大空气污染物之一，故选项错误。<br />故选：B。",
+          "Discuss": "本题难度不大，了解常见的大气污染物（二氧化硫、一氧化碳、二氧化氮、可吸入颗粒及臭氧等）即可正确解答本题．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "mlp老师",
+          "Points": [
+            {
+              "Key": "64",
+              "Value": "空气的污染及其危害"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [
+            "臭氧",
+            "二氧化碳",
+            "一氧化碳",
+            "二氧化氮"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 4,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "e257f571-2d09-42d4-b919-0a1b9f418121",
+          "Content": "下列图示实验操作中，正确的是（　　）",
+          "Analyse": "A、根据给试管中的液体加热的方法进行分析判断；<br />B、根据酒精灯的使用方法进行分析判断；<br />C、根据胶头滴管的使用方法进行分析判断；<br />D、根据液体药品的取用方法进行分析判断．",
+          "Method": "解：A、给液体加热时，用酒精灯的外焰加热试管里的液体，且液体体积不能超过试管容积的$\\frac{1}{3}$，图中所示操作错误；<br />B、使用酒精灯时要注意“两查、两禁、一不可”，点燃酒精灯要用火柴点燃，图中所示操作正确；<br />C、用胶头滴管吸取药液时，胶头滴管不能伸入到试管内或接触试管壁，以防会污染药品，应垂直悬空，图中所示操作错误；<br />D、取用液体药品时，瓶塞要倒放，标签要对准手心，瓶口紧挨，试管要略微倾斜，图中所示操作错误。<br />故选：B。",
+          "Discuss": "本题难度不大，熟悉各种仪器的用途及使用注意事项、掌握常见化学实验基本操作的注意事项是解答此类试题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "4B",
+              "Value": "给试管里的液体加热"
+            },
+            {
+              "Key": "44",
+              "Value": "加热器皿-酒精灯"
+            },
+            {
+              "Key": "49",
+              "Value": "液体药品的取用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "531",
+              "Value": "常见仪器及化学实验基本操作"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/44/acf5c3bc.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/44/373ed0cb.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/44/09200d3e.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/44/7b7623da.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 13,
+          "DownCount": 0,
+          "RealCount": 5,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "9cdbdd39-1dfb-4364-922e-efa65f63e913",
+          "Content": "下列符号既能表示一种元素，又能表示一个原子的是（　　）",
+          "Analyse": "元素符号可表示一种元素、一个原子，进行分析判断．",
+          "Method": "解：A、O<SUB>2</SUB>可表示氧气，不是元素符号，故选项错误。<br />B、2He可表示2个氦原子，不是元素符号，故选项错误。<br />C、Mg<SUP>2+</SUP>可表示镁离子，不是元素符号，故选项错误。<br />D、S可表示硫元素，1个硫原子，故选项正确。<br />故选：D。",
+          "Discuss": "本题难度不大，掌握常见化学用语（元素符号、原子符号、化学式、离子符号等）的书写方法与含义是正确解答此类题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "C3",
+              "Value": "元素的符号及其意义"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "O<SUB>2</SUB>",
+            "2He",
+            "Mg<SUP>2+</SUP>",
+            "S"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 5,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "e46a3bbe-1d94-4ef6-a8d4-e13e40919949",
+          "Content": "下列关于人呼出气体的叙述，其中不正确的是（　　）",
+          "Analyse": "呼吸时把空气中的氧气转化为二氧化碳，同时从体内带出水蒸汽，人体呼出气体和空气中的氧气、二氧化碳、水蒸汽含量不同；呼出的气体与吸入空气相比，具有“两多一少”的特点，即与吸入的空气相比，二氧化碳、水蒸气含量增加，氧气含量减少；据此结合题意进行分析判断．",
+          "Method": "解：呼吸时把空气中的氧气转化为二氧化碳，同时从体内带出水蒸汽，人体呼出气体和空气中的氧气、二氧化碳、水蒸汽含量不同；氮气的含量基本不变，因为人体没有吸收氮气；呼出的气体与吸入空气相比，具有“两多一少”的特点，即与吸入的空气相比，二氧化碳、水蒸气含量增加，氧气含量减少。<br />A、呼出气体和吸入空气相比，二氧化碳和水蒸气含量增多，氧气含量减少，氧气含量较少，故说法正确。<br />B、呼出气体中氧气含量减少，水蒸气、二氧化碳含量增多，故说法错误。<br />C、呼出气体中氧气含量减少，水蒸气、二氧化碳含量增多，故说法正确。<br />D、氮气不被人体吸收，呼出的气体与空气相比，氮气含量相差不大，故说法正确。<br />故选：B。",
+          "Discuss": "本题难度不大，了解呼吸作用的原理、人体吸入的空气与呼出的气体成分的区别是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "276****2328老师",
+          "Points": [
+            {
+              "Key": "56",
+              "Value": "吸入空气与呼出气体的比较"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [
+            "人呼出的气体与空气相比，氧气含量较少",
+            "人呼出的气体与空气相比，二氧化碳含量较少",
+            "人呼出的气体与空气相比，水蒸气含量较多",
+            "人呼出的气体与空气相比，氮气含量相差不大"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0eb3283d-cc45-42fb-bfd1-839d5b818d16",
+          "Content": "下列物质中氯元素的化合价最低的是（　　）",
+          "Analyse": "根据单质中元素的化合价为0、在化合物中正负化合价代数和为零，结合各选项中的化学式进行解答本题．",
+          "Method": "解：A、钠元素显+1价，设NaCl中氯元素的化合价是x，根据在化合物中正负化合价代数和为零，可得：（+1）+x=0，则x=-1价。<br />B、根据单质中元素的化合价为0，Cl<SUB>2</SUB>属于单质，故氯元素的化合价为0。<br/>C、钠元素显+1价，氧元素显-2价，设NaClO<SUB>3</SUB>中氯元素的化合价是a，根据在化合物中正负化合价代数和为零，可得：（+1）+a+（-2）×3=0，则a=+5价。<br />D、钙元素显+2价，氧元素显-2价，设Ca（ClO）<SUB>2</SUB>中氯元素的化合价是c，根据在化合物中正负化合价代数和为零，可得：（+2）+2c+（-2）×2=0，则c=+1价。<br />故选：A。",
+          "Discuss": "本题难度不大，掌握单质中元素的化合价为0、在化合物中正负化合价代数和为零并能灵活运用是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "xiaoxi老师",
+          "Points": [
+            {
+              "Key": "D6",
+              "Value": "有关元素化合价的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "191",
+              "Value": "化学式的计算"
+            }
+          ],
+          "Options": [
+            "NaCl",
+            "Cl<SUB>2</SUB>",
+            "NaClO<SUB>3</SUB>",
+            "Ca（ClO）<SUB>2</SUB>"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0fa3ef18-5ccc-4018-b41f-48f028edad18",
+          "Content": "保持氧化汞化学性质的最小粒子是（　　）",
+          "Analyse": "分子是保持物质化学性质的最小微粒．",
+          "Method": "解：氧化汞分子是保持氧化汞化学性质的最小微粒，<br />故选：D。",
+          "Discuss": "此题考查分子的定义和特性，关键是根据分子是保持物质化学性质的最小微粒解答．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "BA",
+              "Value": "分子的定义与分子的特性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "汞原子和氧原子",
+            "氧分子",
+            "汞原子",
+            "氧化汞分子"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 9,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "95d7cad1-a548-46ce-8d1a-a9dcc3e10fcd",
+          "Content": "植物的光合作用可表示为：二氧化碳+水→淀粉+氧气．根据以上信息，下列关于淀粉组成的说法正确的是（　　）",
+          "Analyse": "根据质量守恒定律，反应前后元素种类不变，通过对比反应前后物质水、二氧化碳以及生成的氧气的组成元素，推断淀粉的元素组成．",
+          "Method": "解：反应物水由H、O元素组成，二氧化碳由C、O元素组成，反应前为C、H、O三种元素；生成物氧气由氧元素组成，根据反应前后元素不变，推断淀粉中一定含C、H元素，可能含有氧元素。<br />故选：C。",
+          "Discuss": "此题只能定性进行分析，不能明确判断淀粉中是否含有O元素，要确定O元素还需要进一步的实验和探究．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2013•成都校级模拟）",
+          "LabelReportID": "458d345e-9036-431f-8cf7-28427535bd89",
+          "Teacher": "山清水秀老师",
+          "Points": [
+            {
+              "Key": "G1",
+              "Value": "质量守恒定律及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "只含有碳、氢元素",
+            "含有碳、氧、氢三种元素",
+            "含有碳、氢元素，可能含有氧元素",
+            "无法确定"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 2,
+          "ViewCount": 217,
+          "DownCount": 0,
+          "RealCount": 8,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "4129f67a-6428-4d16-9ce7-ed5423f2348f",
+          "Content": "考古学家常利用古生物遗骸中某元素的含量来推断该生物死亡的年代．其中测定碳-14的含量是常用的手段之一．已知碳-14的相对原子质量为14，原子核内质子数为6．则下列关于碳-14的说法正确的是（　　）",
+          "Analyse": "根据原子中：核电荷数=核内质子数=核外电子数、相对原子质量=质子数+中子数，结合题意进行分析解答．",
+          "Method": "解：A、因为原子中：核电荷数=核内质子数=核外电子数，由题意碳-14的相对原子质量为14，原子核内质子数为6，则中子数为14-6=8，故选项说法错误。<br />B、因为原子中：核电荷数=核内质子数=核外电子数，原子核内质子数为6，则核电荷数为6，故选项说法正确。<br />C、因为原子中：核电荷数=核内质子数=核外电子数，原子核内质子数为6，则电子数为为6，故选项说法错误。<br />D、质子数和中子数的差为6-8=-2，故选项说法错误。<br />故选：B。",
+          "Discuss": "本题难度不大，解题的关键是掌握并灵活运用原子中核电荷数=核内质子数=核外电子数、相对原子质量=质子数+中子数．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "BB",
+              "Value": "原子的有关数量计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "中子数为6",
+            "核电荷数为6",
+            "电子数为8",
+            "质子数和中子数的差为8"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 16,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、选择题（共5小题，每小题2分，满分10分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "0ea875ea-db48-4eed-bd80-b902a4e1726e",
+          "Content": "物质的下列性质中，属于化学性质的是（　　）",
+          "Analyse": "物理性质是指物质不需要发生化学变化就表现出来的性质．包括物质的颜色、状态、气味、熔点、沸点、硬度、密度等性质；化学性质是指物质在化学变化中表现出来的性质．化学性质包括可燃性、氧化性、还原性、毒性、稳定性等．",
+          "Method": "解：A、颜色、状态，不需要发生化学变化就表现出来，属于物理性质，故A错；<br />B、密度、硬度，不需要发生化学变化就表现出来，属于物理性质，故B错；<br />C、氧化性、可燃性，需要通过化学变化表现出来，属于化学性质，故C正确；<br />D、挥发性、稳定性，不需要发生化学变化就表现出来，属于物理性质，故D错。<br />故选：C。",
+          "Discuss": "物理性质、化学性质是一对与物理变化、化学变化有密切关系的概念，联系物理变化、化学变化来理解物理性质和化学性质，则掌握起来并不困难．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdl****yhcl老师",
+          "Points": [
+            {
+              "Key": "E4",
+              "Value": "化学性质与物理性质的差别及应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "512",
+              "Value": "物质的变化与性质"
+            }
+          ],
+          "Options": [
+            "颜色、状态",
+            "密度、硬度",
+            "氧化性、可燃性",
+            "挥发性、稳定性"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 9,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "b04056e4-e476-41e6-858b-5762b9d3389c",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201204/16/006c011d.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，一个透明的容器中盛有一定量的红棕色溴蒸气．将活塞从A处压缩到B处，使其体积变为原来的一半，则下列说法正确的是（　　）",
+          "Analyse": "构成物质的微粒之间有一定的间隔，溴蒸气是由溴分子构成的，溴分子之间存在间隔．可依据分子之间存在间隔解释此现象．",
+          "Method": "解：溴蒸气是由溴分子构成的，溴分子之间存在间隔，所以用活塞可以向内推动。当活塞向内推动时，溴蒸气的体积变小了，单位体积内溴分子的个数就增加了，所以气体的颜色会变得更深。<br />但分子大小不变，故A错误；<br />溴分子大小没有变化，分子间的间隔减小，故B正确；<br />溴分子的数量没有发生改变，观察到颜色变深，故C正确；<br />溴分子的数量没有发生改变，故D错误；<br />故选：BC。",
+          "Discuss": "结合具体的事例形象逼真地说明分子之间存在间隔，难度较小．",
+          "Degree": 0.60,
+          "CateID": 3,
+          "CateName": "多选题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "BA",
+              "Value": "分子的定义与分子的特性"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "每个溴分子的大小变为原来的一半",
+            "溴分子大小没有变化，分子间的间隔减小",
+            "溴分子的数量没有发生改变，观察到颜色变深",
+            "溴分子的数量变为原来的一半，观察到颜色变深"
+          ],
+          "Answers": [
+            "1",
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 14,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 15,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0d2daf18-a8ab-43e6-9014-c06c95f6dc43",
+          "Content": "下列关于实验现象的描述中，不正确的是（　　）",
+          "Analyse": "A、根据红磷在空气中燃烧的现象进行分析判断．<br />B、根据木炭在氧气中燃烧的现象进行分析判断．<br />C、根据镁条在空气中燃烧的现象进行分析判断．<br />D、根据氢气在空气中燃烧的现象进行分析判断．",
+          "Method": "解：A、红磷在空气中燃烧，产生大量的白烟，故选项说法正确。<br />B、木炭在氧气中燃烧发出白光，生成二氧化碳气体是实验结论而不是实验现象，故选项说法错误。<br />C、镁条在空气中燃烧，发出耀眼的白光，生成一种白色固体，故选项说法正确。<br />D、氢气在空气中燃烧，发出淡蓝色火焰，火焰上方烧杯内壁出现水雾，故选项说法正确。<br />故选：B。",
+          "Discuss": "本题难度不大，掌握常见物质燃烧的现象即可正确解答，在描述物质燃烧的现象时，需要注意光和火焰、烟和雾、实验结论和实验现象的区别．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "6A",
+              "Value": "氧气与碳、磷、硫、铁等物质的反应现象"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "142",
+              "Value": "元素与化合物"
+            },
+            {
+              "Key": "522",
+              "Value": "氧气、氢气的性质与用途"
+            },
+            {
+              "Key": "532",
+              "Value": "实验现象的观察和记录"
+            }
+          ],
+          "Options": [
+            "红磷在空气中燃烧发出大量的白烟",
+            "木炭在氧气中燃烧发出白光，生成二氧化碳气体",
+            "镁条在空气中燃烧发出耀眼的白光，生成白色固体",
+            "氢气在空气中燃烧发出淡蓝色火焰，火焰上方烧杯内壁出现水雾"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 9,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "62778bc9-8496-4b90-b90a-7ca99ceb2d10",
+          "Content": "下列说法中正确的是（　　）",
+          "Analyse": "A、催化剂的特点可以概括为“一变二不变”．<br />B、根据气体的收集方法与气体物理性质的关系，进行分析判断．<br />C、根据氧气的化学性质，进行分析判断．<br />D、根据实验室制取氧气的反应原理，进行分析判断．",
+          "Method": "解：A、催化剂在化学反应前后化学性质没有变化，故选项说法正确。<br />B、实验室用排水法可以收集难溶于水的气体，故选项说法错误。<br />C、氧气的化学性质比较活泼，在常温下不能和所有物质发生化学反应，故选项说法错误。<br />D、在分解过氧化氢制取氧气的反应中，加入的二氧化锰作催化剂，起催化作用，故选项说法正确。<br />故选：AD。",
+          "Discuss": "本题难度不大，掌握氧气的化学性质、催化剂的特征（一变二不变）等是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 3,
+          "CateName": "多选题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "68",
+              "Value": "氧气的化学性质"
+            },
+            {
+              "Key": "4P",
+              "Value": "常用气体的收集方法"
+            },
+            {
+              "Key": "6J",
+              "Value": "催化剂的特点与催化作用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [
+            "催化剂在化学反应前后化学性质没有变化",
+            "实验室用排水法可以收集密度比空气略大的气体",
+            "氧气的化学性质很活泼，在常温下能和所有物质发生化学反应",
+            "在分解过氧化氢制取氧气的反应中，加入的二氧化锰起催化作用"
+          ],
+          "Answers": [
+            "0",
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 6,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 0,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0fba76f0-20ba-456f-828d-bb91637b4fb4",
+          "Content": "化学方程式能提供很多有关反应的信息．从化学反应C+2CuO$\\frac{\\underline{\\;高温\\;}}{\\;}$2Cu+CO<SUB>2</SUB>↑中获得的下列信息想叙述中，不正确的是（　　）",
+          "Analyse": "化学方程式可表示：反应物和生成物的种类；反应的条件；反应物和生成物的微观粒子个数比；反应物和生成物的质量比等，据此进行分析判断．",
+          "Method": "解：A、化学方程式可以表明反应物、生成物和反应条件，“═”左边的是反应物，右边的是生成物，上方的是反应条件，故选项说法正确。<br />B、由化学方程式C+2CuO$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$2Cu+CO<SUB>2</SUB>↑可知，可以计算出各反应物和生成物的质量比，其中各反应物与生成物之间的质量比为3：40：32：11，故选项说法正确。<br />C、由化学方程式可以判断出反应物没有气态物质参与，生成物有气体，故选项说法正确。<br />D、所有的化学反应都遵循质量守恒定律，故选项错误。<br />故选：D。",
+          "Discuss": "化学方程式是最重要的化学用语之一，掌握化学方程式的含义是正确解答此类题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdwdxk老师",
+          "Points": [
+            {
+              "Key": "G2",
+              "Value": "化学方程式的概念、读法和含义"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "可以知道反应物、生成物及反应条件分别是什么",
+            "各反应物与生成物之间的质量比为3：40：32：11",
+            "可以判断出反应物没有气态物质参与，生成物有气体",
+            "反应后所得固体质量减轻，不遵循质量守恒定律"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 15,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、填空题（共6小题，每小题6分，满分40分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "c9409410-23e4-4ce3-912d-1c878b34f57f",
+          "Content": "化学就在我们身边．现有①氧气 ②二氧化碳 ③氖气 ④氮气 ⑤木炭 ⑥细铁丝．选择适当物质填空（填序号）．<br />（1）空气中含量最多的气体是<div class=\"quizPutTag\">④</div>；<br />（2）可作为冬天取暖燃料的是<div class=\"quizPutTag\">⑤</div>；<br />（3）通电时能发出有色光的是<div class=\"quizPutTag\">③</div>；<br />（4）能使澄清石灰水变浑浊的气体是<div class=\"quizPutTag\">②</div>；<br />（5）炼钢、气焊、航天、医疗等行业均需要用到的是<div class=\"quizPutTag\">①</div>；<br />（6）不能在空气中燃烧，但可以在纯净的氧气中燃烧的是<div class=\"quizPutTag\">⑥</div>．",
+          "Analyse": "根据空气的组成以及体积含量来分析，根据气体的性质和用途进行解答．",
+          "Method": "解：（1）空气中含量最多的气体是氮气；<br />（2）可作为冬天取暖燃料的是木炭；<br />（3）通电时能发出有色光的是氖气；<br />（4）能使澄清石灰水变浑浊的气体是二氧化碳；<br />（5）炼钢、气焊、航天、医疗等行业均需要用到的是氧气；<br />（6）不能在空气中燃烧，但可以在纯净的氧气中燃烧的是细铁丝；<br />故答案为：④；⑤；③；②；①；⑥．",
+          "Discuss": "本考点考查了各种气体的含量和气体的用途等，同学们要加强记忆有关的知识点，在理解的基础上加以应用，本考点基础性比较强，主要出现在选择题和填空题中．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "6K",
+              "Value": "常见气体的用途"
+            },
+            {
+              "Key": "61",
+              "Value": "空气的成分及各成分的体积分数"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "④",
+            "⑤",
+            "③",
+            "②",
+            "①",
+            "⑥"
+          ],
+          "FavTime": 0,
+          "ViewCount": 11,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "cf5e6d8f-ebbe-4eb6-bd94-2e9eea712baf",
+          "Content": "在宏观、微观和符号之间建立联系是化学学科的重要思维方式．<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/63ac03a7.png\" style=\"vertical-align:middle\" /><br />（1）如图Ⅲ所示，X是<div class=\"quizPutTag\">物质</div>；Y是<div class=\"quizPutTag\">原子核</div>．<br />（2）元素是<div class=\"quizPutTag\">质子数</div>（即<div class=\"quizPutTag\">核电荷数</div>）相同的一类原子的总称．<br />（3）从宏观角度看，汞是由<div class=\"quizPutTag\">汞元素</div>组成；从微观角度看，汞是由<div class=\"quizPutTag\">汞原子</div>构成．<br />（4）元素周期表根据以上的原子结构和性质，将各元素有序地排列起来，如图Ⅰ是钙元素在元素周期表中的相关信息，钙的元素符号为<div class=\"quizPutTag\">Ca</div>；图Ⅱ是钙元素的原子结构示意图，下列结构示意图中，与钙原子具有相似化学性质的是<div class=\"quizPutTag\">B</div>（填字母）．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/38a02206.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）根据物质的微粒构成及原子核的构成解答；<br />（2）根据元素的定义解答；<br />（3）根据化学式的含义进行分析解答即可．<br />（4）根据元素符号的写法及最外层电子数决定化学性质等来解答．",
+          "Method": "解：<br />（1）物质是由分子、原子、离子构成的，元素组成的；故如图Ⅲ所示，X是物质，原子核是由侄子和中子构成的，故Y是原子核；<br />（2）元素是质子数（即核电荷数）相同的一类原子的总称．<br />（3）从宏观角度看，汞是由是由汞元素组成的；从微观角度看，汞是由汞原子构成的．<br />（4）钙的元素符号为Ca；最外层电子数决定化学性质，最外层电子数相同化学性质相似，A中只有一个电子层2个电子就是稳定结构，故选B；<br />答案：<br />（1）物质；原子核；<br />（2）质子数；核电荷数；<br />（3）汞元素；汞原子；<br />（4）Ca；B．",
+          "Discuss": "了解元素周期表的特点及其应用；核外电子在化学反应中的作用；了解原子结构示意图与离子结构示意图的特点．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "276****2328老师",
+          "Points": [
+            {
+              "Key": "B2",
+              "Value": "分子、原子、离子、元素与物质之间的关系"
+            },
+            {
+              "Key": "B8",
+              "Value": "原子结构示意图与离子结构示意图"
+            },
+            {
+              "Key": "C5",
+              "Value": "元素周期表的特点及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            },
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "物质",
+            "原子核",
+            "质子数",
+            "核电荷数",
+            "汞元素",
+            "汞原子",
+            "Ca",
+            "B"
+          ],
+          "FavTime": 0,
+          "ViewCount": 9,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "2dbdf1a1-ba85-4759-9f15-44a1cb3a3228",
+          "Content": "水是人类宝贵的自然资源．<br />（1）从物质分类的角度来看，水属于<div class=\"quizPutTag\">AD</div>（填字母）．<br />A、纯净物&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B、混合物&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C、单质&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D、氧化物<br />（2）如图为自来水厂生产流程示意图，下列说法正确的是<div class=\"quizPutTag\">BC</div>（填字母）．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/906be2e8.png\" style=\"vertical-align:middle\" /><br />A、反应沉淀池可以将硬水转化为软水<br />B、过滤池可将水中的不溶性杂质去除<br />C、活性炭吸附池可以去除有色有味杂质<br />D、通过上述一系列净水措施，用户得到的自来水是纯净物<br />（3）饮用水硬度达到一定程度对人体有害，因此在饮用前降低水的硬度至关重要．检验自来水是否为硬水常用的试剂为<div class=\"quizPutTag\">肥皂水</div>；生活中降低水的硬度通常采用的方法是<div class=\"quizPutTag\">加热煮沸</div>．<br />（4）实验室常用过滤的方法分离可溶物和不溶物．用到的仪器有带铁圈的铁架台、玻璃棒、烧杯和<div class=\"quizPutTag\">漏斗</div>，将滤纸折叠后，与上述仪器组合成过滤装置．其中玻璃棒的作用是<div class=\"quizPutTag\">引流</div>．",
+          "Analyse": "（1）根据水是由一种物质组成的纯净物解答；<br />（2）A、根据反应沉淀池不能将硬水转化为软水解答；<br />B、根据过滤池可将水中的不溶性杂质去除解答；<br />C、根据活性炭具有吸附性解答；<br />D、根据用户得到的自来水中含有可溶性物质解答；<br />（3）根据硬水和软水经常用肥皂水来鉴别解答；<br />（4）根据过滤需要用到的仪器及注意事项分析解答；",
+          "Method": "解：<br />（1）水是由一种物质组成的纯净物，其中一种是氧元素，属于氧化物；<br />（2）A、反应沉淀池不能将硬水转化为软水，硬水转化为软水需要加热煮沸，故错误；<br />B、过滤池可将水中的不溶性杂质去除，故正确；<br />C、活性炭具有吸附性，可以去除有色有味杂质，故正确；<br />D、用户得到的自来水中含有可溶性物质，属于混合物，故错误．<br />（3）硬水和软水经常用肥皂水来鉴别，泡沫多的是软水，泡沫少的是硬水；家庭生活中常用来降低水硬度的方法是加热煮沸；<br />（4）实验室常用过滤的方法除去水中悬浮的杂质，过滤需要用到的仪器有带铁圈的铁架台、玻璃棒、烧杯和漏斗；<br />实验过程中玻璃棒的作用是引流．<br />答案：<br />（1）AD；<br />（2）BC；<br />（3）肥皂水；加热煮沸；<br />（4）漏斗；引流．",
+          "Discuss": "本题主要考查净水的有关知识，要充分理解净化水等方面的知识，能够熟练掌握．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "276****2328老师",
+          "Points": [
+            {
+              "Key": "76",
+              "Value": "自来水的生产过程与净化方法"
+            },
+            {
+              "Key": "4G",
+              "Value": "过滤的原理、方法及其应用"
+            },
+            {
+              "Key": "77",
+              "Value": "硬水与软水"
+            },
+            {
+              "Key": "A3",
+              "Value": "从组成上识别氧化物"
+            },
+            {
+              "Key": "A5",
+              "Value": "纯净物和混合物的判别"
+            },
+            {
+              "Key": "A7",
+              "Value": "单质和化合物的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "AD",
+            "BC",
+            "肥皂水",
+            "加热煮沸",
+            "漏斗",
+            "引流"
+          ],
+          "FavTime": 0,
+          "ViewCount": 15,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "757b8431-ffa1-474a-942c-c86a67792476",
+          "Content": "写出下列反应的化学方程式：<br />（1）硫在空气中充分燃烧<div class=\"quizPutTag\">S+O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$SO<SUB>2</SUB></div>；<br />（2）铁丝在氧气中燃烧<div class=\"quizPutTag\">3Fe+2O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$Fe<SUB>3</SUB>O<SUB>4</SUB></div>；<br />（3）加热高锰酸钾固体制取氧气<div class=\"quizPutTag\">2KMnO<SUB>4</SUB>$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$K<SUB>2</SUB>MnO<SUB>4</SUB>+MnO<SUB>2</SUB>+O<SUB>2</SUB>↑</div>．",
+          "Analyse": "硫在空气中燃烧生成二氧化硫，铁在氧气中燃烧生成四氧化三铁，高锰酸钾受热分解生成锰酸钾、二氧化锰和氧气．",
+          "Method": "解：（1）硫在空气中充分燃烧生成二氧化硫，反应的化学方程式为：S+O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$SO<SUB>2</SUB>；<br />（2）铁丝在氧气中燃烧生成四氧化三铁，反应的化学方程式为：3Fe+2O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$Fe<SUB>3</SUB>O<SUB>4</SUB>；<br />（3）加热高锰酸钾固体制取氧气的化学方程式为：2KMnO<SUB>4</SUB>$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$K<SUB>2</SUB>MnO<SUB>4</SUB>+MnO<SUB>2</SUB>+O<SUB>2</SUB>↑．<br />故填：S+O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$SO<SUB>2</SUB>；3Fe+2O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$Fe<SUB>3</SUB>O<SUB>4</SUB>；2KMnO<SUB>4</SUB>$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$K<SUB>2</SUB>MnO<SUB>4</SUB>+MnO<SUB>2</SUB>+O<SUB>2</SUB>↑．",
+          "Discuss": "书写化学方程式要注意四步：一是反应物和生成物的化学式要正确；二是要遵循质量守恒定律，即配平；三是要有必要的条件；四是看是否需要“↑”或“↓”．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "346****1086老师",
+          "Points": [
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "S+O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$SO<SUB>2</SUB>",
+            "3Fe+2O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$Fe<SUB>3</SUB>O<SUB>4</SUB>",
+            "2KMnO<SUB>4</SUB>$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$K<SUB>2</SUB>MnO<SUB>4</SUB>+MnO<SUB>2</SUB>+O<SUB>2</SUB>↑"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "3a093743-5ccd-4e84-9f98-b519e9698c75",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/124/7db177ba.png\" style=\"vertical-align:middle;FLOAT:right\" />化学是研究物质的性质、组成、结构与变化规律的科学．<br />（1）在研究化学的过程中，常用到化学符号．<br />①请写出符号：氦气<div class=\"quizPutTag\">He</div>；镁单质<div class=\"quizPutTag\">Mg</div>；钠离子<div class=\"quizPutTag\">Na<SUP>+</SUP></div>．<br />②如果用●表示一个碳原子，○表示一个氢原子，<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/124/c92a17b7.png\" style=\"vertical-align:middle\" />表示一个氧原子．二氧化碳的化学式为CO<SUB>2</SUB>．其模型如图1所示，试写出图2模型表示物质的化学式<div class=\"quizPutTag\">C<SUB>2</SUB>H<SUB>6</SUB></div>．<br />（2）分子和原子的根本区别是<div class=\"quizPutTag\">C</div>（填字母）．<br />A、分子大、原子小&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B、分子由原子构成<br />C、化学变化中能否再分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D、能否直接构成物质<br />（3）硫在空气中燃烧发出微弱的淡蓝色火焰，而在氧气中燃烧发出明亮的蓝紫色火焰．可见燃烧的剧烈程度与氧气的<div class=\"quizPutTag\">浓度</div>有关．",
+          "Analyse": "氦气、镁的化学式可以用其元素符号表示，每个钠离子带1个单位正电荷；<br />化学变化中，分子可分，原子不可分；<br />反应物浓度越大，温度越高，反应速率越快．",
+          "Method": "解：（1）①氦气可以表示为He；镁单质可以表示为Mg；钠离子可以表示为Na<SUP>+</SUP>．<br />故填：He；Mg；Na<SUP>+</SUP>．<br />②图2模型表示的物质中，每个分子由2个碳原子和6个氢原子构成，化学式可以表示为C<SUB>2</SUB>H<SUB>6</SUB>．<br />故填：C<SUB>2</SUB>H<SUB>6</SUB>．<br />（2）分子和原子的根本区别是化学变化中能否再分．<br />故填：C．<br />（3）硫在空气中燃烧发出微弱的淡蓝色火焰，而在氧气中燃烧发出明亮的蓝紫色火焰．可见燃烧的剧烈程度与氧气的浓度有关．<br />故填：浓度．",
+          "Discuss": "本题主要考查学生对化学用语的书写和理解能力，题目重点考查了学生对化学符号的书写，考查全面，注重基础，题目难度较小．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "346****1086老师",
+          "Points": [
+            {
+              "Key": "DF",
+              "Value": "化学符号及其周围数字的意义"
+            },
+            {
+              "Key": "68",
+              "Value": "氧气的化学性质"
+            },
+            {
+              "Key": "B5",
+              "Value": "分子和原子的区别和联系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            },
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            },
+            {
+              "Key": "522",
+              "Value": "氧气、氢气的性质与用途"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "He",
+            "Mg",
+            "Na<SUP>+</SUP>",
+            "C<SUB>2</SUB>H<SUB>6</SUB>",
+            "C",
+            "浓度"
+          ],
+          "FavTime": 0,
+          "ViewCount": 14,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "41905795-aba7-4695-9614-722cef73077c",
+          "Content": "质量守恒定律是自然界普遍规律，学习化学经常应用质量守恒定律分析问题．请回答：<br />（1）化学反应前后，一定不发生变化的是<div class=\"quizPutTag\">③④</div>（填序号）．<br />①物质种类&nbsp;&nbsp;&nbsp;&nbsp; ②分子数目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ③原子质量&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ④元素种类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ⑤分子种类<br />（2）已知10gA与一定质量的B恰好完全反应，生成9gC和6gD，则参加反应的B的质量为<div class=\"quizPutTag\">5</div>g．<br />（3）“气体烙铁”是以一种气体X为燃料的加热仪器，加热温度可达1300℃，反应的化学方程式为2X+13O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$8CO<SUB>2</SUB>+10H<SUB>2</SUB>O，燃料X的化学式为<div class=\"quizPutTag\">C<SUB>4</SUB>H<SUB>10</SUB></div>．<br />（4）将5g某燃料在充足的氧气中完全燃烧，测得生成二氧化碳的质量为6.6g，则该燃料中碳元素的质量分数为<div class=\"quizPutTag\">36%</div>．",
+          "Analyse": "（1）根据质量守恒定律内容：参加化学反应的各物质质量总和等于反应后生成的各物质质量总和，可知化学反应前后的五个不变，两个可能变，两个一定变；<br />（2）根据质量守恒定律，在化学反应中，参加反应前各物质的质量总和等于反应后生成各物质的质量总和；<br />（3）由质量守恒定律：反应前后，原子种类、数目均不变，据此由反应的化学方程式推断反应物X的化学式；<br />（4）根据二氧化碳的质量计算碳元素的质量，进而计算该燃料中碳元素的质量分数．",
+          "Method": "解：（1）化学反应前后不变的是：原子的种类、数目、质量；元素的种类；物质的总质量以及原子的相对原子质量．两个可能变是分子的数目、元素的化合价．两个一定变是物质的种类、分子的种类，故选③④；<br />（2）在化学反应中，参加反应前各物质的质量总和等于反应后生成各物质的质量总和，所以参加反应的B的质量=（9g+6g）-10g=5g；<br />（3）由质量守恒定律：反应前后，原子种类、数目均不变，由反应的化学方程式2X+13O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$8CO<SUB>2</SUB>+10H<SUB>2</SUB>O，反应前氧原子个数为26，反应后的生成物中碳、氢、氧原子个数分别为8、20、26、根据反应前后原子种类、数目不变，则2X分子中含有8个碳原子和20个氢原子，则每个X分子由4个碳原子和10个氢原子构成，则物质X的化学式为C<SUB>4</SUB>H<SUB>10</SUB>；<br />（4）碳元素的质量为：6.6g×$\\frac{12}{44}×100%$=1.8g；该燃料中碳元素的质量分数为：$\\frac{1.8g}{5g}×100%$=36%．<br />故答案为：（1）③④；<br />（2）5；<br />（3）C<SUB>4</SUB>H<SUB>10</SUB>；<br />（4）36%",
+          "Discuss": "本题主要考察质量守恒定律的有关内容，难度不大．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "山清水秀老师",
+          "Points": [
+            {
+              "Key": "G1",
+              "Value": "质量守恒定律及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "③④",
+            "5",
+            "C<SUB>4</SUB>H<SUB>10</SUB>",
+            "36%"
+          ],
+          "FavTime": 0,
+          "ViewCount": 14,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "四、解答题（共3小题，满分20分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "d16833dc-bc6d-4fa2-9a17-038c368d1bba",
+          "Content": "如图列举了几种实验室制备气体常见的发生装置和收集装置．结合所学知识完成以下问题．<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/be15d082.png\" style=\"vertical-align:middle\" /><br />（1）将图中标号所指的化学仪器名称写在横线上：<br />①<div class=\"quizPutTag\">酒精灯</div>；&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ②<div class=\"quizPutTag\">水槽</div>．<br />（2）若实验室用5%过氧化氢溶液和少量二氧化锰的混合物制取并收集氧气，应选用的发生装置为<div class=\"quizPutTag\">B</div>（填字母），写出该反应的化学方程式<div class=\"quizPutTag\">2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑</div>．<br />（3）选择装置A作为加热高锰酸钾制取氧气的发生装置时，需要在试管口放一团棉花，其原因是<div class=\"quizPutTag\">防止高锰酸钾的粉末进入导管</div>．",
+          "Analyse": "（1）根据常用仪器的名称与用途分析解答；<br />（2）过氧化氢和二氧化锰混合制取氧气可生成水和氧气，反应不需加热选择发生装置；据反应原理书写方程式；<br />（3）根据用高锰酸钾制取氧气时的注意事项进行分析．",
+          "Method": "解：（1）图中标示仪器分别为：①是酒精灯，②是水槽；<br />（2）过氧化氢和二氧化锰混合制取氧气可生成水和氧气，此反应是固液不加热反应，应该选用的发生装置是B，反应的化学方程式为：2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑；<br />（3）用高锰酸钾制氧气就需要加热，试管口放棉花是为了防止加热时高锰酸钾粉末进入导管；<br />故答案为：（1）酒精灯；水槽；（2）B；2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑；（3）防止高锰酸钾的粉末进入导管．",
+          "Discuss": "本考点主要考查了气体的制取装置和收集装置的选择，同时也考查了化学方程式的书写等，综合性比较强．气体的制取装置的选择与反应物的状态和反应的条件有关；气体的收集装置的选择与气体的密度和溶解性有关．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "6D",
+              "Value": "氧气的制取装置"
+            },
+            {
+              "Key": "6E",
+              "Value": "氧气的收集方法"
+            },
+            {
+              "Key": "6G",
+              "Value": "制取氧气的操作步骤和注意点"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "341",
+              "Value": "化学学习中的实验思想"
+            },
+            {
+              "Key": "534",
+              "Value": "常见气体的实验室制法、检验、干燥与净化"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "酒精灯",
+            "水槽",
+            "B",
+            "2H<SUB>2</SUB>O<SUB>2</SUB>$\\frac{\\underline{\\;MnO_2\\;}}{\\;}$2H<SUB>2</SUB>O+O<SUB>2</SUB>↑",
+            "防止高锰酸钾的粉末进入导管"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "327ca64f-d718-4fb4-86b0-e012ad225ac1",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/e2769b78.png\" style=\"vertical-align:middle;FLOAT:right\" />空气是人类赖以生存的必需物质之一．我们可以用如图装置粗略地测定空气中氧气的含量．<br />（1）红磷燃烧的化学方程式为<div class=\"quizPutTag\">4P+5O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$2P<SUB>2</SUB>O<SUB>5</SUB></div>．<br />（2）待红磷熄灭并完全冷却后，打开止水夹，我们观察到的现象为瓶内水平面上升约$\\frac{1}{5}$，通过这一现象可说明空气中氧气占空气体积的<div class=\"quizPutTag\">$\\frac{1}{5}$</div>．<br />（3）实验完毕，观察到红磷有剩余，集气瓶内水平面上升一定高度后，不能继续上升．可以证明集气瓶中剩余的气体不能支持燃烧，且<div class=\"quizPutTag\">不易</div>（填“易”或“不易”）溶于水．<br />（4）农村有句谚语“雷雨发庄稼”，这是由于在放电条件下，空气中的氧气和氮气化合成了二氧化氮，再经过各种复杂的化学变化，最后生成了易被农作物吸收的营养物质．试写出氧气与氮气反应生成二氧化氮的化学方程式<div class=\"quizPutTag\">N<SUB>2</SUB>O+2O<SUB>2</SUB>$\\frac{\\underline{\\;放电\\;}}{\\;}$2NO<SUB>2</SUB></div>．",
+          "Analyse": "（1）根据红磷燃烧的反应写出反应的化学方程式；<br />（2）根据瓶内进入水的体积分析空气中氧气的体积分数；<br />（3）根据实验的现象分析氮气的性质；<br />（4）根据在放电条件下氮气和氧气的反应写出反应的化学方程式．",
+          "Method": "解：（1）红磷燃烧生成了五氧化二磷，反应的化学方程式为：4P+5O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$2P<SUB>2</SUB>O<SUB>5</SUB>．<br />（2）待红磷熄灭并完全冷却后，打开止水夹，我们观察到的现象为瓶内水平面上升约$\\frac{1}{5}$，通过这一现象可说明空气中氧气占空气体积的$\\frac{1}{5}$．<br />（3）实验完毕，观察到红磷有剩余，集气瓶内水平面上升一定高度后，不能继续上升．可以证明集气瓶中剩余的气体不能支持燃烧，且不易溶于水．<br />（4）在放电条件下，空气中的氧气和氮气化合成了二氧化氮，反应的化学方程式是：N<SUB>2</SUB>O+2O<SUB>2</SUB>$\\frac{\\underline{\\;放电\\;}}{\\;}$2NO<SUB>2</SUB>．<br />故答为：（1）4P+5O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$2P<SUB>2</SUB>O<SUB>5</SUB>；（2）$\\frac{1}{5}$；（3）不易；（4）N<SUB>2</SUB>O+2O<SUB>2</SUB>$\\frac{\\underline{\\;放电\\;}}{\\;}$2NO<SUB>2</SUB>．",
+          "Discuss": "本考点考查的是空气中氧气含量的探究实验，是中考的主要考点之一．本题根据实验操作图，回忆实验中现象，由实验中的注意事项，对实验结果进行评价，从而理解该实验的探究目的．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdl****yhcl老师",
+          "Points": [
+            {
+              "Key": "62",
+              "Value": "空气组成的测定"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "4P+5O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$2P<SUB>2</SUB>O<SUB>5</SUB>",
+            "$\\frac{1}{5}$",
+            "不易",
+            "N<SUB>2</SUB>O+2O<SUB>2</SUB>$\\frac{\\underline{\\;放电\\;}}{\\;}$2NO<SUB>2</SUB>"
+          ],
+          "FavTime": 0,
+          "ViewCount": 14,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "513b58ff-74ec-43b8-8983-0546e39ff6cc",
+          "Content": "实验探究是学习化学的重要方法．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/125/42f5a987.png\" style=\"vertical-align:middle\" /><br />（1）为探究分子的性质，做了如图1所示实验．观察到A烧杯内溶液没有明显变化，B烧杯内溶液由无色变为红色．以下结论正确的是<div class=\"quizPutTag\">ABC</div>（填字母）．<br />A、构成氨水的分子在不断的运动<br />B、分子很小，肉眼观察不到<br />C、氨水挥发出的氨气分子易溶于水<br />（2）如图2所示为实验室用直流电电解水的简易装置，结合所学知识完成以下问题．<br />①通电后，观察到试管1生成气体的速度比试管2快，一段时间后停止通电，观察所得气体A与气体B的体积比大约为<div class=\"quizPutTag\">2：1</div>，写出电解水的化学方程式<div class=\"quizPutTag\">2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑</div>．<br />②分别用燃着的木条检验得到的两种气体，观察到气体A燃烧，发出淡蓝色火焰，该气体的化学式为<div class=\"quizPutTag\">H<SUB>2</SUB></div>；气体B能使木条燃烧更旺，该气体的名称为<div class=\"quizPutTag\">氧气</div>．<br />③该实验证明水是由<div class=\"quizPutTag\">氢、氧</div>元素组成．",
+          "Analyse": "（1）根据分子的性质进行解答；<br />（2）根据电解水的现象和结论“正氧负氢，氢2氧1”，分析判断．",
+          "Method": "解：（1）A、由B烧杯内溶液由无色变为红色，可知构成氨水的分子在不断的运动，故A正确；<br />B、分子很小，肉眼观察不到，故B正确；<br />C、氨水挥发出的氨气分子易溶于水，故C正确．<br />故选：ABC；<br />（2）图2所示为实验室用直流电电解水的简易装置，①通电后，观察到试管1生成气体的速度比试管2快，一段时间后停止通电，观察所得气体A与气体B的体积比大约为2：1，电解水生成氢气和氧气，反应的化学方程式为：2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑；故填：2：1；2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑；<br />②分别用燃着的木条检验得到的两种气体，观察到气体A燃烧，发出淡蓝色火焰，说明该气体是氢气，其化学式为H<SUB>2</SUB>；气体B能使木条燃烧更旺，该气体的名称为氧气．故填：H<SUB>2</SUB>；氧气；<br />③电解水生成氢气和氧气，说明该实验证明水是由氢、氧元素组成．故填：氢、氧．",
+          "Discuss": "本题侧重考查了水的组成实验，难度不大，应加强有关水的知识的学习．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdwdxk老师",
+          "Points": [
+            {
+              "Key": "71",
+              "Value": "电解水实验"
+            },
+            {
+              "Key": "BA",
+              "Value": "分子的定义与分子的特性"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "ABC",
+            "2：1",
+            "2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑",
+            "H<SUB>2</SUB>",
+            "氧气",
+            "氢、氧"
+          ],
+          "FavTime": 0,
+          "ViewCount": 7,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "五、解答题（共2小题，满分10分）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "53b55a30-be65-49b5-8a4c-44c6437bdfd6",
+          "Content": "食用醋是厨房必备调料之一，可通过粮食发酵酿造制得．食醋中含有醋酸（学名乙酸，化学式为CH<SUB>3</SUB>COOH），此外还含有乳酸、葡萄糖酸、琥珀酸、氨基酸、糖、钙、磷、铁、维生素B<SUB>2</SUB>等有益于健康的成分．<br />（1）食用醋中含有的钙、磷、铁指的是<div class=\"quizPutTag\">元素</div>（填“原子”、“元素”或“物质”）．<br />（2）乙酸中碳、氢、氧的原子个数为<div class=\"quizPutTag\">1：2：1</div>（填最简比）；<br />（3）乙酸中碳、氢元素的质量比为<div class=\"quizPutTag\">6：1</div>（填最简比）；<br />（4）乙酸中碳、氢、氧三种元素质量分数最高的是<div class=\"quizPutTag\">氧元素</div>．",
+          "Analyse": "（1）食品中的营养物质，例如钠、钙、镁、锌等通常是指元素；<br />（2）根据醋酸的化学式为CH<SUB>3</SUB>COOH可知醋酸分子中碳、氢、氧原子的个数比；<br />（3）根据化合物中元素质量比的计算方法来分析；<br />（4）根据化合物中元素的质量分数=$\\frac{相对原子质量×原子个数}{相对分子质量}$×100%，进行解答．",
+          "Method": "解：（1）食品中的营养物质，例如食用醋中含有的钙、磷、铁等通常是指元素．<br />故填：元素；<br />（2）醋酸的化学式为CH<SUB>3</SUB>COOH可知醋酸分子中碳、氢、氧原子的个数比=2：4：2=1：2：1；<br />故填：1：2：1；<br />（3）乙酸中碳、氢元素的质量比为（12×2）：（1×4）=6：1，<br />故填：6：1；<br />（4）乙酸中碳原子的相对原子质量之和为12×2=24，氢原子的相对原子质量之和为1×4=4，氧原子的相对原子质量之和为16×2=32，氧元素的相对原子质量之和最大，则氧元素的质量分数最高，<br />故填：氧元素．",
+          "Discuss": "本题难度不大，考查同学们结合新信息、灵活运用化学式的含义与有关计算进行分析问题、解决问题的能力．",
+          "Degree": 0.60,
+          "CateID": 7,
+          "CateName": "计算题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "nby5060老师",
+          "Points": [
+            {
+              "Key": "DA",
+              "Value": "元素的质量分数计算"
+            },
+            {
+              "Key": "C1",
+              "Value": "元素的概念"
+            },
+            {
+              "Key": "D9",
+              "Value": "元素质量比的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "191",
+              "Value": "化学式的计算"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "元素",
+            "1：2：1",
+            "6：1",
+            "氧元素"
+          ],
+          "FavTime": 0,
+          "ViewCount": 2,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "c0ee7e0e-2344-425b-b5ad-746f12463f17",
+          "Content": "利用化学方程式计算：实验室通过加热分解氯酸钾固体的方法制备氧气．现有氯酸钾和二氧化锰的混合物27g，加热至质量不再减少，测得剩余固体的质量为17.4g．<br />求：（1）制得氧气的质量为多少？<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （2）原混合物中二氧化锰的质量为多少？",
+          "Analyse": "（1）根据质量守恒定律，生成氧气的质量=反应前物质质量总和-反应后物质质量总和；<br />（2）利用氯酸钾分解的化学方程式和生成氧气的质量，列出比例式，就可计算生成的氯化钾的质量，进而求出二氧化锰的质量即可．",
+          "Method": "解：（1）根据质量守恒定律，生成氧气的质量=27g-17.4g=9.6g；<br />（2）设反应生成的氯化钾的质量为x，<br />2KClO<SUB>3</SUB>$\\frac{\\underline{MnO_2}}{△}$2KCl+3O<SUB>2</SUB>↑<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 149&nbsp;&nbsp;&nbsp;&nbsp; 96<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9.6g<br />$\\frac{149}{x}=\\frac{96}{9.6g}$<br />x=14.9g<br />二氧化锰的质量=17.4g-14.9g=2.5g<br />答：（1）生成氧气的质量为9.6g；<br />（2）原混合物中二氧化锰的质量为2.5g．",
+          "Discuss": "本题主要考查学生利用化学方程式进行计算的能力．首先利用质量守恒定律，计算出生成气体的质量，再结合化学方程式，解决相关问题．",
+          "Degree": 0.60,
+          "CateID": 7,
+          "CateName": "计算题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•天津期中）",
+          "LabelReportID": "008e3a6a-a465-472d-8012-5fb87950dda0",
+          "Teacher": "sdwdxk老师",
+          "Points": [
+            {
+              "Key": "G6",
+              "Value": "根据化学反应方程式的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "193",
+              "Value": "有关化学方程式的计算"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 10,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.608
+}

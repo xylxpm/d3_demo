@@ -13,7 +13,7 @@
 
 <video id=example-video width=960 height=400 class="video-js vjs-default-skin vjs-big-play-centered" controls>
     <source
-            src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net"
+            src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4"
             type="application/x-mpegURL">
 </video>
 
@@ -21,9 +21,13 @@
     (function(window, videojs) {
         var player = window.player = videojs('example-video');
         player.src({
-            src: 'http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net',
+            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4',
             type: 'application/x-mpegURL'
         });
+
+
+        player.playbackRate = 3.0;
+        player.play();
 
     }(window, window.videojs));
 </script>

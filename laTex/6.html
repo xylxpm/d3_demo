@@ -2,34 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2017年山东省高考 数学试卷（理科）</title>
+    <title>2017-2018学年内蒙古包头市昆都仑区包钢四中九年级（上）月考物理试卷（10月份）</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <link rel="stylesheet" href="css.css"/>
-    <script type="text/x-mathjax-config">
+    <script  type="text/x-mathjax-config">
 
         $(function () {
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
 
-            function cutstr(text, start, end) {
-                var s = text.indexOf(start)
-                if (s > -1) {
-                    var text2 = text.substr(s);
-                    var s2 = text2.lastIndexOf(end);
-                    if (s2 > -1) {
-                        result = text2.substr(0, s2 + 1);
-                    } else {
-                        result = '';
-                    }
-                } else {
-                    result = '';
-                }
-                return result;
-            }
-
-            $.getJSON("res/8.json?r=" + Math.random(), function (data) {
-
+            $.getJSON("res/wl20180606-2.json?r=" + Math.random(), function (data) {
                 var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
 
                 for (var i = 0; i < data.Groups.length; i++) {
@@ -37,57 +20,40 @@
 
                     for (var j = 0; j < data.Groups[i].Value.length; j++) {
 
-                        var _word = DBC2SBC(data.Groups[i].Value[j].Content);
+                        <!--var _word = DBC2SBC(data.Groups[i].Value[j].Content);-->
+                        var _word = data.Groups[i].Value[j].Content;
 
-                        if (data.Groups[i].Value[j].Cate != 1) {
+                        if (data.Groups[i].Value[j].CateID != 1) {
 
-                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word + '</div>';
-                            if (data.Groups[i].Value[j].Answers != "") {
-                                _str += '<div class="div">正确答案：' + data.Groups[i].Value[j].Answers + '</div>';
-                            }
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word ;
+                           _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
+                            _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div><br/>';
+                              _str += '</div>';
 
-                        } else if (data.Groups[i].Value[j].Cate == 1) {
+                        } else if (data.Groups[i].Value[j].CateID == 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
                             var sss = '';
                             for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
-
-                                <!--var _s = htmlEncodeByRegExp(DBC2SBC(data.Groups[i].Value[j].Options[k]));-->
-
                                 var _s = data.Groups[i].Value[j].Options[k];
-
                                 _str += '<p class="options">' + String.fromCharCode(64 + parseInt(k) + 1) + '、' + _s + '</p>';
-
-                                <!--if(parseInt(data.Groups[i].Value[j].Answers) == (k+1)){-->
-
                                 sss = "正确答案 " + String.fromCharCode(64 + parseInt(data.Groups[i].Value[j].Answers) + 1);
-
-                                <!--}-->
                             }
-                            _str += '<p>' + sss + '</p>'
-                            _str += '</div>'
 
+                            _str += '<p>' + sss + '</p>'
+                           _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
+                            _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div><br/>';
+                            _str += '</div>';
                         }
                     }
                 }
 
                 $('body').html(_str);
-                $('img').removeAttr('style')
+                <!--$('img').removeAttr('style')-->
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
             })
 
-            function htmlEncodeByRegExp(str) {
-                var s = "";
-                if (str.length == 0) return "";
-                s = str.replace(/&/g, "&amp;");
-                s = s.replace(/</g, "&lt;");
-                s = s.replace(/>/g, "&gt;");
-                s = s.replace(/ /g, "&nbsp;");
-                s = s.replace(/\'/g, "&#39;");
-                s = s.replace(/\"/g, "&quot;");
-                return s;
-            }
 
             function DBC2SBC(str) {
                 var result = "";

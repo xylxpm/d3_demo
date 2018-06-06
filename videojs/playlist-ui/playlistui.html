@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Playlist UI - Default Implementation</title>
+    <link href="../js/video-js.css" rel="stylesheet">
+    <link href="videojs-playlist-ui.vertical.css" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .info {
+            background-color: #eee;
+            border: thin solid #333;
+            border-radius: 3px;
+            margin: 0 0 20px;
+            padding: 0 5px;
+        }
+
+        .player-container {
+            background: #1a1a1a;
+            overflow: auto;
+            width: 900px;
+            margin: 0 0 20px;
+        }
+
+        .video-js {
+            float: left;
+        }
+
+        .vjs-playlist,
+        .my-custom-class,
+        #my-custom-element {
+            float: left;
+            width: 300px;
+        }
+
+        .vjs-playlist.vjs-playlist-horizontal {
+            float: none;
+            height: 120px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<a href="https://github.com/brightcove/videojs-playlist-ui">https://github.com/brightcove/videojs-playlist-ui</a>
+<a href="https://github.com/brightcove/videojs-playlist">https://github.com/brightcove/videojs-playlist</a>
+
+<div class="player-container">
+    <video
+            id="video"
+            class="video-js"
+            height="300"
+            width="600"
+            controls>
+        <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+        <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+    </video>
+
+    <div class="vjs-playlist">
+        <!--
+          The contents of this element will be filled based on the
+          currently loaded playlist
+        -->
+    </div>
+</div>
+
+<script src="../js/video7.0.3.js"></script>
+<script src="videojs-playlist.js"></script>
+<script src="videojs-playlist-ui.js"></script>
+<script>
+    var player = videojs('video');
+    player.playlist([{
+        name: 'Disney\'s Oceans 1',
+        description: '1111111',
+        duration: 45,
+        sources: [
+            { src: 'http://vjs.zencdn.net/v/oceans.mp4', type: 'video/mp4' },
+            { src: 'http://vjs.zencdn.net/v/oceans.webm', type: 'video/webm' },
+        ],
+        // you can use <picture> syntax to display responsive images
+        thumbnail: [
+            {
+                srcset: 'oceans.jpg',
+                type: 'image/jpeg',
+                media: '(min-width: 400px;)'
+            },
+            {
+                src: 'oceans-low.jpg'
+            }
+        ]
+    },
+        {
+            name: 'Disney\'s Oceans 2',
+            description: '222222222',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?2', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?2', type: 'video/webm' },
+            ],
+            // you can use <picture> syntax to display responsive images
+            thumbnail: [
+                {
+                    srcset: 'oceans.jpg',
+                    type: 'image/jpeg',
+                    media: '(min-width: 400px;)'
+                },
+                {
+                    src: 'oceans-low.jpg'
+                }
+            ]
+        },
+        {
+            name: 'Disney\'s Oceans 3',
+            description: '33333333',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?3', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?3', type: 'video/webm' },
+            ],
+            // you can use <picture> syntax to display responsive images
+            thumbnail: [
+                {
+                    srcset: 'oceans.jpg',
+                    type: 'image/jpeg',
+                    media: '(min-width: 400px;)'
+                },
+                {
+                    src: 'oceans-low.jpg'
+                }
+            ]
+        }, {
+            name: 'Sintel (No Thumbnail)',
+            description: '4444444',
+            sources: [
+                { src: 'http://media.w3.org/2010/05/sintel/trailer.mp4', type: 'video/mp4' },
+                { src: 'http://media.w3.org/2010/05/sintel/trailer.webm', type: 'video/webm' },
+                { src: 'http://media.w3.org/2010/05/sintel/trailer.ogv', type: 'video/ogg' }
+            ],
+            thumbnail: false
+        },
+        {
+            sources: []
+        }
+        // ,
+        // This is a really underspecified video to demonstrate the
+        // behavior when optional parameters are missing. You'll get better
+        // results with more video metadata!
+        // {
+        //     name: 'Invalid Source',
+        //     sources: [{
+        //         src: 'Invalid'
+        //     }]
+        // }
+        ]);
+    // Initialize the playlist-ui plugin with no option (i.e. the defaults).
+    player.playlistUi();
+</script>
+</body>
+</html>

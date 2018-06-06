@@ -1,0 +1,1133 @@
+﻿{
+  "ID": "0bef31af-fa01-498b-9393-0730ce199669",
+  "Title": "2015-2016学年山东省菏泽市定陶县九年级（上）期中数学试卷",
+  "Year": 2015,
+  "Times": 0,
+  "Score": 120,
+  "EditionID": 15,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 7,
+  "SourceName": "期中试题",
+  "RegionID": "1081708",
+  "RegionNames": [
+    "山东省",
+    "菏泽市",
+    "定陶县"
+  ],
+  "ViewCount": 9917,
+  "Date": "2015-12-03T00:00:00",
+  "Subject": 20,
+  "EditionName": "北师大新版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "",
+  "Groups": [
+    {
+      "Key": "一、精挑细选，火眼金睛（每小题3分，共24分）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "64a5c051-0c70-4e8f-a619-4502e3ad36d4",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/16/2d50267d.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，已知BC∥DE，则下列说法不正确的是（　　）",
+          "Analyse": "直接利用位似图形的性质与定义分别分析得出答案．",
+          "Method": "解：∵BC∥DE，且CD与BF相交于点A，<br />∴A、两个三角形是位似图形，正确，不合题意；<br />B、点A是两个三角形的位似中心，正确，不合题意；<br />C、AE：AB是相似比，故此选项错误，符合题意；<br />D、点B与点E，点C与点D是对应位似点，正确，不合题意；<br />故选：C．",
+          "Discuss": "此题主要考查了位似变换，正确把握位似图形的性质是解题关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•七里河区校级期末）",
+          "LabelReportID": "bfa9ae11-0463-4649-8065-b2511e232657",
+          "Teacher": "gbl210老师",
+          "Points": [
+            {
+              "Key": "SC",
+              "Value": "位似变换"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "两个三角形是位似图形",
+            "点A是两个三角形的位似中心",
+            "AE：AD是相似比",
+            "点B与点E，点C与点D是对应位似点"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 235,
+          "DownCount": 6,
+          "RealCount": 2,
+          "PaperCount": 129,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "42590bc8-a21c-41d2-860b-67deae673fa8",
+          "Content": "下列说法正确的是（　　）",
+          "Analyse": "根据相似图形的定义，对选项一一分析，排除错误答案．",
+          "Method": "解：A、对应边都成比例的多边形，属于形状不唯一确定的图形，故错误；<br />B、对应角都相等的多边形，属于形状不唯一确定的图形，故错误；<br />C、边数相同的正多边形，形状相同，但大小不一定相同，故正确；<br />D、矩形属于形状不唯一确定的图形，故错误．<br />故选：C．",
+          "Discuss": "本题考查相似变换的定义，即图形的形状相同，但大小不一定相同的是相似形．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2012春•工业园区期末）",
+          "LabelReportID": "5fd4cd62-16d3-4e00-946a-6e3177a76905",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "S5",
+              "Value": "相似图形"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "121",
+              "Value": "几何图形问题"
+            }
+          ],
+          "Options": [
+            "对应边都成比例的多边形相似",
+            "对应角都相等的多边形相似",
+            "边数相同的正多边形相似",
+            "矩形都相似"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 17,
+          "ViewCount": 890,
+          "DownCount": 18,
+          "RealCount": 20,
+          "PaperCount": 176,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "31c4e558-360a-4cfc-a6a9-fef6d4add9bf",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201306/104/6ab3be20.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，点A，B，C，D的坐标分别是（1，7），（1，1），（4，1），（6，1），以C，D，E为顶点的三角形与△ABC相似，则点E的坐标不可能是（　　）",
+          "Analyse": "根据相似三角形的判定：两边对应成比例且夹角相等的两三角形相似即可判断．",
+          "Method": "解：△ABC中，∠ABC=90°，AB=6，BC=3，AB：BC=2．<br />A、当点E的坐标为（6，0）时，∠CDE=90°，CD=2，DE=1，则AB：BC=CD：DE，△CDE∽△ABC，故本选项不符合题意；<br />B、当点E的坐标为（6，3）时，∠CDE=90°，CD=2，DE=2，则AB：BC≠CD：DE，△CDE与△ABC不相似，故本选项符合题意；<br />C、当点E的坐标为（6，5）时，∠CDE=90°，CD=2，DE=4，则AB：BC=DE：CD，△EDC∽△ABC，故本选项不符合题意；<br />D、当点E的坐标为（4，2）时，∠ECD=90°，CD=2，CE=1，则AB：BC=CD：CE，△DCE∽△ABC，故本选项不符合题意；<br />故选：B．",
+          "Discuss": "本题考查了相似三角形的判定，难度中等．牢记判定定理是解题的关键．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•宜昌）",
+          "LabelReportID": "5082a1fa-7f0e-464e-bcd7-0d8cb930d7ec",
+          "Teacher": "HJJ老师",
+          "Points": [
+            {
+              "Key": "S8",
+              "Value": "相似三角形的判定"
+            },
+            {
+              "Key": "D5",
+              "Value": "坐标与图形性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "（6，0）",
+            "（6，3）",
+            "（6，5）",
+            "（4，2）"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 60,
+          "ViewCount": 3310,
+          "DownCount": 38,
+          "RealCount": 87,
+          "PaperCount": 886,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "2a0effd0-cd24-4cfb-9df6-aae64825e2e0",
+          "Content": "在△ABC中，∠C=90°，cosA=$\\frac{3}{5}$，那么sinA的值等于（　　）",
+          "Analyse": "根据公式cos<SUP>2</SUP>A+sin<SUP>2</SUP>A=1解答．",
+          "Method": "解：∵cos<SUP>2</SUP>A+sin<SUP>2</SUP>A=1，cosA=$\\frac{3}{5}$，<br />∴sin<SUP>2</SUP>A=1-$\\frac{9}{25}$=$\\frac{16}{25}$，<br />∴sinA=$\\frac{4}{5}$．<br />故选：B．",
+          "Discuss": "本题考查公式cos<SUP>2</SUP>A+sin<SUP>2</SUP>A=1的利用．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2011秋•房山区期末）",
+          "LabelReportID": "c7fc8770-36b9-4025-a80d-d6c59ffbbeb6",
+          "Teacher": "星期八老师",
+          "Points": [
+            {
+              "Key": "T3",
+              "Value": "同角三角函数的关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "$\\frac{3}{5}$",
+            "$\\frac{4}{5}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{4}{3}$"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 1,
+          "ViewCount": 543,
+          "DownCount": 10,
+          "RealCount": 9,
+          "PaperCount": 96,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "836ce572-bf52-4564-bb09-6b2e52bf960f",
+          "Content": "△ABC中，∠A，∠B均为锐角，且有$|tanB-\\sqrt{3}|$+（2sinA-$\\sqrt{3}$）<SUP>2</SUP>=0，则△ABC是（　　）",
+          "Analyse": "一个数的绝对值以及平方都是非负数，两个非负数的和是0，因而每个都是0，就可以求出tanB，以及sinA的值．进而得到∠A，∠B的度数．判断△ABC的形状．",
+          "Method": "解：∵$|tanB-\\sqrt{3}|$+（2sinA-$\\sqrt{3}$）<SUP>2</SUP>=0，<br />根据非负数的性质，tanB=$\\sqrt{3}$；2sinA-$\\sqrt{3}$=0．<br />∴∠B=60°，∠A=60°．<br />则∠C=60°，△ABC为等边三角形．<br />故选：D．",
+          "Discuss": "本题考查特殊角三角函数值的计算，特殊角三角函数值计算在中考中经常出现，题型以选择题、填空题为主．<br />【相关链接】非负数的性质（之一）：有限个非负数的和为零，那么每一个加数也必为零，即若a<SUB>1</SUB>，a<SUB>2</SUB>，…，a<SUB>n</SUB>为非负数，且a<SUB>1</SUB>+a<SUB>2</SUB>+…+a<SUB>n</SUB>=0，则必有a<SUB>1</SUB>=a<SUB>2</SUB>=…=a<SUB>n</SUB>=0．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2010•吉安县校级模拟）",
+          "LabelReportID": "ac8c025a-6863-4cbf-a749-05ec3655a810",
+          "Teacher": "CJX老师",
+          "Points": [
+            {
+              "Key": "T5",
+              "Value": "特殊角的三角函数值"
+            },
+            {
+              "Key": "16",
+              "Value": "非负数的性质：绝对值"
+            },
+            {
+              "Key": "1F",
+              "Value": "非负数的性质：偶次方"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "直角（不等腰）三角形",
+            "等腰直角三角形",
+            "等腰（不等边）三角形",
+            "等边三角形"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 2,
+          "ViewCount": 678,
+          "DownCount": 11,
+          "RealCount": 26,
+          "PaperCount": 55,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "2b38460f-3fdf-4091-a2a7-ca2c861269d1",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201406/189/516dddb0.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，⊙O是△ABC的外接圆，连接OA、OB，∠OBA=50°，则∠C的度数为（　　）",
+          "Analyse": "根据三角形的内角和定理求得∠AOB的度数，再进一步根据圆周角定理求解．",
+          "Method": "解：∵OA=OB，∠OBA=50°，<br />∴∠OAB=∠OBA=50°，<br />∴∠AOB=180°-50°×2=80°，<br />∴∠C=$\\frac{1}{2}$∠AOB=40°．<br />故选：B．",
+          "Discuss": "此题综合运用了三角形的内角和定理以及圆周角定理．一条弧所对的圆周角等于它所对的圆心角的一半．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•山西）",
+          "LabelReportID": "b75e13e0-a277-48e1-8676-2e8c97b836af",
+          "Teacher": "dbz1018老师",
+          "Points": [
+            {
+              "Key": "M5",
+              "Value": "圆周角定理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "121",
+              "Value": "几何图形问题"
+            }
+          ],
+          "Options": [
+            "30°",
+            "40°",
+            "50°",
+            "80°"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 27,
+          "ViewCount": 2752,
+          "DownCount": 27,
+          "RealCount": 79,
+          "PaperCount": 885,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "1f62b0f9-eee2-4d77-a538-4add79d5d15b",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201406/158/9754e0a8.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，在△ABC中，∠ACB=90°，∠ABC=30°，AB=2．将△ABC绕直角顶点C逆时针旋转60°得△A′B′C，则点B转过的路径长为（　　）",
+          "Analyse": "利用锐角三角函数关系得出BC的长，进而利用旋转的性质得出∠BCB′=60°，再利用弧长公式求出即可．",
+          "Method": "解：∵在△ABC中，∠ACB=90°，∠ABC=30°，AB=2，<br />∴cos30°=$\\frac{BC}{AB}$，<br />∴BC=ABcos30°=2×$\\frac{\\sqrt{3}}{2}$=$\\sqrt{3}$，<br />∵将△ABC绕直角顶点C逆时针旋转60°得△A′B′C，<br />∴∠BCB′=60°，<br />∴点B转过的路径长为：$\\frac{60π×\\sqrt{3}}{180}$=$\\frac{\\sqrt{3}}{3}$π．<br />故选：B．",
+          "Discuss": "此题主要考查了旋转的性质以及弧长公式应用，得出点B转过的路径形状是解题关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•兰州）",
+          "LabelReportID": "52ef0328-031f-43ab-9a8d-73aebc58f784",
+          "Teacher": "sd2011老师",
+          "Points": [
+            {
+              "Key": "R2",
+              "Value": "旋转的性质"
+            },
+            {
+              "Key": "MN",
+              "Value": "弧长的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "121",
+              "Value": "几何图形问题"
+            }
+          ],
+          "Options": [
+            "$\\frac{π}{3}$",
+            "$\\frac{\\sqrt{3}π}{3}$",
+            "$\\frac{2π}{3}$",
+            "π"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 40,
+          "ViewCount": 3627,
+          "DownCount": 37,
+          "RealCount": 66,
+          "PaperCount": 1691,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "cb4d8910-313a-4d48-b330-b8a8bfee69f5",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201112/74/0540dc82.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，P为⊙O外一点，PA、PB分别切⊙O于A、B，CD切⊙O于点E，分别交PA、PB于点C、D，若PA=5，则△PCD的周长为（　　）",
+          "Analyse": "由切线长定理可得PA=PB，CA=CE，DE=DB，由于△PCD的周长=PC+CE+ED+PD，所以△PCD的周=PC+CA+BD+PD=PA+PB=2PA，故可求得三角形的周长．",
+          "Method": "解：∵PA、PB为圆的两条相交切线，<br />∴PA=PB，<br />同理可得：CA=CE，DE=DB．<br />∵△PCD的周长=PC+CE+ED+PD，<br />∴△PCD的周长=PC+CA+BD+PD=PA+PB=2PA，<br />∴△PCD的周长=10，<br />故选：D．",
+          "Discuss": "本题考查了切线的性质以及切线长定理的运用．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2017秋•防城港期末）",
+          "LabelReportID": null,
+          "Teacher": "127078老师",
+          "Points": [
+            {
+              "Key": "MG",
+              "Value": "切线长定理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [
+            "5",
+            "7",
+            "8",
+            "10"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 25,
+          "ViewCount": 1952,
+          "DownCount": 79,
+          "RealCount": 54,
+          "PaperCount": 2424,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、认真填写，试一试自己的身手（每小题3分，共18分）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "739005e9-9bcc-457f-8ccf-12b787556f5c",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/83/2190bb3e.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在△ABC中，P是AC上一点，连接BP．要使△ABP∽△ACB，则必须有∠ABP=<div class=\"quizPutTag\">∠C</div>或∠APB=<div class=\"quizPutTag\">∠ABC</div>或$\\frac{AB}{AP}$=<div class=\"quizPutTag\">$\\frac{AC}{AB}$</div>．",
+          "Analyse": "要使△ABP∽△ACB，已知有一组公共角，则根据两组对应边的比相等且相应的夹角相等的两个三角形相似或有两组角对应相等的两个三角形相似来进行判定．",
+          "Method": "解：要使△ABP∽△ACB，已知∠A=∠A，则必须有∠ABP=∠C或∠ABP=∠ABC或AB：AP=AC：AB．",
+          "Discuss": "考查学生对相似三角形的判定方法的理解及运用．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2005•十堰）",
+          "LabelReportID": "e4ef346e-1d3a-4c7d-ad69-3033cbfecb7a",
+          "Teacher": "sch老师",
+          "Points": [
+            {
+              "Key": "S8",
+              "Value": "相似三角形的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "26 ",
+              "Value": "开放型"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "∠C",
+            "∠ABC",
+            "$\\frac{AC}{AB}$"
+          ],
+          "FavTime": 3,
+          "ViewCount": 436,
+          "DownCount": 12,
+          "RealCount": 4,
+          "PaperCount": 198,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "d8e9dc0c-70de-4bcc-828d-faf219ef4699",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201509/114/fcdcf220.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，矩形ABCD中，AB=2，BC=3，E是AD的中点，CF⊥BE于点F，则CF=<div class=\"quizPutTag\">2.4</div>．",
+          "Analyse": "根据相似三角形的判定与性质得出△ABE∽△FCB，得出$\\frac{AB}{FC}$=$\\frac{BE}{BC}$，进而得出答案．",
+          "Method": "解：∵AD∥BC，<br />∴∠AEB=∠CBF，<br />∵∠A=90°，∠CFB=90°，<br />∴△ABE∽△FCB，<br />∴$\\frac{AB}{FC}$=$\\frac{BE}{BC}$，<br />∵AB=2，BC=3，E是AD的中点，<br />∴BE=2.5，<br />∴$\\frac{2}{FC}$=$\\frac{2.5}{3}$，<br />解得：FC=2.4．<br />故答案为：2.4．",
+          "Discuss": "此题主要考查了相似三角形的判定与性质，根据已知得出△ABE∽△FCB是解题关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•郓城县期末）",
+          "LabelReportID": null,
+          "Teacher": "lantin老师",
+          "Points": [
+            {
+              "Key": "S9",
+              "Value": "相似三角形的判定与性质"
+            },
+            {
+              "Key": "LB",
+              "Value": "矩形的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "2.4"
+          ],
+          "FavTime": 0,
+          "ViewCount": 268,
+          "DownCount": 3,
+          "RealCount": 5,
+          "PaperCount": 70,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "86879d1a-59cb-4215-9292-6af4ec21742b",
+          "Content": "在Rt△ABC中，∠C=90°，a=1，b=2，则cosA=<div class=\"quizPutTag\">$\\frac{2\\sqrt{5}}{5}$</div>．",
+          "Analyse": "首先求得c的长度，然后由余弦函数的定义求解即可．",
+          "Method": "解：在Rt△ABC中，由勾股定理得：c=$\\sqrt{{a}^{2}+{b}^{2}}$=$\\sqrt{{2}^{2}+{1}^{2}}$=$\\sqrt{5}$．<br />cosA=$\\frac{b}{c}$=$\\frac{2\\sqrt{5}}{5}$．<br />故答案为：$\\frac{2\\sqrt{5}}{5}$．",
+          "Discuss": "本题主要考查的是勾股定理和锐角三角函数的定义，掌握余弦函数的定义是解题的关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2015秋•定陶县期中）",
+          "LabelReportID": "0bef31af-fa01-498b-9393-0730ce199669",
+          "Teacher": "梁宝华老师",
+          "Points": [
+            {
+              "Key": "T1",
+              "Value": "锐角三角函数的定义"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "$\\frac{2\\sqrt{5}}{5}$"
+          ],
+          "FavTime": 0,
+          "ViewCount": 159,
+          "DownCount": 0,
+          "RealCount": 3,
+          "PaperCount": 85,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "b26b00b8-fe78-44ca-8929-a84cd971c9d1",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201507/134/a9edc663.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，为了测得电视塔的高度AB，在D处用高为1米的测角仪CD，测得电视塔顶端A的仰角为30°，再向电视塔方向前进100米达到F处，又测得电视塔顶端A的仰角为60°，则这个电视塔的高度AB（单位：米）为<div class=\"quizPutTag\">50$\\sqrt{3}$+1</div>米．",
+          "Analyse": "设AG=x，分别在Rt△AEG和Rt△ACG中，表示出CG和GE的长度，然后根据DF=100m，求出x的值，继而可求出电视塔的高度AH．",
+          "Method": "解：设AG=x，<br />在Rt△AEG中，<br />∵tan∠AEG=$\\frac{AG}{EG}$，<br />∴EG=$\\frac{AG}{\\sqrt{3}}$=$\\frac{\\sqrt{3}}{3}$x，<br />在Rt△ACG中，<br />∵tan∠ACG=$\\frac{AG}{CG}$，<br />∴CG=$\\frac{x}{tan30°}$=$\\sqrt{3}$x，<br />∴$\\sqrt{3}$x-$\\frac{\\sqrt{3}}{3}$x=100，<br />解得：x=50$\\sqrt{3}$．<br />则AB=50$\\sqrt{3}$+1（米）．<br />故答案为：50$\\sqrt{3}$+1．",
+          "Discuss": "本题考查了解直角三角形的应用，关键是根据仰角构造直角三角形，利用三角函数求解，注意利用两个直角三角形的公共边求解是解答此类题型的常用方法．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•相城区期末）",
+          "LabelReportID": "1ff2e981-f532-4805-b88b-98358ea9e1b2",
+          "Teacher": "WW888老师",
+          "Points": [
+            {
+              "Key": "TA",
+              "Value": "解直角三角形的应用-仰角俯角问题"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "50$\\sqrt{3}$+1"
+          ],
+          "FavTime": 6,
+          "ViewCount": 385,
+          "DownCount": 6,
+          "RealCount": 3,
+          "PaperCount": 132,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "126950b0-8c02-49bd-8e0d-bfab378872de",
+          "Content": "一个点到圆上的最近距离为6cm，最远距离为10cm，则圆的半径是<div class=\"quizPutTag\">2cm或8cm</div>．",
+          "Analyse": "分类讨论：点在圆内，点在圆外，根据线段的和差，可得直径，根据直径与半径的关系，可得答案．",
+          "Method": "解：点在圆内，圆的直径为6+10=16cm，半径为8cm，<br />点在圆外圆的直径为10-6=4cm，半径为2cm；<br />故答案为：2cm或8cm．",
+          "Discuss": "本题考查了对点与圆的位置关系的判断．关键要记住若半径为r，点到圆心的距离为d，则有：当d＞r时，点在圆外；当d=r时，点在圆上，当d＜r时，点在圆内．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2015秋•定陶县期中）",
+          "LabelReportID": "0bef31af-fa01-498b-9393-0730ce199669",
+          "Teacher": "230****0618老师",
+          "Points": [
+            {
+              "Key": "M8",
+              "Value": "点与圆的位置关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "2cm或8cm"
+          ],
+          "FavTime": 1,
+          "ViewCount": 225,
+          "DownCount": 2,
+          "RealCount": 1,
+          "PaperCount": 112,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "975aa903-1f92-4a20-9815-a7e8b8d8e691",
+          "Content": "过⊙O内一点M的最长弦为10&nbsp;cm，最短弦长为8&nbsp;cm，那么OM的长为<div class=\"quizPutTag\">3</div>cm．",
+          "Analyse": "根据垂径定理及勾股定理即可求出．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/22/b0cfb959.png\" style=\"vertical-align:middle;FLOAT:right\" />解：由已知可知，最长的弦是过M的直径AB<br />最短的是垂直平分直径的弦CD<br />已知AB=10cm，CD=8cm<br />则OD=5cm，MD=4cm<br />由勾股定理得OM=3cm．",
+          "Discuss": "此题主要考查学生对垂径定理及勾股定理的运用．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 3,
+          "SourceName": "自主招生",
+          "Label": "（2010•青羊区校级自主招生）",
+          "LabelReportID": "80a5556c-2c98-4551-85fe-664d30ef2eca",
+          "Teacher": "ln_86老师",
+          "Points": [
+            {
+              "Key": "M2",
+              "Value": "垂径定理"
+            },
+            {
+              "Key": "KQ",
+              "Value": "勾股定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 16,
+          "ViewCount": 1167,
+          "DownCount": 11,
+          "RealCount": 28,
+          "PaperCount": 68,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、认真解答，一定要细心呦！（本题共5小题，满分38分，要写出必要的计算、推理、解答过程）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "475852c5-9fef-4e13-819f-5ed264f6d0ec",
+          "Content": "计算：<br />（1）$\\sqrt{2}$sin60°cos45°+2tan60°-（$\\frac{1}{3}$）<sup>-1</sup>+（-2）<sup>2</sup>×（-1）<sup>0</sup>．<br />（2）2<sup>-1</sup>+（π-3.14）<sup>0</sup>+sin60°-|-$\\frac{\\sqrt{3}}{2}$|",
+          "Analyse": "（1）原式第一项利用特殊角的三角函数值计算，第二项利用负整数指数幂法则计算，最后一项利用零指数幂法则计算即可得到结果；<br />（2）原式第一项利用负整数指数幂法则计算，第二项利用零指数幂法则计算，第三项利用特殊角的三角函数值计算，最后一项利用绝对值的代数意义化简，计算即可得到结果．",
+          "Method": "解：（1）原式=$\\sqrt{2}$×$\\frac{\\sqrt{3}}{2}$×$\\frac{\\sqrt{2}}{2}$+2$\\sqrt{3}$-3+4=$\\frac{5}{2}$$\\sqrt{3}$-1；<br />（2）原式=$\\frac{1}{2}$+1+$\\frac{\\sqrt{3}}{2}$-$\\frac{\\sqrt{3}}{2}$=$\\frac{3}{2}$．",
+          "Discuss": "此题考查了实数的运算，熟练掌握运算法则是解本题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2015秋•定陶县期中）",
+          "LabelReportID": "0bef31af-fa01-498b-9393-0730ce199669",
+          "Teacher": "sks老师",
+          "Points": [
+            {
+              "Key": "2C",
+              "Value": "实数的运算"
+            },
+            {
+              "Key": "6E",
+              "Value": "零指数幂"
+            },
+            {
+              "Key": "6F",
+              "Value": "负整数指数幂"
+            },
+            {
+              "Key": "T5",
+              "Value": "特殊角的三角函数值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "511",
+              "Value": "实数"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 81,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "e34f7c08-2383-486b-8156-d5d2b781d889",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/59/481d642a.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，D是△ABC的边AC上的一点，连接BD，已知∠ABD=∠C，AB=6，AD=4，求线段CD的长．",
+          "Analyse": "由已知角相等，加上公共角，得到三角形ABD与三角形ACB相似，由相似得比例，将AB与AD长代入即可求出CD的长．",
+          "Method": "解：在△ABD和△ACB中，∠ABD=∠C，∠A=∠A，<br />∴△ABD∽△ACB，<br />∴$\\frac{AB}{AC}$=$\\frac{AD}{AB}$，<br />∵AB=6，AD=4，<br />∴AC=$\\frac{A{B}^{2}}{AD}$=$\\frac{36}{4}$=9，<br />则CD=AC-AD=9-4=5．",
+          "Discuss": "此题考查了相似三角形的判定与性质，熟练掌握相似三角形的判定与性质是解本题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•永州）",
+          "LabelReportID": "c4c2c568-f032-4d7d-acf2-9c587a461f55",
+          "Teacher": "sks老师",
+          "Points": [
+            {
+              "Key": "S9",
+              "Value": "相似三角形的判定与性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 39,
+          "ViewCount": 5947,
+          "DownCount": 43,
+          "RealCount": 69,
+          "PaperCount": 1426,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "2fdbda08-c4a8-4b88-80d2-afdb7adf4154",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201406/196/4794efb5.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在⊙O中，弦CD垂直于直径AB于点E，若∠BAD=30°，且BE=2．<br />（1）求⊙O半径；<br />（2）求弦CD的长．",
+          "Analyse": "（1）连接OD，设⊙O的半径为r，则OE=r-2，再根据圆周角定理得出∠DOE=60°，由直角三角形的性质可知OD=2OE，由此可得出r的长；<br />（2）再Rt△OED中根据勾股定理求出DE的长，进而可得出结论．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/231/6bd5b81c.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：（1）连接OD，设⊙O的半径为r，则OE=r-2，<br />∵∠BAD=30°，<br />∴∠DOE=60°，<br />∵CD⊥AB，<br />∴CD=2DE，∠ODE=30°，<br />∴OD=2OE，即r=2（r-2），解得r=4；<br /><br />（2）∵由（1）知r=4，BE=2，<br />∴OE=4-2=2，<br />∴DE=$\\sqrt{{OD}^{2}-{OE}^{2}}$=$\\sqrt{{4}^{2}-{2}^{2}}$=2$\\sqrt{3}$，<br />∴CD=2DE=4$\\sqrt{3}$．",
+          "Discuss": "本题考查的是垂径定理，熟知平分弦的直径平分这条弦，并且平分弦所对的两条弧是解答此题的关键．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2014秋•包河区期末）",
+          "LabelReportID": "bebe0cd1-d86b-4df8-b3a6-049306f3bbd0",
+          "Teacher": "CJX老师",
+          "Points": [
+            {
+              "Key": "M2",
+              "Value": "垂径定理"
+            },
+            {
+              "Key": "KQ",
+              "Value": "勾股定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 9,
+          "ViewCount": 596,
+          "DownCount": 15,
+          "RealCount": 3,
+          "PaperCount": 307,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "ff0b332e-177a-4e2a-b284-56857bf3cb67",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/12/c92b8f90.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图：学校旗杆附近有一斜坡．小明准备测量学校旗杆AB的高度，他发现当斜坡正对着太阳时，旗杆AB的影子恰好落在水平地面和斜坡的坡面上，此时小明测得水平地面上的影长BC=20米，斜坡坡面上的影长CD=8米，太阳光线AD与水平地面成30°角，斜坡CD与水平地面BC成30°的角，求旗杆AB的高度．",
+          "Analyse": "延长AD交BC于E点，则BE即为AB的影长．然后根据物长和影长的比值计算即可．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/56/0708464e.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：延长AD交BC于E点，则∠AEB=30°<br />作DQ⊥BC于Q<br />在Rt△DCQ中，∠DCQ=30°，DC=8<br />∴DQ=4，QC=8cos30°=$4\\sqrt{3}$<br />在Rt△DQE中，QE=$\\frac{QD}{tan30°}$=4$\\sqrt{3}$（米）<br />∴BE=BC+CQ+QE=20+8$\\sqrt{3}$（米）<br />在Rt△ABE中，AB=BEtan30°=$\\frac{20\\sqrt{3}+24}{3}$（米）．<br />答：旗杆的高度约为$\\frac{20\\sqrt{3}+24}{3}$米．",
+          "Discuss": "本题查了解直角三角形的应用．解决本题的关键是作出辅助线得到AB的影长．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2012•包河区一模）",
+          "LabelReportID": "bc7632fd-8674-4cbe-a6c3-666d59ee638c",
+          "Teacher": "sjzx老师",
+          "Points": [
+            {
+              "Key": "T9",
+              "Value": "解直角三角形的应用-坡度坡角问题"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 16,
+          "ViewCount": 1046,
+          "DownCount": 20,
+          "RealCount": 9,
+          "PaperCount": 82,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "a662c779-2097-48ff-88d9-2dad729cf3cf",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/73/7086ceea.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在△ABC中，∠ACB=90°，D是AB的中点，以DC为直径的⊙O交△ABC的边于G，F，E点．<br />求证：（1）F是BC的中点；<br />（2）∠A=∠GEF．",
+          "Analyse": "（1）因为在直角△ABC中，D是AB的中点，所以BD=DC，由因为CD是⊙O的直径，所以DF⊥BC；根据等腰三角形的性质可证，F是BC的中点；<br />（2）根据中位线定理，可证∠A=∠BDF；再由圆周角定理得∠BDF=∠GEF，所以∠A=∠GEF，即证．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/73/f7ead4fa.png\" style=\"vertical-align:middle;FLOAT:right;\" />证明一：<br />（1）连接DF，∵∠ACB=90°，D是AB的中点，<br />∴BD=DC=$\\frac{1}{2}$AB，（2分）<br />∵DC是⊙O的直径，<br />∴DF⊥BC，（4分）<br />∴BF=FC，即F是BC的中点；（5分）<br /><br />（2）∵D，F分别是AB，BC的中点，<br />∴DF∥AC，（6分）<br />∴∠A=∠BDF，（7分）<br />∵∠BDF=∠GEF（圆周角定理），（8分）<br />∴∠A=∠GEF．（9分）<br /><br />证明二：<br />（1）连接DF，DE，<br />∵DC是⊙O直径，<br />∴∠DEC=∠DFC=90°．（1分）<br />∵∠ECF=90°，<br />∴四边形DECF是矩形．<br />∴EF=CD，DF=EC．（2分）<br />∵D是AB的中点，∠ACB=90°，<br />∴EF=CD=BD=$\\frac{1}{2}$AB．（3分）<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/73/a5f06a78.png\" style=\"vertical-align:middle;FLOAT:right;\" /><br />∴△DBF≌△EFC．（4分）<br />∴BF=FC，即F是BC的中点．（5分）<br /><br />（2）∵△DBF≌△EFC，<br />∴∠BDF=∠FEC，∠B=∠EFC．（6分）<br />∵∠ACB=90°（也可证AB∥EF，得∠A=∠FEC），<br />∴∠A=∠FEC．（7分）<br />∵∠FEG=∠BDF（同弧所对的圆周角相等 ），（8分）<br />∴∠A=∠GEF．（9分）<br />（此题证法较多，大纲卷参考答案中，又给出了两种不同的证法，可供参考．）",
+          "Discuss": "本题考查的是直角三角形的性质，中位线的性质，圆周角性质．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2007•鄂尔多斯）",
+          "LabelReportID": "dcbccfd9-45dc-4d8a-9898-6691d79a9020",
+          "Teacher": "117173老师",
+          "Points": [
+            {
+              "Key": "M5",
+              "Value": "圆周角定理"
+            },
+            {
+              "Key": "KD",
+              "Value": "全等三角形的判定与性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "14 ",
+              "Value": "证明题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 54,
+          "ViewCount": 3009,
+          "DownCount": 23,
+          "RealCount": 23,
+          "PaperCount": 146,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "四、综合解答题（本题共4小题，满分40分，要写出必要的计算、推理、解答过程）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "dc28ebb8-a1db-43ba-9b45-4db15c1e5d13",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/163/434f8b17.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，矩形ABCD为台球桌面，AD=260cm，AB=130cm，球目前在E点位置，AE=60cm．如果小丁瞄准BC边上的点F将球打过去，经过反弹后，球刚好弹到D点位置．<br />（1）求证：△BEF∽△CDF；<br />（2）求CF的长．",
+          "Analyse": "（1）利用“两角法”证得这两个三角形相似；<br />（2）由（1）中相似三角形的对应边成比例来求线段CF的长度．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/163/434f8b17.png\" style=\"vertical-align:middle;FLOAT:right;\" />（1）证明：如图，在矩形ABCD中：∠DFC=∠EFB，∠EBF=∠FCD=90°，<br />∴△BEF∽△CDF；<br /><br />（2）解：∵由（1）知，△BEF∽△CDF．<br />∴$\\frac{BE}{CD}$=$\\frac{BF}{CF}$，即$\\frac{70}{130}$=$\\frac{260-CF}{CF}$，<br />解得：CF=169．<br />即：CF的长度是169cm．",
+          "Discuss": "本题考查了相似三角形的应用．此题利用了“相似三角形的对应边成比例”推知所求线段CF与已知线段间的数量关系的．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•岳阳）",
+          "LabelReportID": "a7d91279-3b3a-46e5-88d0-2ec6c588075e",
+          "Teacher": "nhx600老师",
+          "Points": [
+            {
+              "Key": "SA",
+              "Value": "相似三角形的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "152",
+              "Value": "几何综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 78,
+          "ViewCount": 10463,
+          "DownCount": 52,
+          "RealCount": 64,
+          "PaperCount": 1789,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "c86d91b3-5d5f-40dc-be72-c1514dd6656e",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201203/21/d2fb5fa9.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在⊙O中，弦AB与CD相交于点P，连接AC、DB．<BR>（1）求证：△PAC∽△PDB；<BR>（2）当$\\frac{AC}{DB}$为何值时，$\\frac{S_{△PAC}}{S_{△PDB}}$=4？",
+          "Analyse": "（1）利用圆周角定理的推论，同弧所对的圆周角相等，可以得到三角形的相似．<BR>（2）利用面积比等于相似比的平方求解即可．",
+          "Method": "（1）证明：∵∠A=∠D，∠C=∠B，<BR>∴△PAC∽△PDB；&nbsp;&nbsp;<BR>（2）解：由（1）△PAC∽△PDB，得$\\frac{S_{△PAC}}{S_{△PDB}}={(\\frac{AC}{DB})^2}$，即${(\\frac{AC}{DB})}^{2}$=4，<BR>∴$\\frac{AC}{DB}$=2，<BR>∴当$\\frac{AC}{DB}$=2时，$\\frac{S_{△PAC}}{S_{△PDB}}$=4．",
+          "Discuss": "此题考查了圆周角定理的推论和相似三角形的判定以及相似三角形的性质：相似三角形面积的比等于相似比的平方．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2011秋•宁波期末）",
+          "LabelReportID": "5a053d95-a567-46b8-b7b7-659dfaec00fd",
+          "Teacher": "wd1899老师",
+          "Points": [
+            {
+              "Key": "S9",
+              "Value": "相似三角形的判定与性质"
+            },
+            {
+              "Key": "M5",
+              "Value": "圆周角定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 1051,
+          "DownCount": 11,
+          "RealCount": 2,
+          "PaperCount": 12,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "6e5044b4-7a43-4c6e-b8c0-da639724bcfa",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201105/9/c429738e.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在△ABC中，AB=AC，以AB为直径的⊙O交BC于点M，MN⊥AC于点N．<br />（1）求证：MN是⊙O的切线；<br />（2）若∠BAC=120°，AB=2，求图中阴影部分的面积．",
+          "Analyse": "（1）有切点，需连半径，证明垂直，即可；<br />（2）求阴影部分的面积要把它转化成S<SUB>梯形ANMO</SUB>-S<SUB>扇形OAM</SUB>，再分别求的这两部分的面积求解．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201202/12/c7d96c8f.png\" style=\"vertical-align:middle;FLOAT:right;\" />（1）证明：连接OM．<br />∵OM=OB，<br />∴∠B=∠OMB．<br />∵AB=AC，<br />∴∠B=∠C．<br />∴∠OMB=∠C．<br />∴OM∥AC．<br />∵MN⊥AC，<br />∴OM⊥MN．<br />∵点M在⊙O上，<br />∴MN是⊙O的切线．（5分）<br /><br />（2）解：连接AM．<br />∵AB为直径，点M在⊙O上，<br />∴∠AMB=90°．<br />∵AB=AC，∠BAC=120°，<br />∴∠B=∠C=30°．<br />∴∠AOM=60°．<br />又∵在Rt△AMC中，MN⊥AC于点N，<br />∴∠AMN=30°．<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201209/37/0524a62e.png\" style=\"vertical-align:middle;FLOAT:right;\" /><br />∴AN=AM•sin∠AMN=AC•sin30°•sin30°=$\\frac{1}{2}$．<br />∴MN=AM•cos∠AMN=AC•sin30°•cos30°=$\\frac{\\sqrt{3}}{2}$．&nbsp; （8分）<br />∴S<SUB>梯形ANMO</SUB>=$\\frac{(AN+OM)\\cdot MN}{2}=\\frac{3\\sqrt{3}}{8}$，<br />S<SUB>扇形OAM</SUB>=$\\frac{60{π}{1^2}}{360}=\\frac{π}{6}$，<br />∴S<SUB>阴影</SUB>=$\\frac{9\\sqrt{3}-4{π}}{24}$=$\\frac{3\\sqrt{3}}{8}$-$\\frac{π}{6}$．&nbsp;&nbsp;&nbsp;&nbsp;（11分）",
+          "Discuss": "本题考查的是切线的判定即利用图形分割法求不规则图形面积的思路．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2009•乌鲁木齐）",
+          "LabelReportID": "97233cb3-1f7d-411d-a2b3-18d9a4658fe8",
+          "Teacher": "自由人老师",
+          "Points": [
+            {
+              "Key": "MD",
+              "Value": "切线的判定"
+            },
+            {
+              "Key": "MO",
+              "Value": "扇形面积的计算"
+            },
+            {
+              "Key": "T7",
+              "Value": "解直角三角形"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "152",
+              "Value": "几何综合题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 33,
+          "ViewCount": 2114,
+          "DownCount": 32,
+          "RealCount": 48,
+          "PaperCount": 245,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "956120ea-50dd-4a90-9bc8-e2d5e2ec37f3",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201210/19/9d289c88.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，AB是⊙O的直径，AC是弦，∠BAC的平分线AD交⊙O于点D，DE⊥AC，交AC的延长线于点E，OE交AD于点F．<br />（1）求证：DE是⊙O的切线；<br />（2）若$\\frac{AC}{AB}$=$\\frac{3}{5}$，求$\\frac{AF}{DF}$的值．",
+          "Analyse": "（1）连接OD，只需证明OD⊥DE即可；<br />（2）连接BC，设AC=3k，AB=5k，BC=4k，可证OD垂直平分BC，利用勾股定理可得到OG，得到DG，于是AE=4k，然后通过OD∥AE，利用相似比即可求出$\\frac{AF}{DF}$的值．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201210/19/3b6c2fc7.png\" style=\"vertical-align:middle;FLOAT:right;\" />（1）证明：连接OD，<br />∵OD=OA，<br />∴∠OAD=∠ADO，<br />∵∠EAD=∠BAD，<br />∴∠EAD=∠ADO，<br />∴OD∥AE，<br />∴∠AED+∠ODE=180°，<br />∵DE⊥AC，即∠AED=90°，<br />∴∠ODE=90°，<br />∴OD⊥DE，<br />∵OD是圆的半径，<br />∴DE是⊙O的切线；<br /><br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201210/19/b8125e0f.png\" style=\"vertical-align:middle;FLOAT:right;\" />（2）解：连接OD，BC交OD于G，如图，<br />∵AB为直径，<br />∴∠ACB=90°，<br />又∵OD∥AE，<br />∴∠OGB=∠ACB=90°，<br />∴OD⊥BC，<br />∴G为BC的中点，即BG=CG，<br />又∵$\\frac{AC}{AB}$=$\\frac{3}{5}$，<br />∴设AC=3k，AB=5k，根据勾股定理得：BC=$\\sqrt{{AB}^{2}{-AC}^{2}}$=4k，<br />∴OB=$\\frac{1}{2}$AB=$\\frac{5k}{2}$，BG=$\\frac{1}{2}$BC=2k，<br />∴OG=$\\sqrt{{OB}^{2}-{BG}^{2}}$=$\\frac{3k}{2}$，<br />∴DG=OD-OG=$\\frac{5k}{2}$-$\\frac{3k}{2}$=k，<br />又∵四边形CEDG为矩形，<br />∴CE=DG=k，<br />∴AE=AC+CE=3k+k=4k，<br />而OD∥AE，<br />∴$\\frac{AF}{FD}$=$\\frac{AE}{OD}$=$\\frac{4k}{\\frac{5k}{2}}$=$\\frac{8}{5}$．",
+          "Discuss": "考查了切线的判定定理，能够综合运用角平分线的性质、全等三角形的判定和性质以及平行线分线段成比例定理．",
+          "Degree": 0.40,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2008•武汉）",
+          "LabelReportID": "f2371fe3-6d21-4f98-9595-b0ca53dd7c19",
+          "Teacher": "心若在老师",
+          "Points": [
+            {
+              "Key": "MD",
+              "Value": "切线的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "152",
+              "Value": "几何综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 65,
+          "ViewCount": 1958,
+          "DownCount": 31,
+          "RealCount": 24,
+          "PaperCount": 156,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.6750001
+}

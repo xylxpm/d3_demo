@@ -1,0 +1,1259 @@
+﻿{
+  "ID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+  "Title": "2015-2016学年广西南宁四十七中九年级（上）第一次月考数学试卷",
+  "Year": 2015,
+  "Times": 120,
+  "Score": 120,
+  "EditionID": 14,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 8,
+  "SourceName": "月考试题",
+  "RegionID": "1190102",
+  "RegionNames": [
+    "广西",
+    "南宁市",
+    "青秀区"
+  ],
+  "ViewCount": 160,
+  "Date": "2016-01-30T00:00:00",
+  "Subject": 20,
+  "EditionName": "人教新版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "南宁第四十七中学",
+  "Groups": [
+    {
+      "Key": "一、选择题（每小题3分，共36分）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "5b437294-6e96-42bc-99dd-5015008a705c",
+          "Content": "下列平面图形中，不是轴对称图形的是（　　）",
+          "Analyse": "结合选项根据轴对称图形的概念求解即可．",
+          "Method": "解：：A、不是轴对称图形，本选项正确；<br />B、是轴对称图形，本选项错误；<br />C、是轴对称图形，本选项错误；<br />D、是轴对称图形，本选项错误．<br />故选：A．",
+          "Discuss": "本题考查了轴对称图形的知识，轴对称图形的关键是寻找对称轴，图形两部分折叠后可重合．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2016•松北区模拟）",
+          "LabelReportID": "91d00c1f-8990-4ec5-9898-31ca7ea3218d",
+          "Teacher": "caicl老师",
+          "Points": [
+            {
+              "Key": "P3",
+              "Value": "轴对称图形"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201607/3/36d5048a.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201607/3/63b47553.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201607/3/6a86c304.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201607/3/4d3b09ca.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 105,
+          "DownCount": 0,
+          "RealCount": 155,
+          "PaperCount": 16,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "90ad56f4-17c7-4c06-b14f-ca2e05ca0b07",
+          "Content": "在-4，0，-2，1这四个数中，最小的数是（　　）",
+          "Analyse": "根据正数大于零，零大于负数，可得答案．",
+          "Method": "解：由正数大于零，零大于负数，得<br />1＞0＞-2＞-4，<br />故选：A．",
+          "Discuss": "本题考查了有理数大小比较，注意两个负数大小比较，绝对值大的数反而小．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2014秋•沙坪坝区校级期末）",
+          "LabelReportID": "06763a2a-e32b-48e0-b181-84b7086c45a8",
+          "Teacher": "230****0618老师",
+          "Points": [
+            {
+              "Key": "18",
+              "Value": "有理数大小比较"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "-4",
+            "-2",
+            "0",
+            "1"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 2,
+          "ViewCount": 189,
+          "DownCount": 10,
+          "RealCount": 2,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "429cb20b-bad5-4f0a-a55c-b41cbc0fe950",
+          "Content": "下列调查中，适合采用全面调查方式的是（　　）",
+          "Analyse": "由普查得到的调查结果比较准确，但所费人力、物力和时间较多，而抽样调查得到的调查结果比较近似．",
+          "Method": "解：A、调查某品牌圆珠笔芯的使用寿命，调查具有破坏性，故适合抽查，选项错误；<br />B、调查市场上老酸奶的质量情况，数量较大，不易全面调查，故选项错误；<br />C、调查乘飞机的旅客是否携带危禁物品，事关重大，必须进行全面调查，故选项正确；<br />D、调查我市市民对巴西奥运会何时举行的知晓率，数量太大，适合抽查．<br />故选：C．",
+          "Discuss": "本题考查了抽样调查和全面调查的区别，选择普查还是抽样调查要根据所要考查的对象的特征灵活选用，一般来说，对于具有破坏性的调查、无法进行普查、普查的意义或价值不大，应选择抽样调查，对于精确度要求高的调查，事关重大的调查往往选用普查．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "V2",
+              "Value": "全面调查与抽样调查"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "调查某品牌圆珠笔芯的使用寿命",
+            "调查市场上老酸奶的质量情况",
+            "调查乘飞机的旅客是否携带危禁物品",
+            "调查我市市民对巴西奥运会何时举行的知晓率"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 144,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "7bb55998-35d2-4e28-be2b-e4c7cea960c6",
+          "Content": "下列方程中，是一元二次方程的是（　　）",
+          "Analyse": "根据一元二次方程的定义：未知数的最高次数是2；二次项系数不为0；是整式方程；含有一个未知数．由这四个条件对四个选项进行验证，满足这四个条件者为正确答案．",
+          "Method": "解：A、x<SUP>2</SUP>+x+1=0是一元二次方程，故A正确；<br />B、ax<SUP>2</SUP>+bx+c=0（a≠0）时是一元二次方程，故B错误；<br />C、（x-1）（x+2）=x<SUP>2</SUP>+1是一元一次方程，故C错误；<br />D、3x<SUP>2</SUP>+$\\frac{3}{2x}$=0是分式方程，故D错误；<br />故选：A．",
+          "Discuss": "本题考查了一元二次方程的概念，判断一个方程是否是一元二次方程，首先要看是否是整式方程，然后看化简后是否是只含有一个未知数且未知数的最高次数是2．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "HLing老师",
+          "Points": [
+            {
+              "Key": "A1",
+              "Value": "一元二次方程的定义"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "x<SUP>2</SUP>+x+1=0",
+            "ax<SUP>2</SUP>+bx+c=0",
+            "（x-1）（x+2）=x<SUP>2</SUP>+1",
+            "3x<SUP>2</SUP>+$\\frac{3}{2x}$=0"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 160,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 58,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "385cad7a-f525-41e6-8a4b-6efd18bb1dee",
+          "Content": "7位同学中考体育测试立定跳远成绩（单位：分）分别是：8，9，7，6，10，8，9，这组数据的中位数是（　　）",
+          "Analyse": "把数据按从小到大的顺序排列，位于最中间的一个数或两个数的平均数为中位数，由此即可确定这组数据中位数．",
+          "Method": "解：把这组数据从小到大排序后为6，7，8，8，9，9，10，<br />其中第四个数据为8，<br />所以这组数据的中位数为8．<br />故选：B．",
+          "Discuss": "本题考查了中位数．注意找中位数的时候一定要先排好顺序，然后再根据奇数和偶数个来确定中位数，如果数据有奇数个，则正中间的数字即为所求；如果是偶数个，则找中间两位数的平均数．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•桂林）",
+          "LabelReportID": "aed4cb84-54fb-4b6b-9648-59c11406ca99",
+          "Teacher": "HJJ老师",
+          "Points": [
+            {
+              "Key": "W4",
+              "Value": "中位数"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "6",
+            "8",
+            "9",
+            "10"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 2,
+          "ViewCount": 507,
+          "DownCount": 11,
+          "RealCount": 51,
+          "PaperCount": 43,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "ad811b63-4479-4a45-9b71-3772e1b41645",
+          "Content": "点（3，-2）关于x轴的对称点是（　　）",
+          "Analyse": "熟悉：平面直角坐标系中任意一点P（x，y），关于x轴的对称点的坐标是（x，-y）．",
+          "Method": "解：根据轴对称的性质，得点（3，-2）关于x轴的对称点是（3，2）．<br />故选：B．",
+          "Discuss": "本题比较容易，考查平面直角坐标系中关于坐标轴成轴对称的两点的坐标之间的关系．是需要识记的内容．记忆方法是结合平面直角坐标系的图形记忆，另一种记忆方法是记住：关于横轴的对称点，横坐标不变，纵坐标变成相反数．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2013•遂宁模拟）",
+          "LabelReportID": "572e16fa-abdc-4c96-8a40-b494cc303764",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "P5",
+              "Value": "关于x轴、y轴对称的点的坐标"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "（-3，-2）",
+            "（3，2）",
+            "（-3，2）",
+            "（3，-2）"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 8,
+          "ViewCount": 792,
+          "DownCount": 10,
+          "RealCount": 52,
+          "PaperCount": 60,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "33dcdc60-45e6-4e5d-8120-3e1a79d85764",
+          "Content": "下列函数解析式中，一定为二次函数的是（　　）",
+          "Analyse": "根据二次函数的定义，可得答案．",
+          "Method": "解：A、y=3x-1是一次函数，故A错误；<br />B、y=ax<SUP>2</SUP>+bx+c&nbsp; （a≠0）是二次函数，故B错误；<br />C、s=2t<SUP>2</SUP>-2t+1是二次函数，故C正确；<br />D、y=x<SUP>2</SUP>+$\\frac{1}{x}$不是二次函数，故D错误；<br />故选：C．",
+          "Discuss": "本题考查了二次函数的定义，y=ax<SUP>2</SUP>+bx+c&nbsp; （a≠0）是二次函数，注意二次函数都是整式．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2015•兰州）",
+          "LabelReportID": "1619f5b7-8b0d-410c-9150-494a1d3cc543",
+          "Teacher": "230****0618老师",
+          "Points": [
+            {
+              "Key": "H1",
+              "Value": "二次函数的定义"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "y=3x-1",
+            "y=ax<SUP>2</SUP>+bx+c",
+            "s=2t<SUP>2</SUP>-2t+1",
+            "y=x<SUP>2</SUP>+$\\frac{1}{x}$"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 114,
+          "ViewCount": 5711,
+          "DownCount": 237,
+          "RealCount": 57,
+          "PaperCount": 11237,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "1b10cfc1-69cf-4548-bfbe-e5992ac3e0fb",
+          "Content": "在同一平面直角坐标系内，将函数y=2x<SUP>2</SUP>+4x+1的图象沿x轴方向向右平移2个单位长度后再沿y轴向下平移1个单位长度，得到图象的顶点坐标是（　　）",
+          "Analyse": "易得原抛物线的顶点坐标，根据横坐标与纵坐标“左加右减”可得到平移后的顶点坐标．",
+          "Method": "解：∵y=2x<SUP>2</SUP>+4x+1=2（x<SUP>2</SUP>+2x）+1=2[（x+1）<SUP>2</SUP>-1]+1=2（x+1）<SUP>2</SUP>-1，<br />∴原抛物线的顶点坐标为（-1，-1），<br />∵将二次函数y=2（x+1）<SUP>2</SUP>-1，的图象沿x轴方向向右平移2个单位长度后再沿y轴向下平移1个单位长度，<br />∴y=2（x+1-2）<SUP>2</SUP>-1-1=2（x-1）<SUP>2</SUP>-2，<br />故得到图象的顶点坐标是（1，-2）．<br />故选：B．",
+          "Discuss": "此题考查了二次函数的平移问题；用到的知识点为：二次函数的平移，看顶点的平移即可；上下平移只改变顶点的纵坐标，上加下减．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•德阳）",
+          "LabelReportID": "c0912b78-7b2b-4e75-825d-998e21b2e4d0",
+          "Teacher": "gbl210老师",
+          "Points": [
+            {
+              "Key": "H6",
+              "Value": "二次函数图象与几何变换"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "（-1，1）",
+            "（1，-2）",
+            "（2，-2）",
+            "（1，-1）"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 7,
+          "ViewCount": 2093,
+          "DownCount": 12,
+          "RealCount": 8,
+          "PaperCount": 91,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "ac824d6a-8b36-489b-bf00-f24048c24fd2",
+          "Content": "已知关于x的一元二次方程（a-1）x<SUP>2</SUP>-2x+1=0有两个不相等的实数根，则a的取值范围是（　　）",
+          "Analyse": "利用一元二次方程根的判别式列不等式，解不等式求出a的取值范围．",
+          "Method": "解：△=4-4（a-1）<br />=8-4a＞0<br />得：a＜2．<br />又a-1≠0<br />∴a＜2且a≠1．<br />故选：C．",
+          "Discuss": "本题考查的是一元二次方程根的判别式，根据方程有两不等的实数根，得到判别式大于零，求出a的取值范围，同时方程是一元二次方程，二次项系数不为零．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•广安）",
+          "LabelReportID": "f65d8942-d316-4be9-8ad3-6c6794a429b1",
+          "Teacher": "WWF老师",
+          "Points": [
+            {
+              "Key": "AA",
+              "Value": "根的判别式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [
+            "a＞2",
+            "a＜2",
+            "a＜2且a≠l",
+            "a＜-2"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 24,
+          "ViewCount": 3212,
+          "DownCount": 22,
+          "RealCount": 73,
+          "PaperCount": 464,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "1f8b054d-cd0f-4b85-8a4e-e8ab730361da",
+          "Content": "已知△ABC中，∠B是∠A的2倍，∠C比∠A大20°，则∠A等于（　　）",
+          "Analyse": "设∠A=x，则∠B=2x，∠C=x+20°，再根据三角形内角和定理求出x的值即可．",
+          "Method": "解：设∠A=x，则∠B=2x，∠C=x+20°，则x+2x+x+20°=180°，解得x=40°，即∠A=40°．<br />故选：A．",
+          "Discuss": "本题考查的是三角形内角和定理，即三角形内角和是180°．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•嘉兴）",
+          "LabelReportID": "00352622-1c8d-4a70-8ead-b6eeecafbbf8",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "K7",
+              "Value": "三角形内角和定理"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "40°",
+            "60°",
+            "80°",
+            "90°"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 8,
+          "ViewCount": 1974,
+          "DownCount": 20,
+          "RealCount": 17,
+          "PaperCount": 451,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "62f33fc7-1d27-4322-a4f2-c75ff3d338e7",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/36/99179c16.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，在Rt△ABC中，∠ACB=90°，AC=6，BC=8，AD是∠BAC的平分线．若P，Q分别是AD和AC上的动点，则PC+PQ的最小值是（　　）",
+          "Analyse": "过点C作CM⊥AB交AB于点M，交AD于点P，过点P作PQ⊥AC于点Q，由AD是∠BAC的平分线．得出PQ=PM，这时PC+PQ有最小值，即CM的长度，运用勾股定理求出AB，再运用S<SUB>△ABC</SUB>=$\\frac{1}{2}$AB•CM=$\\frac{1}{2}$AC•BC，得出CM的值，即PC+PQ的最小值．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/101/604006bc.png\" style=\"vertical-align:middle;FLOAT:right\" />解：如图，过点C作CM⊥AB交AB于点M，交AD于点P，过点P作PQ⊥AC于点Q，<br />∵AD是∠BAC的平分线．<br />∴PQ=PM，这时PC+PQ有最小值，即CM的长度，<br />∵AC=6，BC=8，∠ACB=90°，<br />∴AB=$\\sqrt{A{C}^{2}+B{C}^{2}}$=$\\sqrt{{6}^{2}+{8}^{2}}$=10．<br />∵S<SUB>△ABC</SUB>=$\\frac{1}{2}$AB•CM=$\\frac{1}{2}$AC•BC，<br />∴CM=$\\frac{AC\\cdot BC}{AB}$=$\\frac{6×8}{10}$=$\\frac{24}{5}$，<br />即PC+PQ的最小值为$\\frac{24}{5}$．<br />故选：C．",
+          "Discuss": "本题主要考查了轴对称问题，解题的关键是找出满足PC+PQ有最小值时点P和Q的位置．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•贵港）",
+          "LabelReportID": "fa0e6d30-6750-469e-a87d-5deceacbd72b",
+          "Teacher": "wkd老师",
+          "Points": [
+            {
+              "Key": "PA",
+              "Value": "轴对称-最短路线问题"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "$\\frac{12}{5}$",
+            "4",
+            "$\\frac{24}{5}$",
+            "5"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 244,
+          "ViewCount": 12721,
+          "DownCount": 121,
+          "RealCount": 49,
+          "PaperCount": 2925,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "fc468f57-6c0b-4af3-b6c0-afa487440ee9",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201208/18/fa522113.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在菱形ABCD中，AB=BD，点E、F分别在BC、CD上，且BE=CF，连接BF、DE交于点M，延长DE到H使DE=BM，连接AM、AH．则以下四个结论：①△BDF≌△DCE；②∠BMD=120°；③△AMH是等边三角形；其中正确结论的个数是（　　）",
+          "Analyse": "根据菱形的四条边都相等，先判定△ABD是等边三角形，再根据菱形的性质可得∠BDF=∠C=60°，再求出DF=CE，然后利用“边角边”即可证明△BDF≌△DCE，从而判定①正确；根据全等三角形对应角相等可得∠DBF=∠EDC，然后利用三角形的一个外角等于与它不相邻的两个内角的和可以求出∠DMF=∠BDC=60°，再根据平角等于180°即可求出∠BMD=120°，从而判定②正确；根据三角形的一个外角等于与它不相邻的两个内角的和以及平行线的性质求出∠ABM=∠ADH，再利用“边角边”证明△ABM和△ADH全等，根据全等三角形对应边相等可得AH=AM，对应角相等可得∠BAM=∠DAH，然后求出∠MAH=∠BAD=60°，从而判定出△AMH是等边三角形，判定出③正确",
+          "Method": "解：在菱形ABCD中，<br />∵AB=BD，<br />∴AB=BD=AD，<br />∴△ABD是等边三角形，<br />∴根据菱形的性质可得∠BDF=∠C=60°，<br />∵BE=CF，<br />∴BC-BE=CD-CF，<br />即CE=DF，<br />在△BDF和△DCE中，$\\left\\{\\begin{array}{l}{CE=DF}\\\\{∠BDF=∠C=60°}\\\\{BD=CD}\\end{array}\\right.$，<br />∴△BDF≌△DCE（SAS），故①小题正确；<br />∴∠DBF=∠EDC，<br />∵∠DMF=∠DBF+∠BDE=∠EDC+∠BDE=∠BDC=60°，<br />∴∠BMD=180°-∠DMF=180°-60°=120°，故②小题正确；<br />∵∠DEB=∠EDC+∠C=∠EDC+60°，∠ABM=∠ABD+∠DBF=∠DBF+60°，<br />∴∠DEB=∠ABM，<br />又∵AD∥BC，<br />∴∠ADH=∠DEB，<br />∴∠ADH=∠ABM，<br />在△ABM和△ADH中，$\\left\\{\\begin{array}{l}{AB=AD}\\\\{∠ADH=∠ABM}\\\\{DH=BM}\\end{array}\\right.$，<br />∴△ABM≌△ADH（SAS），<br />∴AH=AM，∠BAM=∠DAH，<br />∴∠MAH=∠MAD+∠DAH=∠MAD+∠BAM=∠BAD=60°，<br />∴△AMH是等边三角形，故③小题正确，<br />综上所述，正确的是①②③，<br />故选：D．",
+          "Discuss": "本题考查了菱形的性质，全等三角形的判定与性质，等边三角形的判定与性质，题目较为复杂，特别是图形的识别有难度，从图形中准确确定出全等三角形并找出全等的条件是解题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2016春•包头校级月考）",
+          "LabelReportID": "bbd49d48-c467-4a40-abf0-aae851fa4590",
+          "Teacher": "198****3819老师",
+          "Points": [
+            {
+              "Key": "L8",
+              "Value": "菱形的性质"
+            },
+            {
+              "Key": "KD",
+              "Value": "全等三角形的判定与性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 11,
+          "ViewCount": 434,
+          "DownCount": 5,
+          "RealCount": 2,
+          "PaperCount": 251,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、填空题（每题3分，共18分）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "0d26e9c5-3d4a-4af6-b056-cdc1a0a8ef66",
+          "Content": "用科学数记法表示：-0.0000204=<div class=\"quizPutTag\">-2.04×10<sup>-5</sup></div>．",
+          "Analyse": "绝对值小于1的正数也可以利用科学记数法表示，一般形式为a×10<sup>-n</sup>，与较大数的科学记数法不同的是其所使用的是负指数幂，指数由原数左边起第一个不为零的数字前面的0的个数所决定．",
+          "Method": "解：-0.0000204=-2.04×10<sup>-5</sup>．<br />故答案为：-2.04×10<sup>-5</sup>．",
+          "Discuss": "本题考查用科学记数法表示较小的数，一般形式为a×10<sup>-n</sup>，其中1≤|a|＜10，n为由原数左边起第一个不为零的数字前面的0的个数所决定．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "gbl210老师",
+          "Points": [
+            {
+              "Key": "1J",
+              "Value": "科学记数法—表示较小的数"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "-2.04×10<sup>-5</sup>"
+          ],
+          "FavTime": 0,
+          "ViewCount": 75,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "06bc1fef-013c-401e-a45e-5f2d56f1a7ee",
+          "Content": "关于x的方程x<sup>2</sup>+ax+b=0的根为x<sub>1</sub>=-2，x<sub>2</sub>=1，则a=<div class=\"quizPutTag\">1</div>，b=<div class=\"quizPutTag\">-2</div>．",
+          "Analyse": "由根与系数的关系可知：x<sub>1</sub>+x<sub>2</sub>=-a=-1，x<sub>1</sub>x<sub>2</sub>=b=-2，进一步求得a、b即可",
+          "Method": "解：∵x<sub>1</sub>=-1，x<sub>2</sub>=1都是方程x<sup>2</sup>+ax+b=0的根，<br />∴x<sub>1</sub>+x<sub>2</sub>=-a=-1，x<sub>1</sub>x<sub>2</sub>=b=-2，<br />∴a=1，b=-2．<br />故答案为：1，-2．",
+          "Discuss": "本题考查了一元二次方程ax<sup>2</sup>+bx+c=0（a≠0）的根与系数的关系：若方程的两根为x<sub>1</sub>，x<sub>2</sub>，则x<sub>1</sub>+x<sub>2</sub>=-$\\frac{b}{a}$，x<sub>1</sub>•x<sub>2</sub>=$\\frac{c}{a}$．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "73zzx老师",
+          "Points": [
+            {
+              "Key": "AB",
+              "Value": "根与系数的关系"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "1",
+            "-2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 65,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "73523ca0-02e5-4dac-bdef-a6286928fd70",
+          "Content": "分解因式：a<SUP>2</SUP>b-b<SUP>3</SUP>=<div class=\"quizPutTag\">b（a+b）（a-b）</div>．",
+          "Analyse": "原式提取公因式，再利用平方差公式分解即可．",
+          "Method": "解：原式=b（a<SUP>2</SUP>-b<SUP>2</SUP>）=b（a+b）（a-b），<br />故答案为：b（a+b）（a-b）",
+          "Discuss": "此题考查了提公因式法与公式法的综合运用，熟练掌握因式分解的方法是解本题的关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•钦州）",
+          "LabelReportID": "03584a0f-cdda-45ed-91f0-941ce5cccb4c",
+          "Teacher": "sks老师",
+          "Points": [
+            {
+              "Key": "55",
+              "Value": "提公因式法与公式法的综合运用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "44 ",
+              "Value": "因式分解"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "b（a+b）（a-b）"
+          ],
+          "FavTime": 0,
+          "ViewCount": 77,
+          "DownCount": 3,
+          "RealCount": 98,
+          "PaperCount": 46,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "a0212176-c40e-4467-8b67-06dd17fc87bf",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/53/fcf6903c.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，已知正方形ABCD的对角线长为2$\\sqrt{2}$，将正方形ABCD沿直线EF折叠，则图中阴影部分的周长为<div class=\"quizPutTag\">8</div>．",
+          "Analyse": "先设正方形的边长为a，再根据对角线长为2$\\sqrt{2}$求出a的值，由图形翻折变换的性质可知AD=A′B′，A′H=AH，B′G=DG，由阴影部分的周长=A′B′+A′H+BH+BC+CG+B′G即可得出结论．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/54/d4a850d0.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：设正方形的边长为a，则2a<SUP>2</SUP>=（2$\\sqrt{2}$）<SUP>2</SUP>，解得a=2，<br />翻折变换的性质可知AD=A′B′，A′H=AH，B′G=DG，<br />阴影部分的周长=A′B′+（A′H+BH）+BC+（CG+B′G）=AD+AB+BC+CD=2×4=8．<br />故答案为：8．",
+          "Discuss": "本题考查的是翻折变换的性质，即折叠是一种对称变换，它属于轴对称，折叠前后图形的形状和大小不变，位置变化，对应边和对应角相等．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•荆州）",
+          "LabelReportID": "4822b97a-1878-49a6-b76a-46a5a4e57fee",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "PB",
+              "Value": "翻折变换（折叠问题）"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "2B ",
+              "Value": "探究型"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "8"
+          ],
+          "FavTime": 45,
+          "ViewCount": 1509,
+          "DownCount": 33,
+          "RealCount": 16,
+          "PaperCount": 245,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "cf527b6f-3e76-475b-8f76-764cd820b157",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/42/2cae9c9f.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，在四边形ABCD中，AC=BD=6，E、F、G、H分别是AB、BC、CD、DA的中点，则EG<SUP>2</SUP>+FH<SUP>2</SUP>=<div class=\"quizPutTag\">36</div>．",
+          "Analyse": "连接EF，FG，GH，EH，由E、F、G、H分别是AB、BC、CD、DA的中点，得到EH，EF，FG，GH分别是△ABD，△ABC，△BCD，△ACD的中位线，根据三角形中位线定理得到EH，FG等于BD的一半，EF，GH等于AC的一半，由AC=BD=6，得到EH=EF=GH=FG=3，根据四边都相等的四边形是菱形，得到EFGH为菱形，然后根据菱形的性质得到EG⊥HF，且EG=2OE，FH=2OH，在Rt△OEH中，根据勾股定理得到OE<SUP>2</SUP>+OH<SUP>2</SUP>=EH<SUP>2</SUP>=9，再根据等式的性质，在等式的两边同时乘以4，根据4=2<SUP>2</SUP>，把等式进行变形，并把EG=2OE，FH=2OH代入变形后的等式中，即可求出EG<SUP>2</SUP>+FH<SUP>2</SUP>的值",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/42/3cbeb8c8.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：如右图，连接EF，FG，GH，EH，<br />∵E、H分别是AB、DA的中点，<br />∴EH是△ABD的中位线，<br />∴EH=$\\frac{1}{2}$BD=3，<br />同理可得EF，FG，GH分别是△ABC，△BCD，△ACD的中位线，<br />∴EF=GH=$\\frac{1}{2}$AC=3，FG=$\\frac{1}{2}$BD=3，<br />∴EH=EF=GH=FG=3，<br />∴四边形EFGH为菱形，<br />∴EG⊥HF，且垂足为O，<br />∴EG=2OE，FH=2OH，<br />在Rt△OEH中，根据勾股定理得：OE<SUP>2</SUP>+OH<SUP>2</SUP>=EH<SUP>2</SUP>=9，<br />等式两边同时乘以4得：4OE<SUP>2</SUP>+4OH<SUP>2</SUP>=9×4=36，<br />∴（2OE）<SUP>2</SUP>+（2OH）<SUP>2</SUP>=36，<br />即EG<SUP>2</SUP>+FH<SUP>2</SUP>=36．<br />故答案为：36．",
+          "Discuss": "此题考查了菱形的判定与性质，勾股定理，三角形的中位线定理以及等式的基本性质，本题的关键是连接EF，FG，GH，EH，得到四边形EFGH为菱形，根据菱形的性质得到EG⊥HF，建立直角三角形，利用勾股定理来解决问题．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•凉山州）",
+          "LabelReportID": "1f38ec19-8e9b-4a41-b5f3-fc44505875e9",
+          "Teacher": "sks老师",
+          "Points": [
+            {
+              "Key": "LA",
+              "Value": "菱形的判定与性质"
+            },
+            {
+              "Key": "KQ",
+              "Value": "勾股定理"
+            },
+            {
+              "Key": "KX",
+              "Value": "三角形中位线定理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "36"
+          ],
+          "FavTime": 196,
+          "ViewCount": 6002,
+          "DownCount": 89,
+          "RealCount": 13,
+          "PaperCount": 3540,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "e47c0880-ba32-4473-a677-f5bddf498eda",
+          "Content": "对于正数x，规定$f(x)=\\frac{x}{1+x}$，例如f（3）=$\\frac{3}{1+3}=\\frac{3}{4}$，$f({\\frac{1}{3}})=\\frac{\\frac{1}{3}}{1+\\frac{1}{3}}=\\frac{1}{4}$，计算：$f({\\frac{1}{2011}})+f({\\frac{1}{2010}})+f({\\frac{1}{2009}})+…+f({\\frac{1}{3}})+f({\\frac{1}{2}})+f(1)+f(2)+f(3)+…+f({2009})$+f（2010）+f（2011）=<div class=\"quizPutTag\">2010.5</div>．",
+          "Analyse": "先根据题意找出规律，再根据此规律进行解答即可．",
+          "Method": "解：∵f（x）=$\\frac{1}{1+x}$，<BR>∴f（1）=$\\frac{1}{1+1}$=$\\frac{1}{2}$，<BR>f（2）=$\\frac{1}{3}$，<BR>f（$\\frac{1}{2}$）=$\\frac{2}{3}$，<BR>…<BR>∴f（n）=$\\frac{1}{1+n}$，<BR>f（$\\frac{1}{n}$）=$\\frac{n-1}{1+n}$，<BR>∴f（n）+f（$\\frac{1}{n}$）=1，<BR>∴原式=[f（$\\frac{1}{2011}$）+f（2011）]+[f（$\\frac{1}{2010}$）+f（2010）]+…f（1），<BR>=1+1+…+$\\frac{1}{2}$，<BR>=2010.5．<BR>故答案为：2010.5．",
+          "Discuss": "本题考查的是分式的化简求值，根据题意找出规律是解答此题的关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2011春•惠山区期中）",
+          "LabelReportID": "e0b080e3-2e1b-486c-a267-54a8308adc6c",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "6D",
+              "Value": "分式的化简求值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "2A ",
+              "Value": "规律型"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "2010.5"
+          ],
+          "FavTime": 2,
+          "ViewCount": 455,
+          "DownCount": 14,
+          "RealCount": 3,
+          "PaperCount": 120,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、解答题（本大题共8小题，共66分）",
+      "Value": [
+        {
+          "Subject": 20,
+          "ID": "03d1492e-d208-415f-8a32-1fa9d2e93f49",
+          "Content": "计算：$\\sqrt{{(-3)}^2}-{(-\\frac{1}{4})^{-1}}+{(π-\\sqrt[3]{10})^0}-{(-1)^{100}}$．",
+          "Analyse": "分别根据数的乘方及开方法则、0指数幂及负整数指数幂的运算法则计算出各数，再根据实数混合运算的法则进行计算即可．",
+          "Method": "解：原式=3+4+1-1=7",
+          "Discuss": "本题考查的是实数的运算，熟知数的乘方及开方法则、0指数幂及负整数指数幂的运算法则是解答此题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "2C",
+              "Value": "实数的运算"
+            },
+            {
+              "Key": "6E",
+              "Value": "零指数幂"
+            },
+            {
+              "Key": "6F",
+              "Value": "负整数指数幂"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 61,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "dba72f83-fb70-4654-8ea1-9f35a7d042a1",
+          "Content": "解方程：（2x-1）<SUP>2</SUP>=（3-x）<SUP>2</SUP>．",
+          "Analyse": "先两边开方得到2x-1=±（3-x），然后解两个一次方程即可．",
+          "Method": "解：2x-1=±（3-x），<br />2x-1=3-x或2x-1=-3+x，<br />所以x<SUB>1</SUB>=$\\frac{4}{3}$，x<SUB>2</SUB>=-2．",
+          "Discuss": "本题考查了解一元二次方程-直接开平方的方法：形如x<SUP>2</SUP>=p或（nx+m）<SUP>2</SUP>=p（p≥0）的一元二次方程可采用直接开平方的方法解一元二次方程．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "gsls老师",
+          "Points": [
+            {
+              "Key": "A5",
+              "Value": "解一元二次方程-直接开平方法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 1,
+          "ViewCount": 228,
+          "DownCount": 13,
+          "RealCount": 1,
+          "PaperCount": 257,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "43b808a1-e440-4437-bc60-de7d063d3e48",
+          "Content": "某校为了解学生对三种国庆活动方案的意见，对该校学生进行了一次抽样调查（被调查学生至多赞成其中的一种方案），现将调查结果绘制成如图两幅不完整的统计图．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/97/778ad469.png\" style=\"vertical-align:middle\" /><br />请根据图中提供的信息解答下列问题：<br />（1）在这次调查中共调查了<div class=\"quizPutTag\">60</div>名学生；扇形统计图中方案1所对应的圆心角的度数为<div class=\"quizPutTag\">144</div>度；<br />（2）请把条形统计图补充完整；<br />（3）已知该校有1000名学生，试估计该校赞成方案1的学生约有多少人？",
+          "Analyse": "（1）根据赞成方案3的有15人，占25%，据此即可求得调查的总人数，利用360°乘以对应的比例即可求得图中方案1所对应的圆心角的度数；<br />（2）利用总人数减去其它各组的人数，即可求得赞成方案2的人数，从而作出直方图；<br />（3）利用总人数1000乘以对应的比例即可求解．",
+          "Method": "解：（1）调查的总人数是：15÷25%=60（人），<br />扇形统计图中方案1所对应的圆心角的度数是：360°×$\\frac{24}{60}$=144°；<br /><br />（2）赞成方案2的人数是：60-24-15-9=12（人），<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201408/97/cdc6f1b6.png\" style=\"vertical-align:middle\" />；<br /><br />（3）该校赞成方案1的学生约有：1000×$\\frac{24}{60}$=400（人）．",
+          "Discuss": "本题考查的是条形统计图和扇形统计图的综合运用，读懂统计图，从不同的统计图中得到必要的信息是解决问题的关键．条形统计图能清楚地表示出每个项目的数据；扇形统计图直接反映部分占总体的百分比大小．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2014•钦州）",
+          "LabelReportID": "03584a0f-cdda-45ed-91f0-941ce5cccb4c",
+          "Teacher": "zhjh老师",
+          "Points": [
+            {
+              "Key": "VC",
+              "Value": "条形统计图"
+            },
+            {
+              "Key": "V5",
+              "Value": "用样本估计总体"
+            },
+            {
+              "Key": "VB",
+              "Value": "扇形统计图"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            "60",
+            "144"
+          ],
+          "FavTime": 2,
+          "ViewCount": 792,
+          "DownCount": 12,
+          "RealCount": 58,
+          "PaperCount": 68,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "06283075-10af-4c5f-8794-6b6be3624bc9",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201601/85/18ff399b.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图，△ABC中，AB=AC，∠CAD=30°，AB⊥AD，AD=4，求BC的长．",
+          "Analyse": "根据垂直的定义得到∠BAC=120°，根据等腰三角形的性质得到∠B=∠C=30，根据直角三角形的性质求出BD=2AD，根据等腰三角形的性质得到CD=AD，结合图形计算即可．",
+          "Method": "解：∵∠CAD=30°，AB⊥AD，<br />∴∠BAC=120°，<br />∵AB=AC，<br />∴∠B=∠C=30，<br />∴BD=2AD=8，<br />∵∠CAD=∠C=30°，<br />∴CD=AD=4，<br />∴BC=BD+CD=8+4=12．",
+          "Discuss": "本题考查的是直角三角形的性质和等腰三角形的性质，掌握在直角三角形中，30°角所对的直角边等于斜边的一半是解题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2015秋•南宁校级月考）",
+          "LabelReportID": "0c6f58a6-60d6-48d7-a760-45c0e3e29d49",
+          "Teacher": "知足长乐老师",
+          "Points": [
+            {
+              "Key": "KO",
+              "Value": "含30度角的直角三角形"
+            },
+            {
+              "Key": "KH",
+              "Value": "等腰三角形的性质"
+            }
+          ],
+          "Topics": [],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 1,
+          "ViewCount": 216,
+          "DownCount": 5,
+          "RealCount": 1,
+          "PaperCount": 184,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "e2c44105-f2f6-419d-b9a7-136e0e6b7a49",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/51/8d98675b.png\" style=\"vertical-align:middle;FLOAT:right\" />如图，在矩形ABCD中，M、N分别是AD、BC的中点，P、Q分别是BM、DN的中点．<br />（1）求证：△MBA≌△NDC；<br />（2）四边形MPNQ是什么样的特殊四边形？请说明理由．",
+          "Analyse": "（1）根据矩形的性质和中点的定义，利用SAS判定△MBA≌△NDC；<br />（2）四边形MPNQ是菱形，连接AN，有（1）可得到BM=DN，再有中点得到PM=NQ，再通过证明△MQD≌△NPB得到MQ=PN，从而证明四边形MPNQ是平行四边形，利用三角形中位线的性质可得：MP=MQ，进而证明四边形MQNP是菱形．",
+          "Method": "证明：（1）∵四边形ABCD是矩形，<br />∴AB=CD，AD=BC，∠A=∠C=90°，<br />∵在矩形ABCD中，M、N分别是AD、BC的中点，<br />∴AM=$\\frac{1}{2}$AD，CN=$\\frac{1}{2}$BC，<br />∴AM=CN，<br />在△MAB和△NDC中，<br />∵$\\left\\{\\begin{array}{l}{AB=CD}\\\\{∠A=∠C=90°}\\\\{AM=CN}\\end{array}\\right.$，<br />∴△MBA≌△NDC（SAS）；<br /><br />（2）四边形MPNQ是菱形．<br />理由如下：连接AP，MN，<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201306/26/9720a579.png\" style=\"vertical-align:middle;FLOAT:right\" /><br />则四边形ABNM是矩形，<br />∵AN和BM互相平分，<br />则A，P，N在同一条直线上，<br />易证：△ABN≌△BAM，<br />∴AN=BM，<br />∵△MAB≌△NDC，<br />∴BM=DN，<br />∵P、Q分别是BM、DN的中点，<br />∴PM=NQ，<br />∵$\\left\\{\\begin{array}{l}{DM=BN}\\\\{DQ=BP}\\\\{∠MDQ=∠NBP}\\end{array}\\right.$，<br />∴△MQD≌△NPB（SAS）．<br />∴四边形MPNQ是平行四边形，<br />∵M是AD中点，Q是DN中点，<br />∴MQ=$\\frac{1}{2}$AN，<br />∴MQ=$\\frac{1}{2}$BM，<br />∵MP=$\\frac{1}{2}$BM，<br />∴MP=MQ，<br />∴平行四边形MQNP是菱形．",
+          "Discuss": "本题考查了矩形的性质、全等三角形的判定和全等三角形的性质、三角形中位线定理以及平行四边形的判定和菱形的判定方法，属于基础题目．",
+          "Degree": 0.80,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•娄底）",
+          "LabelReportID": "6871102f-54cf-4f91-bce5-a55aa96474af",
+          "Teacher": "wd1899老师",
+          "Points": [
+            {
+              "Key": "LB",
+              "Value": "矩形的性质"
+            },
+            {
+              "Key": "KD",
+              "Value": "全等三角形的判定与性质"
+            },
+            {
+              "Key": "KP",
+              "Value": "直角三角形斜边上的中线"
+            },
+            {
+              "Key": "L9",
+              "Value": "菱形的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 143,
+          "ViewCount": 34135,
+          "DownCount": 40,
+          "RealCount": 19,
+          "PaperCount": 769,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 8.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "c5c54324-5363-4f22-ba3b-38a85a753f8b",
+          "Content": "某企业2011年盈利1500万元，2013年克服全球金融危机的不利影响，仍实现盈利2160万元．从2011年到2013年，如果该企业每年盈利的年增长率相同，求：<br />（1）该企业盈利的年增长率是多少？<br />（2）若该企业盈利的年增长率继续保持不变，预计2014年盈利多少万元？",
+          "Analyse": "（1）增长基数为1500万元，增长次数2次，增长后的值为2160万元，根据增长率公式，列方程求解；<br />（2）根据（1）所求增长率，求2014年的盈利即可．",
+          "Method": "解：（1）设该企业每年盈利的年增长率是x，依题意，得<br />1500（1+x）<SUP>2</SUP>=2160，<br />解得x<SUB>1</SUB>=0.2=20%，x<SUB>2</SUB>=-2.2（舍去），<br />答：该企业每年盈利的年增长率是20%；<br /><br />（2）2014年总盈利是2160×（1+20%）=2592（万元）．<br />故预计2014年盈利2592万元．",
+          "Discuss": "本题考查了一元二次方程的应用．关键是要读懂题目的意思，根据题目给出的条件，找出合适的等量关系，列出方程，再求解．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2014•菏泽模拟）",
+          "LabelReportID": "e96159d0-9a1b-40ec-bc37-a4cb553282f0",
+          "Teacher": "HLing老师",
+          "Points": [
+            {
+              "Key": "AD",
+              "Value": "一元二次方程的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "123",
+              "Value": "增长率问题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 5,
+          "ViewCount": 877,
+          "DownCount": 16,
+          "RealCount": 6,
+          "PaperCount": 52,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "466b7e73-6ac8-42ad-a178-19c2217c740d",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/40/901672d0.png\" style=\"vertical-align:middle;FLOAT:right\" />已知：如图，在菱形ABCD中，F为边BC的中点，DF与对角线AC交于点M，过M作ME⊥CD于点E，∠1=∠2．<br />（1）若CE=1，求BC的长；<br />（2）求证：AM=DF+ME．",
+          "Analyse": "（1）根据菱形的对边平行可得AB∥CD，再根据两直线平行，内错角相等可得∠1=∠ACD，所以∠ACD=∠2，根据等角对等边的性质可得CM=DM，再根据等腰三角形三线合一的性质可得CE=DE，然后求出CD的长度，即为菱形的边长BC的长度；<br />（2）先利用“边角边”证明△CEM和△CFM全等，根据全等三角形对应边相等可得ME=MF，延长AB交DF于点G，然后证明∠1=∠G，根据等角对等边的性质可得AM=GM，再利用“角角边”证明△CDF和△BGF全等，根据全等三角形对应边相等可得GF=DF，最后结合图形GM=GF+MF即可得证．",
+          "Method": "（1）解：∵四边形ABCD是菱形，<br />∴AB∥CD，<br />∴∠1=∠ACD，<br />∵∠1=∠2，<br />∴∠ACD=∠2，<br />∴MC=MD，<br />∵ME⊥CD，<br />∴CD=2CE，<br />∵CE=1，<br />∴CD=2，<br />∴BC=CD=2；<br /><br />（2）证明：如图，∵F为边BC的中点，<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201206/40/77a97bec.png\" style=\"vertical-align:middle;FLOAT:right\" /><br />∴BF=CF=$\\frac{1}{2}$BC，<br />∴CF=CE，<br />在菱形ABCD中，AC平分∠BCD，<br />∴∠ACB=∠ACD，<br />在△CEM和△CFM中，<br />∵$\\left\\{\\begin{array}{l}{CE=CF}\\\\{∠ACB=∠ACD}\\\\{CM=CM}\\end{array}\\right.$，<br />∴△CEM≌△CFM（SAS），<br />∴ME=MF，<br />延长AB交DF的延长线于点G，<br />∵AB∥CD，<br />∴∠G=∠2，<br />∵∠1=∠2，<br />∴∠1=∠G，<br />∴AM=MG，<br />在△CDF和△BGF中，<br />∵$\\left\\{\\begin{array}{l}{∠G=∠2}\\\\{∠BFG=∠CFD(对顶角相等)}\\\\{BF=CF}\\end{array}\\right.$，<br />∴△CDF≌△BGF（AAS），<br />∴GF=DF，<br />由图形可知，GM=GF+MF，<br />∴AM=DF+ME．",
+          "Discuss": "本题考查了菱形的性质，全等三角形的判定与性质，等角对等边的性质，作出辅助线构造出全等三角形是解题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•重庆）",
+          "LabelReportID": "5b53819a-9c22-4f66-82e8-8aadfda7336d",
+          "Teacher": "星期八老师",
+          "Points": [
+            {
+              "Key": "L8",
+              "Value": "菱形的性质"
+            },
+            {
+              "Key": "KD",
+              "Value": "全等三角形的判定与性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 323,
+          "ViewCount": 17880,
+          "DownCount": 149,
+          "RealCount": 32,
+          "PaperCount": 2382,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 20,
+          "ID": "3d2b1d09-026d-4965-88c1-7a680cb83b59",
+          "Content": "抛物线y=$\\frac{1}{2}$x<SUP>2</SUP>+bx-2与x轴交于A、B两点，与y轴交于C点，且A（-1，0）．<br />（1）求抛物线的解析式及顶点D的坐标；<br />（2）判断△ABC的形状，证明你的结论．",
+          "Analyse": "（1）先把A点坐标为（-1，0）代入抛物线y=$\\frac{1}{2}$x<SUP>2</SUP>+bx-2即可求出b的值，进而可求出抛物线的解析式，再由抛物线的顶点式即可求出其顶点坐标；<BR>（2）由两点间的距离公式分别求出AC，BC，AB的长，再根据勾股定理即可判断出△ABC的形状．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201201/19/bb215018.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：（1）A点坐标为（-1，0）代入抛物线y=$\\frac{1}{2}$x<SUP>2</SUP>+bx-2得，<BR>0=$\\frac{1}{2}$×（-1）<SUP>2</SUP>-b-2，解得b=-$\\frac{3}{2}$，<BR>∴原抛物线的解析式为：y=$\\frac{1}{2}$x<SUP>2</SUP>-$\\frac{3}{2}$x-2，<BR>∴x=$\\frac{3}{2}$，y=-$\\frac{25}{8}$，<BR>∴D点坐标为：（$\\frac{3}{2}$，-$\\frac{25}{8}$）；<BR><BR>（2）∵AC=$\\sqrt{5}$，BC=2$\\sqrt{5}$，AB=5，<BR>∴AC<SUP>2</SUP>+BC<SUP>2</SUP>=AB<SUP>2</SUP>，<BR>∴△ABC是直角三角形．<BR>故答案为：y=$\\frac{1}{2}$x<SUP>2</SUP>-$\\frac{3}{2}$x-2，（$\\frac{3}{2}$，-$\\frac{25}{8}$），△ABC是直角三角形．",
+          "Discuss": "本题考查了抛物线与x轴的交点问题及勾股定理的逆定理，熟知坐标轴上各点坐标的特点及两点间的距离公式是解答此题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2014•伊春模拟）",
+          "LabelReportID": "0c5bce36-08ce-4683-b589-bd285fdddee7",
+          "Teacher": "ZJX老师",
+          "Points": [
+            {
+              "Key": "HA",
+              "Value": "抛物线与x轴的交点"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "2B ",
+              "Value": "探究型"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 23,
+          "ViewCount": 1348,
+          "DownCount": 20,
+          "RealCount": 6,
+          "PaperCount": 81,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.6583333
+}

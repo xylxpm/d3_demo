@@ -1,0 +1,1412 @@
+﻿{
+  "ID": "7d769293-4149-43e1-a3c5-2d4e7854e976",
+  "Title": "2017-2018学年黑龙江省哈尔滨市道里区九年级（上）期中化学试卷",
+  "Year": 2017,
+  "Times": 0,
+  "Score": 70,
+  "EditionID": 15,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 7,
+  "SourceName": "期中试题",
+  "RegionID": "1050101",
+  "RegionNames": [
+    "黑龙江省",
+    "哈尔滨市",
+    "道里区"
+  ],
+  "ViewCount": 405,
+  "Date": "2017-11-02T00:00:00",
+  "Subject": 22,
+  "EditionName": "人教新版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "",
+  "Groups": [
+    {
+      "Key": "一、选择题（1～15题，每小题2分．共30分．每小题只有一个正确答案）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "78a5c15a-0baa-4130-980c-f58c54251907",
+          "Content": "“一带一路”上的名城哈尔滨是我们可爱的家乡!下列哈尔滨知名景观所涉及的材料属于金属材料的是（　　）",
+          "Analyse": "金属材料包括纯金属和合金，据此结合常见物质的组成进行分析判断即可．",
+          "Method": "解：A、红砖是用泥土烧制而成的，属于无机非金属材料，故选项错误。<br />B、钢是铁的合金，属于金属材料，故选项正确。<br />C、方石马路的主要成分是碳酸盐，属于无机非金属材料，故选项错误。<br />D、玻璃的主要成分是硅酸盐，属于无机非金属材料，故选项错误。<br />故选：B。",
+          "Discuss": "本题难度不大，掌握金属材料的范畴（纯金属以及它们的合金）是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "ls0906老师",
+          "Points": [
+            {
+              "Key": "89",
+              "Value": "金属材料及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/138/c4691fc7.png\" style=\"vertical-align:middle\" /><br />索菲亚教堂一红砖墙体",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/138/9b6d6446.png\" style=\"vertical-align:middle\" /><br />龙塔一钢架",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/145/222c2d34.png\" style=\"vertical-align:middle\" /><br />中央大街一方石马路",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/146/ab7c8b33.png\" style=\"vertical-align:middle\" /><br />老江桥一玻璃步道板"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 69,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "bc32c162-b180-4b91-a8f3-18344ae67f15",
+          "Content": "下列实验操作正确的是（　　）",
+          "Analyse": "A、根据胶头滴管的使用方法进行分析判断．<br />B、根据过滤液体时，注意“一贴、二低、三靠”的原则进行分析．<br />C、根据液体加热需要注意事项进行判断．<br />D、根据倾倒液体药品的方法进行分析判断．",
+          "Method": "解：A、吸取液体药品时应该在外面把胶头滴管内的空气赶净，再把胶头滴管伸入试剂瓶内吸取液体，图中有气泡说明是在试剂瓶里赶净空气，故A错误；<br />B、过滤液体时，要注意“一贴、二低、三靠”的原则，图中缺少玻璃棒引流、漏斗下端没有紧贴烧杯壁，故B错误；<br />C、给试管内液体加热时，试管内液体的体积不能超过试管体$\\frac{1}{3}$，故C正确；<br />D、取液体药品时，瓶塞倒放，标签向着手心，容器要倾斜，容器口与试剂瓶口紧挨着，故D错误；<br />故选：C。",
+          "Discuss": "本题难度不大，熟悉各种仪器的用途及使用注意事项、掌握常见化学实验基本操作的注意事项是解答此类试题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "4B",
+              "Value": "给试管里的液体加热"
+            },
+            {
+              "Key": "49",
+              "Value": "液体药品的取用"
+            },
+            {
+              "Key": "4G",
+              "Value": "过滤的原理、方法及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "341",
+              "Value": "化学学习中的实验思想"
+            },
+            {
+              "Key": "531",
+              "Value": "常见仪器及化学实验基本操作"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/159/2438a8f0.png\" style=\"vertical-align:middle\" /><br />吸取液体药品",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/159/74627e92.png\" style=\"vertical-align:middle\" /><br />过滤",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/159/77ec564c.png\" style=\"vertical-align:middle\" /><br />给液体加热",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/159/a07795d1.png\" style=\"vertical-align:middle\" /><br />量取液体药品"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 40,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "cc78ee09-956d-47b1-a294-b0e3d4d8435b",
+          "Content": "下列教材课外实验中，发生化学变化的是（　　）",
+          "Analyse": "化学变化是指有新物质生成的变化，物理变化是指没有新物质生成的变化，化学变化和物理变化的本质区别是否有新物质生成；据此分析判断。",
+          "Method": "解：A、石墨导电实验过程中没有新物质生成，属于物理变化。<br />B、自制汽水过程中有新物质二氧化碳等生成，属于化学变化。<br />C、自制白糖晶体过程中没有新物质生成，属于物理变化。<br />D、简易净水器净水过程中没有新物质生成，属于物理变化。<br />故选：B。",
+          "Discuss": "本题难度不大，解答时要分析变化过程中是否有新物质生成，若没有新物质生成属于物理变化，若有新物质生成属于化学变化。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•安丘市期末）",
+          "LabelReportID": "bfadeafc-c8bb-4509-81b6-6a9ae96ee14d",
+          "Teacher": "起点线老师",
+          "Points": [
+            {
+              "Key": "E3",
+              "Value": "化学变化和物理变化的判别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "512",
+              "Value": "物质的变化与性质"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201411/94/b7659c4c.png\" style=\"vertical-align:middle\" /><br />石墨导电实验",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/157/2ddc6978.png\" style=\"vertical-align:middle\" /><br />自制汽水",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201709/179/9e9eee54.png\" style=\"vertical-align:middle\" /><br />自制白糖晶体",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201709/178/1f5fefdf.png\" style=\"vertical-align:middle\" /><br />简易净水器"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 44,
+          "DownCount": 0,
+          "RealCount": 3,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "cc7fa5ed-3354-48d3-b4b6-21826898771d",
+          "Content": "下列粒子结构示意图中，属于第三周期金属元素的原子的是（　　）",
+          "Analyse": "第三周期的原子核外有三个电子层，由核内质子数确定元素的种类即可．",
+          "Method": "解：第三周期的原子核外有三个电子层。<br />A、该原子的原子核外有两个电子层，故选项错误。<br />B、该原子的原子核外有三个电子层，其核内质子数为12，为镁元素，属于第三周期金属元素的原子，故选项正确。<br />C、质子数=11，核外电子数=10，质子数＞核外电子数，为阳离子，故选项错误。<br />D、该原子的原子核外有三个电子层，其核内质子数为17，为氯元素，为非金属元素的原子，故选项错误。<br />故选：B。",
+          "Discuss": "本题难度不大，掌握元素周期表与核外电子层的关系、元素的分类是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "B8",
+              "Value": "原子结构示意图与离子结构示意图"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "131",
+              "Value": "微观粒子模拟图型"
+            },
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/76/f663187f.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/76/541dac70.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/76/e849ffbc.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/76/9bda0c10.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 47,
+          "DownCount": 1,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "611b3fc3-9135-43c7-946c-5c9964025af5",
+          "Content": "下列物质的用途错误的是（　　）",
+          "Analyse": "根据物质的性质来分析其用途，注意性质与用途的关系来解答．",
+          "Method": "解：A、钛合金制人造骨，是利用了钛合金与人体有很好的相容性的性质。故A正确；<br />B、氧气具有助燃性，可用于炼钢，故B正确；<br />C、铁相对电阻率高，导电性能差，故通常家用电路的电线用铜做导电体，而不用铁，故C错误；<br />D、水是生命之源，可用水灌溉农田，故D正确。<br />故选：C。",
+          "Discuss": "本题难度不大，物质的性质决定物质的用途，掌握常见物质的性质和用途是正确解答此类题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "83",
+              "Value": "合金与合金的性质"
+            },
+            {
+              "Key": "6K",
+              "Value": "常见气体的用途"
+            },
+            {
+              "Key": "73",
+              "Value": "水的性质和应用"
+            },
+            {
+              "Key": "82",
+              "Value": "金属的物理性质及用途"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "144",
+              "Value": "物质的性质与用途"
+            },
+            {
+              "Key": "312",
+              "Value": "性质决定用途"
+            },
+            {
+              "Key": "528",
+              "Value": "化学与生活"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201503/68/f66ea99e.png\" style=\"vertical-align:middle\" /><br />用钛合金制人造骨",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/182/8aa0acf9.png\" style=\"vertical-align:middle\" /><br />用氧气炼钢",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/182/d430c570.png\" style=\"vertical-align:middle\" /><br />用铁做导线",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/182/a3a1e554.png\" style=\"vertical-align:middle\" /><br />用水灌溉农田"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 34,
+          "DownCount": 1,
+          "RealCount": 2,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "44d529fd-ed13-4a83-be87-039112bcc759",
+          "Content": "下列实验现象叙述正确的是（　　）",
+          "Analyse": "A、根据二氧化碳的化学性质，进行分析判断．<br />B、根据铁丝在氧气中燃烧的现象进行分析判断．<br />C、根据甲烷燃烧的现象进行分析判断．<br />D、根据碱的化学性质，进行分析判断．",
+          "Method": "解：A、加热通入足量二氧化碳后的石蕊溶液，碳酸分解生成水和二氧化碳，溶液由红色变为紫色，故选项说法正确。<br />B、铁丝在氧气中剧烈燃烧，火星四射，放出大量的热，生成一种黑色固体，故选项说法错误。<br />C、甲烷燃烧，发出明亮的蓝色火焰，放热，故选项说法错误。<br />D、氢氧化钠溶液与硫酸铜溶液反应生成氢氧化铜蓝色沉淀和硫酸钠，生成蓝色的氢氧化铜沉淀是实验结论而不是实验现象，故选项说法错误。<br />故选：A。",
+          "Discuss": "本题难度不大，掌握碱的化学性质、二氧化碳的化学性质、常见物质燃烧的现象即可正确解答，在描述实验现象时，需要注意实验结论和实验现象的区别．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "95",
+              "Value": "碱的化学性质"
+            },
+            {
+              "Key": "6A",
+              "Value": "氧气与碳、磷、硫、铁等物质的反应现象"
+            },
+            {
+              "Key": "6Q",
+              "Value": "二氧化碳的化学性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "142",
+              "Value": "元素与化合物"
+            },
+            {
+              "Key": "522",
+              "Value": "氧气、氢气的性质与用途"
+            },
+            {
+              "Key": "523",
+              "Value": "碳单质与含碳化合物的性质与用途"
+            },
+            {
+              "Key": "526",
+              "Value": "常见的碱 碱的通性"
+            },
+            {
+              "Key": "532",
+              "Value": "实验现象的观察和记录"
+            }
+          ],
+          "Options": [
+            "加热通入足量二氧化碳后的石蕊溶液：溶液由红色变为紫色",
+            "细铁丝在氧气中燃烧：银白色固体剧烈燃烧，发出耀眼白光，放出大量的热",
+            "甲烷燃烧：无色气体燃烧，发出明亮的蓝紫色火焰，放热",
+            "向硫酸铜溶液中滴加氢氧化钠溶液：溶液中生成蓝色的氢氧化铜沉淀"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 25,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "4d2ea3d4-379b-456d-8df8-600f877fb57d",
+          "Content": "下列叙述所对应的原理（用化学方程式表示）和基本反应类型都正确的是（　　）",
+          "Analyse": "根据化学方程式判断正误的方法需考虑：应用的原理是否正确；化学式书写是否正确；是否配平；反应条件是否正确；↑和↓的标注是否正确．",
+          "Method": "解：A、该化学方程式书写完全正确，该反应符合“多变一”的特征，属于化合反应，故选项正确。<br />B、该化学方程式书写完全正确，但氧化反应不是基本的反应类型，故选项错误。<br />C、该化学方程式配平错误，正确的化学方程式应为：C+2CuO$\\frac{\\underline{\\;高温\\;}}{\\;}$2Cu+CO<SUB>2</SUB>↑，故选项错误。<br />D、工业制氧气利用的液态氮和液态氧沸点的不同，属于物理变化，故选项错误。<br />故选：A。",
+          "Discuss": "本题难度不大，化学方程式正误判断方法是：先看化学式是否正确，再看配平，再看反应条件，再看气体和沉淀，最后短线改成等号；掌握四种基本反应类型的特征是正确解答本题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道里区期中）",
+          "LabelReportID": "7d769293-4149-43e1-a3c5-2d4e7854e976",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            },
+            {
+              "Key": "FA",
+              "Value": "反应类型的判定"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "142",
+              "Value": "元素与化合物"
+            },
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            },
+            {
+              "Key": "514",
+              "Value": "化学反应的基本类型和能量变化"
+            }
+          ],
+          "Options": [
+            "生石灰做干燥剂 CaO+H<SUB>2</SUB>O═Ca（OH）<SUB>2</SUB> 化合反应",
+            "酒精作燃料 C<SUB>2</SUB>H<SUB>5</SUB>OH+3O<SUB>2</SUB>$\\frac{\\underline{\\;点燃\\;}}{\\;}$2CO<SUB>2</SUB>+3H<SUB>2</SUB>O 氧化反应",
+            "木炭还原氧化铜 2C+CuO$\\frac{\\underline{\\;高温\\;}}{\\;}$Cu+2CO<SUB>2</SUB>↑ 置换反应",
+            "工业制氧气 2KMnO<SUB>4</SUB>$\\frac{\\underline{\\;\\;△\\;\\;}}{\\;}$K<SUB>2</SUB>MnO<SUB>4</SUB>+MnO<SUB>2</SUB>+O<SUB>2</SUB>↑分解反应"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 28,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "5c34708b-75cf-48c8-a65f-c269eaca0c02",
+          "Content": "让化学造福生活是永恒的主题，下列相关叙述错误的是（　　）",
+          "Analyse": "A、根据用煮沸的方法使硬水得到软化分析；<br />B、开窗可以使空气流通，降低室内燃气的浓度考虑；<br />C、钢铁生锈的条件是钢铁与氧气和水同时接触，防锈就是使铁与水或氧气隔绝；<br />D、根据用X射线检查肠胃病分析．",
+          "Method": "解：A、生活中，可以用煮沸的方法使硬水得到软化，故A正确，<br />B、开窗可以使空气流通，降低室内燃气的浓度，不触动电器开关，防止产生电火花引发爆炸，故B正确；<br />C、雨水淋湿的自行车，先用布擦净后再用带油的布擦，因为如果先用带油的布擦，在自行车的表面形成一层油膜，使自行车上的水不容易挥发，更容易使自行车生锈，故C错误；<br />D、医疗上用X射线检查肠胃病时，让病人服用硫酸钡的悬浊液，故D正确。<br />故选：C。",
+          "Discuss": "主要考查了对生活中常见的现象的化学解释，从中培养学生能够利用所学的知识解释生活常见的现象，培养学生解决问题的能力．化学来源于生产生活，也必须服务于生产生活，所以与人类生产生活相关的化学知识也是重要的中考热点之一．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "7G",
+              "Value": "悬浊液、乳浊液的概念及其与溶液的区别"
+            },
+            {
+              "Key": "77",
+              "Value": "硬水与软水"
+            },
+            {
+              "Key": "8G",
+              "Value": "金属锈蚀的条件及其防护"
+            },
+            {
+              "Key": "H5",
+              "Value": "防范爆炸的措施"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "515",
+              "Value": "溶液、浊液与溶解度"
+            },
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            },
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [
+            "生活中，可以用煮沸的方法使硬水得到软化",
+            "发现燃气泄露时，要关闭阀门，开窗通风，不可贸然触碰电器开关",
+            "被雨水淋湿的自行车，要先用带油的布擦",
+            "医疗上用X射线检查肠胃病时，让病人服用硫酸钡的悬浊液"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 59,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 22,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "0ed97e0a-2e4e-4d59-b91b-dc38c85c804f",
+          "Content": "2017年诺贝尔化学奖于当地时间10月4日揭晓．授予三位在开发对生物分子进行高分辨率结构测定的低温电子显微镜方面有突出贡献的科学家．甘氨酸就是一种典型的生物分子，下列叙述正确的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/199/40ca3326.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "A．根据混合物与纯净物的概念来分析；<br />B．根据物质的结构来分析；<br />C．根据分子结构来分析；<br />D．根据化合物中各元素的质量比的计算方法来分析．",
+          "Method": "解：由分子结构模型可知，甘氨酸的化学式为C<SUB>2</SUB>H<SUB>5</SUB>O<SUB>2</SUB>N。<br/>A．甘氨酸是由一种物质组成的，属于纯净物，故错误；<br />B．甘氨酸是由分子构成的，而不是由原子直接构成的，故错误；<br />C．由化学式可知，每个甘氨酸分子中含有2个碳原子、5个氢原子、2个氧原子和1个氮原子构成的，共含10个原子，每个原子中含有1个原子核，所以含有10个原子核，故错误；<br />D．甘氨酸中碳、氢元素的质量比为（12×2）：（1×5）=24：5，故正确。<br />故选：D。",
+          "Discuss": "本题难度不大，考查同学们结合新信息、灵活运用化学式的含义与有关计算进行分析问题、解决问题的能力．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•峄城区期中）",
+          "LabelReportID": "b02ff226-d454-43a2-bc90-99e14d6ed1c0",
+          "Teacher": "sdlbsh老师",
+          "Points": [
+            {
+              "Key": "D1",
+              "Value": "化学式的书写及意义"
+            },
+            {
+              "Key": "A5",
+              "Value": "纯净物和混合物的判别"
+            },
+            {
+              "Key": "D9",
+              "Value": "元素质量比的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "513",
+              "Value": "化学用语和质量守恒定律"
+            }
+          ],
+          "Options": [
+            "甘氨酸是一种混合物",
+            "甘氨酸由碳、氢、氧、氮四种原子构成",
+            "一个甘氨酸分子中含有9个原子核",
+            "甘氨酸中碳、氢元素的质量比为24：5"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 60,
+          "DownCount": 2,
+          "RealCount": 3,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "c4bffab7-38b6-47f2-912a-c4dfe924656c",
+          "Content": "下列关于资源、能源的叙述正确的是（　　）",
+          "Analyse": "A、根据空气的成分分析；<br />B、根据地球上淡水资源分析；<br />C、从元素的存在形式与其化学性质间的联系角度回答；<br />D、根据人们经常利用的能源分析．",
+          "Method": "解：A、空气是一种宝贵的资源，其中氧气的体积分数为21%，错误；<br />B、地球上的总水储量虽然很大，但可利用的淡水资源却不到全球水储量的l%，错误；<br />C、元素的存在形式由其化学性质决定，金、银的化学性质稳定，与土壤中的水及氧气等物质不反应，可以以单质的形式存在；其它化学性质活泼的以化合物的形式存在。故正确；<br />D、目前生产和生活中人们经常利用的能源有化石能源，氢能不是常用的能源，错误；<br />故选：C。",
+          "Discuss": "多数金属性质活泼，以化合物的形式存在，少数金属性质稳定，以单质形式存在．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "87",
+              "Value": "金属元素的存在及常见的金属矿物"
+            },
+            {
+              "Key": "61",
+              "Value": "空气的成分及各成分的体积分数"
+            },
+            {
+              "Key": "78",
+              "Value": "水资源状况"
+            },
+            {
+              "Key": "HE",
+              "Value": "资源综合利用和新能源开发"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "213",
+              "Value": "化学与能源"
+            },
+            {
+              "Key": "521",
+              "Value": "空气与水"
+            },
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [
+            "空气是一种宝贵的资源，其中氧气的体积分数为78%",
+            "地球上淡水资源不足全球水储量的1%",
+            "地球上除少数不活泼的金属有单质形式存在外，其余金属都以化合物的形式存在",
+            "在生活和生产中，人们经常利用的能源有化石能源、氢能、可燃冰等"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 33,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 16,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "a1a53392-6346-4a49-9c9b-ba2f58f25487",
+          "Content": "用微观粒子知识对下列一些事实的解释正确的是（　　）<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=47>选项</TD><TD width=246>事实</TD><TD width=227>解释</TD></TR><TR><TD>A</TD><TD>宝石绚丽多彩</TD><TD>宝石中含有某些金属单质</TD></TR><TR><TD>B</TD><TD>二氧化碳和一氧化碳的化学性质不同</TD><TD>原子的排列方式不同</TD></TR><TR><TD>C</TD><TD>水银温度计示数受热上升</TD><TD>汞分子间隔随着温度的升高而增大</TD></TR><TR><TD>D</TD><TD>将固体配成溶液可以加快反应速率</TD><TD>溶液间的反应粒子接触的机会较多</TD></TR></TBODY></TABLE>",
+          "Analyse": "根据分子的基本特征：分子质量和体积都很小；分子之间有间隔；分子是在不断运动的；同种的分子性质相同，不同种的分子性质不同，可以简记为：“两小运间，同同不不”，结合事实进行分析判断即可．",
+          "Method": "解：A、宝石绚丽多彩，是因为宝石中含有某些金属离子，而使宝石呈现出绚丽多彩的光泽，故选项解释错误。<br />B、二氧化碳和一氧化碳的化学性质不同，是因为它们分子的构成不同，不同种的分子性质不同，故选项解释错误。<br />C、水银是金属汞的俗称，水银温度计示数受热上升，是因为汞原子间的间隔随温度的变化而改变，故选项解释错误。<br />D、将固体配成溶液可以加快反应速率，是因为溶液间的反应粒子接触的机会较多，故选项解释正确。<br />故选：D。",
+          "Discuss": "本题难度不大，掌握分子的基本性质（可以简记为：“两小运间，同同不不”）及利用分子的基本性质分析和解决问题的方法是解答此类题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "B9",
+              "Value": "利用分子与原子的性质分析和解决问题"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "351",
+              "Value": "微观和宏观相互转化思想"
+            },
+            {
+              "Key": "511",
+              "Value": "物质的微观构成与物质的宏观组成"
+            }
+          ],
+          "Options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 44,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "d75a2e3b-dbc5-440c-ba9c-55eb5dab3b4c",
+          "Content": "实验室中，区分下列物质的两个实验方案都合理的是（　　）<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=47>选项</TD><TD width=189>需区分的物质</TD><TD width=151>方案一</TD><TD width=132>方案二</TD></TR><TR><TD>A</TD><TD>5mL汽油和5mL蒸馏水</TD><TD>分别投入1-2小粒碘</TD><TD>点燃</TD></TR><TR><TD>B</TD><TD>硝酸铵和氯化钠</TD><TD>溶于水，测温度</TD><TD>尝味道</TD></TR><TR><TD>C</TD><TD>蒸馏水和5%的过氧化氢溶液</TD><TD>加入少量二氧化锰</TD><TD>伸入带火星的木条</TD></TR><TR><TD>D</TD><TD>木炭粉和氧化铜粉末</TD><TD>看颜色</TD><TD>点燃</TD></TR></TBODY></TABLE>",
+          "Analyse": "A、根据碘会溶于汽油，汽油可以燃烧进行分析；<br />B、根据在实验室不能品尝任何药品的味道进行分析；<br />C、根据二氧化锰可以催化过氧化氢的分解进行分析；<br />D、根据氧化铜和木炭粉都是黑色粉末进行分析．",
+          "Method": "解：A、取样品，加入碘，可以溶解碘的是汽油，不能溶解碘的是蒸馏水，现象不同，可以鉴别；点燃，可以燃烧的是汽油，不能燃烧的是蒸馏水，现象不同，可以鉴别，故A正确；<br />B、在实验室不能品尝任何药品的味道，故B错误；<br />C、5%的过氧化氢溶液在不加催化剂的条件下，放出氧气的速率较慢，也不能使带火星的木条复燃，蒸馏水也不会放出氧气，现象相同，不能鉴别，故C错误；<br />D、氧化铜和木炭粉都是黑色粉末，观察颜色的方法不能鉴别，故D错误。<br />故选：A。",
+          "Discuss": "在解此类题时，首先分析被鉴别物质的性质，然后选择适当的试剂和方法，出现不同的现象即可鉴别．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "947****3253老师",
+          "Points": [
+            {
+              "Key": "AE",
+              "Value": "物质的鉴别、推断"
+            },
+            {
+              "Key": "4Q",
+              "Value": "常见气体的检验与除杂方法"
+            },
+            {
+              "Key": "9U",
+              "Value": "酸、碱、盐的鉴别"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "182",
+              "Value": "物质的鉴别题"
+            }
+          ],
+          "Options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 38,
+          "DownCount": 1,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "2f75b7ef-20ba-469d-9854-50cd7c3b799b",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/134/750afc01.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图是甲、乙两种固体（均不含结晶水）的溶解度曲线，下列叙述正确的是（　　）",
+          "Analyse": "根据固体的溶解度曲线可以：①查出某物质在一定温度下的溶解度，从而确定物质的溶解性，②比较不同物质在同一温度下的溶解度大小，从而判断饱和溶液中溶质的质量分数的大小，③判断物质的溶解度随温度变化的变化情况，从而判断通过降温结晶还是蒸发结晶的方法达到提纯物质的目的．",
+          "Method": "解：A、通过分析溶解度曲线可知，0-t<SUB>2</SUB>℃时，甲物质的溶解度小于乙物质的溶解度，故错误；<br />B、t<SUB>2</SUB>℃时，甲、乙两种物质的溶解度相等，等质量的甲、乙饱和溶液中所含的溶质质量相等，故错误；<br />C、甲的溶解度受温度影响较大，乙的溶解度受温度影响较小，要提纯乙可用蒸发溶剂的方法，故错误；<br />D、根据溶解度曲线可知，t<SUB>1</SUB>℃时，甲的溶解度是20g，其饱和溶液的溶质质量分数=$\\frac{20g}{60g}$×100%=33.3%，所以t<SUB>1</SUB>℃时，用60 g甲的饱和溶液加水可以配制成200g 5%的甲溶液，正确。<br />故选：D。",
+          "Discuss": "本题难度不是很大，主要考查了固体的溶解度曲线所表示的意义，及根据固体的溶解度曲线来解决相关的问题，从而培养分析问题、解决问题的能力．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "nby5060老师",
+          "Points": [
+            {
+              "Key": "7N",
+              "Value": "固体溶解度曲线及其作用"
+            },
+            {
+              "Key": "4H",
+              "Value": "结晶的原理、方法及其应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "515",
+              "Value": "溶液、浊液与溶解度"
+            }
+          ],
+          "Options": [
+            "0-t<SUB>2</SUB>℃时，甲物质的溶解度大于乙物质的溶解度",
+            "t<SUB>2</SUB>℃时，等质量的甲、乙溶液中所含的溶质质量相等",
+            "欲提纯含有少量甲的乙物质，应采取冷却热饱和溶液的方法",
+            "t<SUB>1</SUB>℃时，用60g甲的饱和溶液加水可以配制成200g5%的甲溶液"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 21,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "3aad14d4-1b67-4fdd-a973-56a30e545051",
+          "Content": "除去下列物质中的少量杂质，所选用的试剂及操作方法均正确的是（　　）<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=47>选项</TD><TD width=151>物质（括号内为杂质）</TD><TD width=274>试剂及操作方法</TD></TR><TR><TD>A</TD><TD>氮气（氧气）</TD><TD>将混合气体通过灼热的铜网</TD></TR><TR><TD>B</TD><TD>碳酸钠溶液（氯化钠）</TD><TD>滴加适量稀盐酸至不再产生气泡</TD></TR><TR><TD>C</TD><TD>锌粉（硫酸亚铁）</TD><TD>向混合物中加入适量水，充分搅拌、过滤</TD></TR><TR><TD>D</TD><TD>氯化钾（氯酸钾）</TD><TD>加入适量二氧化锰，加热</TD></TR></TBODY></TABLE>",
+          "Analyse": "根据原物质和杂质的性质选择适当的除杂剂和分离方法，所谓除杂（提纯），是指除去杂质，同时被提纯物质不得改变．除杂质题至少要满足两个条件：①加入的试剂只能与杂质反应，不能与原物质反应；②反应后不能引入新的杂质．",
+          "Method": "解：A、氧气通过灼热的铜网时可与铜发生反应生成氧化铜，而氮气不与铜反应，能除去杂质且没有引入新的杂质，符合除杂原则，故选项说法正确。<br />B、碳酸钠溶液能与稀盐酸反应生成氯化钠、水和二氧化碳，反而会把原物质除去，不符合除杂原则，故选项所采取的方法错误。<br />C、向混合物中加入适量水，锌能与硫酸亚铁溶液反应生成硫酸锌溶液和氢气，不但能把杂质除去，也会把原物质除去，不符合除杂原则，故选项所采取的方法错误。<br />D、KClO<SUB>3</SUB>在二氧化锰的催化作用下生成氯化钾和氧气，二氧化锰作催化剂，反应前后质量不变，能除去杂质但引入了新的杂质二氧化锰，不符合除杂原则，故选项所采取的方法错误。<br />故选：A。",
+          "Discuss": "物质的分离与除杂是中考的重点，也是难点，解决除杂问题时，抓住除杂质的必需条件（加入的试剂只与杂质反应，反应后不能引入新的杂质）是正确解题的关键．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道里区期中）",
+          "LabelReportID": "7d769293-4149-43e1-a3c5-2d4e7854e976",
+          "Teacher": "123321老师",
+          "Points": [
+            {
+              "Key": "2H",
+              "Value": "物质除杂或净化的探究"
+            },
+            {
+              "Key": "4Q",
+              "Value": "常见气体的检验与除杂方法"
+            },
+            {
+              "Key": "9H",
+              "Value": "盐的化学性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "167",
+              "Value": "物质的分离和提纯"
+            },
+            {
+              "Key": "533",
+              "Value": "物质的分离、除杂、提纯与共存问题"
+            }
+          ],
+          "Options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 19,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "c0b29e30-0d41-4e70-8f51-e4c2e80f338b",
+          "Content": "将5.6g铁粉投入到溶质的质量分数为10%的硫酸铜溶液中，两者恰好完全反应，则所得溶液中金属离子与水分子的个数比为（　　）",
+          "Analyse": "根据铁的质量求出需要硫酸铜的质量，进而求出水的质量，然后计算所得溶液中金属离子与水分子的个数比即可．",
+          "Method": "解：设硫酸铜的质量为x。<br/>Fe+CuSO<SUB>4</SUB>═FeSO<SUB>4</SUB>+Cu<br />56&nbsp;&nbsp;&nbsp;&nbsp; 160<br />5.6g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x<br />$\\frac{56}{5.6g}=\\frac{160}{x}$<br />x=16g<br />则水的质量=$\\frac{16g}{10%}-16g$=144g<br />溶液中金属离子与水分子的个数比为=$\\frac{5.6g}{56}$：$\\frac{144g}{18}$=1：80。<br/>故选：B。",
+          "Discuss": "本题难度较大，综合性较强，考查了溶液中微粒的计算，完成此题，可以依据已有的课本知识进行．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "sdwdxk老师",
+          "Points": [
+            {
+              "Key": "G6",
+              "Value": "根据化学反应方程式的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "193",
+              "Value": "有关化学方程式的计算"
+            }
+          ],
+          "Options": [
+            "1：9",
+            "1：80",
+            "7：180",
+            "19：180"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 1,
+          "ViewCount": 56,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、非选择题（28-35题，共40分，请依据题意填写空白）",
+      "Value": [
+        {
+          "Subject": 22,
+          "ID": "46c40744-2652-4d7d-af89-2547b0ca69d8",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/132/ddedba8b.png\" style=\"vertical-align:middle;FLOAT:right;\" />2017年的中秋节虽然已经过去，但全家团聚的温馨时刻在我们的心中长存!<br />（1）中秋节的晚餐一定是一场视觉和味觉的双重盛宴，除享受美食外，有些同学也喜欢喝一些汽水，喝了汽水之后会打嗝，是因为汽水进入体内温度①<div class=\"quizPutTag\">升高</div>，使其中溶解的②<div class=\"quizPutTag\">二氧化碳</div>（填名称）气体溶解度③<div class=\"quizPutTag\">减小</div>（选填“增大”或“减小”）．<br />（2）饭后，人们用洗涤剂洗刷碗筷，利用的是洗涤剂对油污的<div class=\"quizPutTag\">乳化</div>作用．<br />（3）每逢中秋节，人们都要吃月饼．细心的同学会发现，袋装的月饼内部会有一小包黑色粉末，该粉末俗名为“双吸剂”，失效后会部分变成红褐色．<br />据此推测：“双吸”指的是吸收①<div class=\"quizPutTag\">氧气</div>和水蒸气，黑色粉末中可能含有的一种金属单质是②<div class=\"quizPutTag\">铁</div>．",
+          "Analyse": "（1）根据影响气体溶解度的因素进行分析；<br />（2）根据乳化作用分析即可；<br />（3）根据“双吸剂”与氧气反应生成氧化铁分析．",
+          "Method": "解：（1）影响气体溶解度的因素有压强和温度，冰镇汽水在没喝之前温度较低，进入人体后温度升高，使其中溶解的二氧化碳气体溶解度减小，才会打嗝，<br />（2）饭后，人们用洗涤剂洗刷碗筷，利用的是洗涤剂对油污的乳化作用；<br />（3）“双吸剂”与氧气反应生成氧化铁，所以“双吸”指的是吸收氧气和水蒸气，黑色粉末中可能含有的一种金属单质是铁粉；<br />故答案为：（1）①升高&nbsp;&nbsp;&nbsp;②二氧化碳&nbsp;&nbsp;&nbsp;&nbsp;③减小<br />（2）乳化<br />（3）①氧气&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②铁（粉）",
+          "Discuss": "本题考查了乳化作用和影响气体溶解度的因素，完成此题，可以依据已有的知识进行．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "XX张秀霞老师",
+          "Points": [
+            {
+              "Key": "7O",
+              "Value": "气体溶解度的影响因素"
+            },
+            {
+              "Key": "7H",
+              "Value": "乳化现象与乳化作用"
+            },
+            {
+              "Key": "8G",
+              "Value": "金属锈蚀的条件及其防护"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "515",
+              "Value": "溶液、浊液与溶解度"
+            },
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "升高",
+            "二氧化碳",
+            "减小",
+            "乳化",
+            "氧气",
+            "铁"
+          ],
+          "FavTime": 0,
+          "ViewCount": 40,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "a436822c-c611-40bd-b920-ae5a888408cd",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/140/6d9bee7b.png\" style=\"vertical-align:middle;FLOAT:right;\" />2017年，“共享单车”出现在了哈尔滨的大街小巷，它是共享经济的一种新形态，颇受人们的喜爱．请回答：<br />（1）普通自行车的车架是由①<div class=\"quizPutTag\">锰钢</div>（填合金名称）制成的，该种合金具有②<div class=\"quizPutTag\">韧性好、硬度大</div>（填两点）的物理性质．<br />（2）某些高档自行车架也用到了碳纤维复合材料或金属钛，钛铁矿（主要成分为FeTiO<SUB>3</SUB>）是一种常见的钛矿石，已知其中两种金属元素的化合价相同，则这两种金属元素的化合价均为<div class=\"quizPutTag\">+3</div>价．<br />（3）“共享单车”不但经济，而且环保．普通燃油汽车行驶时的能量转化为：①<div class=\"quizPutTag\">化学能</div>→内能→②<div class=\"quizPutTag\">机械能</div>．和燃油汽车的尾气排放相比，骑乘共享单车，可以有效减少空气中③<div class=\"quizPutTag\">一氧化碳、氮的氧化物、未燃烧的碳氢化合物、含铅化合物和烟尘中的两种</div>（填两种有害物质）的含量，从而真正改善我们的生活环境．",
+          "Analyse": "（1）根据合金的特点进行分析；<br />（2）根据化合物中元素正负化合价的代数和为零分析；<br />（3）根据普通燃油汽车行驶时的能量转化和燃油汽车的尾气排放成分进行分析．",
+          "Method": "解：（1）普通自行车的车架是由锰钢制成的，该种合金具有韧性好、硬度大的物理性质；<br />（2）在FeTiO<SUB>3</SUB>中，O元素的化合价是-2价，Fe元素和Ti元素的化合价相同，设这两种元素的化合价为x，则：x+x+（-2）×3=0，x=3；<br />（3）普通燃油汽车行驶时的能量转化为：化学能→内能→机械能．和燃油汽车的尾气排放相比，骑乘共享单车，可以有效减少空气中一氧化碳、氮的氧化物、未燃烧的碳氢化合物、含铅化合物和烟尘中的两种的含量，从而真正改善我们的生活环境．<br />故答案为（1）①锰钢；&nbsp;②韧性好、硬度大；（2）+3；（3）①化学能；②机械能；③一氧化碳、氮的氧化物、未燃烧的碳氢化合物、含铅化合物和烟尘中的两种．",
+          "Discuss": "化学来源于生产生活，也服务于生产生活，与人类生产生活相关的化学知识及其应用是中考的热点之一．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "277****6770老师",
+          "Points": [
+            {
+              "Key": "83",
+              "Value": "合金与合金的性质"
+            },
+            {
+              "Key": "D6",
+              "Value": "有关元素化合价的计算"
+            },
+            {
+              "Key": "E5",
+              "Value": "物质发生化学变化时的能量变化"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "323",
+              "Value": "化学知识生活化"
+            },
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "锰钢",
+            "韧性好、硬度大",
+            "+3",
+            "化学能",
+            "机械能",
+            "一氧化碳、氮的氧化物、未燃烧的碳氢化合物、含铅化合物和烟尘中的两种"
+          ],
+          "FavTime": 0,
+          "ViewCount": 119,
+          "DownCount": 2,
+          "RealCount": 2,
+          "PaperCount": 19,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "fed09449-108f-48bb-8926-abf4385c711e",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/107/4eac7a3b.png\" style=\"vertical-align:middle;FLOAT:right;\" />科学家发现，利用催化剂可有效消除室内装修材料释放的甲醛（化学式为CH<SUB>2</SUB>O），此反应微观示意图如下．请回答：<br />（1）该反应符合质量守恒定律，是因为在此化学反应前后，原子的<div class=\"quizPutTag\">种类、数目、质量</div>均不发生改变；<br />（2）此反应的两种生成物均属于化合物中的①<div class=\"quizPutTag\">氧化物</div>（填物质分类），你判断的微观依据是这两种物质由同种分子构成，②<div class=\"quizPutTag\">分子由两种原子构成，其中一种是氧原子</div>；<br />（3）试写出此反应的化学方程式<div class=\"quizPutTag\">CH<SUB>2</SUB>O+O<SUB>2</SUB>$\\frac{\\underline{\\;催化剂\\;}}{\\;}$CO<SUB>2</SUB>+H<SUB>2</SUB>O</div>．",
+          "Analyse": "根据反应的微观示意图，分析反应物、生成物，写出化学式、方程式，根据其意义分析判断有关的问题；根据微粒的变化，分析分子、原子的变化；根据微粒的构成分析物质的类别等．",
+          "Method": "解：由反应的微观示意图可知，该反应是甲醛和氧气在催化条件下反应生成了二氧化碳和水，反应的方程式是：HCHO+O<SUB>2</SUB>$\\frac{\\underline{\\;催化剂\\;}}{\\;}$CO<SUB>2</SUB>+H<SUB>2</SUB>O．<br />（1）该反应符合质量守恒定律，是因为化学反应的实质是分子的破裂原子的重新组合，在此化学反应前后，原子的种类、数目、质量均不发生改变；<br />（2）此反应的两种生成物均属于化合物中的①氧化物，微观依据是这两种物质由同种分子构成，②分子由两种原子构成，其中一种是氧原子；<br />（3）由上述反应可知，此反应的化学方程式是：CH<SUB>2</SUB>O+O<SUB>2</SUB>$\\frac{\\underline{\\;催化剂\\;}}{\\;}$CO<SUB>2</SUB>+H<SUB>2</SUB>O．<br />故答为：（1）种类、数目、质量；<br />（2）①氧化物；②分子由两种原子构成，其中一种是氧原子；<br />（3）CH<SUB>2</SUB>O+O<SUB>2</SUB>$\\frac{\\underline{\\;催化剂\\;}}{\\;}$CO<SUB>2</SUB>+H<SUB>2</SUB>O．",
+          "Discuss": "本题通过微观粒子的反应模型图，考查了微观上对化学反应的认识，学会通过微观示意图把宏观物质和微观粒子联系起来、从微观的角度分析物质的变化是正确解答此类题的关键．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "sdl****yhcl老师",
+          "Points": [
+            {
+              "Key": "B3",
+              "Value": "微粒观点及模型图的应用"
+            },
+            {
+              "Key": "A7",
+              "Value": "单质和化合物的判别"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "132",
+              "Value": "化学反应模拟图型"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "种类、数目、质量",
+            "氧化物",
+            "分子由两种原子构成，其中一种是氧原子",
+            "CH<SUB>2</SUB>O+O<SUB>2</SUB>$\\frac{\\underline{\\;催化剂\\;}}{\\;}$CO<SUB>2</SUB>+H<SUB>2</SUB>O"
+          ],
+          "FavTime": 0,
+          "ViewCount": 15,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "268610cc-7492-4868-b9b6-297d046d20eb",
+          "Content": "分类是学习化学常用的方法．<br />（1）保护金属资源是每一个公民的义务．请根据下列保护金属资源的事例中所体现的保护金属资源的途径将它们分类，并参照实例完成空白处内容．（填一条即可）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/80/20e02bd4.png\" style=\"vertical-align:middle\" /><br />①用塑料代替钢制造管道、汽车零部件等<br />②给自行车的链条涂油<br />③用汽车用过的铅酸蓄电池再生铅<br />④在水龙头表面镀铬<br />⑤用废电池的锌皮做制取氢气的实验<br />⑥机器使用氮化硅陶瓷齿轮<br />（2）一年多的化学学习中，我们经历了很多实验，若按照是否“用数量表示资料或信息”可将实验分为“定性实验”和“定量实验”．若依照上述此标准，可将下列实验中的A与①<div class=\"quizPutTag\">C</div>（填“B”或“C”）归为一类，请你再写出一个你学过的定量实验②<div class=\"quizPutTag\">测定空气里氧气的含量</div>．<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=152><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/80/e9cc5610.png\" style=\"vertical-align:middle\" /></TD><TD width=180><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/80/a3a9f127.png\" style=\"vertical-align:middle\" /></TD><TD width=214><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/80/2a607b87.png\" style=\"vertical-align:middle\" /></TD></TR><TR><TD>A</TD><TD>B</TD><TD>C</TD></TR></TBODY></TABLE>",
+          "Analyse": "（1）根据保护金属资源的方法来分析；<br />（2）根据题中每个实验的目的进行分析解答．",
+          "Method": "解：（1）保护金属资源的途径有防止金属锈蚀，如给自行车的链条涂油；在水龙头表面镀铬；<br />可以回收废旧金属，如用汽车用过的铅酸蓄电池再生铅；用废电池的锌皮做制取氢气的实验．<br />故填：防止金属的腐蚀[或金属的回收利用]；②④[或③⑤]；<br />（2）实验A是定量探究化学反应前后的质量关系，属于定量实验，实验B是探究物质的性质，属于定性实验；实验C是配制一定质量的一定质量分数的溶液，属于定量实验，测定空气中氧气的含量也属于定量实验；故填：①C；②测定空气里氧气的含量（合理即可）．",
+          "Discuss": "本题考查的是常见的化学实验的探究、金属资源的保护，完成此题，可以依据已有的知识进行．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "sdlbsh老师",
+          "Points": [
+            {
+              "Key": "8I",
+              "Value": "金属资源的保护"
+            },
+            {
+              "Key": "4E",
+              "Value": "一定溶质质量分数的溶液的配制"
+            },
+            {
+              "Key": "G1",
+              "Value": "质量守恒定律及其应用"
+            },
+            {
+              "Key": "H1",
+              "Value": "燃烧与燃烧的条件"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "122",
+              "Value": "实验性简答题"
+            },
+            {
+              "Key": "524",
+              "Value": "金属与金属材料"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "C",
+            "测定空气里氧气的含量"
+          ],
+          "FavTime": 0,
+          "ViewCount": 17,
+          "DownCount": 1,
+          "RealCount": 2,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "43f5625e-93e1-49c2-9fae-5a29b2dea9b8",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/134/2b8f4971.png\" style=\"vertical-align:middle;FLOAT:right;\" />下列是关于氧气和二氧化碳实验室制取的实验，请回答下列问题：<br />（1）①A仪器的名称是<div class=\"quizPutTag\">铁架台</div>；<br />②将实验室高锰酸钾制取氧气的装置图补充完整．<br />③确定该实验选择如图所示的发生装置，主要是考虑反应物的状态和<div class=\"quizPutTag\">反应条件</div>这两个因素．<br />（2）①实验室用石灰石和稀盐酸制取二氧化碳时，发生反应的化学方程式为<div class=\"quizPutTag\">CaCO<SUB>3</SUB>+2HCl═CaCl<SUB>2</SUB>+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑</div>；<br />②为验证二氧化碳已经集满，要将<div class=\"quizPutTag\">b</div>放<div class=\"quizPutTag\">d</div>（均填字母）．<br />a．带火星的木条&nbsp;&nbsp;b．燃着的木条&nbsp;&nbsp;c．集气瓶内&nbsp;&nbsp;&nbsp;&nbsp;d．集气瓶口<br />（3）停止加热时，应先将导管移出水面，后熄灭酒精灯，否则停止加热后试管内①<div class=\"quizPutTag\">温度</div><br /><div class=\"quizPutTag\">降低</div>，且不再产生气体，从而使试管内气体量减少，气压②<div class=\"quizPutTag\">变小</div>（选填“变大”或“变小”），可能会使水槽中的水倒吸入试管，使试管因骤然冷却而炸裂．",
+          "Analyse": "（1）根据实验室常用仪器解答；根据实验室高锰酸钾制取氧气的反应装置，进行分析；<br />（2）①考虑实验室用石灰石和稀盐酸制取二氧化碳时，还生成氯化钙、水，进行书写化学方程式；<br />②考虑验证二氧化碳已经集满的方法；<br />（3）根据用高锰酸钾制取氧气的注意事项，进行分析．",
+          "Method": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/134/e92bf4e2.png\" style=\"vertical-align:middle;FLOAT:right;\" />解：（1）①A仪器的名称是 铁架台；<br />②将实验室高锰酸钾制取氧气的装置图补充完整，如图．<br />③确定该实验选择如图所示的发生装置，主要是考虑反应物的状态和 反应条件这两个因素．<br />（2）①实验室用石灰石和稀盐酸制取二氧化碳时，发生反应的化学方程式为CaCO<SUB>3</SUB>+2HCl═CaCl<SUB>2</SUB>+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑；<br />②为验证二氧化碳已经集满，要将燃着的木条放集气瓶口．<br />（3）停止加热时，应先将导管移出水面，后熄灭酒精灯，否则停止加热后试管内温度降低，且不再产生气体，从而使试管内气体量减少，气压变小，可能会使水槽中的水倒吸入试管，使试管因骤然冷却而炸裂．<br /><br />故答案为：<br />（1）①铁架台；②<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/134/e92bf4e2.png\" style=\"vertical-align:middle\" />药品涂实平铺于试管底部；试管口有一团棉花；导管上补出橡胶管并涂实；集气瓶中补出数量、大小合适的气泡；③反应条件；<br />（2）①CaCO<SUB>3</SUB>+2HCl═CaCl<SUB>2</SUB>+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑；②b；&nbsp;d；&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （3）①温度降低；&nbsp;&nbsp;②变小．",
+          "Discuss": "合理设计实验，科学地进行实验、分析实验，是得出正确实验结论的前提，因此要学会设计实验、进行实验、分析实验，为学好化学知识奠定基础．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "ls0906老师",
+          "Points": [
+            {
+              "Key": "6L",
+              "Value": "二氧化碳的实验室制法"
+            },
+            {
+              "Key": "4N",
+              "Value": "实验室制取气体的思路"
+            },
+            {
+              "Key": "6D",
+              "Value": "氧气的制取装置"
+            },
+            {
+              "Key": "6E",
+              "Value": "氧气的收集方法"
+            },
+            {
+              "Key": "6M",
+              "Value": "二氧化碳的检验和验满"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "534",
+              "Value": "常见气体的实验室制法、检验、干燥与净化"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "铁架台",
+            "反应条件",
+            "CaCO<SUB>3</SUB>+2HCl═CaCl<SUB>2</SUB>+H<SUB>2</SUB>O+CO<SUB>2</SUB>↑",
+            "b",
+            "d",
+            "温度",
+            "降低",
+            "变小"
+          ],
+          "FavTime": 0,
+          "ViewCount": 42,
+          "DownCount": 0,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 7.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "84032aa5-4063-41a6-97c5-f1b23d27e316",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/204/268322fb.png\" style=\"vertical-align:middle;FLOAT:right;\" />A、B、C、D、E分别表示初中化学常见的五种物质（或溶质），它们的部分反应和转化关系如图所示（“-”表示两种物质能发生反应，“→”表示一种物质能转化成另一种物质），已知其中B可做气体肥料．C由两种元素组成．<br />（1）若A、D都是重要的气态还原剂，E是最常见的溶剂，请回答：<br />①写出A、E物质的化学式：A<div class=\"quizPutTag\">CO</div>、E<div class=\"quizPutTag\">H<SUB>2</SUB>O</div>；<br />②E转化为D的化学方程式为<div class=\"quizPutTag\">2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑</div>．<br />（2）若A中含有人体中含量最高的金属元素，D是目前<br />世界上年产量仅次于铁的金属，请回答：<br />①写出A、D物质的化学式：A<div class=\"quizPutTag\">CaCO<SUB>3</SUB></div>、D<div class=\"quizPutTag\">Al</div>；<br />②D和足量C反应的现象为<div class=\"quizPutTag\">银白色固体逐渐消失，表面产生气泡，放热</div>．",
+          "Analyse": "根据A、B、C、D、E分别表示初中化学常见的五种物质（或溶质），B可做气体肥料，所以B是二氧化碳，C由两种元素组成，A和B可以互相转化，所以A可以是一氧化碳、碳酸盐，若A、D都是重要的气态还原剂，E是最常见的溶剂，所以E是水，水和D可以相互转化，所以D是氢气，A是一氧化碳，C可以是金属氧化物；<br />若A中含有人体中含量最高的金属元素，所以A是碳酸钙，D是目前世界上年产量仅次于铁的金属，所以D是铝，C是盐酸，然后将推出的物质进行验证即可．",
+          "Method": "解：A、B、C、D、E分别表示初中化学常见的五种物质（或溶质），B可做气体肥料，所以B是二氧化碳，C由两种元素组成，A和B可以互相转化，所以A可以是一氧化碳、碳酸盐，<br />（1）①若A、D都是重要的气态还原剂，E是最常见的溶剂，所以E是水，水和D可以相互转化，所以D是氢气，A是一氧化碳，C可以是金属氧化物，经过验证，推导正确，所以A是CO，E是H<SUB>2</SUB>O；<br />②E转化为D的反应是水在通电的条件下生成氢气和氧气，化学方程式为：2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑；<br />（2）①若A中含有人体中含量最高的金属元素，所以A是碳酸钙，D是目前世界上年产量仅次于铁的金属，所以D是铝，C是盐酸，经过验证，推导正确，所以A是CaCO<SUB>3</SUB>，D是Al；<br />②D和足量C的反应是铝和盐酸反应生成氯化铝和氢气，实验现象为：银白色固体逐渐消失，表面产生气泡，放热．<br />故答案为：（1）①CO，H<SUB>2</SUB>O；<br />②2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑；<br />（2）①CaCO<SUB>3</SUB>，Al；<br />②银白色固体逐渐消失，表面产生气泡，放热．",
+          "Discuss": "在解此类题时，首先将题中有特征的物质推出，然后结合推出的物质和题中的转化关系推导剩余的物质，最后将推出的各种物质代入转化关系中进行验证即可．",
+          "Degree": 0.60,
+          "CateID": 8,
+          "CateName": "推断题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "947****3253老师",
+          "Points": [
+            {
+              "Key": "AE",
+              "Value": "物质的鉴别、推断"
+            },
+            {
+              "Key": "G5",
+              "Value": "书写化学方程式、文字表达式、电离方程式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "115",
+              "Value": "框图型推断题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "CO",
+            "H<SUB>2</SUB>O",
+            "2H<SUB>2</SUB>O$\\frac{\\underline{\\;通电\\;}}{\\;}$2H<SUB>2</SUB>↑+O<SUB>2</SUB>↑",
+            "CaCO<SUB>3</SUB>",
+            "Al",
+            "银白色固体逐渐消失，表面产生气泡，放热"
+          ],
+          "FavTime": 0,
+          "ViewCount": 78,
+          "DownCount": 6,
+          "RealCount": 2,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 4.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "18707770-a2b0-4d3c-93ad-ba7abdb039a6",
+          "Content": "勇往直前学习小组的同学们来到实验室，取来三瓶没有标签的溶液，标记为1、2、3号，已知它们分别是硫酸锌、硫酸铜、硝酸银溶液中的一种．为确定三种溶液的溶质，展开了探究：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/65/7407c52c.png\" style=\"vertical-align:middle\" /><br />【提出问题】三瓶溶液中的溶质分别是什么？<br />经过观察发现只有3号溶液为蓝色，而1、2号溶液均为无色．由此可知3号溶液中的溶质为（1）<div class=\"quizPutTag\">CuSO<SUB>4</SUB></div>（填化学式）；<br />【实验探究】<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/65/18edfe71.png\" style=\"vertical-align:middle\" /><br />【评价交流】请你对小冰的实验设计及得出的结论做出评价（2）<div class=\"quizPutTag\">不正确，将银丝插入硫酸锌或硝酸银溶液中都观察不到明显现象</div>；<br />小城根据现象得出的结论（3）<div class=\"quizPutTag\">正确</div>（填“正确”或“错误”）；小城的实验中，加入锌粒之后发生反应的化学方程式为（4）<div class=\"quizPutTag\">Zn+2AgNO<SUB>3</SUB>═Zn（NO<SUB>3</SUB>）<SUB>2</SUB>+2Ag</div>；过滤后所得到的滤液中一定含有的溶质是（5）<div class=\"quizPutTag\">Zn（NO<SUB>3</SUB>）<SUB>2</SUB></div>（填化学式）；<br />【归纳总结】此实验利用了金属可以与（6）<div class=\"quizPutTag\">酸和某些金属化合物的溶液</div>反应的性质，可以判断金属能否在溶液中发生置换反应依据的是（7）<div class=\"quizPutTag\">金属活动性顺序</div>．",
+          "Analyse": "【提出问题】根据硫酸锌、硫酸铜、硝酸银溶液的颜色分析；<br />【实验探究】根据排在金属活动性顺序中前面的金属一般能把排在后面的金属从其盐溶液里置换出来．只有排在氢前面的金属，才能置换出酸中的氢，而排在氢后面的金属不能置换出酸中的氢分析．<br />【归纳总结】利用金属的活动性可以判断金属能否在溶液中发生置换反应，利用金属酸和某些金属化合物的溶液反应的性质可以判断金属的活动性",
+          "Method": "解：【提出问题】硫酸铜溶液的颜色为蓝色，由此可知3号溶液中的溶质为CuSO<SUB>4</SUB>；<br />【实验探究】将银丝插入1号溶液中，无明显现象，不能确定1号溶液一定是硫酸锌溶液，还可能是硝酸银溶液；<br />将锌粒插入1号溶液中，取出滤渣滴加盐酸无现象，说明金属的活动性在H后面，故1号溶液为硝酸银溶液；锌粒与硝酸银反应生成硝酸锌和银，化学方程式为：Zn+2AgNO<SUB>3</SUB>═Zn（NO<SUB>3</SUB>）<SUB>2</SUB>+2Ag；过滤后所得到的滤液中含有Zn（NO<SUB>3</SUB>）<SUB>2</SUB>，还可能有AgNO<SUB>3</SUB>；<br />【归纳总结】利用金属的活动性可以判断金属能否在溶液中发生置换反应，利用金属酸和某些金属化合物的溶液反应的性质可以判断金属的活动性．<br />故答案为：（1）CuSO<SUB>4</SUB>；<br />（2）不正确，将银丝插入硫酸锌或硝酸银溶液中都观察不到明显现象，（不能确定1号溶液一定是硫酸锌溶液）；<br />（3）正确；（4）Zn+2AgNO<SUB>3</SUB>═Zn（NO<SUB>3</SUB>）<SUB>2</SUB>+2Ag；（5）Zn（NO<SUB>3</SUB>）<SUB>2</SUB>；（6）酸和某些金属化合物的溶液（或盐溶液）；<br />（7）金属活动性顺序．",
+          "Discuss": "本题主要考查了金属活动性顺序的意义，完成此题，可以依据已有的知识进行，要求同学们加强基础知识的储备，以便灵活应用．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道里区期中）",
+          "LabelReportID": "7d769293-4149-43e1-a3c5-2d4e7854e976",
+          "Teacher": "xiaoxi老师",
+          "Points": [
+            {
+              "Key": "27",
+              "Value": "缺失标签的药品成分的探究"
+            },
+            {
+              "Key": "9H",
+              "Value": "盐的化学性质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "537",
+              "Value": "科学探究"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "CuSO<SUB>4</SUB>",
+            "不正确，将银丝插入硫酸锌或硝酸银溶液中都观察不到明显现象",
+            "正确",
+            "Zn+2AgNO<SUB>3</SUB>═Zn（NO<SUB>3</SUB>）<SUB>2</SUB>+2Ag",
+            "Zn（NO<SUB>3</SUB>）<SUB>2</SUB>",
+            "酸和某些金属化合物的溶液",
+            "金属活动性顺序"
+          ],
+          "FavTime": 0,
+          "ViewCount": 38,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 22,
+          "ID": "9764b62c-1fc3-4399-ab03-8a74ab2a1134",
+          "Content": "为测定某铁合金样品（除铁外，其余成分不溶于水，且不参与任何反应）中单质铁的含量，小冰同学进行实验如下：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201711/69/a30f474e.png\" style=\"vertical-align:middle\" /><br />请回答下列问题：<br />（1）上述实验过程中发生反应的化学方程式为<div class=\"quizPutTag\">Fe+H<SUB>2</SUB>SO<SUB>4</SUB>═FeSO<SUB>4</SUB>+H<SUB>2</SUB>↑</div>；<br />（2）样品中单质铁的质量分数为<div class=\"quizPutTag\">70%</div>；<br />（3）根据已知条件列出求解加入的稀硫酸中溶质质量（x）的比例式为<div class=\"quizPutTag\">$\\frac{56}{5.6g}=\\frac{98}{x}$</div>；<br />（4）最终所得到的不饱和溶液中溶质的质量分数为<div class=\"quizPutTag\">10.1%</div>；<br />（5）若用含氧化铁80%的赤铁矿炼出上述实验中所需要的铁合金160t，则理论上需要赤铁矿的质量为<div class=\"quizPutTag\">200t</div>．",
+          "Analyse": "（1）依据铁与硫酸反应的情况熟悉方程式分析解答即可；<br />（2）根据杂质不能和酸反应，而铁和硫酸反应，所以不溶物就是杂质的质量，从而求出铁的质量，进而计算铁合金样品中铁的质量分数即可；<br />（3）根据铁的质量利用方程式求出加入的稀硫酸中溶质质量，列出比例式即可；<br />（4）根据反应前硫酸中水的质量和加入的水的质量以及生成的硫酸亚铁质量可以求出溶液的质量，进而可以求出溶液的溶质质量分数；<br />（5）依据化学式的有关计算解答即可．",
+          "Method": "解：（1）铁能够与硫酸反应生成硫酸亚铁和氢气，方程式为Fe+H<SUB>2</SUB>SO<SUB>4</SUB>═FeSO<SUB>4</SUB>+H<SUB>2</SUB>↑；<br />（2）样品中单质铁的质量分数=$\\frac{8g-2.4g}{8g}×100%$=70%；<br />（3）铁的质量=8g-2.4g=5.6g<br />设稀硫酸中溶质的质量是x，生成硫酸亚铁的质量为y．<br />Fe+H<SUB>2</SUB>SO<SUB>4</SUB>═FeSO<SUB>4</SUB>+H<SUB>2</SUB>↑；<br />56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98&nbsp;&nbsp;&nbsp;&nbsp; 152<br />5.6g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y<br />$\\frac{56}{5.6g}=\\frac{98}{x}$<br />x=9.8g <br />$\\frac{56}{5.6g}=\\frac{152}{y}$<br />y=15.2g<br />（4）溶液中水的质量为100g-9.8g+44.6g=134.8g，故溶液的溶质质量分数为$\\frac{15.2g}{134.8g+15.2g}×100%$=10.1%；<br />（5）设需要铁矿石的质量是z<br />z×80%×$\\frac{112}{160}×100%$=160t×70%<br />z=200t<br />故答案为：（1）Fe+H<SUB>2</SUB>SO<SUB>4</SUB>═FeSO<SUB>4</SUB>+H<SUB>2</SUB>↑；<br />（2）70%；<br />（3）$\\frac{56}{5.6g}=\\frac{98}{x}$；<br />（4）10.1%；<br />（5）200t．",
+          "Discuss": "此题是对化学计算的考查题，涉及到化学方程式和化学式的计算，但题型基础难度不大，属于基础性化学计算．",
+          "Degree": 0.60,
+          "CateID": 9,
+          "CateName": "解答题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•道外区期中）",
+          "LabelReportID": "eed87ad1-be21-4e21-8b2f-37defd60b7c5",
+          "Teacher": "sdwdxk老师",
+          "Points": [
+            {
+              "Key": "G6",
+              "Value": "根据化学反应方程式的计算"
+            },
+            {
+              "Key": "7U",
+              "Value": "有关溶质质量分数的简单计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "194",
+              "Value": "溶质质量分数与化学方程式相结合的计算"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "Fe+H<SUB>2</SUB>SO<SUB>4</SUB>═FeSO<SUB>4</SUB>+H<SUB>2</SUB>↑",
+            "70%",
+            "$\\frac{56}{5.6g}=\\frac{98}{x}$",
+            "10.1%",
+            "200t"
+          ],
+          "FavTime": 0,
+          "ViewCount": 44,
+          "DownCount": 2,
+          "RealCount": 2,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.6
+}

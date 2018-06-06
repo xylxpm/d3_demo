@@ -367,7 +367,7 @@
         {
           "Subject": 30,
           "ID": "3de5c47a-42e9-4d64-9df6-6ef23d9fb2b2",
-          "Content": "若a＞b＞0，且ab=1，则下列不等式成立的是（&nbsp;&nbsp;&nbsp;&nbsp;）",
+          "Content": "若a＞b＞0，且ab=1，则下列不等式成立的是（　　）",
           "Method": "",
           "Analyse": "",
           "Discuss": "",
@@ -398,10 +398,10 @@
             }
           ],
           "Options": [
-            "a+$\\frac{1}{b}$ ＜ $\\frac{b}{{2}^{a}}$ ＜ log<SUB>2</SUB>（a+b））",
-            "$\\frac{b}{{2}^{a}}$ ＜ log<SUB>2</SUB>（a+b） ＜ a+$\\frac{1}{b}$",
-            "a+$\\frac{1}{b}$ ＜ log<SUB>2</SUB>（a+b） ＜ $\\frac{b}{{2}^{a}}$",
-            "log<SUB>2</SUB>（a+b）） ＜ a+$\\frac{1}{b}$ ＜ $\\frac{b}{{2}^{a}}$"
+            "a+$\\frac{1}{b}$＜$\\frac{b}{{2}^{a}}$＜log<SUB>2</SUB>（a+b））",
+            "$\\frac{b}{{2}^{a}}$＜log<SUB>2</SUB>（a+b）＜a+$\\frac{1}{b}$",
+            "a+$\\frac{1}{b}$＜log<SUB>2</SUB>（a+b）＜$\\frac{b}{{2}^{a}}$",
+            "log<SUB>2</SUB>（a+b））＜a+$\\frac{1}{b}$＜$\\frac{b}{{2}^{a}}$"
           ],
           "FavTime": 6,
           "ViewCount": 229,

@@ -1,0 +1,1523 @@
+﻿{
+  "ID": "3ad94421-0045-46af-aeb5-5e249490e921",
+  "Title": "2017-2018学年广西南宁十七中九年级（上）段考物理试卷",
+  "Year": 2017,
+  "Times": 0,
+  "Score": 70,
+  "EditionID": 1,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 8,
+  "SourceName": "月考试题",
+  "RegionID": "1190102",
+  "RegionNames": [
+    "广西",
+    "南宁市",
+    "青秀区"
+  ],
+  "ViewCount": 10,
+  "Date": "2018-01-05T00:00:00",
+  "Subject": 21,
+  "EditionName": "人教版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "南宁十七中",
+  "Groups": [
+    {
+      "Key": "一、选择题：（每小题2分，共24分，每小题只有一个正确答案）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "2e33bd65-52fd-40cd-a350-e903a770e881",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201407/205/95cb5da0.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，用餐巾纸摩擦一根可以绕支架自由转动的吸管，使它带上电，现用另一带电玻璃棒靠近吸管的一端，发现它们互相排斥，关于这一现象，下列说法正确的是（　　）",
+          "Analyse": "带电体可以吸引轻小物体；<br />电荷间相互作用的规律：同种电荷相互排斥，异种电荷相互吸引。",
+          "Method": "解：<br />A、同种电荷相互排斥，不知道玻璃棒带的是何种电荷，所以无法知道吸管带的是何种电荷。此选项错误；<br />B、不知道吸管带何种电荷，无法确定吸管摩擦过程中失去电子还是得到电子。此选项错误；<br />C、无论带何种电荷，吸管和玻璃棒相互排斥，所以一定带的是同种电荷。此选项正确；<br />D、已知吸管和玻璃棒相互排斥，所以不可能是带异种电荷。此选项错误。<br />故选：C。",
+          "Discuss": "此题考查的是我们对电荷间相互作用及带电体特点的掌握和应用。需要清楚的是：异种电荷相互吸引，带电体可以吸引不带电的物体。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2015•长沙）",
+          "LabelReportID": "91b2cc0d-f913-4d11-be67-d2babb2befb7",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "H8",
+              "Value": "电荷间的相互作用规律"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [
+            "吸管带的是正电",
+            "吸管在摩擦中失去电子而带负电",
+            "吸管和玻璃棒带同种电荷",
+            "吸管和玻璃棒带异种电荷"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 30,
+          "ViewCount": 2084,
+          "DownCount": 25,
+          "RealCount": 55,
+          "PaperCount": 1129,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "b6cff017-e88b-48e8-90c8-cd038736ec3f",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201412/9/f093b2cd.png\" style=\"vertical-align:middle;FLOAT:right\" />LED灯带在装饰材料中被广泛应用。芳芳同学在研究其内部结构时发现，灯带中的LED灯串联后经电流适配器接入照明电路，如图所示。她取下一只LED灯接在电池两端，灯不亮，对调电池正负极后灯亮了，但用手触摸几乎不发热。以下推断符合上述事实的是（　　）",
+          "Analyse": "（1）照明电路的电压是220V，灯带中的LED灯是串联后接入电路的，所以一只LED灯的工作电压小于220V；<br />（2）串联电路，电流只有一条路径，各元件相互影响；<br />（3）LED灯工作时不发热，说明电能没有转化成内能；<br />（4）LED灯的材料是半导体，半导体具有单向导电性。",
+          "Method": "解：A、LED灯是串联后通过电源适配器接入照明电路的，所以一只LED灯的工作电压小于220V，该选项说法不正确；<br />B、由于灯带中的LED灯是串联的，所以灯带中一只LED灯断路后其它灯也不能工作，该选项说法不正确；<br />C、由于用手试摸，点亮的灯几乎不发热，说明电能几乎没有转化成内能，绝大部分都转化成了光能，该选项说法不正确；<br />D、取下一只LED灯接在电池两端，灯不亮，对调电池正负极后灯亮了，说明LED灯具有单向导电性，该选项说法正确。<br />故选：D。",
+          "Discuss": "本题以LED灯为题，考查了物理知识的运用，体现了物理来源于生活又应用于生活，是中考的常见题型。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•德州）",
+          "LabelReportID": "31101b5e-bc4a-461d-92a8-5e6d751908e4",
+          "Teacher": "刘治强老师",
+          "Points": [
+            {
+              "Key": "42",
+              "Value": "半导体的特点"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "16 ",
+              "Value": "压轴题"
+            },
+            {
+              "Key": "561",
+              "Value": "粒子与宇宙、材料世界"
+            }
+          ],
+          "Options": [
+            "一只LED正常工作的电压是220V",
+            "灯带中一只LED灯断路后其它灯还亮",
+            "LED灯工作时主要是将电能转化为内能",
+            "LED灯具有单向导电性"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 38,
+          "ViewCount": 3754,
+          "DownCount": 27,
+          "RealCount": 70,
+          "PaperCount": 623,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "32ebc766-d353-4090-af98-f44d997cd648",
+          "Content": "如图所示的滑动变阻器的铭牌上标有“20Ω2A”，则下列说法中错误的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/f0b0a4f7.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）根据对滑动变阻器铭牌含义的掌握分析答题。<br />（2）滑动变阻器是通过改变接入电路中电阻丝的长度来改变电阻的。",
+          "Method": "解：AB、滑动变阻器的铭牌标有“20Ω&nbsp;2A”，表示滑动变阻器的最大阻值是20Ω，允许通过的最大电流是2A，故AB正确。<br />C、根据欧姆定律可得滑动变阻器两端电压最大为U=IR=2A×20Ω=40V．故C正确；<br />D、滑动变阻器通过改变滑片的位置，改变电路中电阻丝的长度从而改变接入电路中的电阻值，不能改变整根电阻丝的长度，故D错误。<br />故选：D。",
+          "Discuss": "知道滑动变阻器的正确使用是解决该题的关键。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "九洲风云老师",
+          "Points": [
+            {
+              "Key": "IC",
+              "Value": "滑动变阻器的工作原理"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "定性思想"
+            },
+            {
+              "Key": "532",
+              "Value": "电压和电阻"
+            }
+          ],
+          "Options": [
+            "该滑动变阻器接入电路中的最大阻值为20Ω",
+            "该滑动变阻器允许通过的最大电流为2A",
+            "该滑动变阻器两端允许的最大电压为40V",
+            "该滑动变阻器通过改变滑片的位置，从而改变整根电阻丝的长度就改变了接入电路中的电阻值"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 26,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 33,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "326e93da-9648-43e0-bced-94727fe60984",
+          "Content": "根据公式R=$\\frac{U}{I}$，可以知道（　　）",
+          "Analyse": "导体的电阻是导体本身的性质，与导体的材料、长度、横截面积有关，导体电阻可由导体两端的电压值与流过导体的电流值的比值求得，但是导体电阻是导体本身的一种性质，与流过的电流和两端的电压无关。",
+          "Method": "解：对于一个确定的电阻，导体的长度、横截面积和材料没有变化，所以导体的电阻不变。<br />阻值是导体本身所具有的性质，与通过它的电流、它两端的电压无关，故A、B、C错误，D正确。<br />故选：D。",
+          "Discuss": "我们根据比值定义法定义了电阻，但是电阻是由导体本身的性质决定的，与通过它的电流及两端的电压是无关的，在学习中要注意体会该定义法。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2013秋•沧州期末）",
+          "LabelReportID": "3097f2b8-9fec-47e4-8ec6-670e1ae43616",
+          "Teacher": "951****4352老师",
+          "Points": [
+            {
+              "Key": "IG",
+              "Value": "欧姆定律的变形公式"
+            },
+            {
+              "Key": "IA",
+              "Value": "影响电阻大小的因素"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "43 ",
+              "Value": "推理法"
+            }
+          ],
+          "Options": [
+            "一段导体的电阻，在电压不变时，与电流强度成正比",
+            "一段导体的电阻，在电流强度不变时，与电压成正比",
+            "一段导体的电阻，与电压成正比，与电流强度成反比",
+            "导体的电阻等于这段导体两端的电压与通过导体的电流的比值"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 1,
+          "ViewCount": 315,
+          "DownCount": 10,
+          "RealCount": 5,
+          "PaperCount": 40,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "eee5869a-ad59-4387-b2f1-bb8815ed629f",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201412/196/77ed61d8.png\" style=\"vertical-align:middle;FLOAT:right\" />小强同学在探究串联电路电流规律的实验中，按下图连接好了电路，合上开关S后，发现两灯均不发光。为检测出电路故障，他将电压表接到L<SUB>1</SUB>两端来测量电压，发现电压表有明显示数，而电流表示数几乎为零，则电路故障可能是（　　）",
+          "Analyse": "此电路的故障可概括为：电压表有示数（L<SUB>1</SUB>处）而电流表（干路电流）无示数；说明电路中有电流通过，但很小，可根据这个观点进行分析、判断。",
+          "Method": "解：将电压表接到L<SUB>1</SUB>两端时，电压表有示数，说明电路中有电流通过，即此电路为通路；<br />而此时电流表示数几乎为零，说明了通过干路的电流很小；<br />综合上面两点可知：灯L<SUB>1</SUB>断路，在L<SUB>1</SUB>两端接上电压表后，电路变为通路，但电压表的电阻很大，所以造成了电流表几乎没有示数，只有D选项符合情况；<br />故选：D。",
+          "Discuss": "在电路故障分析题中，要根据电流表、电压表示数的变化情况灵活对待。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2005•长沙）",
+          "LabelReportID": "7154dee2-b891-4733-a000-0bb01f9302c1",
+          "Teacher": "Linaliu老师",
+          "Points": [
+            {
+              "Key": "IE",
+              "Value": "电流表、电压表在判断电路故障中的应用"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "灯L<SUB>1</SUB>短路",
+            "灯L<SUB>2</SUB>断路",
+            "电流表烧坏了",
+            "灯L<SUB>1</SUB>断路"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 13,
+          "ViewCount": 1589,
+          "DownCount": 18,
+          "RealCount": 26,
+          "PaperCount": 87,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "6512cc63-2f7e-45be-9da4-d87c8731407d",
+          "Content": "如图为A、B两个电学元件的电流与电压的关系图象，以下根据图象的分析中，错误的是（　　）<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/0e2180f2.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）定值电阻的阻值不变，通过定值电阻的电流与两端的电压成正比，在U-I图象中是过原点直线；<br />（2）根据图象读出几组B两端电压和通过的电流，根据欧姆定律求出对应的电阻，根据P=UI判断实际功率的变化，从而得出灯泡温度的变化与电阻的关系，根据灯泡的电阻随温度的升高而增大进行判断；<br />（3）根据图象读出通过A、B的电流均为0.3A时两端的电压，然后比较得出答案。",
+          "Method": "解：<br />AD．由图象可知，A元件中电流与两端电压图象是过原点直线，说明A元件中电流与电压成正比，则A可能为定值电阻，故AD正确；<br />B．由图象可知，B两端的电压为1.0V、2.0V时，通过的电流分别为0.1A、0.3A，由I=$\\frac{U}{R}$的变形式R=$\\frac{U}{I}$可得，对于的电阻为10Ω、6.7Ω，由P=UI可知，B两端的电压增大时实际功率变大，温度升高，综上可知，温度升高时B的电阻变小，与灯丝的电阻随温度的升高而增大不符，所以B元件不可能为小灯泡，故B错误；<br />C．当通过A、B的电流均为0.3A时，由图象可知，它们两端的电压分别为U<SUB>A</SUB>=1.5V，U<SUB>B</SUB>=2.0V，则U<SUB>A</SUB>＜U<SUB>B</SUB>，故C正确。<br />故选：B。",
+          "Discuss": "本题考查了学生对U-I图象的了解与掌握，涉及到欧姆定律的应用等，要注意灯泡的电阻随温度的升高而减小。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [
+            "A元件可能为定值电阻",
+            "B元件可能为小灯泡",
+            "当通过A、B的电流均为0.3A时，加在B两端的电压较大",
+            "通过A元件的电流跟加在它两端的电压成正比"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 2,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "6de66b2c-9c18-4c45-8c14-6c56a953a1a2",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201611/26/4a5f9456.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图所示的电路，电源电压保持不变，闭合开关S，将滑动变阻器的滑片P向左移动过程中，下列说法正确的是（　　）",
+          "Analyse": "由电路图可知，R与滑动变阻器串联，电压表测R两端的电压，电流表测电路中的电流，根据滑片的移动可知接入电路中电阻的变化，根据欧姆定律可知电路中电流的变化和R两端的电压变化，再根据欧姆定律可知电压表和电流表示数的比值变化．",
+          "Method": "解：<br />A、由电路图可知，R与滑动变阻器串联，电压表测R两端的电压，电流表测电路中的电流，将滑动变阻器的滑片P向左移动的过程中，接入电路中的电阻变大，电路中的总电阻变大，电路中的电流变小，即电流表的示数变小，故A错误；<br />B、由U=IR可知，R两端的电压变小，即电压表的示数变小，故B错误；<br />CD、因电压表和电流表示数的比值等于R的阻值，所以，电压表和电流表示数的比值不变，故C正确、D错误．<br />故选：C．",
+          "Discuss": "本题考查了电路的动态分析，涉及到滑动变阻器和欧姆定律的应用，关键是把电压表和电流表示数的比值转化为定值电阻的阻值来处理．",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•临沭县校级期末）",
+          "LabelReportID": "871708f9-36b9-445a-98b3-e5cb7c4bae38",
+          "Teacher": "刘小强老师",
+          "Points": [
+            {
+              "Key": "IZ",
+              "Value": "电路的动态分析"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "5A8",
+              "Value": "电路变化分析综合题"
+            }
+          ],
+          "Options": [
+            "电流表的示数变大",
+            "电压表的示数变大",
+            "电压表与电流表示数的比值不变",
+            "电压表示数变大，电流表示数变小"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 140,
+          "DownCount": 1,
+          "RealCount": 6,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "5563ec34-83fb-4256-a89a-e026ddee597e",
+          "Content": "如图所示的四个电路，R的阻值和电源电压值已知，能根据已知和电表示数求出电阻R<SUB>x</SUB>值的是（　　）",
+          "Analyse": "利用电压表和电流表，结合串、并联电路电流和电压特点以及欧姆定律，直接或间接得出被测电阻两端的电压和电流，根据R<SUB>x</SUB>=$\\frac{{U}_{x}}{{I}_{x}}$求出电阻。",
+          "Method": "解：<br />A．由电路图可知，两电阻串联，电压表测R<SUB>x</SUB>两端的电压值U<SUB>x</SUB>，电源的电压U已知，由串联电路中总电压等于各分电压之和可知R两端的电压U<SUB>R</SUB>=U-U<SUB>x</SUB>，由串联电路中各处的电流相等可知，电路中的电流I=$\\frac{{U}_{x}}{{R}_{x}}$=$\\frac{{U}_{R}}{R}$，则R<SUB>x</SUB>=$\\frac{{U}_{x}R}{{U}_{R}}$=$\\frac{{U}_{x}R}{U-{U}_{x}}$，故A方法可行；<br />B．由电路图可知，电流表与R<SUB>x</SUB>并联，会造成R<SUB>x</SUB>短路，电路为R的简单电路，无法测出R<SUB>x</SUB>两端的电压和通过的电流，所以无法测出R<SUB>x</SUB>的阻值，故B方法不可行；<br />C．由电路图可知，两电阻并联，电流表测R支路的电流，无法测出通过R<SUB>x</SUB>的电流，所以无法测出R<SUB>x</SUB>的阻值，故C方法不可行；<br />D．由电路图可知，两电阻并联，电压表测电源两端的电压，无法测出通过R<SUB>x</SUB>的电流，所以无法测出R<SUB>x</SUB>的阻值，故D方法不可行。<br />故选：A。",
+          "Discuss": "本题考查利用欧姆定律测量电阻的大小，重点是只要结合串并联电路的特点能直接或间接地测出电阻的电压和电流值即可。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/24c9d17c.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/0723cdc4.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/4c84a279.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/57783869.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 10,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 0,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "36f720da-8fd3-421d-93a7-f1f27a8aa167",
+          "Content": "某同学利用如图所示电路，测量标有“2.5V”小灯泡的电阻，下列说法错误的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/85524925.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）闭合开关前，根据滑片P应滑到最大值处即可判断；<br />（2）灯泡不亮可能是电路出现断路或短路；<br />（3）灯泡电压达到额定电压时，正常工作，由I=$\\frac{U}{R}$可计算灯泡电阻；<br />（4）灯泡亮度由灯泡的实际功率决定，由此分析即可。",
+          "Method": "解：<br />A、为了保护电路，闭合开关前，滑片P应滑到最大值B端，故A正确；<br />B、闭合开关后，小灯泡不发光，有可能小灯泡灯丝断了，也有可能是灯泡短路造成的，故B错误；<br />C、由图电压表测灯泡两端电压，所以电压表示数为2.5V时灯泡正常发光，测出此时通过灯泡的电流，由R=$\\frac{U}{I}$可计算小灯泡正常发光的电阻，故C正确；<br />D、灯泡电压越大，通过的电流越大，由P=UI可知，灯泡的实际功率越大，所以灯泡越亮，故D正确。<br />故选：B。",
+          "Discuss": "本题是测小灯泡电阻的题目，考查了实验中的注意事项、电路故障分析、灯泡电阻的计算方法等，都是常考的问题，应掌握好。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "pydrx老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "26 ",
+              "Value": "错解分析题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [
+            "闭合开关前，滑片P应滑到B端",
+            "闭合开关后，小灯泡不发光，一定是小灯泡灯丝断了",
+            "当电压表示数为2.5V时，测出通过小灯泡的电流，可算出小灯泡正常发光的电阻",
+            "实验还可得知，小灯泡两端电压越大，通过小灯泡的电流越大，小灯泡越亮"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 5,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "7442e9cf-aee5-4465-9bf5-a3a0ef5435f9",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/89382209.png\" style=\"vertical-align:middle;FLOAT:right\" />在相距&nbsp;10km&nbsp;的甲、乙两地之间有两条输电线，已知输电线每米长的电阻为0.01Ω．现输电线在某处发生短路，为确定短路位置，检修员利用电压表、电流表和电源接成如图所示电路进行测量。当电压表的示数为3V时，电流表的示数为60mA，则可确定出短路位置离甲地的距离为（　　）",
+          "Analyse": "由电路图可知，电压表测导线两端的电压，电流表测电路中的电流，根据欧姆定律求出导线的电阻，再根据输电线每1m长的电阻为0.01Ω求出导线的长度，然后除以2即为短路位置离甲地的距离。",
+          "Method": "解：由I=$\\frac{U}{R}$可得，短路位置到甲地间导线的总电阻：<br />R=$\\frac{U}{I}$=$\\frac{3V}{60×1{0}^{-3}A}$=50Ω，<br />因输电线每米长的电阻为0.01Ω，<br />所以，短路位置到甲地间导线的总长度：<br />L=$\\frac{50Ω}{0.01Ω/m}$=5000m，<br />则短路位置离甲地的距离：<br />s=$\\frac{L}{2}$=$\\frac{5000m}{2}$=2500m。<br/>故选：B。",
+          "Discuss": "本题考查了欧姆定律的应用，要注意输电导线是双股的，这也是本题的易错点。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [
+            "5000m",
+            "2500m",
+            "1000m",
+            "500m"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 0,
+          "ViewCount": 10,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 8,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "2f762965-0176-406b-8745-f1dfe01da93c",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/749050b3.png\" style=\"vertical-align:middle;FLOAT:right\" />如右图所示电路，已知电源电压&nbsp;4.5V&nbsp;且恒定，电阻&nbsp;R<SUB>1</SUB>=10Ω，电流表的量程为&nbsp;0-0.6A，电压表的量程为0-3V，滑动变阻器R<SUB>2</SUB>上标有“20Ω&nbsp;5A”的字样。闭合开关，在保证电路安全的前提下，下列说法中错误的是（　　）",
+          "Analyse": "由电路图可知，定值电阻R<SUB>1</SUB>与滑动变阻器R<SUB>2</SUB>串联，电压表测R<SUB>1</SUB>两端电压，电流表测电路电流。<br />（1）根据欧姆定律求出电压表的示数最大时电路中的电流，然后与滑动变阻器允许通过的最大电流和电流表的量程确定电路中的最大电流，此时电压表的示数最大，滑动变阻器接入电路中的电阻最小，根据串联电路的电压特点求出滑动变阻器两端的最小电压，根据欧姆定律求出变阻器接入电路中的最小阻值得出其范围；<br />（2）当滑动变阻器接入电路中的电阻最大时，电路中的电流最小，根据电阻的串联和欧姆定律求出电路中的最小电流，然后得出电路中电流的变化范围。",
+          "Method": "解：由电路图可知，定值电阻R<SUB>1</SUB>与滑动变阻器R<SUB>2</SUB>串联，电压表测R<SUB>1</SUB>两端电压，电流表测电路电流。<br />（1）电压表的量程为0～3V，当电压表的示数U<SUB>1</SUB>=3V时，电路中的电流：<br />I=$\\frac{{U}_{1}}{{R}_{1}}$=$\\frac{3V}{10Ω}$=0.3A，<br />因串联电路中各处的电流相等，且滑动变阻器允许通过的最大电流为5A，电流表的量程为0～0.6A，<br />所以，为保证电路安全，电路中的最大电流I<SUB>大</SUB>=0.3A，电压表的最大示数为3V，此时滑动变阻器接入电路中的电阻最小，故A错误、C正确；<br />因串联电路中总电压等于各分电压之和，<br />所以，滑动变阻器两端的最小电压：<br />U<SUB>2</SUB>=U-U<SUB>1</SUB>=4.5V-3V=1.5V，<br />则滑动变阻器接入电路中的最小阻值：<br />R<SUB>小</SUB>=$\\frac{{U}_{2}}{{I}_{大}}$=$\\frac{1.5V}{0.3A}$=5Ω，<br />而滑动变阻器R<SUB>2</SUB>接入电路中的阻值最大时，电流最小，电压表示数最小，电路各元件是安全的，<br />则滑动变阻器R<SUB>2</SUB>接入电路中的阻值范围是5Ω～20Ω，故B正确；<br />（2）当滑动变阻器接入电路中的电阻最大时，电路中的电流最小，<br />因串联电路中总电阻等于各分电阻之和，<br />所以，电路中的最小电流：<br />I<SUB>小</SUB>=$\\frac{U}{{R}_{1}+{R}_{2}}$=$\\frac{4.5V}{10Ω+20Ω}$=0.15A，<br />则电流表示数变化范围是0.15A～0.3A，故D正确。<br />故选：A。",
+          "Discuss": "本题考查了串联电路的特点和欧姆定律的应用，正确的判断电路中的最大和最小电流是关键。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [
+            "电路中允许的最大电流为0.6A",
+            "滑动变阻器R<SUB>2</SUB>接入电路中的阻值范围是5Ω-20Ω",
+            "电压表最大示数为3V",
+            "电流表示数变化范围是0.15A-0.3A"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 1,
+          "ViewCount": 7,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 11,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "f6e3e82e-7f20-4c02-8cca-d255b79d9fe4",
+          "Content": "将标有“100W”“40W”的两盏白炽灯分别接入家庭电路中，两灯均正常工作，则下列说法中正确的是（　　）",
+          "Analyse": "（1）灯均正常工作时，灯的实际功率等于额定功率，灯的亮度取决于灯的实际功率；<br />（2）根据W=Pt，不知时间的关系，无法确定灯泡消耗的电能多少；<br />（3）电功率是表示电流做功快慢的物理量；<br />（4）根据P=UI和家庭电路电压为220V分析。",
+          "Method": "解：<br />（1）将标有“100W”“40W”的两盏白炽灯分别接入家庭电路中，两灯均正常工作，故两灯实际功率分别为100W和40W，而灯的亮度取决于灯的实际功率，故“100W”灯泡一定比“40W”的灯泡亮，A正确；<br />（2）根据W=Pt可知，消耗的电能取决于实际功率与时间的乘积，因不知时间的关系，无法确定两灯泡消耗的电能多少，B错误；<br />（3）根据电功率的物理意义可知，“100W”的灯泡中电流做功一定比“40W”的灯泡中电流做功快，C错误；<br />（4）根据I=$\\frac{P}{U}$可知，因家庭电路的电压均为220V，故“100W”的灯泡中的电流一定比“40W”的灯泡中的电流大，D错误；<br />故选：A。",
+          "Discuss": "本题考查额定功率和实际功率的不同及电功率的物理意义和电功率、电功公式的运用。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "zxjw58老师",
+          "Points": [
+            {
+              "Key": "JE",
+              "Value": "实际功率"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "541",
+              "Value": "电能和电功率"
+            }
+          ],
+          "Options": [
+            "“100W”的灯泡一定比“40W”的灯泡亮",
+            "“100W”的灯泡一定比“40W”的灯泡消耗的电能多",
+            "“100W”的灯泡中电流做功一定比“40W”的灯泡中电流做功慢",
+            "“100W”的灯泡中的电流一定比“40W”的灯泡中的电流小"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 59,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、非选择：（共46分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "5d08ea14-2a0b-4b5f-9568-467497bd8e17",
+          "Content": "小红早上用塑料梳子梳头时发现有几根头发“不听话”，总是随梳子飘起来．这个现象中主要涉及到的物理知识有：（1）<div class=\"quizPutTag\">摩擦起电</div>；（2）<div class=\"quizPutTag\">同种电荷相互排斥</div>．",
+          "Analyse": "①用摩擦的方法使物体带电，叫摩擦起电；<br />②电荷间相互作用规律：同种电荷相互排斥，异种电荷相互吸引．",
+          "Method": "解：塑料梳子和头发发生了摩擦起电现象；头发会飘起来是因为头发带的是同种电荷，同种电荷相互排斥．<br />故答案为：（1）摩擦起电；（2）同种电荷相互排斥．",
+          "Discuss": "此题是基础题，要求知道摩擦起电现象以及电荷间的相互作用．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "H6",
+              "Value": "摩擦起电"
+            },
+            {
+              "Key": "H8",
+              "Value": "电荷间的相互作用规律"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "定性思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "顺推法"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "摩擦起电",
+            "同种电荷相互排斥"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "04c1f130-436a-463c-8ab0-7346dfdb0157",
+          "Content": "电路由电源、用电器、<div class=\"quizPutTag\">开关</div>、导线四部分组成，从能量转化角度分析，电源所起到的作用是<div class=\"quizPutTag\">提供电能</div>．",
+          "Analyse": "根据电路的组成，知道各部分的作用，可直接做出解答；<br />电源是提供电能的装置，是把其它形式的能转化为电能，用电器是要消耗电能，转化为其它形式的能．",
+          "Method": "解：<br />根据电路的组成部分可知，电路由电源、用电器、开关、导线四部分组成；<br />从能量角度分析：电源的作用是提供电能，电池工作时是把其他形式的能转化为电能．<br />故答案为：开关；提供电能．",
+          "Discuss": "本题解答的关键是明确基本电路的组成部分，并知道各部分在电路中所起的作用．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "HN",
+              "Value": "电路的组成"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "开关",
+            "提供电能"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 7,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "c108b8a4-6aca-4dfe-bce5-93a6f3a5fb58",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/a3451641.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示电路中，要使电灯L<SUB>1</SUB>和L<SUB>2</SUB>接成串联电路，应闭合开关<div class=\"quizPutTag\">S<SUB>2</SUB></div>；若要使电灯L<SUB>1</SUB>和L<SUB>2</SUB>接成并联电路，应闭合开关<div class=\"quizPutTag\">S<SUB>1</SUB>、S<SUB>3</SUB></div>．",
+          "Analyse": "电流先后经过各个用电器的连接方法叫做串联；如果电流在某点出现分路，通过支路上的用电器后又在另一点汇合，再回到电源的负极，这种连接方式叫并联，根据题目中的开关组合，分析电流的流向，从而判断电路的连接情况．",
+          "Method": "解：<br />（1）要使电灯L<SUB>1</SUB>和L<SUB>2</SUB>接成串联电路，则电流从电源正极出发后依次经过两盏灯泡，由图可知，应只闭合开关S<SUB>2</SUB>；<br />（2）要使电灯L<SUB>1</SUB>和L<SUB>2</SUB>接成并联电路，则电流从电源正极出发后分别流经两盏灯泡，然后又汇合回到电源的负极，由图可知，应闭合开关S<SUB>1</SUB>、S<SUB>3</SUB>．<br />故答案为：S<SUB>2</SUB>；S<SUB>1</SUB>、S<SUB>3</SUB>．",
+          "Discuss": "本题考查了并联、串联的连接和开关的状态对电灯的连接方式的影响，是一道基础题；知道串并联的概念，明确各灯泡首尾间的连接方式是解题的关键．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "HS",
+              "Value": "电路的基本连接方式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "31 ",
+              "Value": "定性思想"
+            },
+            {
+              "Key": "49 ",
+              "Value": "顺推法"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "S<SUB>2</SUB>",
+            "S<SUB>1</SUB>、S<SUB>3</SUB>"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "79ba7ff0-9bc2-47a7-b2ec-a6257dd86184",
+          "Content": "实验中决不允许直接把电流表接在电源两极上，请你用欧姆定律分析其中的道理：<div class=\"quizPutTag\">电源电压一定，由于电流表的电阻很小，若电流表直接接在电源两极上，根据I=$\\frac{U}{R}$可知，通过电流表的电流很大，会烧坏电流表和电源</div>．",
+          "Analyse": "电流表的电阻很小，根据欧姆定律的公式I=$\\frac{U}{R}$进行解答．",
+          "Method": "解：电源电压一定，由于电流表的电阻很小，若电流表直接接在电源两极上，根据I=$\\frac{U}{R}$可知，通过电流表的电流很大，会烧坏电流表和电源，所以不允许将电流表直接接在电源两极上．<br />故答案为：电源电压一定，由于电流表的电阻很小，若电流表直接接在电源两极上，根据I=$\\frac{U}{R}$可知，通过电流表的电流很大，会烧坏电流表和电源．",
+          "Discuss": "本题考查了欧姆定律的应用；电流表内部的电阻很小，相当于导线，不能直接接在电源两极上，否则电源短路，会烧坏电流表和电源．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "15 ",
+              "Value": "简答题"
+            },
+            {
+              "Key": "533",
+              "Value": "欧姆定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "电源电压一定，由于电流表的电阻很小，若电流表直接接在电源两极上，根据I=$\\frac{U}{R}$可知，通过电流表的电流很大，会烧坏电流表和电源"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 0,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "5dbfc515-d2ec-4c27-a4cb-09bbc9a0595f",
+          "Content": "将两个阻值相等的电阻&nbsp;R<SUB>1</SUB>、R<SUB>2</SUB>串联后接入某电路中，电阻&nbsp;R<SUB>1</SUB>、R<SUB>2</SUB>两端的电压之比U<SUB>1</SUB>：U<SUB>2</SUB>=<div class=\"quizPutTag\">1：1</div>，此时电路中的总电流为&nbsp;I&nbsp;<SUB>串</SUB>．若将这两个电阻并联接入原电路中，此时干路中电流为I&nbsp;<SUB>并</SUB>，则I&nbsp;<SUB>串</SUB>：I&nbsp;<SUB>并</SUB>=<div class=\"quizPutTag\">1：4</div>．",
+          "Analyse": "两电阻串联时通过它们的电流相等，根据串联电路的电流特点和欧姆定律求出两电阻两端的电压之比，根据电阻的串联求出电路中的总电阻，根据欧姆定律求出电路中的电流；若将这两个电阻并联接入原电路中，根据电阻的并联求出电路中的总电阻，利用欧姆定律求出电路中的总电流，然后得出答案．",
+          "Method": "解：将两个阻值相等的电阻R<SUB>1</SUB>、R<SUB>2</SUB>串联后接入某电路中时，设R<SUB>1</SUB>=R<SUB>2</SUB>=R，<br />因串联电路中各处的电流相等，<br />所以，电阻&nbsp;R<SUB>1</SUB>、R<SUB>2</SUB>两端的电压之比：<br />U<SUB>1</SUB>：U<SUB>2</SUB>=I<SUB>串</SUB>R<SUB>1</SUB>：I<SUB>串</SUB>R<SUB>2</SUB>=R<SUB>1</SUB>：R<SUB>2</SUB>=1：1；<br />因串联电路中总电阻等于各分电阻之和，<br />所以，串联电路中的电流：<br />I<SUB>串</SUB>=$\\frac{U}{{R}_{1}+{R}_{2}}$=$\\frac{U}{R+R}$=$\\frac{U}{2R}$，<br />若将这两个电阻并联接入原电路中时，<br />因并联电路中总电阻的倒数等于各分电阻倒数之和，<br />所以，电路中的总电阻：<br />R<SUB>并</SUB>=$\\frac{{R}_{1}{R}_{2}}{{R}_{1}+{R}_{2}}$=$\\frac{RR}{R+R}$=$\\frac{R}{2}$，<br />此时干路中的电流：<br />I<SUB>并</SUB>=$\\frac{U}{{R}_{并}}$=$\\frac{U}{\\frac{R}{2}}$=$\\frac{2U}{R}$，<br />则I<SUB>串</SUB>：I<SUB>并</SUB>=$\\frac{U}{2R}$：$\\frac{2U}{R}$=1：4．<br />故答案为：1：1； 1：4．",
+          "Discuss": "本题考查了串联电路的特点和欧姆定律的应用，是一道较为简单的应用题．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "1：1",
+            "1：4"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "9fbfd200-2aca-4a51-bce3-28d7b98bbef8",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/3da9392f.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示的电路（电源电压恒定），当开关S闭合后两灯均发光，电压表有示数，工作一段时间后电压表示数突然变大，则电路中发生的故障可能有<div class=\"quizPutTag\">L<SUB>1</SUB>断路或L<SUB>2</SUB>短路</div>．",
+          "Analyse": "电路故障由两种：断路和短路；电压表示数变大，说明电压表与电源两极相连．",
+          "Method": "解：<br />由图可知，两灯泡串联，灯L<SUB>1</SUB>、L<SUB>2</SUB>串联，电压表V测灯L<SUB>1</SUB>两端电压；<br />电压表示数变大，说明电压表两端与电源两极相连（此时测电源电压），因此电路故障为灯L<SUB>1</SUB>断路或L<SUB>2</SUB>短路；其中灯L<SUB>1</SUB>断路时，电压表串联在电路中测电源电压．<br />故答案为：L<SUB>1</SUB>断路或L<SUB>2</SUB>短路．",
+          "Discuss": "本题考查串联电路电压的规律以及电路故障分析，故障分析时，首先分析电路中是发生了断路故障还是短路故障，再根据电压表的示数变化找出发生故障的电器．",
+          "Degree": 0.80,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘小强老师",
+          "Points": [
+            {
+              "Key": "IE",
+              "Value": "电流表、电压表在判断电路故障中的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "533",
+              "Value": "欧姆定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "L<SUB>1</SUB>断路或L<SUB>2</SUB>短路"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 3.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "8533f81d-a353-4431-8526-c7fd3652f436",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/f553a460.png\" style=\"vertical-align:middle;FLOAT:right\" />小明家的电能表如图所示，则家中用电器的总功率不能超过<div class=\"quizPutTag\">1100W</div>．当小明家只有一盏电灯工作了一段后，电能表的转盘正好转过500圈，则该灯泡消耗的电能是<div class=\"quizPutTag\">7.2×10<SUP>5</SUP></div>J．",
+          "Analyse": "已知电能表的工作电压和平时工作允许通过的最大电流，根据公式P=UI可求电路的最大功率；<br />2500R/kW•h表示电能表每消耗1kW•h的电能，转盘就转过2500R，据此求转动500转消耗的电能．",
+          "Method": "解：<br />家中用电器的总功率不能超过：<br />P=UI=220V×5A=1100W；<br />转过500R消耗的电能：<br />W=$\\frac{500}{2500}$kW•h=0.2kW•h=0.2×3.6×10<SUP>6</SUP>J=7.2×10<SUP>5</SUP>J．<br />故答案为：1100W；7.2×10<SUP>5</SUP>．",
+          "Discuss": "本题考查使用电能表时消耗电能、电功率的计算，关键是对电能表各个参数物理意义的正确理解；解题过程中要注意单位的换算：1kW•h=3.6×10<SUP>6</SUP>J．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "951****4352老师",
+          "Points": [
+            {
+              "Key": "F3",
+              "Value": "机械效率的计算"
+            },
+            {
+              "Key": "J5",
+              "Value": "电能表参数的理解与电能的求法"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "541",
+              "Value": "电能和电功率"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "1100W",
+            "7.2×10<SUP>5</SUP>"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "0d67a47b-dd6d-4113-b659-5563241f25aa",
+          "Content": "某定值电阻R<SUB>1</SUB>标有“50Ω1A”字样，某滑动变阻器R<SUB>2</SUB>标有“20Ω2A”字样，现将R<SUB>1</SUB>和R<SUB>2</SUB>串联接入某电路中，为了不损&nbsp;&nbsp;坏R<SUB>1</SUB>和R<SUB>2</SUB>，电路两端允许的最大电压为<div class=\"quizPutTag\">70</div>V，若并联在某电路中，则干路电流不能超过<div class=\"quizPutTag\">2.8</div>A．",
+          "Analyse": "（1）串联电路中各处的电流相等，要保证元件安全，所以电路中的最大电流为两者允许通过的最大电流中较小的，当滑动变阻器接入电路中的电阻最大时电源的电压最大，根据电阻的串联和欧姆定律求出电源的最大电压；<br />（2）根据欧姆定律求出定值电阻和变阻器两端允许所加的最大电压，两者并联时电路的最大电压为允许通过电压中较小，根据欧姆定律求出通过两者的最大电流，根据并联电路的电流特点求出最大干路电流．",
+          "Method": "解：（1）因串联电路中各处的电流相等，且I<SUB>1</SUB>=1A，I<SUB>2</SUB>=2A，<br />所以，串联后接入电路后，电路中的最大电流I=I<SUB>1</SUB>=1A，<br />当滑动变阻器接入电路中的电阻最大时电源的电压最大，<br />因串联电路中总电阻等于各分电阻之和，<br />所以，由I=$\\frac{U}{R}$可得，电源的最大电压：<br />U<SUB>串</SUB>=I（R<SUB>1</SUB>+R<SUB>2</SUB>）=1A×（50Ω+20Ω）=70V；<br />（2）定值电阻和滑动变阻器两端允许加的最大电压分别为：<br />U<SUB>1</SUB>=I<SUB>1</SUB>R<SUB>1</SUB>=1A×50Ω=50V，U<SUB>2</SUB>=I<SUB>2</SUB>R<SUB>2</SUB>=2A×20Ω=40V，<br />因并联电路中各支路两端的电压相等，<br />所以，电源的最大电压U<SUB>并</SUB>=U<SUB>2</SUB>=40V，<br />此时通过滑动变阻器的最大电流I<SUB>2</SUB>=2A，通过R<SUB>1</SUB>的电流：I<SUB>1</SUB>′=$\\frac{{U}_{并}}{{R}_{1}}$=$\\frac{40V}{50Ω}$=0.8A，<br />因并联电路中干路电流等于各支路电流之和，<br />所以，干路中能通过的最大电流：<br />I′=I<SUB>1</SUB>′+I<SUB>2</SUB>=0.8A+2A=2.8A．<br />故答案为：70；2.8．",
+          "Discuss": "本题考查了串并联电路的特点和欧姆定律的应用，会判断串联时的最大电压和并联时干路的最大电流是关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "70",
+            "2.8"
+          ],
+          "FavTime": 0,
+          "ViewCount": 1,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 5,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d990463d-f89e-4e66-8b82-f3aa9518b0e9",
+          "Content": "将标有“6V&nbsp;9W”的小灯泡接入电压为12V&nbsp;的电路中，为使其正常工作，应将一个<div class=\"quizPutTag\">4</div>Ω的电阻与之<div class=\"quizPutTag\">串</div>联后再接入该电路．",
+          "Analyse": "电源的电压大于灯泡的额定电压，要使灯泡正常发光，应串联一个电阻分压，利用串联电路的电流特点和P=UI求出电路中的电流，利用串联电路的电压特点求出电阻两端的电压，再根据欧姆定律求出串联电阻的阻值．",
+          "Method": "解：灯泡正常发光时的电压U<SUB>L</SUB>=6V，功率P<SUB>L</SUB>=9W，要使灯泡接到12V的电源上正常发光应串联一个电阻R分压，<br />因串联电路中各处的电流相等，<br />所以，由P=UI可得，电路中的电流：<br />I=I<SUB>L</SUB>=$\\frac{{P}_{L}}{{U}_{L}}$=$\\frac{9W}{6V}$=1.5A，<br />因串联电路的总电压等于各分电压之和，<br />所以，电阻两端的电压：<br />U<SUB>R</SUB>=U-U<SUB>L</SUB>=12V-6V=6V，<br />则串联电阻的阻值：<br />R=$\\frac{{U}_{R}}{I}$=$\\frac{6V}{1.5A}$=4Ω．<br />故答案为：4；串．",
+          "Discuss": "本题考查了串联电路的特点和欧姆定律、电功率公式的灵活运用，知道灯泡正常发光时的电压和额定电压相等是关键．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "4",
+            "串"
+          ],
+          "FavTime": 0,
+          "ViewCount": 3,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 21,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d10f38df-e9cb-495b-8fc0-2e81583c778a",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/70fd79cf.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图所示电路，电源电压保持不变，当闭合开关S，调节滑动变阻器阻值从最大变化到最小，45题图两个电阻的“U-I”关系图象如图所示．其中<div class=\"quizPutTag\">乙</div>（选填“甲”“乙”）图线表示的是&nbsp;R<SUB>1</SUB>中电流随电压变化的规律．当滑动变阻器接入电路中阻值最小时，R<SUB>1</SUB>的电功率为<div class=\"quizPutTag\">9</div>W．",
+          "Analyse": "由电路图可知，R<SUB>1</SUB>与R<SUB>2</SUB>串联，电压表V<SUB>1</SUB>测R<SUB>1</SUB>两端的电压，电压表V<SUB>2</SUB>测R<SUB>2</SUB>两端的电压，电流表测电路中的电流．<br />（1）从“U-I”关系图象可以看出，甲为滑动变阻器的关系图象，因为最后电压变为0，此时滑动变阻器的电阻为0，乙为电阻R<SUB>1</SUB>的图象．<br />（2）当滑动变阻器的阻值最大时，电路中的电流最小，根据图象读出电表的示数，利用串联电路的电压特点求出电源的电压，利用欧姆定律求出电阻R<SUB>1</SUB>的电阻．",
+          "Method": "解：由电路图可知，R<SUB>1</SUB>与R<SUB>2</SUB>串联，电压表V<SUB>1</SUB>测R<SUB>1</SUB>两端的电压，电压表V<SUB>2</SUB>测R<SUB>2</SUB>两端的电压，电流表测电路中的电流．<br />（1）从“U-I”关系图象可以看出，甲为滑动变阻器的关系图象，<br />因滑动变阻器接入电路中的电阻为零时，电路中的电流最大，变阻器两端的电压为零，则乙为电阻R<SUB>1</SUB>的图象；<br />（2）当滑动变阻器接入电路中阻值最小时，电路为R<SUB>1</SUB>的简单电路，电路中的电流最大，<br />由图乙可知，电路的最大电流I=3A，电阻R<SUB>1</SUB>两端的电压U<SUB>1</SUB>=3V，<br />则R<SUB>1</SUB>的电功率：<br />P<SUB>1</SUB>=U<SUB>1</SUB>I=3V×3A=9W．<br />故答案为：乙；9．",
+          "Discuss": "本题考查串联电路电流和电压的规律以及滑动变阻器的使用，关键是欧姆定律和电功率公式的应用，要明白电路各个用电器的连接情况，还要会看“U-I”关系图象．在电学中，有些题目的信息是通过图象给出的，所以要会读电路图中的信息和U-I图象中的信息．",
+          "Degree": 0.60,
+          "CateID": 2,
+          "CateName": "填空题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            },
+            {
+              "Key": "JA",
+              "Value": "电功率的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "53 ",
+              "Value": "电路和欧姆定律"
+            },
+            {
+              "Key": "541",
+              "Value": "电能和电功率"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "乙",
+            "9"
+          ],
+          "FavTime": 0,
+          "ViewCount": 3,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 0,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 22,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "ab2b2815-fb2f-4976-8577-b43bd5df64f9",
+          "Content": "家用电冰箱主要由压缩机照明灯组成，请你在方框内画出家用电冰箱的电路图．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/f52d266e.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "由生活经验可知：电动压缩机与温控开关串联，照明灯泡与门控开关串联；灯和压缩机可以独立工作、互不影响，即为并联．",
+          "Method": "解：<br />由生活经验：灯和压缩机可以单独工作，互不影响，所以它们之间是并联关系，且电动压缩机与温控开关串联，照明灯泡与门控开关串联，如图所示：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/14/6444729f.png\" style=\"vertical-align:middle\" />．",
+          "Discuss": "本题考查了并联电路的特点和开关的作用，关键是根据生活经验可知灯泡与电动机独立工作、互不影响．",
+          "Degree": 0.60,
+          "CateID": 5,
+          "CateName": "作图题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "yuanwd老师",
+          "Points": [
+            {
+              "Key": "HU",
+              "Value": "串、并联电路的设计"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "14 ",
+              "Value": "作图题"
+            },
+            {
+              "Key": "28 ",
+              "Value": "设计与制作题"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 23,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "3f4cb0da-dbd2-45dd-b950-02df5d1de1f5",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/32/4c90a25d.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，在“测定小灯泡电阻”实验中，小某所接的实验电路存在连接错误，但只需改动一根导线，即可使电路连接正确．请你在应改动图的导线&nbsp;&nbsp;&nbsp;上打“×”，并用笔画线代替导线画出正确的接法．",
+          "Analyse": "实物连接图中，主要从电流表、电压表、滑动变阻器的使用方法上考虑：从电流表和电压表的量程、连接方式、正负接线柱三个方面分析．",
+          "Method": "解：在“测定小灯泡电阻”实验中，电压表应并联在小灯泡两端，测灯泡两端的电压；<br />由图可知，电压表并联在灯泡和滑动变阻器的两端，测灯泡和滑动变阻器的总电压，<br />所以电压表的“15”接线柱和滑动变阻器右下端接线柱的连线错误，应把电压表并联在灯泡两端，电压表的“15”接线柱和灯泡右端接线柱连接，如下图：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/17/e6bab829.png\" style=\"vertical-align:middle\" />．",
+          "Discuss": "确定电路连接错误的位置，甚至比画电路图、连实物图难度都要大，解答的关键是掌握用电器及电表的正确接法，根据电流表、电压表使用方法找到突破口．",
+          "Degree": 0.60,
+          "CateID": 5,
+          "CateName": "作图题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "wdsxg老师",
+          "Points": [
+            {
+              "Key": "HS",
+              "Value": "电路的基本连接方式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 24,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "10a6ccbf-aeeb-4f5c-b5ea-da5802eb2643",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201611/226/7e66a67f.png\" style=\"vertical-align:middle;FLOAT:right;\" />小聪和小明用电池和一个滑动变阻器串联制成可调节电压的电源，并利用它来探究电流跟电阻、电压的关系：<br />（1）请你在方框内正确画出实验所需的电路图．<br />（2）连接电路时，开关应处于<div class=\"quizPutTag\">断开</div>状态，开关闭合前，应将滑动变阻器的滑片移至<div class=\"quizPutTag\">阻值最大</div>处．<br />（3）通过正确的实验，小聪和小明可以得到的实验结论是：<div class=\"quizPutTag\">在电阻一定时，电流与电阻成正比．</div>；<div class=\"quizPutTag\">在电压一定时，电流与电阻成反比．</div>．<br />（4）利用你所画的电路图还可以完成的电学实验是：<div class=\"quizPutTag\">测量出定值电阻的功率</div>．",
+          "Analyse": "（1）电流表与被测元件串联，电压表与被测元件并联，滑动变阻器与被控制元件串联，由此据题意设计电路图．<br />（2）连接电路时，开关应处于断开状态，开关闭合前，应将滑动变阻器的滑片移至阻值最大处；<br />（3）应用控制变量法分析，然后得出结论．<br />（4）利用图示电路结构还可以测电功率．",
+          "Method": "解：（1）在探究电流与电压关系的实验中，电流表应与被定值电阻串联，电压表与被定值电阻并联，滑动变阻器调节定值电阻两端电压，所以与定值电阻串联在电路，如图所示：<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201611/236/7cf84ec8.png\" style=\"vertical-align:middle\" />．<br />（2）为了保护电路，连接电路时，开关应处于断开状态，开关闭合前，应将滑动变阻器的滑片移至阻值最大处；<br />（3）探究电流跟电压关系时保持电阻阻值不变，由实验可知，在电阻不变时，电流与电压比值保持不变，即电流与电压成正比，由此可得：在电阻一定时，电流与电阻成正比．<br />探究电流跟电阻关系时保持电阻两端电压不变不变；由实验可知，在电阻一定时，电流与电阻的乘积是定值，即电流与电阻成反比，由此可得：在电压一定时，电流与电阻成反比．<br />（4）利用图示（1）电路结构可以测出定值电阻的电流与电压，由P=UI可以求出定值电阻的功率．<br />故答案为：（1）如上图；（2）断开；阻值最大；（3）在电阻一定时，电流与电阻成正比；在电压一定时，电流与电阻成反比；（4）测量出定值电阻的功率．",
+          "Discuss": "本题考查了设计实验电路图、连接实物电路图，滑动变阻器的作用，实验需要应用控制变量法，根据实验目的应用控制变量法分析表中实验数据即可正确解题．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "胡善辉老师",
+          "Points": [
+            {
+              "Key": "IL",
+              "Value": "探究电流与电压、电阻的关系实验"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "13 ",
+              "Value": "实验题"
+            },
+            {
+              "Key": "41 ",
+              "Value": "控制变量法"
+            },
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "断开",
+            "阻值最大",
+            "在电阻一定时，电流与电阻成正比．",
+            "在电压一定时，电流与电阻成反比．",
+            "测量出定值电阻的功率"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 3,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 25,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "e1b38aea-bc77-424f-886f-94de3316b753",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201801/14/af909e11.png\" style=\"vertical-align:middle;FLOAT:right;\" />小聪和小明自制了一个导电性检测器，其电路图如图，他们找来了若干根长度、横截面积已知的镍铬合金线用来探究影响导体电阻大小的因素：<br />（1）在该导电性检测器中，小灯泡所起的主要作用是：<div class=\"quizPutTag\">保护电路</div>．<br />（2）小聪想探究导体横截面积是如何影响电阻的，通过实验得到了表1所示的数据，分析数据他可得到的结论是：<div class=\"quizPutTag\">导体的材料、长度相同时，横截面积越大，电阻越小</div>．<br />表1<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=121>编号</TD><TD width=138>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 材料</TD><TD width=118>长度/m</TD><TD width=118>横截面积/mm<SUP>2</SUP></TD><TD width=118>电流表示数/A</TD></TR><TR><TD>1</TD><TD rowSpan=4>镍<br />铬<br />合<br />金</TD><TD>1.0</TD><TD>0.5</TD><TD>0.2</TD></TR><TR><TD>2</TD><TD>1.0</TD><TD>1.0</TD><TD>0.4</TD></TR><TR><TD>3</TD><TD>1.0</TD><TD>1.5</TD><TD>0.6</TD></TR><TR><TD>4</TD><TD>1.0</TD><TD>2.0</TD><TD>0.8</TD></TR></TBODY></TABLE>（3）小明想探究导体电阻与长度的定量关系，他还需要的测量工具是<div class=\"quizPutTag\">电压表</div>．通过实验得到了表2所示的数据，请你帮他写出分析数据得到结论的过程．<br />表2<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=121>编号</TD><TD width=138>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 材料</TD><TD width=118>长度/m</TD><TD width=118>横截面积/mm<SUP>2</SUP></TD><TD width=118>电阻值/Ω</TD></TR><TR><TD>1</TD><TD rowSpan=4>镍<br />铬<br />合<br />金</TD><TD rowSpan=2>0.5</TD><TD rowSpan=2>1.0</TD><TD rowSpan=2>1</TD></TR><TR><TD>2</TD></TR><TR><TD rowSpan=2>3<br />&nbsp;</TD><TD>1.0</TD><TD>1.0</TD><TD>2</TD></TR><TR><TD>&nbsp;1.5</TD><TD>1.0</TD><TD>3</TD></TR></TBODY></TABLE>",
+          "Analyse": "（1）灯泡的接入，增大了电路电阻，使电路电流不至于太大，对电路起保护作用，另外，通过灯的亮度也可知电路电流的变化；<br />（2）比较表中数据的材料、长度、横截面积的异同点，结合电流大小关系可得结论；<br />（3）当导体两端的电压一定时，通过导体的电流与导体的电阻成反比，所以电流大的，电阻小，电流小的，电阻大，若导体越长，电流越小，即可证明在导体的材料、横截面积和温度相同的条件下，导体电阻的大小与长度成正比．",
+          "Method": "解：<br />（1）如图所示的电路，灯泡与电阻串联，一方面增大了电路电阻，对电路起限流，防止烧毁电流表和电源；另一方面，通过灯泡的亮暗变化，也可以可直观比较阻值大小；<br />（2）根据表中的数据可知，电阻丝的材料、长度相同，横截面积越大，通过电阻丝的电流越大，说明电阻丝的电阻越小，故得出结论：导体的材料、长度相同时，横截面积越大，电阻越小；<br />（3）根据欧姆定律，当导体两端的电压一定时，通过导体的电流与导体的电阻成反比，所以电流大的，电阻小，电流小的，电阻大，若导体越长，电流越小，即可证明在导体的材料、横截面积和温度相同的条件下，导体电阻的大小与长度成正比；<br />用电压表跟电阻丝并联，当电阻丝长度改变时，电路中的电阻改变，使电路中的电流改变，导致电压表的示数改变，比较前后电压表示数的变化即可得出结论．<br />故答案为：（1）保护电路；（2）导体的材料、长度相同时，横截面积越大，电阻越小；（3）电压表；用伏安法测出接入电阻丝的阻值，对比分析电阻值跟长度的数量关系，即可得出结论．",
+          "Discuss": "控制变量法是初中物理实验中比较常用的研究方法之一，例如欧姆定律，焦耳定律等，只要某个物理量跟几个因素有关，就要采用控制变量法．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "IA",
+              "Value": "影响电阻大小的因素"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "19 ",
+              "Value": "探究题"
+            },
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "保护电路",
+            "导体的材料、长度相同时，横截面积越大，电阻越小",
+            "电压表"
+          ],
+          "FavTime": 0,
+          "ViewCount": 1,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 2,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 26,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "7d1a8361-6159-4de3-ac6d-49e5fb617d16",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201712/36/fb45550f.png\" style=\"vertical-align:middle;FLOAT:right\" />小聪利用如图甲所示的电路来探究电功率与电压的关系：<br />（1）实验中通过<div class=\"quizPutTag\">灯的亮度</div>来判断灯泡电功率的大小．<br />（2）实验中选取规格不同（电阻不同）的灯泡L<SUB>1</SUB>、L<SUB>2</SUB>进行实验．其目的是：<div class=\"quizPutTag\">B</div>（选填“A”“B”）．<br />A、避免实验结论具有特殊性从而使结论更具有普遍性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />B、便于完成实验，得出实验结论<br />（3）小聪利用甲图得到表一的实验数据，他可以得到的实验结论是：<div class=\"quizPutTag\">通过用电器的电流相同时，用电器两端电压越大，电功率越大</div>．利用学过的知识，聪明的你可以计算出甲图中电源电压为<div class=\"quizPutTag\">4.5</div>V．<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=190></TD><TD width=190>发光情况</TD><TD width=190>电压/V</TD></TR><TR><TD>2.5V0.3A的小灯泡</TD><TD>暗</TD><TD>1.8</TD></TR><TR><TD>3.8V0.3A的小灯泡</TD><TD>亮</TD><TD>2.7</TD></TR></TBODY></TABLE>（4）小明在小聪实验的基础上将电压表换为量程适当的电流表，想按照乙图所示的电路来探究电功率与电流的关系，请你在实验器材选取方面为他提出一条合理的建议：<div class=\"quizPutTag\">在干路上串联一个滑动变阻器</div>．",
+          "Analyse": "（1）灯泡的亮度由灯泡的实际功率决定；<br />（2）根据控制变量法分析；<br />（3）根据串联电路电流的规律和灯的亮度取决于灯的实际功率，结合表中数据分析回答；根据串联电路电压的规律求电源电压；<br />（4）电压过高会烧坏灯泡，为减小灯泡电压，可在在电路中串联一个分压电阻．",
+          "Method": "解：（1）灯泡的亮度是由灯泡的实际功率决定的，实际功率越大，灯泡越亮．所以实验中小灯泡电功率的大小可通过观察小灯泡的亮度来判断．<br />（2）探究电功率与电压的关系时，要控制电流不变，改变电压的大小，实验中选用不同规格的灯泡且串联，这样可使灯泡的电流相同，灯泡两端的电压不同，可探究电功率与电压的关系；<br />选B；<br />（3）L<SUB>1</SUB>、L<SUB>2</SUB>串联，则通过两灯的电流相同，由表格数据可知，L<SUB>2</SUB>灯两端的电压较大，而L<SUB>2</SUB>发光较亮，说明L<SUB>2</SUB>的电功率较大，所以归纳的结论为：通过用电器的电流相同时，用电器两端电压越大，电功率越大；<br />根据串联电路电压的规律，由题意知，电源电压为：<br />U=U<SUB>1</SUB>+U<SUB>2</SUB>=1.8V+2.7V=4.5V；<br />（4）由电路图乙可知，两灯泡并联在电源两端，由于电源电压4.5V太高，远大于灯泡两灯的额定电压，为避免灯泡烧坏，可在干路中串联一个滑动变阻器保护保护电路或减小电源电压，并在灯泡两端并联电压表，可监测灯泡两端的电压变化，防止超过其额定电压．<br />故答案为：<br />（1）灯泡的亮度；<br />（2）B；（3）通过用电器的电流相同时，用电器两端电压越大，电功率越大；4.5；<br />（4）在干路上串联一个滑动变阻器．",
+          "Discuss": "本题探究电功率与电压的关系，考查了判断灯泡功率大小的方法、实验数据分析、控制变量法、数据分析和实验的改进方法等问题．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "zxjw58老师",
+          "Points": [
+            {
+              "Key": "JL",
+              "Value": "探究用电器的电功率实验"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "18 ",
+              "Value": "误差分析和数据处理"
+            },
+            {
+              "Key": "28 ",
+              "Value": "设计与制作题"
+            },
+            {
+              "Key": "41 ",
+              "Value": "控制变量法"
+            },
+            {
+              "Key": "54 ",
+              "Value": "电能和电功率"
+            },
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "灯的亮度",
+            "B",
+            "通过用电器的电流相同时，用电器两端电压越大，电功率越大",
+            "4.5",
+            "在干路上串联一个滑动变阻器"
+          ],
+          "FavTime": 0,
+          "ViewCount": 11,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 12,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 27,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "60c114c7-0fa2-49e9-87eb-35c127a19b5a",
+          "Content": "教室里并联着10只“220V&nbsp;40W”的日光灯，则：<br />（1）这些日光灯并联安装的好处是：<div class=\"quizPutTag\">各灯工作时互不影响</div>．<br />（2）一盏日光灯在正常工作时的电流是多少？正常发光时的电阻是多少？<br />（3）请你通过计算说明接入照明电路中的日光灯越多，总电流越大的原因．",
+          "Analyse": "（1）并联电路中各用电器互不影响；<br />（2）已知灯的额定电压和额定功率，根据P=UI和P=$\\frac{{U}^{2}}{R}$求解；<br />（3）根据并联电路电流规律和P=UI分析．",
+          "Method": "解：（1）根据并联电路的特点可知，这些日光灯并联安装的好处是各灯工作时互不影响，即一只灯不工作不影响另外的灯；<br />（2）日光灯上标有“220V 40W”，表示灯的额定电压为220V，额定功率为40W，<br />由P=UI可得，一盏日光灯在正常工作时的电流：<br />I=$\\frac{P}{U}=\\frac{40W}{220V}$≈0.18A；<br />根据P=$\\frac{{U}^{2}}{R}$可得，正常发光时的电阻：<br />R=$\\frac{{U}^{2}}{P}={\\frac{(220V)}{40W}}^{2}$=1210Ω；<br />（3）因I=$\\frac{P}{U}$，根据并联电路干路电流等于各支路电流之和可得，干路电流：<br />I=I<SUB>1</SUB>+I<SUB>2</SUB>+----+I<SUB>n</SUB>=$\\frac{{P}_{1}}{U}$+$\\frac{{P}_{2}}{U}$+-----+$\\frac{{P}_{n}}{U}$=$\\frac{{P}_{1}+{P}_{2}+…+{P}_{n}}{U}$=$\\frac{P}{U}$，<br />即接入照明电路中的日光灯越多，总功率P越大，总电流越大．<br />答：（1）各灯工作时互不影响；<br />（2）一盏日光灯在正常工作时的电流是0.18A；正常发光时的电阻是1210Ω；<br />（3）根据并联电路干路电流等于各支路电流之和可得：I=I<SUB>1</SUB>+I<SUB>2</SUB>+----=$\\frac{{P}_{1}}{U}$+$\\frac{{P}_{2}}{U}$+-----=$\\frac{P}{U}$，即接入照明电路中的日光灯越多，总功率P越大，总电流越大．",
+          "Discuss": "本题考查并联电路的特点及功率公式的运用和并联电路的规律．",
+          "Degree": 0.60,
+          "CateID": 7,
+          "CateName": "计算题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•青秀区校级月考）",
+          "LabelReportID": "3ad94421-0045-46af-aeb5-5e249490e921",
+          "Teacher": "zxjw58老师",
+          "Points": [
+            {
+              "Key": "J9",
+              "Value": "电功率与电压、电流的关系"
+            },
+            {
+              "Key": "IH",
+              "Value": "欧姆定律的应用"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "533",
+              "Value": "欧姆定律"
+            },
+            {
+              "Key": "541",
+              "Value": "电能和电功率"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "各灯工作时互不影响"
+          ],
+          "FavTime": 0,
+          "ViewCount": 0,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 1,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 28,
+          "Score": 5.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.6485716
+}

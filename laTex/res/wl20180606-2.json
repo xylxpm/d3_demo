@@ -1,0 +1,1155 @@
+﻿{
+  "ID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+  "Title": "2017-2018学年内蒙古包头市昆都仑区包钢四中九年级（上）月考物理试卷（10月份）",
+  "Year": 2017,
+  "Times": 0,
+  "Score": 60,
+  "EditionID": 17,
+  "GradeID": 9,
+  "TermID": 1,
+  "SourceID": 8,
+  "SourceName": "月考试题",
+  "RegionID": "1230202",
+  "RegionNames": [
+    "内蒙古",
+    "包头市",
+    "昆都仑区"
+  ],
+  "ViewCount": 15,
+  "Date": "2017-10-27T00:00:00",
+  "Subject": 21,
+  "EditionName": "人教新版",
+  "GradeName": "九年级",
+  "TermName": "上学期",
+  "SchoolName": "包钢四中",
+  "Groups": [
+    {
+      "Key": "一、选择题（30分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "34033c25-07b0-47d9-b094-a977bd0fc8fe",
+          "Content": "下列说法错误的是（　　）<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201512/47/72e6a0ae.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "解答此题应掌握：（1）两种物质相互接触时，彼此进入对方的现象叫扩散，扩散现象是分子运动的结果．<br />（2）分子间有间隙，存在着相互作用的引力和斥力，当分子间距离增大时，表现为引力，当分子间距离减小时，表现为斥力，当分子间距等于平衡位置时，引力等于斥力，即分子力等于零．",
+          "Method": "解：A、甲图中，抽掉玻璃板，瓶内气体颜色最后变得均匀，说明分子在不停地运动，故A正确；<br />B、乙图中，两个铅柱洗净紧压后结合在一起，说明分子间有引力，故B正确；<br />C、分子之间存在相互作用的引力和斥力，由于镜子破裂处的绝大多数分子间距离较大，大于分子直径的10倍，分子间的作用力就十分微弱，所以“破镜不能重圆”，故C错误；<br />D、图丁中，分子间距很小，分子间作用力很大，因此模拟的是固体分子，故D正确．<br />故选：C．",
+          "Discuss": "本题主要考查学生对分子动理论知识的了解和掌握，是一道基础题．",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2015秋•江汉区期中）",
+          "LabelReportID": "252a4026-d561-4199-8bc8-429a4b6adbd9",
+          "Teacher": "llm老师",
+          "Points": [
+            {
+              "Key": "GW",
+              "Value": "扩散现象"
+            },
+            {
+              "Key": "GH",
+              "Value": "分子间的作用力"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "523",
+              "Value": "分子热运动、内能"
+            }
+          ],
+          "Options": [
+            "甲图中，抽掉玻璃板，瓶内气体颜色最后变得均匀，说明分子在不停地运动",
+            "乙图中，两个铅柱洗净紧压后结合在一起，说明分子间有引力",
+            "图丙中，“破镜难圆”，说明分子间只有斥力没有引力",
+            "图丁中，模拟的是固体分子，分子间距很小，分子间作用力很大"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 7,
+          "ViewCount": 130,
+          "DownCount": 4,
+          "RealCount": 4,
+          "PaperCount": 40,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 1,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "80877a3c-fe3c-43ba-8ef4-40613a2a0cf7",
+          "Content": "关于温度、热量和内能，下列说法正确的是（　　）",
+          "Analyse": "解决此题要知道：<br />（1）改变物体的内能有两种方法，做功和热传递。物体内能改变了，可能表现在温度的变化，也可能表现在物态的变化。<br />（2）发生热传递的条件是物体之间有温度差，物体的内能与质量和温度有关。",
+          "Method": "解：A、物体内能改变了，可能表现在温度的变化，也可能表现在物态的变化，例如晶体凝固，放出热量，温度不变，故A错误；<br />B、热量是过程量，不能用“含有”，“具有”等描述状态的词语来描述，故B错误；<br />C、两物体温度相同时，没有温度差，所以它们之间就不会发生热传递，符合题意；<br />D、-5℃的物体和5℃的物体的质量关系未知，所以内能大小无法比较，故D错误。<br />故选：C。",
+          "Discuss": "本题主要考查学生对温度、内能与热量关系，影响内能的因素，以及热传递的条件的了解和掌握，属于基础题，应熟练掌握。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2012•巴中）",
+          "LabelReportID": "8791594e-ae49-41ee-87c6-9fd7a6b09c7a",
+          "Teacher": "商翠荣老师",
+          "Points": [
+            {
+              "Key": "G6",
+              "Value": "温度、热量与内能的关系"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            }
+          ],
+          "Options": [
+            "物体放出热量，物体的温度一定会下降",
+            "物体的温度越高，它所含热量就越多",
+            "两个物体温度相同，它们之间就不能发生热传递",
+            "-5℃物体一定比5℃的物体的内能少"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 11,
+          "ViewCount": 439,
+          "DownCount": 10,
+          "RealCount": 4,
+          "PaperCount": 36,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 2,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d62e4d01-2d1e-432c-8d2d-64de2f4b4fb0",
+          "Content": "如图所示，对于图片中所描述的物理过程，下列分析正确的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201710/111/671c0e28.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）根据温度与内能的关系和做功可以改变物体的内能角度分析解答问题；<br />（2）做功可以改变物体的内能，当外界对物体做功时，物体的内能增大，当物体对外界做功时，物体的内能就会减小。",
+          "Method": "解：<br />A、图中玻璃筒内的空气被压缩时，活塞对空气做功，瓶内空气温度升高，空气的内能增加；故A错误；<br />B、图中瓶子内的空气推动塞子跳起时，空气对活塞做功，空气的内能减小；故B错误；<br />C、图中试管内的水蒸气推动了塞子冲出时，水蒸气对塞子做功，水蒸气的内能减少，温度降低；故C正确；<br />D、图中反复折铁丝时，人对铁丝做功，机械能转化为铁丝的内能，内能增大，温度升高；故D错误。<br />故选：C。",
+          "Discuss": "本题考查做功改变物体的内能，当外界对物体做功时，物体的内能增大，当物体对外界做功时，物体的内能就会减小。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "刘小强老师",
+          "Points": [
+            {
+              "Key": "G9",
+              "Value": "做功改变物体内能"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "523",
+              "Value": "分子热运动、内能"
+            }
+          ],
+          "Options": [
+            "图甲，玻璃筒内的空气被压缩时，空气的内能减少",
+            "图乙，瓶子内的空气推动塞子跳起时，空气的内能增大",
+            "图丙，试管内的水蒸气推动塞子冲出时，水蒸气的内能减少",
+            "图丁，铁丝快速反复弯折数十次，铁丝弯折处会发热，铁丝的内能减少"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 8,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 4,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 3,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d7bdd3a2-615d-44d5-9e87-217454ac99f6",
+          "Content": "煤油和水的比热容不同，这表示（　　）",
+          "Analyse": "①单位质量的某种物质温度升高1℃所吸收的热量叫做这种物质的比热容。<br />②物体吸热温度升高的有关计算：Q<SUB>吸</SUB>=Cm（t-t<SUB>0</SUB>）",
+          "Method": "解：A、比热容与温度是不同的，温度表示物体的冷热程度。比热容表示单位质量的某种物质温度升高1℃所吸收的热量。所以A错。<br />B、比热容和内能是不同的，内能是物体内所有分子热运动的动能和分子势能的总和。而比热容表示单位质量的某种物质温度升高1℃所吸收的热量。所以B错。<br />C、根据：Q<SUB>吸</SUB>=Cm（t-t<SUB>0</SUB>）可知在吸收的热量一定时，质量相同的煤油和水由于比热容的不同，升高的温度是不同的。所以C错。<br />D、根据：Q<SUB>吸</SUB>=Cm（t-t<SUB>0</SUB>）可知在吸收的热量一定时，质量相同的煤油和水由于比热容的不同，升高的温度是不同的。所以D对。<br />故选：D。",
+          "Discuss": "此题主要是考查比热容的定义和比热容与温度变化的关系。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "tsh518老师",
+          "Points": [
+            {
+              "Key": "GD",
+              "Value": "比热容的概念"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "41 ",
+              "Value": "控制变量法"
+            }
+          ],
+          "Options": [
+            "质量相同的煤油和水的温度不同",
+            "质量相同的煤油和水含有的内能不同",
+            "质量相同的煤油和水升高的温度不同",
+            "质量相同的煤油和水，吸收相同的热量，升高的温度不同"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 0,
+          "ViewCount": 300,
+          "DownCount": 11,
+          "RealCount": 2,
+          "PaperCount": 24,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 4,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "5382f65d-d441-4b6a-b530-8e7849622d5e",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201604/268/1d2a2953.png\" style=\"vertical-align:middle;FLOAT:right;\" />如图所示是演示点火爆炸的实验装置。按动电火花发生器的按钮，点燃盒内酒精，盒盖被打出去。在汽油机工作的四个冲程中，与此能量转化相同的冲程示意图是（　　）",
+          "Analyse": "内燃机一个工作循环有四个冲程，分别是吸气、做功、压缩和排气，其中只有做功冲程对外做功，在做功冲程中，燃料的化学能转化为内能，而内能又转化为机械能，带动飞轮转动做功。",
+          "Method": "解：电火花打火时，酒精气体燃烧膨胀做功，使盒盖飞出去，因此将内能转化为盒盖的机械能；故：<br />A、进气门打开，排气门关闭，是吸气冲程，没有能量的转化，故A错误；<br />B、排气门打开，进气门关闭，是排气冲程，没有能量的转化，故B错误；<br />C、两个气门关闭，活塞向上运动，即压缩冲程，是将机械能转化为内能的过程，故C错误；<br />D、两个气门关闭，活塞向下运动，即做功冲程，是将内能转化为机械能的过程，故D正确；<br />故选：D。",
+          "Discuss": "此题要考查了内燃机工作原理及过程，并从能量转化的角度与电子式火花发生器的工作原理进行了比较，同时考查了做功冲程与压缩冲程的区分。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 4,
+          "SourceName": "中考模拟",
+          "Label": "（2016•南京一模）",
+          "LabelReportID": "780e6985-4fdc-4dc6-be48-84761f8b798a",
+          "Teacher": "王富文老师",
+          "Points": [
+            {
+              "Key": "GM",
+              "Value": "内燃机的四个冲程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201604/268/39aee4cf.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201604/268/7dfbbefd.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201604/268/09cad546.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201604/268/f4c1250d.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 1,
+          "ViewCount": 218,
+          "DownCount": 9,
+          "RealCount": 4,
+          "PaperCount": 141,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 5,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "f2326588-2fc6-4b25-951f-28a4569b4711",
+          "Content": "如图所示，把热水壶放在煤气灶上烧水的过程中，下列说法正确的是（　　）<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201710/111/89701a2e.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "（1）燃料燃烧时，化学能转化为内能；<br />（2）热值是燃料的一种特性，它只与燃料的种类有关，与燃料的质量、燃烧程度等均无关；<br />（3）组成物质的分子不停地做无规则地运动，温度越高，分子运动越剧烈；<br />（4）改变物体内能的方式有做功和热传递。",
+          "Method": "解：<br />A、煤气在燃烧过程中，消耗了化学能，获得了内能，即化学能转化为内能，故A错误；<br />BD、燃料的热值仅与燃料的种类有关，而与燃料的燃烧程度、质量、放出的热量都无关，故BD错误；<br />C、分子的运动快慢与温度有关，水的温度越高，水分子运动越剧烈，故C正确。<br />故选：C。",
+          "Discuss": "本题是一道热学综合题，主要考查学生对对燃料燃烧过程中的能量转化、热值的特点、分子运动的特点以及改变物体内能方法的理解，属于综合性题目。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "刘小强老师",
+          "Points": [
+            {
+              "Key": "E2",
+              "Value": "能量的相互转化"
+            },
+            {
+              "Key": "GJ",
+              "Value": "燃料的热值"
+            },
+            {
+              "Key": "GV",
+              "Value": "分子的运动"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "523",
+              "Value": "分子热运动、内能"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [
+            "煤气的燃烧过程是内能转化为化学能",
+            "煤气燃烧越充分，它的热值越大",
+            "水的温度越高，水分子运动越剧烈",
+            "煤气燃烧放出的热量越大，它的热值越大"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 13,
+          "DownCount": 1,
+          "RealCount": 1,
+          "PaperCount": 16,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 6,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "632a7328-9921-408f-af5f-e2bd155aa887",
+          "Content": "将一瓶酒精用去三分之一，则剩余酒精的密度、比热容和热值&nbsp;（　　）",
+          "Analyse": "①物理学规定，单位质量的某种物质，温度升高（或降低）1℃所吸收（或放出）的热量为该物体的比热容，比热容是物质的特性，仅与物质的种类和所处的状态有关，而与物体的温度、质量和体积无关；<br />②1kg某种燃料完全燃烧放出的热量叫做这种燃料的热值。热值是燃料的一种特性，它只与燃料的种类有关，与燃料的质量、燃烧程度、放出热量的多少以及燃烧温度的高低等均无关；<br />③单位体积的某种物质的质量叫这种物质的密度，密度是物质的特性，仅与物质的种类和所处的状态有关，而与物体的质量和体积无关。",
+          "Method": "解：<br />密度、比热容、燃料的热值都属于物质的特性，它们的大小与物体的质量和体积均无关系，<br />所以选项A正确、BCD错。<br />故选：A。",
+          "Discuss": "本题主要考查学生对密度、比热容和热值概念的理解和掌握。密度、比热、燃料的热值都是物质的一种特性，它们的大小与物体的质量和体积均无关系。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2016•连云港）",
+          "LabelReportID": "69d2dfda-3eaa-45ae-bdf9-1614d721d737",
+          "Teacher": "951****4352老师",
+          "Points": [
+            {
+              "Key": "GJ",
+              "Value": "燃料的热值"
+            },
+            {
+              "Key": "28",
+              "Value": "密度及其特性"
+            },
+            {
+              "Key": "GD",
+              "Value": "比热容的概念"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            },
+            {
+              "Key": "563",
+              "Value": "密度及其应用"
+            }
+          ],
+          "Options": [
+            "都不变",
+            "都变为原来的三分之二",
+            "热值不变，密度、比热容变为原来的三分之二",
+            "热值变为原来的三分之二，密度、比热容不变"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 22,
+          "ViewCount": 1343,
+          "DownCount": 29,
+          "RealCount": 9,
+          "PaperCount": 1975,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 7,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "32dccd5c-d53a-439f-bc82-3fce4f2d7c80",
+          "Content": "质量和温度相同的铁块和水，吸收相同的热量后，将铁块迅速投入水中，则（　　）",
+          "Analyse": "质量相等的铁块和水，吸收相等的热量，比热容大的物体，温度升高的少，而初温相同，可以得出铁块和水的末温高低，进而确定热传递的方向。<br />热传递是将热量从高温物体传向低温物体。",
+          "Method": "解：铁块和水的质量相同，水的比热容大，吸收相同的热量，水的温度升高的少，而初温相同，因此水的末温低，将铁块投入水中，热量将从温度高的铁块传向温度低的水。<br />故选：B。",
+          "Discuss": "本题考查了学生对放热公式的掌握和应用，理解用好“质量相等的不同物质，吸收相同的热量，比热容大的物体，温度升高的少”是本题的关键。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "刘小强老师",
+          "Points": [
+            {
+              "Key": "G8",
+              "Value": "热传递"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "523",
+              "Value": "分子热运动、内能"
+            }
+          ],
+          "Options": [
+            "它们之间不发生热传递",
+            "热会从铁块传到水",
+            "热会从水传到铁块",
+            "无法确定热传递的情况"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 2,
+          "ViewCount": 9,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 12,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 8,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "c661bfae-ce0c-422a-be6a-30ed1ede955f",
+          "Content": "下列有关热的说法正确的是（　　）",
+          "Analyse": "（1）晶体熔化、液体沸腾时吸热，温度保持不变，内能增加；<br />（2）改变内能的方法主要有两种，一是对物体做功，二是热传递；<br />（3）能量既不能凭空产生也不能凭空消失，总是由一种能量转化为另一种能量，在转化的过程中能的总量保持不变；<br />（4）热值是燃料的一种特性，热值越大的燃料在完全燃烧相同质量的燃料时放出的热量越多；热机效率是有用功与燃料燃烧释放能量的比值，它代表热机性能的好坏。",
+          "Method": "解：<br />A、晶体在熔化过程中要吸收热量，所以内能增加，但温度保持不变，状态发生变化，故A错误；<br />B、内燃机压缩冲程中是利用机械能对燃料做功转化为内能，故B错误；<br />C、马在奔跑中是要消耗能量的；故“既要马儿跑，又让马儿不吃草”违背了能量守恒定律，因而是不可能的，故C正确；<br />D、热机效率是内燃机转化为有用功的能量与燃料完成燃烧释放的能量的比值，柴油机的效率比汽油机高，就是说完成相同的有用功，柴油机所用燃料完全燃烧放出能量比汽油机少，而不是因为柴油的热值比汽油的热值大，故D错误。<br />故选：C。",
+          "Discuss": "本题考查学生的全面知识，需要掌握内能、能量的转化、能量守恒、热值这些物理量或物理现象的内容，并和生活现象进行联系。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "19",
+              "Value": "熔化与熔化吸热特点"
+            },
+            {
+              "Key": "GL",
+              "Value": "热机的效率"
+            },
+            {
+              "Key": "GM",
+              "Value": "内燃机的四个冲程"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "521",
+              "Value": "温度计、熔化和凝固"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [
+            "晶体在熔化过程中温度不变，内能也不变",
+            "内燃机的压缩冲程，主要是用热传递的方法增加了汽缸内的物质的内能",
+            "“既要马儿跑，又让马儿不吃草”的想法是违背能量守恒定律的",
+            "柴油机的效率比汽油机的效率高，是因为柴油的热值比汽油的热值大"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 1,
+          "ViewCount": 1,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 9,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "3a0bf708-c5f8-4c37-ab2a-e64e6d57e52d",
+          "Content": "下列现象不属于摩擦起电的是（　　）",
+          "Analyse": "两种不同物质组成的物体相互摩擦后，物体能吸引轻小物体的现象是摩擦起电。<br />化纤的衣服和皮肤摩擦后带电，吸引轻小的灰尘。<br />在干燥的天气脱毛衣时会听到轻微的噼叭声，是因为毛衣和衬衣之间相互摩擦带电，两者带有异种电荷，放电产生的劈叭声。<br />梳子梳头发，梳子和头发摩擦带异种电荷，异种电荷相互吸引把头发吸引起来。<br />粉笔灰四处飘落是力改变了粉笔灰的运动状态。",
+          "Method": "解：A、在干燥的天气脱毛衣时会听到轻微的噼叭声，是因为毛衣和衬衣摩擦带电，放电产生的劈叭声。不符合题意。<br />B、干净的塑料梳子和头发摩擦，头发和梳子摩擦后带异种电荷互相吸引。不符合题意。<br />C、化纤的衣服和皮肤摩擦带电，带电的衣服吸引轻小的灰尘。不符合题意。<br />D、擦黑板时粉笔灰四处飘落是力改变了粉笔灰的运动状态。符合题意。<br />故选：D。",
+          "Discuss": "四个选项都是学生身边的现象，使学生感到物理就在身边，体现了物理和生活的密切关系。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2016秋•德令哈市校级期末）",
+          "LabelReportID": "ae74cc8d-b587-4f15-8d92-688d1579fbe0",
+          "Teacher": "don****feng老师",
+          "Points": [
+            {
+              "Key": "H6",
+              "Value": "摩擦起电"
+            },
+            {
+              "Key": "6K",
+              "Value": "物体运动状态变化的原因"
+            },
+            {
+              "Key": "H8",
+              "Value": "电荷间的相互作用规律"
+            }
+          ],
+          "Topics": [],
+          "Options": [
+            "在干燥的天气脱毛衣时会听到轻微的噼叭声",
+            "用干净的塑料梳子梳头发时，头发会随梳子飘起",
+            "化纤衣服穿在身上特别爱吸附灰尘",
+            "擦黑板时粉笔灰四处飘落"
+          ],
+          "Answers": [
+            "3"
+          ],
+          "FavTime": 5,
+          "ViewCount": 573,
+          "DownCount": 13,
+          "RealCount": 26,
+          "PaperCount": 89,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 10,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "03aa5faf-0661-48d6-a322-7007084a6dc3",
+          "Content": "楠楠同学在中考备考中，准备有：①透明塑料笔袋，②金属刀片，③塑料三角板，④铅笔芯，⑤橡皮擦等物品。上述五种物品中，其中属于绝缘体的有（　　）",
+          "Analyse": "不容易导电的物体叫绝缘体，常见的绝缘体包括：玻璃、陶瓷、橡胶、塑料等。",
+          "Method": "解：铅笔芯、金属刀片、塑料三角尺、塑料笔袋、橡皮这五种物质中属于绝缘体的是：塑料三角尺、塑料笔袋和橡皮；<br />故选：A。",
+          "Discuss": "对生活中的常见绝缘体要认识，此题属于基础知识。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2010•重庆）",
+          "LabelReportID": "95224f16-0f47-4615-9338-b8e01dec002e",
+          "Teacher": "hyan老师",
+          "Points": [
+            {
+              "Key": "HK",
+              "Value": "绝缘体"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "561",
+              "Value": "粒子与宇宙、材料世界"
+            }
+          ],
+          "Options": [
+            "①③⑤",
+            "②④⑤",
+            "③④⑤",
+            "①②④"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 2,
+          "ViewCount": 935,
+          "DownCount": 13,
+          "RealCount": 41,
+          "PaperCount": 60,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 11,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "f701e865-a08e-43ca-999a-ee3c5e6fb470",
+          "Content": "用塑料梳子梳头发时会因为摩擦而起电，经检验，塑料梳子所带的电荷为负电荷，则梳头时（　　）",
+          "Analyse": "摩擦起电不是创造了电荷，而是由于不同原子的原子核对核外电子的束缚能力不同，导致了再摩擦的过程中出现了电子的转移才造成物体带电。由此入手，分析梳子和头发的带电情况。相互摩擦起电的两个物体带等量异种电荷。",
+          "Method": "解：<br />用塑料梳子梳头发时会因为摩擦而起电，由题知，塑料梳子所带的电荷为负电荷，说明梳子在此过程中得到了电子，则头发在此过程中失去了电子，即部分电子从头发转移到梳子上。<br />结合上面分析可知，C正确，ABD错误。<br />故选：C。",
+          "Discuss": "知道梳子与头发摩擦起电的过程与实质是此题的关键。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "llm老师",
+          "Points": [
+            {
+              "Key": "H7",
+              "Value": "摩擦起电的实质"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [
+            "头发得到一些电子",
+            "塑料梳子失去一些电子",
+            "塑料梳子得到一些电子",
+            "头发和梳子间没有电子的转移"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 9,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 17,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 12,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "bfd6bdd1-1fce-4361-bd6a-0cf07bb62bd1",
+          "Content": "用一根与毛皮摩擦过的橡胶棒靠近一个轻质小球，发现两者相互吸引，则关于小球是否带电及带电种类，以下说法正确的是（　　）",
+          "Analyse": "（1）人们规定，用毛皮摩擦过的橡胶棒带负电，用丝绸摩擦过的玻璃棒带正电；<br />（2）电荷间的相互作用规律是：同种电荷互相排斥，异种电荷互相吸引。",
+          "Method": "解：题中说毛皮摩擦过的橡胶棒，此棒一定带负电，又说棒与小球吸引，说明棒与小球带异种电荷或不带电，若带异种电荷则带正电。<br />故选项ABD错误，C正确。<br />故选：C。",
+          "Discuss": "注意：如果棒与小球相吸引，则有两种可能性，因为异种电荷相吸引，小球可能带电，与棒是不同种的电荷；又因为带电体可以吸引轻小物体，小球可能不带电，被带电的棒所吸引了。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2017秋•薛城区期中）",
+          "LabelReportID": "46ea025a-65d1-46b3-a3be-778349e16791",
+          "Teacher": "王富文老师",
+          "Points": [
+            {
+              "Key": "H9",
+              "Value": "物体带电情况的判断"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [
+            "小球一定带正电",
+            "小球一定带负电",
+            "可能带正电，也可能不带电",
+            "小球一定不带电"
+          ],
+          "Answers": [
+            "2"
+          ],
+          "FavTime": 0,
+          "ViewCount": 236,
+          "DownCount": 11,
+          "RealCount": 5,
+          "PaperCount": 33,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 13,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "73a6b848-6338-42e5-8e38-2728735b3a3e",
+          "Content": "下列电路连接正确的是（　　）",
+          "Analyse": "连接电路时要从电源的正极开始，沿电流的流向依次连接即可。",
+          "Method": "解：A、图连接正确；<br />B、导线都接在了电源的一端，电源没有连入电路，故B错误；<br />C、两根导线都接在了灯泡的一端，这样灯泡没有接入电路，故C错误；<br />D、两根导线都接在了开关的一端，这样开关起不到控制作用，故D错误。<br />故选：A。",
+          "Discuss": "电路的基本组成是电源、开关、导线、用电器，它们要顺次连接。",
+          "Degree": 0.60,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 7,
+          "SourceName": "期中试题",
+          "Label": "（2016秋•牡丹江期中）",
+          "LabelReportID": "7c87d42c-e476-405b-8e2b-dbd5a5a6c4d6",
+          "Teacher": "wdlf老师",
+          "Points": [
+            {
+              "Key": "HS",
+              "Value": "电路的基本连接方式"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201612/109/9988d4bd.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201612/109/340eae3c.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201612/109/3d3e949b.png\" style=\"vertical-align:middle\" />",
+            "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201612/109/172747bd.png\" style=\"vertical-align:middle\" />"
+          ],
+          "Answers": [
+            "0"
+          ],
+          "FavTime": 0,
+          "ViewCount": 16,
+          "DownCount": 0,
+          "RealCount": 7,
+          "PaperCount": 9,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 14,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "d0ddb803-b2b6-434c-b62e-8b0072944833",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201412/137/c0236708.png\" style=\"vertical-align:middle;FLOAT:right\" />如图所示，电路元件及导线连接均完好，闭合开关S<SUB>1</SUB>、S<SUB>2</SUB>，则（　　）",
+          "Analyse": "根据电路图可知，闭合开关S<SUB>1</SUB>、S<SUB>2</SUB>，电路为L<SUB>1</SUB>的基本电路，L<SUB>2</SUB>被短路。",
+          "Method": "解：闭合开关S<SUB>1</SUB>、S<SUB>2</SUB>，电路为L<SUB>1</SUB>的基本电路，L<SUB>2</SUB>被短路，故L<SUB>1</SUB>能发光，L<SUB>2</SUB>不能发光。<br />故选：B。",
+          "Discuss": "本题考查了三种状态，是一道基础题。",
+          "Degree": 0.80,
+          "CateID": 1,
+          "CateName": "选择题",
+          "SourceID": 1,
+          "SourceName": "中考真题",
+          "Label": "（2013•南京）",
+          "LabelReportID": "f6469a50-ebb9-49a7-b761-6d3dbf3ca57d",
+          "Teacher": "fhp826老师",
+          "Points": [
+            {
+              "Key": "HP",
+              "Value": "电路的三种状态"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "531",
+              "Value": "电流和电路"
+            }
+          ],
+          "Options": [
+            "L<SUB>1</SUB>不能发光，L<SUB>2</SUB>能发光",
+            "L<SUB>1</SUB>能发光，L<SUB>2</SUB>不能发光",
+            "L<SUB>1</SUB>、L<SUB>2</SUB>都能发光",
+            "L<SUB>1</SUB>、L<SUB>2</SUB>都不能发光"
+          ],
+          "Answers": [
+            "1"
+          ],
+          "FavTime": 64,
+          "ViewCount": 7847,
+          "DownCount": 37,
+          "RealCount": 152,
+          "PaperCount": 1111,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 15,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "二、实验题（14分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "60342b89-b17a-4965-bce7-b1a40ea8a69c",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201612/114/ef1e495e.png\" style=\"vertical-align:middle;FLOAT:right\" />某同学在做“比较不同液体吸热能力”的实验时，使用相同的电加热器给液体甲和乙加热．<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=39>液体</TD><TD width=38>次数</TD><TD width=70>质量m/kg</TD><TD width=115>升高的温度△t/℃</TD><TD width=113>加热的时间t/min</TD></TR><TR><TD rowSpan=3>甲</TD><TD>1</TD><TD>0.1</TD><TD>5</TD><TD>1</TD></TR><TR><TD>2</TD><TD>0.1</TD><TD>10</TD><TD>2</TD></TR><TR><TD>3</TD><TD>0.2</TD><TD>10</TD><TD>4</TD></TR><TR><TD rowSpan=3>乙</TD><TD>4</TD><TD>0.1</TD><TD>10</TD><TD>1</TD></TR><TR><TD>5</TD><TD>0.1</TD><TD>20</TD><TD>2</TD></TR><TR><TD>6</TD><TD>0.2</TD><TD>20</TD><TD>4</TD></TR></TBODY></TABLE>（1）分析第1、4次，第2、5次或第3、6次实验数据，某同学认为：加热相同的时间时，乙升高的温度高一些，这说明乙吸收的热量多一些．这位同学的判断是否正确？请说明理由：<div class=\"quizPutTag\">不正确；实验中使用的电加热器相同，加热相同的时间，甲乙两种液体吸收的热量相等</div>．<br />（2）分析第2、3次或第5、6次实验数据，可以得出的初步结论是：同种物质升高相同温度时，物质的<div class=\"quizPutTag\">质量</div>越大，吸收的热量就越<div class=\"quizPutTag\">多</div>．（选填：“多”或“少”）<br />（3）通过比较第2、4次实验数据可知，液体吸收的热量多少与液体的<div class=\"quizPutTag\">种类</div>有关，<div class=\"quizPutTag\">甲</div>的吸热能力更强（选填“甲”或“乙”）．",
+          "Analyse": "（1）用相同的电加热器给液体加热，在相等时间内液体吸收的热量相等，加热时间越长，液体吸收的热量越多，可以根据加热时间的长短判断液体吸收热量的多少．<br />（2）根据控制变量法的要求分析表中实验序号为第2、3或第5、6的实验数据，根据实验控制的变量与实验现象得出实验结论．<br />（3）根据控制变量法的要求分析表中实验序号为2、4的实验数据，根据实验控制的变量与实验现象得出实验结论．",
+          "Method": "解：<br />（1）分析第1、4次，第2、5次或第3、6次实验数据，加热的时间相同，由于使用相同的电加热器，所以两液体吸收的热量相同；乙升高的温度更高，是因为乙与甲的比热容不同而造成的，因此该同学的判断是错误的．<br />（2）由表中第2、3次或第5、6次实验数据可知，液体的种类和液体升高的温度均相同而液体质量不同，液体质量越大，升高相同温度需要的加热时间越长，说明液体吸收的热量越多，由此可得：同种物质升高相同温度时，物质的质量越大，吸收的热量就越多．<br />（3）由表中第2、4次实验数据可知，液体质量和升高的温度均相同而液体种类不同，甲液体的加热时间比乙液体的加热时间长，说明甲液体比乙液体吸收的热量多，由此可得：甲的吸热能力更强．<br />故答案为：<br />（1）不正确；实验中使用的电加热器相同，加热相同的时间，甲乙两种液体吸收的热量相等；<br />（2）质量；多；<br />（3）种类；甲．",
+          "Discuss": "本题考查了实验数据分析，应用控制变量法分析表中实验数据即可正确解题．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•双阳区校级期末）",
+          "LabelReportID": "798361e0-b576-425f-a057-cd6e6a804602",
+          "Teacher": "739830老师",
+          "Points": [
+            {
+              "Key": "GX",
+              "Value": "探究比热容的实验"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "23 ",
+              "Value": "实验探究题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            },
+            {
+              "Key": "5A5",
+              "Value": "探究型实验综合题"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "不正确；实验中使用的电加热器相同，加热相同的时间，甲乙两种液体吸收的热量相等",
+            "质量",
+            "多",
+            "种类",
+            "甲"
+          ],
+          "FavTime": 0,
+          "ViewCount": 38,
+          "DownCount": 1,
+          "RealCount": 9,
+          "PaperCount": 25,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 16,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "266cfba3-8000-48da-9ce5-40027089f310",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201611/26/e7d576c9.png\" style=\"vertical-align:middle;FLOAT:right;\" />小明同学学习了燃料的热值后，考虑到燃料燃烧放出的热量会被水吸收，而水的比热已知．（注：燃料完全燃烧放热用Q放=mq计算，某燃料的热值用q表示；其质量用m表示）．自己设计一个实验来探究煤油和菜籽油的热值的大小关系．他组装了图所示的装置进行实验，记录结果见下表：<br /><TABLE class=\"edittable\"><TBODY><TR><TD width=102>燃料</TD><TD width=107>加热前的水温/℃</TD><TD width=121>燃料燃尽后水温/℃</TD></TR><TR><TD>煤油</TD><TD>25</TD><TD>44</TD></TR><TR><TD>菜籽油</TD><TD>25</TD><TD>34</TD></TR></TBODY></TABLE>（1）为了保证实验结论的可靠，小明同学选择了两套相同装置，在实验中还应控制：煤油和菜籽油的<div class=\"quizPutTag\">质量</div>&nbsp;相同、及<div class=\"quizPutTag\">水的质量</div>&nbsp;相同．<br />（2）分析得出：煤油和菜籽油两种燃料中，热值较大的是<div class=\"quizPutTag\">煤油</div>．<br />（3）小明同学还想利用这种实验方案计算出煤油和菜籽油的热值，那么小明还需要补充的实验仪器是：<div class=\"quizPutTag\">天平</div>．利用此实验方法计算出的热值将比真实值<div class=\"quizPutTag\">偏小</div>&nbsp;（偏大/偏小）．说说你的看法<div class=\"quizPutTag\">燃料并不可能完全燃烧，燃料燃烧放出的热会散失到空气中，又或被烧杯等实验装置吸了热，使Q<SUB>放</SUB>大于Q<SUB>吸</SUB></div>．",
+          "Analyse": "本题主要考查利用控制变量法和转换法设计实验的能力，由于燃料的热值不能直接测量，所以通过水温升高的度数大小来体现燃料的热值大小，又由于燃料燃烧释放的热量既与燃料的质量多少有关，又与燃料的热值大小有关，所以在设计实验时应控制质量相同．",
+          "Method": "解：<br />（1）因燃料放出的热量与质量有关，必须控制燃料的质量相等，由于水吸收热量后升高的温度受水的质量的影响，所以在实验中应控制水的质量相等；<br />（2）由图表数据可知在相同时间内甲杯中的水温度升高的快，所以煤油的热值较大；<br />（3）要控制质量相等，需要用天平来测量；<br />由于燃料并不可能完全燃烧，燃料燃烧放出的热会散失到空气中，又或被烧杯等实验装置吸了热，使Q<SUB>放</SUB>大于Q<SUB>吸</SUB>，依此计算出煤油和菜籽油的热值比实际要偏小些．<br />故答案为：（1）质量；水的质量；（2）煤油；（3）天平；偏小；燃料并不可能完全燃烧，燃料燃烧放出的热会散失到空气中，又或被烧杯等实验装置吸了热，使Q<SUB>放</SUB>大于Q<SUB>吸</SUB>．",
+          "Discuss": "本题是一道关于热值的实验探究题，知道热值的意义；会用控制变量法和转换法设计探究实验是本题的解题关键．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 6,
+          "SourceName": "期末试题",
+          "Label": "（2017秋•东城区校级期末）",
+          "LabelReportID": "0f0d91a5-eefb-466d-aecd-dc3e325aa7bb",
+          "Teacher": "190****8938老师",
+          "Points": [
+            {
+              "Key": "GJ",
+              "Value": "燃料的热值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "19 ",
+              "Value": "探究题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "质量",
+            "水的质量",
+            "煤油",
+            "天平",
+            "偏小",
+            "燃料并不可能完全燃烧，燃料燃烧放出的热会散失到空气中，又或被烧杯等实验装置吸了热，使Q<SUB>放</SUB>大于Q<SUB>吸</SUB>"
+          ],
+          "FavTime": 5,
+          "ViewCount": 536,
+          "DownCount": 25,
+          "RealCount": 16,
+          "PaperCount": 761,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 17,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "397c6167-7fd9-431f-b26a-cd3fa9a8feeb",
+          "Content": "如图所示，甲、乙、丙三图中的装置完全相同，燃料的质量都是10g，烧杯内的液体质量也相同．比较不同燃料的热值，应选择<div class=\"quizPutTag\">甲、乙</div>两图进行实验，比较不同物质的比热容，应选择<div class=\"quizPutTag\">甲、丙</div>两图进行实验．<br /><img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201710/111/be3bc0ee.png\" style=\"vertical-align:middle\" />",
+          "Analyse": "根据控制变量法的应用规则，要比较不同燃料的热值，必须取不同种类的燃料；要比较不同物质的比热，就要取不同种类的液体．",
+          "Method": "解：由图可知，甲、乙两图被加热的液体种类相同、加热用的燃料的种类不同，可用甲、乙两图进行实验，比较不同燃料的热值；<br />由图可知，甲、丙两实验燃料相同，被加热的液体质量相同而种类不同，因此可以用甲、丙两实验比较不同物质的比热容．<br />故答案为：甲、乙；甲、丙．",
+          "Discuss": "本题考查了学生对热值概念、比热容概念的了解与掌握，分析时利用好控制变量法是解决本题的关键．",
+          "Degree": 0.60,
+          "CateID": 6,
+          "CateName": "实验探究题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "llm老师",
+          "Points": [
+            {
+              "Key": "GJ",
+              "Value": "燃料的热值"
+            },
+            {
+              "Key": "GD",
+              "Value": "比热容的概念"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "12 ",
+              "Value": "应用题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            "甲、乙",
+            "甲、丙"
+          ],
+          "FavTime": 0,
+          "ViewCount": 2,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 6,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 18,
+          "Score": 2.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    },
+    {
+      "Key": "三、计算题（16分）",
+      "Value": [
+        {
+          "Subject": 21,
+          "ID": "b5a571ed-28e6-48ec-9c34-93ca3dcf6b2d",
+          "Content": "<img alt=\"菁优网\" src=\"http://img.jyeoo.net/quiz/images/201710/111/db8419b0.png\" style=\"vertical-align:middle;FLOAT:right\" />某物理兴趣小组的同学，用煤炉给8kg的水加热，同时他们绘制了如图所示的加热过程中水温时间变化的图线，若在4min内完全燃烧了0.14kg的煤，水的比热容为4.2×10<SUP>3</SUP>J/（kg..℃），煤的热值约为3×10<SUP>7</SUP>J/kg，求：<br />（1）经过&nbsp;4min时间加热，水所吸收的热量<br />（2）煤炉烧水时的热效率．",
+          "Analyse": "（1）由图知，经过4min时间加热，水升高的温度值，利用吸热公式求水吸收的热量；<br />（2）已知煤的质量和热值，利用Q=mq可求得煤完全燃烧放出的热量；<br />烧水时的热效率（热效率等于水吸收的热量与燃料完全燃烧放出的热量之比）．",
+          "Method": "解：<br />（1）由图象可知，经过4min时间加热，水的温度从20℃升高到70℃，<br />则水所吸收的热量：<br />Q<SUB>吸</SUB>=c<SUB>水</SUB>m<SUB>水</SUB>（t-t<SUB>0</SUB>）=4.2×10<SUP>3</SUP>J/（kg•℃）×8kg×（70℃-20℃）=1.68×10<SUP>6</SUP>J；<br />（2）煤完全燃烧放出的热量：<br />Q<SUB>放</SUB>=mq=0.14kg×3×10<SUP>7</SUP>J/kg=4.2×10<SUP>6</SUP>J；<br />煤炉烧水时的热效率：<br />η=$\\frac{{Q}_{吸}}{{Q}_{放}}$×100%=$\\frac{1.68×1{0}^{6}J}{4.2×1{0}^{6}J}$×100%=40%．<br />答：（1）经过4min时间加热，水所吸收的热量为1.68×10<SUP>6</SUP>J；<br />（2）煤炉烧水时的热效率为40%．",
+          "Discuss": "本题考查了学生对吸热公式、燃料完全燃烧放热公式的掌握和运用，能从液体的温度随时间变化的图象搜集有关信息是本题的关键．",
+          "Degree": 0.60,
+          "CateID": 7,
+          "CateName": "计算题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "wdn****2011老师",
+          "Points": [
+            {
+              "Key": "GG",
+              "Value": "热量的计算"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "21 ",
+              "Value": "信息给予题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 1,
+          "ViewCount": 12,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 15,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 19,
+          "Score": 6.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        },
+        {
+          "Subject": 21,
+          "ID": "02645dce-8707-46ff-b675-6df5ba486e32",
+          "Content": "已知某汽车发动机的输出功率为70KW，该车行驶1h所消耗的柴油是20kg，求汽车发动机的效率．（柴油的热值q=4.2×10<SUP>7</SUP>J/kg）",
+          "Analyse": "知道发动机的输出功率，根据P=$\\frac{W}{t}$求出1h内汽车发动机输出的机械能，根据Q<SUB>放</SUB>=mq求出20kg柴油完全燃烧释放的热量，利用η=$\\frac{W}{{Q}_{放}}$×100%求出汽车发动机的效率．",
+          "Method": "解：由P=$\\frac{W}{t}$可得，1h内汽车发动机输出的机械能：<br />W=Pt=70×10<SUP>3</SUP>W×3600s=2.52×10<SUP>8</SUP>J，<br />20kg柴油完全燃烧释放的热量：<br />Q<SUB>放</SUB>=mq=20kg×4.2×10<SUP>7</SUP>J/kg=8.4×10<SUP>8</SUP>J，<br />则汽车发动机的效率：<br />η=$\\frac{W}{{Q}_{放}}$×100%=$\\frac{2.52×1{0}^{8}J}{8.4×1{0}^{8}J}$×100%=30%．<br />答：汽车发动机的效率为30%．",
+          "Discuss": "本题考查了功率公式和燃料完全燃烧释放热量公式、效率公式的应用，是一道较为简单的计算题．",
+          "Degree": 0.60,
+          "CateID": 7,
+          "CateName": "计算题",
+          "SourceID": 8,
+          "SourceName": "月考试题",
+          "Label": "（2017秋•昆都仑区校级月考）",
+          "LabelReportID": "3b444808-d7a3-49c6-b944-46d8091476e9",
+          "Teacher": "刘伟老师",
+          "Points": [
+            {
+              "Key": "E6",
+              "Value": "能量利用效率"
+            },
+            {
+              "Key": "EC",
+              "Value": "功的计算"
+            },
+            {
+              "Key": "GJ",
+              "Value": "燃料的热值"
+            }
+          ],
+          "Topics": [
+            {
+              "Key": "11 ",
+              "Value": "计算题"
+            },
+            {
+              "Key": "524",
+              "Value": "比热容、热机、热值"
+            },
+            {
+              "Key": "592",
+              "Value": "功、功率、机械效率"
+            }
+          ],
+          "Options": [],
+          "Answers": [
+            ""
+          ],
+          "FavTime": 0,
+          "ViewCount": 2,
+          "DownCount": 0,
+          "RealCount": 1,
+          "PaperCount": 10,
+          "ParentID": null,
+          "ParentContent": null,
+          "Seq": 20,
+          "Score": 10.0,
+          "UserAnswers": [],
+          "UserScores": [],
+          "QuesFiles": [],
+          "QuesChilds": []
+        }
+      ]
+    }
+  ],
+  "Degree": 0.66
+}

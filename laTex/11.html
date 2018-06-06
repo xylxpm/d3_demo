@@ -48,7 +48,7 @@
 
                             var sss= '';
                             for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
-                                var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
+                                var _s = data.Groups[i].Value[j].Options[k];
                                 _str += '<p class="options">' + k + '、' + _s + '</p>';
                                 sss="正确答案 "+data.Groups[i].Value[j].Answers;
                             }

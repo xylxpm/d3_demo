@@ -51,7 +51,7 @@
                             var sss= '';
 
                             for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
-                                var _s = DBC2SBC(data.Groups[i].Value[j].Options[k]);
+                                var _s = data.Groups[i].Value[j].Options[k];
                                 _str += '<p class="options">' + k + '、' + _s + '</p>';
                                  sss="正确答案 "+data.Groups[i].Value[j].Answers;
                             }
@@ -88,6 +88,18 @@
                 }
                 return result;
             }
+
+            function htmlEncodeByRegExp(str){
+                 var s = "";
+                 if(str.length == 0) return "";
+                 s = str.replace(/&/g,"&amp;");
+                 s = s.replace(/</g,"&lt;");
+                 s = s.replace(/>/g,"&gt;");
+                 s = s.replace(/ /g,"&nbsp;");
+                 s = s.replace(/\'/g,"&#39;");
+                 s = s.replace(/\"/g,"&quot;");
+                 return s;
+           }
         })
 
 
