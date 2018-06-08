@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>videojs-overlay Demo</title>
+    <link href="../js/video-js.css" rel="stylesheet">
+    <link href="videojs-overlay.css" rel="stylesheet">
+</head>
+<body>
+<a href="https://github.com/brightcove/videojs-overlay">https://github.com/brightcove/videojs-overlay</a>
+<p>简易的覆盖层</p>
+<video id="videojs-overlay-player" class="video-js vjs-default-skin" controls>
+    <source src="//vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+    <source src="//vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+</video>
+
+<script src="../js/video7.0.3.js"></script>
+<script src="videojs-overlay.js"></script>
+<script>
+    (function(window, videojs) {
+        var player = window.player = videojs('videojs-overlay-player');
+        player.overlay({
+            content: 'Default overlay content',
+            debug: true,
+            overlays: [{
+                content: '<a href="http://www.baidu.com">333333</a>',
+                start: 'play',
+                end: 'pause'
+            }, {
+                start: 0,
+                end: 15,
+                align: 'bottom-left'
+            }, {
+                start: 15,
+                end: 30,
+                align: 'bottom'
+            }, {
+                start: 30,
+                end: 45,
+                align: 'bottom-right'
+            }, {
+                start: 20,
+                end: 'pause'
+            }]
+        });
+    }(window, window.videojs));
+</script>
+</body>
+</html>

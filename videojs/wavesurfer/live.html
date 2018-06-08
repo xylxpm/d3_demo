@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Microphone Example - Wavesurfer Plugin for Video.js</title>
+
+  <link href="../js/video-js.css" rel="stylesheet">
+  <link href="videojs.wavesurfer.css" rel="stylesheet">
+
+  <script src="../js/video7.0.3.js"></script>
+  <script src="adapter-latest.js"></script>
+  <script src="wavesurfer.min.js"></script>
+  <script src="wavesurfer.microphone.min.js"></script>
+
+  <script src="videojs.wavesurfer.js"></script>
+
+  <style>
+  /* change player background color */
+  #myLiveAudio {
+      background-color: #ADD3FF;
+  }
+  </style>
+</head>
+<body>
+
+<audio id="myLiveAudio" class="video-js vjs-default-skin"></audio>
+
+<script>
+var player = videojs('myLiveAudio', {
+    controls: true,
+    fluid: false,
+    width: 600,
+    height: 300,
+    controlBar: {
+        currentTimeDisplay: false,
+        timeDivider: false,
+        durationDisplay: false,
+        remainingTimeDisplay: false,
+        volumePanel: false
+    },
+    plugins: {
+        wavesurfer: {
+            src: 'live',
+            waveColor: 'black',
+            debug: true,
+            cursorWidth: 0,
+            interact: false,
+            hideScrollbar: true
+        }
+    }
+}, function(){
+    // print version information at startup
+    var msg = 'Using video.js '+ videojs.VERSION +
+        ' with videojs-wavesurfer ' + videojs.getPluginVersion('wavesurfer');
+    videojs.log(msg);
+});
+
+// error handling
+player.on('error', function(error) {
+    console.warn('ERROR:', error);
+});
+</script>
+
+</body>
+</html>

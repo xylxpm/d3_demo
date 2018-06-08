@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Hls.js demo - basic usage</title>
     <link href="video-js.css" rel="stylesheet">
     <script src="../js/jquery-2.1.4.min.js"></script>
@@ -13,21 +14,32 @@
 
 <video id=example-video width=960 height=400 class="video-js vjs-default-skin vjs-big-play-centered" controls>
     <source
-            src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4"
+            src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1528427194&v=5f3214e1b391768ea72ae09fbc5bddc9&h=http%3A%2F%2Fcdn4.hd.etiantian.net"
             type="application/x-mpegURL">
 </video>
+
+<input type="text" id="url" style="width: 400px;">
+<select id="sel">
+    <option value="application/x-mpegURL" selected>m3u8</option>
+    <option value="video/mp4">mp4</option>
+    <option value="video/webm">webm</option>
+</select>
+<br/>
+<input type="button" value="加载" id="btn">
 
 <script>
     (function(window, videojs) {
         var player = window.player = videojs('example-video');
-        player.src({
-            src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4',
-            type: 'application/x-mpegURL'
-        });
 
+        $("#btn").click(function () {
+            var url = $("#url").val();
+            var type= $("#sel:selected").val()
+            player.src({
+                src: url,
+                type: type
+            });
 
-        player.playbackRate = 3.0;
-        player.play();
+        })
 
     }(window, window.videojs));
 </script>

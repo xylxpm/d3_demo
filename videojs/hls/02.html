@@ -1,0 +1,36 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hls.js demo - basic usage</title>
+    <link href="video-js.css" rel="stylesheet">
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/video7.0.3.js"></script>
+    <script src="videojs-contrib-hls5.14.1.js"></script>
+</head>
+
+<body>
+
+<video id=example-video width=960 height=400 class="video-js vjs-default-skin vjs-big-play-centered" controls>
+
+    <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+</video>
+
+<script>
+    (function(window, videojs) {
+        var player = window.player = videojs('example-video');
+
+
+
+        var s = player.networkState;
+        console.log(s);
+
+
+    }(window, window.videojs));
+</script>
+
+</body>
+</html>
+
+

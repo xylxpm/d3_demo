@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Thumbnails Example</title>
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../js/video-js.css" rel="stylesheet">
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/video7.0.3.js"></script>
+</head>
+<script>
+    function orient() {
+
+        if (window.orientation == 0 || window.orientation == 180) {
+           // alert('竖屏状态！');
+            // var width = document.body.clientWidth;
+            // var isscale = width / 650;
+            // $("#video").css("zoom", isscale);
+            // return false;
+        }
+        else if (window.orientation == 90 || window.orientation == -90) {
+            //alert('横屏状态！');
+            // var width = document.body.clientWidth;
+            // var isscale = width / 650;
+            // $("#video").css("zoom", isscale);
+            // return false;
+        }
+    }
+
+    //页面加载时调用
+    $(function () {
+        orient();
+
+    });
+
+
+    //用户变化屏幕方向时调用
+    $(window).bind('orientationchange', function (e) {
+        orient();
+    });
+</script>
+<style>
+    .theVideo {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+</style>
+<body>
+
+<video id='video'
+       class='theVideo video-js vjs-default-skin'
+       x5-video-player-fullscreen="true"
+       poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
+       controls>
+    <source src='http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4' type='video/mp4'/>
+</video>
+<br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</body>
+</html>

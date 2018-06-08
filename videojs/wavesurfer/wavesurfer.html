@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Wavesurfer Plugin for Video.js Example</title>
+
+    <link href="../js/video-js.css" rel="stylesheet">
+    <link href="videojs.wavesurfer.css" rel="stylesheet">
+
+    <script src="../js/video7.0.3.js"></script>
+    <script src="wavesurfer.min.js"></script>
+
+    <script src="videojs.wavesurfer.js"></script>
+
+    <style>
+        /* change player background color */
+        #myAudio {
+            background-color: #FFEEFF;
+        }
+    </style>
+
+</head>
+<body>
+<a href="https://github.com/collab-project/videojs-wavesurfer">https://github.com/collab-project/videojs-wavesurfer</a>
+<p>声音相关：音频和视频文件的可导航波形。包括支持全屏模式和实时可视化麦克风输入。</p>
+<audio id="myAudio" class="video-js vjs-default-skin"></audio>
+
+<script>
+    var player = videojs('myAudio', {
+        controls: true,
+        autoplay: true,
+        fluid: false,
+        loop: false,
+        width: 600,
+        height: 300,
+        plugins: {
+            wavesurfer: {
+                src: 'media/hal.wav',
+                msDisplayMax: 10,
+                debug: true,
+                waveColor: 'grey',
+                progressColor: 'black',
+                cursorColor: 'black',
+                hideScrollbar: true
+            }
+        }
+    }, function(){
+        // print version information at startup
+        var msg = 'Using video.js '+ videojs.VERSION +
+            ' with videojs-wavesurfer ' + videojs.getPluginVersion('wavesurfer');
+        videojs.log(msg);
+    });
+
+    // error handling
+    player.on('error', function(error) {
+        console.warn('ERROR:', error);
+    });
+</script>
+
+</body>
+</html>

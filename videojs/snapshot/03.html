@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>video-snapshot</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://nathaa.github.io/video-snapshot/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2>video-snapshot</h2>
+
+        <video id="video"
+               src="//vjs.zencdn.net/v/oceans.mp4"
+               autoplay
+        ></video>
+
+        <div class="progress-wrap">
+            <div class="text">timeupdateStream</div>
+            <div id="progress1" class="progress-bar"></div>
+        </div>
+
+        <div class="progress-wrap">
+            <div class="text">progressSteam</div>
+            <div id="progress2" class="progress-bar"></div>
+        </div>
+
+        <div id="control">
+            <button id="play-btn" >Play</button>
+            <button id="pause-btn" >Pause</button>
+            <button id="restart-btn" >Restart</button>
+            <button id="skip-btn" >Skip</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+<script src="https://nathaa.github.io/video-snapshot/main.js"></script>
+</body>
+</html>

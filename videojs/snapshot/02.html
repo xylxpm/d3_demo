@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <link href="../js/video-js.css" rel="stylesheet"/>
+    <link href="snapshot.min.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/video7.0.3.js"></script>
+    <script src="snapshot-6.0.0.js"></script>
+</head>
+<body>
+
+<video id="player" class="video-js vjs-default-skin" controls="" preload="none" width="640" height="264"
+       data-setup="{}">
+    <source type="video/mp4" src="//videos.electroteque.org/bitrate/big_buck_bunny_2000k.mp4">
+    </source>
+    <source type="video/webm" src="//videos.electroteque.org/bitrate/big_buck_bunny_2000k.webm">
+    </source>
+    <source type="video/ogg" src="//videos.electroteque.org/bitrate/big_buck_bunny_2000k.ogv">
+    </source>
+</video>
+<div class="snapshot preview"></div>
+
+<script>
+
+
+    $(function () {
+        var player = videojs('player', {
+            plugins: {
+                snapshot: {
+                    snapshotname: "test-[time].png",
+                    //previewContainer: ".preview",
+                    debuglog: true,
+                    //serverurl: "http://s3upload.electroteque.org/save",
+                    //tokenurl: "http://s3upload.electroteque.org/token",
+                    serverurl: "https://flowplayer.electroteque.org/snapshot/index/save",
+                    tokenurl: "https://flowplayer.electroteque.org/snapshot/index/token",
+                    success: "Capture Complete",
+                    error: "Capture Failed Try Again",
+                    type: "png",
+                    quality: 1,
+                    originbaseurl: "http://crossorigin.electroteque.org/video/",
+                    notification: {
+                        showDelay: 1000,
+                        hideDelay: 2000
+                    }
+                }
+            }
+        });
+
+        player.on("capturecomplete", function(api, data) {
+            console.log("Capture Complete ");
+            $(".preview").empty().append(data.img);
+        });
+
+        player.on("captureerror", function(api, error) {
+            console.log("Capture Error: ", error);
+        });
+
+        player.on("uploaderror", function(api, error) {
+            console.log("Upload Error: ", error);
+        });
+
+        player.on("uploadprogress", function(api, progress) {
+            console.log("Uploading Progress " + (progress.loaded / progress.total * 100) + "%");
+        });
+
+        player.on("resizeprogress", function(api, progress) {
+            console.log("Resize Progress: " + progress.index / progress.total * 100 + "%");
+            console.log("Current Size", progress.current);
+        });
+
+        player.on("proxyprocessing", function() {
+            console.log("Cors Proxy Processing");
+        });
+
+    })();
+
+</script>
+
+</body>
+</html>

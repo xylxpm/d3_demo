@@ -17,43 +17,30 @@
     <script src='videojs.thumbnails.js'></script>
 </head>
 <body>
-<p>进度条缩略图</p>
-<a href="https://github.com/brightcove/videojs-thumbnails">https://github.com/brightcove/videojs-thumbnails </a>
 
+<a href="https://github.com/brightcove/videojs-thumbnails">https://github.com/brightcove/videojs-thumbnails </a>
 <video id='video'
        class='video-js vjs-default-skin'
-       width='640'
-       height='264'
+       width='1280'
+       height='720'
        poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
        controls>
-    <source src='http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4' type='video/mp4' />
+    <source src='http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4' type='video/mp4'/>
 </video>
 
 <div id="current">0:00</div>
 <div id="duration">0:00</div>
-
+<div id="ttt">原始</div>
+<div id="aaa">1.5倍</div>
+<div id="ccc">1.75倍</div>
+<div id="ddd">2倍</div>
+<div id="sss">3倍</div>
 <script>
-    // initialize video.js
-    //
-    // $(document).ready(function(){
-    //     $("#video").on(
-    //         "timeupdate",
-    //         function(event){
-    //             onTrackedVideoFrame(this.currentTime, this.duration);
-    //         });
-    // })
-    //
-    //
-    // function onTrackedVideoFrame(currentTime, duration){
-    //     $("#current").text(currentTime);
-    //     $("#duration").text(duration);
-    // }
 
     var video = videojs('video', null, function onPlayerReady() {
         videojs.log('Your player is ready!');
 
-      //  this.play();
-
+        // this.play();
         // How about an event listener?
         // this.on('ended', function() {
         //     videojs.log('Awww...over so soon?!');
@@ -61,38 +48,73 @@
         //     console.log(howLongIsThis);
         // });
 
-        this.on('timeupdate', function() {
-            // var currentTime = video.currentTime();
-            // $("#current").text(currentTime);
+        this.on('timeupdate', function () {
 
             var duration = video.duration();
-            duration = Math.round(duration)
+            duration = Math.round(duration);
+            var num = duration / 60;
 
+            var obj = {};
+            for (var i = 0; i < num; i++) {
+                var n = i * 60+1 + "";
+                var img = "";
+                if (n.length == 1) {
+                    img = '000' + n
+                } else if (n.length == 2) {
+                    img = '00' + n
+                } else if (n.length == 3) {
+                    img = '0' + n
+                } else if (n.length == 4) {
+                    img = n
+                }
+                obj[i * 60] = {
+                    src: "http://s3.hd.etiantian.net/t180604/ysgzwl000020/preview_" + img + ".png"
+                }
+            }
+            console.log(obj);
             $("#duration").text(duration);
+
+            this.thumbnails(
+                obj
+            );
+
         });
     });
+    $("#ttt").click(function () {
+        document.querySelector('video').playbackRate  = 1;
+        document.querySelector('video').play();
+    })
+    $("#aaa").click(function () {
+        document.querySelector('video').playbackRate  = 1.5;
+        document.querySelector('video').play();
+    })
 
 
+    $("#ddd").click(function () {
+        document.querySelector('video').playbackRate  = 2;
+        document.querySelector('video').play();
+    })
 
-    // video.thumbnails({
-    //     0: {
-    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_160_90.jpg'
-    //     },
-    //     60: {
-    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_200_113.jpg '
-    //     },
-    //     120: {
-    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_251_141.jpg'
-    //     },
-    //     240: {
-    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_320_160.jpg'
-    //     },
-    //     300: {
-    //         src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
+    $("#sss").click(function () {
+        document.querySelector('video').playbackRate  = 3;
+        document.querySelector('video').play();
+    })
+
+    $("#ccc").click(function () {
+        document.querySelector('video').playbackRate  = 1.75;
+        document.querySelector('video').play();
+    })
+
+
+    // video.thumbnails(
+    //     {
+    //         0: {src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_160_90.jpg'},
+    //         60: {src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_200_113.jpg '},
+    //         120: {src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_251_141.jpg'},
+    //         240: {src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_320_160.jpg'},
+    //         300: {src: 'http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'}
     //     }
-    // });
-
-    // here's an example of generating thumbnails from a sprited image:
+    // );
     // video.thumbnails({
     //     0: {
     //         src: 'thumbnails.png',
