@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Video.js unique 3 Skins pack</title>
+
+    <!-- Video.js source files CSS + JS -->
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+    <!-- Video.js plugins CSS + JS -->
+    <link href="https://players.brightcove.net/videojs-thumbnails/videojs.thumbnails.css" rel="stylesheet">
+    <link href="https://players.brightcove.net/videojs-bc-playlist-ui/1/videojs-bc-playlist-ui.css" rel="stylesheet">
+    <script src="https://players.brightcove.net/videojs-thumbnails/videojs.thumbnails.js"></script>
+    <script src="http://videojs-skins.omartopic.com/demo/scripts/videojs-playlist.js"></script>
+    <script src="https://players.brightcove.net/videojs-bc-playlist-ui/1/videojs-bc-playlist-ui.min.js"></script>
+
+
+    <!-- Video.js skins plugin CSS -->
+    <link href="http://videojs-skins.omartopic.com/plugin/styles/videojs-skins.min.css" rel="stylesheet">
+
+    <!-- Demo only CSS -->
+    <link href="http://videojs-skins.omartopic.com/demo/styles/demo.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+</head>
+
+<body>
+
+<!-- Change color scheme inline -->
+<!-- <style>
+	/* Skin 1 */
+	.video-js.skin-1 .vjs-play-progress { background: #37bc9b; }
+	.video-js.skin-1 .vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level { background: #37bc9b; }
+	.vjs-playlist-skin-1 .vjs-playlist-item.vjs-selected { background: #37bc9b; }
+	.vjs-playlist-skin-1.vjs-mouse .vjs-playlist-item:focus .vjs-playlist-thumbnail:before, .vjs-playlist-skin-1.vjs-mouse .vjs-playlist-item:hover .vjs-playlist-thumbnail:before { background: #37bc9b; }
+
+	/* Skin 2 */
+	.video-js.skin-2 .vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {
+		background: #ffce54;
+	}
+	.video-js.skin-2 .vjs-play-progress {
+		background: repeating-linear-gradient(135deg, #ffce54, #ffce54 10px, #f6bb42 10px, #f6bb42 20px);
+	}
+	.vjs-playlist-skin-2 .vjs-playlist-item.vjs-selected { background: #ffce54; }
+	.vjs-playlist-skin-2.vjs-mouse .vjs-playlist-item:focus .vjs-playlist-thumbnail:before, .vjs-playlist-skin-2.vjs-mouse .vjs-playlist-item:hover .vjs-playlist-thumbnail:before { background: #ffce54; }
+
+	/* Skin 3 */
+	.video-js.skin-3 .vjs-control-bar,
+	.video-js.skin-3 .vjs-big-play-button,
+	.video-js.skin-3 .vjs-big-play-button:focus,
+	.video-js.skin-3:hover .vjs-big-play-button {
+		background: #d770ad;
+	}
+	.vjs-playlist-skin-3.vjs-mouse.vjs-playlist { background: #d770ad; }
+	.vjs-playlist-skin-3 .vjs-playlist-item.vjs-selected { background: #bd5b95; }
+	.vjs-playlist-skin-3.vjs-mouse .vjs-playlist-item:focus .vjs-playlist-thumbnail:before, .vjs-playlist-skin-3.vjs-mouse .vjs-playlist-item:hover .vjs-playlist-thumbnail:before { background: #d770ad; }
+</style> -->
+
+<script>
+    // Demo Thumbnails
+
+    var thumbnails = {
+        "0": {
+            "src": "http://solutions.brightcove.com/bcls/assets/images/sea-lionfish-thumbnail.png"
+        },
+        "30": {
+            "src": "http://solutions.brightcove.com/bcls/assets/images/sea-anemone-thumbnail.png"
+        },
+        "60": {
+            "src": "http://solutions.brightcove.com/bcls/assets/images/sea-clownfish-thumbnail.png"
+        },
+        "90": {
+            "src": "http://solutions.brightcove.com/bcls/assets/images/sea-seahorse-thumbnail.png"
+        }
+    }
+
+    // Demo Playlists
+    var playlist = [
+        {
+            name: 'Demo video 1',
+            description: 'Duis justo sem, auctor at faucibus in, finibus in nulla. Nulla vitae eros non ligula hendrerit semper. Fusce facilisis commodo turpis in egestas.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/sea-lionfish-thumbnail.png'
+            }]
+        },
+        {
+            name: 'Demo video 2',
+            description: 'Mauris vulputate nibh ac risus tristique congue. Vestibulum sollicitudin mattis elit, ac volutpat libero interdum ut.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?2', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?2', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/sea-anemone-thumbnail.png'
+            }]
+        },
+        {
+            name: 'Demo video 3',
+            description: 'Donec tincidunt diam eget justo ultricies, a varius massa laoreet. Nullam et faucibus augue. Phasellus feugiat eros ante.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?3', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?3', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/sea-seahorse-thumbnail.png'
+            }]
+        },
+        {
+            name: 'Demo video 4',
+            description: 'hasellus feugiat eros ante, donec tincidunt diam eget justo ultricies, a varius massa laoreet. Nullam et faucibus augue.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?4', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?4', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/sea-anemone-thumbnail.png'
+            }]
+        },
+        {
+            name: 'Demo video 5',
+            description: 'hasellus feugiat eros ante, donec tincidunt diam eget justo ultricies, a varius massa laoreet. Nullam et faucibus augue.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?5', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?5', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/great-blue-heron-thumbnail.png'
+            }]
+        },
+        {
+            name: 'Demo video 6',
+            description: 'hasellus feugiat eros ante, donec tincidunt diam eget justo ultricies, a varius massa laoreet. Nullam et faucibus augue.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?5', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?5', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/great-blue-heron-thumbnail.png'
+            }]
+        },
+
+        {
+            name: 'Demo video 7',
+            description: 'hasellus feugiat eros ante, donec tincidunt diam eget justo ultricies, a varius massa laoreet. Nullam et faucibus augue.',
+            duration: 45,
+            sources: [
+                { src: 'http://vjs.zencdn.net/v/oceans.mp4?5', type: 'video/mp4' },
+                { src: 'http://vjs.zencdn.net/v/oceans.webm?5', type: 'video/webm' },
+            ],
+            thumbnail: [{
+                src: 'http://solutions.brightcove.com/bcls/assets/images/great-blue-heron-thumbnail.png'
+            }]
+        }
+    ]
+</script>
+
+
+<!-- Skin 1 demo -->
+<section class="b-video">
+    <header>
+        <h1>Video.js skin 1</h1>
+    </header>
+
+    <!-- Video -->
+    <div class="b-player playlist-aside">
+        <video id="video-1" class="video-js skin-1" controls preload="auto" width="770" height="440" poster="demo/temp/poster.jpg" data-setup="{}">
+            <source src="http://videojs-skins.omartopic.com/demo/temp/video.mp4" type='video/mp4'>
+        </video>
+        <div class="vjs-playlist vjs-playlist-video-1 vjs-playlist-skin-1"></div>
+    </div>
+
+    <!-- Video 1 init DEMO -->
+    <script>
+        var video1 = videojs('video-1');
+
+        video1.thumbnails(thumbnails); // thumbnails init
+
+        video1.playlist(playlist); // playlists init
+        video1.playlistUi({
+            className: 'vjs-playlist-video-1'
+        });
+    </script>
+</section>
+
+<!-- Skin 2 demo -->
+<section class="b-video">
+    <header>
+        <h1>Video.js skin 2</h1>
+    </header>
+
+    <!-- Video -->
+    <div class="b-player playlist-aside">
+        <video id="video-2" class="video-js skin-2" controls preload="auto" width="770" height="440" poster="demo/temp/poster-2.jpg" data-setup="{}">
+            <source src="http://videojs-skins.omartopic.com/demo/temp/video.mp4" type='video/mp4'>
+        </video>
+        <div class="vjs-playlist vjs-playlist-video-2 vjs-playlist-skin-2"></div>
+    </div>
+
+    <!-- Video 2 init DEMO -->
+    <script>
+        var video2 = videojs('video-2');
+
+        video2.thumbnails(thumbnails); // thumbnails init
+
+        video2.playlist(playlist); // playlists init
+        video2.playlistUi({
+            className: 'vjs-playlist-video-2'
+        });
+    </script>
+</section>
+
+<!-- Skin 3 demo -->
+<section class="b-video">
+    <header>
+        <h1>Video.js skin 3</h1>
+    </header>
+
+    <!-- Video -->
+    <div class="b-player playlist-aside">
+        <video id="video-3" class="video-js skin-3" controls preload="auto" width="770" height="440" poster="demo/temp/poster.jpg" data-setup='{ "controlBar": { "volumePanel": { "inline": false } } }'>
+            <source src="http://videojs-skins.omartopic.com/demo/temp/video.mp4" type='video/mp4'>
+        </video>
+        <div class="vjs-playlist vjs-playlist-video-3 vjs-playlist-skin-3"></div>
+    </div>
+
+    <!-- Video 3 init DEMO -->
+    <script>
+        var video3 = videojs('video-3');
+
+        video3.thumbnails(thumbnails); // thumbnails init
+
+        video3.playlist(playlist); // playlists init
+        video3.playlistUi({
+            className: 'vjs-playlist-video-3'
+        });
+    </script>
+</section>
+
+</body>
+</html>

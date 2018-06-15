@@ -1,0 +1,235 @@
+.video-js.skin-1 .vjs-control-bar {
+    background: rgba(0, 0, 0, .36);
+    height: 40px;
+    display: block;
+    padding: 0 20px;
+}
+
+.video-js.skin-1 .vjs-control {
+    display: inline-block;
+    float: left
+}
+
+.video-js.skin-1 .vjs-control:focus, .video-js.skin-1 .vjs-control:hover {
+    text-shadow: none
+}
+
+.video-js.skin-1 .vjs-control:focus:before, .video-js.skin-1 .vjs-control:hover:before {
+    text-shadow: none
+}
+
+.video-js.skin-1 .vjs-control:before {
+    font-size: 20px;
+    line-height: 40px
+}
+
+.video-js.skin-1 .vjs-button > .vjs-icon-placeholder:before {
+    line-height: 40px;
+    font-size: 20px
+}
+
+.video-js.skin-1 .vjs-big-play-button {
+    width: 94px;
+    height: 94px;
+    line-height: 94px;
+    border: 0;
+    border-radius: 50%;
+    text-shadow: none;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+    font-size: 50px;
+    background: rgba(0, 0, 0, .6)
+}
+
+.video-js.skin-1 .vjs-big-play-button:focus {
+    background: rgba(0, 0, 0, .7)
+}
+
+.video-js.skin-1:hover .vjs-big-play-button {
+    background: rgba(0, 0, 0, .7)
+}
+
+.video-js.skin-1 .vjs-play-control {
+    width: 40px;
+    border-right: 1px solid rgba(255, 255, 255, .1)
+}
+
+.video-js.skin-1 .vjs-fullscreen-control {
+    float: right;
+    border-left: 1px solid rgba(255, 255, 255, .1);
+    right: 0;
+    top: 0
+}
+
+.video-js.skin-1 .vjs-volume-menu-button {
+    float: right;
+    margin: 0 40px 0 0
+}
+
+.video-js.skin-1 .vjs-playback-rate .vjs-playback-rate-value {
+    line-height: 40px;
+    font-size: 12px;
+    position: static
+}
+
+.video-js.skin-1 .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+    bottom: 25px;
+    background: rgba(0, 0, 0, .5);
+    padding: 5px 0;
+    max-height: none
+}
+
+.video-js.skin-1 .vjs-time-divider {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    margin: 0;
+    min-width: 0;
+    padding: 0
+}
+
+.video-js.skin-1 .vjs-time-control {
+    line-height: 40px;
+    font-size: 12px
+}
+
+.video-js.skin-1 .vjs-current-time, .video-js.skin-1 .vjs-duration {
+    width: auto;
+    margin: 0;
+    min-width: 0;
+    padding: 0 8px
+}
+
+.video-js.skin-1 .vjs-current-time {
+    margin-left: 8px
+}
+
+.video-js.skin-1 .vjs-duration {
+    color: #fff
+}
+
+.video-js.skin-1 .vjs-remaining-time {
+    display: none
+}
+
+.video-js.skin-1 .vjs-load-progress {
+    background: rgba(255, 255, 255, .2)
+}
+
+.video-js.skin-1 .vjs-load-progress div {
+    background-color: #a7a7a7;
+}
+
+.video-js.skin-1 .vjs-progress-control {
+    /*position: absolute;*/
+    /*left: 0;*/
+    bottom: 40px;
+    width: 100%;
+    height: auto
+}
+
+.video-js.skin-1 .vjs-slider {
+    margin: 0;
+    opacity: 0.8;
+    background-color: #666666;
+}
+
+.video-js.skin-1 .vjs-play-progress {
+    background: #ff7300
+}
+
+.video-js.skin-1 .vjs-play-progress:before {
+    top: -5px;
+    font-size: 10px;
+
+}
+
+.video-js.skin-1 .vjs-progress-holder {
+    height:4px;
+    border-radius: 2px;
+}
+
+.video-js.skin-1 .vjs-progress-holder .vjs-load-progress, .video-js.skin-1 .vjs-progress-holder .vjs-load-progress div, .video-js.skin-1 .vjs-progress-holder .vjs-play-progress {
+    height: 4px;
+    border-radius: 2px;
+}
+
+.video-js.skin-1 .vjs-volume-panel {
+    width: 40px !important;
+    overflow: hidden;
+    transition: all .6s ease
+}
+
+.video-js.skin-1 .vjs-volume-panel .vjs-control {
+    width: 40px
+}
+
+.video-js.skin-1 .vjs-volume-panel:hover {
+    width: 140px !important
+}
+
+.video-js.skin-1 .vjs-volume-panel .vjs-volume-control {
+    opacity: 1 !important;
+    display: block !important;
+    visibility: visible !important;
+    transition: none !important;
+    position: absolute !important;
+    top: 16px !important;
+    left: 42px !important;
+    width: 90px !important
+}
+
+.video-js.skin-1 .vjs-menu-button-inline {
+    float: left;
+    width: 40px;
+    margin: 0;
+    border-right: 1px solid rgba(255, 255, 255, .1)
+}
+
+.video-js.skin-1 .vjs-menu-button-inline.vjs-slider-active, .video-js.skin-1 .vjs-menu-button-inline:focus, .video-js.skin-1 .vjs-menu-button-inline:hover {
+    width: 140px
+}
+
+.video-js.skin-1 .vjs-menu-button-inline .vjs-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    top: 16px
+}
+
+.video-js.skin-1 .vjs-menu-button-inline:before {
+    width: 40px
+}
+
+.video-js.skin-1 .vjs-volume-menu-button-horizontal .vjs-menu-content {
+    width: 90px;
+    height: 6px;
+    overflow: hidden;
+    border-radius: 5px
+}
+
+.video-js.skin-1 .vjs-volume-menu-button-horizontal .vjs-lock-showing .vjs-menu-content {
+    width: 90px
+}
+
+.video-js.skin-1 .vjs-volume-bar.vjs-slider-horizontal {
+    width: 90px;
+    height: 6px;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.video-js.skin-1 .vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {
+    height: 6px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: static;
+    background: #00c3e2
+}
+
+.video-js.skin-1 .vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level:before {
+    content: none
+}
+
+

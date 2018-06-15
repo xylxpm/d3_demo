@@ -1,0 +1,7 @@
+/**
+ * videojs-gifplayer
+ * @version 0.1.1
+ * @copyright 2017 John D. Johnson II <johnsonjo4531@gmail.com>
+ * @license MIT
+ */
+.video-js.vjs-gifplayer:after{position:absolute;bottom:15px;right:15px;background-color:rgba(0,0,0,0.5);color:#fff;content:"GIF";padding:6px;font-size:15px;border-radius:3px;opacity:0.85;font-weight:800}

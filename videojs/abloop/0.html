@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script src="../js/video7.0.3.js"></script>
+    <link href="../js/video-js.css" rel="stylesheet" />
+    <script src="videojs-abloop.min.js"></script>
+</head>
+<body>
+<video id="vid" controls class="video-js"  >
+    <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+</video>
+<script>
+    var video = videojs("vid",{
+        plugins: {
+            abLoopPlugin: {}
+        }
+    });
+    video.ready(function(){
+        this.abLoopPlugin.setStart(10).setEnd(15).playLoop();
+    });
+</script>
+</body>
+</html>

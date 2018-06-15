@@ -30,7 +30,11 @@
 <script src="videojs.hotkeys.js"></script>
 <script>
     // initialize the plugin
-    var video = videojs('video');
+    var video = videojs('video',{
+        controlBar: {
+            volumePanel: {inline: false}
+        }
+    });
     video.ready(function() {
         this.hotkeys({
             volumeStep: 0.1,

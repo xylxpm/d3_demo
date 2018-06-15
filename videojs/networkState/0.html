@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Thumbnails Example</title>
+    <link href="../js/video-js.css" rel="stylesheet">
+    <style>
+        p {
+            background-color: #eee;
+            border: thin solid #777;
+            padding: 10px;
+        }
+    </style>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/video7.0.3.js"></script>
+</head>
+<body>
+
+<video id='video'
+       class='video-js vjs-default-skin  vjs-big-play-centered'
+       width='600'
+       poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'
+       controls>
+    <source src='http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4' type='video/mp4'/>
+</video>
+<div id="ddd"></div>
+
+<script>
+
+    var video = videojs('video', {
+
+    }, function onPlayerReady() {
+
+
+        this.on('timeupdate', function () {
+            $("#ddd").html(this.networkState())
+
+        });
+    });
+
+
+
+</script>
+</body>
+</html>

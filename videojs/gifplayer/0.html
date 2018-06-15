@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>videojs-gifplayer Demo</title>
+    <link href="../js/video-js.css" rel="stylesheet">
+    <link href="videojs-gifplayer.css" rel="stylesheet">
+    <script src="../js/video7.0.3.js"></script>
+    <script src="videojs-gifplayer.js"></script>
+    <style>
+        .big-div {
+            height: 700px;
+        }
+
+        .small-div {
+            height: 700px;
+        }
+
+        .scroll {
+            height: 500px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="scroll">
+    Scroll down to GIF for autoplay. 视频滚动到可视区，才开始播放，滚出，就暂停
+    <div class="big-div">
+    </div>
+    <h3>Default gif player restarts on pause like most standard gif players</h3>
+    <video id="videojs-gifplayer-player" class="video-js vjs-default-skin" controls  poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'>
+        <source src="//vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+        <source src="//vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+    </video>
+    <h3>Player with `restartOnPause` set to `false`</h3>
+    <video id="videojs-gifplayer-player2" class="video-js vjs-default-skin" controls  poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'>
+        <source src="//vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+        <source src="//vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+    </video>
+    <div class="small-div"></div>
+</div>
+
+<div id="out"></div>
+
+<script>
+    (function (window, videojs) {
+        var player = window.player = videojs('videojs-gifplayer-player');
+        player.gifplayer();
+        var player = window.player = videojs('videojs-gifplayer-player2');
+        player.gifplayer({restartOnPause: false});
+    }(window, window.videojs));
+</script>
+</body>
+</html>

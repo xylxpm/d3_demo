@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Thumbnails Example</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!--<link href="../js/video-js.css" rel="stylesheet">-->
+    <link href="video-js-new.css" rel="stylesheet">
+
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/video7.0.3.js"></script>
+    <script src="../hls/videojs-contrib-hls5.14.1.js"></script>
+</head>
+<body>
+
+<video id="my_video_1" class="video-js "
+       controls preload="none" width="720px">
+    <!--<source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>-->
+    <source
+            src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1528943071&v=0969d0123b0db8545c56e98a6646fef2&h=http%3A%2F%2Fcdn4.hd.etiantian.net"
+            type="application/x-mpegURL">
+</video>
+
+
+<script>
+
+
+        var videosss = videojs("my_video_1", {
+            // playbackRates: [0.5, 1, 1.5, 2],  //播放速度
+            // controlBar: {
+            //     volumePanel: {inline: false}
+            // },
+
+            // notSupportedMessage:'重写无法播放的消息',
+            // inactivityTimeout:10000,  //判断用户多少毫秒后用户没有操作，则判定为用户不活动，添加"vjs-user-active" and "vjs-user-inactive" classes
+           fluid:true , //自适应容器，不管视频比例
+            //  aspectRatio:"16:9",  //自适应某种比例
+            //muted:true, //静音
+            // autoplay:true, //自动播放
+        }, function () {
+            // var newbtn = document.createElement('div');
+            // newbtn.innerHTML = '<button class="vjs-control" id="downloadButton">333</button>';
+            // var controlBar = document.getElementsByClassName('vjs-control-bar')[0];
+            // insertBeforeNode = document.getElementsByClassName('vjs-current-time')[0];
+            // controlBar.insertBefore(newbtn,insertBeforeNode);
+        });
+
+        // $("#btn").click(function () {
+        //     videosss.options_.loop=true;
+        //     console.log(videosss.options_);
+        // })
+
+</script>
+</body>
+</html>
