@@ -7,7 +7,7 @@
     <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <link rel="stylesheet" href="css.css"/>
-    <script  type="text/x-mathjax-config">
+    <script   type="text/x-mathjax-config">
 
         $(function () {
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
@@ -25,10 +25,7 @@
 
                         if (data.Groups[i].Value[j].CateID != 1) {
 
-                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word ;
-                           _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
-                            _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div><br/>';
-                              _str += '</div>';
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
 
                         } else if (data.Groups[i].Value[j].CateID == 1) {
 
@@ -39,12 +36,19 @@
                                 _str += '<p class="options">' + String.fromCharCode(64 + parseInt(k) + 1) + '、' + _s + '</p>';
                                 sss = "正确答案 " + String.fromCharCode(64 + parseInt(data.Groups[i].Value[j].Answers) + 1);
                             }
-
                             _str += '<p>' + sss + '</p>'
-                           _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
-                            _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div><br/>';
-                            _str += '</div>';
                         }
+                        _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
+                        _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div>';
+                        _str += '<div class="method2">难度：' + data.Groups[i].Value[j].Degree + '</div>';
+                        _str += '<div class="method2">分值：' + data.Groups[i].Value[j].Score + '</div>';
+                        _str += '<div class="method2">题型名称：' + data.Groups[i].Value[j].CateName + '</div>';
+                        _str += '<div class="method2">知识点：';
+                        for (var a = 0; a < data.Groups[i].Value[j].Points.length; a++) {
+                            _str += data.Groups[i].Value[j].Points[a].Value + '；'
+                        }
+                        _str += '</div>';
+                        _str += '<br/></div>';
                     }
                 }
 
