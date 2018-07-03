@@ -26,6 +26,7 @@
                         if (data.Groups[i].Value[j].CateID != 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
+                            _str += '<div class="method">正确答案：' + data.Groups[i].Value[j].Answers + '</div>'
 
                         } else if (data.Groups[i].Value[j].CateID == 1) {
 

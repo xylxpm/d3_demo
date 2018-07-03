@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="http://school.etiantian.com/dl910/css/mathquill.css">
+    <script type="text/javascript" src="http://school.etiantian.com/dl910/js/onlinepaper/mathquill.min.js"></script>
+    <script>
+        $("#zxzj_float_div").load(url,function(){
+            $(this).show();
+            $("#zxzj_float_click").click();
+            (function(){
+                mathquillHandle($("#zxzj_float_div .mathquill-embedded-latex"));
+            })();
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

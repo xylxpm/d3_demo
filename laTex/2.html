@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>2017-2018学年天津市滨海新区九年级（上）期中化学试卷</title>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" async  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <link rel="stylesheet" href="css.css"/>
+
     <script type="text/x-mathjax-config">
 
         $(function () {
@@ -26,6 +26,7 @@
                         if (data.Groups[i].Value[j].CateID != 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
+                            _str += '<div class="method">正确答案：' + data.Groups[i].Value[j].Answers + '</div>'
 
                         } else if (data.Groups[i].Value[j].CateID == 1) {
 
@@ -57,7 +58,6 @@
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
             })
-
 
             function DBC2SBC(str) {
                 var result = "";

@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>2015-2016学年广西南宁四十七中九年级（上）第一次月考数学试卷</title>
+    <link rel="stylesheet" type="text/css" href="http://school.etiantian.com/dl910/css/mathquill.css">
+
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" src="http://school.etiantian.com/dl910/js/onlinepaper/mathquill.min.js"></script>
+    <!--<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>-->
+    <script type="text/javascript"  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <link rel="stylesheet" href="css.css"/>
-    <script  type="text/x-mathjax-config">
+
+
+    <script type="text/x-mathjax-config">
 
         $(function () {
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
@@ -26,6 +31,7 @@
                         if (data.Groups[i].Value[j].CateID != 1) {
 
                             _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word ;
+                            _str += '<div class="method">正确答案：' + data.Groups[i].Value[j].Answers + '</div>'
 
                         } else if (data.Groups[i].Value[j].CateID == 1) {
 
@@ -53,39 +59,34 @@
                     }
                 }
 
-                $('body').html(_str);
+                $('.aaaa').html(_str);
                 <!--$('img').removeAttr('style')-->
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-
             })
-
-
-            function DBC2SBC(str) {
-                var result = "";
-                for (var i = 0; i < str.length; i++) {
-                    code = str.charCodeAt(i)
-                    if (code >= 65281 && code <= 65373) {
-                        var d = str.charCodeAt(i) - 65248;
-                        result += String.fromCharCode(d);
-                    }
-                    else if (code == 12288)//空格
-                    {
-                        var d = str.charCodeAt(i) - 12288 + 32;
-                        result += String.fromCharCode(d);
-                    }
-                    else {
-                        result += str.charAt(i);
-                    }
-                }
-                return result;
-            }
         })
 
+
+    </script>
+
+    <script>
+        $(function () {
+            $(".bbbbb").html(
+                '<span class="mathquill-embedded-latex" style="width: 18px; height: 26px;">\\Delta</span>' +
+                '<span class="mathquill-embedded-latex" style="width: 20px; height: 26px;">\\angle</span>' +
+                '<span class="mathquill-embedded-latex" style="width: 71px; height: 37px;">\\frac{1}{a-1}+\\frac{a}{1-a}</span>'
+            );
+
+            $(".mathquill-embedded-latex").mathquill();
+        })
     </script>
 
 </head>
 
 <body>
+<div class="aaaa"></div>
+<div class="bbbbb">
+</div>
+
 
 </body>
 </html>
