@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2015-2016学年广西南宁四十七中九年级（上）第一次月考数学试卷</title>
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript"  src="./js/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    <link rel="stylesheet" href="css.css"/>
+
+    <script type="text/x-mathjax-config">
+
+        $(function () {
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
+
+            $.getJSON("res/sx20180606-2.json?r=" + Math.random(), function (data) {
+                var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
+
+                for (var i = 0; i < data.Groups.length; i++) {
+                    _str += '<p style="text-align: left;font-size: 18px; margin-bottom:40px">' + data.Groups[i].Key + '</p>';
+
+                    for (var j = 0; j < data.Groups[i].Value.length; j++) {
+
+                        <!--var _word = DBC2SBC(data.Groups[i].Value[j].Content);-->
+                        var _word = data.Groups[i].Value[j].Content;
+
+                        if (data.Groups[i].Value[j].CateID != 1) {
+
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word ;
+                            _str += '<div class="method">正确答案：' + data.Groups[i].Value[j].Answers + '</div>'
+
+                        } else if (data.Groups[i].Value[j].CateID == 1) {
+
+                            _str += '<div class="div">' + data.Groups[i].Value[j].Seq + '、' + _word;
+                            var sss = '';
+                            for (var k = 0; k < data.Groups[i].Value[j].Options.length; k++) {
+                                var _s = data.Groups[i].Value[j].Options[k];
+                                _str += '<p class="options">' + String.fromCharCode(64 + parseInt(k) + 1) + '、' + _s + '</p>';
+                                sss = "正确答案 " + String.fromCharCode(64 + parseInt(data.Groups[i].Value[j].Answers) + 1);
+                            }
+
+                            _str += '<p>' + sss + '</p>'
+                        }
+                        _str += '<div class="analyse">分析：' + data.Groups[i].Value[j].Analyse + '</div>';
+                        _str += '<div class="method">' + data.Groups[i].Value[j].Method + '</div>';
+                        _str += '<div class="method2">难度：' + data.Groups[i].Value[j].Degree + '</div>';
+                        _str += '<div class="method2">分值：' + data.Groups[i].Value[j].Score + '</div>';
+                        _str += '<div class="method2">题型名称：' + data.Groups[i].Value[j].CateName + '</div>';
+                        _str += '<div class="method2">知识点：';
+                        for (var a = 0; a < data.Groups[i].Value[j].Points.length; a++) {
+                            _str += data.Groups[i].Value[j].Points[a].Value + '；'
+                        }
+                        _str += '</div>';
+                        _str += '<br/></div>';
+                    }
+                }
+
+                $('.aaaa').html(_str);
+                <!--$('img').removeAttr('style')-->
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            })
+        })
+
+
+    </script>
+
+
+
+</head>
+
+<body>
+<div class="aaaa"></div>
+<div class="bbbbb">
+
+</div>
+
+
+</body>
+</html>
