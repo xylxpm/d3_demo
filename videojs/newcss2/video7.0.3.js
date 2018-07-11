@@ -12725,7 +12725,7 @@
 
 
         PlayToggle.prototype.buildCSSClass = function buildCSSClass() {
-            console.log(_Button.prototype.buildCSSClass.call(this));
+            // console.log(_Button.prototype.buildCSSClass.call(this));
             return 'vjs-play-control ' + _Button.prototype.buildCSSClass.call(this);
         };
 

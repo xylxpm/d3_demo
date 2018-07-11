@@ -20,7 +20,7 @@
         $(function () {
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
 
-            $.getJSON("res/sx20180606-2.json?r=" + Math.random(), function (data) {
+            $.getJSON("res/wl20180606-2.json?r=" + Math.random(), function (data) {
                 var _str = '<p style="text-align: center;font-size: 24px;">' + data.Title + '</p>';
 
                 for (var i = 0; i < data.Groups.length; i++) {
@@ -76,7 +76,9 @@
 </head>
 
 <body>
+<h1>MathJax</h1>
 <div class="aaaa"></div>
+<h1>mathquill---输出在页面</h1>
 <div class="bbbbb">
     <div id="dv_pdetail">
 
@@ -2519,7 +2521,7 @@
 
     </div>
 </div>
-
+<h1>mathquill----js加载</h1>
 <div class="ccccc"></div>
 
 <script>
@@ -3540,7 +3542,7 @@
             '    </div>'
         );
 
-        // $(".ccccc .mathquill-embedded-latex").mathquill();
+        $(".ccccc .mathquill-embedded-latex").mathquill();
     })
 </script>
 

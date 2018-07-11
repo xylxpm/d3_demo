@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js  Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link href="video-js-new.css" rel="stylesheet">
+    <script src="video7.0.3.js"></script>
+</head>
+<body>
+
+<video id="my_video_1" class="video-js "
+       controls preload="none" width="720px"
+       poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'>
+    <source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>
+</video>
+
+<script>
+
+
+    var video_player = videojs("my_video_1", {
+        //这里是配置项，没有特殊需求可以不写，就写个{}
+    }, function () {
+
+        //以下是直接调用方法，可以用this或者video_player。。。如果需要其他元素，比如页面其他位置的按钮控制视频，可以使用video_player.方法()
+        // 播放：
+        // this.play();
+        // 暂停：
+        // this.pause();
+        // 获取播放进度：
+        // var whereYouAt = this.currentTime();
+        // 设置播放进度：
+        // this.currentTime(120);
+        // 视频持续时间，加载完成视频才可以知道视频时长
+        // var howLongIsThis = this.duration();
+        // 缓冲，就是返回下载了多少
+        // var whatHasBeenBuffered = this.buffered();
+        // 百分比的缓冲
+        // var howMuchIsDownloaded = this.bufferedPercent();
+        // 声音大小（0-1之间）
+        // var howLoudIsIt = this.volume();
+        // 设置声音大小
+        // this.volume(0.5);
+        // 取得视频的宽度
+        // var howWideIsIt = this.width();
+        // 设置宽度：
+        // this.width(640);
+        // 获取高度
+        // var howTallIsIt = this.height();
+        // 设置高度：
+        // this.height(480);
+        // 一步到位的设置大小：
+        // this.size(640, 480);
+        // 全屏
+        // this.enterFullScreen();
+        // 离开全屏
+        // this.enterFullScreen();
+
+
+        //以下是事件绑定
+        // this.on('play',function(){
+        //     console.log('播放')
+        //     console.log(this)  //这句可以获取播放器本身
+        // })
+        // this.on('pause',function(){
+        //     console.log('暂停')
+        // })
+        // this.on('ended',function(){
+        //     console.log('结束')
+        // })
+        // this.on('firstplay',function(){
+        //     console.log('第一次播放')
+        // })
+        // this.on('fullscreenchange',function(){
+        //     console.log('全屏模式改变')
+        // })
+        // this.on('fullscreenchange',function(){
+        //     console.log('全屏模式改变')
+        // })
+        // this.on('seeked',function(){
+        //     console.log('用户改变播放位置')
+        // })
+        // this.on('timeupdate',function(){
+        //     console.log('播放进度改变，一秒计')
+        // })
+        // this.on('volumechange',function(){
+        //     console.log('声音修改')
+        // })
+        // this.on('waiting',function(){
+        //     console.log('等待，视频由于需要缓冲下一帧而停止时触发')
+        // })
+        //当音频/视频处于加载过程中时，会依次发生以下事件：
+        // this.on('loadstart',function(){
+        //     console.log('音频/视频的元数据开始加载')
+        // })
+        // this.on('durationchange',function(){
+        //     console.log('音频/视频的时长已改变')
+        // })
+        // this.on('loadedmetadata',function(){
+        //     console.log('音频/视频的元数据已加载')
+        // })
+        // this.on('loadeddata',function(){
+        //     console.log('音频/视频的数据加载完成')
+        // })
+        // this.on('progress',function(){
+        //     console.log('正在下载中')
+        // })
+        // this.on('canplay',function(){
+        //     console.log('已准备好开始播放')
+        // })
+        // this.on('canplaythrough',function(){
+        //     console.log('视频能够不停顿地一直播放')
+        // })
+    });
+
+
+</script>
+</body>
+</html>
