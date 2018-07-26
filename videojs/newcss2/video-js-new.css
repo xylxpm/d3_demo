@@ -768,7 +768,7 @@ body.vjs-full-window {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 6em;
+    height: 72px;
     padding: 0 15px;
     background: rgba(0, 0, 0, .36);
 }
@@ -1368,7 +1368,7 @@ body.vjs-full-window {
     cursor: pointer;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAAAXNSR0IArs4c6QAAAQVJREFUOBGllLEOAUEURa2gUQo6vR/QqISGQqEVX0CiUPoDajQqhVaiWYkgkSh8gV4hkfgDiXXeJJPIZJdZ+5K7M/Pm3pO3yWZjnufl0AEdUSsWtgh10O1Dc/YZW04cY94wNzjvgdSMvu9RAH6VpbkAMkZpP4PuBQH0fZvNDkhJN8z1F0D8BbQCMkSpfwCScVAXuUCK0tBlM4H2yirhDZAuUtmwAIEk0RBNBfIPQCBSTVSOAlCUKIA1hFNCYcI9nthHaOY4ziss4EKwR1BWVbav4OGeoPpnWAg2E1zx9QmeJWDWrwmWBKpBYYEFTfDgbkBwK6ZvJRPcDYPLuWITVjk+x0i/tDcUTWrwvaKsBgAAAABJRU5ErkJggg==");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
     outline: none;
 }
 .video-js  .vjs-play-control.vjs-playing, .vjs-icon-pause:before {

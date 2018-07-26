@@ -1,36 +1,51 @@
-
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Hls.js demo - basic usage</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>-->
+    <link href="./newcss2/video-js-new.css" rel="stylesheet">
+    <script src="./js/video7.0.3.js"></script>
+    <script src="./hls_js/hls.js"></script>
+    <!--<script src="./hls_js/videojs-hlsjs.js"></script>-->
 </head>
 
 <body>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
-<center>
-    <video height="600" id="video" controls></video>
-</center>
+
+<video id='video' width=800 height=400 class="video-js" controls data-setup='{}'>
+    <source src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532509123&v=79de3b880e97010d41ee67bdfcc2b08c&h=http%3A%2F%2Fhd.etiantian.net" type="application/x-mpegURL" />
+    <!--<source src="http://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8" type="application/x-mpegURL">-->
+    <!--<source src="http://cache.utovr.com/201508270528174780.m3u8" type="application/x-mpegURL">-->
+</video>
+
 
 <script>
-    if(Hls.isSupported()) {
-        var video = document.getElementById('video');
-        var hls = new Hls();
-        hls.loadSource('http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net');
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+
+     if (Hls.isSupported()) {
+         var video = document.getElementById('video');
+         var hls = new Hls();
+         hls.loadSource('http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532509123&v=79de3b880e97010d41ee67bdfcc2b08c&h=http%3A%2F%2Fhd.etiantian.net');
+         hls.attachMedia(video);
+         hls.on(Hls.Events.MANIFEST_PARSED, function () {
             video.play();
-        });
-    }
-    // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
-    // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
-    // This is using the built-in support of the plain video element, without using hls.js.
-    else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = 'http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net';
-        video.addEventListener('canplay',function() {
-            video.play();
-        });
-    }
+         });
+     }
+     // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+     // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
+     // This is using the built-in support of the plain video element, without using hls.js.
+     else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+         var video_player = videojs("video", {}, function () {
+             // this.on('canplay', function () {
+             //     video_player.play();
+             // })
+         });
+
+         // video.src = 'http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532509123&v=79de3b880e97010d41ee67bdfcc2b08c&h=http%3A%2F%2Fhd.etiantian.net';
+         // video.addEventListener('canplay', function () {
+         //     video.play();
+         // });
+     }
 </script>
 
 </body>

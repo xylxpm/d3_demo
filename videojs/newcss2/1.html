@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js  Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link href="video-js-new.css" rel="stylesheet">
+    <script src="video7.0.3.js"></script>
+</head>
+<body>
+<div>
+
+    <video id="div_show0"  class="video-js"  width="820" height="460" controls preload="none"
+           poster='http://img1.hd.etiantian.net/etthd/ysgzyw000114/cover_640_360.jpg'>
+
+        <source src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzyw000114&s=a&t=1532418420&v=3087175fac2afbdc42f68a17f5ae0683&h=http%3A%2F%2Fhd.etiantian.com" type='application/x-mpegURL'/>
+    </video>
+    <script>
+        var video_player = videojs("div_show0", {
+
+        }, function () {
+
+        });
+    </script>
+</div>
+</body>
