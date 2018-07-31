@@ -4,17 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Hls.js demo - basic usage</title>
-    <link href="./newcss2/video-js-new.css" rel="stylesheet">
-    <script src="./js/jquery-2.1.4.min.js"></script>
+    <link href="video-js-new.css" rel="stylesheet">
+    <script src="../js/jquery-2.1.4.min.js"></script>
 
-    <!--<script src="./newcss2/video7.0.3.js"></script>-->
-    <!--<script src="./js/jwplayer/jwplayer69/jwplayer.js"></script>-->
-    <!--<script src="./hls_js/videojs-contrib-hlsjs.min.js"></script>-->
+
     <script>
         $(function () {
 
-            function init_video(videoUrl, imageUrl, width, height, obj,type) {
-                $("#"+obj).html("");
+            function init_video(videoUrl, imageUrl, width, height, obj, type) {
+                $("#" + obj).html("");
 
                 var BrowserDetect = {
                     init: function () {
@@ -43,6 +41,11 @@
                         return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
                     },
                     dataBrowser: [
+                        {
+                            string: navigator.userAgent,
+                            subString: "Edge",
+                            identity: "Edge"
+                        },
                         {
                             string: navigator.userAgent,
                             subString: "Chrome",
@@ -137,11 +140,12 @@
                 var _b = BrowserDetect.browser; //名称
                 var _v = BrowserDetect.version; //版本
 
-                if (_b == 'Internet Explorer' && _v <= 10) {
+
+                if ((_b == 'Internet Explorer' && _v <= 10) || _b == 'Edge' || (_b == 'Mozilla' && _v == 11)) {
 
                     var script = document.createElement("script");
                     script.type = "text/javascript";
-                    script.src = "./js/jwplayer/jwplayer69/jwplayer.js";
+                    script.src = "../js/jwplayer/jwplayer69/jwplayer.js";
                     document.getElementsByTagName('head')[0].appendChild(script);
 
                     script.onload = function () {
@@ -169,26 +173,26 @@
 
                     var script = document.createElement("script");
                     script.type = "text/javascript";
-                    script.src = "./newcss2/video7.0.3.js";
+                    script.src = "video7.0.3.js";
                     document.getElementsByTagName('head')[0].appendChild(script);
 
                     script.onload = function () {
-                        if(type=='m3u8'){
-                            $("#"+obj).html('<video id="video" width='+width+' height='+height+' class="video-js" controls data-setup="{}" poster="'+imageUrl+'"><source src="'+videoUrl+'" type="application/x-mpegURL"/></video>')
-                        }else if(type=='mp4'){
-                            $("#"+obj).html('<video id="video" width='+width+' height='+height+' class="video-js" controls data-setup="{}" poster="'+imageUrl+'"><source src="'+videoUrl+'" type="video/mp4"/></video>')
+                        if (type == 'm3u8') {
+                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
+                        } else if (type == 'mp4') {
+                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
                         }
 
                     }
                 }
             }
 
-           init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532584286&v=372bf5ecc3343a186deb119badc9ba10&h=http%3A%2F%2Fhd.etiantian.net','http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg',800,400,'a','m3u8')
+            //   init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzyw000108&s=a&t=1532661185&v=661e4c13020078b623fe366c4d2defee&h=http%3A%2F%2F192.168.10.56','http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg',800,400,'a','m3u8')
 
-            //   init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4','http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg',800,400,'a','mp4')
+            init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'mp4')
 
             $("#btn").click(function () {
-                init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4','http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg',800,400,'a','mp4')
+                init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'mp4')
             })
         })
     </script>
