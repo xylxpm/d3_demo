@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+            $(".div").load('0.html',function () {
+
+                var video_player = videojs("my_video_1");
+                video_player.on("play", function () {
+                    console.log("这里是05.html")
+                });
+            });
+
+
+        })
+    </script>
+</head>
+<body>
+<div class="div"></div>
+</body>
+</html>

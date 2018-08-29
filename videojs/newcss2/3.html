@@ -5,152 +5,101 @@
     <meta charset="UTF-8">
     <title>Hls.js demo - basic usage</title>
     <link href="video-js-new.css" rel="stylesheet">
-    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+<div id="a">
+
+</div>
+<div id="b">
+
+</div>
+</body>
+<script>
+    $(function () {
+
+        function init_video(videoUrl, imageUrl, width, height, obj, type) {
+            $("#" + obj).html("");
+
+            function getOsInfo() {
+                var userAgent = navigator.userAgent.toLowerCase();
+                var name = 'Unknown';
+                var version = "Unknown";
+                if (userAgent.indexOf("win") > -1) {
+                    name = "Windows";
+                    if (userAgent.indexOf("windows nt 5.0") > -1) {
+                        version = "2000";
+                    } else if (userAgent.indexOf("windows nt 5.1") > -1 || userAgent.indexOf("windows nt 5.2") > -1) {
+                        version = "XP";
+                    } else if (userAgent.indexOf("windows nt 6.0") > -1) {
+                        version = "Vista";
+                    } else if (userAgent.indexOf("windows nt 6.1") > -1 || userAgent.indexOf("windows 7") > -1) {
+                        version = "7";
+                    } else if (userAgent.indexOf("windows nt 6.2") > -1 || userAgent.indexOf("windows 8") > -1) {
+                        version = "8";
+                    } else if (userAgent.indexOf("windows nt 6.3") > -1) {
+                        version = "8.1";
+                    } else if (userAgent.indexOf("windows nt 6.2") > -1 || userAgent.indexOf("windows nt 10.0") > -1) {
+                        version = "10";
+                    } else {
+                        version = "Unknown";
+                    }
+                } else if (userAgent.indexOf("iphone") > -1) {
+                    name = "Iphone";
+                } else if (userAgent.indexOf("mac") > -1) {
+                    name = "Mac";
+                } else if (userAgent.indexOf("x11") > -1 || userAgent.indexOf("unix") > -1 || userAgent.indexOf("sunname") > -1 || userAgent.indexOf("bsd") > -1) {
+                    name = "Unix";
+                } else if (userAgent.indexOf("linux") > -1) {
+                    if (userAgent.indexOf("android") > -1) {
+                        name = "Android"
+                    } else {
+                        name = "Linux";
+                    }
+
+                } else {
+                    name = "Unknown";
+                }
+                var os = new Object();
+                os.name = name;
+                os.version = version;
+                return os;
+                //document.write("系统：" + os.name + "版本:" + os.name)
+            }
+
+            // var _b = getBrowerInfo()
+            // console.log(_o.name);
+            // console.log(_o.version);
+            // console.log(_b.client.name);
+            // console.log(_b.client.version);
 
 
-    <script>
-        $(function () {
+            function isIE() {
+                if (!!window.ActiveXObject || "ActiveXObject" in window)
+                    return true;
+                else
+                    return false;
+            }
 
-            function init_video(videoUrl, imageUrl, width, height, obj, type) {
-                $("#" + obj).html("");
+            var _o = getOsInfo()
+            var _isie = isIE()
+            var isIE11 = (navigator.userAgent.toLowerCase().indexOf("trident") > -1 && navigator.userAgent.indexOf("rv") > -1);
 
-                var BrowserDetect = {
-                    init: function () {
-                        this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
-                        this.version = this.searchVersion(navigator.userAgent)
-                            || this.searchVersion(navigator.appVersion)
-                            || "an unknown version";
-                        this.OS = this.searchString(this.dataOS) || "an unknown OS";
-                    },
-                    searchString: function (data) {
-                        for (var i = 0; i < data.length; i++) {
-                            var dataString = data[i].string;
-                            var dataProp = data[i].prop;
-                            this.versionSearchString = data[i].versionSearch || data[i].identity;
-                            if (dataString) {
-                                if (dataString.indexOf(data[i].subString) != -1)
-                                    return data[i].identity;
-                            }
-                            else if (dataProp)
-                                return data[i].identity;
+            if (_isie) {
+                if (isIE11 && _o.version != '7') {
+                    $.getScript("video7.0.3.js", function () {
+                        if (type == 'm3u8') {
+                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
+                        } else if (type == 'mp4') {
+                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
                         }
-                    },
-                    searchVersion: function (dataString) {
-                        var index = dataString.indexOf(this.versionSearchString);
-                        if (index == -1) return;
-                        return parseFloat(dataString.substring(index + this.versionSearchString.length + 1));
-                    },
-                    dataBrowser: [
-                        {
-                            string: navigator.userAgent,
-                            subString: "Edge",
-                            identity: "Edge"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "Chrome",
-                            identity: "Chrome"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "OmniWeb",
-                            versionSearch: "OmniWeb/",
-                            identity: "OmniWeb"
-                        },
-                        {
-                            string: navigator.vendor,
-                            subString: "Apple",
-                            identity: "Safari",
-                            versionSearch: "Version"
-                        },
-                        {
-                            prop: window.opera,
-                            identity: "Opera",
-                            versionSearch: "Version"
-                        },
-                        {
-                            string: navigator.vendor,
-                            subString: "iCab",
-                            identity: "iCab"
-                        },
-                        {
-                            string: navigator.vendor,
-                            subString: "KDE",
-                            identity: "Konqueror"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "Firefox",
-                            identity: "Firefox"
-                        },
-                        {
-                            string: navigator.vendor,
-                            subString: "Camino",
-                            identity: "Camino"
-                        },
-                        {        // for newer Netscapes (6+)
-                            string: navigator.userAgent,
-                            subString: "Netscape",
-                            identity: "Netscape"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "MSIE",
-                            identity: "Internet Explorer",
-                            versionSearch: "MSIE"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "Gecko",
-                            identity: "Mozilla",
-                            versionSearch: "rv"
-                        },
-                        {         // for older Netscapes (4-)
-                            string: navigator.userAgent,
-                            subString: "Mozilla",
-                            identity: "Netscape",
-                            versionSearch: "Mozilla"
-                        }
-                    ],
-                    dataOS: [
-                        {
-                            string: navigator.platform,
-                            subString: "Win",
-                            identity: "Windows"
-                        },
-                        {
-                            string: navigator.platform,
-                            subString: "Mac",
-                            identity: "Mac"
-                        },
-                        {
-                            string: navigator.userAgent,
-                            subString: "iPhone",
-                            identity: "iPhone/iPod"
-                        },
-                        {
-                            string: navigator.platform,
-                            subString: "Linux",
-                            identity: "Linux"
-                        }
-                    ]
-                };
-                BrowserDetect.init();
-
-                var _b = BrowserDetect.browser; //名称
-                var _v = BrowserDetect.version; //版本
-
-
-                if ((_b == 'Internet Explorer' && _v <= 10) || _b == 'Edge' || (_b == 'Mozilla' && _v == 11)) {
-
-                    var script = document.createElement("script");
-                    script.type = "text/javascript";
-                    script.src = "../js/jwplayer/jwplayer69/jwplayer.js";
-                    document.getElementsByTagName('head')[0].appendChild(script);
-
-                    script.onload = function () {
+                    });
+                } else if (isIE11 && _o.version == '7') {
+                    $.getScript("../js/jwplayer/jwplayer69/jwplayer.js", function () {
                         jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
                         jwplayer(obj).setup({
+                            'flashplayer': "../js/jwplayer/jwplayer69/jwplayer.flash.swf",
                             'width': width,
                             'height': height,
                             'file': videoUrl,
@@ -159,7 +108,6 @@
                                 'cookies': false,
                                 'enabled': false
                             },
-                            'primary': "html5",
                             'preload': "none",
                             'androidhls': "true",
                             'abouttext': "Etiantian.com",
@@ -167,42 +115,72 @@
                             'autostart': "false",
                             'startparam': "start"
                         });
-                    }
-                }
-                else if (_b != 'Internet Explorer') {
-
-                    var script = document.createElement("script");
-                    script.type = "text/javascript";
-                    script.src = "video7.0.3.js";
-                    document.getElementsByTagName('head')[0].appendChild(script);
-
-                    script.onload = function () {
-                        if (type == 'm3u8') {
-                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
-                        } else if (type == 'mp4') {
-                            $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
-                        }
-
-                    }
+                    });
+                } else {
+                    $.getScript("../js/jwplayer/jwplayer69/jwplayer.js", function () {
+                        jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
+                        jwplayer(obj).setup({
+                            'flashplayer': "../js/jwplayer/jwplayer69/jwplayer.flash.swf",
+                            'width': width,
+                            'height': height,
+                            'file': videoUrl,
+                            'image': imageUrl,
+                            'analytics': {
+                                'cookies': false,
+                                'enabled': false
+                            },
+                            'preload': "none",
+                            'androidhls': "true",
+                            'abouttext': "Etiantian.com",
+                            'aboutlink': "http://www.etiantian.com",
+                            'autostart': "false",
+                            'startparam': "start"
+                        });
+                    });
                 }
             }
+            else {
+                $.getScript("video7.0.3.js", function () {
+                    if (type == 'm3u8') {
+                        $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
+                    } else if (type == 'mp4') {
+                        $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
+                    }
+                })
+            }
+        }
 
-            //   init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzyw000108&s=a&t=1532661185&v=661e4c13020078b623fe366c4d2defee&h=http%3A%2F%2F192.168.10.56','http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg',800,400,'a','m3u8')
 
-            init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'mp4')
+        function init_video2(videoUrl, imageUrl, width, height, obj, type) {
+            $.getScript("../js/jwplayer/jwplayer69/jwplayer.js", function () {
+                jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
+                jwplayer(obj).setup({
+                    'flashplayer': "../js/jwplayer/jwplayer69/jwplayer.flash.swf",
+                    'aspectratio':'10:6',
+                    'file': videoUrl,
+                    'image': imageUrl,
 
-            $("#btn").click(function () {
-                init_video('http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'mp4')
-            })
-        })
-    </script>
-</head>
-<body>
-<div id="a">
+                    'analytics': {
+                        'cookies': false,
+                        'enabled': false
+                    },
+                    'primary': "html5",
+                    'preload': "none",
+                    'androidhls': "true",
+                    'abouttext': "Etiantian.com",
+                    'aboutlink': "http://www.etiantian.com",
+                    'autostart': "true",
+                    'startparam': "start"
+                });
+            });
+        }
 
-</div>
-<!--<button id="btn">切换</button>-->
-</body>
+        //  init_video('http://cdn1.school.etiantian.net/fpupload/9affae012305ceed0e4a2c60c93b8cc0/001.mp4', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'b', 'mp4')
+
+        init_video2('http://web.etiantian.net/ett20/hls/hd.m3u8?p=wkczhx000183&s=a&t=1534234721&v=3bc7f3cdaceaa881f4337f1275b4cd71&h=http%3A%2F%2Fguangdong.hd.etiantian.net', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'm3u8')
+
+    })
+</script>
 </html>
 
 <!--<source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>-->

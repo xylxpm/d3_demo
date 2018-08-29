@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Video.js  Example</title>
+    <title>Video.js Example</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="renderer" content="webkit">
     <meta name="format-detection" content="telephone=no"/>
@@ -15,25 +16,23 @@
 </head>
 <body>
 <div style="width:850px;">
-<video id="my_video_1" class="video-js " controls preload="none"  poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg' data-setup="{}">
-    <source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>
-</video>
+    <video id="my_video_1" class="video-js " controls preload="none"
+           poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg' data-setup="{}">
+        <source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>
+    </video>
 </div>
 <script>
 
 
     var video_player = videojs("my_video_1", {
         //这里是配置项，没有特殊需求可以不写，就写个{}
-        // playbackRates: [0.5, 1, 1.5, 2],  //播放速度
-        // controlBar: {
-        //     volumePanel: {inline: false}
-        // },
+        //playbackRates: [0.5, 1, 1.5, 2],  //播放速度
         // notSupportedMessage:'重写无法播放的消息',
-        // inactivityTimeout:10000,  //判断用户多少毫秒后用户没有操作，则判定为用户不活动，添加"vjs-user-active" and "vjs-user-inactive" classes
+        //inactivityTimeout:15000,  //判断用户多少毫秒后用户没有操作，则判定为用户不活动，添加"vjs-user-active" and "vjs-user-inactive" classes
         //fluid:true , //自适应容器，不管视频比例
-        //  aspectRatio:"16:9",  //自适应某种比例
+         aspectRatio:"16:8",  //自适应某种比例
         //muted:true, //静音
-        // autoplay:true, //自动播放
+        //autoplay:true, //自动播放
     }, function () {
         //以下是直接调用方法，可以用this或者video_player。。。如果需要其他元素，比如页面其他位置的按钮控制视频，可以使用video_player.方法()
         // 播放：
@@ -66,17 +65,15 @@
         // this.size(640, 480);
         // 全屏
         // this.enterFullScreen();
-        // 离开全屏
-        // this.enterFullScreen();
 
 
 
         //以下是事件绑定
 
-        this.on('play',function(){
-            console.log('播放')
-            console.log(this)  //这句可以获取播放器本身
-        })
+        // this.on('play', function () {
+        //     console.log('播放')
+        //     console.log(this)  //这句可以获取播放器本身
+        // })
         // this.on('pause',function(){
         //     console.log('暂停')
         // })
