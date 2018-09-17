@@ -4,16 +4,14 @@
   <meta charset="utf-8">
   <title>Fluid Example - Wavesurfer Plugin for Video.js</title>
 
-  <link href="../js/video-js.css" rel="stylesheet">
+  <link href="../js/video-js-new.css" rel="stylesheet">
   <link href="videojs.wavesurfer.css" rel="stylesheet">
 
   <script src="../js/video7.0.3.js"></script>
   <script src="wavesurfer.min.js"></script>
-
   <script src="videojs.wavesurfer.js"></script>
 
   <style>
-  /* change player background color */
   #myAudio {
       background-color: #F26868;
   }
@@ -22,18 +20,16 @@
 </head>
 <body>
 
-<audio id="myAudio" class="video-js vjs-default-skin"></audio>
+<audio id="myAudio" class="video-js"  controls preload="none"  width="820" height="460"  ></audio>
 
 <script>
 var player = videojs('myAudio', {
-    controls: true,
-    autoplay: false,
-    fluid: true,
+    playbackRates:[],
+
     plugins: {
         wavesurfer: {
-            src: 'media/hal.wav',
+            src: 'media/example.mp4',
             msDisplayMax: 10,
-            debug: true,
             waveColor: 'yellow',
             progressColor: '#FCF990',
             cursorColor: '#FCFC42',
@@ -42,8 +38,7 @@ var player = videojs('myAudio', {
     }
 }, function(){
     // print version information at startup
-    var msg = 'Using video.js '+ videojs.VERSION +
-        ' with videojs-wavesurfer ' + videojs.getPluginVersion('wavesurfer');
+    var msg = 'Using video.js '+ videojs.VERSION +  ' with videojs-wavesurfer ' + videojs.getPluginVersion('wavesurfer');
     videojs.log(msg);
 });
 
