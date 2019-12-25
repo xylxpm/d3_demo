@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>Title</title>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="video7.0.3.js"></script>
+    <link rel="stylesheet" href="video-js-new.css">
+    <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #4d4d4d;
+            font: 14px/1.4em 'Helvetica Neue', Helvetica, 'Microsoft Yahei', Arial, sans-serif;
+            background: #f5f5f5 no-repeat center;
+            background-size: cover;
+            font-smoothing: antialiased;
+        }
+
+        ul {
+            list-style: none;
+        }
+        .clearfix:after {
+            content: "";
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+        .maina {
+          position: relative;
+          overflow: hidden;
+          background-color: #eee;
+        }
+         .m-message {
+             height: 100%;
+             position: fixed;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom: 0;
+        }
+         #ul{
+             padding: 10px 15px;
+             overflow: auto;
+         }
+        .m-message li {
+            margin-bottom: 15px
+        }
+
+        .m-message .time {
+            margin: 7px 0;
+            text-align: center
+        }
+
+        .m-message .time > span {
+            display: inline-block;
+            padding: 0 18px;
+            font-size: 9pt;
+            color: #fff;
+            border-radius: 2px;
+            background-color: #dcdcdc
+        }
+
+        .m-message .avatar {
+            float: left;
+            margin: 0 10px 0 0;
+            border-radius: 3px
+        }
+
+        .m-message .text {
+            display: inline-block;
+            position: relative;
+            padding: 0 10px;
+            max-width: calc(100% - 40px);
+            min-height: 30px;
+            line-height: 2.5;
+            font-size: 9pt;
+            text-align: left;
+            word-break: break-all;
+            background-color: #fafafa;
+            border-radius: 4px
+        }
+
+        .m-message .text:before {
+            content: " ";
+            position: absolute;
+            top: 9px;
+            right: 100%;
+            border: 6px solid transparent;
+            border-right-color: #fafafa
+        }
+
+        .m-message .self {
+            text-align: right
+        }
+
+        .m-message .self .avatar {
+            float: right;
+            margin: 0 0 0 10px
+        }
+
+        .m-message .self .text {
+            background-color: #b2e281
+        }
+
+        .m-message .self .text:before {
+            right: inherit;
+            left: 100%;
+            border-right-color: transparent;
+            border-left-color: #b2e281
+        }
+    </style>
+    <script type="application/javascript">
+        $(function () {
+            /* 1、文字，2、图片，3、视频，4、题目  */
+            var data = [
+                {"type": 1, "con": "嗨，你好"},
+                {"type": 1, "con": "我会是村东头的托尼老师"},
+                {"type": 1, "con": "我们来学习数学吧，我会帮助你循序渐进的开始学习"},
+                {"type": 1, "con": "我们要开始学生 有理数加法"},
+                {"type": 1, "con": "先看看知识概念"},
+                {"type": 2, "con": "<img src='3.png'  width='100%'/>"},
+                {"type": 1, "con": "好，再看看知识讲解"},
+                {
+                    "type": 3,
+                    "img": "http://cdn5.hd.etiantian.net/13b06a7cc5e206720f1e90fb94574b0f/5C8A4EAE/etthd/wkgzsx001125/cover_280_158.jpg",
+                    "url": "http://web.etiantian.com/ett20/hls/hd.m3u8?p=wkgzsx001125&s=a&t=1552540981&v=bee069de138a0208d2a62043c2061800&h=http%3A%2F%2Fhd.etiantian.com"
+                },
+                {"type": 1, "con": "让我们练习一下"},
+                {
+                    "type": 4,
+                    "questionInfo": "下列语句中是命题的个数是（　　）↵<br>①空集是任何集合的真子集；&nbsp;&nbsp;&nbsp; ②自然数是偶数．↵<br>③满足3x-2＞0的整数有哪些？④垂直于同一条直线的两条直线一定平行吗？",
+                    "optionList": [
+                        "1个", "2个", "3个", "4个"
+                    ]
+                }
+            ]
+
+            console.log(data);
+            var isbool = false
+
+
+
+            // $.each(data, function (i, item) {
+            //     if (item.type == 1) {
+            //         if (!isbool) {
+            //             var timer = setInterval(function () {
+            //                 $("#ul").append('<li><div class="main clearfix"><img class="avatar" width="30" height="30" src="2.jpg"><div class="text">' + item.con + '</div></div></li>')
+            //                 isbool = true
+            //             }, 3000);
+            //         }
+            //         isbool = false
+            //         clearTimeout(timer)
+            //     }
+            // })
+
+
+
+
+        })
+    </script>
+
+
+</head>
+<body>
+<div class="maina">
+<div class="m-message">
+    <ul id="ul">
+        <li>
+        <p class="time"><span>13:4</span></p>
+        <div class="main"><img class="avatar" width="30" height="30" src="2.jpg">
+        <div class="text">555</div>
+        </div>
+        </li>
+        <li>
+        <p class="time"><span>13:4</span></p>
+        <div class="main self"><img class="avatar" width="30" height="30" src="1.jpg">
+        <div class="text">111</div>
+        </div>
+        </li>
+    </ul>
+</div>
+</div>
+<!--<li>-->
+<!--<p class="time"><span>13:4</span></p>-->
+<!--<div class="main"><img class="avatar" width="30" height="30" src="2.jpg">-->
+<!--<div class="text">555</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<p class="time"><span>13:4</span></p>-->
+<!--<div class="main self"><img class="avatar" width="30" height="30" src="1.jpg">-->
+<!--<div class="text">111</div>-->
+<!--</div>-->
+<!--</li>-->
+</body>
+</html>

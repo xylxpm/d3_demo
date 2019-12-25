@@ -15,8 +15,10 @@
 </head>
 <body>
 <div style="width:850px;">
-<video id="my_video_1" class="video-js " controls preload="none"  poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg' data-setup="{}">
+<video id="my_video_1" class="video-js " width="400" height="400" controls preload="none"  poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg' data-setup="{}">
     <source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>
+    <!--<source src="https://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=b&t=1562057235&v=b74c4e1d44d7a794424818a2e395462c&h=http%3A%2F%2Fhd.etiantian.net" type='application/x-mpegURL'/>-->
+
 </video>
 </div>
 <script>
@@ -34,7 +36,8 @@
         //  aspectRatio:"16:9",  //自适应某种比例
         //muted:true, //静音
         // autoplay:true, //自动播放
-    }, function () {
+    },
+        function () {
         //以下是直接调用方法，可以用this或者video_player。。。如果需要其他元素，比如页面其他位置的按钮控制视频，可以使用video_player.方法()
         // 播放：
         // this.play();
@@ -66,8 +69,6 @@
         // this.size(640, 480);
         // 全屏
         // this.enterFullScreen();
-        // 离开全屏
-        // this.enterFullScreen();
 
 
 
@@ -75,7 +76,10 @@
 
         this.on('play',function(){
             console.log('播放')
-            console.log(this)  //这句可以获取播放器本身
+            videojs.log.warn()
+            videojs.log.error('55')
+
+            // console.log(this)  //这句可以获取播放器本身
         })
         // this.on('pause',function(){
         //     console.log('暂停')

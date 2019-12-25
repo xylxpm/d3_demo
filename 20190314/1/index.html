@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机器人</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+    <link rel="stylesheet" href="dist/botui.min.css"/>
+    <link rel="stylesheet" href="dist/botui-theme-default.css"/>
+</head>
+<body>
+<div class="botui-app-container " id="home-demo">
+    <bot-ui></bot-ui>
+</div>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+
+<script src="dist/botui.js"></script>
+
+<script type="text/javascript">
+    var homeBot = BotUI('home-demo');
+
+    homeBot.message.add({
+        content: '嗨，你好'
+    }).then(function () {
+        return homeBot.message.add({
+            delay: 1500,
+            loading:true,
+            content: '我会是村东头的托尼老师'
+        });
+    }).then(function () {
+        return homeBot.message.add({
+            delay: 1500,
+            content: '我们来学习数学吧，我会帮助你循序渐进的开始学习'
+        });
+    }).then(function () {
+        return homeBot.message.add({
+            delay: 1500,
+            content: '我们要开始学习有理数加法'
+        });
+    }).then(function () {
+        return homeBot.message.add({
+            delay: 1500,
+            content: '先看看知识概念'
+        });
+    }).then(function () {
+        return homeBot.message.add({
+            delay: 1500,
+            type: 'html',
+            content: '<img src="img/3.png" style="width: 100%;"/>'
+        });
+    }).then(function () {
+        return homeBot.action.button({
+            delay: 1000,
+            action: [{
+                text: '继续',
+                value: 'sure'
+            }]
+        });
+    }).then(function (res) {
+        if (res.value == 'sure') {
+            jixu();
+        }
+    });
+
+
+    var jixu = function () {
+        homeBot.message.add({
+            delay: 1500,
+            content: "好，再先看看知识讲解"
+        }).then(function () {
+            return homeBot.message.add({
+                delay: 1000,
+                // content: '![1](img/4.jpg)' type: 'embed',
+                type: 'embed',
+                content: 'http://player.youku.com/embed/XNjc4ODY5NzY4'
+            });
+        }).then(function () {
+            return homeBot.action.button({
+                delay: 1000,
+                action: [{
+                    text: '继续',
+                    value: 'sure'
+                }]
+            });
+        }).then(function (res) {
+            if (res.value == 'sure') {
+                jixu2();
+            }
+        })
+    };
+
+    var jixu2 = function () {
+        homeBot.message.add({
+            delay: 1500,
+            content: "让我们练习一下"
+        }).then(function () {
+            return homeBot.message.add({
+                delay: 1500,
+                content: '给出下列命题：↵<br>（1）若a∈R，则a↵<sup>2</sup>≥0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;↵<br>（2）空集是任何集合的真子集↵<br>（3）ax↵<sup>2</sup>+bx+c=0是一元二次方程&nbsp;&nbsp;&nbsp;↵<br>（4）若a、b∈R且ab＜0，则a＞0且b＜0↵<br>其中真命题的个数有（　　）'
+            });
+        }).then(function () {
+            return homeBot.action.button({
+                delay: 1000,
+                action: [{
+                    text: '1',
+                    value: 'sure'
+                }, {
+                    text: '2',
+                    value: 'wrong'
+                }, {
+                    text: '3',
+                    value: 'wrong'
+                }, {
+                    text: '4',
+                    value: 'wrong'
+                }]
+            });
+        }).then(function (res) {
+            if (res.value == 'sure') {
+                jixu3();
+            }
+            if (res.value == 'wrong') {
+                jixu4();
+            }
+        })
+    }
+
+    var jixu3 = function () {
+        homeBot.message.add({
+            delay: 1500,
+            content: "😀选对了"
+        }).then(function (res) {
+            return homeBot.message.add({
+                delay: 1500,
+                type: 'html',
+                content: '<img src="img/6.gif" style="width: 100%;"/>'
+            });
+        }).then(function (res) {
+            return homeBot.message.add({
+                delay: 1500,
+                content: "再来一道么?"
+            });
+        }).then(function () {
+            return homeBot.action.button({
+                delay: 1000,
+                action: [{
+                    text: '好呀',
+                    value: 'sure'
+                }, {
+                    text: '不了',
+                    value: 'wrong'
+                }]
+            });
+        }).then(function (res) {
+            if (res.value == 'sure') {
+                jixu5();
+            }
+            if (res.value == 'wrong') {
+                jixu6();
+            }
+        })
+    }
+
+    var jixu5 = function () {
+        homeBot.message.add({
+            delay: 1500,
+            content: '给出下列命题：↵<br>（1）若a∈R，则a↵<sup>2</sup>≥0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;↵<br>（2）空集是任何集合的真子集↵<br>（3）ax↵<sup>2</sup>+bx+c=0是一元二次方程&nbsp;&nbsp;&nbsp;↵<br>（4）若a、b∈R且ab＜0，则a＞0且b＜0↵<br>其中真命题的个数有（　　）'
+        }).then(function () {
+            return homeBot.action.button({
+                delay: 1000,
+                action: [{
+                    text: '1',
+                    value: 'sure'
+                }, {
+                    text: '2',
+                    value: 'wrong'
+                }, {
+                    text: '3',
+                    value: 'wrong'
+                }, {
+                    text: '4',
+                    value: 'wrong'
+                }]
+            });
+        }).then(function (res) {
+            if (res.value == 'sure') {
+                jixu3();
+            }
+            if (res.value == 'wrong') {
+                jixu4();
+            }
+        })
+    }
+
+    var jixu6 = function () {
+        homeBot.message.add({
+            delay: 1000,
+            content: '那就下次再见哦'
+        });
+    }
+
+    var jixu4 = function () {
+        homeBot.message.add({
+            delay: 1500,
+            content: "😐选错了"
+        }).then(function (res) {
+            return homeBot.message.add({
+                delay: 1500,
+                type: 'html',
+                content: '<img src="img/5.gif" style="width: 100%;"/>'
+            });
+        }).then(function (res) {
+            return homeBot.message.add({
+                delay: 1500,
+                content: "再来做一道"
+            })
+        }).then(function () {
+            return homeBot.message.add({
+                delay: 1500,
+                content: '设a，b∈R，则下列命题中的假命题是（    ）'
+            });
+        }).then(function () {
+            return homeBot.action.button({
+                delay: 1000,
+                action: [{
+                    text: '1',
+                    value: 'sure'
+                }, {
+                    text: '2',
+                    value: 'wrong'
+                }, {
+                    text: '3',
+                    value: 'wrong'
+                }, {
+                    text: '4',
+                    value: 'wrong'
+                }]
+            });
+        }).then(function (res) {
+            if (res.value == 'sure') {
+                jixu3();
+            }
+            if (res.value == 'wrong') {
+                jixu4();
+            }
+        })
+    }
+
+
+
+    // window.scrollTo(0,document.body.scrollHeight);
+
+</script>
+</body>
+</html>

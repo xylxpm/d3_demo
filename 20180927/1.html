@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $.extend({
+            getRequest: function (name) {
+                var url = location.search;
+                var theRequest = new Object();
+                if (url.indexOf("?") != -1) {
+                    var str = url.substr(1);
+                    strs = str.split("&");
+                    for (var i = 0; i < strs.length; i++) {
+                        theRequest[strs[i].split("=")[0]] = strs[i].split("=")[1];
+                    }
+                }
+                return theRequest[name];
+            },
+            getResources3:function () {
+
+                $("#aaaaaaa").html('<iframe id="iframe" src="http://192.168.10.132/kenwton/Kenwton-result/404.html" frameborder="0"  scrolling="no" style="width: 300px;height: 300px;border: 1px solid red"  id="iframe" ></iframe>')
+            }
+        })
+
+        window.addEventListener('message', function (e) {
+            url = e.data.url
+            console.log(url);
+        })
+
+        function loadFrame(obj) {
+            var _subjectid = $.getRequest('subjectid')
+            var _gradeid = $.getRequest('gradeid')
+            // var url = obj.contentWindow.location.href.split('/');
+            // var pagename = url[url.length - 1]
+            // $("#aaa").html(pagename + _subjectid)
+
+
+
+        }
+
+        $(function () {
+            $.getResources3()
+        })
+
+    </script>
+</head>
+<body>
+
+<div id="aaaaaaa"></div>
+<div id="bb"></div>
+
+</body>
+</html>

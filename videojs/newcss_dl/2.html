@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>两种播放器兼容</title>
+    <link href="video-js-new.css" rel="stylesheet">
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="video7.0.3.js"></script>
+    <script src="jwplayer/jwplayer69/jwplayer.js"></script>
+</head>
+<body>
+<div id="a">
+
+</div>
+<div id="b">
+
+</div>
+华文地址http://web.etiantian.com/ett20/hls/hd.m3u8?p=hwjsycpx000012&s=a&t=1550644076&v=0b9e68a38ddf4a4099d0c210879425dd&h=http%3A%2F%2Fus1.hd.etiantian.com
+</body>
+<script>
+    $(function () {
+
+        function init_video(videoUrl, imageUrl, width, height, obj, type) {
+
+            function getOsInfo() {
+                var userAgent = navigator.userAgent.toLowerCase();
+                var name = 'Unknown';
+                var version = "Unknown";
+                if (userAgent.indexOf("win") > -1) {
+                    name = "Windows";
+                    if (userAgent.indexOf("windows nt 5.0") > -1) {
+                        version = "2000";
+                    } else if (userAgent.indexOf("windows nt 5.1") > -1 || userAgent.indexOf("windows nt 5.2") > -1) {
+                        version = "XP";
+                    } else if (userAgent.indexOf("windows nt 6.0") > -1) {
+                        version = "Vista";
+                    } else if (userAgent.indexOf("windows nt 6.1") > -1 || userAgent.indexOf("windows 7") > -1) {
+                        version = "7";
+                    } else if (userAgent.indexOf("windows nt 6.2") > -1 || userAgent.indexOf("windows 8") > -1) {
+                        version = "8";
+                    } else if (userAgent.indexOf("windows nt 6.3") > -1) {
+                        version = "8.1";
+                    } else if (userAgent.indexOf("windows nt 6.2") > -1 || userAgent.indexOf("windows nt 10.0") > -1) {
+                        version = "10";
+                    } else {
+                        version = "Unknown";
+                    }
+                } else if (userAgent.indexOf("iphone") > -1) {
+                    name = "Iphone";
+                } else if (userAgent.indexOf("mac") > -1) {
+                    name = "Mac";
+                } else if (userAgent.indexOf("x11") > -1 || userAgent.indexOf("unix") > -1 || userAgent.indexOf("sunname") > -1 || userAgent.indexOf("bsd") > -1) {
+                    name = "Unix";
+                } else if (userAgent.indexOf("linux") > -1) {
+                    if (userAgent.indexOf("android") > -1) {
+                        name = "Android"
+                    } else {
+                        name = "Linux";
+                    }
+
+                } else {
+                    name = "Unknown";
+                }
+                var os = new Object();
+                os.name = name;
+                os.version = version;
+                return os;
+                //document.write("系统：" + os.name + "版本:" + os.name)
+            }
+
+            function isIE() {
+                if (!!window.ActiveXObject || "ActiveXObject" in window)
+                    return true;
+                else
+                    return false;
+            }
+
+            var _o = getOsInfo()
+            var _isie = isIE()
+            var isIE11 = (navigator.userAgent.toLowerCase().indexOf("trident") > -1 && navigator.userAgent.indexOf("rv") > -1);
+
+            if (_isie) {
+                if (isIE11 && _o.version != '7') {
+                    if (type == 'm3u8') {
+                        $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
+                    } else if (type == 'mp4') {
+                        $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
+                    }
+                } else if (isIE11 && _o.version == '7') {
+                    jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
+                    jwplayer(obj).setup({
+                        'flashplayer': "../js/jwplayer/jwplayer69/jwplayer.flash.swf",
+                        'width': width,
+                        'height': height,
+                        'file': videoUrl,
+                        'image': imageUrl,
+                        'analytics': {
+                            'cookies': false,
+                            'enabled': false
+                        },
+                        'preload': "none",
+                        'androidhls': "true",
+                        'abouttext': "Etiantian.com",
+                        'aboutlink': "http://www.etiantian.com",
+                        'autostart': "false",
+                        'startparam': "start"
+                    });
+                } else {
+                    jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
+                    jwplayer(obj).setup({
+                        'flashplayer': "../js/jwplayer/jwplayer69/jwplayer.flash.swf",
+                        'width': width,
+                        'height': height,
+                        'file': videoUrl,
+                        'image': imageUrl,
+                        'analytics': {
+                            'cookies': false,
+                            'enabled': false
+                        },
+                        'preload': "none",
+                        'androidhls': "true",
+                        'abouttext': "Etiantian.com",
+                        'aboutlink': "http://www.etiantian.com",
+                        'autostart': "false",
+                        'startparam': "start"
+                    });
+                }
+            }
+            else {
+                if (type == 'm3u8') {
+                    $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="application/x-mpegURL"/></video>')
+                } else if (type == 'mp4') {
+                    $("#" + obj).html('<video id="video" width=' + width + ' height=' + height + ' class="video-js" controls data-setup="{}" poster="' + imageUrl + '"><source src="' + videoUrl + '" type="video/mp4"/></video>')
+                }
+            }
+        }
+
+        //  init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=hwhwcw000118&s=a&t=1550034891&v=726fabb643709e16fe0a9a465160bf18&h=http%3A%2F%2Fus1.hd.etiantian.com', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'b', 'm3u8')
+        // init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=hwhwcw000137&s=a&t=1550034781&v=4630fadfb638f374dbf49664ab68bfc3&h=http%3A%2F%2Fus1.hd.etiantian.com', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'm3u8')
+         init_video('http://web.etiantian.com/ett20/hls/hd.m3u8?p=hwjsycpx000012&s=a&t=1550644076&v=0b9e68a38ddf4a4099d0c210879425dd&h=http%3A%2F%2Fus1.hd.etiantian.com', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'a', 'm3u8')
+        //   init_video('http://web.etiantian.com/ett20/hls/hd1.m3u8?p=msgz001274&s=a&t=1550644254&v=638d7203c675ec744c4ad2e9c2ef2b9b&h=http%3A%2F%2Fhd.etiantian.com', 'http://img1.hd.etiantian.net/etthd/ysgzsx000015/cover_320_180.jpg', 800, 400, 'b', 'm3u8')
+    })
+</script>
+</html>

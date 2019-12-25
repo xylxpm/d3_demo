@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="dom-to-image.min.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btnSave").click(function () {
+                // 下载png图片
+                // domtoimage.toBlob(document.getElementById('dvMain'))
+                //     .then(function (blob) {
+                //         window.saveAs(blob, '123.png');
+                //     });
+                var node = document.getElementById('dvMain');
+
+                domtoimage.toPng(node)
+                    .then(function (dataUrl) {
+                        var img = new Image();
+                        img.src = dataUrl;
+                        document.body.appendChild(img);
+                    })
+                    .catch(function (error) {
+                        console.error('oops, something went wrong!', error);
+                    });
+
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="button" id="btnSave" value="保存图片" />
+<div id="dvMain">
+    <h1>123456789</h1>
+    <table id="table" border="1" style="width:400px;border-collapse: collapse;border:1px solid black;height: 150px">
+        <tr>
+            <td rowspan="3">111</td>
+            <td>222</td>
+            <td>333300</td>
+        </tr>
+        <tr>
+            <td rowspan="2">444</td>
+            <td>555</td>
+        </tr>
+        <tr >
+            <td>666</td>
+        </tr>
+        <tr>
+            <td rowspan="3">77</td>
+            <td>888</td>
+            <td>999</td>
+        </tr>
+        <tr >
+            <td>000</td>
+            <td>QQQ</td>
+        </tr>
+        <tr>
+            <td>WWW</td>
+            <td>EEE</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

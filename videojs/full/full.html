@@ -16,17 +16,17 @@
 
         if (window.orientation == 0 || window.orientation == 180) {
            // alert('竖屏状态！');
-            // var width = document.body.clientWidth;
-            // var isscale = width / 650;
-            // $("#video").css("zoom", isscale);
-            // return false;
+            var width = document.body.clientWidth;
+            var isscale = width / 650;
+            $("#video").css("zoom", isscale);
+            return false;
         }
         else if (window.orientation == 90 || window.orientation == -90) {
             //alert('横屏状态！');
-            // var width = document.body.clientWidth;
-            // var isscale = width / 650;
-            // $("#video").css("zoom", isscale);
-            // return false;
+            var width = document.body.clientWidth;
+            var isscale = width / 650;
+            $("#video").css("zoom", isscale);
+            return false;
         }
     }
 

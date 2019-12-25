@@ -18,7 +18,7 @@
 <div style="width:850px;">
     <video id="my_video_1" class="video-js " controls preload="none"
            poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg' data-setup="{}">
-        <source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>
+        <source src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=wkgzsx000964&s=a&t=1558427194&v=7aafce5a91d8f0f3e4e60c10f59ff6e3&h=http%3A%2F%2Fhd.etiantian.com" type='video/mp4'/>
     </video>
 </div>
 <script>
@@ -30,7 +30,7 @@
         // notSupportedMessage:'重写无法播放的消息',
         //inactivityTimeout:15000,  //判断用户多少毫秒后用户没有操作，则判定为用户不活动，添加"vjs-user-active" and "vjs-user-inactive" classes
         //fluid:true , //自适应容器，不管视频比例
-         aspectRatio:"16:8",  //自适应某种比例
+         //aspectRatio:"16:8",  //自适应某种比例
         //muted:true, //静音
         //autoplay:true, //自动播放
     }, function () {
@@ -60,12 +60,12 @@
         // 获取高度
         // var howTallIsIt = this.height();
         // 设置高度：
-        // this.height(480);
+        this.height("100%");
+        this.width(200)
         // 一步到位的设置大小：
-        // this.size(640, 480);
+        //  this.size(640, 480);
         // 全屏
         // this.enterFullScreen();
-
 
 
         //以下是事件绑定

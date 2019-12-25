@@ -14,7 +14,7 @@
 
 
 <video id='video' width=800 height=400 class="video-js" controls data-setup='{}'>
-    <source src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532509123&v=79de3b880e97010d41ee67bdfcc2b08c&h=http%3A%2F%2Fhd.etiantian.net" type="application/x-mpegURL" />
+    <source src="https://web.etiantian.com/ett20/hls/hd1.m3u8?p=cyyw000017&s=a&t=1550479411&v=dcb9bc592a5c8b5428debf86d68adc3d&h=http%3A%2F%2Fcdn5.hd.etiantian.net" type="application/x-mpegURL" />
     <!--<source src="http://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8" type="application/x-mpegURL">-->
     <!--<source src="http://cache.utovr.com/201508270528174780.m3u8" type="application/x-mpegURL">-->
 </video>
@@ -25,7 +25,7 @@
      if (Hls.isSupported()) {
          var video = document.getElementById('video');
          var hls = new Hls();
-         hls.loadSource('http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzsx000015&s=b&t=1532509123&v=79de3b880e97010d41ee67bdfcc2b08c&h=http%3A%2F%2Fhd.etiantian.net');
+         hls.loadSource('https://web.etiantian.com/ett20/hls/hd1.m3u8?p=cyyw000017&s=a&t=1550479411&v=dcb9bc592a5c8b5428debf86d68adc3d&h=http%3A%2F%2Fcdn5.hd.etiantian.net');
          hls.attachMedia(video);
          hls.on(Hls.Events.MANIFEST_PARSED, function () {
             video.play();

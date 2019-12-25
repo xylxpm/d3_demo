@@ -7,22 +7,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <link href="video-js-new.css" rel="stylesheet">
+    <link rel="stylesheet" href="videojs.ads.css">
     <script src="video7.0.3.js"></script>
+    <script src="videojs.ads.js"></script>
 </head>
 <body>
 <div>
 
-    <video id="div_show0"  class="video-js"  width="820" height="460" controls preload="none"
+    <video id="div_show0"  class="video-js"  width="820" height="460" controls  autoplay
            poster='http://img1.hd.etiantian.net/etthd/ysgzyw000114/cover_640_360.jpg'>
 
-        <source src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=ysgzyw000114&s=a&t=1532418420&v=3087175fac2afbdc42f68a17f5ae0683&h=http%3A%2F%2Fhd.etiantian.com" type='application/x-mpegURL'/>
+        <source src="https://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=b&t=1562057235&v=b74c4e1d44d7a794424818a2e395462c&h=http%3A%2F%2Fhd.etiantian.net" type='application/x-mpegURL'/>
     </video>
     <script>
-        var video_player = videojs("div_show0", {
+        var player = videojs('div_show0');
+        player.ads(); // initialize videojs-contrib-ads
 
-        }, function () {
-
+        // request ads whenever there's new video content
+        player.on('contentchanged', function() {
+            // in a real plugin, you might fetch your ad inventory here
+            player.trigger('adsready');
         });
+
+        player.on('readyforpreroll', function() {
+            player.ads.startLinearAdMode();
+            // play your linear ad content
+            // in this example, we use a static mp4
+            player.src('kitteh.mp4');
+
+            // send event when ad is playing to remove loading spinner
+            player.one('adplaying', function() {
+                player.trigger('ads-ad-started');
+            });
+
+            // resume content when all your linear ads have finished
+            player.one('adended', function() {
+                player.ads.endLinearAdMode();
+            });
+        });
+
+        player.trigger('adsready');
     </script>
 </div>
 </body>

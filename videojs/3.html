@@ -3,25 +3,29 @@
 
 <head>
     <title>Hls.js demo - basic usage</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/video7.0.3.js"></script>
+    <script src="hls_js/videojs-hlsjs.js"></script>
+    <!--<script src="hls/videojs-contrib-hls5.14.1.js"></script>-->
 </head>
 
 <body>
 <!--<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>-->
-<script src="jquery-2.1.4.min.js"></script>
+<!--<script src="jquery-2.1.4.min.js"></script>-->
 <!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
 <!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
 
-<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-<script src="https://unpkg.com/video.js/dist/video.js"></script>
+<!--<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">-->
+<!--<script src="https://unpkg.com/video.js/dist/video.js"></script>-->
 <!--<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>-->
-<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+<!--<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>-->
 
 
 
 
 <video id=example-video width=960 height=400 class="video-js vjs-default-skin vjs-big-play-centered" controls>
     <source
-            src="http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net"
+            src="https://web.etiantian.com/ett20/hls/hd1.m3u8?p=ceyy000077&s=a&t=1550467687&v=2c097ba9e36f7ab65384a172bf86afe3&h=http%3A%2F%2Fcdn5.hd.etiantian.net"
             type="application/x-mpegURL">
 </video>
 
@@ -29,10 +33,10 @@
 <script>
     (function(window, videojs) {
         var player = window.player = videojs('example-video');
-        player.src({
-            src: 'http://web.etiantian.com/ett20/hls/hd.m3u8?p=2013gkjq17&s=c&t=1527919323&v=9e0fe63f409f2fd68ef21d3247255478&h=http%3A%2F%2Fcdn4.hd.etiantian.net',
-            type: 'application/x-mpegURL'
-        });
+        // player.src({
+        //     src: 'https://web.etiantian.com/ett20/hls/hd1.m3u8?p=cyyw000017&s=a&t=1550455734&v=f197cc7357af4c9fdd37902bab9c2668&h=http%3A%2F%2Fcdn5.hd.etiantian.net',
+        //     type: 'application/x-mpegURL'
+        // });
 
         // hook up the video switcher
         // var loadUrl = document.getElementById('load-url');
