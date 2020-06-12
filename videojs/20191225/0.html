@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/video-js-new.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jwplayer/jwplayer69/jwplayer.js"></script>
+    <script src="js/video7.0.3.js"></script>
+    <script>
+        $(function () {
+
+
+            createPlayerLisSection('https://cdn5.hd.etiantian.net/0bc34e945892047827de701060beccfc/5E033040/etthd/wkszczsx000119/400.mp4', 'https://cdn5.hd.etiantian.net/2200e68a39fe15dc52f3709dd86aa64e/5E033040/etthd/wkszczsx000119/cover.jpg', 700)
+
+            function createPlayerLisSection(videoUrl, imageUrl, height) {
+                var useJwplayer = isUseJwplayer()
+                jwplayer.key = 'TS4qsaxnmU61G+MTcWh8YKllWcQ=';
+                if (useJwplayer) {
+                    var thePlayer = jwplayer('js_video').setup({
+                        'flashplayer': "js/jwplayer/jwplayer69/jwplayer.flash.swf",
+                        'width': '100%',
+                        'height': height,
+                        'file': videoUrl,
+                        'image': imageUrl,
+                        'provider': 'video',
+                        'analytics': {
+                            'cookies': false,
+                            'enabled': false
+                        },
+                        'preload': "none",
+                        'androidhls': "true",
+                        'abouttext': "Etiantian.com",
+                        'aboutlink': "http://www.etiantian.com",
+                        'autostart': "true",
+                        'startparam': "start"
+                    });
+                    //视频播放中事件
+                    thePlayer.onPlay(function () {
+
+                    });
+                    //视频暂停事件
+                    thePlayer.onPause(function () {
+
+                    });
+                    //视频完成事件
+                    thePlayer.onComplete(function () {
+
+                    });
+                }
+                else {
+
+                    $("#js_video").html('<video id="my_video_1" class="video-js" autoplay  style="width: 100%" height="' + height + '" poster="' + imageUrl + '">' +
+                        '                <source src="' + videoUrl + '" type="video/mp4"/>' +
+                        '                <source src="' + videoUrl + '" type="application/x-mpegURL"/>' +
+                        '            </video>')
+                    var video_player1 = videojs('my_video_1')
+
+                    video_player1.on('play', function () {
+
+                    })
+
+                    video_player1.on('pause', function () {
+
+                    })
+
+                    video_player1.on('ended', function () {
+
+                    })
+                }
+            }
+
+            function isUseJwplayer() {
+                var _ieVersions = getIEVersion();
+                if ((_ieVersions >= 11) || (_ieVersions == -1) || (_ieVersions == 'edge')) {
+                    return false
+                } else {
+                    return true
+                }
+            }
+
+            function getIEVersion() {
+                var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+                var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+                var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
+                var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+                if (isIE) {
+                    var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+                    reIE.test(userAgent);
+                    var fIEVersion = parseFloat(RegExp["$1"]);
+                    if (fIEVersion == 7) {
+                        return 7;
+                    } else if (fIEVersion == 8) {
+                        return 8;
+                    } else if (fIEVersion == 9) {
+                        return 9;
+                    } else if (fIEVersion == 10) {
+                        return 10;
+                    } else {
+                        return 6;//IE版本<=7
+                    }
+                } else if (isEdge) {
+                    return 'edge';//edge
+                } else if (isIE11) {
+                    return 11; //IE11
+                } else {
+                    return -1;//不是ie浏览器
+                }
+            }
+        })
+    </script>
+</head>
+<body>
+<div id="js_video"></div>
+</body>
+</html>

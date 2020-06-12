@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>cloud</title>
+    <!--<link rel="stylesheet" href="http://player.polyv.net/jssdk/polyv-chatroom.min.css"/>-->
+    <link rel="stylesheet" href="http://livestatic.videocc.net/assets/wjs/overtrue-share/dist/css/share.min.css" />
+    <link rel="stylesheet" href="//livestatic.videocc.net/v_682/assets/ppt/css/style.min.css">
+
+    <!--<style>-->
+        <!--html,-->
+        <!--body {-->
+            <!--margin: 0;-->
+            <!--height: 100%;-->
+            <!--background: #111c2d;-->
+        <!--}-->
+
+        <!--.container {-->
+            <!--display: flex;-->
+            <!--justify-content: space-between;-->
+            <!--width: 1200px;-->
+            <!--height: 678px;-->
+            <!--margin: 0 auto;-->
+            <!--padding-top: 40px;-->
+        <!--}-->
+
+        <!--.main {-->
+            <!--width: 840px;-->
+        <!--}-->
+
+        <!--.side {-->
+            <!--width: 340px;-->
+            <!--font-size: 0;-->
+        <!--}-->
+
+        <!--#ppt {-->
+            <!--width: 840px;-->
+            <!--height: 630px;-->
+        <!--}-->
+
+        <!--#player {-->
+            <!--width: 340px;-->
+            <!--height: 225px;-->
+        <!--}-->
+
+        <!--#ppt .ppt-h5-setting-nav {-->
+            <!--bottom: 48px;-->
+        <!--}-->
+    <!--</style>-->
+
+</head>
+
+<body>
+
+<div class="wrap ">
+    <div class="container">
+        <div class="ppt-top" id="pptTop">
+            <div class="ppt-top-placeholder"></div>
+
+            <div class="ppt-danmu-layout" id="pptDanmu"></div>
+            <div class="ppt-flash" id="pptTeacherPlayer">
+                <div class="ppt-flash-placeholder"></div>
+                <div class="ppt-flash-player" id="pptPlayer"></div>
+            </div>
+
+            <div class="ppt-answer" id="pptAnswer">
+            </div>
+
+            <div class="ppt-lottery" id="pptLottery">
+            </div>
+
+            <div class="ppt-questionnaire" id="pptQuestionnaire">
+            </div>
+
+
+            <div class="ppt-at" id="announcement">
+                <div class="ppt-at-title">公告</div>
+                <p>暂无公告</p>
+                <div class="ppt-at-bottom">
+                    <span data-type="close">知道了</span>
+                </div>
+            </div>
+            <div class="ppt-pause" id="pauseTip">
+                <div class="ppt-pause-title">课间暂停</div>
+                <p id="pauseTipText"></p>
+                <div class="ppt-pause-bottom">
+                    <span data-type="close">知道了</span>
+                </div>
+            </div>
+            <div class="ppt-student">
+                <div class="ppt-student-layout">
+                    <div class="ppt-student-top">
+                        <!-- <div class="ppt-student-box" id="studentPlayer"></div> -->
+                        <span class="ppt-apply" id="applyContact">申请连线</span>
+                        <p class="ppt-student-tips" id="studentTips"></p>
+                    </div>
+                    <div class="ppt-student-bottom student-contact1" id="pptChatWrap">
+                        <ul class="clearfix" id="pptStudentTab" data-target="#pptStudentContain">
+                        </ul>
+                        <div class="ppt-student-content js-donate-tip-container" id="pptStudentContain">
+                            <div class="ppt-chat" id="userChat">
+                                <div class="ppt-message" id="pptMessage">
+                                    <div class="ppt-more-loading" id="loading"></div>
+                                    <ul class="ppt-chat-list" id="chatList">
+                                    </ul>
+                                </div>
+                                <p class="ppt-more-message" id="pptMoreMessage">有更多新消息，点击查看</p>
+                            </div>
+                            <div class="ppt-chat-user" id="userList"></div>
+                            <div class="ppt-ask" id="userAsk">
+                                <div class="ppt-message" id="pptAskMessage">
+                                    <ul class="ppt-chat-list" id="askList">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="pptChapter">
+                                <ul class="ppt-chapter" id="chapterList">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ppt-chat-input" id="pptChatInput">
+                            <div class="ppt-chat-emotion" id="emotionWrap">
+                                <div class="ppt-chat-emotion-layout" id="emotionLists"></div>
+                            </div>
+                            <div class="ppt-chat-input-top clearfix">
+                                <div class="ppt-chat-input-fl">
+                                    <span class="ppt-chat-input-emotion" id="emotionIcon"></span>
+                                    <span class="ppt-chat-input-flower" id="sendFlower"></span>
+                                    <span class="ppt-chat-input-bulletin" id="showBulletin"></span>
+                                    <span class="ppt-chat-input-lottery-result" id="lotteryResult"></span>
+                                </div>
+                                <div class="ppt-chat-input-fr">
+                                    <input type="checkbox" value="" id="only-teacher" style="margin-top: 3px;"/>
+                                    <label class="only-teacher-label" for="only-teacher">只看主持人</label>
+                                </div>
+                            </div>
+                            <div class="ppt-chat-input-bottom">
+                                <input class="ppt-input" autocomplete="off" type="text" placeholder='我也来聊几句...'
+                                       id="chatText">
+                                <button class="btn-primary" type="button" id="send">发送</button>
+                            </div>
+                            <div class="ppt-setname" id="setNameWrap"></div>
+                        </div>
+                        <div class="ppt-top-tips">
+                            <div class="ppt-welcome" id="welcomeSingle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ppt-device-setting" id="deviceSettingWrap">
+              <span id="deviceSetting">
+                <i class="pviconfont pv-icon-settings"></i> 设备设置
+              </span>
+                </div>
+            </div>
+            <div class="ppt-teacher" id="pptTeacher">
+                <div class="ppt-teacher-placeholder"></div>
+                <div class="ppt-teacher-player ppt-teacher-camera" id="teacherFlash">
+                </div>
+                <div class="ppt-teacher-player ppt-teacher-rtc ppt-min-player" id="teacherRTC">
+                </div>
+            </div>
+
+            <div class="ppt-play-cover" id="pptCoverPlay">
+                <div>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="ppt-volume-tips" id="pptVolumeTips">
+                <div>
+                    <div>
+                        是否允许浏览器播放声音？
+                        <span class="ppt-control-volume-cancel" data-tips-type="cancel">播放声音</span>
+                        <span class="ppt-control-volume-close" data-tips-type="close">忽略</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ppt-play-cover-player"></div>
+
+            <div class="ppt-info  ">
+                <h1>测试保利威123&#40;123214&#41;</h1>
+                <div class="ppt-info-ctrl clearfix">
+                    <div>
+                <span id="flower-nums" class="ppt-info-btn ppt-info-flower-btn">
+                    1
+                </span>
+                    </div>
+                    <div>
+                <span id="page-views" class="ppt-info-btn ppt-info-viewer-btn">
+                  21
+                </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ppt-control" id="pptController">
+                <div>
+                    <div class="ppt-control-progress ppt-progress">
+                        <div class="ppt-progress-touch" id="pptControlTouch"></div>
+                        <div class="ppt-progress-bg">
+                            <div class="ppt-progress-buffer"></div>
+                            <div class="ppt-progress-current">
+                                <div class="ppt-progress-current-bg" id="pptControlCurrent"></div>
+                                <span class="ppt-progress-target"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ppt-control-layout">
+                        <div class="ppt-control-left">
+                            <span class="pviconfont" data-type="playPause"></span>
+                            <span class="pviconfont ppt-refresh" data-type="refresh"></span>
+                            <div class="ppt-control-time">
+                                <span id="pptCurrentTime">00:00:00</span>
+                                <span>/</span>
+                                <span id="ppttDuration">00:00:00</span>
+                            </div>
+                        </div>
+                        <div class="ppt-control-right">
+                            <div class="ppt-control-rate">
+                                <span id="rateBtn">1.0x</span>
+                                <div class="ppt-control-rate-wrap">
+                                    <div class="ppt-control-rate-select" id="rateSelect">
+                                        <div data-rate="2.0">2.0x</div>
+                                        <div data-rate="1.5">1.5x</div>
+                                        <div data-rate="1.25">1.25x</div>
+                                        <div data-rate="1.0" class="active">1.0x</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ppt-control-line">
+                                <span id="lineBtn"></span>
+                                <div class="ppt-control-line-wrap">
+                                    <div class="ppt-control-line-select" id="lineSelect">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ppt-control-levels">
+                                <span id="levelBtn"></span>
+                                <div class="ppt-control-levels-wrap">
+                                    <div class="ppt-control-levels-select" id="levelSelect">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ppt-control-volume">
+                                <div class="ppt-control-volume-layout">
+                                    <span class="pviconfont" data-type="volume"></span>
+                                    <div class="ppt-control-volume-wrap">
+                                        <div class="ppt-control-volume-slider">
+                                            <div class="ppt-control-volume-touch" id="volumeTouch"></div>
+                                            <div class="ppt-control-volume-rail" id="volumeRail">
+                                                <div class="ppt-control-volume-current" id="volumeCurrent"><span
+                                                        class="ppt-control-volume-target"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="pviconfont" data-type="switchPlayer"></span>
+                            <span class="pviconfont" data-type="camera"></span>
+                            <span class="pviconfont" data-type="fullscreen"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ppt-changeplayer" id="pptChangePlayer"></div>
+        </div>
+        <div class="ppt-bottom " id="js-menu-tabs">
+            <ul id="liveContentTab" data-target="#liveContent">
+                <!-- <li>介绍</li> -->
+                <li data-type="desc">
+                    直播介绍
+                </li>
+            </ul>
+            <div id="liveContent">
+                <div class="class-info">
+                    <div class="class-info-title clearfix">
+                        <img src="//liveimages.videocc.net/uploaded/images/2020/03/fl7n2gru3f.png" width="56"
+                             height="56">
+                        <h1>测试保利威123&#40;123214&#41;</h1>
+                        <p>主持人</p>
+                    </div>
+                    <div class="class-info-main">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="polyv-modal-wrap" id="set-nick-modal">
+            <div class="polyv-modal set-nick-modal">
+                <div class="polyv-modal-hd">
+                    <h1>输入聊天昵称</h1>
+                </div>
+                <div class="polyv-modal-bd pos-rel">
+                    <form class="polyv-form set-nick-form">
+                        <div class="polyv-form-group">
+                            <input type="text" class="polyv-form-control" id="diy-nick-name" value=""
+                                   placeholder="输入聊天昵称">
+                            <label class="form-control-label">设置简单的名称，有助于让小伙伴认识自己</label>
+                        </div>
+                        <div class="polyv-form-group btn-group">
+                            <button type="button" class="polyv-modal-btn polyv-modal-btn-info" data-type="save"
+                                    id="sure-setnick">确定
+                            </button>
+                            <button type="button" class="polyv-modal-btn polyv-modal-btn-border-info" data-type="cancel"
+                                    id="cancel-setnick">取消
+                            </button>
+                        </div>
+                    </form>
+                    <div class="setting-msg" id="setNameTip"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ppt-device-layout" id="pptDevice">
+    <div class="ppt-device">
+        <div class="ppt-device-head">
+            设备设置 <span data-el="close">×</span>
+        </div>
+        <div class="ppt-device-container">
+            <div>
+                <h4>摄像头：<span data-el="videoTips"></span></h4>
+                <select data-el="videoSelect"></select>
+                <div class="ppt-device-video" data-el="video"></div>
+            </div>
+            <div>
+                <h4>麦克风：<span data-el="audioTips"></span></h4>
+                <select data-el="audioSelect"></select>
+                <div class="ppt-device-audio">
+                    <span></span>
+                    <div class="ppt-device-progress">
+                        <div class="ppt-progress">
+                            <div class="ppt-progress-touch" data-el="touch"></div>
+                            <div class="ppt-progress-bg">
+                                <div class="ppt-progress-buffer"></div>
+                                <div class="ppt-progress-current">
+                                    <div class="ppt-progress-current-bg" data-el="current"></div>
+                                    <span class="ppt-progress-target"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ppt-device-volume">
+                            <div class="ppt-device-volume-bottom"></div>
+                            <div class="ppt-device-volume-middle" data-el="volume" style="width:0"></div>
+                            <div class="ppt-device-volume-top"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--<div class="container">-->
+    <!--<div class="main">-->
+        <!--<div id="ppt"></div>-->
+    <!--</div>-->
+    <!--<div class="side">-->
+        <!--<div id="player"></div>-->
+        <!--<div id="chatroom"></div>-->
+    <!--</div>-->
+<!--</div>-->
+<script src="https://player.polyv.net/livesdk/polyv-live.min.js"></script>
+<script src="https://player.polyv.net/jssdk/polyv-chatroom.min.js"></script>
+
+<script src="jquery-1.9.0.min.js"></script>
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.11.0/js/md5.min.js"></script>
+<script>
+    const channelId = '1781671'; //您的频道id
+    const appId = 'fk61slxubd';
+    const timestamp = new Date().getTime();
+    const userId = '2222';
+    const nickName = '猫猫';
+    const pic = 'https://livestatic.videocc.net/assets/wimages/missing_face.png';
+
+return
+
+    $(function () {
+
+        const sign2 = md5(
+            '63dc6b8150454cffb1ba6c3715421981appId' + appId + 'channelId' + channelId  + 'timestamp' + timestamp +  '63dc6b8150454cffb1ba6c3715421981'
+        ).toLocaleUpperCase();
+
+        var liveSdk = new PolyvLiveSdk({
+            channelId: channelId,
+            sign: sign2, // 频道验证签名
+            timestamp: timestamp, // 毫秒级时间戳
+            appId: appId, // polyv 后台的appId
+            user: {
+                userId: userId,
+                userName: 'polyv-test',
+                pic: '//livestatic.videocc.net/assets/wimages/missing_face.png'
+            }
+        });
+
+
+        liveSdk.on(PolyvLiveSdk.EVENTS.CHANNEL_DATA_INIT, (event, data) => {
+            liveSdk.setupPlayer({
+                pptEl: "#pptTeacher",
+                // pptEl: "#ppt",
+                // el: "#player",
+                el: "#pptPlayer",
+                type: "auto",
+                autoplay: false,
+                audioMode: false,
+                width: '100%',
+                height: '100%',
+                pptWidth: '100%',
+                pptHeight: '100%',
+                controllerPosition: 'player',
+                controller: true,
+                pptNav: true,
+                switchPlayer:true,
+                // controllerEl:'.ppt-control-layout'
+            });
+
+            // 监听流状态变化刷新播放器
+            liveSdk.on(PolyvLiveSdk.EVENTS.STREAM_UPDATE, function () {
+                liveSdk.reloadPlayer();
+            });
+        });
+
+
+        return
+
+
+
+        const sign = md5(
+            '63dc6b8150454cffb1ba6c3715421981appId' + appId + 'channelId' + channelId  + 'roleviewertimestamp' + timestamp + 'userId' + userId+ '63dc6b8150454cffb1ba6c3715421981'
+        ).toLocaleUpperCase();
+        $.ajax({
+            url: 'http://api.polyv.net/live/v3/channel/common/get-chat-token?appId='+appId+ '&timestamp='+timestamp+'&sign='+sign+'&channelId='+channelId+'&userId='+userId+'&role=viewer',
+            type: "post",
+            dataType: "json",
+            success: function (d) {
+
+                const chatroom = new PolyvChatRoom({
+                    roomId: channelId,
+                    userId: userId,
+                    pic: pic,
+                    nick: nickName,
+                    container: "#pptChatWrap",
+                    // container: "#chatroom",
+                    width: 340,
+                    height: 405,
+                    version: '2.0',
+                    userType: "",
+                    token: d.data.token,
+                    mediaChannelKey: d.data.mediaChannelKey,
+                    tabData: [
+                        {
+                            name: '互动聊天',
+                            type: 'chat'
+                        },
+                        {
+                            name: '在线列表',
+                            type: 'user-list'
+                        },
+                        {
+                            name: '提问',
+                            type: 'ask'
+                        }
+                    ],
+                    roomMessage: function (data) {
+                        // TODO
+                        // data为聊天室socket消息，当有聊天室消息时会触发此方法
+                        console.log(data);
+                    }
+                });
+
+                const sign2 = md5(
+                    '63dc6b8150454cffb1ba6c3715421981appId' + appId + 'channelId' + channelId  + 'timestamp' + timestamp +  '63dc6b8150454cffb1ba6c3715421981'
+                ).toLocaleUpperCase();
+
+                var liveSdk = new PolyvLiveSdk({
+                    channelId: channelId,
+                    sign: sign2, // 频道验证签名
+                    timestamp: timestamp, // 毫秒级时间戳
+                    appId: appId, // polyv 后台的appId
+                    user: {
+                        userId: userId,
+                        userName: 'polyv-test',
+                        pic: '//livestatic.videocc.net/assets/wimages/missing_face.png'
+                    }
+                });
+
+
+                liveSdk.on(PolyvLiveSdk.EVENTS.CHANNEL_DATA_INIT, (event, data) => {
+                    liveSdk.setupPlayer({
+                        pptEl: "#pptTeacher",
+                        // pptEl: "#ppt",
+                        // el: "#player",
+                        el: "#pptPlayer",
+                        type: "auto",
+                        // controllerPosition: "ppt"
+                    });
+
+                    // 监听流状态变化刷新播放器
+                    liveSdk.on(PolyvLiveSdk.EVENTS.STREAM_UPDATE, function () {
+                        liveSdk.reloadPlayer();
+                    });
+                });
+
+            }
+        })
+    })
+
+
+</script>
+</body>
+
+</html>

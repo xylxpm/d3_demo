@@ -13,107 +13,99 @@
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../newcss2/video7.0.3.js"></script>
     <!--<style>-->
-        <!--.loadEffect{-->
-            <!--width: 86px;-->
-            <!--height: 86px;-->
-            <!--position: relative;-->
-            <!--margin: 0 auto;-->
-            <!--margin-top:100px;-->
-            <!--border: 1px solid red-->
-        <!--}-->
+    <!--.loadEffect{-->
+    <!--width: 86px;-->
+    <!--height: 86px;-->
+    <!--position: relative;-->
+    <!--margin: 0 auto;-->
+    <!--margin-top:100px;-->
+    <!--border: 1px solid red-->
+    <!--}-->
 
-        <!--.loadEffect span{-->
-            <!--display: inline-block;-->
-            <!--width:22px;-->
-            <!--height: 6px;-->
-            <!--border-radius: 3px;-->
-            <!--background: #ffffff;-->
-            <!--position: absolute;-->
-            <!-- -webkit-animation: load 1.04s ease infinite;-->
-        <!--}-->
-        <!--@-webkit-keyframes load{-->
-            <!--0%{-->
-                <!--opacity: 1;-->
-            <!--}-->
-            <!--100%{-->
-                <!--opacity: 0.2;-->
-            <!--}-->
-        <!--}-->
+    <!--.loadEffect span{-->
+    <!--display: inline-block;-->
+    <!--width:22px;-->
+    <!--height: 6px;-->
+    <!--border-radius: 3px;-->
+    <!--background: #ffffff;-->
+    <!--position: absolute;-->
+    <!-- -webkit-animation: load 1.04s ease infinite;-->
+    <!--}-->
+    <!--@-webkit-keyframes load{-->
+    <!--0%{-->
+    <!--opacity: 1;-->
+    <!--}-->
+    <!--100%{-->
+    <!--opacity: 0.2;-->
+    <!--}-->
+    <!--}-->
 
-        <!--.loadEffect span:nth-child(1){-->
-            <!--left: 0;-->
-            <!--top: 50%;-->
-            <!--margin-top:-3px;-->
-            <!-- -webkit-animation-delay:0.13s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(2){-->
-            <!--left: 10px;-->
-            <!--top: 18px;-->
-            <!-- -webkit-transform: rotate(45deg);-->
-            <!-- -webkit-animation-delay:0.26s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(3){-->
-            <!--left: 50%;-->
-            <!--top: 10px;-->
-            <!--margin-left: -11px;-->
-            <!-- -webkit-transform: rotate(90deg);-->
-            <!-- -webkit-animation-delay:0.39s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(4){-->
-            <!--top: 18px;-->
-            <!--right:10px;-->
-            <!-- -webkit-transform: rotate(135deg);-->
-            <!-- -webkit-animation-delay:0.52s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(5){-->
-            <!--right: 0;-->
-            <!--top: 50%;-->
-            <!--margin-top:-3px;-->
-            <!-- -webkit-transform: rotate(180deg);-->
-            <!-- -webkit-animation-delay:0.65s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(6){-->
-            <!--right: 10px;-->
-            <!--bottom:18px;-->
-            <!-- -webkit-transform: rotate(225deg);-->
-            <!-- -webkit-animation-delay:0.78s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(7){-->
-            <!--bottom: 10px;-->
-            <!--left: 50%;-->
-            <!--margin-left: -11px;-->
-            <!-- -webkit-transform: rotate(270deg);-->
-            <!-- -webkit-animation-delay:0.91s;-->
-        <!--}-->
-        <!--.loadEffect span:nth-child(8){-->
-            <!--bottom: 18px;-->
-            <!--left: 10px;-->
-            <!-- -webkit-transform: rotate(315deg);-->
-            <!-- -webkit-animation-delay:1.04s;-->
-        <!--}-->
+    <!--.loadEffect span:nth-child(1){-->
+    <!--left: 0;-->
+    <!--top: 50%;-->
+    <!--margin-top:-3px;-->
+    <!-- -webkit-animation-delay:0.13s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(2){-->
+    <!--left: 10px;-->
+    <!--top: 18px;-->
+    <!-- -webkit-transform: rotate(45deg);-->
+    <!-- -webkit-animation-delay:0.26s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(3){-->
+    <!--left: 50%;-->
+    <!--top: 10px;-->
+    <!--margin-left: -11px;-->
+    <!-- -webkit-transform: rotate(90deg);-->
+    <!-- -webkit-animation-delay:0.39s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(4){-->
+    <!--top: 18px;-->
+    <!--right:10px;-->
+    <!-- -webkit-transform: rotate(135deg);-->
+    <!-- -webkit-animation-delay:0.52s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(5){-->
+    <!--right: 0;-->
+    <!--top: 50%;-->
+    <!--margin-top:-3px;-->
+    <!-- -webkit-transform: rotate(180deg);-->
+    <!-- -webkit-animation-delay:0.65s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(6){-->
+    <!--right: 10px;-->
+    <!--bottom:18px;-->
+    <!-- -webkit-transform: rotate(225deg);-->
+    <!-- -webkit-animation-delay:0.78s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(7){-->
+    <!--bottom: 10px;-->
+    <!--left: 50%;-->
+    <!--margin-left: -11px;-->
+    <!-- -webkit-transform: rotate(270deg);-->
+    <!-- -webkit-animation-delay:0.91s;-->
+    <!--}-->
+    <!--.loadEffect span:nth-child(8){-->
+    <!--bottom: 18px;-->
+    <!--left: 10px;-->
+    <!-- -webkit-transform: rotate(315deg);-->
+    <!-- -webkit-animation-delay:1.04s;-->
+    <!--}-->
     <!--</style>-->
 </head>
 <body>
-
-<video id="my_video_1" class="video-js "
-       controls preload="none" width="720px"
-       poster='http://s3.hd.etiantian.net/t180604/ysgzwl000020/cover_450_253.jpg'>
-    <!--<source src="http://s3.hd.etiantian.net/t180604/ysgzwl000020/400.mp4" type='video/mp4'/>-->
-    <source src="http://cdn1.school.etiantian.net/fpupload/a7511fc3bc57313a8ce528c7ee63bfef/001.mp4" type="video/mp4"/>
-
+<video id="my_video_1" class="video-js" controls style="width: 100%" height="700"
+       poster="https://cdn7-hd.etiantian.net/ac15738194c7b5b87176ddd378a190ce/5EA02781/etthd/czsx000005/cover.jpg">' +
+    <source src="https://cdn7-hd.etiantian.net/47cefe8dc28026dc01ca03bfe1b111ed/5EA02781/etthd/czsx000005/400.mp4"
+            type="video/mp4"/>
+    ' +
 </video>
 
-<!--data-setup='{"playbackRates": [0.5,1,1.25,1.5, 2]}'-->
-<!--<video id="my_video_2" class="video-js skin-2" width="640px" height="267px"-->
-<!--controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'-->
-<!--data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>-->
-<!--<source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />-->
-<!--<source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />-->
-<!--</video>-->
-
+<input type="button" value="1" id="btn">
 <script>
-
-
+    $(function () {
+        var _list = [1, 1.5, 2, 2.5, 3]
+        var _num = 0
         var videosss = videojs("my_video_1", {
             // playbackRates: [0.5, 1, 1.5, 2],  //播放速度
             // controlBar: {
@@ -131,7 +123,19 @@
             // var controlBar = document.getElementsByClassName('vjs-control-bar')[0];
             // insertBeforeNode = document.getElementsByClassName('vjs-current-time')[0];
             // controlBar.insertBefore(newbtn,insertBeforeNode);
+            // this.playbackRate(3);
         });
+
+        $("#btn").click(function () {
+            videosss.playbackRate(_list[_num]);
+            $(this).val(_list[_num])
+            if (_num >= 5) {
+                _num = 0
+            }
+            _num = _num + 1
+        })
+
+    })
 
 
 </script>

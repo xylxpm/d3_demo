@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/velocity.min.js"></script>
+
+</head>
+<body>
+<div class="fixed-nav">
+    <nav class="navbar navbar-static-top navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <a target="_blank" href="" class="navbar-brand">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <div class="navbar-right clearfix">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="" class="anav" target="_blank">MENU ITEM 1</a></li>
+                <li><a href="javascript:;" class="anav" target="_blank">MENU ITEM 2</a></li>
+                <li><a href="javascript:;" class="anav" target="_blank">MENU ITEM 3</a></li>
+                <li><a href="javascript:;" class="anav" target="_blank">MENU ITEM 4</a></li>
+                <li><a href="javascript:;" class="anav" target="_blank">MENU ITEM 5</a></li>
+            </ul>
+            <a href="javascript:;" class="btn-neum" target="_blank">PRIMARY BUTTON</a>
+            <div class="search">
+                <div class="btn-search"></div>
+            </div>
+            <div class="menu-mobile-button  toggle-menu-button">
+                <i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div id="slide-out" class="side-nav left overlay">
+    <ul class="slide-ul">
+        <li class=" crr"><a class="nav-link" href="home.html">MENU ITEM 1</a></li>
+        <li><a class="nav-link" href="about.html">MENU ITEM 2</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 3</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 4</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 5</a></li>
+    </ul>
+</div>
+
+<div class="wrapper wrapper-content  clearfix ">
+    <div class="js-con">
+        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-5 cleft"></div>
+        <div class="col-lg-7 col-md-6 col-sm-6 col-xs-7 cright">
+            <div class="form">
+                <div class="input-wrap">
+                    <h3 class="lable">Field Label</h3>
+                    <input type="text" value="Text standard filled" class="txt-input" placeholder=""/>
+                    <p class="tip"></p>
+                </div>
+                <div class="input-wrap">
+                    <h3 class="lable">Field Label</h3>
+                    <input type="text" value="" class="txt-input" placeholder="placeholder"/>
+                    <p class="tip">Eorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation aliquip ex ea commodo
+                        consequat. Duis aute irure dolorin reprehenderits vol dolore fugiat nulla pariatur excepteur
+                        sint occaecat cupidatat.</p>
+                </div>
+                <div class="input-wrap">
+                    <h3 class="lable">Selector Label</h3>
+                    <select class="selectpicker">
+                        <option>List Item 1</option>
+                        <option>List Item 2</option>
+                        <option>List Item 3</option>
+                    </select>
+                    <p class="tip"></p>
+                </div>
+
+                <div class="btn-next">NEXT STEP</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script>
+    $(function () {
+        var removeMenu = function (restoreNav) {
+            $('body').css({
+                overflow: '',
+                width: ''
+            });
+            $('#sidenav-overlay').velocity({opacity: 0}, {
+                duration: 200,
+                queue: false, easing: 'easeOutQuad',
+                complete: function () {
+                    $(this).remove();
+                }
+            });
+            $("#slide-out").velocity({'margin-left': [-1 * 250, 0]}, {
+                duration: 200,
+                queue: false,
+                easing: 'easeOutCubic'
+            });
+            $(".menu-mobile-button").removeClass('is-open')
+        };
+        $(".menu-mobile-button").off("click").on("click", function () {
+            $("#slide-out").velocity({'margin-left': [0, -1 * 250]}, {
+                duration: 300,
+                queue: false,
+                easing: 'easeOutQuad'
+            });
+            var $body = $('body');
+            var $overlay = $('<div id="sidenav-overlay"></div>');
+            var oldWidth = $body.innerWidth();
+            $body.css('overflow', 'hidden');
+            $body.width(oldWidth);
+            $overlay.css('opacity', 0)
+                .click(function () {
+                    removeMenu();
+                    $overlay.velocity({opacity: 0}, {
+                        duration: 300, queue: false, easing: 'easeOutQuad',
+                        complete: function () {
+                            $(this).remove();
+                        }
+                    });
+
+                });
+            $('body').append($overlay);
+            $overlay.velocity({opacity: 0.7}, {
+                duration: 300, queue: false, easing: 'easeOutQuad',
+            });
+            $(".menu-mobile-button").addClass('is-open')
+        });
+
+    })
+</script>
+</html>
