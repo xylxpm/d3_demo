@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>cloud</title>
     <!--<link rel="stylesheet" href="http://player.polyv.net/jssdk/polyv-chatroom.min.css"/>-->
-    <link rel="stylesheet" href="http://livestatic.videocc.net/assets/wjs/overtrue-share/dist/css/share.min.css" />
-    <link rel="stylesheet" href="//livestatic.videocc.net/v_682/assets/ppt/css/style.min.css">
+    <link rel="stylesheet" href="css.css">
 
     <!--<style>-->
         <!--html,-->
@@ -272,29 +271,6 @@
 
             <div class="ppt-changeplayer" id="pptChangePlayer"></div>
         </div>
-        <div class="ppt-bottom " id="js-menu-tabs">
-            <ul id="liveContentTab" data-target="#liveContent">
-                <!-- <li>介绍</li> -->
-                <li data-type="desc">
-                    直播介绍
-                </li>
-            </ul>
-            <div id="liveContent">
-                <div class="class-info">
-                    <div class="class-info-title clearfix">
-                        <img src="//liveimages.videocc.net/uploaded/images/2020/03/fl7n2gru3f.png" width="56"
-                             height="56">
-                        <h1>测试保利威123&#40;123214&#41;</h1>
-                        <p>主持人</p>
-                    </div>
-                    <div class="class-info-main">
-                        <div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="polyv-modal-wrap" id="set-nick-modal">
             <div class="polyv-modal set-nick-modal">
                 <div class="polyv-modal-hd">
@@ -373,21 +349,25 @@
         <!--<div id="chatroom"></div>-->
     <!--</div>-->
 <!--</div>-->
-<script src="https://player.polyv.net/livesdk/polyv-live.min.js"></script>
-<script src="https://player.polyv.net/jssdk/polyv-chatroom.min.js"></script>
-
 <script src="jquery-1.9.0.min.js"></script>
+<script src="//cdn.bootcss.com/blueimp-md5/2.11.0/js/md5.min.js"></script>
+<script src="//player.polyv.net/livesdk/polyv-live.min.js"></script>
+<script src="//player.polyv.net/jssdk/polyv-chatroom.min.js"></script>
 
-<script src="https://cdn.bootcss.com/blueimp-md5/2.11.0/js/md5.min.js"></script>
+
+<!--<script src="js/numtip.js"></script>-->
+
 <script>
-    const channelId = '1781671'; //您的频道id
+
+
+    const channelId = '1791146'; //您的频道id
     const appId = 'fk61slxubd';
     const timestamp = new Date().getTime();
     const userId = '2222';
     const nickName = '猫猫';
     const pic = 'https://livestatic.videocc.net/assets/wimages/missing_face.png';
 
-return
+
 
     $(function () {
 
@@ -406,26 +386,24 @@ return
                 pic: '//livestatic.videocc.net/assets/wimages/missing_face.png'
             }
         });
-
-
         liveSdk.on(PolyvLiveSdk.EVENTS.CHANNEL_DATA_INIT, (event, data) => {
             liveSdk.setupPlayer({
-                pptEl: "#pptTeacher",
-                // pptEl: "#ppt",
-                // el: "#player",
-                el: "#pptPlayer",
-                type: "auto",
-                autoplay: false,
+                pptEl: "#pptPlayer",
+                el: "#pptTeacher",
+                type: "live",
+                // type: "auto",
+                autoplay: true,
                 audioMode: false,
                 width: '100%',
                 height: '100%',
                 pptWidth: '100%',
                 pptHeight: '100%',
-                controllerPosition: 'player',
+                controllerPosition: 'ppt',
                 controller: true,
                 pptNav: true,
+                pptNavBottom:'80px',
                 switchPlayer:true,
-                // controllerEl:'.ppt-control-layout'
+                // controllerEl:'.l-m-b'
             });
 
             // 监听流状态变化刷新播放器
@@ -433,12 +411,6 @@ return
                 liveSdk.reloadPlayer();
             });
         });
-
-
-        return
-
-
-
         const sign = md5(
             '63dc6b8150454cffb1ba6c3715421981appId' + appId + 'channelId' + channelId  + 'roleviewertimestamp' + timestamp + 'userId' + userId+ '63dc6b8150454cffb1ba6c3715421981'
         ).toLocaleUpperCase();
@@ -449,32 +421,33 @@ return
             success: function (d) {
 
                 const chatroom = new PolyvChatRoom({
-                    roomId: channelId,
-                    userId: userId,
-                    pic: pic,
                     nick: nickName,
                     container: "#pptChatWrap",
-                    // container: "#chatroom",
-                    width: 340,
-                    height: 405,
+                    width: '100%',
+                    height: '100%',
+                    pic: 'https://s1.videocc.net/face.png',
+                    userId: userId,
+                    roomId: channelId,
                     version: '2.0',
                     userType: "",
                     token: d.data.token,
                     mediaChannelKey: d.data.mediaChannelKey,
-                    tabData: [
-                        {
-                            name: '互动聊天',
-                            type: 'chat'
-                        },
-                        {
-                            name: '在线列表',
-                            type: 'user-list'
-                        },
-                        {
-                            name: '提问',
-                            type: 'ask'
-                        }
-                    ],
+                    enableFlower: false,
+                    enableLike: false,
+                    // tabData: [
+                    //     {
+                    //         name: '互动聊天',
+                    //         type: 'chat'
+                    //     },
+                    //     {
+                    //         name: '在线列表',
+                    //         type: 'user-list'
+                    //     },
+                    //     {
+                    //         name: '提问',
+                    //         type: 'ask'
+                    //     }
+                    // ],
                     roomMessage: function (data) {
                         // TODO
                         // data为聊天室socket消息，当有聊天室消息时会触发此方法
@@ -482,38 +455,6 @@ return
                     }
                 });
 
-                const sign2 = md5(
-                    '63dc6b8150454cffb1ba6c3715421981appId' + appId + 'channelId' + channelId  + 'timestamp' + timestamp +  '63dc6b8150454cffb1ba6c3715421981'
-                ).toLocaleUpperCase();
-
-                var liveSdk = new PolyvLiveSdk({
-                    channelId: channelId,
-                    sign: sign2, // 频道验证签名
-                    timestamp: timestamp, // 毫秒级时间戳
-                    appId: appId, // polyv 后台的appId
-                    user: {
-                        userId: userId,
-                        userName: 'polyv-test',
-                        pic: '//livestatic.videocc.net/assets/wimages/missing_face.png'
-                    }
-                });
-
-
-                liveSdk.on(PolyvLiveSdk.EVENTS.CHANNEL_DATA_INIT, (event, data) => {
-                    liveSdk.setupPlayer({
-                        pptEl: "#pptTeacher",
-                        // pptEl: "#ppt",
-                        // el: "#player",
-                        el: "#pptPlayer",
-                        type: "auto",
-                        // controllerPosition: "ppt"
-                    });
-
-                    // 监听流状态变化刷新播放器
-                    liveSdk.on(PolyvLiveSdk.EVENTS.STREAM_UPDATE, function () {
-                        liveSdk.reloadPlayer();
-                    });
-                });
 
             }
         })

@@ -1,135 +1,204 @@
-<html lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Autlines / Home</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="telephone=no" name="format-detection">
-    <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/css/master.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/velocity.min.js"></script>
 
 </head>
-<body class="page">
-<div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
-    <div class="header-search open-search">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div class="navbar-search">
-                        <form class="search-global"><input class="search-global__input" type="text"
-                                                           placeholder="Type to search" autocomplete="off" name="s"
-                                                           value="">
-                            <button class="search-global__btn"><i class="icon stroke icon-Search"></i></button>
-                            <div class="search-global__note">Begin typing your search above and press return to
-                                search.
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="search-close close" type="button"><i class="fa fa-times"></i></button>
-    </div>
-    <div data-off-canvas="mobile-slidebar left overlay" style="margin-left: -255px;">
-        <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link">Inventory</a>
-                <ul class="mobile-sub-menu">
-                    <li><a href="inventory-grid.html">Inventory grid</a></li>
-                    <li><a href="inventory-listings.html">Inventory listings</a></li>
-                    <li><a href="vehicle-details.html">Vehicle details</a></li>
-                </ul>
-            </li>
+<body>
+<div class="fixed-nav">
 
-            <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
-        </ul>
-    </div>
-    <header class="header">
-        <div class="header-main">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-auto"><a class="navbar-brand navbar-brand_light scroll" href="home.html"><img
-                            class="normal-logo img-fluid" src="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/media/general/logo-light.png" alt="logo"></a><a
-                            class="navbar-brand navbar-brand_dark scroll" href="home.html"><img
-                            class="normal-logo img-fluid" src="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/media/general/logo-dark.png" alt="logo"></a></div>
-                    <div class="col-auto d-xl-none"><!-- Mobile Trigger Start-->
-                        <button class="menu-mobile-button js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button><!-- Mobile Trigger End-->
-                    </div>
-                    <div class="col-xl d-none d-xl-block">
-                        <nav class="navbar navbar-expand-lg justify-content-end" id="nav">
-                            <ul class="yamm main-menu navbar-nav">
-                                <li class="nav-item active"><a class="nav-link dropdown-toggle"
-                                                               href="home.html">Home</a>
-                                    <div class="dropdown-menu" style="display: none;"><a class="dropdown-item"
-                                                                                         href="home.html">Home 1</a><a
-                                            class="dropdown-item" href="home-2.html">Home 2</a></div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">Inventory</a>
-                                    <div class="dropdown-menu" style="display: none;"><a class="dropdown-item"
-                                                                                         href="inventory-grid.html">Inventory
-                                        grid</a><a class="dropdown-item" href="inventory-listings.html">Inventory
-                                        listings</a><a class="dropdown-item" href="vehicle-details.html">Vehicle
-                                        details</a></div>
-                                </li>
-                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
-                                                                 href="#">Reservation</a>
-                                    <div class="dropdown-menu" style="display: none;"><a class="dropdown-item"
-                                                                                         href="reservation-grid.html">Reservation
-                                        car</a><a class="dropdown-item" href="booking-system.html">Reservation
-                                        service</a></div>
-                                </li>
-                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">News</a>
-                                    <div class="dropdown-menu" style="display: none;"><a class="dropdown-item"
-                                                                                         href="blog-main.html">Blog
-                                        main</a><a class="dropdown-item" href="blog-grid.html">Blog grid</a><a
-                                            class="dropdown-item" href="blog-post.html">Blog post</a></div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
-                            </ul>
-                            <a class="header-main__link" href="home.html"><i class="ic icon-user"></i></a><span
-                                class="header-main__link btn_header_search"><i class="ic icon-magnifier"></i></span>
-                            <button class="header-main__btn btn btn-secondary">Take a test drive</button>
-                        </nav>
-                    </div>
+    <nav class="navbar navbar-static-top navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a target="_blank" href="" class="navbar-brand">
+                    <img src="img/logo.png">
+                </a>
+            </div>
+            <div class="navbar-right clearfix">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="" class="anav" target="_blank">OUR PRODUCTS</a></li>
+                    <li><a href="javascript:;" class="anav" target="_blank">ABOUT US</a></li>
+                    <li><a href="javascript:;" class="anav" target="_blank">BLOG</a></li>
+                </ul>
+                <a href="javascript:;" class="btn-neum" target="_blank">POLICY SCAN</a>
+                <div class="search">
+                    <div class="btn-search"></div>
+                </div>
+                <div class="menu-mobile-button  toggle-menu-button">
+                    <i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
                 </div>
             </div>
-        </div>
-    </header>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6"></div>
-                <div class="col-lg-3 col-md-6">
-                    <section class="footer-section pl-4"><h3 class="footer-section__title">Dealer Information</h3>
-                        <div class="footer-hours">
-                            <div class="footer-hours__title">Sales Hours</div>
-                            <div class="footer-hours__info">Mon - Fri: 09:00 am to 06:00 pm</div>
-                            <div class="footer-hours__info">Sat: 10:00am to 05:00 pm</div>
-                        </div>
-                        <div class="footer-hours">
-                            <div class="footer-hours__title">Service Hours</div>
-                            <div class="footer-hours__info">Mon - Fri: 09:00 am to 06:00 pm</div>
-                            <div class="footer-hours__info">Sat: 10:00am to 05:00 pm</div>
-                        </div>
-                        <div class="footer-hours">
-                            <div class="footer-hours__title">Parts Shop Hours</div>
-                            <div class="footer-hours__info">Mon - Fri: 09:00 am to 06:00 pm</div>
-                            <div class="footer-hours__info">Sat: 10:00am to 05:00 pm</div>
-                        </div>
-                    </section>
-                </div>
-                <div class="col-lg-3 col-md-6"></div>
-                <div class="col-lg-3 col-md-6"></div>
-            </div>
-        </div>
-    </footer>
+    </nav>
 </div>
-<script src="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/libs/jquery-3.3.1.min.js"></script>
-<script src="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/plugins/headers/slidebar.js"></script>
-<script src="http://v.bootstrapmb.com/2019/8/ajuwq5824/assets/plugins/headers/header.js"></script><!-- Mail scripts-->
+
+
+<div id="slide-out" class="side-nav left overlay">
+    <ul class="slide-ul">
+        <li class=" crr"><a class="nav-link" href="home.html">MENU ITEM 1</a></li>
+        <li><a class="nav-link" href="about.html">MENU ITEM 2</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 3</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 4</a></li>
+        <li><a class="nav-link" href="contacts.html">MENU ITEM 5</a></li>
+    </ul>
+</div>
+
+<div class="wrapper wrapper-content  clearfix ">
+    <div class="container-fluid">
+        <div class="row row1">
+            <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12  col-lg-offset-6 col-md-offset-5 col-sm-offset-6  ">
+                <div class="cright1">
+                    <p class="p1">HOMEOWNERS INSURANCE</p>
+                    <p class="p2">Policy Scan</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose. He adds coal for the eyes and buttons.In the evening, James opens the door. What does he see? </p>
+                    <div class="btns ">
+                        <span  class="btn1">UPLOAD YOUR POLICY</span>
+                        <span  class="btn2">MANUALLY ENTER MY POLICY DETAILS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row2">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title1">
+                    <p class="p1">INSURANCE SIMPLIFIED</p>
+                    <p class="p2">How it works</p>
+                </div>
+            <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12  col-lg-offset-6 col-md-offset-5 col-sm-offset-6  ">
+                <div class="cright2">
+                    <p class="p4">Learn</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose</p>
+                    <p class="p4">Compare</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose.</p>
+                    <p class="p4">Buy</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row3">
+            <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12  col-lg-offset-6 col-md-offset-5 col-sm-offset-6  ">
+                <div class="cright1">
+                    <p class="p1">OUR TRACK RECORD</p>
+                    <p class="p2">We've placed billions of dollars in coverage</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose. He adds coal for the eyes and buttons.In the evening, James opens the door. What does he see? </p>
+                    <div class="btns">
+                        <span  class="btn2">GET YOUR QUOTE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row4">
+            <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12  ">
+                <div class="cleft">
+                    <p class="p1">REAL HUMAN HELP</p>
+                    <p class="p2">Let our people protect your people</p>
+                    <p class="p3">Hooray! It's snowing! It's time to make a snowman.James runs out. He makes a big pile of snow. He puts a big snowball on top. He adds a scarf and a hat. He adds an orange for the nose. He adds coal for the eyes and buttons.In the evening, James opens the door. What does he see? </p>
+                    <div class="btns">
+                        <span  class="btn2">GET YOUR QUOTE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <p class="p5">QUICK ACCESS</p>
+                <p class="p6">Call us</p>
+                <p class="p6">Policy documents</p>
+                <p class="p6">Update quote</p>
+            </div>
+            <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <p class="p5">DISCOVERY LABS</p>
+                <p class="p6">Call us</p>
+                <p class="p6">Policy documents</p>
+                <p class="p6">Update quote</p>
+            </div>
+            <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <p class="p5">USEFUL LINKS</p>
+                <p class="p6">Call us</p>
+                <p class="p6">Policy documents</p>
+                <p class="p6">Update quote</p>
+            </div>
+            <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12 small">
+                <p class="smallword">
+                    Policy Privacy<br/>@ 2020 Discovery Labs<br/>All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
+<script>
+    $(function () {
+        var removeMenu = function (restoreNav) {
+            $('body').css({
+                overflow: '',
+                width: ''
+            });
+            $('#sidenav-overlay').velocity({opacity: 0}, {
+                duration: 200,
+                queue: false, easing: 'easeOutQuad',
+                complete: function () {
+                    $(this).remove();
+                }
+            });
+            $("#slide-out").velocity({'margin-left': [-1 * 250, 0]}, {
+                duration: 200,
+                queue: false,
+                easing: 'easeOutCubic'
+            });
+            $(".menu-mobile-button").removeClass('is-open')
+        };
+        $(".menu-mobile-button").off("click").on("click", function () {
+            $("#slide-out").velocity({'margin-left': [0, -1 * 250]}, {
+                duration: 300,
+                queue: false,
+                easing: 'easeOutQuad'
+            });
+            var $body = $('body');
+            var $overlay = $('<div id="sidenav-overlay"></div>');
+            var oldWidth = $body.innerWidth();
+            $body.css('overflow', 'hidden');
+            $body.width(oldWidth);
+            $overlay.css('opacity', 0)
+                .click(function () {
+                    removeMenu();
+                    $overlay.velocity({opacity: 0}, {
+                        duration: 300, queue: false, easing: 'easeOutQuad',
+                        complete: function () {
+                            $(this).remove();
+                        }
+                    });
+
+                });
+            $('body').append($overlay);
+            $overlay.velocity({opacity: 0.7}, {
+                duration: 300, queue: false, easing: 'easeOutQuad',
+            });
+            $(".menu-mobile-button").addClass('is-open')
+        });
+
+    })
+</script>
 </html>
