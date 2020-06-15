@@ -495,8 +495,7 @@
         background-color: #00008f;
         line-height: 50px;
         float: left;
-        padding: 0 20px;
-        margin-right: 20px;
+        padding: 0 5px;
     }
     .btn2{
         font-size: 16px;
@@ -506,7 +505,7 @@
         border: 2px solid #00008f;
         line-height: 50px;
         float: left;
-        padding: 0 20px;
+        padding: 0 5px;
     }
     .p5{
         margin-top: 15px;
@@ -515,5 +514,20 @@
         position: absolute;
         bottom:0;
         right:10px
+    }
+.title1{
+    margin-top: 10%;
+}
+    .cright1{
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+    .cright2{
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+    .cleft{
+        margin-top: 10%;
+        margin-bottom: 5%;
     }
 }
